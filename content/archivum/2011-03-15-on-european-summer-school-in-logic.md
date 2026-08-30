@@ -1,0 +1,42 @@
+---
+title: "On the European Summer School in Logic, Language, and Information - an interview with Prof. Darja Fišer"
+date: 2011-03-15T15:10:00.004Z
+publishDate: 2011-03-15T15:10:00.004Z
+author: "Varjú Zoltán"
+archiv: true
+forras_platform: "blogspot"
+forras_cim: "Számítógépes Nyelvészet"
+canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/03/on-european-summer-school-in-logic.html"
+regi_cimkek:
+  - "ESSLLI"
+  - "interview"
+regi_cimkek_mind:
+  - "ESSLLI"
+  - "ESSLLI 2011"
+  - "interview"
+---
+
+**The Association for Logic, Language and Computation has been organizing the European Summer School in Logic, Language and Information for 23 years. This year [ESSLLI](http://esslli2011.ijs.si/) will be held in Ljubljana (1-12 August, 2011) and we would like to promote this terrific event here (and we urge our readers from the other side of the Atlantic to check the North-American sister event's web page for information about the [NASSLLI](http://www.nasslli.com/)  summer school).We interviewed Prof. [Darja Fišer](http://lojze.lugos.si/darja/home.html), the Chair of the Organizing Committee, on ESSLLI, and yes this is propaganda to the highest degree :-)**  
+  
+  
+**Számítógépes nyelvészet: ESSLLI is organized by the [Slovenian Language Technologies Society](http://www.sdjt.si/SDJT.html), the [Jožef Stefan Institute](http://www.ijs.si/ijsw/JSI) and the [Faculty of Mathematics and Physics of the University of Ljubljana](http://www.fmf.uni-lj.si/si/). Why did you join your forces to be the host of the summer school?**  
+  
+ ESSLLI is a very big event and it needs a lot of support from all possible sides. In order to organize a high-quality ESSLLI in Ljubljana, we brought together all the most important institutions in the country working on language, computation and logic. The Society has taken over most of the organizational activities, the Institute has provided financial and administrative support and the Faculty has granted us free use of their fabulous, brand-new facilities. This way, none of the institutions had to make too many sacrifices and take on too heavy a burden that such a big summer school inevitably brings but was still able to offer their biggest strenghts. I believe such a consortium is a very good foundation for a successful summer school.  
+  
+**Is there any kind of ESSLLI tradition?**  
+  
+ Students and lecturers from Slovenia have participated at ESSLLI for almost two decades. One of the most prolific researchers in NLP at the Jožef Stefan Institute and former president of the Slovenian Language Technologies Society, [Tomaž Erjavec](http://nl.ijs.si/et/), taught at ESSLLI 1999 in Utrecht and in 2005 in Edinburgh and has served as Programme Committee Chair of ESSLLI 2007 in Dublin as well. We are proud that he is also one of the lecturers at this year's ESSLLI in Ljubljana. I personally attended the last five ESSLLI's in a row and hope to be there for many to come because without the knowledge, experience and contacts I obtained at ESSLLI, I wouldn't have been half the researcher, teacher and person I am now and I am endlessly grateful for that to ESSLLI.  
+  
+**For what kind of people do you recommend the event?**  
+  
+ ESSLLI offers foundational, introductory and advanced courses as well as workshops in three interdisciplinary areas: Language ad Computation, Logic and Computation and Logic and Language. It is therefore perfect for students at all levels who are interested in these topics but is also suitable for researchers at all levels and from various backgrounds who wish to expand their horizons with approaches from another discipline. Foundational courses are strictly elementary and do not assume any background knowledge. They are intended for people who wish to get acquainted with the problems and techniques of areas new to them. They also allow researchers from other ﬁelds to acquire the key competencies of neighboring disciplines, thus encouraging the development of a truly interdisciplinary research community. Introductory courses are central to ESSLLI. They are intended to provide an introduction to the (interdisciplinary) ﬁeld for students, young researchers, and other non-specialists, and to equip them with a good understanding of the ﬁeld's basic methods and techniques. Advanced courses are more specialised and are aimed at an audience of advanced Masters or Ph.D. students in the area and assume some prior knowledge. The prerequisites for such courses are specified in the course outline. The aim of the workshops is to provide a forum for advanced Ph.D. students and other researchers to present and discuss their work. Workshops have a well-deﬁned theme, and are organized by specialists in the subject who give a general overview of the subject and also invite one or two senior researchers in the field to present their achievements.  
+  
+**The summer school is not a traditional one, in the sense that it offers courses for students but (evening) lectures for professionals too. In addition this year the [16th conference on Formal Grammar](http://www.cs.st-andrews.ac.uk/%7Emjn/FG11/) takes place along with ESSLLI. Does mixing up aspiring youngsters and 'old' professionals work?**  
+  
+ ESSLLI offers an intensive but relaxed learning environment which is a great opportunity for motivated young students and researchers to meet lecturers who are not only some of the best and dedicated teachers but also one of the key researchers in their discipline. Unlike at conferences, there is plenty of time for questions and discussions during ESSLLI courses and most teachers will also be happy to help with advice and hints about papers, tools, PhD programmes and scholarships during breaks or at numerous social events, such as the traditional student-lecturer soccer match.  
+  
+ A unique opportunity for students to get feedback on their work from the leading experts in the area is the ESSLLI Student Session where they will receive invaluable comments by carefully selected reviewers and the panel of experts who will attend and evaluate all presentations at the Student Session and award the best one. Lecturers too appreciate the less formal atmosphere and the ambitious, curious students who attend ESSLLI. Many of them have said that they remember the refreshing and rewarding discussions with their students for a long time.  
+  
+**The only criticism about ESSLLI I've heard of is the lack of student support. 350 euros (and travel costs) are way too high for some students (esp. those who are living in the new EU member states and countries waiting for accession). Do you have any plans for introducing a support scheme in the near future?**  
+  
+ We have tried very hard to keep the student fees as low as possible and are sorry if this year's ESSLLI is too expensive for some. But the costs of organizing an event at this scale are incredibly high, especially in the time of recession when it is even more difficult to attract big international sponsors and in a country with very few local computer companies willing support the event. To our advantage, Slovenia can be reached by low-cost airlines and bus/train from most European countries, so it should not be very expensive to reach Ljubljana. Also, we have provided a very convenient and inexpensive accommodation option in the nearby student dormitory as well as very affordable lunches at two nearby canteens. And last but not least, we probably all agree that there is a whole lot on offer for 350 EUR as the registration fee includes admission to all courses, workshops, invited lectures and a student session for as long as two weeks (55 events), in addition, we also provide course materials, coffee breaks with refreshments, a welcome reception, a student party and a soccer match, all free of charge. Having said that, we do realize that some students might need financial support to attend the summer school and have been working very hard to get student grants for them. Sofar, we have received 2 student grants from EACL, 2 student grants from IJS, 1 student grant from the Department of translation at our university and travel grants from ASL. We are still waiting for the results of our application for financial aid to the national research agency which will, if successful, enable us to give even more grants for students. We should know the results by the end of the month and will post the notification to our website as soon as we hear from them, so stay tuned!

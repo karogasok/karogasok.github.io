@@ -20,7 +20,8 @@ copyright = "CC BY-NC-SA 4.0"
 removePathAccents = true
 
 enableGitInfo = false
-enableRobotsTXT = true
+# Deliberately not enabled: it makes Hugo generate a bare "User-agent: *" that
+# silently shadows static/robots.txt and takes the Sitemap line with it.
 summaryLength = 30
 
 # No theme. The layouts are in layouts/ and are written for this site.

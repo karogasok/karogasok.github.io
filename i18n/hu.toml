@@ -48,6 +48,9 @@ other = "Bejegyzések közötti navigáció"
 ["post.count"]
 other = "bejegyzés"
 
+["archive.no_posts"]
+other = "nincs bejegyzés"
+
 ["home.latest"]
 other = "Legutóbbi bejegyzések"
 

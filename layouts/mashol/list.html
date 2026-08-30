@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="listing">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.osszefoglalo }}<p class="note">{{ . }}</p>{{ end }}
+  </header>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+  {{- $items := hugo.Data.mashol.irasok -}}
+  {{- if $items }}
+  <ol class="post-list">
+    {{- range sort $items "ev" "desc" }}
+    <li class="post-item">
+      <a class="post-item-link" href="{{ .link }}" rel="noopener">
+        <span class="post-item-date">{{ .ev }} · {{ .hol }}</span>
+        <span class="post-item-title">{{ .cim }}{{ if and .nyelv (ne .nyelv "hu") }} <span class="lang-note">({{ .nyelv }})</span>{{ end }}</span>
+      </a>
+      {{- with .leiras }}<p class="post-item-lede">{{ . }}</p>{{ end }}
+    </li>
+    {{- end }}
+  </ol>
+  {{- else }}
+  {{- /* An honest empty state. The list is empty because nothing has been
+         verified into it yet, not because there is nothing to list. */}}
+  <p class="note">Ez a lista még üres. A tételek <code>data/mashol.yaml</code> fájlba kerülnek.</p>
+  {{- end }}
+</div>
+{{ end }}

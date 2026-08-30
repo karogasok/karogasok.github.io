@@ -11,7 +11,7 @@ help:
 	@echo "make new t=\"a bejegyzés címe\"   új bejegyzés a mai dátummal"
 	@echo "make serve                       helyi szerver, piszkozatokkal együtt"
 	@echo "make build                       éles build a public/ könyvtárba"
-	@echo "make check                       build + a feed-elkülönítés ellenőrzése"
+	@echo "make check                       build + a feed és az ütemezés ellenőrzése"
 	@echo "make fonts                       betűkészletek újratöltése"
 	@echo "make import-blogspot             Blogspot archívum importálása"
 	@echo "make import-wordpress            WordPress archívum importálása"
@@ -32,7 +32,7 @@ build:
 	$(HUGO) --gc --minify
 
 check: build
-	./scripts/check_feed.sh
+	./scripts/check_build.sh
 
 fonts:
 	python3 scripts/fetch_fonts.py

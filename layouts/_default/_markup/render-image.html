@@ -1,0 +1,12 @@
+{{- /* Archive images are large and numerous — a decade of screenshots, charts
+       and one 11 MB animated GIF, none of it re-encoded because re-encoding the
+       archive is editing it. Deferring the load is the fix that costs the
+       archive nothing: the bytes are identical, they just arrive when the reader
+       reaches them.
+
+       width/height are deliberately not asserted. They are not in the source
+       markup and guessing them would push the layout around on every archive
+       page rather than settle it. */ -}}
+<img src="{{ .Destination | safeURL }}"
+     alt="{{ .Text }}"
+     {{ with .Title }}title="{{ . }}" {{ end }}loading="lazy" decoding="async" />

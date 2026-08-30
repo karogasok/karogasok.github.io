@@ -9,10 +9,5 @@
   </div>
 </article>
 
-{{ if or .PrevInSection .NextInSection }}
-<nav class="stepper" aria-label="{{ i18n "post.nav_label" }}">
-  {{- with .PrevInSection }}<a class="stepper-prev" href="{{ .RelPermalink }}"><span class="margin-label">{{ i18n "post.previous" }}</span>{{ .Title }}</a>{{ end }}
-  {{- with .NextInSection }}<a class="stepper-next" href="{{ .RelPermalink }}"><span class="margin-label">{{ i18n "post.next" }}</span>{{ .Title }}</a>{{ end }}
-</nav>
-{{ end }}
+{{ partial "stepper.html" . }}
 {{ end }}

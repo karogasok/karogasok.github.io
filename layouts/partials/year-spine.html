@@ -2,26 +2,34 @@
 
        The site's problem on day one is that it looks new when it is not. A list
        of recent posts cannot say "this has been going on since 2010"; a register
-       of the years, each as tall as the writing done in it, can. It is the one
-       place the design spends any boldness.
+       of the years, each as tall as the writing done in it, can.
 
        It also has to be honest. There is a real gap between 2014 and 2019 when
-       nothing was published here, and a bar chart that quietly skipped those
-       years would be a nicer shape and a false one. Empty years are drawn empty.
+       nothing was published, and a chart that quietly skipped those years would
+       be a nicer shape and a false one. Empty years are drawn empty.
 
-       Pure CSS: the height is handed to the bar as a custom property. No script.
+       Pure CSS — the bar height is handed over as a custom property. No script.
+
+       Takes every dated page, posts and archive together, because the point is
+       the whole decade rather than either half of it. Undated pages are excluded
+       explicitly: a page with no date reports year 1, and letting one through
+       makes this loop draw two thousand columns.
 */ -}}
-{{- $pages := where site.RegularPages "Kind" "page" -}}
 {{- $byYear := dict -}}
-{{- range $pages -}}
-  {{- $y := .Date.Format "2006" -}}
-  {{- $byYear = merge $byYear (dict $y (add (int (index $byYear $y | default 0)) 1)) -}}
+{{- range where site.RegularPages "Kind" "page" -}}
+  {{- if gt .Date.Year 1970 -}}
+    {{- $y := .Date.Format "2006" -}}
+    {{- $byYear = merge $byYear (dict $y (add (int (index $byYear $y | default 0)) 1)) -}}
+  {{- end -}}
 {{- end -}}
+{{- if $byYear -}}
 {{- $years := slice -}}
 {{- range $y, $n := $byYear }}{{ $years = $years | append (int $y) }}{{ end -}}
-{{- if $years -}}
-{{- $from := math.Min (index (sort $years) 0) site.Params.archiveFrom | int -}}
-{{- $to := int (now.Format "2006") -}}
+{{- $sorted := sort $years -}}
+{{- $from := index $sorted 0 -}}
+{{- $to := index $sorted (sub (len $sorted) 1) -}}
+{{- $now := int (now.Format "2006") -}}
+{{- if gt $now $to }}{{ $to = $now }}{{ end -}}
 {{- $max := 1 -}}
 {{- range $y, $n := $byYear }}{{ if gt $n $max }}{{ $max = $n }}{{ end }}{{ end -}}
 
@@ -30,19 +38,18 @@
     {{- range seq $from $to }}
     {{- $y := printf "%d" . -}}
     {{- $n := int (index $byYear $y | default 0) -}}
-    {{- $pct := 0 }}{{ if gt $n 0 }}{{ $pct = div (mul (float $n) 100.0) (float $max) }}{{ end -}}
     <li class="spine-year{{ if eq $n 0 }} is-empty{{ end }}">
       {{- if gt $n 0 -}}
       <a href="{{ (printf "/archivum/#%s" $y) | relURL }}" aria-label="{{ $y }} — {{ $n }} {{ i18n "post.count" }}">
-        <span class="spine-bar" style="--fill: {{ printf "%.1f" $pct }}%"></span>
         <span class="spine-n">{{ $n }}</span>
-        <span class="spine-y">{{ printf "%02d" (mod . 100) }}</span>
+        <span class="spine-bar" style="--fill: {{ printf "%.1f" (div (mul (float $n) 100.0) (float $max)) }}%"></span>
+        <span class="spine-y"><b>{{ $y }}</b><i>{{ printf "%02d" (mod . 100) }}</i></span>
       </a>
       {{- else -}}
-      <span aria-hidden="true">
-        <span class="spine-bar"></span>
+      <span class="spine-blank" role="img" aria-label="{{ $y }} — {{ i18n "archive.no_posts" }}">
         <span class="spine-n"></span>
-        <span class="spine-y">{{ printf "%02d" (mod . 100) }}</span>
+        <span class="spine-bar"></span>
+        <span class="spine-y"><b>{{ $y }}</b><i>{{ printf "%02d" (mod . 100) }}</i></span>
       </span>
       {{- end -}}
     </li>

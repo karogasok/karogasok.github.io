@@ -1,0 +1,20 @@
+# Írások, amelyek más felületeken jelentek meg.
+#
+# Csak hivatkozás: a szöveg a kiadójánál marad, ide semmi nem másolódik át.
+# Egy bejegyzés a következő mezőket ismeri:
+#
+#   cim:      a cikk címe                        (kötelező)
+#   hol:      a felület neve, pl. "nyest.hu"     (kötelező)
+#   ev:       megjelenés éve, számként           (kötelező)
+#   link:     az írás URL-je                     (kötelező)
+#   leiras:   egy mondat arról, miről szól       (opcionális)
+#   nyelv:    "hu" vagy "en", ha nem magyar      (opcionális, alap: hu)
+#
+# A lista `ev` szerint csökkenő sorrendben jelenik meg; a sorrend itt lényegtelen.
+#
+# Ez a fájl szándékosan üres. A megjelenéseket nem lehet megbízhatóan
+# összeszedni külső keresésből — a nyest.hu és a Qubit sem ad szerzői listát —,
+# kitalálni pedig nem szabad őket. Ide csak olyan sor kerüljön, aminek az
+# URL-jét valaki megnyitotta.
+
+irasok: []

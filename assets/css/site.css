@@ -291,7 +291,7 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   list-style: none;
   margin: 0;
   padding: 0;
-  max-width: calc(var(--measure) + 6rem);
+  max-width: calc(var(--measure) + 8rem);
 }
 .spine-year { flex: 1 1 0; min-width: 0; }
 .spine-year > a,
@@ -303,6 +303,13 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   text-decoration: none;
   color: var(--muted);
 }
+/* Rows are assigned explicitly. Without this, hiding the count at narrow widths
+   removes a grid item and slides the bar up into the 1.1rem label row, which
+   silently flattens the whole chart to a seventeen-pixel smear. */
+.spine-n { grid-row: 1; }
+.spine-bar { grid-row: 2; }
+.spine-y { grid-row: 3; }
+
 .spine-bar {
   align-self: end;
   width: 100%;
@@ -310,9 +317,20 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   min-height: 2px;
   background: var(--accent);
 }
-.spine-year.is-empty .spine-bar { background: var(--rule); min-height: 1px; }
+.spine-year.is-empty .spine-bar { background: var(--rule); min-height: 3px; }
 .spine-n { text-align: center; font-size: 0.62rem; }
-.spine-y { text-align: center; border-top: 1px solid var(--line); padding-top: 3px; }
+.spine-y {
+  text-align: center;
+  border-top: 1px solid var(--line);
+  padding-top: 4px;
+  font-size: 0.6rem;
+  letter-spacing: 0.02em;
+}
+/* Seventeen four-digit years do not fit on a phone. The short form is a plain
+   swap, not an abbreviation the reader has to decode: the accessible name on
+   each column still reads the year in full. */
+.spine-y b { font-weight: inherit; }
+.spine-y i { display: none; font-style: normal; }
 .spine-year > a:hover .spine-bar { background: var(--ink); }
 .spine-year > a:hover .spine-y { color: var(--accent); }
 
@@ -368,7 +386,7 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 .archive-standing { grid-column: text; }
 .archive-year { margin-bottom: var(--sp-5); }
 .archive-year > h2 { border-top: 1px solid var(--line); padding-top: var(--sp-2); }
-.archive-year-n { color: var(--muted); font-weight: 500; margin-left: var(--sp-2); }
+.archive-year-n { color: var(--muted); margin-left: var(--sp-2); }
 .archive-oldtags { grid-column: text; margin-top: var(--sp-5); color: var(--muted); font-size: var(--fs-small); }
 .post.is-archive > .archive-oldtags { border-top: 1px solid var(--rule); padding-top: var(--sp-3); }
 
@@ -407,14 +425,18 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   .post-item-link { grid-template-columns: 1fr; gap: 2px; }
   .post-item-lede { margin-left: 0; }
   .spine-year > a, .spine-year > span { height: 88px; }
+}
+
+@media (max-width: 48rem) {
   .spine-n { display: none; }
+  .spine-y b { display: none; }
+  .spine-y i { display: inline; }
 }
 
 @media (max-width: 34rem) {
   main { padding-left: var(--sp-3); padding-right: var(--sp-3); }
   .nav-inner { padding-left: var(--sp-3); padding-right: var(--sp-3); }
   .footer-inner { padding-left: var(--sp-3); padding-right: var(--sp-3); }
-  .spine-y { font-size: 0.6rem; letter-spacing: 0.04em; }
   .stepper { flex-direction: column; gap: var(--sp-3); }
   .stepper-next { text-align: left; margin-left: 0; }
 }
@@ -431,3 +453,21 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   .margin { text-align: left; }
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; color: #555; }
 }
+
+/* An image the archive lost. Google emptied the Blogger picture albums, so a
+   couple of hundred images from 2010-2013 exist nowhere any more. This is what
+   stands in their place: not a broken-image icon, and not silence. */
+.lost-media {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px dashed var(--line);
+  padding: var(--sp-1) var(--sp-2);
+  margin: var(--sp-1) 0;
+}
+.lost-media a { color: var(--muted); }
+
+.lang-note { color: var(--muted); font-size: var(--fs-small); }

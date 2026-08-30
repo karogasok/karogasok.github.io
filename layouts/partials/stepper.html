@@ -1,0 +1,9 @@
+{{- /* Previous and next within the same section. On the archive this is the
+       main way through 364 posts: there is no search on this site, and a
+       chronological walk is how a reading journal is meant to be read anyway. */ -}}
+{{ if or .PrevInSection .NextInSection }}
+<nav class="stepper" aria-label="{{ i18n "post.nav_label" }}">
+  {{- with .PrevInSection }}<a class="stepper-prev" href="{{ .RelPermalink }}"><span class="margin-label">{{ i18n "post.previous" }}</span>{{ .Title }}</a>{{ end }}
+  {{- with .NextInSection }}<a class="stepper-next" href="{{ .RelPermalink }}"><span class="margin-label">{{ i18n "post.next" }}</span>{{ .Title }}</a>{{ end }}
+</nav>
+{{ end }}

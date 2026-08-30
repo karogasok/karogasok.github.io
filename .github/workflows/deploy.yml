@@ -51,11 +51,11 @@ jobs:
         # baseURL comes from hugo.toml, which is the single place it is set.
         run: hugo --gc --minify
 
-      - name: Check the archive has not leaked into the site feed
+      - name: Check the build invariants
         # The site feed carries the daily posts only. An import of several
         # hundred archive files would otherwise land in every subscriber's
         # reader at once, and it would land silently. Fail the build instead.
-        run: ./scripts/check_feed.sh
+        run: ./scripts/check_build.sh
 
       - uses: actions/upload-pages-artifact@v3
         with:

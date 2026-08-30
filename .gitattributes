@@ -1,0 +1,14 @@
+# The imported archive is Hungarian prose written between 2010 and 2024. Mark it
+# as text explicitly so git never guesses binary on a file whose encoding it
+# cannot sniff, and never rewrites a line ending inside one.
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+
+# Generated, self-hosted, and not worth diffing.
+*.woff2 binary
+static/archivum/img/** binary

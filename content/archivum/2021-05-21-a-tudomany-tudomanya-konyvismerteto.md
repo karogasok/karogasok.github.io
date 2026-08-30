@@ -1,0 +1,55 @@
+---
+title: "A tudomány tudománya - könyvismertető"
+date: 2021-05-21T09:36:45Z
+publishDate: 2021-05-21T09:36:45Z
+author: "Varjú Zoltán"
+archiv: true
+forras_platform: "wordpress"
+forras_cim: "Crow Intelligence blog"
+canonical: "https://blog.crowintelligence.org/hu/2021/05/21/a-tudomany-tudomanya-konyvismerteto/"
+regi_cimkek:
+  - "könyvismertető"
+  - "tudományfilozófia"
+regi_cimkek_mind:
+  - "könyvismertető"
+  - "tudományfilozófia"
+  - "tudománymetrika"
+---
+
+Barabási Albert-László és Dashun Wang egy nagyon olvasmányos és alapos műben foglalta össze a tudománymetrika eredményeit és egészíti ki azt a hálózattudomány eszköztárával. A kötetet minden érdeklődőnek csak ajánlani tudjuk, annak ellenére, hogy erős hiányérzetünk van, mivel a tudományfilozófiai és -szociológiai előzményeket nagyon szelektíven kezeli, a kortárs vizsgálódásokról tudomást sem vesz és a tudomány tudományát neoliberális személetben főleg döntéshozóknak és az innovációs folyamatokat menedzselőknek ajánlja.
+
+![](/archivum/img/f2bef69cc9e6d6f6.jpg)
+
+A szerzők a kötet előszavában a tudomány tudományának egyik alapítójának Thomas Kuhn-t nevezik meg, egész pontosan *A tudományos forradalmak szerkezete* című munkáját. A tudomány tudományának egyik célját abban látják, hogy *"A tudományban uralkodó termelési és jutalmazási rendszerekről összegyűlt roppant mennyiségű adat elemzésével, valamint az általánosan érvényes és az egy-egy területre jellemző minták azonosításával a tudomány tudománya új betekintést ad különféle tudományágak természetébe, sőt arra is lehetőséget kínál, hogy ott sokkal jobbá tegyük munkánkat. A hatásos tudomány elődeinek mélyebb megértése révén olyan rendszereket és politikát lehet kifejleszteni, amelyek megbízhatóbban növelik az esélyeket a kutató és a tudományos beruházás sikerességére, s ezzel javulnak a tudomány egészének kilátásai. "* (10.o.)
+
+Ezután szerencsére áttérnek a tudománymetrika kérdéseire. Az életpálya, az együttműködés és a hatás tudományáról szóló részek fejezetei nagyon jól vannak felépítve, mindig akad egy kis sztori, ami elővezeti a komolyabb részeket, a keretes írások nagyon jól kiegészítik a tartalmat, de akár át is lehet siklani felettük és a mai kornak megfelelően a képletektől félő olvasóknak is adnak magyarázatokat. Nekünk különösen tetszik, hogy az ábrákhoz is alapos magyarázatokat fűztek a szerzők. A negyedik résznél, ami a Kitekintés címet kapta és kicsit felületesebb is mint a többi, de annál érdekesebb, hogy mit gondolnak a szerzők a mesterséges intelligencia hatásáról a tudományban
+
+A fő problémánk az, hogy nagyon erőteljesen a természettudományok, leginkább a fizika területéről származnak példáik. A tudományokat és minden más kreatív tevékenységet (művészeteket, szabadalmakat, stb.) bevonnak néha a vizsgálódásuk terébe, de valahogy mindig a "kemény tudományokhoz" térnek vissza. Ha már Kuhn révén belekóstoltak a tudományfilozófiába a szerzők, akkor talán érdemes lenne állást foglalniuk, hogy mit tekintenek tudománynak és hogy a tudományos tudást elhatárolhatónak tartják-e a tudás többi formájától. Jobb híján azt következtetjük ki a kötetből, hogy [demarkáció problémájá](https://plato.stanford.edu/entries/pseudo-science/#AltDemCri)val nem igazán foglalkoznak. Viszont így a "puha" tudományokat és a művészeteket egy kalap alá veszik a "kemény" tudományokkal. A művészetek és tudományok művelői saját bőrükön érzik, hogy a "rendes" tudományokhoz hasonlóan eredményeket, megoldásokat, használható eszközöket kellene produkálniuk és ehhez alkalmazkodnak is, ez az ún. [Physic envy](https://en.wikipedia.org/wiki/Physics_envy#:~:text=%22Physics%20envy%22%20refers%20to%20the,fundamental%20concepts%20obtained%20by%20physicists.), a fizika irigység jelensége.
+
+Mindezek mellett, Kuhn után mondhatjuk, hogy a bemutatott eszköztár a tudomány normál szakaszára vonatkozik. A klasszikus elmélet szerint két egymást követő paradigma inkommenzurábilis, azaz fogalmai nem összevethetőek. Pl. hiába használja a modern fizika a klasszikus newtoni fizika sok fogalmát, ezek jelentése nem azonos. A paradigmaváltás az, amikor hirtelen átértelmeződnek ezek a fogalmak. Ahhoz, hogy ezt ki is tudjuk mutatni, a tudományos publikációk nyelvét érdemes vizsgálni. A jelentésváltozás vizsgálata diakrón nyelvmodellekkel ma már bevett módszer (l. pl. [ezt](https://nlp.stanford.edu/projects/histwords/)), sajnos azonban tudományos publikációkra tudomásunk szerint még nem alkalmazták. A kötetben bemutatott hálózattudományi módszerek sokkal inkább alkalmasak arra, hogy olyan új tudományterületek kialakulását jelezzék előre, mint pl. a kutyaetológia. (Akit érdekel a téma, annak [Mund Katalin kiváló könyvét ](https://www.libri.hu/konyv/mund_katalin.a-kutyaetologia-kulisszatitkai.html)ajánljuk, ami a tudományszociológia "old school" módszereivel írja le hogyan alakult ki a kutyaetológia a publikációs hálók szövésével és hogyan alakultak ki a tudományterület fogalmai)
+
+De mégis, akkor mire jó a tudomány tudománya? Kell-e egyáltalán igazolnia magát egy tudománynak? Mindennek hasznot kell hoznia? A tudománytervezés és -szervezés feladata az, hogy a tudomány a lehető legnagyobb hasznot hajtsa? A nyolcvanas években a párhuzamos megosztott feldolgozás (parallel distributed processing, PDP) követőit csendes bolondoknak tartották, akik éves [NIPS](https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems) konferenciájukon beszéltek az ezerszer eltemetett neurális hálókról. Számítástudománnyal, filozófiával, pszichológiával, nyelvészettel és kognitív tudománnyal foglalkozó fura alakok írogattak olyan dolgokról, mint az angol nyelv morfológiájának neurális reprezentációja, vagy beágyazott és megtestesült gondolkodás (embedded/embodied cognition). 2014-ben hirtelen minden megváltozott. Az NIPS az egyik legnagyobb tudományos konferencia lett, hirtelen mérnökök tömegei értekeznek a neurális hálókról és mosolyognak a kognitív idegtudósokra, nyelvészekre és egyéb fura alakokra kik eddig ezen a területen voltak. Most úgy tűnik, egyenes út vezetett a deep learning diadalához, mindenki előre látta és igazából foglalkozott is vele. De megjósolhatóak a hasonló változások? Vagy jobb lett volna hagyni kivérezni a PDP híveit, megvonni tőlük minden támogatást és ígéretesebb projektekbe invesztálni? És mit tanuljanak akkor a fiatalok? Csak azt, ami ígéretes és hasznot hoz? Ami most hasznos, az hasznos lesz 10-20 év múlva is? Elfogadhatónak tartjuk, hogy pénzzel motiváljuk őket? Elfogadhatónak tartjuk, hogy pénzeszközökkel motiváljuk a kutatókat is? Tényleg a piaci logika kell hogy érvényesüljön a tudományos tudás előállításában és terjesztésében is, van egy határ, ahol a piacnak meg kell állnia? A tudomány tudományának tényleg azt a célt kell szolgálni, hogy minél több hasznot hajtson a tudomány? (Ha egy kicsit el akar gondolkozni ezen a nyájas olvasó, akkor javaslom [ezt a rövid cikket](https://www.theatlantic.com/magazine/archive/2012/04/what-isnt-for-sale/308902/) Michael Sandel filozófustól, ha több ideje is akad, akkor inkább a *[What Money Can't Buy](http://justiceharvard.org/what-money-cant-buy-3/)* című könyvét)
+
+[YouTube](https://www.youtube.com/embed/3nsoN-LS8RQ)
+
+##### Make a one-time donation
+
+Your contribution is appreciated.
+
+[Donate](/archivum/img/7b037cf97f0954dc.jpg)
+
+---
+
+##### Make a monthly donation
+
+Your contribution is appreciated.
+
+[Donate monthly](/archivum/img/7b037cf97f0954dc.jpg)
+
+---
+
+##### Make a yearly donation
+
+Your contribution is appreciated.
+
+[Donate yearly](/archivum/img/7b037cf97f0954dc.jpg)
