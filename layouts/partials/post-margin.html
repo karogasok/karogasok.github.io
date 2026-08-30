@@ -1,0 +1,40 @@
+{{- /* The margin column. On a wide screen this sits to the left of the text as a
+       real margin, the way a date and a source note sit in the margin of a
+       reading notebook. Below 1000px the grid collapses and this becomes a
+       stacked header block. Same markup either way. */ -}}
+<div class="margin">
+  <p class="margin-item">
+    <span class="margin-label">{{ i18n "post.published" }}</span>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
+  </p>
+
+  {{- with .Params.author }}
+  <p class="margin-item">
+    <span class="margin-label">{{ i18n "post.author" }}</span>
+    {{- $slug := "" }}{{ $name := . }}
+    {{- range site.Params.authors }}{{ if eq .key $name }}{{ $slug = .slug }}{{ end }}{{ end }}
+    {{ if $slug }}<a href="{{ (printf "/szerzo/%s/" $slug) | relURL }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}
+  </p>
+  {{- end }}
+
+  {{- /* .GetTerms returns the term pages, so a chip shows the tag's real title
+         ("LLM-kiértékelés") rather than the slug the front matter carries. */ -}}
+  {{- with .GetTerms "tags" }}
+  <p class="margin-item">
+    <span class="margin-label">{{ i18n "post.tags" }}</span>
+    {{- range . }}
+    <a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- end }}
+  </p>
+  {{- end }}
+
+  {{- /* The one source under discussion. It gets its own block against a maroon
+         rule rather than being dropped into a sentence: a reader who wants the
+         thing itself should not have to hunt the paragraph for it. */}}
+  {{- with .Params.forras }}
+  <p class="margin-item source">
+    <span class="margin-label">{{ i18n "post.source" }}</span>
+    <a href="{{ . }}" rel="noopener">{{ $.Params.forras_cim | default . }}</a>
+  </p>
+  {{- end }}
+</div>

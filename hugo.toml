@@ -1,0 +1,104 @@
+# Varjú Károgások — Hugo configuration.
+#
+# One baseURL, in one place: a custom domain is a possibility later, and when it
+# arrives this is the only line that should have to change.
+baseURL = "https://karogasok.github.io/"
+
+# Hugo renamed languageCode to locale in v0.158; the spec predates that.
+locale = "hu-HU"
+defaultContentLanguage = "hu"
+title = "Varjú Károgások"
+copyright = "CC BY-NC-SA 4.0"
+
+# Deliberately absent: buildFuture. Posts are written in batches and dripped out
+# by publishDate, which only works while Hugo keeps excluding future dates. A
+# scheduled Action rebuilds the site so they appear on time. See README.
+
+# Hungarian slugs are full of ő ű á é. Left alone, Hugo puts them straight into
+# the URL, where every consumer percent-encodes them differently and a pasted
+# link stops being readable. Paths get folded to ASCII; the titles do not.
+removePathAccents = true
+
+enableGitInfo = false
+enableRobotsTXT = true
+summaryLength = 30
+
+# No theme. The layouts are in layouts/ and are written for this site.
+
+[taxonomies]
+  # Hugo reads these as singular = "plural". The plural is both the front-matter
+  # key and the default URL segment; the URLs are then given Hungarian names
+  # under [permalinks.term] below.
+  tag = "tags"                 # the pillar taxonomy; hubs live in content/tags/
+  szerzo = "author"            # so a post's front matter stays `author: "..."`
+  regi_cimke = "regi_cimkek"   # imported labels, kept away from the pillar tags
+
+[permalinks]
+  [permalinks.page]
+    posts = "/:year/:month/:slug/"
+    archivum = "/archivum/:year/:slug/"
+  [permalinks.term]
+    author = "/szerzo/:slug/"
+    # Old labels are an archive artefact, so their hubs sit inside the archive
+    # rather than alongside the pillar tags. Nothing about the 2010 tag
+    # vocabulary should look like an editorial pillar of the current site.
+    regi_cimkek = "/archivum/cimke/:slug/"
+
+[markup]
+  [markup.goldmark.renderer]
+    # The imported archive is HTML that was written by hand in a Blogger editor
+    # between 2010 and 2013. Rendering it needs raw HTML to pass through.
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[params]
+  mainSections = ["posts"]
+  description = "Olvasónapló a mesterséges intelligenciáról, a megismerésről és a következményeikről."
+  email = "hello@crowintelligence.org"
+  ogImage = "/assets/og.png"
+  crowURL = "https://crowintelligence.org/"
+  crowBlogURL = "https://blog.crowintelligence.org/"
+  # The archive's real extent, measured from the exports rather than assumed.
+  # Used by the archive note and the year-spine.
+  archiveFrom = 2010
+  archiveTo = 2024
+
+[[params.authors]]
+  key = "Varjú Zoltán"
+  slug = "varju-zoltan"
+  role = "Nyelvész, gépi tanulás"
+  sameAs = ["https://crowintelligence.org/"]
+
+[[params.authors]]
+  key = "Putz Orsolya"
+  slug = "putz-orsolya"
+  role = "Kognitív nyelvészet"
+  sameAs = ["https://crowintelligence.org/"]
+
+# Site chrome. Crow's five house items; commercial credibility lives over there,
+# and this site links to it and otherwise stays out of the way.
+[[menu.main]]
+  name = "Portfolio"
+  url = "https://crowintelligence.org/portfolio.html"
+  weight = 10
+[[menu.main]]
+  name = "Services"
+  url = "https://crowintelligence.org/services.html"
+  weight = 20
+[[menu.main]]
+  name = "About"
+  url = "https://crowintelligence.org/about.html"
+  weight = 30
+[[menu.main]]
+  name = "Blog"
+  url = "https://blog.crowintelligence.org/"
+  weight = 40
+[[menu.main]]
+  name = "Contact"
+  url = "https://crowintelligence.org/contact.html"
+  weight = 50
+
+[services.rss]
+  limit = -1

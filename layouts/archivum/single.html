@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="post is-archive">
+  <header class="post-head">
+    {{- /* Marked as archival on the page itself, not just in a URL. These were
+           written between 2010 and 2024 on other platforms and are preserved as
+           written; a reader arriving from a search result needs to know that
+           before the first paragraph, not after it. */}}
+    <p class="archive-banner">
+      {{ i18n "archive.banner" }}
+      {{ with .Params.canonical }}<a href="{{ . }}" rel="noopener">{{ $.Params.forras_cim | default . }}</a>{{ end }}
+      <span class="archive-banner-date">{{ i18n "archive.original_date" }}: <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></span>
+    </p>
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ partial "post-margin.html" . }}
+  <div class="prose">
+    {{ .Content }}
+  </div>
+  {{- with .Params.regi_cimkek }}
+  <p class="archive-oldtags">
+    <span class="margin-label">{{ i18n "archive.old_tags" }}</span>
+    {{- range . }}<a class="tag" href="{{ (printf "/archivum/cimke/%s/" (urlize .)) | relURL }}">{{ . }}</a>{{ end }}
+  </p>
+  {{- end }}
+</article>
+{{ end }}

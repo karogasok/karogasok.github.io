@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="listing">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{- /* One standing note, and it says what is actually true of these files
+         rather than what would be tidier. */}}
+  <div class="prose archive-standing">{{ .Content }}</div>
+
+  {{ partial "year-spine.html" . }}
+
+  {{- range .Pages.ByDate.Reverse.GroupByDate "2006" }}
+  <section class="archive-year" id="{{ .Key }}">
+    <h2>{{ .Key }} <span class="archive-year-n">{{ len .Pages }} {{ i18n "post.count" }}</span></h2>
+    <ol class="post-list is-dense">
+      {{- range .Pages }}
+      <li class="post-item">
+        <a class="post-item-link" href="{{ .RelPermalink }}">
+          <time class="post-item-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+          <span class="post-item-title">{{ .Title }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+</div>
+{{ end }}

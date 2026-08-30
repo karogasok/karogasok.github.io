@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{- /* Two modes, distinguished by whether the term's _index.md has prose in it.
+       A pillar tag is an essay with a reading list under it; every other tag is
+       a list. Hugo's default for both is a bare list of links, which would waste
+       the five pages on this site that are actually arguments. */ -}}
+{{- $isHub := ne (len (.Content | plainify | strings.TrimSpace)) 0 -}}
+<div class="listing{{ if $isHub }} is-hub{{ end }}">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  {{- if $isHub }}
+  <div class="prose hub-intro">{{ .Content }}</div>
+  <h2 class="hub-list-heading">{{ i18n "tag.posts_here" }} <span class="archive-year-n">{{ len .Pages }}</span></h2>
+  {{- end }}
+
+  <ol class="post-list{{ if not $isHub }} is-dense{{ end }}">
+    {{- range .Pages.ByDate.Reverse }}{{ partial "post-item.html" . }}{{ end }}
+  </ol>
+</div>
+{{ end }}

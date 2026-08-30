@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="listing">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+    <p class="note">{{ len .Pages }} {{ i18n "post.count" }}</p>
+  </header>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  <ol class="post-list is-dense">
+    {{- range .Pages.ByDate.Reverse }}{{ partial "post-item.html" . }}{{ end }}
+  </ol>
+</div>
+{{ end }}

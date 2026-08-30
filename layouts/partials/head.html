@@ -1,0 +1,59 @@
+{{- $desc := .Description | default .Summary | default site.Params.description | plainify | truncate 155 "…" -}}
+{{- $ogImage := .Params.ogImage | default site.Params.ogImage | absURL -}}
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>{{ if .IsHome }}{{ site.Title }} — {{ i18n "site.tagline" }}{{ else }}{{ .Title }} — {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ $desc }}" />
+  <meta name="robots" content="{{ .Params.robots | default "index, follow, max-image-preview:large" }}" />
+  <meta name="theme-color" content="#7a1f1f" />
+  <link rel="canonical" href="{{ .Params.canonical | default .Permalink }}" />
+
+  {{- /* The archive is imported from two blogs that are both still online, so an
+         imported post points its canonical back at the original. Those originals
+         keep the ranking; these copies exist so the decade is readable in one
+         place, not to outrank their own sources. */}}
+
+  {{- /* Two feeds, on purpose. The site feed carries the daily posts only; the
+         archive import must never appear in it. See layouts/index.rss.xml. */}}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ "index.xml" | absURL }}" />
+
+  <meta property="og:site_name" content="{{ site.Title }}" />
+  <meta property="og:locale" content="hu_HU" />
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+  <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+  <meta property="og:description" content="{{ $desc }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:image" content="{{ $ogImage }}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{{ site.Title }}" />
+  {{- with .Date }}{{ if $.IsPage }}
+  <meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}" />
+  {{- end }}{{ end }}
+
+  {{- /* No account to attribute, so no twitter:site. */}}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+  <meta name="twitter:description" content="{{ $desc }}" />
+  <meta name="twitter:image" content="{{ $ogImage }}" />
+  <meta name="twitter:image:alt" content="{{ site.Title }}" />
+
+  {{- /* A drawn mark, not a stock bird. Two strokes of a crow's foot — the tally
+         mark a reader leaves in a margin, which is what this site is. */}}
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F1F2EE'/%3E%3Cpath d='M16 27v-9M16 18 7 6M16 18l9-12' stroke='%237a1f1f' stroke-width='2.5' fill='none' stroke-linecap='square'/%3E%3C/svg%3E" />
+
+  {{- /* Only the two Latin files are preloaded. The Latin-Extended pair carries
+         the Hungarian double acutes and is fetched immediately after, but
+         promoting all four would put 120 KB ahead of the stylesheet. crossorigin
+         is required even same-origin: a font fetch is CORS-mode, and a preload
+         without it is discarded and then quietly fetched a second time. */}}
+  <link rel="preload" href="{{ "fonts/spectral-400-n-lat.woff2" | relURL }}" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="{{ "fonts/archivo-500-700-n-lat.woff2" | relURL }}" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="{{ "fonts/fonts.css" | relURL }}" />
+  {{- $css := resources.Get "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+
+  {{ partial "schema.html" . }}
+</head>

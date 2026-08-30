@@ -1,0 +1,17 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Importer inputs and reports. The raw exports are the provenance record and are
+# kept on disk, but they are large binaries that do not belong in git.
+/scripts/raw/
+/scripts/out/
+
+# Local tooling
+/.venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.DS_Store

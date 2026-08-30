@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="listing">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.osszefoglalo }}<p class="note">{{ . }}</p>{{ end }}
+  </header>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  <ol class="post-list">
+    {{- range .Pages.ByDate.Reverse }}{{ partial "post-item.html" . }}{{ end }}
+  </ol>
+</div>
+{{ end }}

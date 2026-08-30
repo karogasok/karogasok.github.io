@@ -1,0 +1,433 @@
+/* Varjú Károgások.
+ *
+ * A reading notebook that has been kept for ten years. Dense, typographic,
+ * text first. No JavaScript anywhere on this site, so everything below has to
+ * work as static CSS or not at all.
+ *
+ * Two decisions worth stating, because both look like mistakes otherwise:
+ *
+ * 1. The paper is cool (#F1F2EE), not the warm cream the other Crow pieces use.
+ *    Cream + serif + a warm red accent is the exact look that any "thoughtful
+ *    writing blog" brief lands on by default. The maroon is a house colour and
+ *    stays; the paper moves away from it so the page does not read as the
+ *    template answer.
+ *
+ * 2. The display face is a grotesque and the body face is a serif — the
+ *    opposite of the usual pairing. It is the voice of an academic journal
+ *    cover rather than a personal blog, which is what this site is trying to
+ *    look like to an editor scanning it for the first time.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* ink and paper */
+  --paper:  #f1f2ee;
+  --card:   #fafbf7;
+  --ink:    #191b18;   /* headings */
+  --body:   #2e322c;   /* running text — 12.4:1 on paper */
+  --muted:  #55594f;   /* margin notes, dates — 7.4:1 on paper */
+  --line:   #c9ccc2;
+  --rule:   #e0e2da;
+  --accent: #7a1f1f;   /* Crow maroon — the only saturated colour on the site */
+  --accent-soft: #f0e3e3;
+
+  /* type */
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --text:    "Spectral", Georgia, "Times New Roman", serif;
+
+  --fs-h1:    2.6rem;
+  --fs-h2:    1.35rem;
+  --fs-h3:    1.1rem;
+  --fs-body:  1.0625rem;
+  --fs-small: 0.92rem;
+  --fs-label: 0.7rem;
+  --ls-label: 0.1em;
+  --lh-body:  1.62;
+  --lh-tight: 1.12;
+  --measure:  66ch;
+  --margin-w: 13rem;
+
+  --sp-1: 6px;
+  --sp-2: 12px;
+  --sp-3: 18px;
+  --sp-4: 28px;
+  --sp-5: 44px;
+  --sp-6: 64px;
+  --sp-7: 96px;
+}
+
+@media (max-width: 40rem) {
+  :root { --fs-h1: 1.85rem; --fs-h2: 1.2rem; --fs-body: 1rem; }
+}
+
+@media (prefers-contrast: more) {
+  :root { --line: #8c9086; --muted: #3b3f37; --rule: #b9bdb2; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--body);
+  font-family: var(--text);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--display);
+  color: var(--ink);
+  line-height: var(--lh-tight);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+h1 { font-size: var(--fs-h1); margin: 0 0 var(--sp-3); }
+h2 { font-size: var(--fs-h2); margin: var(--sp-6) 0 var(--sp-2); }
+h3 { font-size: var(--fs-h3); margin: var(--sp-4) 0 var(--sp-1); font-weight: 500; }
+
+a { color: var(--accent); text-underline-offset: 0.14em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+  font-family: var(--display);
+  font-size: var(--fs-small);
+  background: var(--accent);
+  color: var(--card);
+  padding: var(--sp-2) var(--sp-3);
+  z-index: 10;
+}
+.skip:focus { left: var(--sp-3); top: var(--sp-2); }
+
+/* Labels. Small, tracked, uppercase Archivo — the utility voice used for every
+   piece of metadata on the site, so metadata never gets confused with text. */
+.margin-label,
+.post-item-date,
+.archive-year-n,
+.spine-y,
+.spine-n,
+.nav-links a,
+.more,
+.stepper .margin-label,
+.pillar-n {
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* ---------- chrome ---------- */
+
+.top-nav { border-bottom: 1px solid var(--line); background: var(--card); }
+.nav-inner {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: var(--sp-2) var(--sp-4);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2) var(--sp-4);
+  align-items: baseline;
+  justify-content: space-between;
+}
+.nav-brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+.nav-brand:hover .nav-brand-text { color: var(--accent); }
+.nav-brand-mark { color: var(--accent); transform: translateY(2px); }
+.nav-links { display: flex; flex-wrap: wrap; gap: var(--sp-3); }
+.nav-links a { color: var(--muted); text-decoration: none; }
+.nav-links a:hover { color: var(--accent); }
+
+footer { border-top: 1px solid var(--line); margin-top: var(--sp-7); }
+.footer-inner {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: var(--sp-4);
+  color: var(--muted);
+  font-size: var(--fs-small);
+}
+.footer-inner p { margin: var(--sp-1) 0; max-width: none; }
+
+main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--sp-7); }
+
+/* ---------- prose ---------- */
+
+.prose { font-size: var(--fs-body); }
+.prose p, .prose ul, .prose ol, .prose blockquote { max-width: var(--measure); }
+.prose p { margin: 0 0 var(--sp-3); }
+.prose img { max-width: 100%; height: auto; }
+.prose blockquote {
+  margin: var(--sp-4) 0;
+  padding-left: var(--sp-3);
+  border-left: 2px solid var(--line);
+  color: var(--muted);
+  font-style: italic;
+}
+.prose pre {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  padding: var(--sp-3);
+  overflow-x: auto;
+  font-size: var(--fs-small);
+}
+.prose code { font-size: 0.92em; }
+.prose hr { border: 0; border-top: 1px solid var(--rule); margin: var(--sp-5) 0; }
+
+/* The one-paragraph explainer that sits under a heading and says what the
+   reader is looking at. A house signature; do not drop it. */
+.note { color: var(--muted); max-width: var(--measure); margin: 0 0 var(--sp-4); }
+
+/* ---------- the marginalia grid ---------- */
+
+.post,
+.page,
+.listing {
+  display: grid;
+  grid-template-columns: [margin] var(--margin-w) [text] minmax(0, var(--measure)) [end] 1fr;
+  column-gap: var(--sp-5);
+}
+.post-head { grid-column: margin / end; margin-bottom: var(--sp-4); }
+.post > .prose,
+.page > .prose,
+.listing > .prose,
+.listing > .post-list,
+.listing > .archive-year,
+.listing > .spine,
+.listing > .hub-list-heading { grid-column: text; }
+.post > .margin { grid-column: margin; }
+
+/* The margin sits against the text column, right-aligned, so the gutter reads
+   as one edge rather than two ragged ones. */
+.margin { text-align: right; color: var(--muted); font-size: var(--fs-small); }
+.margin-item { margin: 0 0 var(--sp-3); }
+.margin-label { display: block; color: var(--muted); margin-bottom: 2px; }
+.margin a { color: var(--accent); }
+
+/* The source. It gets the maroon rule and sits on the gutter pointing at the
+   text, because the reader who wants the thing itself should not have to hunt
+   the paragraph for it. */
+.margin .source {
+  border-right: 2px solid var(--accent);
+  padding-right: var(--sp-2);
+  margin-right: calc(-1 * var(--sp-2) - 2px);
+  padding-top: var(--sp-1);
+  padding-bottom: var(--sp-1);
+}
+.margin .source a { font-family: var(--text); }
+
+.tag { display: inline; margin-left: 0.35em; }
+.tag:first-of-type { margin-left: 0; }
+
+/* ---------- post lists ---------- */
+
+.post-list { list-style: none; margin: 0; padding: 0; }
+.post-item { border-top: 1px solid var(--rule); padding: var(--sp-3) 0; }
+.post-item:first-child { border-top: 0; padding-top: 0; }
+.post-item-link {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: var(--sp-2);
+  align-items: baseline;
+  text-decoration: none;
+  color: var(--ink);
+}
+.post-item-date { color: var(--muted); }
+.post-item-title { font-family: var(--text); font-size: 1.08rem; line-height: 1.3; }
+.post-item-link:hover .post-item-title { color: var(--accent); }
+.post-item-lede {
+  margin: var(--sp-1) 0 0 calc(6.5rem + var(--sp-2));
+  color: var(--muted);
+  font-size: var(--fs-small);
+}
+.post-list.is-dense .post-item { padding: var(--sp-2) 0; }
+
+.more { margin-top: var(--sp-4); }
+.more a { text-decoration: none; }
+.more a:hover { text-decoration: underline; }
+
+.stepper {
+  display: flex;
+  gap: var(--sp-5);
+  justify-content: space-between;
+  border-top: 1px solid var(--line);
+  margin-top: var(--sp-6);
+  padding-top: var(--sp-3);
+  max-width: calc(var(--margin-w) + var(--measure) + var(--sp-5));
+}
+.stepper a { max-width: 20rem; text-decoration: none; color: var(--ink); font-size: var(--fs-small); }
+.stepper a:hover { color: var(--accent); }
+.stepper-next { text-align: right; margin-left: auto; }
+
+/* ---------- the year spine ---------- */
+
+.spine { margin: var(--sp-4) 0 var(--sp-5); }
+.spine-years {
+  display: flex;
+  align-items: stretch;
+  gap: 3px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: calc(var(--measure) + 6rem);
+}
+.spine-year { flex: 1 1 0; min-width: 0; }
+.spine-year > a,
+.spine-year > span {
+  display: grid;
+  grid-template-rows: 1.1rem 1fr 1.2rem;
+  height: 116px;
+  gap: 3px;
+  text-decoration: none;
+  color: var(--muted);
+}
+.spine-bar {
+  align-self: end;
+  width: 100%;
+  height: var(--fill, 0%);
+  min-height: 2px;
+  background: var(--accent);
+}
+.spine-year.is-empty .spine-bar { background: var(--rule); min-height: 1px; }
+.spine-n { text-align: center; font-size: 0.62rem; }
+.spine-y { text-align: center; border-top: 1px solid var(--line); padding-top: 3px; }
+.spine-year > a:hover .spine-bar { background: var(--ink); }
+.spine-year > a:hover .spine-y { color: var(--accent); }
+
+/* ---------- home ---------- */
+
+.home { display: block; max-width: none; }
+.home-head { margin-bottom: var(--sp-6); }
+.home-title { font-size: clamp(2.4rem, 7vw, 4rem); margin-bottom: var(--sp-2); }
+.home-lede {
+  font-family: var(--text);
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 46ch;
+  margin: 0;
+}
+.home-section { margin-bottom: var(--sp-7); }
+.home-section > h2 {
+  border-top: 2px solid var(--ink);
+  padding-top: var(--sp-2);
+  margin-top: 0;
+}
+.home-section .post-list,
+.home-section .pillars { max-width: calc(var(--measure) + 8rem); }
+
+.pillars { list-style: none; margin: 0; padding: 0; }
+.pillar { border-top: 1px solid var(--rule); padding: var(--sp-3) 0; }
+.pillar:first-child { border-top: 0; padding-top: 0; }
+.pillar > a {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  text-decoration: none;
+  color: var(--ink);
+}
+.pillar-name { font-family: var(--display); font-weight: 700; font-size: 1.05rem; }
+.pillar-n { color: var(--muted); }
+.pillar > a:hover .pillar-name { color: var(--accent); }
+.pillar-note { margin: var(--sp-1) 0 0; color: var(--muted); font-size: var(--fs-small); max-width: var(--measure); }
+
+/* ---------- archive ---------- */
+
+.archive-banner {
+  grid-column: margin / end;
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  padding: var(--sp-2) var(--sp-3);
+  margin: 0 0 var(--sp-4);
+  font-size: var(--fs-small);
+  color: var(--body);
+  max-width: calc(var(--margin-w) + var(--measure) + var(--sp-5));
+}
+.archive-banner-date { display: block; color: var(--muted); margin-top: 2px; }
+.archive-standing { grid-column: text; }
+.archive-year { margin-bottom: var(--sp-5); }
+.archive-year > h2 { border-top: 1px solid var(--line); padding-top: var(--sp-2); }
+.archive-year-n { color: var(--muted); font-weight: 500; margin-left: var(--sp-2); }
+.archive-oldtags { grid-column: text; margin-top: var(--sp-5); color: var(--muted); font-size: var(--fs-small); }
+.post.is-archive > .archive-oldtags { border-top: 1px solid var(--rule); padding-top: var(--sp-3); }
+
+.hub-intro { margin-bottom: var(--sp-5); }
+.hub-list-heading { border-top: 2px solid var(--ink); padding-top: var(--sp-2); }
+
+/* ---------- collapse the margin ---------- */
+
+@media (max-width: 62rem) {
+  :root { --margin-w: 0px; }
+
+  .post, .page, .listing { display: block; }
+
+  /* The margin becomes a header strip above the text. Same markup, and the
+     source keeps its rule — it just moves to the left edge. */
+  .margin {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sp-2) var(--sp-4);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: var(--sp-3) 0;
+    margin-bottom: var(--sp-4);
+  }
+  .margin-item { margin: 0; }
+  .margin .source {
+    flex-basis: 100%;
+    border-right: 0;
+    border-left: 2px solid var(--accent);
+    padding-left: var(--sp-2);
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .archive-banner, .stepper { max-width: none; }
+  .post-item-link { grid-template-columns: 1fr; gap: 2px; }
+  .post-item-lede { margin-left: 0; }
+  .spine-year > a, .spine-year > span { height: 88px; }
+  .spine-n { display: none; }
+}
+
+@media (max-width: 34rem) {
+  main { padding-left: var(--sp-3); padding-right: var(--sp-3); }
+  .nav-inner { padding-left: var(--sp-3); padding-right: var(--sp-3); }
+  .footer-inner { padding-left: var(--sp-3); padding-right: var(--sp-3); }
+  .spine-y { font-size: 0.6rem; letter-spacing: 0.04em; }
+  .stepper { flex-direction: column; gap: var(--sp-3); }
+  .stepper-next { text-align: left; margin-left: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+@media print {
+  .top-nav, .skip, .stepper, .spine { display: none; }
+  :root { --paper: #fff; --card: #fff; }
+  body { font-size: 11pt; }
+  .post, .page, .listing { display: block; }
+  .margin { text-align: left; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; color: #555; }
+}

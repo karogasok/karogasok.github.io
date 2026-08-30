@@ -1,0 +1,72 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Posts are written in batches and dripped out by publishDate. Hugo excludes a
+  # future publishDate at build time, so a post only appears once something
+  # rebuilds the site after its date has passed — hence this cron.
+  #
+  # The schedule is UTC. 05:00 UTC is 07:00 in Budapest during CEST and 06:00
+  # during CET, so the publishing hour drifts by one across the DST boundary.
+  # That is accepted rather than worked around: the alternative is two crons and
+  # a rule about which is live, to move a blog post by an hour.
+  schedule:
+    - cron: '0 5 * * 1-4'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+# Run the GitHub-maintained JavaScript actions on Node 24. They ship targeting
+# Node 20, which the runner deprecates; this opts in ahead of the cutoff.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  # Pinned, and pinned in one place. scripts/install_hugo.sh reads this same
+  # number out of this file so a local build cannot drift from CI.
+  HUGO_VERSION: 0.165.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Hugo ${{ env.HUGO_VERSION }}
+        run: |
+          curl -sSL -o /tmp/hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i /tmp/hugo.deb
+          hugo version
+
+      - name: Build
+        # No --buildFuture. Scheduled posts stay out until their date arrives;
+        # that is the whole mechanism.
+        # baseURL comes from hugo.toml, which is the single place it is set.
+        run: hugo --gc --minify
+
+      - name: Check the archive has not leaked into the site feed
+        # The site feed carries the daily posts only. An import of several
+        # hundred archive files would otherwise land in every subscriber's
+        # reader at once, and it would land silently. Fail the build instead.
+        run: ./scripts/check_feed.sh
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

@@ -1,0 +1,112 @@
+# Every user-facing string on the site comes from this file, never from the
+# markup. The site starts in Hungarian and may acquire a second language; when
+# that happens this should be a translation job, not a rewrite.
+#
+# Keys are dot-namespaced by where they appear and quoted so TOML keeps them
+# flat. No string may contain markup: a sentence that needs emphasis is either
+# split in two or written without it.
+
+["site.tagline"]
+other = "Olvasónapló"
+
+["nav.skip"]
+other = "Ugrás a tartalomra"
+
+["nav.home"]
+other = "Kezdőlap"
+
+["nav.posts"]
+other = "Bejegyzések"
+
+["nav.archive"]
+other = "Archívum"
+
+["nav.elsewhere"]
+other = "Máshol"
+
+["post.source"]
+other = "Forrás"
+
+["post.author"]
+other = "Szerző"
+
+["post.published"]
+other = "Megjelent"
+
+["post.tags"]
+other = "Címkék"
+
+["post.previous"]
+other = "Előző"
+
+["post.next"]
+other = "Következő"
+
+["post.nav_label"]
+other = "Bejegyzések közötti navigáció"
+
+["post.count"]
+other = "bejegyzés"
+
+["home.latest"]
+other = "Legutóbbi bejegyzések"
+
+["home.latest_note"]
+other = "A legfrissebb írások, időrendben visszafelé. Mindegyik egyetlen forrásról szól."
+
+["home.pillars"]
+other = "Visszatérő kérdések"
+
+["home.pillars_note"]
+other = "Öt téma, amelyhez a bejegyzések újra és újra visszakanyarodnak. Mindegyik saját bevezetővel."
+
+["home.archive"]
+other = "Archívum"
+
+["home.all_posts"]
+other = "Összes bejegyzés"
+
+["home.about"]
+other = "Ki írja"
+
+["archive.title"]
+other = "Archívum"
+
+["archive.browse"]
+other = "Tovább az archívumhoz"
+
+["archive.banner"]
+other = "Archív bejegyzés. Eredetileg itt jelent meg, szerkesztetlenül átemelve:"
+
+["archive.original_date"]
+other = "Eredeti megjelenés"
+
+["archive.old_tags"]
+other = "Eredeti címkék"
+
+["archive.years"]
+other = "Évek"
+
+["archive.spine_label"]
+other = "Bejegyzések évenként"
+
+["elsewhere.title"]
+other = "Máshol megjelent írások"
+
+["footer.licence"]
+other = "CC BY-NC-SA 4.0"
+
+["footer.crow_blog"]
+other = "Crow Intelligence blog (angolul)"
+
+["footer.crow"]
+other = "Crow Intelligence"
+
+["tag.posts_here"]
+other = "Bejegyzések ezzel a címkével"
+
+["error.title"]
+other = "Nincs ilyen oldal"
+
+["error.body"]
+other = "A keresett oldal nem található. A kezdőlapról minden elérhető."

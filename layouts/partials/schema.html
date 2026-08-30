@@ -1,0 +1,69 @@
+{{- /* One site-wide @graph declaring both authors once, with a stable @id. A
+       post's BlogPosting then references that @id rather than restating the
+       person, so a byline can never drift from the Person node describing it.
+       Both authors are declared on every page: the second author is part of the
+       site from day one, whether or not she has posted today. */ -}}
+{{- $blogID := printf "%s#blog" site.BaseURL -}}
+{{- $graph := slice -}}
+
+{{- $people := slice -}}
+{{- $authorRefs := slice -}}
+{{- range site.Params.authors -}}
+  {{- $person := dict
+        "@type" "Person"
+        "@id" (printf "%s#%s" site.BaseURL .slug)
+        "name" .key
+        "jobTitle" .role
+        "url" (printf "%sszerzo/%s/" site.BaseURL .slug)
+        "sameAs" .sameAs -}}
+  {{- $people = $people | append $person -}}
+  {{- $authorRefs = $authorRefs | append (dict "@id" (printf "%s#%s" site.BaseURL .slug)) -}}
+{{- end -}}
+{{- $graph = $graph | append $people -}}
+
+{{- $graph = $graph | append (dict
+      "@type" "Blog"
+      "@id" $blogID
+      "name" site.Title
+      "description" site.Params.description
+      "url" site.BaseURL
+      "inLanguage" "hu-HU"
+      "license" "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      "author" $authorRefs
+) -}}
+
+{{- if .IsPage -}}
+  {{- $authorSlug := "" -}}
+  {{- $authorName := .Params.author | default (index site.Params.authors 0).key -}}
+  {{- range site.Params.authors -}}
+    {{- if eq .key $authorName }}{{ $authorSlug = .slug }}{{ end -}}
+  {{- end -}}
+  {{- $posting := dict
+        "@type" "BlogPosting"
+        "@id" (printf "%s#post" .Permalink)
+        "headline" .Title
+        "url" .Permalink
+        "inLanguage" "hu-HU"
+        "isPartOf" (dict "@id" $blogID)
+        "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+        "dateModified" ((.Lastmod | default .Date).Format "2006-01-02T15:04:05Z07:00")
+        "description" (.Description | default .Summary | plainify | truncate 200 "…")
+        "wordCount" .WordCount
+        "license" "https://creativecommons.org/licenses/by-nc-sa/4.0/" -}}
+  {{- if $authorSlug -}}
+    {{- $posting = merge $posting (dict "author" (dict "@id" (printf "%s#%s" site.BaseURL $authorSlug))) -}}
+  {{- else -}}
+    {{- $posting = merge $posting (dict "author" (dict "@type" "Person" "name" $authorName)) -}}
+  {{- end -}}
+  {{- with .Params.canonical -}}
+    {{- $posting = merge $posting (dict "mainEntityOfPage" .) -}}
+  {{- end -}}
+  {{- with .Params.forras -}}
+    {{- $posting = merge $posting (dict "citation" (dict "@type" "CreativeWork" "url" . "name" ($.Params.forras_cim | default .))) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $posting -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify (dict "indent" "  ") | safeJS }}
+</script>

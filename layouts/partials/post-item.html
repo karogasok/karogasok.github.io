@@ -1,0 +1,14 @@
+{{- /* One row in any list of posts: title, date, first line. The first line is
+       the summary's opening sentence, not a word-count truncation — a post here
+       opens by saying what the thing is, so its first sentence is already the
+       right blurb. */ -}}
+{{- $first := .Summary | plainify | strings.TrimSpace -}}
+{{- $cut := findRE "^[^.!?]+[.!?]" $first -}}
+{{- with $cut }}{{ $first = index . 0 }}{{ end -}}
+<li class="post-item">
+  <a class="post-item-link" href="{{ .RelPermalink }}">
+    <time class="post-item-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+    <span class="post-item-title">{{ .Title }}</span>
+  </a>
+  {{- with $first }}<p class="post-item-lede">{{ . | truncate 180 "…" }}</p>{{ end }}
+</li>

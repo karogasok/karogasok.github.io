@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="page">
+  <header class="post-head"><h1>{{ i18n "error.title" }}</h1></header>
+  <div class="prose">
+    <p>{{ i18n "error.body" }}</p>
+    <p><a href="{{ "/" | relURL }}">{{ i18n "nav.home" }}</a> · <a href="{{ "/archivum/" | relURL }}">{{ i18n "nav.archive" }}</a></p>
+  </div>
+</div>
+{{ end }}

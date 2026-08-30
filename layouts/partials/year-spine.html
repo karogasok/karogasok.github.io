@@ -1,0 +1,52 @@
+{{- /* The year spine.
+
+       The site's problem on day one is that it looks new when it is not. A list
+       of recent posts cannot say "this has been going on since 2010"; a register
+       of the years, each as tall as the writing done in it, can. It is the one
+       place the design spends any boldness.
+
+       It also has to be honest. There is a real gap between 2014 and 2019 when
+       nothing was published here, and a bar chart that quietly skipped those
+       years would be a nicer shape and a false one. Empty years are drawn empty.
+
+       Pure CSS: the height is handed to the bar as a custom property. No script.
+*/ -}}
+{{- $pages := where site.RegularPages "Kind" "page" -}}
+{{- $byYear := dict -}}
+{{- range $pages -}}
+  {{- $y := .Date.Format "2006" -}}
+  {{- $byYear = merge $byYear (dict $y (add (int (index $byYear $y | default 0)) 1)) -}}
+{{- end -}}
+{{- $years := slice -}}
+{{- range $y, $n := $byYear }}{{ $years = $years | append (int $y) }}{{ end -}}
+{{- if $years -}}
+{{- $from := math.Min (index (sort $years) 0) site.Params.archiveFrom | int -}}
+{{- $to := int (now.Format "2006") -}}
+{{- $max := 1 -}}
+{{- range $y, $n := $byYear }}{{ if gt $n $max }}{{ $max = $n }}{{ end }}{{ end -}}
+
+<nav class="spine" aria-label="{{ i18n "archive.spine_label" }}">
+  <ol class="spine-years">
+    {{- range seq $from $to }}
+    {{- $y := printf "%d" . -}}
+    {{- $n := int (index $byYear $y | default 0) -}}
+    {{- $pct := 0 }}{{ if gt $n 0 }}{{ $pct = div (mul (float $n) 100.0) (float $max) }}{{ end -}}
+    <li class="spine-year{{ if eq $n 0 }} is-empty{{ end }}">
+      {{- if gt $n 0 -}}
+      <a href="{{ (printf "/archivum/#%s" $y) | relURL }}" aria-label="{{ $y }} — {{ $n }} {{ i18n "post.count" }}">
+        <span class="spine-bar" style="--fill: {{ printf "%.1f" $pct }}%"></span>
+        <span class="spine-n">{{ $n }}</span>
+        <span class="spine-y">{{ printf "%02d" (mod . 100) }}</span>
+      </a>
+      {{- else -}}
+      <span aria-hidden="true">
+        <span class="spine-bar"></span>
+        <span class="spine-n"></span>
+        <span class="spine-y">{{ printf "%02d" (mod . 100) }}</span>
+      </span>
+      {{- end -}}
+    </li>
+    {{- end }}
+  </ol>
+</nav>
+{{- end -}}

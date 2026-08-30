@@ -1,0 +1,40 @@
+{{- /* The site feed.
+
+       Hugo's built-in home feed includes every regular page. This site has a
+       posts section of a few dozen files and an archive section of several
+       hundred imported ones, so the built-in feed would publish the entire
+       archive to every subscriber the moment the import landed — once, loudly,
+       and irreversibly. This template exists to make that impossible.
+
+       Full content, not summaries: the posts are three paragraphs, and a feed
+       that truncates them to a teaser is just an advertisement for the site.
+
+       scripts/check_feed.sh asserts the filter still holds, so a future change
+       here fails the build rather than a subscriber's reader.
+*/ -}}
+{{- $posts := where site.RegularPages "Section" "posts" -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 }}{{ $posts = first $limit $posts }}{{ end -}}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ site.Title }}</title>
+    <link>{{ site.BaseURL }}</link>
+    <description>{{ site.Params.description }}</description>
+    <language>hu-HU</language>
+    <copyright>CC BY-NC-SA 4.0</copyright>
+    {{- with (index $posts 0) }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    <atom:link href="{{ "index.xml" | absURL }}" rel="self" type="application/rss+xml" />
+    {{ range $posts }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{- with .Params.author }}<dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ . }}</dc:creator>{{ end }}
+      {{- range .Params.tags }}<category>{{ . }}</category>{{ end }}
+      <description>{{ .Summary | plainify }}</description>
+      <content:encoded>{{ printf "<![CDATA[%s]]>" (string .Content) | safeHTML }}</content:encoded>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
