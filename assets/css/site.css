@@ -116,6 +116,7 @@ a:hover { text-decoration-thickness: 2px; }
    piece of metadata on the site, so metadata never gets confused with text. */
 .margin-label,
 .post-item-date,
+.post-item-source,
 .archive-year-n,
 .spine-y,
 .spine-n,
@@ -246,9 +247,15 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 .post-list { list-style: none; margin: 0; padding: 0; }
 .post-item { border-top: 1px solid var(--rule); padding: var(--sp-3) 0; }
 .post-item:first-child { border-top: 0; padding-top: 0; }
+/* One column width for the date cell and the lede's indent. Declared on the
+   list rather than on the row: a custom property set on an element beats one
+   inherited from its ancestor, so putting it on .post-item-link would make
+   every per-list override below silently do nothing. */
+.post-list { --date-col: 6.5rem; }
+
 .post-item-link {
   display: grid;
-  grid-template-columns: 6.5rem 1fr;
+  grid-template-columns: var(--date-col) 1fr;
   gap: var(--sp-2);
   align-items: baseline;
   text-decoration: none;
@@ -258,7 +265,7 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 .post-item-title { font-family: var(--text); font-size: 1.08rem; line-height: 1.3; }
 .post-item-link:hover .post-item-title { color: var(--accent); }
 .post-item-lede {
-  margin: var(--sp-1) 0 0 calc(6.5rem + var(--sp-2));
+  margin: var(--sp-1) 0 0 calc(var(--date-col, 6.5rem) + var(--sp-2));
   color: var(--muted);
   font-size: var(--fs-small);
 }
@@ -498,14 +505,29 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   white-space: nowrap;
 }
 
-/* An archive row that points at Kereső Világ. There is no page behind it, so it
-   carries its source and its lead: a reader has to be able to tell, before
-   clicking, that this one leaves the site and what it is about. */
-.post-item.is-external .post-item-date { display: block; }
-.ext-source {
+/* Every archive row says which blog it came from, under its date. The archive
+   mixes three of them and only one used to be labelled, which left a reader
+   unable to tell a 2012 Blogspot post from a 2022 Crow one.
+
+   The label is the same quiet grey on all of them: it answers "where is this
+   from". Whether following it leaves the site is a different question, answered
+   by the ↗ and by the presence of a lead. Colouring the external ones as well
+   would put the accent on 401 of 765 rows, at which point it stops being an
+   accent. */
+.post-list.is-archive {
+  /* Wider than elsewhere: "SZÁMÍTÓGÉPES NYELVÉSZET" needs the room. Scoped to
+     the archive so the homepage, the tag pages and the elsewhere list keep
+     their own one-line date cells. */
+  --date-col: 9.5rem;
+}
+.post-list.is-archive .post-item-date { display: block; }
+.post-item-source {
   display: block;
-  color: var(--accent);
   margin-top: 2px;
+  letter-spacing: 0.06em;
+  font-size: 0.64rem;
+  color: var(--muted);
+  text-wrap: balance;
 }
 .ext-mark { margin-left: 0.35em; color: var(--muted); font-size: 0.85em; }
 .post-item.is-external .post-item-link:hover .ext-mark { color: var(--accent); }
@@ -513,10 +535,6 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 /* The elsewhere list puts the year and the outlet in the date column
    ("2019 · nyest.hu"), which does not fit the 6.5rem a bare date needs and
    wraps with the separator left dangling at the end of the first line. */
-.mashol-list .post-item-link { grid-template-columns: 9rem 1fr; }
-.mashol-list .post-item-lede { margin-left: calc(9rem + var(--sp-2)); }
+.post-list.mashol-list { --date-col: 9rem; }
 
-@media (max-width: 62rem) {
-  .mashol-list .post-item-link { grid-template-columns: 1fr; }
-  .mashol-list .post-item-lede { margin-left: 0; }
-}
+

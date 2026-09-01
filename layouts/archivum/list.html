@@ -18,6 +18,7 @@
         "title" .Title
         "url" .RelPermalink
         "external" false
+        "source" (i18n (printf "archive.source.%s" (.Params.forras_platform | default "blogspot")))
         "lead" "") -}}
 {{- end -}}
 {{- with hugo.Data.kereses -}}
@@ -30,6 +31,7 @@
           "title" .cim
           "url" .link
           "external" true
+          "source" (i18n "archive.external_source")
           "lead" (.lead | default "")) -}}
   {{- end -}}
 {{- end -}}
@@ -51,13 +53,16 @@
   {{- $inYear := where $rows "year" $y }}
   <section class="archive-year" id="{{ $y }}">
     <h2>{{ $y }} <span class="archive-year-n">{{ len $inYear }} {{ i18n "post.count" }}</span></h2>
-    <ol class="post-list is-dense">
+    <ol class="post-list is-dense is-archive">
       {{- range $inYear }}
       <li class="post-item{{ if .external }} is-external{{ end }}">
         <a class="post-item-link" href="{{ .url }}"{{ if .external }} rel="noopener"{{ end }}>
           <span class="post-item-date">
             <time datetime="{{ .date.Format "2006-01-02" }}">{{ .date | time.Format ":date_medium" }}</time>
-            {{- if .external }}<span class="ext-source">{{ i18n "archive.external_source" }}</span>{{ end }}
+            {{- /* Where the piece was published. Every row carries it: the archive
+                   mixes three blogs, and without it a 2012 Blogspot post and a
+                   2022 Crow post look identical. */}}
+            <span class="post-item-source">{{ .source }}</span>
           </span>
           <span class="post-item-title">{{ .title }}{{ if .external }}<span class="ext-mark" aria-hidden="true">↗</span><span class="sr-only"> — {{ i18n "archive.external_link" }}</span>{{ end }}</span>
         </a>

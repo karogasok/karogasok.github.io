@@ -212,7 +212,25 @@ Két új build-ellenőrzés: nem kerülhet `kereses.blog.hu` URL a feedbe, és n
 
 ---
 
-## Ellenőrzések, amiket a build futtat
+## Az archívum oldal
+
+A hosszú, ötbekezdéses bevezető helyett két mondat áll az oldal élén; a
+tulajdonjogi részletek (Precognox, a 300 karakteres lead-korlát, miért nincs
+saját oldaluk) a `README.md`-ben és itt maradnak — az egy build-döntés
+magyarázata, nem az olvasóé.
+
+**Minden sor alatt ott a forrás**, nem csak a Kereső Világ soroké:
+`SZÁMÍTÓGÉPES NYELVÉSZET` (306), `CROW INTELLIGENCE` (58), `KERESŐ VILÁG` (401).
+Az archívum három blogot kever, és korábban csak az egyik volt jelölve.
+
+A felirat mindháromnál ugyanaz a halvány szürke: azt mondja meg, *honnan való*.
+Hogy a kattintás elhagyja-e az oldalt, az másik kérdés — arra a `↗` és a lead
+válaszol. Ha a külsők maroon színt kapnának, az 765-ből 401 soron jelenne meg,
+és ott már nem kiemelés.
+
+A feliratok a `forras_platform` mezőből jönnek az `i18n/hu.toml`-on keresztül,
+nem a bejegyzésekben tárolt `forras_cim`-ből: így egy forrás átnevezése egy
+soros javítás, nem 364 fájl újraimportálása.
 
 `scripts/check_build.sh` — a deploy elbukik, ha bármelyik sérül:
 

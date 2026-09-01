@@ -92,6 +92,16 @@ other = "Archív bejegyzés. Eredetileg itt jelent meg, szerkesztetlenül áteme
 ["archive.original_date"]
 other = "Eredeti megjelenés"
 
+# What each archive row says under its date. Kept here rather than read from the
+# posts' own forras_cim, because the stored values ("Számítógépes Nyelvészet",
+# "Crow Intelligence blog") are not the wording we want shown — and renaming a
+# source should be an edit here, not a re-import of 364 files.
+["archive.source.blogspot"]
+other = "Számítógépes nyelvészet"
+
+["archive.source.wordpress"]
+other = "Crow Intelligence"
+
 ["archive.external_source"]
 other = "Kereső Világ"
 
