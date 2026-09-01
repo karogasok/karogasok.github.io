@@ -1,6 +1,10 @@
-{{- /* The five Crow house items. External ones are emitted as written; anything
-       internal is resolved against baseURL. Driven from [[menu.main]] in
-       hugo.toml — to change the chrome, edit the config, not this file. */ -}}
+{{- /* Three items, all of them this site's own.
+
+       The header used to mirror Crow Intelligence's navigation. That was wrong:
+       this is a personal reading journal, not a page of the company site, and a
+       header full of Portfolio / Services / Contact told a reader the opposite.
+       Crow is linked once from the footer and once from the homepage, which is
+       the right amount for somewhere that is deliberately not a funnel. */ -}}
 <nav class="top-nav" aria-label="{{ site.Title }}">
   <div class="nav-inner">
     <a class="nav-brand" href="{{ "/" | relURL }}">
@@ -14,9 +18,7 @@
     <div class="nav-links">
       <a href="{{ "/archivum/" | relURL }}">{{ i18n "nav.archive" }}</a>
       <a href="{{ "/mashol/" | relURL }}">{{ i18n "nav.elsewhere" }}</a>
-      {{- range site.Menus.main }}
-      <a href="{{ .URL }}"{{ if hasPrefix .URL "http" }} rel="noopener"{{ end }}>{{ .Name }}</a>
-      {{- end }}
+      <a href="mailto:{{ site.Params.email }}">{{ i18n "nav.contact" }}</a>
     </div>
   </div>
 </nav>

@@ -8,7 +8,7 @@
 
   {{- $items := hugo.Data.mashol.irasok -}}
   {{- if $items }}
-  <ol class="post-list">
+  <ol class="post-list mashol-list">
     {{- range sort $items "ev" "desc" }}
     <li class="post-item">
       <a class="post-item-link" href="{{ .link }}" rel="noopener">

@@ -24,6 +24,9 @@ other = "Archívum"
 ["nav.elsewhere"]
 other = "Máshol"
 
+["nav.contact"]
+other = "Kapcsolat"
+
 ["post.source"]
 other = "Forrás"
 

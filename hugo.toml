@@ -57,7 +57,9 @@ summaryLength = 30
 [params]
   mainSections = ["posts"]
   description = "Olvasónapló a mesterséges intelligenciáról, a megismerésről és a következményeikről."
-  email = "hello@crowintelligence.org"
+  # One address for the whole site, and it is the author's own rather than
+  # Crow's shared inbox.
+  email = "zoltan.varju@crowintelligence.org"
   ogImage = "/assets/og.png"
   crowURL = "https://crowintelligence.org/"
   crowBlogURL = "https://blog.crowintelligence.org/"
@@ -78,28 +80,12 @@ summaryLength = 30
   role = "Kognitív nyelvészet"
   sameAs = ["https://crowintelligence.org/"]
 
-# Site chrome. Crow's five house items; commercial credibility lives over there,
-# and this site links to it and otherwise stays out of the way.
-[[menu.main]]
-  name = "Portfolio"
-  url = "https://crowintelligence.org/portfolio.html"
-  weight = 10
-[[menu.main]]
-  name = "Services"
-  url = "https://crowintelligence.org/services.html"
-  weight = 20
-[[menu.main]]
-  name = "About"
-  url = "https://crowintelligence.org/about.html"
-  weight = 30
-[[menu.main]]
-  name = "Blog"
-  url = "https://blog.crowintelligence.org/"
-  weight = 40
-[[menu.main]]
-  name = "Contact"
-  url = "https://crowintelligence.org/contact.html"
-  weight = 50
+# No [[menu.main]]. The header carried Crow Intelligence's five items —
+# Portfolio / Services / About / Blog / Contact — which made this look like a
+# section of the company site. It is not: it is one person's reading journal,
+# and its navigation is its own three things. Crow is still linked from the
+# footer and from the homepage, where a reader looking for the commercial side
+# will find it.
 
 [services.rss]
   limit = -1

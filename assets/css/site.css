@@ -471,3 +471,14 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 .lost-media a { color: var(--muted); }
 
 .lang-note { color: var(--muted); font-size: var(--fs-small); }
+
+/* The elsewhere list puts the year and the outlet in the date column
+   ("2019 · nyest.hu"), which does not fit the 6.5rem a bare date needs and
+   wraps with the separator left dangling at the end of the first line. */
+.mashol-list .post-item-link { grid-template-columns: 9rem 1fr; }
+.mashol-list .post-item-lede { margin-left: calc(9rem + var(--sp-2)); }
+
+@media (max-width: 62rem) {
+  .mashol-list .post-item-link { grid-template-columns: 1fr; }
+  .mashol-list .post-item-lede { margin-left: 0; }
+}

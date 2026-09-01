@@ -1,20 +1,85 @@
-# Írások, amelyek más felületeken jelentek meg.
-#
-# Csak hivatkozás: a szöveg a kiadójánál marad, ide semmi nem másolódik át.
-# Egy bejegyzés a következő mezőket ismeri:
-#
-#   cim:      a cikk címe                        (kötelező)
-#   hol:      a felület neve, pl. "nyest.hu"     (kötelező)
-#   ev:       megjelenés éve, számként           (kötelező)
-#   link:     az írás URL-je                     (kötelező)
-#   leiras:   egy mondat arról, miről szól       (opcionális)
-#   nyelv:    "hu" vagy "en", ha nem magyar      (opcionális, alap: hu)
-#
-# A lista `ev` szerint csökkenő sorrendben jelenik meg; a sorrend itt lényegtelen.
-#
-# Ez a fájl szándékosan üres. A megjelenéseket nem lehet megbízhatóan
-# összeszedni külső keresésből — a nyest.hu és a Qubit sem ad szerzői listát —,
-# kitalálni pedig nem szabad őket. Ide csak olyan sor kerüljön, aminek az
-# URL-jét valaki megnyitotta.
+irasok:
+  - cim: "Minden nőre legalább két férfi jut az online sajtóban a Budapest-Moszkva-Strasbourg háromszögben"
+    hol: "nyest.hu"
+    ev: 2019
+    link: "https://www.nyest.hu/hirek/minden-nore-legalabb-ket-ferfi-jut-az-online-sajtoban-a-budapest-moszkva-starasbourg-haromszogben"
+    leiras: "A cikk az online sajtó hírfolyamait elemezve mutat rá a nemek megjelenésének aránytalanságára és a jelentős férfidominanciára."
 
-irasok: []
+  - cim: "Apának munkája van, anyának teste"
+    hol: "nyest.hu"
+    ev: 2019
+    link: "https://www.nyest.hu/hirek/apanak-munkaja-van-anyanak-teste"
+    leiras: "A cikk több mint 100 ezer online újságcikk automatikus szövegelemzésével vizsgálja, hogy milyen nemi, etnikai és vallási sztereotípiák jelennek meg a magyar médiában."
+
+  - cim: "Verhetjük-e nyugodtan a robotunkat?"
+    hol: "nyest.hu"
+    ev: 2018
+    link: "https://www.nyest.hu/hirek/verhetjuk-e-nyugodtan-a-robotunkat"
+    leiras: "A szerző a robotokkal és a mesterséges intelligenciával kapcsolatos etikai kérdéseket és az esetleges jövőbeli robotjogok problémakörét járja körbe."
+
+  - cim: "Hogyan tanuljon a mesterséges intelligencia?"
+    hol: "nyest.hu"
+    ev: 2017
+    link: "https://www.nyest.hu/hirek/hogyan-tanuljon-a-mesterseges-intelligencia"
+    leiras: "A cikk azt vizsgálja, hogyan képes egy gép hatékonyan megtanulni a nyelvet, összehasonlítva a deduktív, szabályalapú és a statisztikai, empirikus nyelvleírást."
+
+  - cim: "Egy kép többet mond ezer szónál"
+    hol: "nyest.hu"
+    ev: 2017
+    link: "https://www.nyest.hu/hirek/egy-kep-tobbet-mond-ezer-szonal"
+    leiras: "Az automatikus tartalomelemzés vizualizációs lehetőségeivel, különösen a szófelhők előnyeivel és értelmezési buktatóival foglalkozik."
+
+  - cim: "Fizika a cicás képekért!"
+    hol: "nyest.hu"
+    ev: 2016
+    link: "https://www.nyest.hu/hirek/fizika-a-cicas-kepekert"
+    leiras: "A gépi képfelismerés és a mélytanulás mögött meghúzódó matematikai-fizikai elveket, valamint az algoritmusok működését mutatja be."
+
+  - cim: "Pár dolog, amit tudnod kell mielőtt elveszik a gépek a munkádat"
+    hol: "nyest.hu"
+    ev: 2016
+    link: "https://www.nyest.hu/hirek/par-dolog-amit-tudnod-kell-mielott-elveszik-a-gepek-a-munkadat"
+    leiras: "Az írás a mesterséges intelligencia munkaerőpiacra és társadalomra gyakorolt hatásait, az automatizáció által veszélyeztetett szakmákat és a növekvő egyenlőtlenségeket elemzi."
+
+  - cim: "A gép az ember tükre"
+    hol: "nyest.hu"
+    ev: 2016
+    link: "https://www.nyest.hu/hirek/a-gep-az-ember-tukre"
+    leiras: "A mesterséges intelligencia emberi tulajdonságokat, elfogultságokat és társadalmi sztereotípiákat visszatükröző viselkedésének etikai aspektusait taglalja."
+
+  - cim: "A neurális az új szexi!"
+    hol: "nyest.hu"
+    ev: 2016
+    link: "https://www.nyest.hu/hirek/a-neuralis-az-uj-szexi"
+    leiras: "A neurális hálózatok és a gépi tanulás térhódításáról, valamint ezek nyelvtechnológiai és hétköznapi alkalmazásairól szól."
+
+  - cim: "Morális gépek"
+    hol: "nyest.hu"
+    ev: 2016
+    link: "https://www.nyest.hu/hirek/moralis-gepek"
+    leiras: "Azt a kérdést járja körbe, hogy felruházhatók-e az autonóm rendszerek emberi erkölccsel, és hogyan hozhatnak döntéseket etikai dilemmák esetén."
+
+  - cim: "Using Clojure in Linguistic Computing"
+    hol: "ResearchGate"
+    ev: 2012
+    link: "https://www.researchgate.net/publication/220028786_Using_Clojure_in_Linguistic_Computing"
+    leiras: "The paper examines existing resources for linguistic computing and explains why the Clojure programming language is an ideal tool for educating and researching in the humanities."
+    nyelv: "en"
+
+  - cim: "A szavak titkos élete"
+    hol: "nyest.hu"
+    ev: 2011
+    link: "https://www.nyest.hu/hirek/a-szavak-titkos-elete"
+    leiras: "A Wordnik online szótár példáján keresztül mutatja be, hogyan forradalmasítja a modern számítógépes nyelvészet és a hatalmas korpuszok használata a szavak jelentésének feltérképezését."
+
+  - cim: "Hogyan lehet számítógépes nyelvész?"
+    hol: "nyest.hu"
+    ev: 2011
+    link: "https://www.nyest.hu/hirek/hogyan-lehet-szamitogepes-nyelvesz"
+    leiras: "Forrásokat és gyakorlati tanácsokat nyújt azoknak, akik érdeklődnek a számítógépes nyelvészet iránt, kiemelve a matematika, a statisztika és a programozás fontosságát."
+
+  - cim: "Adatok, filozófia, nyelvészet"
+    hol: "nyest.hu"
+    ev: 2011
+    link: "https://www.nyest.hu/hirek/adatok-filozofia-nyelveszet"
+    leiras: "Bemutatja, hogyan vezetett a weben generált hatalmas mennyiségű adat és azok feldolgozási igénye egy új alkalmazott tudományág, az adatok tudományának megszületéséhez."
