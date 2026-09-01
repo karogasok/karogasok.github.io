@@ -167,9 +167,13 @@ láblécben a Crow közös `hello@` címét is — egy cím van az oldalon, és 
 szerzőé. (A kérésben `.com` szerepelt; a valódi domain a `.org`, a `.com` egy
 üres, parkoltatott domain.)
 
-A Crow továbbra is elérhető a láblécből és a kezdőlap „Ki írja" szakaszából —
-ennyi elég egy oldalon, ami szándékosan nem ügyfélszerző csatorna. Az angol
-nyelvű blog hivatkozása a specifikáció szerint marad a láblécben.
+A Crow két helyen marad: a cím alatti „Powered by Crow Intelligence" soron és a
+lábléc első hivatkozásán. Ennyi elég egy oldalon, ami szándékosan nem
+ügyfélszerző csatorna.
+
+Az angol nyelvű Crow-blog hivatkozása **törölve** a láblécből. Ezt a
+specifikáció §9 még kérte; a szerző utólag máshogy döntött, és az ő oldala.
+A lábléc most: Crow Intelligence · e-mail · CC BY-NC-SA 4.0 · RSS.
 
 A `data/mashol.yaml` már nem üres: **14 tétel**, ebből 13 nyest.hu-cikk
 2011 és 2019 között, plusz egy 2012-es Clojure-tanulmány. Minden URL ellenőrizve;

@@ -65,7 +65,6 @@ summaryLength = 30
   email = "zoltan.varju@crowintelligence.org"
   ogImage = "/assets/og.png"
   crowURL = "https://crowintelligence.org/"
-  crowBlogURL = "https://blog.crowintelligence.org/"
   # The archive's real extent, measured from the exports rather than assumed.
   # Used by the archive note and the year-spine.
   archiveFrom = 2010

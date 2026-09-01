@@ -29,6 +29,13 @@ irasok:
     link: "https://www.nyest.hu/hirek/egy-kep-tobbet-mond-ezer-szonal"
     leiras: "Az automatikus tartalomelemzés vizualizációs lehetőségeivel, különösen a szófelhők előnyeivel és értelmezési buktatóival foglalkozik."
 
+
+  - cim: "K-Monitor: Adatbázis a közpénzek útjáról"
+    hol: "k-monitor.github.io"
+    ev: 2026
+    link: "https://k-monitor.github.io/"
+    leiras: "Egy adatbázis és vizualizációs projekt a közpénzek felhasználásának átláthatóságáért, melyben az adatelemzésben és a beszámoló megírásában vettem részt több önkéntessel."
+
   - cim: "Fizika a cicás képekért!"
     hol: "nyest.hu"
     ev: 2016
