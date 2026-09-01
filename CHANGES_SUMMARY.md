@@ -65,18 +65,13 @@ alapértelmezve.
 
 ## Emberi döntést igényel
 
-1. **`data/mashol.yaml` üres.** A séma dokumentált, a sablon kész, az oldal
-   őszinte üres állapotot mutat. A megjelenéseket nem lehetett megbízhatóan
-   összeszedni (a nyest.hu és a Qubit sem ad szerzői listát), kitalálni pedig
-   nem szabad őket. **Csak olyan sor kerüljön bele, aminek az URL-jét valaki
-   megnyitotta.**
-2. **A pillér-címkék bevezetői.** Öt `_index.md` létezik, üres törzzsel, ezért
+1. **A pillér-címkék bevezetői.** Öt `_index.md` létezik, üres törzzsel, ezért
    listaként jelennek meg. Az első bekezdéstől kezdve automatikusan átváltanak
    hub-módra. Célhossz 1500–2500 szó.
-3. **`sameAs` a schema.org Person csomópontokban.** Jelenleg csak
+2. **`sameAs` a schema.org Person csomópontokban.** Jelenleg csak
    `crowintelligence.org`. Ha van LinkedIn / ORCID / Scholar profil, a
    `hugo.toml` `[[params.authors]]` blokkjába kerül.
-4. **A 11 MB-os animált GIF** a *Magyarország demográfiai változásai*
+3. **A 11 MB-os animált GIF** a *Magyarország demográfiai változásai*
    bejegyzésben. A bejegyzés tartalma, ezért maradt. Nem tömörítettük újra —
    az újrakódolás is szerkesztés.
 
@@ -137,6 +132,28 @@ hozzáadott; ez törli azt, amire már egyetlen bejegyzés sem hivatkozik.
 Mérve: 364 bejegyzés változatlan (306 + 58). A törzsszöveg 1066 szóval lett
 kevesebb, ami pontosan a 31 widget. Képkönyvtár 138 fájl / 38 MB → **96 / 32 MB,
 mind kép**. Mindhárom PDF-hivatkozás az eredeti URL-jén, mindhárom él.
+
+---
+
+## A fejléc és a „Máshol" lista
+
+A fejléc eredetileg a Crow Intelligence öt menüpontját vitte tovább (Portfolio /
+Services / About / Blog / Contact). Ez félrevezető volt: ettől úgy nézett ki,
+mintha a cégoldal egyik aloldala lenne, holott ez egy személyes olvasónapló.
+A navigáció most a saját három pontja: **Archívum, Máshol, Kapcsolat**.
+
+A Kapcsolat `mailto:zoltan.varju@crowintelligence.org`, és ez az e-mail váltja a
+láblécben a Crow közös `hello@` címét is — egy cím van az oldalon, és az a
+szerzőé. (A kérésben `.com` szerepelt; a valódi domain a `.org`, a `.com` egy
+üres, parkoltatott domain.)
+
+A Crow továbbra is elérhető a láblécből és a kezdőlap „Ki írja" szakaszából —
+ennyi elég egy oldalon, ami szándékosan nem ügyfélszerző csatorna. Az angol
+nyelvű blog hivatkozása a specifikáció szerint marad a láblécben.
+
+A `data/mashol.yaml` már nem üres: **14 tétel**, ebből 13 nyest.hu-cikk
+2011 és 2019 között, plusz egy 2012-es Clojure-tanulmány. Minden URL ellenőrizve;
+mind él, kivéve a ResearchGate-et, ami böngészőn kívül mindenre 403-at ad.
 
 ---
 
