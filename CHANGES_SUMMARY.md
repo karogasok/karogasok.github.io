@@ -107,6 +107,39 @@ alapértelmezve.
 
 ---
 
+## Utólagos javítás: a Jetpack adománygyűjtő blokkja
+
+Az 58 importált WordPress-bejegyzésből **31 a szerző utolsó bekezdése után**
+hordozta a Jetpack adománygyűjtő widgetjét („Make a one-time donation / Your
+contribution is appreciated. / Donate", három változatban). Ez kikerült.
+
+Ez nem szerkesztés: a platform tette a szöveg alá. Ugyanaz a kategória, mint a
+megszűnt Zemanta widget képei, amiket az importer eddig is eldobott. Az illesztés
+a WordPress saját blokk-határolóira megy (`wp:jetpack/donations`), nem az angol
+szövegre, és nem fut le, ha a nyitó és záró jelölés nem stimmel.
+
+**A widget egy súlyosabb hibát is felszínre hozott.** Minden „Donate" gomb a
+bejegyzés saját permalinkjére mutatott, a médialetöltő pedig minden
+saját-tárhelyes URL-t letöltött, függetlenül attól, mi jött vissza, és `.jpg`
+néven mentette. A képkönyvtárban **42 fájl volt, ami nem kép**: 39 HTML oldal és
+3 PDF, ~6 MB. Ebből **11 élő törött hivatkozás** volt — nyolc blogoldal és három
+tanulmány, köztük Norvig *Unreasonable Effectiveness of Data* cikke.
+
+Javítva: a letöltés csak akkor marad meg, ha a `Content-Type` `image/*`, és a
+kiterjesztés is ebből jön, nem az URL-ből; minden más az eredeti URL-jén marad.
+A `SELF_HOSTED` lista már nem illeszkedik a csupasz `googleusercontent.com` és
+`files.wordpress.com` hostokra, mert azok nem képtárhelyek, hanem mindenki
+fájljait kiszolgáló CDN-ek.
+
+Új: `scripts/prune_media.py` (`make prune-media`) — az import eddig csak
+hozzáadott; ez törli azt, amire már egyetlen bejegyzés sem hivatkozik.
+
+Mérve: 364 bejegyzés változatlan (306 + 58). A törzsszöveg 1066 szóval lett
+kevesebb, ami pontosan a 31 widget. Képkönyvtár 138 fájl / 38 MB → **96 / 32 MB,
+mind kép**. Mindhárom PDF-hivatkozás az eredeti URL-jén, mindhárom él.
+
+---
+
 ## Ellenőrzések, amiket a build futtat
 
 `scripts/check_build.sh` — a deploy elbukik, ha bármelyik sérül:
