@@ -77,6 +77,7 @@ Az importereknek nincs függőségük: sima `python3` elég hozzájuk.
 ```sh
 make import-blogspot     # 306 bejegyzés, 2010–2013
 make import-wordpress    # osztályozás + manifeszt, NEM ír fájlt
+make import-kereses      # Kereső Világ: csak lead + hivatkozás
 ```
 
 **A WordPress-import szándékosan nem ír semmit az első futásra.** Osztályoz,
@@ -107,6 +108,42 @@ Amit tudni érdemes róluk:
   oldalakat és PDF-eket is letöltött `.jpg` néven, amitől azok a hivatkozások
   eltörtek. Ami nem kép, az marad az eredeti URL-jén.
 - **Az archívumot nem szerkesztjük.** Se javítás, se rövidítés, se válogatás.
+
+### Kereső Világ — ami nem a miénk
+
+A `make import-kereses` **nem importál**. A szerző 2011 és 2018 között a
+[Kereső Világ](https://kereses.blog.hu/) blogra írt, a Precognox
+alkalmazottjaként; **azok a szövegek a céghez tartoznak.** A script ezért csak
+egy listát állít elő `data/kereses.yaml` néven: cím, dátum, a blog saját ajánlója
+(lead) és a hivatkozás. Teljes szöveg nem kerül át, és **saját oldalt sem
+kapnak** — az archívum listájában és az évsávban jelennek meg, a címük pedig
+egyenesen a blogra mutat.
+
+Miért nincs saját oldaluk: több száz vékony oldal jönne létre valaki más
+ajánlójával, mindegyik a saját eredetijével versenyezve a találati listán, és
+mindegyiknek magától elfelé mutató canonical kellene. Egy listasor semmit nem
+tárol, és minden olvasót az eredetihez küld.
+
+A szűrés a szerző blog.hu **user ID-je** (555969) alapján történik, nem név vagy
+évszám alapján: a blog csoportblog volt, a szerzőség a tényleges szempont, egy
+azonosítót pedig nem lehet elgépelni. A leadeket 300 karakternél elvágjuk — egy
+nagyon rövid bejegyzésnél az `og:description` maga a teljes szöveg lenne.
+
+A letöltött oldalak a `scripts/raw/kereses/` alatt cache-elődnek, így az
+újrafuttatás nem terheli a blogot.
+
+**A teljesség ellenőrizve, és az ellenőrzés be van építve.** A sitemap egy
+udvariassági fájl: ha valaha megcsonkulna, az import csendben kevesebb
+bejegyzést hozna, és semmi nem látszana rosszul. Ezért a script lekéri a blog
+`/archive` oldalát is, ami hetenként egy hivatkozást sorol fel — ez a blog saját
+állítása arról, mi létezik —, és megnézi, hogy minden meghirdetett héthez
+tartozik-e begyűjtött bejegyzés. Jelenleg **479 hét, mind lefedve**.
+
+Az összevetés dátum alapján megy, nem hétsorszám alapján: a blog.hu másképp
+számozza a heteket, mint az ISO 8601 (van `w0`-ja, és egy december 31-i
+bejegyzés a következő év első ISO hetébe esik). Egy hiányzó hét figyelmeztetést
+ad a hét kattintható URL-jével, de nem állítja meg a futást — több hét egyszerre
+viszont valódi csonkulást jelez.
 
 ### Ami elveszett
 

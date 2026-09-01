@@ -24,12 +24,32 @@ items=$(grep -c '<item>' "$feed" || true)
 archive_in_feed=$(grep -c '/archivum/' "$feed" || true)
 posts=$(find "$root/content/posts" -name '*.md' ! -name '_index.md' | wc -l)
 
+# The Kereső Világ entries are somebody else's writing, shown here as a lead and
+# a link. They must never be syndicated as though they were this site's posts.
+external_in_feed=$(grep -c 'kereses.blog.hu' "$feed" || true)
+
 if [ "$archive_in_feed" -ne 0 ]; then
   echo "FAIL  feed: $archive_in_feed archive URLs in public/index.xml" >&2
   echo "      layouts/index.rss.xml must filter to the posts section only." >&2
   fail=1
+elif [ "$external_in_feed" -ne 0 ]; then
+  echo "FAIL  feed: $external_in_feed kereses.blog.hu URLs in public/index.xml" >&2
+  echo "      Those posts are not ours to syndicate." >&2
+  fail=1
 else
-  echo "OK    feed: $items items, no archive URLs (from $posts post files)"
+  echo "OK    feed: $items items, no archive or external URLs (from $posts post files)"
+fi
+
+# Those entries must also not have become pages of their own.
+# `|| true` because grep exits 1 when it matches nothing, and pipefail would
+# turn "no such pages exist" — the result we want — into a failed script.
+ext_pages=$( { grep -rl 'rel=canonical href=https://kereses.blog.hu' "$public" --include='*.html' 2>/dev/null || true; } | wc -l)
+if [ "$ext_pages" -ne 0 ]; then
+  echo "FAIL  external: $ext_pages page(s) built for kereses.blog.hu content" >&2
+  echo "      Those are link-only entries in data/kereses.yaml, not content." >&2
+  fail=1
+else
+  echo "OK    external: no pages built for content the author does not own"
 fi
 
 # 2. A future publishDate stays out of the built site.

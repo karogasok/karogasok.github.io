@@ -5,7 +5,7 @@
 HUGO ?= hugo
 DATE := $(shell date +%Y-%m-%d)
 
-.PHONY: help new serve build check clean fonts import-blogspot import-wordpress prune-media
+.PHONY: help new serve build check clean fonts import-blogspot import-wordpress import-kereses prune-media
 
 help:
 	@echo "make new t=\"a bejegyzés címe\"   új bejegyzés a mai dátummal"
@@ -15,6 +15,7 @@ help:
 	@echo "make fonts                       betűkészletek újratöltése"
 	@echo "make import-blogspot             Blogspot archívum importálása"
 	@echo "make import-wordpress            WordPress archívum importálása"
+	@echo "make import-kereses              Kereső Világ bejegyzések listája"
 	@echo "make prune-media                 hivatkozatlan archív képek törlése"
 
 # One command to start a post. The filename carries the date so the directory
@@ -43,6 +44,11 @@ import-blogspot:
 
 import-wordpress:
 	python3 scripts/import_wordpress.py
+
+# Nem importál, csak listáz: a Kereső Világ tartalma nem a szerzőé, ezért
+# ebből csak lead + hivatkozás kerül a data/kereses.yaml fájlba.
+import-kereses:
+	python3 scripts/import_kereses.py
 
 # An import only ever adds files. This is the other half: anything in
 # static/archivum/img/ that no post mentions any more gets removed.

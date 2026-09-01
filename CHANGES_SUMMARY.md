@@ -181,6 +181,37 @@ mind él, kivéve a ResearchGate-et, ami böngészőn kívül mindenre 403-at ad
 
 ---
 
+## Kereső Világ (kereses.blog.hu) — 401 bejegyzés, hivatkozásként
+
+A szerző 2011 és 2018 között a Kereső Világ blogra írt, a Precognox
+alkalmazottjaként. **Az a tartalom nem az övé**, ezért ebből semmi nem került át:
+`data/kereses.yaml` csak címet, dátumot, a blog saját ajánlóját (lead, 300
+karakterben maximálva) és a hivatkozást tárol. **401 bejegyzés**, 2011–2018.
+
+Ezek **nem kapnak saját oldalt.** Az archívum listájában és az évsávban
+jelennek meg, a címük egyenesen a blogra mutat. Több száz vékony oldal jönne
+létre valaki más ajánlójával, mindegyik a saját eredetijével versenyezve a
+találati listán, és mindegyiknek magától elfelé mutató canonical kellene. Egy
+listasor semmit nem tárol, és minden olvasót az eredetihez küld.
+
+A szűrés a szerző blog.hu **user ID-je** (555969) alapján megy, nem név vagy
+dátum alapján — a blog csoportblog volt (8 szerző), és egy azonosítót nem lehet
+elgépelni. Ellenőrizve: nincs másik Varjú-fiók.
+
+**A sitemap teljessége ellenőrizve, és az ellenőrzés beépítve** az importerbe:
+a `/archive` 479 hetet hirdet meg, és mind a 479-hez tartozik begyűjtött
+bejegyzés. Kézzel is ellenőrizve 32 hét / 62 bejegyzés — egy sem hiányzott.
+
+Ezzel a 2014–2018 közötti rés eltűnt az évsávról. 2019 továbbra is üres, mert
+abban az évben tényleg nem született bejegyzés. Az archívum bevezetője kimondja,
+hogy **ez nem a szerző írásainak teljes archívuma**: ami az övé, teljes egészében
+megvan; ami nem az övé, arra csak mutatunk.
+
+Két új build-ellenőrzés: nem kerülhet `kereses.blog.hu` URL a feedbe, és nem
+épülhet oldal olyan tartalomhoz, ami nem a szerzőé.
+
+---
+
 ## Ellenőrzések, amiket a build futtat
 
 `scripts/check_build.sh` — a deploy elbukik, ha bármelyik sérül:

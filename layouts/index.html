@@ -70,7 +70,11 @@
     <h2>{{ i18n "home.archive" }}</h2>
     <p class="note">{{ (site.GetPage "/archivum").Params.osszefoglalo }}</p>
     {{ partial "year-spine.html" . }}
-    <p class="more"><a href="{{ "/archivum/" | relURL }}">{{ i18n "archive.browse" }} ({{ len . }})</a></p>
+    {{- /* Both kinds counted: the archive page lists the author's own posts and
+           the Kereső Világ links together, so the number on the way in has to
+           match the number once there. */ -}}
+    {{- $total := len . }}{{ with hugo.Data.kereses }}{{ $total = add $total (len .irasok) }}{{ end }}
+    <p class="more"><a href="{{ "/archivum/" | relURL }}">{{ i18n "archive.browse" }} ({{ $total }})</a></p>
   </section>
   {{- end }}
 

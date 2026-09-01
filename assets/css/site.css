@@ -487,6 +487,29 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 
 .lang-note { color: var(--muted); font-size: var(--fs-small); }
 
+/* Text for screen readers only. Used to say "external link" on archive rows
+   that leave the site, where sighted readers get the ↗ instead. */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* An archive row that points at Kereső Világ. There is no page behind it, so it
+   carries its source and its lead: a reader has to be able to tell, before
+   clicking, that this one leaves the site and what it is about. */
+.post-item.is-external .post-item-date { display: block; }
+.ext-source {
+  display: block;
+  color: var(--accent);
+  margin-top: 2px;
+}
+.ext-mark { margin-left: 0.35em; color: var(--muted); font-size: 0.85em; }
+.post-item.is-external .post-item-link:hover .ext-mark { color: var(--accent); }
+
 /* The elsewhere list puts the year and the outlet in the date column
    ("2019 · nyest.hu"), which does not fit the 6.5rem a bare date needs and
    wraps with the separator left dangling at the end of the first line. */

@@ -92,6 +92,12 @@ other = "Archív bejegyzés. Eredetileg itt jelent meg, szerkesztetlenül áteme
 ["archive.original_date"]
 other = "Eredeti megjelenés"
 
+["archive.external_source"]
+other = "Kereső Világ"
+
+["archive.external_link"]
+other = "a teljes bejegyzés a Kereső Világ blogon"
+
 ["archive.old_tags"]
 other = "Eredeti címkék"
 

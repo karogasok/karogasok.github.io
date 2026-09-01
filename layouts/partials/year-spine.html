@@ -22,6 +22,16 @@
     {{- $byYear = merge $byYear (dict $y (add (int (index $byYear $y | default 0)) 1)) -}}
   {{- end -}}
 {{- end -}}
+{{- /* The Kereső Világ entries count too. They are the reason 2014-2018 is not
+       empty: the writing carried on through those years, it just carried on
+       somewhere the author does not own. A spine that showed a gap there would
+       be drawing a break that never happened. */ -}}
+{{- with hugo.Data.kereses -}}
+  {{- range .irasok -}}
+    {{- $y := substr .datum 0 4 -}}
+    {{- $byYear = merge $byYear (dict $y (add (int (index $byYear $y | default 0)) 1)) -}}
+  {{- end -}}
+{{- end -}}
 {{- if $byYear -}}
 {{- $years := slice -}}
 {{- range $y, $n := $byYear }}{{ $years = $years | append (int $y) }}{{ end -}}

@@ -1,24 +1,69 @@
 {{ define "main" }}
+{{- /* The archive holds two different kinds of thing, deliberately interleaved.
+
+       Local entries are posts the author owns, imported in full and rendered as
+       pages here. External entries are his Kereső Világ posts, which he wrote as
+       an employee and does not own: those are a lead and a link, they have no
+       page on this site, and their title goes straight to the original.
+
+       Mixing them is the point — the writing was continuous even though the
+       ownership is not, and a reader looking at the decade should see that.
+       Which is his and which is not is said on every row that needs it. */ -}}
+{{- $rows := slice -}}
+{{- range .Pages -}}
+  {{- $rows = $rows | append (dict
+        "sort" (.Date.Format "2006-01-02")
+        "year" (.Date.Format "2006")
+        "date" .Date
+        "title" .Title
+        "url" .RelPermalink
+        "external" false
+        "lead" "") -}}
+{{- end -}}
+{{- with hugo.Data.kereses -}}
+  {{- range .irasok -}}
+    {{- $d := time.AsTime .datum -}}
+    {{- $rows = $rows | append (dict
+          "sort" .datum
+          "year" ($d.Format "2006")
+          "date" $d
+          "title" .cim
+          "url" .link
+          "external" true
+          "lead" (.lead | default "")) -}}
+  {{- end -}}
+{{- end -}}
+{{- $rows = sort $rows "sort" "desc" -}}
+{{- $years := slice -}}
+{{- range $rows }}{{ if not (in $years .year) }}{{ $years = $years | append .year }}{{ end }}{{ end -}}
+
 <div class="listing">
   <header class="post-head">
     <h1>{{ .Title }}</h1>
   </header>
-  {{- /* One standing note, and it says what is actually true of these files
+  {{- /* One standing note, and it says what is actually true of these entries
          rather than what would be tidier. */}}
   <div class="prose archive-standing">{{ .Content }}</div>
 
   {{ partial "year-spine.html" . }}
 
-  {{- range .Pages.ByDate.Reverse.GroupByDate "2006" }}
-  <section class="archive-year" id="{{ .Key }}">
-    <h2>{{ .Key }} <span class="archive-year-n">{{ len .Pages }} {{ i18n "post.count" }}</span></h2>
+  {{- range $y := $years }}
+  {{- $inYear := where $rows "year" $y }}
+  <section class="archive-year" id="{{ $y }}">
+    <h2>{{ $y }} <span class="archive-year-n">{{ len $inYear }} {{ i18n "post.count" }}</span></h2>
     <ol class="post-list is-dense">
-      {{- range .Pages }}
-      <li class="post-item">
-        <a class="post-item-link" href="{{ .RelPermalink }}">
-          <time class="post-item-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
-          <span class="post-item-title">{{ .Title }}</span>
+      {{- range $inYear }}
+      <li class="post-item{{ if .external }} is-external{{ end }}">
+        <a class="post-item-link" href="{{ .url }}"{{ if .external }} rel="noopener"{{ end }}>
+          <span class="post-item-date">
+            <time datetime="{{ .date.Format "2006-01-02" }}">{{ .date | time.Format ":date_medium" }}</time>
+            {{- if .external }}<span class="ext-source">{{ i18n "archive.external_source" }}</span>{{ end }}
+          </span>
+          <span class="post-item-title">{{ .title }}{{ if .external }}<span class="ext-mark" aria-hidden="true">↗</span><span class="sr-only"> — {{ i18n "archive.external_link" }}</span>{{ end }}</span>
         </a>
+        {{- /* The lead only appears on external rows, because they are the only
+               ones a reader cannot open here to find out what they are. */}}
+        {{- with .lead }}<p class="post-item-lede">{{ . }}</p>{{ end }}
       </li>
       {{- end }}
     </ol>
