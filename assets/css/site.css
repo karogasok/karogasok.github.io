@@ -346,14 +346,14 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 .home { display: block; max-width: none; }
 .home-head { margin-bottom: var(--sp-6); }
 .home-title { font-size: clamp(2.4rem, 7vw, 4rem); margin-bottom: var(--sp-2); }
-.home-lede {
+.bio-lede {
   font-family: var(--text);
   font-size: 1.2rem;
   color: var(--muted);
   max-width: 46ch;
   margin: 0;
 }
-.home-lede a { color: var(--accent); }
+.bio-lede a { color: var(--accent); }
 
 /* A credit line, not part of the bio. Set in the same small tracked Archivo as
    every other piece of metadata on the site, so it reads as an attribution

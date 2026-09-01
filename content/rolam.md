@@ -1,12 +1,13 @@
 ---
 title: "Rólam"
+bio: true
 ---
 
 Mesterséges intelligenciával, számítógépes nyelvészettel (aka
 természetesnyelv-feldolgozás), szöveganalitikával és kereséssel foglalkozok már
 több mint húsz éve.
 
-Jelenleg a Crow Intelligence keretein belül foglalkozok tanácsadással. Korábban
+Jelenleg a [Crow Intelligence](https://crowintelligence.org/) keretein belül foglalkozok tanácsadással. Korábban
 a SEON által felvásárolt [Complytron](https://www.forbes.hu/uzlet/complytron-seon-exit-hiventures-lebhardt/)
 egyik alapítója és technológiai vezetője voltam, még régebben a
 [Precognox](https://precognox.com/) adatos csapatát építettem és vezettem.

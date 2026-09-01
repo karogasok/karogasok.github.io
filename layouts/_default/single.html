@@ -1,6 +1,11 @@
 {{ define "main" }}
 <article class="page">
-  <header class="post-head"><h1>{{ .Title }}</h1></header>
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+    {{- /* Opt-in: a page sets `bio: true` to carry the same one-line
+           introduction the homepage opens with, rather than restating it. */}}
+    {{ if .Params.bio }}{{ partial "bio-lede.html" . }}{{ end }}
+  </header>
   <div class="prose">{{ .Content }}</div>
 </article>
 {{ end }}

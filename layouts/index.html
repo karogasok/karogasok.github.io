@@ -7,13 +7,9 @@
          the first thing a reader arriving cold — an editor, a conference
          organiser — needs, and it used to be seven screens down under a "Ki
          írja" heading. */ -}}
-  {{- $author := index site.Params.authors 0 -}}
   <header class="home-head">
     <h1 class="home-title">{{ site.Title }}</h1>
-    <p class="home-lede">
-      <a href="{{ $author.profile }}" rel="noopener">{{ $author.key }}</a>
-      {{ i18n "home.bio" }}
-    </p>
+    {{ partial "bio-lede.html" . }}
     <p class="home-credit">
       {{ i18n "home.powered_by" }}
       <a href="{{ site.Params.crowURL }}" rel="noopener">{{ i18n "footer.crow" }}</a>

@@ -1,0 +1,12 @@
+{{- /* The one-line bio, with the author's name linking to his profile.
+
+       Shared by the homepage header and the Rólam page so the sentence exists
+       once. The words come from the i18n table and the name from the config;
+       partials/site-description.html joins the same two into the plain string
+       the meta description, the OG card, the RSS channel and the schema.org
+       Blog node use. Four renderings, one source. */ -}}
+{{- $author := index site.Params.authors 0 -}}
+<p class="bio-lede">
+  <a href="{{ $author.profile }}" rel="noopener">{{ $author.key }}</a>
+  {{ i18n "home.bio" }}
+</p>
