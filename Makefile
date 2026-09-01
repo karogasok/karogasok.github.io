@@ -5,7 +5,7 @@
 HUGO ?= hugo
 DATE := $(shell date +%Y-%m-%d)
 
-.PHONY: help new serve build check clean fonts import-blogspot import-wordpress
+.PHONY: help new serve build check clean fonts import-blogspot import-wordpress prune-media
 
 help:
 	@echo "make new t=\"a bejegyzés címe\"   új bejegyzés a mai dátummal"
@@ -15,6 +15,7 @@ help:
 	@echo "make fonts                       betűkészletek újratöltése"
 	@echo "make import-blogspot             Blogspot archívum importálása"
 	@echo "make import-wordpress            WordPress archívum importálása"
+	@echo "make prune-media                 hivatkozatlan archív képek törlése"
 
 # One command to start a post. The filename carries the date so the directory
 # sorts chronologically; the URL does not use it.
@@ -42,6 +43,11 @@ import-blogspot:
 
 import-wordpress:
 	python3 scripts/import_wordpress.py
+
+# An import only ever adds files. This is the other half: anything in
+# static/archivum/img/ that no post mentions any more gets removed.
+prune-media:
+	python3 scripts/prune_media.py
 
 clean:
 	rm -rf public resources/_gen

@@ -33,28 +33,6 @@ Dermot Turing saját nagybátyja életrajzát írta meg Hodges könyvénél sokk
 
 Turing az Engima feltörésével a második világháborút megnyerő, de legalábbis lerövidítő hősként vonult be a köztudatba. Érdemes azonban ezek mögé nézni. Már a haború előtt is nagyot alkotott (Turing-gép) és ezen munkássága alapozva lett az Engima megfejtésén dolgozó csapat egyik vezéralakja, aki tkp. a a bayesiánus statisztika számítógépes alkalmazásának úttörője lett. Nem foglalkozott a háború végéig az Engimával, áttért a beszéd titkosítására. A háború után a brit számítógépek fejlesztésében vette ki a részét, majd az élővilág és a matematika kapcsolat kezdte izgatni. És nem feletkezhetünk meg egyetlen filozófiai tanulmányáról, amiben a híres-hírhedt Turing-tesztet írta le és a gépi intelligencia kérdését járta körül.
 
-Az Engima megfejtése önmagában is érdekes, mivel igazi összehangolt csapatmunka volt. Nem mellesleg kellet hozzá a lengyel kódfejtők előzetes munkája, érdeklődése a mechanikus számítógépek iránt és Turing lángelméje. Erről bővebben [egy korábbi posztunkban már írtunk](/archivum/img/0bd03849c3051116.jpg).
+Az Engima megfejtése önmagában is érdekes, mivel igazi összehangolt csapatmunka volt. Nem mellesleg kellet hozzá a lengyel kódfejtők előzetes munkája, érdeklődése a mechanikus számítógépek iránt és Turing lángelméje. Erről bővebben [egy korábbi posztunkban már írtunk](https://blog.crowintelligence.org/hu/2021/06/17/enigma-az-adattudomany-mindig-is-csapatmunka-volt/).
 
 Érdemel-e egy utcanevet az, akinek elévülhetetlen érdemei vannak a második világháború lerövidítésében, a modern számítástudomány megalkotásában? Ez nyilvánvalóan csak annak kérdés, aki nincs tisztában a történelmi tényekkel és képtelen túllépni saját korlátoltságán.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/4fd58af73a056978.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/4fd58af73a056978.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/4fd58af73a056978.jpg)

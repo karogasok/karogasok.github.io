@@ -9,7 +9,7 @@ forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2023/02/15/a-chatgpt-mindent-megvaltoztat/"
 ---
 
-Itt a ChatGPT és tényleg mindenki evvel foglalkozik. Egyesek szerint minden meg fog változni, a Google az [Altavista](https://en.wikipedia.org/wiki/AltaVista) sorsára jut, [mások szerint a Kodak-sztori ismétlődik meg](https://telex.hu/holdblog/2023/02/14/chatgpt-a-kodak-szindroma) és [van aki szerint a Google LaMDA nyelvmodellje érző lény](/archivum/img/c49ffdb37693d3f9.jpg). Joggal merül fel a lakossági kérdés; akkor most mi van?
+Itt a ChatGPT és tényleg mindenki evvel foglalkozik. Egyesek szerint minden meg fog változni, a Google az [Altavista](https://en.wikipedia.org/wiki/AltaVista) sorsára jut, [mások szerint a Kodak-sztori ismétlődik meg](https://telex.hu/holdblog/2023/02/14/chatgpt-a-kodak-szindroma) és [van aki szerint a Google LaMDA nyelvmodellje érző lény](https://blog.crowintelligence.org/2022/06/23/sentient-machines-stochastic-parrots-and-the-ghost-in-the-shell/). Joggal merül fel a lakossági kérdés; akkor most mi van?
 
 ![](/archivum/img/9d2610cc846e48d1.png)
 
@@ -47,28 +47,6 @@ Nem akarjuk tagadni, hogy nagy dolog a ChatGPT. Az azonban biztos, hogy nem önm
 
 1. Ha a nyelvmodellek szabadon elérhető korpuszokból tanulnak és a keresők már nem is vezetnek el az információ forrásához, akkor mi értelme van szabadon publikálni bármit? Az ingyenes minőségi tartalom mindig is illúzió volt - leszámítva talán a tudományt és a technikát. A Forbes, a Financial Times, vagy akár hazánkban a HVG és a hozzá hasonló lokális oldalak tartalmai, melyek hiteles, ellenőrzött információt közvetítenek nem hozzáférhetőek sem a keresőknek, sem a chatbotoknak. A digitalizált tartalmakat (pl a Google Books, vagy az Amazon ekönyvei), amiko jogdíjasok, de a cégek rendelkezésére állnak be lehet-e vonni a tanítókorpuszokba?
 
-1. Jelenleg is már működnek újságcikkeket és pénzügyi beszámolókat író programok. Ezek nem az oknyomozó újságírók, a véleménycikkek vagy a mélyelemzések íróinak munkáját vették el, hanem a napi robotot, a mínuszos híreket, az ismétlődő feladatokat vették át (erről bővebben [ebben a könyvben](https://www.hup.harvard.edu/catalog.php?isbn=9780674976986)). S[aját mesekönyvet írt egy magyar anyuka a ChatGPT segítségével](https://www.hwsw.hu/hirek/65632/chatgpt-mesekonyv-bereczkinora-mestersegesintelligencia-szovegiras-midjourney.html). De ha jobban elmélyülünk a linkelt cikkben kiderül, hogy a generált szöveg javításra és szerkesztésre szorult, no meg általában több szövegváltozat közül került kiválasztásra a végső verzió. Hasonló a helyzet a kódgeneráló nyelvmodellekkel. Magát a ChatGPT-t is többen kipróbálták már és a tapasztalat szerint a kód amit specifikáció szerint generál egész használható, egy kompetens programozó által gyorsan jóvá is alakítható (l. pl [itt](https://www.kdnuggets.com/2023/01/chatgpt-python-programming-assistant.html) és [itt](https://andresberejnoi.com/chatgpt-how-to-use-it-to-write-python-code/)). Saját tapasztalatunk szerint a GitHub Copilot nevű, kifejezetten programozási nyelveken betanított nyelvmodellje nagyon jól használható, de nem helyettesít egy kollégát. Úgy tűnik, [a Superminds jóslata](/archivum/img/e89e57fe5e6c41db.jpg) válik inkább be és a nagy nyelvmodellekkel sokkal hatékonyabban tudunk dolgozni.
+1. Jelenleg is már működnek újságcikkeket és pénzügyi beszámolókat író programok. Ezek nem az oknyomozó újságírók, a véleménycikkek vagy a mélyelemzések íróinak munkáját vették el, hanem a napi robotot, a mínuszos híreket, az ismétlődő feladatokat vették át (erről bővebben [ebben a könyvben](https://www.hup.harvard.edu/catalog.php?isbn=9780674976986)). S[aját mesekönyvet írt egy magyar anyuka a ChatGPT segítségével](https://www.hwsw.hu/hirek/65632/chatgpt-mesekonyv-bereczkinora-mestersegesintelligencia-szovegiras-midjourney.html). De ha jobban elmélyülünk a linkelt cikkben kiderül, hogy a generált szöveg javításra és szerkesztésre szorult, no meg általában több szövegváltozat közül került kiválasztásra a végső verzió. Hasonló a helyzet a kódgeneráló nyelvmodellekkel. Magát a ChatGPT-t is többen kipróbálták már és a tapasztalat szerint a kód amit specifikáció szerint generál egész használható, egy kompetens programozó által gyorsan jóvá is alakítható (l. pl [itt](https://www.kdnuggets.com/2023/01/chatgpt-python-programming-assistant.html) és [itt](https://andresberejnoi.com/chatgpt-how-to-use-it-to-write-python-code/)). Saját tapasztalatunk szerint a GitHub Copilot nevű, kifejezetten programozási nyelveken betanított nyelvmodellje nagyon jól használható, de nem helyettesít egy kollégát. Úgy tűnik, [a Superminds jóslata](https://blog.crowintelligence.org/2020/10/16/must-read-business-books-for-ai-practitioners-with-bonus-titles/) válik inkább be és a nagy nyelvmodellekkel sokkal hatékonyabban tudunk dolgozni.
 
 Úgy gondoljuk, jelenleg a legokosabb dolog kivárni és tudatosan megkövetelni a terület szabályozását. A Galactica példája mutatja, hogy nagyon gyorsan földbe tud állni egy-egy LLM alapú chatbot. De amíg aktív, addig konkrét hülyeségeket tud terjeszteni.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/26ee574893a9c987.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/26ee574893a9c987.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/26ee574893a9c987.jpg)

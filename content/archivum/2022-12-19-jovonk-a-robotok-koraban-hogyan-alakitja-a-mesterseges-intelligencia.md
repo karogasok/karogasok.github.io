@@ -21,25 +21,3 @@ Manapság már tényleg mindenki a mesterséges intelligenciáról beszél, néh
 A kötet számunkra legizgalmasabb része a kínai megfigyelő államről szóló fejezet. Nagyon szimpatikus Ford érvelése, miszerint a demokráciáknak folyamatosan reflektálniuk kell a totalitárius államokban megfigyelhető technológiai elnyomásra és demokratikus kontrollt kell gyakorolniuk a technológia felett.
 
 Martin Ford könyvét csak ajánlani tudjuk, annak ellenére hogy nem értjük miért adott a HVG Kiadó csapnivaló magyar címet neki (és nagyon sok más náluk megjelenő könyvnek is). Az eredeti, *Rule of the Robot*, cím találóbbnak tűnik, a magyar cím mindenképpen vissza akar utalni a szerző korábbi, magyarul *A robotok kora* (eredetiben *Rise of the Robots*) címen megjelent művére. Szerencsére ettől eltekintve a fordítás jól sikeredett, a technikai lingó magyarítása sem biceg nagyon. A *[Jövőnk a robotok korában](https://hvgkonyvek.hu/konyv/jovonk-a-robotok-koraban)* olvasmányosan vezet végig az egyes témákon, talán egyetlen hibája, hogy túl sokat hivatkozik a szerző *Architects of Intelligence* című könyvére, amiben az AI "sztárjaival" beszélgetett (és talán még a most tárgyalt kötetnél is jobban ajánljuk olvasóink figyelmébe).
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/3dc7136816d19b92.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/3dc7136816d19b92.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/3dc7136816d19b92.jpg)

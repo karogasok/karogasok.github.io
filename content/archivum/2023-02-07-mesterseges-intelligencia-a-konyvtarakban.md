@@ -14,25 +14,3 @@ canonical: "https://blog.crowintelligence.org/hu/2023/02/07/mesterseges-intellig
 Regisztrációs link: [https://forms.office.com/e/De6kAFnZwW](https://forms.office.com/e/De6kAFnZwW)
 
 ![](/archivum/img/4b5784974810aea6.jpg)
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/c36f234a8d5838b0.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/c36f234a8d5838b0.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/c36f234a8d5838b0.jpg)

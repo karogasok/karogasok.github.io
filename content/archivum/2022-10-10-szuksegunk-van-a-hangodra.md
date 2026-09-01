@@ -34,25 +34,3 @@ Ha a "Figyeljen" fület választjuk, akkor a mások által felolvasott mondatok 
 ![](/archivum/img/0e4a7c8b40b0f54e.png)
 
 Az adatkészlet adatlapja alapján jelenleg 22 ellenőrzött óra van a korpuszban. Ez lehetne jobb is, ehhez pedig sok-sok önkéntes segítségére van szüksége a projektnek. A segítséghez nem kell más mint egy számítógép, internet kapcsolat, mikrofon és fülhallgató (vagy hangszóró)
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/d840da6e829ae6dc.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/d840da6e829ae6dc.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/d840da6e829ae6dc.jpg)

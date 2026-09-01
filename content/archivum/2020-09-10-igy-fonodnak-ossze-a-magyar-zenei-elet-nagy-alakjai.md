@@ -20,7 +20,7 @@ regi_cimkek_mind:
   - "zene"
 ---
 
-A magyar könnyűzenei élet tele van meglepetésekkel. Ki gondolná például, hogy az 1950-es évek óta több mint 10 000 ember neve került fel a dalszerzők listájára? És azt, hogy Szenes Iván minden idők legmeghatározóbb zenei figurája? Miután megvizsgáltuk [a magyar pop slágerek leggyakoribb szavait](/archivum/img/c9c0e447d24923f0.jpg), ezúttal arra voltunk kíváncsiak, hogy ki kivel dolgozik együtt legszívesebben a magyar zeneiparban.
+A magyar könnyűzenei élet tele van meglepetésekkel. Ki gondolná például, hogy az 1950-es évek óta több mint 10 000 ember neve került fel a dalszerzők listájára? És azt, hogy Szenes Iván minden idők legmeghatározóbb zenei figurája? Miután megvizsgáltuk [a magyar pop slágerek leggyakoribb szavait](https://blog.crowintelligence.org/hu/2020/08/19/hatvan-ev-dalszovegei/), ezúttal arra voltunk kíváncsiak, hogy ki kivel dolgozik együtt legszívesebben a magyar zeneiparban.
 
 Ahhoz, hogy feltérképezhessük, hogy a zenei életben ki kivel került kapcsolatba az évtizedek során, elkészítettük minden idők legnagyobb magyar zenei hálózatát. Hálózatunk a zeneszoveg.hu oldal adatain alapul. Minden előadó oldaláról lescrapeltük az oldalon fellehlető dalait, azok adatlapja alapján pedig az adott dalt jegyző személyeket. Most pedig lássuk az eredményeket!
 

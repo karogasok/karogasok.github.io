@@ -44,25 +44,3 @@ Habár nagyon sokan kérdőjelezik meg Popper klasszikus művének, *A historici
 > Karl Popper: A historicizmus nyomorúsága
 
 Idáig még nem nagyon sikerült akár csak nagy vonalakban is felvázolni a jövőt, sokkal inkább a múltat szeretjük egy egységes narratívába gyúrni a jelen nézőpontjából. Ferguson és Diamond nem száll szembe Popperrel, inkább arra keresik a választ, hogy a megjósolhatatlan és elkerülhetetlen kríziseket hogyan lehet inkább kihasználni. Ahogy a sokat idézett Churchill mondás szól: *"Ne pazarold el a lehetőséget, amit egy jó kis válság a kezedbe ad!"*
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/e50f91fe15316bcb.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/e50f91fe15316bcb.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/e50f91fe15316bcb.jpg)

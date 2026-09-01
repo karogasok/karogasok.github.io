@@ -44,25 +44,3 @@ Mindenki adottnak veszi, hogy valahogy elkapták és rögzítették a rádióüz
 Habár szeretjük a hősöket és nem akarjuk kisebbíteni szerepüket, fontos tudni, hogy Turing nem a semmiből jött és nem egyedül dolgozott. Minden tudományos és technológiai projekt, sok ember koordinált tevékenysége, ez alól a kódfejtés sem kivétel. A modern számítógép, a matematikai kriptográfia és a számítógépes statisztika több ezer ember erőfeszítésének eredménye.
 
 A borítóképen egy Zygalski lap látható, melynek forrása [itt](http://www.ams.org/publicoutreach/feature-column/fc-2013-12) található.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/0c5e556839b7c9ac.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/0c5e556839b7c9ac.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/0c5e556839b7c9ac.jpg)

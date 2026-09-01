@@ -28,25 +28,3 @@ A "pub" kategória területi eloszlása
 A "place_of_worship" kategória területi eloszlása
 
 Az adatokat az Overpass API-tól az overpy csomaggal kérdeztük le, a megjelenítéshez a numpy, pyproj és bpy csomagokat hívtuk segítségül.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/e77ac6edfc5a5fc5.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/e77ac6edfc5a5fc5.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/e77ac6edfc5a5fc5.jpg)

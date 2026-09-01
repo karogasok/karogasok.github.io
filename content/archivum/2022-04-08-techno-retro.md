@@ -31,25 +31,3 @@ Ma már retro dolog a logarléc, de ha egy kicsit elmélyül benne az ember, akk
 ![](/archivum/img/eb928720481692c1.jpg)
 
 Ez a 44 éve megjelent kis füzetecske hihetetlenül világos és jó áttekintését adja a programozás és az informatika világának.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/58b0dfb22c9886fe.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/58b0dfb22c9886fe.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/58b0dfb22c9886fe.jpg)

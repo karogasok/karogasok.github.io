@@ -26,25 +26,3 @@ McCellend és Rogers *[The Parallel Distributed Processing Approach to Semantic 
 Andy Clark könyve ebben a közegben jelent meg és tett rendet a két egymásnak feszülő gondolkodás között. De nem csak ezért szeretjük Clarkot! A kiterjesztett elme ([extended mind](https://web-archive.southampton.ac.uk/cogprints.org/320/1/extended.html)) és a megtestesült kogníció ([embodied cognition](https://plato.stanford.edu/entries/embodied-cognition/)) elméleteinek kidolgozásával a nyolcvanas és kilencvenes években megalapozta a hírnevét, de manapság is igen aktív, pl Lera Boroditsky-vel [a nyelv vizuális percepcióra gyakorolt hatását vizsgálja](https://www.sciencedirect.com/science/article/abs/pii/S1364661320302138).
 
 A poszt nyitókép forrása [itt található](https://media.newyorker.com/photos/5ab3fab997563e19f81cf692/master/pass/180402_r31792.jpg).
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/ae24447122361726.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/ae24447122361726.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/ae24447122361726.jpg)

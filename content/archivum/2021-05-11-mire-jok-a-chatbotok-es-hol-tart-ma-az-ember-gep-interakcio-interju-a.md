@@ -18,25 +18,3 @@ regi_cimkek_mind:
 A Kossuth Rádió Trend Idők című műsorában beszélgettünk a chatbotokról és a mesterséges intelligenciáról. Az adás [ezen a linken](https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2021-05-11_15-11-00&enddate=2021-05-11_15-35-00&ch=mr1) hallgatható vissza 15:18:46 és 15:22:08 között.
 
 ![](/archivum/img/ac4bcff8a733165d.png)
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/91a408a9bc782d69.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/91a408a9bc782d69.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/91a408a9bc782d69.jpg)

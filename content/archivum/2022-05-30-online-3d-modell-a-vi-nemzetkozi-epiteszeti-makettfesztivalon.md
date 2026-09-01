@@ -14,25 +14,3 @@ Az [Urbanum Labbal](https://urbanum-lab.github.io/) a [VI. Nemzetközi Építés
 [Beágyazott tartalom](https://urbanum-lab.github.io/tehereloszto/index.html)
 
 A kapott [fotogrammetriai](https://hu.wikipedia.org/wiki/Fotogrammetria) modellből MeshLab és Blender segítségével készítettünk egyszerűsített mesh-t, amit Babylon.js használatával ágyaztunk egy html oldalba. Az eredmény [ezen a linken](https://urbanum-lab.github.io/tehereloszto/index.html) található.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/18fc0c5356db2eb3.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/18fc0c5356db2eb3.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/18fc0c5356db2eb3.jpg)

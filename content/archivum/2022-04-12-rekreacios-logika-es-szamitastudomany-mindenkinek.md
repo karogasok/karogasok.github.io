@@ -34,25 +34,3 @@ Gödel tételeiről sokan hallottak. Forradalminak, mindent felforgatónak, stb.
 Ha másért nem, hát a remek kikapcsolódás miatt érdemes ezeket a könnyen beszerezhető, jó magyar fordításban elérhető könyveket forgatni. De talán az sem árt, ha néha az ember elgondolkozik az általa használt eszközök mögött rejlő elméleti alapokon és azok esetleges következményein.
 
 A borítókép forrása [itt](https://www.pngkey.com/download/u2w7o0o0u2w7w7u2_m-c-escher-fishes-and-scales-fishes-and/) található.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/b22e2c970f226116.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/b22e2c970f226116.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/b22e2c970f226116.jpg)

@@ -42,25 +42,3 @@ Ha valaki kedvet kapna az Elemek olvasásához, akkor Mayer Gyula kiváló magya
 Ha valakinek kedve támad a Szabó által hivatkozott eleaták gondolatait eredetiben vizsgálni, akkor Kirk, Raven és Schofiled A preszókratikus filozófusok című művét ajánljuk, ami eredetiben és magyar fordításban is közli a vonatkozó fragmentumokat és testimóniumokat (azaz fennmaradt szövegtöredékeket és hivatkozásokat) alapos kommentárokkal ellátva. Platón sokat hivatkozott Menón dialógusa is elérhető korszerű fordításban magyarul, azonban ehhez és az összes platóni dialógushoz ajánljuk Taylor klasszikus kommentárjait, melyek segítenek kontextusba helyezni a történeteket.
 
 ![](/archivum/img/451a9fccf63d3948.jpg)
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/6cdc544aa42c670f.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/6cdc544aa42c670f.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/6cdc544aa42c670f.jpg)

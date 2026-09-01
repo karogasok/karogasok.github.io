@@ -40,25 +40,3 @@ Habár inkább a fiatalabb korosztálynak szól, *A térképészet históriája*
 Az magyar iskolai atlaszokba nyújt betekintést a *Kartográfia - Histográfia*.
 
 A poszt borítóképe a [Tabula Hungariae](https://hu.wikipedia.org/wiki/Tabula_Hungariae), a kép forrása [itt](https://hu.wikipedia.org/wiki/Tabula_Hungariae#/media/F%C3%A1jl:Tabula_hungariae.jpg) található.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/7d46f018ffa725fe.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/7d46f018ffa725fe.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/7d46f018ffa725fe.jpg)

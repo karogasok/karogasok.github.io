@@ -23,25 +23,3 @@ A kötet első kétharmada végigvezeti az olvasót a klasszikus tudományfiloz�
 A kötet erőssége Kampis hihetetlenül jó stílusa. Olvasás közben azt éreztük, hogy a tanár úr előadásán ülünk ismét. Nagyon furcsa, hogy gyakran Wikipedia szócikkeket hivatkozik a szerző. Egy jó szerkesztőt elbírt volna a könyv, akad benne sok elírás és a lábjegyzetekben kirívó pontatlanságok. Pl. a 19. oldalon a görögkatolikus egyházat összekeveri a szerző az ortodox egyházzal - ez akár egy egyszerű Wikipedia felütéssel is ellenőrizhető lett volna.
 
 Mindent összevetve csak ajánlani tudjuk a könyvet. Az adattudományban dolgozók, vagy oda vágyók számára különösen ajánlott a technooptimista szakmai hübrisz kezelésére!
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/e4407846d8281c8a.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/e4407846d8281c8a.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/e4407846d8281c8a.jpg)

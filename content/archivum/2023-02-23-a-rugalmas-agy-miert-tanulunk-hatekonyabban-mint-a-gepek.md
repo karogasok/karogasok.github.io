@@ -20,25 +20,3 @@ A szerző nem ismeretlen a magyar olvasóknak, húsz éve jelent meg *[A számé
 Lehet a neurális hálókra persze egyszerűen úgy tekinteni mint [függvényeket közelítő eszközökre](https://machinelearningmastery.com/neural-networks-are-function-approximators/) és így mint egyszerű technikára. A sztori másik oldala, hogy [az első neurális modell, amit McCulloch és Pitts alkotott meg](https://www.historyofinformation.com/detail.php?entryid=782), erősen biológiailag inspirált volt. A mai deep learning leánykori nevén konnekcionizmus, a nyolcvanas években korántsem volt menő, amolyan obskúrus hobbinak számított, amit főleg kognitív tudósok űztek, de a Deep Mind alapítói is az idegtudományokból érkeztek. Általánosságban elmondhatjuk, hogy a mesterséges intelligencia és kognitív tudományok között nincs éles határvonal. Ezért szerencsés ha legalább egy ismeretterjesztő könyvből átfogó képet tudnak kapni a téma iránt érdeklődők és meglátják a kapcsolódási pontokat a különböző területek között.
 
 Dehaene kiválló munkát végzett. A könyv első része definiálja hogy mi az a tanulás, majd összeveti a gépi tanulást és az emberit. Ezután a második részben az egy tanulási mechanizmusai kerülnek bemutatásra, majd a harmadik részben a tanulás négy pillére (figyelem, aktív bevonódás, visszajelzés hiba esetén és konszolidáció). Számunkra az utolsó fejezet volt a legérdekesebb, mert konkrét ajánlásokat fogalmaz meg a tanulással és a közoktatással kapcsolatban a szerző. Aki szeretné megtudni mi a fene az a kognitív idegtudomány, hogyan tanul az agyunk és a mesterséges intelligencia hogyan viszonyul mindehhez, annak mindenképpen ajánljuk a könyvet.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/e66d0fa36867a90b.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/e66d0fa36867a90b.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/e66d0fa36867a90b.jpg)

@@ -69,6 +69,49 @@ DEFAULT_AUTHOR = "Varjú Zoltán"
 
 LABEL_PAGE_MIN = 3
 
+# Jetpack's donation widget, which the blog carried on 31 of the Hungarian posts
+# and which has no business being in a reading archive: three headings, three
+# "Your contribution is appreciated." lines and three Donate buttons, appended
+# after the author's last paragraph.
+#
+# Matched on WordPress's own block delimiters rather than on the rendered English
+# text. The delimiters say exactly where the platform's markup starts and stops;
+# matching "Make a one-time donation" instead would be guessing, and would break
+# the day the widget is configured in another language.
+#
+# Removing it is not editing the archive. It is the same category as the dead
+# Zemanta widget images the media resolver already drops: chrome the platform
+# injected, not a sentence the author wrote.
+JETPACK_DONATIONS = re.compile(
+    r"<!--\s*wp:jetpack/donations\b.*?<!--\s*/wp:jetpack/donations\s*-->",
+    re.S,
+)
+DONATIONS_OPEN = re.compile(r"<!--\s*wp:jetpack/donations\b")
+DONATIONS_CLOSE = re.compile(r"<!--\s*/wp:jetpack/donations\s*-->")
+
+
+def strip_chrome(raw: str, context: str, report: Report) -> str:
+    """Remove the donation widget from one post's HTML.
+
+    Refuses to strip when the open and close markers do not pair up. A `.*?`
+    across an unbalanced pair would run to the end of the document and swallow
+    the rest of the post — the same shape of bug as the unclosed code fence that
+    silently flattened 98 pages, so it is checked rather than assumed.
+    """
+    opens = len(DONATIONS_OPEN.findall(raw))
+    closes = len(DONATIONS_CLOSE.findall(raw))
+    if not opens and not closes:
+        return raw
+    if opens != closes:
+        report.count("BROKEN: unbalanced donation block, left in place")
+        report.todo(f"CHROME unbalanced wp:jetpack/donations ({opens} open, {closes} close)  {context}")
+        return raw
+
+    stripped, n = JETPACK_DONATIONS.subn("", raw)
+    if n:
+        report.count("donation widget removed", n)
+    return stripped
+
 # Function words, which is what actually separates the two languages here. Both
 # lists are deliberately short and common: a longer list would not change any
 # decision, and the ambiguous cases are ambiguous because they are *short*, not
@@ -216,7 +259,7 @@ def main() -> int:
     seen: set[str] = set()
     for c in chosen:
         item = c["_item"]
-        raw = item.findtext("content:encoded", namespaces=NS) or ""
+        raw = strip_chrome(item.findtext("content:encoded", namespaces=NS) or "", c["url"], report)
         published = item.findtext("wp:post_date_gmt", namespaces=NS) or item.findtext("wp:post_date", namespaces=NS) or ""
         published = published.strip().replace(" ", "T") + "Z"
 

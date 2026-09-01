@@ -32,7 +32,7 @@ A szankciók ebbe zavartak bele. A mesterséges intelligencia folyamatos fejlőd
 
 ![](/archivum/img/e7e9f0d541797e61.png)
 
-Sokak szerint a két nagyhatalom összecsapása elkerülhetetlen. Kína így vagy úgy, de mindenképpen szupremáciára törne az új technológiák terén. De tényleg lehet központilag szabályozni az innovációt? Ha csak pusztán a kimenetet nézzük, tényleg rengeteg tanulmányt írnak a kínai kutatók. A [Scimago indexe](https://www.scimagojr.com/countryrank.php?year=2021&order=h&ord=desc&category=1702) szerint közel felakkora h-indexet sikerült produkálniuk több mint kétszer annyi publikációval mint amerikai kollégáiknak. A mennyiség persze átcsaphat minőségbe, [de azt láthatjuk, hogy minőségi outputot azon országok tudnak generálni, amelyek más mutatók mentén (szabadság, boldogság, jogbiztonság, stb) is jól teljesítenek](/archivum/img/e3c957ae34d9bf65.jpg). Lehet, amíg nincs megfelelően inspiráló és jogilag biztonságos környezet, addig inkább külföldön boldgulnak a kínai kutatók is. Legalábbis amíg szabadon mozoghatnak…
+Sokak szerint a két nagyhatalom összecsapása elkerülhetetlen. Kína így vagy úgy, de mindenképpen szupremáciára törne az új technológiák terén. De tényleg lehet központilag szabályozni az innovációt? Ha csak pusztán a kimenetet nézzük, tényleg rengeteg tanulmányt írnak a kínai kutatók. A [Scimago indexe](https://www.scimagojr.com/countryrank.php?year=2021&order=h&ord=desc&category=1702) szerint közel felakkora h-indexet sikerült produkálniuk több mint kétszer annyi publikációval mint amerikai kollégáiknak. A mennyiség persze átcsaphat minőségbe, [de azt láthatjuk, hogy minőségi outputot azon országok tudnak generálni, amelyek más mutatók mentén (szabadság, boldogság, jogbiztonság, stb) is jól teljesítenek](https://blog.crowintelligence.org/2020/03/06/which-country-is-the-best/). Lehet, amíg nincs megfelelően inspiráló és jogilag biztonságos környezet, addig inkább külföldön boldgulnak a kínai kutatók is. Legalábbis amíg szabadon mozoghatnak…
 
 **A háromtest-probléma**
 
@@ -47,25 +47,3 @@ Persze egyszerűen olvashatjuk a könyvet úgy, mint egy remek sci-fit. Habár h
 ![](/archivum/img/6bb2cd7561c947d8.png)
 
 Illusztrációinkat DALL-E-2 készítette.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/afde5350eec2b872.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/afde5350eec2b872.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/afde5350eec2b872.jpg)

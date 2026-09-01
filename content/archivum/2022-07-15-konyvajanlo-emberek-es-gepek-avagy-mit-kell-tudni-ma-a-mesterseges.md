@@ -19,26 +19,4 @@ Ha a fura magyar címen túl tudjuk magunkat tenni, akkor izgalmas kaland vár b
 
 Ez a rövid kis könyvecske kiválló első találkozás lehet a mesterséges intelligencia iránt érdeklődők számára. Sőt, a területen dolgozó szakemberek is tanulhatnak belőle szemléletet és tippeket kaphatnak ahhoz, hogyan magyarázzák el laikusoknak hogy mivel is foglalkoznak.
 
-A poszt fejlécében egy random boolean network általá generált képünk látható. Bővebben erről [itt](/archivum/img/1199d75691fcc481.jpg).
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/3cae40236d0855e0.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/3cae40236d0855e0.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/3cae40236d0855e0.jpg)
+A poszt fejlécében egy random boolean network általá generált képünk látható. Bővebben erről [itt](https://blog.crowintelligence.org/2021/05/18/order-emerging-from-randomness-or-the-joy-of-random-boolean-networks-and-python/).

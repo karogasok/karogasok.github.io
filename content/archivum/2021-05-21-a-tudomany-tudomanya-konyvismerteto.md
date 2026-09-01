@@ -31,25 +31,3 @@ Mindezek mellett, Kuhn után mondhatjuk, hogy a bemutatott eszköztár a tudomá
 De mégis, akkor mire jó a tudomány tudománya? Kell-e egyáltalán igazolnia magát egy tudománynak? Mindennek hasznot kell hoznia? A tudománytervezés és -szervezés feladata az, hogy a tudomány a lehető legnagyobb hasznot hajtsa? A nyolcvanas években a párhuzamos megosztott feldolgozás (parallel distributed processing, PDP) követőit csendes bolondoknak tartották, akik éves [NIPS](https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems) konferenciájukon beszéltek az ezerszer eltemetett neurális hálókról. Számítástudománnyal, filozófiával, pszichológiával, nyelvészettel és kognitív tudománnyal foglalkozó fura alakok írogattak olyan dolgokról, mint az angol nyelv morfológiájának neurális reprezentációja, vagy beágyazott és megtestesült gondolkodás (embedded/embodied cognition). 2014-ben hirtelen minden megváltozott. Az NIPS az egyik legnagyobb tudományos konferencia lett, hirtelen mérnökök tömegei értekeznek a neurális hálókról és mosolyognak a kognitív idegtudósokra, nyelvészekre és egyéb fura alakokra kik eddig ezen a területen voltak. Most úgy tűnik, egyenes út vezetett a deep learning diadalához, mindenki előre látta és igazából foglalkozott is vele. De megjósolhatóak a hasonló változások? Vagy jobb lett volna hagyni kivérezni a PDP híveit, megvonni tőlük minden támogatást és ígéretesebb projektekbe invesztálni? És mit tanuljanak akkor a fiatalok? Csak azt, ami ígéretes és hasznot hoz? Ami most hasznos, az hasznos lesz 10-20 év múlva is? Elfogadhatónak tartjuk, hogy pénzzel motiváljuk őket? Elfogadhatónak tartjuk, hogy pénzeszközökkel motiváljuk a kutatókat is? Tényleg a piaci logika kell hogy érvényesüljön a tudományos tudás előállításában és terjesztésében is, van egy határ, ahol a piacnak meg kell állnia? A tudomány tudományának tényleg azt a célt kell szolgálni, hogy minél több hasznot hajtson a tudomány? (Ha egy kicsit el akar gondolkozni ezen a nyájas olvasó, akkor javaslom [ezt a rövid cikket](https://www.theatlantic.com/magazine/archive/2012/04/what-isnt-for-sale/308902/) Michael Sandel filozófustól, ha több ideje is akad, akkor inkább a *[What Money Can't Buy](http://justiceharvard.org/what-money-cant-buy-3/)* című könyvét)
 
 [YouTube](https://www.youtube.com/embed/3nsoN-LS8RQ)
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/7b037cf97f0954dc.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/7b037cf97f0954dc.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/7b037cf97f0954dc.jpg)

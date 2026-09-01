@@ -32,25 +32,3 @@ A könyvet mindenkinek csak ajánlani tudjuk. Olvasásához nem szükségeltetik
 ![](/archivum/img/cc71b8a4f37f15e4.jpg)
 
 Neumann János és Dán Klára
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/5e025cbf4db5c6cf.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/5e025cbf4db5c6cf.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/5e025cbf4db5c6cf.jpg)

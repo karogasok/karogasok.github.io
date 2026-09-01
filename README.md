@@ -97,6 +97,15 @@ Amit tudni érdemes róluk:
   előtag — ez a blog saját nyelvi besorolása, és ez dönt. A stopszó-alapú
   osztályozó mellette fut ellenőrzésként; ha a kettő nem ért egyet, a manifeszt
   külön jelzi. Jelenleg mind a 178 bejegyzésen egyetértenek.
+- **A Jetpack adománygyűjtő blokkja kikerül** a WordPress-bejegyzésekből (31-et
+  érintett). Ez nem szerkesztés: a platform tette a szöveg alá, nem a szerző írta
+  — ugyanaz a kategória, mint a megszűnt Zemanta widget képei. Az importer a
+  WordPress saját blokk-határolóira (`wp:jetpack/donations`) illeszt, nem az
+  angol szövegre, és nem nyúl hozzá, ha a nyitó és záró jelölés nem stimmel.
+- **Csak kép kerül a `static/archivum/img/` alá.** Az importer a szerver
+  `Content-Type` válasza alapján dönt, nem az URL végződéséből: korábban HTML
+  oldalakat és PDF-eket is letöltött `.jpg` néven, amitől azok a hivatkozások
+  eltörtek. Ami nem kép, az marad az eredeti URL-jén.
 - **Az archívumot nem szerkesztjük.** Se javítás, se rövidítés, se válogatás.
 
 ### Ami elveszett

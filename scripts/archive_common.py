@@ -38,16 +38,20 @@ CONTENT_DIR = ROOT / "content" / "archivum"
 
 USER_AGENT = "karogasok-archive-importer/1.0 (+https://karogasok.github.io/)"
 
-# Hosts whose images are worth copying locally: they are the ones the post
-# actually owns, and the ones that vanish when the account does.
+# Hosts whose images are worth copying locally: the ones the post actually owns,
+# and the ones that vanish when the account does.
+#
+# Deliberately specific. Bare "googleusercontent.com" and "files.wordpress.com"
+# were here once and are not generic image hosts at all — they are CDNs serving
+# everybody's files, and matching them meant the importer helpfully downloaded
+# third-party research PDFs that the posts merely linked to. The Blogger image
+# hosts are named in full instead.
 SELF_HOSTED = (
     "bp.blogspot.com",
     "blogger.googleusercontent.com",
     "ggpht.com",
-    "googleusercontent.com",
     "blog.crowintelligence.org",
     "crowintelligence.org",
-    "files.wordpress.com",
 )
 
 # Jetpack's image CDN. It fronts the blog's own uploads under a wp.com hostname,
@@ -61,6 +65,21 @@ PHOTON = re.compile(r"^https?://i[0-9]\.wp\.com/(?P<rest>[^?]+)")
 # its images is a guaranteed 404, so they are removed rather than copied as
 # broken markup. Each removal is logged.
 DEAD_HOSTS = ("img.zemanta.com", "www.zemanta.com", "i.zemanta.com")
+
+# Content-Type to file suffix. The URL's own extension is unreliable — a good
+# third of the images on both blogs are served from paths with no extension at
+# all — so the server's answer wins where there is one.
+EXT_BY_TYPE = {
+    "image/jpeg": ".jpg",
+    "image/png": ".png",
+    "image/gif": ".gif",
+    "image/webp": ".webp",
+    "image/svg+xml": ".svg",
+    "image/bmp": ".bmp",
+    "image/x-icon": ".ico",
+    "image/avif": ".avif",
+    "image/tiff": ".tiff",
+}
 
 EMBED_HOSTS = {
     "youtube.com": "YouTube",
@@ -241,13 +260,10 @@ class MediaResolver:
         if not self.download:
             return ("keep", url)
 
-        ext = re.search(r"\.(jpe?g|png|gif|webp|svg|bmp)(?:$|\?)", url, re.I)
-        suffix = ("." + ext.group(1).lower()) if ext else ".jpg"
-        name = hashlib.sha1(url.encode()).hexdigest()[:16] + suffix
-        dest = IMG_DIR / name
-
-        if dest.exists():
-            out = ("local", f"/archivum/img/{name}")
+        digest = hashlib.sha1(url.encode()).hexdigest()[:16]
+        existing = next(IMG_DIR.glob(f"{digest}.*"), None)
+        if existing is not None:
+            out = ("local", f"/archivum/img/{existing.name}")
             self.cache[url] = out
             self.report.count(f"{kind}: already downloaded")
             return out
@@ -256,9 +272,30 @@ class MediaResolver:
             req = urllib.request.Request(self._encode(url), headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=30) as resp:
                 payload = resp.read()
+                content_type = (resp.headers.get_content_type() or "").lower()
             if not payload:
                 raise ValueError("empty response")
+
+            # What came back has to actually be an image. A <a href> is localised
+            # only so that Blogger's <a href="big.jpg"><img src="small.jpg"></a>
+            # keeps working; without this check the same code cheerfully saved
+            # HTML pages and PDFs into the image directory under a .jpg name,
+            # which turned every one of those links into a broken one.
+            if not content_type.startswith("image/"):
+                out = ("keep", url)
+                self.cache[url] = out
+                self.report.count(f"{kind}: not an image ({content_type or 'unknown'}), URL kept")
+                return out
+
+            # Name the file after what it is, not after what the URL implied.
+            suffix = EXT_BY_TYPE.get(content_type)
+            if suffix is None:
+                m = re.search(r"\.(jpe?g|png|gif|webp|svg|bmp)(?:$|\?)", url, re.I)
+                suffix = ("." + m.group(1).lower()) if m else ".bin"
+            dest = IMG_DIR / f"{digest}{suffix}"
+
             dest.write_bytes(payload)
+            name = dest.name
             out = ("local", f"/archivum/img/{name}")
             self.report.count(f"{kind}: downloaded")
         except urllib.error.HTTPError as exc:

@@ -36,25 +36,3 @@ A második esettanulmány a magyar népmeséket elemző új projektünket mutatt
 ![](/archivum/img/5ad53ac7c0be3a63.jpg)
 
 A kapcsolódó GitHub repo elérhető [itt](https://github.com/crow-intelligence/mccLMs). A notebooks mappában elérhető Jupyter notebookok "Open in Colab" ikonra kattintva Colab-ben nyílnak meg. A használt nyelvmodelleket tartalmazó Google Drive mappa [ezen a linken](https://drive.google.com/drive/folders/1-tPDfuPU7PvcEnaEv2U4X3giTRoyFnCy) érhető el. A GitHub repo README-ben részletes leírás található arról, hogyan lehet futtatni a notebookokat Colaben.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/1f67254b1f7175b5.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/1f67254b1f7175b5.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/1f67254b1f7175b5.jpg)

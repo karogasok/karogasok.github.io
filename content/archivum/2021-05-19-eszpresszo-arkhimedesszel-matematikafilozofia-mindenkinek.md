@@ -28,25 +28,3 @@ Buijsman [Everett](https://en.wikipedia.org/wiki/Daniel_Everett) nyomán elfogad
 Ha nagyon kritizálni szeretnénk a könyvet akkor négy dolgot emelnénk ki. 1) Everett tézise mely szerint a piraha nyelvben nincsenek számok, továbbá a grammatikai rekurzió sincs erősen vitatott. 2) A görög matematika jelentősége nincs kellően kiemelve, pedig a görögség érdeme hogy a matematika tudománnyá vált (itt ragadjuk meg az alkalmat [Szabó Árpád](https://hu.wikipedia.org/wiki/Szab%C3%B3_%C3%81rp%C3%A1d_(klasszika-filol%C3%B3gus)) életművének ajánlására) 3) A 19. század végén a matematika válsága indította el a modern logikát és vezetett el a számítástudomány születéséhez, ez meg sincs említve a könyvben. 4) Nem értjük, hogy miért kellett más címet adni a könyvnek, mit ami az eredeti holland kiadásnak és az angol fordításnak megfelelt (Plussen en minnen, Pluses and Minuses). Mindezek ellenére mindenkinek csak ajánlani tudjuk ezt az olvasmányt.
 
 A borítókép forrása: https://pixabay.com/hu/vectors/az-abacus-count-sz%C3%A1ml%C3%A1l%C3%A1s-2026982/
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/5706fa3bb8cafc00.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/5706fa3bb8cafc00.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/5706fa3bb8cafc00.jpg)

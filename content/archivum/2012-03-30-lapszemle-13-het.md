@@ -45,7 +45,7 @@ regi_cimkek_mind:
 
 **Néznivaló**
 
-- **Peter Norvig: The Unreasonable Effectiveness of Data** - ugye a papert mindenki olvasta? Nem?! [Itt a link](/archivum/img/88b00d0c19723b1f.jpg) hozzá.
+- **Peter Norvig: The Unreasonable Effectiveness of Data** - ugye a papert mindenki olvasta? Nem?! [Itt a link](http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//pubs/archive/35179.pdf) hozzá.
 
 -
 

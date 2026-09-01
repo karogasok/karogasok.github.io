@@ -20,25 +20,3 @@ Szeretnénk hangsúlyozni, kizárólag a közösségünk számára releváns hir
 - Meetup kiemelt támogatója. A kiemelt támogatók (maximum három) a meetup oldalán és minden esemény oldalán feltüntetésre kerülnek (kivéve a nálunk is posztolt, de más meetupok által szervezett eseményeket), havonta egyszer használhatják a levelezőlistánkat a tagok elérésére. A kiemelt támogatókkal egyeztetve alakítjuk ki a meetup tematikáját. A támogatás lehet anyagi, vagy egyéb természetű is.
 
 Írj nekünk bátran a crowintelligence@gmail.com címre és beszéljük meg, hogyan lehetünk a segítségedre!
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/7c77e04f813d8891.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/7c77e04f813d8891.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/7c77e04f813d8891.jpg)

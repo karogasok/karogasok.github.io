@@ -25,25 +25,3 @@ A kötet szerzője a méltán népszerű mateking oldal alapítója és gyakorl�
 > Az emberiség története szétválaszthatatlanul összefonódott a matematikával, és azok a matematikai képletek, melyek végigkísérték az egész történelmünket, éppúgy a kultúránk részei, mint Petőfi Sándor vagy épp Szent István. A Wernher von Braun által megalkotott Saturn-V rakéta ugyanolyan felbecsülhetetlenül nagy értékű műalkotás, mint Leonardo da Vinci festménye, a Mona Lisa. A Newton által megálmodott és később több nagy matematikus által papírra vetett deriválási szabályok pedig éppoly esszenciái az emberi elme zsenialitásának, mint Shakespeare művei.
 
 > Mosóczi András: A gondolkodás forradalma, 235.o.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/75683507355e208e.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/75683507355e208e.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/75683507355e208e.jpg)

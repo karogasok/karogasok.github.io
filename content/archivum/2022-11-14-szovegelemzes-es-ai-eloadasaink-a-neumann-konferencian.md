@@ -32,25 +32,3 @@ Górcső alá vettük a mesék leggyakoribb kulcsszavait, kollokációit, klaszt
 Manapság naponta hallhatunk arról, hogy a legújabb mélytanulási modelleknek köszönhetően szöveget, képet, de már akár videós tartalmakat is tud generálni a "mesterséges intelligencia". Pár hónapja egy a Google egyik mérnöke azzal állt elő, hogy szerinte a cég legújabb nyelvmodellje öntudatra ébredt. Ugyanakkor az önvezető autóknál várt áttörés még várat magára és a legelterjedtebb robotok továbbra is a robotporszívók.
 
 Túl sokat várunk a mesterséges intelligenciától? Mire tudjuk ma használni, mire lehet képes a közeljövőben ez a technológia? Valóra válhatnak-e a cyberpunk disztópiák? Ezekre a kérdésekre keressük a választ.
-
-##### Make a one-time donation
-
-Your contribution is appreciated.
-
-[Donate](/archivum/img/64ab182bca6efb26.jpg)
-
----
-
-##### Make a monthly donation
-
-Your contribution is appreciated.
-
-[Donate monthly](/archivum/img/64ab182bca6efb26.jpg)
-
----
-
-##### Make a yearly donation
-
-Your contribution is appreciated.
-
-[Donate yearly](/archivum/img/64ab182bca6efb26.jpg)
