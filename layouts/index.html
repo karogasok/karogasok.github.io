@@ -3,9 +3,21 @@
 {{- $archive := where site.RegularPages "Section" "archivum" -}}
 
 <div class="home">
+  {{- /* Who writes this, immediately under the title. On a personal site it is
+         the first thing a reader arriving cold — an editor, a conference
+         organiser — needs, and it used to be seven screens down under a "Ki
+         írja" heading. */ -}}
+  {{- $author := index site.Params.authors 0 -}}
   <header class="home-head">
     <h1 class="home-title">{{ site.Title }}</h1>
-    <p class="home-lede">{{ site.Params.description }}</p>
+    <p class="home-lede">
+      <a href="{{ $author.profile }}" rel="noopener">{{ $author.key }}</a>
+      {{ i18n "home.bio" }}
+    </p>
+    <p class="home-credit">
+      {{ i18n "home.powered_by" }}
+      <a href="{{ site.Params.crowURL }}" rel="noopener">{{ i18n "footer.crow" }}</a>
+    </p>
   </header>
 
   <section class="home-section" id="legutobbi">
@@ -62,11 +74,5 @@
   </section>
   {{- end }}
 
-  {{- with site.GetPage "/rolam" }}
-  <section class="home-section" id="rolam">
-    <h2>{{ i18n "home.about" }}</h2>
-    <div class="prose">{{ .Content }}</div>
-  </section>
-  {{- end }}
 </div>
 {{ end }}

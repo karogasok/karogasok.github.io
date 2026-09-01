@@ -346,6 +346,21 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   max-width: 46ch;
   margin: 0;
 }
+.home-lede a { color: var(--accent); }
+
+/* A credit line, not part of the bio. Set in the same small tracked Archivo as
+   every other piece of metadata on the site, so it reads as an attribution
+   rather than as a second sentence about the author. */
+.home-credit {
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--muted);
+  margin: var(--sp-3) 0 0;
+}
+
 .home-section { margin-bottom: var(--sp-7); }
 .home-section > h2 {
   border-top: 2px solid var(--ink);

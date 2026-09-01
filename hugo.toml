@@ -56,7 +56,10 @@ summaryLength = 30
 
 [params]
   mainSections = ["posts"]
-  description = "Olvasónapló a mesterséges intelligenciáról, a megismerésről és a következményeikről."
+  # No description here on purpose. It is composed in
+  # layouts/partials/site-description.html from the author's name and the
+  # home.bio string, so the visible lede and the metadata cannot say different
+  # things about the same site.
   # One address for the whole site, and it is the author's own rather than
   # Crow's shared inbox.
   email = "zoltan.varju@crowintelligence.org"
@@ -71,8 +74,13 @@ summaryLength = 30
 [[params.authors]]
   key = "Varjú Zoltán"
   slug = "varju-zoltan"
-  role = "Nyelvész, gépi tanulás"
-  sameAs = ["https://crowintelligence.org/"]
+  # Becomes the schema.org jobTitle, so it has to agree with how the bio in the
+  # page header describes him rather than contradict it.
+  role = "Számítógépes nyelvész, filozófus"
+  # What the name in the header links to. A named field rather than the first
+  # element of sameAs, which would silently follow whatever got added first.
+  profile = "https://www.linkedin.com/in/zoltanvarju"
+  sameAs = ["https://www.linkedin.com/in/zoltanvarju", "https://crowintelligence.org/"]
 
 [[params.authors]]
   key = "Putz Orsolya"

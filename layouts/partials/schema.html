@@ -25,7 +25,7 @@
       "@type" "Blog"
       "@id" $blogID
       "name" site.Title
-      "description" site.Params.description
+      "description" (partial "site-description.html" .)
       "url" site.BaseURL
       "inLanguage" "hu-HU"
       "license" "https://creativecommons.org/licenses/by-nc-sa/4.0/"

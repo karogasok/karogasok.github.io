@@ -68,10 +68,7 @@ alapértelmezve.
 1. **A pillér-címkék bevezetői.** Öt `_index.md` létezik, üres törzzsel, ezért
    listaként jelennek meg. Az első bekezdéstől kezdve automatikusan átváltanak
    hub-módra. Célhossz 1500–2500 szó.
-2. **`sameAs` a schema.org Person csomópontokban.** Jelenleg csak
-   `crowintelligence.org`. Ha van LinkedIn / ORCID / Scholar profil, a
-   `hugo.toml` `[[params.authors]]` blokkjába kerül.
-3. **A 11 MB-os animált GIF** a *Magyarország demográfiai változásai*
+2. **A 11 MB-os animált GIF** a *Magyarország demográfiai változásai*
    bejegyzésben. A bejegyzés tartalma, ezért maradt. Nem tömörítettük újra —
    az újrakódolás is szerkesztés.
 
@@ -132,6 +129,29 @@ hozzáadott; ez törli azt, amire már egyetlen bejegyzés sem hivatkozik.
 Mérve: 364 bejegyzés változatlan (306 + 58). A törzsszöveg 1066 szóval lett
 kevesebb, ami pontosan a 31 widget. Képkönyvtár 138 fájl / 38 MB → **96 / 32 MB,
 mind kép**. Mindhárom PDF-hivatkozás az eredeti URL-jén, mindhárom él.
+
+---
+
+## A bemutatkozás a cím alá került
+
+A kezdőlap egy általános mondattal indult, a „Ki írja" szakasz pedig hét
+képernyővel lejjebb magyarázta el, kié az oldal. Ez fordítva volt jó: egy
+személyes oldalon az első, amit egy hidegen érkező olvasó — szerkesztő,
+konferenciaszervező — keres, az az, hogy kicsoda ez.
+
+A bemutatkozás most közvetlenül a cím alatt van, a „Ki írja" szakasz és a
+`content/rolam.md` pedig törölve (semmi más nem hivatkozott rá).
+
+A mondat **egyetlen helyen** él: a `partials/site-description.html` rakja össze
+a szerző nevéből és a `home.bio` szövegből, és ezt használja a látható lede, a
+meta description, az OpenGraph kártya, az RSS csatorna és a schema.org `Blog`
+csomópont is. A `params.description` törölve, hogy ne legyen belőle második
+példány, ami elcsúszhat.
+
+Két apróság: a `nyelvész - filozófus` **nagykötőjelre** javítva
+(`nyelvész – filozófus`), és a LinkedIn-profil bekerült a schema.org `Person`
+csomópont `sameAs` mezőjébe is — ez volt a fenti nyitott kérdések egyike. A
+`jobTitle` is frissült, hogy ne mondjon mást, mint a látható bemutatkozás.
 
 ---
 

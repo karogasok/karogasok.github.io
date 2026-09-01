@@ -1,4 +1,4 @@
-{{- $desc := .Description | default .Summary | default site.Params.description | plainify | truncate 155 "…" -}}
+{{- $desc := .Description | default .Summary | default (partial "site-description.html" .) | plainify | truncate 155 "…" -}}
 {{- $ogImage := .Params.ogImage | default site.Params.ogImage | absURL -}}
 <head>
   <meta charset="utf-8" />

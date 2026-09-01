@@ -1,0 +1,12 @@
+{{- /* The site's one-sentence description of itself, as plain text.
+
+       It has to exist in two shapes: prose with the author's name linked, in the
+       homepage header, and a bare string in the meta description, the OpenGraph
+       card, the RSS channel and the schema.org Blog node. Written out twice
+       those drift, and the wrong one is always the one nobody looks at.
+
+       So it is composed here from the two pieces that already exist elsewhere —
+       the author's name from the config, and the rest of the sentence from the
+       string table — and every consumer calls this. The i18n string holds no
+       markup, which is the house rule; the link is built around it. */ -}}
+{{- printf "%s %s" (index site.Params.authors 0).key (i18n "home.bio") -}}

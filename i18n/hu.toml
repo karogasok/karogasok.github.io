@@ -54,6 +54,14 @@ other = "bejegyzés"
 ["archive.no_posts"]
 other = "nincs bejegyzés"
 
+# The bio, minus the author's name — the name is a link, and a string may not
+# carry markup. partials/site-description.html joins the two back together.
+["home.bio"]
+other = "számítógépes nyelvész – filozófus olvasónaplója a mesterséges intelligenciáról, megismerésről és nyelvről."
+
+["home.powered_by"]
+other = "Powered by"
+
 ["home.latest"]
 other = "Legutóbbi bejegyzések"
 
@@ -71,9 +79,6 @@ other = "Archívum"
 
 ["home.all_posts"]
 other = "Összes bejegyzés"
-
-["home.about"]
-other = "Ki írja"
 
 ["archive.title"]
 other = "Archívum"
