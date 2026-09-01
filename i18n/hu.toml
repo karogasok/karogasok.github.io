@@ -21,6 +21,24 @@ other = "Bejegyzések"
 ["nav.about"]
 other = "Rólam"
 
+["nav.media"]
+other = "Média"
+
+["media.radio"]
+other = "Rádió"
+
+["media.eloadas"]
+other = "Előadások"
+
+["media.at"]
+other = "Az adásban:"
+
+["media.slides"]
+other = "diák"
+
+["media.source"]
+other = "a bejegyzés"
+
 ["nav.archive"]
 other = "Archívum"
 

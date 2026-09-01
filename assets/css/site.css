@@ -216,6 +216,7 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 .listing > .prose,
 .listing > .post-list,
 .listing > .archive-year,
+.listing > .media-group,
 .listing > .spine,
 .listing > .hub-list-heading { grid-column: text; }
 .post > .margin { grid-column: margin; }
@@ -536,5 +537,24 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
    ("2019 · nyest.hu"), which does not fit the 6.5rem a bare date needs and
    wraps with the separator left dangling at the end of the first line. */
 .post-list.mashol-list { --date-col: 9rem; }
+
+/* The media list carries an outlet under the year, like the archive rows do. */
+.post-list.media-list { --date-col: 11rem; }
+.post-list.media-list .post-item-date { display: block; }
+.media-group { margin-bottom: var(--sp-6); }
+.media-group > h2 { border-top: 2px solid var(--ink); padding-top: var(--sp-2); }
+/* The first group sits right under the intro; the global h2 top margin leaves a
+   hole there. */
+.media-group:first-of-type > h2 { margin-top: 0; }
+.media-meta {
+  margin: var(--sp-1) 0 0 calc(var(--date-col) + var(--sp-2));
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.media-meta > * { margin-right: var(--sp-3); }
+@media (max-width: 62rem) { .media-meta { margin-left: 0; } }
 
 
