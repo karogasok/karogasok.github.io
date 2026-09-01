@@ -18,6 +18,9 @@ other = "Kezdőlap"
 ["nav.posts"]
 other = "Bejegyzések"
 
+["nav.about"]
+other = "Rólam"
+
 ["nav.archive"]
 other = "Archívum"
 

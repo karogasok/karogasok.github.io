@@ -1,4 +1,39 @@
 irasok:
+  - cim: "Examination of online education experiences from stakeholder perspective – a Hungarian case study"
+    hol: "ResearchGate"
+    ev: 2022
+    link: "https://www.researchgate.net/publication/361286170_Examination_of_online_education_experiences_from_stakeholder_perspective_-_a_Hungarian_case_study"
+    leiras: "A tanulmány a hallgatók és oktatók véleményét, valamint tapasztalatait vizsgálja a Covid-19 világjárvány első szakaszában bevezetett online oktatással kapcsolatban egy magyarországi esettanulmányon keresztül."
+    nyelv: "en"
+
+  - cim: "Getting Started with Google Colab Using TensorFlow"
+    hol: "Manning Publications"
+    ev: 2020
+    link: "https://www.manning.com/liveproject/getting-started-with-google-colab-using-tensorflow"
+    leiras: "Egy interaktív gyakorlati projekt (liveProject), amely bemutatja a Google Colab környezet és a TensorFlow keretrendszer együttes használatát gépi tanulási feladatokhoz."
+    nyelv: "en"
+
+  - cim: "Getting Started with Google Colab Using PyTorch"
+    hol: "Manning Publications"
+    ev: 2020
+    link: "https://www.manning.com/liveproject/getting-started-with-Google-Colab-using-PyTorch"
+    leiras: "Egy interaktív projekt, amely a PyTorch keretrendszer alapjainak és a Google Colab felhőalapú adatelemző környezetének elsajátításában nyújt gyakorlati segítséget."
+    nyelv: "en"
+
+  - cim: "Getting Started with Jupyter Notebook"
+    hol: "Manning Publications"
+    ev: 2020
+    link: "https://www.manning.com/liveproject/getting-started-with-jupyter-notebook"
+    leiras: "Gyakorlatorientált bevezető a Jupyter Notebook használatába, fókuszban a Python programozási és adatelemzési munkafolyamatokkal."
+    nyelv: "en"
+
+  - cim: "Sentiment Analysis and Natural Language Processing for Marketing"
+    hol: "Manning Publications"
+    ev: 2020
+    link: "https://www.manning.com/liveproject/sentiment-analysis-and-natural-language-processing-for-marketing"
+    leiras: "Egy átfogó gyakorlati projekt, amely a természetes nyelvfeldolgozás (NLP) és a hangulatelemzés (sentiment analysis) marketingcélú alkalmazását és modellépítését mutatja be."
+    nyelv: "en"
+
   - cim: "Minden nőre legalább két férfi jut az online sajtóban a Budapest-Moszkva-Strasbourg háromszögben"
     hol: "nyest.hu"
     ev: 2019
