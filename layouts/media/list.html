@@ -11,7 +11,7 @@
   </header>
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 
-  {{- range $group := slice "radio" "eloadas" }}
+  {{- range $group := slice "eloadas" "radio" }}
   {{- $rows := where $all "tipus" $group }}
   {{- with $rows }}
   <section class="media-group">
