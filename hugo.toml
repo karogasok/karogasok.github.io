@@ -67,7 +67,7 @@ summaryLength = 30
   # Google Analytics measurement ID. Empty means the analytics partial renders
   # nothing at all — no script, no request — so the site stays JavaScript-free
   # until an ID is put here, and `hugo server` never phones home.
-  ga = ""
+  ga = "G-ZJ5ZNVSN69"
   crowURL = "https://crowintelligence.org/"
   # The archive's real extent, measured from the exports rather than assumed.
   # Used by the archive note and the year-spine.
