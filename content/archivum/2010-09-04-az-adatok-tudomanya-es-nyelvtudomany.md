@@ -1,5 +1,6 @@
 ---
 title: "Az adatok tudománya és a nyelvtudomány - olvasnivaló"
+slug: "az-adatok-tudomanya-es-nyelvtudomany"
 date: 2010-09-04T18:56:00.002Z
 publishDate: 2010-09-04T18:56:00.002Z
 author: "Varjú Zoltán"

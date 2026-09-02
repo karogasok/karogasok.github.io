@@ -1,5 +1,6 @@
 ---
 title: "Mit rejt a jövő I. Jelek a múltból"
+slug: "mit-rejt-jovo-i-jelek-multbol"
 date: 2011-01-04T17:46:00.004Z
 publishDate: 2011-01-04T17:46:00.004Z
 author: "Varjú Zoltán"

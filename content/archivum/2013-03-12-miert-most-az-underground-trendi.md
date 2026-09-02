@@ -1,5 +1,6 @@
 ---
 title: "miért, most az underground a trendi?"
+slug: "miert-most-az-underground-trendi"
 date: 2013-03-12T15:34:00.001Z
 publishDate: 2013-03-12T15:34:00.001Z
 author: "Varjú Zoltán"

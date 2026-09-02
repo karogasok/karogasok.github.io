@@ -1,5 +1,6 @@
 ---
 title: "Goldenblog"
+slug: "goldenblog"
 date: 2012-08-22T09:13:00.001Z
 publishDate: 2012-08-22T09:13:00.001Z
 author: "Varjú Zoltán"

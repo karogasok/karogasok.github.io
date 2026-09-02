@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: A valószínűség interpretációi"
+slug: "konyvismerteto-valoszinuseg"
 date: 2013-03-13T09:42:00.001Z
 publishDate: 2013-03-13T09:42:00.001Z
 author: "Varjú Zoltán"

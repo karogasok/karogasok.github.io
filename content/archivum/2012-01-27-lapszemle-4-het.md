@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 4. hét"
+slug: "lapszemle-4-het"
 date: 2012-01-27T05:29:00Z
 publishDate: 2012-01-27T05:29:00Z
 author: "Varjú Zoltán"

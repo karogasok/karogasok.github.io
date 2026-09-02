@@ -1,5 +1,6 @@
 ---
 title: "Valószínűség, statisztika és nyelv"
+slug: "valoszinuseg-statisztika-es-nyelv"
 date: 2010-05-17T14:32:00.001Z
 publishDate: 2010-05-17T14:32:00.001Z
 author: "Varjú Zoltán"

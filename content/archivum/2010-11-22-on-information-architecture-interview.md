@@ -1,5 +1,6 @@
 ---
 title: "On Information Architecture - Interview with Dan Klyn"
+slug: "on-information-architecture-interview"
 date: 2010-11-22T08:57:00.001Z
 publishDate: 2010-11-22T08:57:00.001Z
 author: "Varjú Zoltán"

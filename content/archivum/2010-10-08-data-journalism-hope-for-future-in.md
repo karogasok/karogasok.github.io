@@ -1,5 +1,6 @@
 ---
 title: "Data-Journalism: Hope for a future in a troubled profession - Interview with Mirko Lorenz"
+slug: "data-journalism-hope-for-future-in"
 date: 2010-10-08T17:41:00.007Z
 publishDate: 2010-10-08T17:41:00.007Z
 author: "Varjú Zoltán"

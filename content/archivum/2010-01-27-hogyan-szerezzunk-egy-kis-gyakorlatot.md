@@ -1,5 +1,6 @@
 ---
 title: "Hogyan szerezzünk egy kis gyakorlatot?"
+slug: "hogyan-szerezzunk-egy-kis-gyakorlatot"
 date: 2010-01-27T17:38:00Z
 publishDate: 2010-01-27T17:38:00Z
 author: "Varjú Zoltán"

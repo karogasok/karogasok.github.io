@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 2. hét"
+slug: "lapszemle-2-het"
 date: 2012-01-13T09:19:00.001Z
 publishDate: 2012-01-13T09:19:00.001Z
 author: "Varjú Zoltán"

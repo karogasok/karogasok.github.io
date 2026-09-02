@@ -1,5 +1,6 @@
 ---
 title: "Csináld magad helyesírás-ellenőrző program á la Google"
+slug: "csinald-magad-helyesiras-ellenorzo"
 date: 2011-03-25T09:45:00.003Z
 publishDate: 2011-03-25T09:45:00.003Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Bábel helyett kábel - avagy pár zavaró hiba a Figyelőben"
+slug: "babel-helyett-kabel"
 date: 2011-08-19T09:51:00.003Z
 publishDate: 2011-08-19T09:51:00.003Z
 author: "Varjú Zoltán"

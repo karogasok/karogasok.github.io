@@ -1,5 +1,14 @@
 {{- $desc := .Description | default .Summary | default (partial "site-description.html" .) | plainify | truncate 155 "…" -}}
-{{- $ogImage := .Params.ogImage | default site.Params.ogImage | absURL -}}
+{{- /* A post gets its own card if one has been generated for it; everything
+       else falls back to the site card. Deliberately not the archive: those
+       point their canonical at another blog, so branding them with this site's
+       card would be claiming somebody else's writing. */ -}}
+{{- $ogImage := .Params.ogImage | default site.Params.ogImage -}}
+{{- if eq .Section "posts" -}}
+  {{- $card := printf "assets/og/%s.png" .File.ContentBaseName -}}
+  {{- if fileExists (printf "static/%s" $card) }}{{ $ogImage = "/" }}{{ $ogImage = printf "/%s" $card }}{{ end -}}
+{{- end -}}
+{{- $ogImage = $ogImage | absURL -}}
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,6 +27,8 @@
   {{- /* Two feeds, on purpose. The site feed carries the daily posts only; the
          archive import must never appear in it. See layouts/index.rss.xml. */}}
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ "index.xml" | absURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — {{ i18n "nav.posts" }}" href="{{ "posts/index.xml" | absURL }}" />
+  <link rel="alternate" type="text/plain" title="llms.txt" href="{{ "llms.txt" | absURL }}" />
 
   <meta property="og:site_name" content="{{ site.Title }}" />
   <meta property="og:locale" content="hu_HU" />

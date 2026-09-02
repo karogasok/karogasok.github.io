@@ -1,5 +1,6 @@
 ---
 title: "The Life of a Computational Linguist VI - Interview with Jeremy Kahn (Director of Research, Wordnik)"
+slug: "life-of-computational-linguist-vi"
 date: 2011-02-09T18:36:00.002Z
 publishDate: 2011-02-09T18:36:00.002Z
 author: "Varjú Zoltán"

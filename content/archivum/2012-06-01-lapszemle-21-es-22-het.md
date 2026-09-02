@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle 21. és 22. hét"
+slug: "lapszemle-21-es-22-het"
 date: 2012-06-01T09:51:00.001Z
 publishDate: 2012-06-01T09:51:00.001Z
 author: "Varjú Zoltán"

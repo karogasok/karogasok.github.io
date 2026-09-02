@@ -1,5 +1,6 @@
 ---
 title: "A számítástudomány \"titkos\" története dióhéjban"
+slug: "szamitastudomany-titkos-tortenete"
 date: 2011-10-09T16:32:00.002Z
 publishDate: 2011-10-09T16:32:00.002Z
 author: "Varjú Zoltán"

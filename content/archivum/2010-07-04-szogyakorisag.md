@@ -1,5 +1,6 @@
 ---
 title: "Szógyakoriság"
+slug: "szogyakorisag"
 date: 2010-07-04T16:39:00.001Z
 publishDate: 2010-07-04T16:39:00.001Z
 author: "Varjú Zoltán"

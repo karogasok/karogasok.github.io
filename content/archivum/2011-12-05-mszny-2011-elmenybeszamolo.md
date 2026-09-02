@@ -1,5 +1,6 @@
 ---
 title: "MSZNY 2011 élménybeszámoló"
+slug: "mszny-2011-elmenybeszamolo"
 date: 2011-12-05T19:56:00.003Z
 publishDate: 2011-12-05T19:56:00.003Z
 author: "Varjú Zoltán"

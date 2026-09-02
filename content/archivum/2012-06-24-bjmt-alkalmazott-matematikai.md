@@ -1,5 +1,6 @@
 ---
 title: "BJMT Alkalmazott Matematikai Konferencia 2012"
+slug: "bjmt-alkalmazott-matematikai"
 date: 2012-06-24T19:32:00.001Z
 publishDate: 2012-06-24T19:32:00.001Z
 author: "Varjú Zoltán"

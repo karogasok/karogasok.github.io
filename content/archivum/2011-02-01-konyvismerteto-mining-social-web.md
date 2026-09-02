@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető - Mining the Social Web [frissítve]"
+slug: "konyvismerteto-mining-social-web"
 date: 2011-02-01T13:51:00.003Z
 publishDate: 2011-02-01T13:51:00.003Z
 author: "Varjú Zoltán"

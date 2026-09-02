@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Morville - Callender: Search Patterns"
+slug: "konyvismerteto-morville-callender"
 date: 2010-10-18T08:32:00.006Z
 publishDate: 2010-10-18T08:32:00.006Z
 author: "Varjú Zoltán"

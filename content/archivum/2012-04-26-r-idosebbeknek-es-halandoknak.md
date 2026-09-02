@@ -1,5 +1,6 @@
 ---
 title: "R idősebbeknek és halandóknak"
+slug: "r-idosebbeknek-es-halandoknak"
 date: 2012-04-26T04:00:00Z
 publishDate: 2012-04-26T04:00:00Z
 author: "Varjú Zoltán"

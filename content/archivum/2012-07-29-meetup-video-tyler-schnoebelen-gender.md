@@ -1,5 +1,6 @@
 ---
 title: "Meetup video: Tyler Schnoebelen, Gender and Style in American English Tweets"
+slug: "meetup-video-tyler-schnoebelen-gender"
 date: 2012-07-29T18:21:00Z
 publishDate: 2012-07-29T18:21:00Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Állás: Python fejlesztő@Pulilab"
+slug: "allas-python-fejlesztopulilab"
 date: 2012-07-04T15:05:00.001Z
 publishDate: 2012-07-04T15:05:00.001Z
 author: "Varjú Zoltán"

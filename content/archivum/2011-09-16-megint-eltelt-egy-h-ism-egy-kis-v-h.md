@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle"
+slug: "megint-eltelt-egy-h-ism-egy-kis-v-h"
 date: 2011-09-16T06:14:00.002Z
 publishDate: 2011-09-16T06:14:00.002Z
 author: "Varjú Zoltán"

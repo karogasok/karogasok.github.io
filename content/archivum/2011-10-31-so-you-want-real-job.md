@@ -1,5 +1,6 @@
 ---
 title: "So, you want a real job?"
+slug: "so-you-want-real-job"
 date: 2011-10-31T18:56:00.003Z
 publishDate: 2011-10-31T18:56:00.003Z
 author: "Varjú Zoltán"

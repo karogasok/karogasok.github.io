@@ -1,5 +1,6 @@
 ---
 title: "Korpusznyelvészet – elméleti megfontolások"
+slug: "korpusznyelveszet-elmeleti-2"
 date: 2011-04-07T15:05:00.003Z
 publishDate: 2011-04-07T15:05:00.003Z
 author: "Varjú Zoltán"

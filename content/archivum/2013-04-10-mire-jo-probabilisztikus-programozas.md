@@ -1,5 +1,6 @@
 ---
 title: "Mire jó a probabilisztikus programozás?"
+slug: "mire-jo-probabilisztikus-programozas"
 date: 2013-04-10T07:56:00.001Z
 publishDate: 2013-04-10T07:56:00.001Z
 author: "Varjú Zoltán"

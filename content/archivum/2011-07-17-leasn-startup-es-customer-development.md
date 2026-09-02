@@ -1,5 +1,6 @@
 ---
 title: "Lean startup és customer development - interjú Patrick Vlaskovits-csal"
+slug: "leasn-startup-es-customer-development"
 date: 2011-07-17T15:38:00.003Z
 publishDate: 2011-07-17T15:38:00.003Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Miről szólnak a magyar dalszövegek? - interjú a Kossuth Rádióban"
+slug: "mirol-szolnak-a-magyar-dalszovegek-interju-a-kossuth-radioban"
 date: 2020-10-06T08:36:55Z
 publishDate: 2020-10-06T08:36:55Z
 author: "Varjú Zoltán"

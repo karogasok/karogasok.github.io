@@ -1,5 +1,6 @@
 ---
 title: "Natural Language Processing for the Working Programmer - interview with the authors"
+slug: "natural-language-processing-for-working"
 date: 2011-04-28T11:36:00.003Z
 publishDate: 2011-04-28T11:36:00.003Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 13. hét"
+slug: "lapszemle-13-het"
 date: 2012-03-30T04:00:00Z
 publishDate: 2012-03-30T04:00:00Z
 author: "Varjú Zoltán"

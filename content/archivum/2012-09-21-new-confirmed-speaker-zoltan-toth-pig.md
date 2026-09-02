@@ -1,5 +1,6 @@
 ---
 title: "New confirmed speaker: Zoltan Toth, Pig: The Good Parts"
+slug: "new-confirmed-speaker-zoltan-toth-pig"
 date: 2012-09-21T17:21:00.001Z
 publishDate: 2012-09-21T17:21:00.001Z
 author: "Varjú Zoltán"

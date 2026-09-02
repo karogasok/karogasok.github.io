@@ -1,5 +1,6 @@
 ---
 title: "The life of a computational linguist II. - Interview with Oliver Mason"
+slug: "life-of-computational-linguist-ii"
 date: 2010-10-12T04:52:00.005Z
 publishDate: 2010-10-12T04:52:00.005Z
 author: "Varjú Zoltán"

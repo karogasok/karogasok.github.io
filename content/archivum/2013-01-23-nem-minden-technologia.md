@@ -1,5 +1,6 @@
 ---
 title: "Nem minden a technológia"
+slug: "nem-minden-technologia"
 date: 2013-01-23T09:41:00.001Z
 publishDate: 2013-01-23T09:41:00.001Z
 author: "Varjú Zoltán"

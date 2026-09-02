@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Data Mining with Rattle and R"
+slug: "konyvismerteto-data-mining-with-rattle"
 date: 2011-10-05T17:19:00.003Z
 publishDate: 2011-10-05T17:19:00.003Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Első magyar NLP meetup"
+slug: "elso-magyar-nlp-meetup"
 date: 2012-05-04T05:14:00.001Z
 publishDate: 2012-05-04T05:14:00.001Z
 author: "Varjú Zoltán"

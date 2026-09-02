@@ -1,5 +1,6 @@
 ---
 title: "Magyarországon könnyebb kocsmát találni mint orvost"
+slug: "magyarorszagon-konnyebb-kocsmat-talalni-mint-orvost"
 date: 2022-05-04T13:54:12Z
 publishDate: 2022-05-04T13:54:12Z
 author: "Varjú Zoltán"

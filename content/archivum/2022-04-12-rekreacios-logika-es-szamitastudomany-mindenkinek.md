@@ -1,5 +1,6 @@
 ---
 title: "Rekreációs logika és számítástudomány mindenkinek"
+slug: "rekreacios-logika-es-szamitastudomany-mindenkinek"
 date: 2022-04-12T13:04:08Z
 publishDate: 2022-04-12T13:04:08Z
 author: "Varjú Zoltán"

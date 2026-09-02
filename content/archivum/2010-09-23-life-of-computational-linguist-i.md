@@ -1,5 +1,6 @@
 ---
 title: "The life of a computational linguist I - Interview with Jason Adams"
+slug: "life-of-computational-linguist-i"
 date: 2010-09-23T12:05:00.003Z
 publishDate: 2010-09-23T12:05:00.003Z
 author: "Varjú Zoltán"

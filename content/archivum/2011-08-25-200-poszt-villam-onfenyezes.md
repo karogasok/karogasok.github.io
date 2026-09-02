@@ -1,5 +1,6 @@
 ---
 title: "A 200. poszt - villám önfényezés"
+slug: "200-poszt-villam-onfenyezes"
 date: 2011-08-25T07:18:00Z
 publishDate: 2011-08-25T07:18:00Z
 author: "Varjú Zoltán"

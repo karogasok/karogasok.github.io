@@ -1,5 +1,6 @@
 ---
 title: "Online 3D modell a VI. Nemzetközi Építészeti Makettfesztiválon"
+slug: "online-3d-modell-a-vi-nemzetkozi-epiteszeti-makettfesztivalon"
 date: 2022-05-30T19:43:51Z
 publishDate: 2022-05-30T19:43:51Z
 author: "Varjú Zoltán"

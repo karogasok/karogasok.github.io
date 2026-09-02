@@ -1,5 +1,6 @@
 ---
 title: "NLP meetup programváltozás"
+slug: "nlp-meetup-programvaltozas"
 date: 2013-03-27T09:41:00.001Z
 publishDate: 2013-03-27T09:41:00.001Z
 author: "Varjú Zoltán"

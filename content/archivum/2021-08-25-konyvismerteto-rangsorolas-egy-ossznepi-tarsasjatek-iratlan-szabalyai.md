@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Rangsorolás, Egy össznépi társasjáték íratlan szabályai"
+slug: "konyvismerteto-rangsorolas-egy-ossznepi-tarsasjatek-iratlan-szabalyai"
 date: 2021-08-25T08:04:06Z
 publishDate: 2021-08-25T08:04:06Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Opinion Mining & Sentiment Analysis, or what sets up a hot topic"
+slug: "opinion-mining-sentiment-analysis-or"
 date: 2011-05-04T19:11:00Z
 publishDate: 2011-05-04T19:11:00Z
 author: "Varjú Zoltán"

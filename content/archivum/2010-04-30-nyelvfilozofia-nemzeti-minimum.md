@@ -1,5 +1,6 @@
 ---
 title: "Nyelvfilozófia - a nemzeti minimum"
+slug: "nyelvfilozofia-nemzeti-minimum"
 date: 2010-04-30T16:44:00.001Z
 publishDate: 2010-04-30T16:44:00.001Z
 author: "Varjú Zoltán"

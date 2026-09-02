@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle"
+slug: "lapszemle"
 date: 2011-10-07T08:50:00.002Z
 publishDate: 2011-10-07T08:50:00.002Z
 author: "Varjú Zoltán"

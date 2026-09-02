@@ -1,5 +1,6 @@
 ---
 title: "Kreatív Ruby programozás kezdőknek"
+slug: "kreativ-ruby-programozas-kezdoknek"
 date: 2010-08-21T15:21:00.001Z
 publishDate: 2010-08-21T15:21:00.001Z
 author: "Varjú Zoltán"

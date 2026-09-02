@@ -1,5 +1,6 @@
 ---
 title: "Lehet játék a tanulás - legalábbis a programozás alapjainak elsajátítása"
+slug: "lehet-jatek-tanulas-legalabbis"
 date: 2010-03-12T20:40:00.001Z
 publishDate: 2010-03-12T20:40:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Dzsihád és nlp"
+slug: "dzsihad-es-nlp"
 date: 2013-03-22T14:20:00.001Z
 publishDate: 2013-03-22T14:20:00.001Z
 author: "Varjú Zoltán"

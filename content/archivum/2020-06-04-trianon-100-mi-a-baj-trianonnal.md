@@ -1,5 +1,6 @@
 ---
 title: "Trianon 100 - Mi a baj Trianonnal?"
+slug: "trianon-100-mi-a-baj-trianonnal"
 date: 2020-06-04T18:04:24Z
 publishDate: 2020-06-04T18:04:24Z
 author: "Varjú Zoltán"

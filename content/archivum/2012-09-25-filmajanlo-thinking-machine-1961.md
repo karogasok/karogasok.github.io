@@ -1,5 +1,6 @@
 ---
 title: "Filmajánló: The Thinking Machine (1961)"
+slug: "filmajanlo-thinking-machine-1961"
 date: 2012-09-25T06:46:00.001Z
 publishDate: 2012-09-25T06:46:00.001Z
 author: "Varjú Zoltán"

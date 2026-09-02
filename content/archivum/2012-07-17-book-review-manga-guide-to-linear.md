@@ -1,5 +1,6 @@
 ---
 title: "Book review: The Manga Guide to Linear Algebra"
+slug: "book-review-manga-guide-to-linear"
 date: 2012-07-17T09:05:00.001Z
 publishDate: 2012-07-17T09:05:00.001Z
 author: "Varjú Zoltán"

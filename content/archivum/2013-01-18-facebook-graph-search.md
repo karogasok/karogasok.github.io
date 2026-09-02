@@ -1,5 +1,6 @@
 ---
 title: "Facebook Graph Search"
+slug: "facebook-graph-search"
 date: 2013-01-18T12:38:00.001Z
 publishDate: 2013-01-18T12:38:00.001Z
 author: "Varjú Zoltán"

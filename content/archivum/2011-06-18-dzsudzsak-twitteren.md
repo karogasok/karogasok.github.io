@@ -1,5 +1,6 @@
 ---
 title: "Dzsudzsák a Twitteren!"
+slug: "dzsudzsak-twitteren"
 date: 2011-06-18T11:25:00.004Z
 publishDate: 2011-06-18T11:25:00.004Z
 author: "Varjú Zoltán"

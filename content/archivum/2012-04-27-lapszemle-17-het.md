@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 17. hét"
+slug: "lapszemle-17-het"
 date: 2012-04-27T08:00:00Z
 publishDate: 2012-04-27T08:00:00Z
 author: "Varjú Zoltán"

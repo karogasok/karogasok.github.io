@@ -1,5 +1,6 @@
 ---
 title: "Álláslehetőség: junior Python programozó @ CEU CNS"
+slug: "allaslehetoseg-junior-python-programozo"
 date: 2012-10-13T09:38:00.001Z
 publishDate: 2012-10-13T09:38:00.001Z
 author: "Varjú Zoltán"

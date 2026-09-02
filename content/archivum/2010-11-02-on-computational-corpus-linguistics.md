@@ -1,5 +1,6 @@
 ---
 title: "On (Computational) Corpus Linguistics - an interview with Stefan Th. Gries"
+slug: "on-computational-corpus-linguistics"
 date: 2010-11-02T05:56:00.003Z
 publishDate: 2010-11-02T05:56:00.003Z
 author: "Varjú Zoltán"

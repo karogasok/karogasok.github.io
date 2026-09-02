@@ -1,5 +1,6 @@
 ---
 title: "ESSLLI 2011: Why you should go to Ljubljana this year"
+slug: "esslli-2011-why-you-should-go-to"
 date: 2011-03-09T14:38:00.002Z
 publishDate: 2011-03-09T14:38:00.002Z
 author: "Varjú Zoltán"

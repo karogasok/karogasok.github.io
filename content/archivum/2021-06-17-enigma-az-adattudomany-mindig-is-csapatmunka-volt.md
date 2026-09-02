@@ -1,5 +1,6 @@
 ---
 title: "Enigma - az adattudomány mindig is csapatmunka volt"
+slug: "enigma-az-adattudomany-mindig-is-csapatmunka-volt"
 date: 2021-06-17T13:59:49Z
 publishDate: 2021-06-17T13:59:49Z
 author: "Varjú Zoltán"

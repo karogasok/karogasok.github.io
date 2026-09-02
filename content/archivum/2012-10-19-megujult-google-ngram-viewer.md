@@ -1,5 +1,6 @@
 ---
 title: "Megújult a Google Ngram Viewer"
+slug: "megujult-google-ngram-viewer"
 date: 2012-10-19T05:39:00.001Z
 publishDate: 2012-10-19T05:39:00.001Z
 author: "Varjú Zoltán"

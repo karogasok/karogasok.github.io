@@ -1,5 +1,6 @@
 ---
 title: "Adatújságírás hack-day - Van ötleted?"
+slug: "adatujsagiras-hack-day-van-otleted"
 date: 2013-01-28T07:37:00.001Z
 publishDate: 2013-01-28T07:37:00.001Z
 author: "Varjú Zoltán"

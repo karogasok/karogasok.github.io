@@ -1,5 +1,6 @@
 ---
 title: "(cím nélkül)"
+slug: "twitterbook-ahogyan-megigertem-jon"
 date: 2010-02-23T11:36:00Z
 publishDate: 2010-02-23T11:36:00Z
 author: "Varjú Zoltán"

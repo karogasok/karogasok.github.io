@@ -1,5 +1,6 @@
 ---
 title: "Ki a fene az az Alan Turing?"
+slug: "ki-a-fene-az-az-alan-turing"
 date: 2023-06-30T10:26:33Z
 publishDate: 2023-06-30T10:26:33Z
 author: "Varjú Zoltán"

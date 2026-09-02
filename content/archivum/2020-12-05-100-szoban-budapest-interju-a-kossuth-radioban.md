@@ -1,5 +1,6 @@
 ---
 title: "100 szóban Budapest - interjú a Kossuth Rádióban"
+slug: "100-szoban-budapest-interju-a-kossuth-radioban"
 date: 2020-12-05T08:29:39Z
 publishDate: 2020-12-05T08:29:39Z
 author: "Varjú Zoltán"

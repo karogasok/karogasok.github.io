@@ -1,5 +1,6 @@
 ---
 title: "Októberi konferenciák"
+slug: "oktoberi-konferenciak"
 date: 2012-10-02T09:37:00.001Z
 publishDate: 2012-10-02T09:37:00.001Z
 author: "Varjú Zoltán"

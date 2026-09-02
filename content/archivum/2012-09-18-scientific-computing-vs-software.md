@@ -1,5 +1,6 @@
 ---
 title: "Scientific computing vs software engineering"
+slug: "scientific-computing-vs-software"
 date: 2012-09-18T13:46:00.001Z
 publishDate: 2012-09-18T13:46:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "On NLTK and Python - an interview with Jacob Perkins"
+slug: "on-nltk-and-python-interviwe-with-jacob"
 date: 2011-04-26T08:04:00.004Z
 publishDate: 2011-04-26T08:04:00.004Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Statistical Analysis with R"
+slug: "konyvismerteto-statistical-analysis"
 date: 2011-03-02T20:17:00.001Z
 publishDate: 2011-03-02T20:17:00.001Z
 author: "Varjú Zoltán"

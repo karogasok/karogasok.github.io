@@ -1,5 +1,6 @@
 ---
 title: "Statistics and R for Linguists - a reading list"
+slug: "statistics-and-r-for-linguists-reading"
 date: 2012-08-15T07:42:00.001Z
 publishDate: 2012-08-15T07:42:00.001Z
 author: "Varjú Zoltán"

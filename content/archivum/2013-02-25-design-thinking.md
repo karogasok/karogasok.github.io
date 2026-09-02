@@ -1,5 +1,6 @@
 ---
 title: "Design Thinking"
+slug: "design-thinking"
 date: 2013-02-25T14:44:00.001Z
 publishDate: 2013-02-25T14:44:00.001Z
 author: "Varjú Zoltán"

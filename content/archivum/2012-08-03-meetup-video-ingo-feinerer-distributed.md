@@ -1,5 +1,6 @@
 ---
 title: "Meetup video: Ingo Feinerer: Distributed Text Mining in R"
+slug: "meetup-video-ingo-feinerer-distributed"
 date: 2012-08-03T08:14:00.001Z
 publishDate: 2012-08-03T08:14:00.001Z
 author: "Varjú Zoltán"

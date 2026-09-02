@@ -1,5 +1,6 @@
 ---
 title: "Prismatic"
+slug: "prismatic"
 date: 2012-12-13T12:47:00.001Z
 publishDate: 2012-12-13T12:47:00.001Z
 author: "Varjú Zoltán"

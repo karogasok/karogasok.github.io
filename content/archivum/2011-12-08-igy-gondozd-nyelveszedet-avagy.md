@@ -1,5 +1,6 @@
 ---
 title: "Így gondozd a nyelvészedet, avagy a metodológiai opportunizmus gyönyörei - 1."
+slug: "igy-gondozd-nyelveszedet-avagy"
 date: 2011-12-08T20:46:00.002Z
 publishDate: 2011-12-08T20:46:00.002Z
 author: "Varjú Zoltán"

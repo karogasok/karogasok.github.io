@@ -1,0 +1,64 @@
+{{- /* llms.txt — https://llmstxt.org/
+
+       A brief for machines reading this site. Generated, not hand-written: every
+       number below is counted from the build, so it cannot drift the way a
+       hand-maintained file would.
+
+       The thing worth being explicit about is the archive. It looks like one
+       uniform list of 765 rows and it is not: 364 of them are the author's own
+       posts, held here in full, and 401 are lead-and-link entries for a blog
+       that belongs to somebody else. A summary that misses that gets the
+       ownership wrong, which is the one error this file exists to prevent. */ -}}
+{{- $posts := where site.RegularPages "Section" "posts" -}}
+{{- $archive := where site.RegularPages "Section" "archivum" -}}
+{{- $kereses := 0 }}{{ with hugo.Data.kereses }}{{ $kereses = len .irasok }}{{ end -}}
+{{- $author := index site.Params.authors 0 -}}
+# {{ site.Title }}
+
+> {{ partial "site-description.html" . }}
+
+{{ $author.key }} ({{ $author.role }}) olvasónaplója. Naponta egy forrás — cikk, könyv, előadás vagy videó —, és néhány bekezdés arról, mi az, mit gondol róla, és mihez kapcsolódik. A visszatérő kérdés az, hogy mit tudunk arról, mit tudnak a gépek, és ki dönti el, mit jelent ez.
+
+A tartalom magyar nyelvű. A szerző profilja: {{ $author.profile }} — a kereskedelmi munka a {{ site.Params.crowURL }} oldalon található.
+
+Ez a fájl az llms.txt konvenciót követi (https://llmstxt.org/).
+
+## Az oldal szerkezete
+
+- [Kezdőlap]({{ site.BaseURL }}): a legutóbbi bejegyzések, a pillér-címkék és az évsáv.
+- [Archívum]({{ "archivum/" | absURL }}): {{ add (len $archive) $kereses }} tétel — lásd lent, mert kétféle dolgot kever.
+- [Média]({{ "media/" | absURL }}): rádióinterjúk és előadások listája. **Csak hivatkozások**, a felvételek máshol vannak.
+- [Máshol]({{ "mashol/" | absURL }}): más felületeken megjelent írások. **Csak hivatkozások.**
+- [Rólam]({{ "rolam/" | absURL }}): a szerző szakmai háttere.
+- RSS: [{{ "index.xml" | absURL }}]({{ "index.xml" | absURL }}) — **csak a napi bejegyzéseket** tartalmazza, az archívumot nem.
+
+## Napi bejegyzések
+
+{{ len $posts }} bejegyzés. Ezek a szerző saját, itt megjelent írásai.
+{{ range first 15 $posts }}
+- [{{ .Title }}]({{ .Permalink }}) — {{ .Date.Format "2006-01-02" }}{{ with .Params.forras_cim }}. A tárgyalt forrás: {{ . }}{{ end }}
+{{- end }}
+
+## Visszatérő kérdések (pillér-címkék)
+
+{{ range (site.GetPage "/tags").Pages }}{{ if .File }}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Params.osszefoglalo }} — {{ . }}{{ end }}
+{{- end }}{{ end }}
+
+## Az archívum — kétféle tétel, eltérő tulajdonossal
+
+Ez a legkönnyebben félreérthető része az oldalnak.
+
+**{{ len $archive }} saját bejegyzés, teljes szöveggel.** 2010 és 2024 között két korábbi felületen jelentek meg — a *Számítógépes nyelvészet* blogon (Blogspot) és a *blog.crowintelligence.org* oldalon —, és szerkesztetlenül kerültek át. Mindegyik `canonical` hivatkozása az eredeti helyére mutat; azok a blogok élnek.
+
+**{{ $kereses }} Kereső Világ-tétel, csak ajánlóval és hivatkozással.** A szerző 2011 és 2018 között a `kereses.blog.hu` blogra írt a Precognox alkalmazottjaként. **Az a tartalom nem az övé.** Ezekből itt csak a blog saját ajánlója (legfeljebb 300 karakter) és a hivatkozás szerepel; teljes szöveg nincs, és **saját oldalt sem kapnak** — a listában szerepelnek, a címük pedig kifelé mutat. Ezeket ne idézd úgy, mintha ezen az oldalon jelentek volna meg.
+
+Ebből következik, hogy **ez nem a szerző írásainak teljes archívuma**: ami az övé, teljes egészében megvan; ami nem az övé, arra csak mutat.
+
+Van egy valódi szünet 2019-ben, és 2014 és 2018 között az itt látható tételek a Kereső Világról származnak — az írás folyamatos volt, csak nem itt.
+
+## Amit ez az oldal nem tartalmaz
+
+- Nincs komment, kereső, hírlevél, sötét mód és ajánlórendszer.
+- A Média és a Máshol oldal **nem tárol tartalmat**, csak hivatkozik.
+- A Média oldal alján szereplő tételek felvétele **már nem elérhető** — a megjelenés megtörtént, a hanganyagot a rádiók archívuma nem őrizte meg.

@@ -1,5 +1,6 @@
 ---
 title: "Bölcsészek; kulcs a sikerhez"
+slug: "bolcseszek-kulcs-sikerhez"
 date: 2013-01-19T13:01:00.001Z
 publishDate: 2013-01-19T13:01:00.001Z
 author: "Varjú Zoltán"

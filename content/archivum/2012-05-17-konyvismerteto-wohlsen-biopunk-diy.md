@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Wohlsen - Biopunk: DIY Scientists Hack the Software of Life"
+slug: "konyvismerteto-wohlsen-biopunk-diy"
 date: 2012-05-17T15:44:00.001Z
 publishDate: 2012-05-17T15:44:00.001Z
 author: "Varjú Zoltán"

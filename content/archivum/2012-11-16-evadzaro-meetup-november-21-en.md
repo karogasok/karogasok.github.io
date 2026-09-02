@@ -1,5 +1,6 @@
 ---
 title: "Évadzáró meetup november 21-én"
+slug: "evadzaro-meetup-november-21-en"
 date: 2012-11-16T15:30:00.001Z
 publishDate: 2012-11-16T15:30:00.001Z
 author: "Varjú Zoltán"

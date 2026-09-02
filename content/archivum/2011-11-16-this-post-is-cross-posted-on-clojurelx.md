@@ -1,5 +1,6 @@
 ---
 title: "Why Clojure lx?"
+slug: "this-post-is-cross-posted-on-clojurelx"
 date: 2011-11-16T17:30:00Z
 publishDate: 2011-11-16T17:30:00Z
 author: "Varjú Zoltán"

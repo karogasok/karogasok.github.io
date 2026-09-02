@@ -1,5 +1,6 @@
 ---
 title: "Ismét a paradigmákról"
+slug: "ismet-paradigmakrol"
 date: 2011-03-09T11:30:00.002Z
 publishDate: 2011-03-09T11:30:00.002Z
 author: "Varjú Zoltán"

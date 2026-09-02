@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Introduction to Linguistic Annotation and Text Analytics"
+slug: "konyvismerteto-introduction-to"
 date: 2011-06-09T08:24:00.002Z
 publishDate: 2011-06-09T08:24:00.002Z
 author: "Varjú Zoltán"

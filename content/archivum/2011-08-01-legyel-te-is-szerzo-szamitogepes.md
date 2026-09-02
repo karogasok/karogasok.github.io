@@ -1,5 +1,6 @@
 ---
 title: "Legyél te is szerző a Számítógépes nyelvészet blogon!"
+slug: "legyel-te-is-szerzo-szamitogepes"
 date: 2011-08-01T07:42:00.003Z
 publishDate: 2011-08-01T07:42:00.003Z
 author: "Varjú Zoltán"

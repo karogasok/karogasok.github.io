@@ -1,5 +1,6 @@
 ---
 title: "bigmemory - don&#39;t drown in the data"
+slug: "bigmemory-don-drown-in-data"
 date: 2012-08-23T09:58:00.001Z
 publishDate: 2012-08-23T09:58:00.001Z
 author: "Varjú Zoltán"

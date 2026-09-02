@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Részeg bolyongás"
+slug: "konyvismerteto-reszeg-bolyongas"
 date: 2013-02-18T11:49:00.001Z
 publishDate: 2013-02-18T11:49:00.001Z
 author: "Varjú Zoltán"

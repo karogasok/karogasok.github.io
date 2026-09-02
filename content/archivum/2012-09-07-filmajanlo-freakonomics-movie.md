@@ -1,5 +1,6 @@
 ---
 title: "Filmajánló: Freakonomics: The Movie"
+slug: "filmajanlo-freakonomics-movie"
 date: 2012-09-07T07:57:00.001Z
 publishDate: 2012-09-07T07:57:00.001Z
 author: "Varjú Zoltán"

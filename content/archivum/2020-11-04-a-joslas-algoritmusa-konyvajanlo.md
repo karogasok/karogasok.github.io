@@ -1,5 +1,6 @@
 ---
 title: "A jóslás algoritmusa - könyvajánló"
+slug: "a-joslas-algoritmusa-konyvajanlo"
 date: 2020-11-04T11:06:22Z
 publishDate: 2020-11-04T11:06:22Z
 author: "Varjú Zoltán"

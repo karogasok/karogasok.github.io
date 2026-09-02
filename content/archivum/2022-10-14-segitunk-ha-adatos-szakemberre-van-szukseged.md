@@ -1,5 +1,6 @@
 ---
 title: "Segítünk ha adatos szakemberre van szükséged"
+slug: "segitunk-ha-adatos-szakemberre-van-szukseged"
 date: 2022-10-14T08:41:45Z
 publishDate: 2022-10-14T08:41:45Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Nyelvi értelmező, házilag"
+slug: "nyelvi-ertelmezo-hazilag"
 date: 2011-08-10T10:10:00.001Z
 publishDate: 2011-08-10T10:10:00.001Z
 author: "Varjú Zoltán"

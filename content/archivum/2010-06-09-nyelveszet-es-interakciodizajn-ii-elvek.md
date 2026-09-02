@@ -1,5 +1,6 @@
 ---
 title: "Nyelvészet és interakciódizájn II. - elvek, paraméterek, minimlaizmus és Ubiquity"
+slug: "nyelveszet-es-interakciodizajn-ii-elvek"
 date: 2010-06-09T16:07:00.001Z
 publishDate: 2010-06-09T16:07:00.001Z
 author: "Varjú Zoltán"

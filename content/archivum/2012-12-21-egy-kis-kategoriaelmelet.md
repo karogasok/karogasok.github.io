@@ -1,5 +1,6 @@
 ---
 title: "Egy kis kategóriaelmélet"
+slug: "egy-kis-kategoriaelmelet"
 date: 2012-12-21T11:24:00.002Z
 publishDate: 2012-12-21T11:24:00.002Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: The Back of the Napkin - képi gondolkodás kezdőknek"
+slug: "konyvismerteto-back-of-napkin-kepi"
 date: 2011-07-25T11:44:00.003Z
 publishDate: 2011-07-25T11:44:00.003Z
 author: "Varjú Zoltán"

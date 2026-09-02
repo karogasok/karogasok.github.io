@@ -1,5 +1,6 @@
 ---
 title: "R tutorial előtt"
+slug: "r-tutorial-elott"
 date: 2012-06-02T11:15:00.001Z
 publishDate: 2012-06-02T11:15:00.001Z
 author: "Varjú Zoltán"

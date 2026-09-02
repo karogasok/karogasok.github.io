@@ -1,5 +1,6 @@
 ---
 title: "Tudományfilozófia - ha érdekel mi a fene az a tudomány"
+slug: "tudomanyfilozofia-ha-erdekel-mi-a-fene-az-a-tudomany"
 date: 2022-12-08T09:20:46Z
 publishDate: 2022-12-08T09:20:46Z
 author: "Varjú Zoltán"

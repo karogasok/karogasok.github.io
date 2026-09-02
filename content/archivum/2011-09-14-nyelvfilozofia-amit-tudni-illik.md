@@ -1,5 +1,6 @@
 ---
 title: "Nyelvfilozófia - amit tudni illik"
+slug: "nyelvfilozofia-amit-tudni-illik"
 date: 2011-09-14T04:25:00.002Z
 publishDate: 2011-09-14T04:25:00.002Z
 author: "Varjú Zoltán"

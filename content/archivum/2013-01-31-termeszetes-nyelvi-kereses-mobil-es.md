@@ -1,5 +1,6 @@
 ---
 title: "Természetes nyelvi keresés, mobil és Graph Search"
+slug: "termeszetes-nyelvi-kereses-mobil-es"
 date: 2013-01-31T07:34:00.001Z
 publishDate: 2013-01-31T07:34:00.001Z
 author: "Varjú Zoltán"

@@ -40,6 +40,19 @@ else
   echo "OK    feed: $items items, no archive or external URLs (from $posts post files)"
 fi
 
+# Exactly two feeds, no more. The regi_cimke taxonomy was quietly publishing 94
+# of them — every one full of archive posts, advertised nowhere, findable only by
+# guessing a URL. Checking one file was why that went unseen for so long.
+feeds=$(find "$public" -name '*.xml' ! -name 'sitemap*.xml' | sort)
+feed_count=$(printf '%s\n' "$feeds" | grep -c . || true)
+if [ "$feed_count" -ne 2 ]; then
+  echo "FAIL  feeds: expected 2 (site + posts), found $feed_count" >&2
+  printf '        %s\n' $feeds >&2
+  fail=1
+else
+  echo "OK    feeds: exactly 2 — the site feed and the posts feed"
+fi
+
 # Those entries must also not have become pages of their own.
 # `|| true` because grep exits 1 when it matches nothing, and pipefail would
 # turn "no such pages exist" — the result we want — into a failed script.

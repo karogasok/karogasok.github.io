@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Zénón és a teknősbéka"
+slug: "konyvismerteto-zenon-es-teknosbeka"
 date: 2013-01-22T16:24:00.001Z
 publishDate: 2013-01-22T16:24:00.001Z
 author: "Varjú Zoltán"

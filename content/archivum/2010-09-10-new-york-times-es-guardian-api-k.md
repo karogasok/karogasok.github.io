@@ -1,5 +1,6 @@
 ---
 title: "A New York Times és a Guardian API-k használata"
+slug: "new-york-times-es-guardian-api-k"
 date: 2010-09-10T14:45:00.004Z
 publishDate: 2010-09-10T14:45:00.004Z
 author: "Varjú Zoltán"

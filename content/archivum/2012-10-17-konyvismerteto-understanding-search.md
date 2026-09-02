@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Understanding Search Engines: Mathematical Modeling and Text Retrieval"
+slug: "konyvismerteto-understanding-search"
 date: 2012-10-17T04:00:00Z
 publishDate: 2012-10-17T04:00:00Z
 author: "Varjú Zoltán"

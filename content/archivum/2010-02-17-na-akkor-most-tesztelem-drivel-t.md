@@ -1,5 +1,6 @@
 ---
 title: "(cím nélkül)"
+slug: "na-akkor-most-tesztelem-drivel-t"
 date: 2010-02-17T16:44:00Z
 publishDate: 2010-02-17T16:44:00Z
 author: "Varjú Zoltán"

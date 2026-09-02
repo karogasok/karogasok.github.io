@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Adatdetekítv - 10 egyszerű szabály, hogy ne tudjanak manipulálni"
+slug: "koynvismerteto-adatdetekitv-10-egyszeru-szabaly-hogy-ne-tudjanak"
 date: 2022-03-24T09:51:03Z
 publishDate: 2022-03-24T09:51:03Z
 author: "Varjú Zoltán"

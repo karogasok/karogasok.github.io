@@ -1,5 +1,6 @@
 ---
 title: "The Digital Humanities: An Introduction for Techies"
+slug: "digital-humanities-introduction-for"
 date: 2010-11-04T05:57:00.006Z
 publishDate: 2010-11-04T05:57:00.006Z
 author: "Varjú Zoltán"

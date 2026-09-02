@@ -1,5 +1,6 @@
 ---
 title: "Mesterséges intelligencia a könyvtárakban"
+slug: "mesterseges-intelligencia-a-konyvtarakban"
 date: 2023-02-07T19:55:27Z
 publishDate: 2023-02-07T19:55:27Z
 author: "Varjú Zoltán"

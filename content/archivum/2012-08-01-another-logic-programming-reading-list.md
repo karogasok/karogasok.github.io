@@ -1,5 +1,6 @@
 ---
 title: "Another Logic Programming Reading List (Updated)"
+slug: "another-logic-programming-reading-list"
 date: 2012-08-01T09:02:00.001Z
 publishDate: 2012-08-01T09:02:00.001Z
 author: "Varjú Zoltán"

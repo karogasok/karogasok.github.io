@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 5. hét"
+slug: "lapszemle-5-het"
 date: 2012-02-03T07:14:00.001Z
 publishDate: 2012-02-03T07:14:00.001Z
 author: "Varjú Zoltán"

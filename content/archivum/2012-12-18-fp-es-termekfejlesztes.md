@@ -1,5 +1,6 @@
 ---
 title: "FP és termékfejlesztés"
+slug: "fp-es-termekfejlesztes"
 date: 2012-12-18T20:33:00.001Z
 publishDate: 2012-12-18T20:33:00.001Z
 author: "Varjú Zoltán"

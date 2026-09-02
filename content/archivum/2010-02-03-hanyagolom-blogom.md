@@ -1,5 +1,6 @@
 ---
 title: "Hanyagolom a blogom"
+slug: "hanyagolom-blogom"
 date: 2010-02-03T19:56:00Z
 publishDate: 2010-02-03T19:56:00Z
 author: "Varjú Zoltán"

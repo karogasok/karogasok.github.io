@@ -1,5 +1,6 @@
 ---
 title: "Matematika felnőtteknek"
+slug: "matematika-felnotteknek"
 date: 2012-12-19T12:53:00.001Z
 publishDate: 2012-12-19T12:53:00.001Z
 author: "Varjú Zoltán"

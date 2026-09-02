@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Pierce; An Introduction to Information Theory"
+slug: "konyvismerteto-pierce-introduction-to"
 date: 2012-02-20T10:46:00.001Z
 publishDate: 2012-02-20T10:46:00.001Z
 author: "Varjú Zoltán"

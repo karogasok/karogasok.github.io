@@ -1,5 +1,6 @@
 ---
 title: "Új kanyart vesz a Duna? - Város és táj, közösség és közlekedés - Interdiszciplináris közösségépítés és kerekasztal"
+slug: "uj-kanyart-vesz-a-duna-varos-es-taj-kozosseg-es-kozlekedes"
 date: 2021-09-28T12:00:25Z
 publishDate: 2021-09-28T12:00:25Z
 author: "Varjú Zoltán"

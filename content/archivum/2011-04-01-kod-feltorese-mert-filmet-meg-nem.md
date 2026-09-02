@@ -1,5 +1,6 @@
 ---
 title: "A kód feltörése - mert filmet még nem ajánlottunk!"
+slug: "kod-feltorese-mert-filmet-meg-nem"
 date: 2011-04-01T16:02:00Z
 publishDate: 2011-04-01T16:02:00Z
 author: "Varjú Zoltán"

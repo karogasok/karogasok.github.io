@@ -1,5 +1,6 @@
 ---
 title: "Kitchen Budapest: Technológiai és újmédia boszorkánykonyha - Interjú Bujdosó Attila koordinátor és internet-freak építésszel"
+slug: "kitchen-budapes-technologiai-es-uj"
 date: 2010-11-19T14:28:00.004Z
 publishDate: 2010-11-19T14:28:00.004Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: The Cartoon Guide to the Computer"
+slug: "konyvismerteto-cartoon-guide-to"
 date: 2010-12-31T13:02:00Z
 publishDate: 2010-12-31T13:02:00Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Philosophy of Science: A Very Short Introduction"
+slug: "konyvismerteto-philosophy-of-science"
 date: 2011-09-18T11:50:00.002Z
 publishDate: 2011-09-18T11:50:00.002Z
 author: "Varjú Zoltán"

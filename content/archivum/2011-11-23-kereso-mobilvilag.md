@@ -1,5 +1,6 @@
 ---
 title: "Kereső Mobilvilág"
+slug: "kereso-mobilvilag"
 date: 2011-11-23T15:02:00.001Z
 publishDate: 2011-11-23T15:02:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "HVG Jövő 2.0 - ajánljuk magunkat"
+slug: "hvg-jovo-20-ajanljuk-magunkat"
 date: 2012-10-02T14:23:00.001Z
 publishDate: 2012-10-02T14:23:00.001Z
 author: "Varjú Zoltán"

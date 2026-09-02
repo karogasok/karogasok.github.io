@@ -1,5 +1,6 @@
 ---
 title: "Statistics and Sandel's Justice"
+slug: "statistics-and-sandels-justice"
 date: 2012-07-10T10:53:00Z
 publishDate: 2012-07-10T10:53:00Z
 author: "Varjú Zoltán"

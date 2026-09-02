@@ -1,5 +1,6 @@
 ---
 title: "Írástudók hajnala: innováció a médiában II. - Az adatok kora"
+slug: "irastudok-hajnala-innovacio-mediaban-ii"
 date: 2011-02-13T12:30:00.002Z
 publishDate: 2011-02-13T12:30:00.002Z
 author: "Varjú Zoltán"

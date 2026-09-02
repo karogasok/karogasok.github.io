@@ -1,5 +1,6 @@
 ---
 title: "Online kurzusok 1. - hogyan induljunk el?"
+slug: "online-kurzusok-1-hogyan-induljunk-el"
 date: 2012-08-09T16:03:00.001Z
 publishDate: 2012-08-09T16:03:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Technikai e-könyvek"
+slug: "technikai-e-konyvek"
 date: 2013-02-13T10:37:00.001Z
 publishDate: 2013-02-13T10:37:00.001Z
 author: "Varjú Zoltán"

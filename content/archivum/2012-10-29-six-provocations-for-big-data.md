@@ -1,5 +1,6 @@
 ---
 title: "Six Provocations for Big Data"
+slug: "six-provocations-for-big-data"
 date: 2012-10-29T07:40:00.001Z
 publishDate: 2012-10-29T07:40:00.001Z
 author: "Varjú Zoltán"

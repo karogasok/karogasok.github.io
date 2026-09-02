@@ -1,5 +1,6 @@
 ---
 title: "Hírek - másképp"
+slug: "hirek-maskepp"
 date: 2013-03-26T09:48:00.001Z
 publishDate: 2013-03-26T09:48:00.001Z
 author: "Varjú Zoltán"

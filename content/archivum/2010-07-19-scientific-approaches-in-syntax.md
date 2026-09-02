@@ -1,5 +1,6 @@
 ---
 title: "Scientific Approaches in Syntax: a synthesis of analogies"
+slug: "scientific-approaches-in-syntax"
 date: 2010-07-19T14:32:00.001Z
 publishDate: 2010-07-19T14:32:00.001Z
 author: "Varjú Zoltán"

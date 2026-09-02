@@ -1,5 +1,6 @@
 ---
 title: "Aki nem használja a ChatGPT-t és a mesterséges intelligenciát, az behozhatatlanul lemarad"
+slug: "aki-nem-hasznalja-a-chatgpt-t-es-a-mesterseges-intelligenciat-az"
 date: 2023-03-21T12:53:28Z
 publishDate: 2023-03-21T12:53:28Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Meyer; English Corpus Linguistics"
+slug: "konyvismerteto-meyer-english-corpus"
 date: 2010-08-29T07:27:00.001Z
 publishDate: 2010-08-29T07:27:00.001Z
 author: "Varjú Zoltán"

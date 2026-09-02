@@ -1,5 +1,6 @@
 ---
 title: "Szöveges információk vizualizációja Gephi és az AlchemyAPI segítségével"
+slug: "szoveges-informaciok-vizualizacioja"
 date: 2010-11-20T13:01:00.002Z
 publishDate: 2010-11-20T13:01:00.002Z
 author: "Varjú Zoltán"

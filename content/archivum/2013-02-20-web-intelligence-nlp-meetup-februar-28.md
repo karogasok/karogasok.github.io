@@ -1,5 +1,6 @@
 ---
 title: "Web Intelligence - NLP meetup február 28-án"
+slug: "web-intelligence-nlp-meetup-februar-28"
 date: 2013-02-20T15:45:00.001Z
 publishDate: 2013-02-20T15:45:00.001Z
 author: "Varjú Zoltán"

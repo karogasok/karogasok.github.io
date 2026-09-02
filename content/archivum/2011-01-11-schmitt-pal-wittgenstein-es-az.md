@@ -1,5 +1,6 @@
 ---
 title: "Schmitt Pál, Wittgenstein és az infógrafika"
+slug: "schmitt-pal-wittgenstein-es-az"
 date: 2011-01-11T13:29:00.002Z
 publishDate: 2011-01-11T13:29:00.002Z
 author: "Varjú Zoltán"

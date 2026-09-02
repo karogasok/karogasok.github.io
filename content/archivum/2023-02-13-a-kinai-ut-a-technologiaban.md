@@ -1,5 +1,6 @@
 ---
-title: "<strong>A kínai út a technológiában</strong>"
+title: "A kínai út a technológiában"
+slug: "a-kinai-ut-a-technologiaban"
 date: 2023-02-13T10:46:37Z
 publishDate: 2023-02-13T10:46:37Z
 author: "Varjú Zoltán"

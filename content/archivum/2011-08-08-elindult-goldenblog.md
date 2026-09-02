@@ -1,5 +1,6 @@
 ---
 title: "[Frissítve!] Elindult a Goldenblog..."
+slug: "elindult-goldenblog"
 date: 2011-08-08T09:08:00.004Z
 publishDate: 2011-08-08T09:08:00.004Z
 author: "Varjú Zoltán"

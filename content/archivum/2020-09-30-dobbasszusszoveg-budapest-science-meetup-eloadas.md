@@ -1,5 +1,6 @@
 ---
 title: "Dob+Basszus+Szöveg = Budapest Science Meetup előadás"
+slug: "dobbasszusszoveg-budapest-science-meetup-eloadas"
 date: 2020-09-30T10:13:49Z
 publishDate: 2020-09-30T10:13:49Z
 author: "Varjú Zoltán"

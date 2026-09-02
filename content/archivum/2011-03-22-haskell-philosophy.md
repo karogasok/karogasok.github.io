@@ -1,5 +1,6 @@
 ---
 title: "Haskell Philosophy?"
+slug: "haskell-philosophy"
 date: 2011-03-22T16:18:00.002Z
 publishDate: 2011-03-22T16:18:00.002Z
 author: "Varjú Zoltán"

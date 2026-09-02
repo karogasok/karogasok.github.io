@@ -1,5 +1,6 @@
 ---
 title: "Koronavírus és metaforák - beszélgetés a Civil Rádióban"
+slug: "koronavirus-es-metaforak-beszelgetes-a-civil-radioban"
 date: 2020-08-18T08:20:59Z
 publishDate: 2020-08-18T08:20:59Z
 author: "Varjú Zoltán"

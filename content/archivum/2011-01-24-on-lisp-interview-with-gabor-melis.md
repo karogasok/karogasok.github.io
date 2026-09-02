@@ -1,5 +1,6 @@
 ---
 title: "On Lisp - Interview with Gábor Melis"
+slug: "on-lisp-interview-with-gabor-melis"
 date: 2011-01-24T12:40:00.004Z
 publishDate: 2011-01-24T12:40:00.004Z
 author: "Varjú Zoltán"

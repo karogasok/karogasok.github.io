@@ -1,5 +1,6 @@
 ---
 title: "Funkcionális programozás nem-programozóknak (könyvek és honlapok)"
+slug: "funkcionalis-programozas-nem"
 date: 2010-03-25T16:30:00.001Z
 publishDate: 2010-03-25T16:30:00.001Z
 author: "Varjú Zoltán"

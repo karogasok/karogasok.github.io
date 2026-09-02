@@ -1,5 +1,6 @@
 ---
 title: "Mire jók a chatbotok és hol tart ma az ember-gép interakció - interjú a Kossuth Rádióban"
+slug: "mire-jok-a-chatbotok-es-hol-tart-ma-az-ember-gep-interakcio-interju-a"
 date: 2021-05-11T14:15:45Z
 publishDate: 2021-05-11T14:15:45Z
 author: "Varjú Zoltán"

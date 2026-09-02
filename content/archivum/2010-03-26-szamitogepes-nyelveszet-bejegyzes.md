@@ -1,5 +1,6 @@
 ---
 title: "Számítógépes nyelvészet - bejegyzés tervezet (Segíts ha tudsz!!!!!)"
+slug: "szamitogepes-nyelveszet-bejegyzes"
 date: 2010-03-26T14:43:00Z
 publishDate: 2010-03-26T14:43:00Z
 author: "Varjú Zoltán"

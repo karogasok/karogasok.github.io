@@ -1,5 +1,6 @@
 ---
 title: "Könyismertető: Huff - How to Lie with Statistics"
+slug: "konyismerteto-huff-how-to-lie-with"
 date: 2012-02-29T05:19:00Z
 publishDate: 2012-02-29T05:19:00Z
 author: "Varjú Zoltán"

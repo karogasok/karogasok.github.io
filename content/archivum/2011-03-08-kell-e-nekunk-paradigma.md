@@ -1,5 +1,6 @@
 ---
 title: "Kell-e nekünk paradigma?"
+slug: "kell-e-nekunk-paradigma"
 date: 2011-03-08T17:24:00.002Z
 publishDate: 2011-03-08T17:24:00.002Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Word Cram - an interview with its creator Dan Bernier"
+slug: "word-cram-interview-with-its-creator"
 date: 2010-11-10T10:53:00.002Z
 publishDate: 2010-11-10T10:53:00.002Z
 author: "Varjú Zoltán"

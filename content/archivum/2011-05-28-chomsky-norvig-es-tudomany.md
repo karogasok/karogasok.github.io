@@ -1,5 +1,6 @@
 ---
 title: "Chomsky, Norvig és a tudomány"
+slug: "chomsky-norvig-es-tudomany"
 date: 2011-05-28T11:34:00.002Z
 publishDate: 2011-05-28T11:34:00.002Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "The life of a computational linguist IV - interview with Alyona Medelyan"
+slug: "life-of-computational-linguist-iv"
 date: 2010-10-16T16:44:00.001Z
 publishDate: 2010-10-16T16:44:00.001Z
 author: "Varjú Zoltán"

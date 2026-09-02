@@ -1,5 +1,6 @@
 ---
 title: "Elveszett logikusok menedéke"
+slug: "elveszett-logikusok-menedeke"
 date: 2010-02-03T20:08:00Z
 publishDate: 2010-02-03T20:08:00Z
 author: "Varjú Zoltán"

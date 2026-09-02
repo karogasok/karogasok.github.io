@@ -1,5 +1,6 @@
 ---
 title: "Chomsky és a statisztika"
+slug: "vissza-jovobe-avagy-miert-veszitett"
 date: 2011-05-11T16:02:00Z
 publishDate: 2011-05-11T16:02:00Z
 author: "Varjú Zoltán"

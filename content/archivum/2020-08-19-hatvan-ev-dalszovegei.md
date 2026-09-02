@@ -1,5 +1,6 @@
 ---
 title: "Ezek minden idők leggyakoribb és legfontosabb  szavai a magyar popslágerekben"
+slug: "hatvan-ev-dalszovegei"
 date: 2020-08-19T10:11:41Z
 publishDate: 2020-08-19T10:11:41Z
 author: "Varjú Zoltán"

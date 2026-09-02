@@ -1,5 +1,6 @@
 ---
 title: "Az első posztom."
+slug: "az-elso-posztom"
 date: 2010-01-22T09:32:00Z
 publishDate: 2010-01-22T09:32:00Z
 author: "Varjú Zoltán"

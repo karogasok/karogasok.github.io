@@ -5,7 +5,7 @@
 HUGO ?= hugo
 DATE := $(shell date +%Y-%m-%d)
 
-.PHONY: help new serve build check clean fonts import-blogspot import-wordpress import-kereses prune-media
+.PHONY: help new serve build check clean fonts og import-blogspot import-wordpress import-kereses prune-media
 
 help:
 	@echo "make new t=\"a bejegyzés címe\"   új bejegyzés a mai dátummal"
@@ -13,6 +13,7 @@ help:
 	@echo "make build                       éles build a public/ könyvtárba"
 	@echo "make check                       build + a feed és az ütemezés ellenőrzése"
 	@echo "make fonts                       betűkészletek újratöltése"
+	@echo "make og                          OG-kártyák generálása"
 	@echo "make import-blogspot             Blogspot archívum importálása"
 	@echo "make import-wordpress            WordPress archívum importálása"
 	@echo "make import-kereses              Kereső Világ bejegyzések listája"
@@ -38,6 +39,9 @@ check: build
 
 fonts:
 	python3 scripts/fetch_fonts.py
+
+og:
+	python3 scripts/make_og.py
 
 import-blogspot:
 	python3 scripts/import_blogspot.py

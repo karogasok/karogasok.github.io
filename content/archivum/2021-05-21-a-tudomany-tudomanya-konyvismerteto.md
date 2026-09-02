@@ -1,5 +1,6 @@
 ---
 title: "A tudomány tudománya - könyvismertető"
+slug: "a-tudomany-tudomanya-konyvismerteto"
 date: 2021-05-21T09:36:45Z
 publishDate: 2021-05-21T09:36:45Z
 author: "Varjú Zoltán"

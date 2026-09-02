@@ -1,5 +1,6 @@
 ---
 title: "Logika mindenkinek II - automaták, formális nyelvek és kiszámíthatóság"
+slug: "logika-mindenkinek-ii-automatak"
 date: 2010-05-09T12:37:00.001Z
 publishDate: 2010-05-09T12:37:00.001Z
 author: "Varjú Zoltán"

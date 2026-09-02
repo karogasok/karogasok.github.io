@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Clojure in Action"
+slug: "konyvismerteto-clojure-in-action"
 date: 2011-12-30T20:36:00.003Z
 publishDate: 2011-12-30T20:36:00.003Z
 author: "Varjú Zoltán"

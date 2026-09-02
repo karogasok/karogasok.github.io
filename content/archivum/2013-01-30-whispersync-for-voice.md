@@ -1,5 +1,6 @@
 ---
 title: "Whispersync for Voice"
+slug: "whispersync-for-voice"
 date: 2013-01-30T10:31:00.001Z
 publishDate: 2013-01-30T10:31:00.001Z
 author: "Varjú Zoltán"

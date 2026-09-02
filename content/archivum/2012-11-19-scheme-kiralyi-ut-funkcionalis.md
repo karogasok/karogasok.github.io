@@ -1,5 +1,6 @@
 ---
 title: "Scheme - királyi út a funkcionális programozás felé"
+slug: "scheme-kiralyi-ut-funkcionalis"
 date: 2012-11-19T16:33:00.001Z
 publishDate: 2012-11-19T16:33:00.001Z
 author: "Varjú Zoltán"

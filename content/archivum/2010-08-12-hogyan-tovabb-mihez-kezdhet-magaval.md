@@ -1,5 +1,6 @@
 ---
 title: "Hogyan tovább? - mihez kezdhet magával a magunkfajta"
+slug: "hogyan-tovabb-mihez-kezdhet-magaval"
 date: 2010-08-12T13:48:00.001Z
 publishDate: 2010-08-12T13:48:00.001Z
 author: "Varjú Zoltán"

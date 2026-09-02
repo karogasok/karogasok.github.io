@@ -1,5 +1,6 @@
 ---
 title: "Ügyfélfejlesztés dióhéjban"
+slug: "lean-startup-es-ugyfelfejlesztes-2"
 date: 2011-07-19T13:16:00.004Z
 publishDate: 2011-07-19T13:16:00.004Z
 author: "Varjú Zoltán"

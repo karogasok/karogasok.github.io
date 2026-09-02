@@ -1,5 +1,6 @@
 ---
 title: "Pro Git szabadkönyv"
+slug: "pro-git-szabadkonyv"
 date: 2010-01-22T09:44:00Z
 publishDate: 2010-01-22T09:44:00Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "GPT-3, nyelvmodellek, AI és szöveggenerálás – interjú a Kossuth Rádióban"
+slug: "gpt-3-nyelvmodellek-ai-es-szoveggeneralas-interju-a-kossuth-radioban"
 date: 2020-08-08T08:44:49Z
 publishDate: 2020-08-08T08:44:49Z
 author: "Varjú Zoltán"

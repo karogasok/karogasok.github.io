@@ -1,5 +1,6 @@
 ---
 title: "The Anxiety of Digital Humanities"
+slug: "anxiety-of-digital-humanities"
 date: 2010-08-09T14:00:00.001Z
 publishDate: 2010-08-09T14:00:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Faceted Search"
+slug: "konyvismerteto-faceted-search"
 date: 2011-10-24T07:28:00.002Z
 publishDate: 2011-10-24T07:28:00.002Z
 author: "Varjú Zoltán"

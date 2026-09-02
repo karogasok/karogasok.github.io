@@ -1,5 +1,6 @@
 ---
 title: "Eszpresszó Arkhimédésszel - matematikafilozófia mindenkinek"
+slug: "eszpresszo-arkhimedesszel-matematikafilozofia-mindenkinek"
 date: 2021-05-19T09:51:19Z
 publishDate: 2021-05-19T09:51:19Z
 author: "Varjú Zoltán"

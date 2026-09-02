@@ -1,5 +1,6 @@
 ---
 title: "Egy másik metaforamasina"
+slug: "egy-masik-metaforamasina"
 date: 2012-10-30T18:39:00Z
 publishDate: 2012-10-30T18:39:00Z
 author: "Varjú Zoltán"

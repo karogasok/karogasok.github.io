@@ -1,5 +1,6 @@
 ---
 title: "Book review: Business Model Generation"
+slug: "book-review-business-model-generation"
 date: 2012-07-09T13:27:00.001Z
 publishDate: 2012-07-09T13:27:00.001Z
 author: "Varjú Zoltán"

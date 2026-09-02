@@ -1,5 +1,6 @@
 ---
 title: "Firefox, te is jobbá teheted!"
+slug: "firefox-te-is-jobba-teheted"
 date: 2010-03-05T16:31:00.001Z
 publishDate: 2010-03-05T16:31:00.001Z
 author: "Varjú Zoltán"

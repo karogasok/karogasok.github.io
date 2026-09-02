@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 16. hét"
+slug: "lapszemle-16-het"
 date: 2012-04-20T10:13:00.001Z
 publishDate: 2012-04-20T10:13:00.001Z
 author: "Varjú Zoltán"

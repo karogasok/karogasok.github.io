@@ -1,5 +1,6 @@
 ---
 title: "Hitelválság és nyelv - avagy miért ne zárjuk be a bölcsészkarokat"
+slug: "hitelvalsag-es-nyelv-avagy-miert-ne"
 date: 2011-10-26T08:44:00.002Z
 publishDate: 2011-10-26T08:44:00.002Z
 author: "Varjú Zoltán"

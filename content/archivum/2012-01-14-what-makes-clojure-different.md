@@ -1,5 +1,6 @@
 ---
 title: "What makes Clojure different?"
+slug: "what-makes-clojure-different"
 date: 2012-01-14T08:00:00Z
 publishDate: 2012-01-14T08:00:00Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Algoritmikus fejvadászat - ha nem vigyázol, rád találnak! Tippek kezdőknek (egy kezdőtől)"
+slug: "algoritmikus-fejvadaszat-ha-nem"
 date: 2010-03-06T18:10:00.001Z
 publishDate: 2010-03-06T18:10:00.001Z
 author: "Varjú Zoltán"

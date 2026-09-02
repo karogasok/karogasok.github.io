@@ -1,5 +1,6 @@
 ---
 title: "Könyvajánló: Emberek és gépek - avagy mit kell tudni ma a mesterséges intelligenciáról"
+slug: "konyvajanlo-emberek-es-gepek-avagy-mit-kell-tudni-ma-a-mesterseges"
 date: 2022-07-15T12:32:31Z
 publishDate: 2022-07-15T12:32:31Z
 author: "Varjú Zoltán"

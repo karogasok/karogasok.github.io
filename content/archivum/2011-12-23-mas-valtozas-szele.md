@@ -1,5 +1,6 @@
 ---
 title: "Más! - a változás szele"
+slug: "mas-valtozas-szele"
 date: 2011-12-23T10:54:00.002Z
 publishDate: 2011-12-23T10:54:00.002Z
 author: "Varjú Zoltán"

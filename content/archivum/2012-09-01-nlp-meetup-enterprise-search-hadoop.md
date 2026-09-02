@@ -1,5 +1,6 @@
 ---
 title: "NLP Meetup: Enterprise Search - Hadoop - Data Mining, Sept. 26 18:00 @ Colabs"
+slug: "nlp-meetup-enterprise-search-hadoop"
 date: 2012-09-01T07:00:00Z
 publishDate: 2012-09-01T07:00:00Z
 author: "Varjú Zoltán"

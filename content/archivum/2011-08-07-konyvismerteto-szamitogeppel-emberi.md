@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Számítógéppel emberi nyelven"
+slug: "konyvismerteto-szamitogeppel-emberi"
 date: 2011-08-07T15:28:00.002Z
 publishDate: 2011-08-07T15:28:00.002Z
 author: "Varjú Zoltán"

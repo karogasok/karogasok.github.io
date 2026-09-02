@@ -1,5 +1,6 @@
 ---
 title: "A minimalista program I - Elvek, paraméterek és miért is kell minimalizmusra törekednünk"
+slug: "minimalista-program-i-elvek-parameterek"
 date: 2010-06-22T08:02:00.001Z
 publishDate: 2010-06-22T08:02:00.001Z
 author: "Varjú Zoltán"

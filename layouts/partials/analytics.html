@@ -1,0 +1,28 @@
+{{- /* Google Analytics 4, with Consent Mode v2 defaulting to denied.
+
+       This is the only JavaScript on the site, and it is loaded last, async,
+       and only when params.ga holds an ID — with the ID empty this partial
+       emits nothing at all, so `hugo server` never phones home and the build
+       stays script-free.
+
+       Consent defaults to denied for analytics and ad storage, which means no
+       cookies and no identifiers are set unless consent is granted elsewhere.
+       That is lawful in the EU without a banner; the cost is coarse modelled
+       data rather than full sessions. The `consent` call must come before the
+       `config` call or the default never applies — order matters here more than
+       it looks. */ -}}
+{{- with site.Params.ga }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+  gtag('js', new Date());
+  gtag('config', '{{ . }}', { 'anonymize_ip': true });
+</script>
+{{- end }}

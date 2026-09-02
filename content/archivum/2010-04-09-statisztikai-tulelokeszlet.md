@@ -1,5 +1,6 @@
 ---
 title: "Statisztikai túlélőkészlet"
+slug: "statisztikai-tulelokeszlet"
 date: 2010-04-09T11:01:00.001Z
 publishDate: 2010-04-09T11:01:00.001Z
 author: "Varjú Zoltán"

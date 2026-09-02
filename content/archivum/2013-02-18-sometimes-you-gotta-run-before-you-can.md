@@ -1,5 +1,6 @@
 ---
 title: "Sometimes you gotta run before you can walk"
+slug: "sometimes-you-gotta-run-before-you-can"
 date: 2013-02-18T15:35:00.001Z
 publishDate: 2013-02-18T15:35:00.001Z
 author: "Varjú Zoltán"

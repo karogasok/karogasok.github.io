@@ -1,5 +1,6 @@
 ---
 title: "Google Analytics"
+slug: "google-analytics"
 date: 2010-02-08T14:06:00Z
 publishDate: 2010-02-08T14:06:00Z
 author: "Varjú Zoltán"

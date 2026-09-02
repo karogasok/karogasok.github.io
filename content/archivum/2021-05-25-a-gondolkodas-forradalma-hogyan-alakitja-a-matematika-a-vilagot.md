@@ -1,5 +1,6 @@
 ---
 title: "A gondolkodás forradalma - Hogyan alakítja a matematika a világot? - Könyvismertető"
+slug: "a-gondolkodas-forradalma-hogyan-alakitja-a-matematika-a-vilagot"
 date: 2021-05-25T12:24:54Z
 publishDate: 2021-05-25T12:24:54Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 9. hét"
+slug: "lapszemle-9-het"
 date: 2012-03-02T05:00:00Z
 publishDate: 2012-03-02T05:00:00Z
 author: "Varjú Zoltán"

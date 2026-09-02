@@ -1,5 +1,6 @@
 ---
 title: "Neked a divat mondja meg"
+slug: "neked-divat-mondja-meg"
 date: 2013-02-08T09:57:00.001Z
 publishDate: 2013-02-08T09:57:00.001Z
 author: "Varjú Zoltán"

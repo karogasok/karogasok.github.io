@@ -1,5 +1,6 @@
 ---
 title: "Olvasónapló #1"
+slug: "olvasonaplo-1"
 date: 2012-08-31T06:41:00.001Z
 publishDate: 2012-08-31T06:41:00.001Z
 author: "Varjú Zoltán"

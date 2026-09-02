@@ -1,5 +1,6 @@
 ---
 title: "Hunmorph-foma, új nyelvtani analizátor és generátor"
+slug: "hunmorph-foma-uj-nyelvtani-analizator"
 date: 2013-01-23T15:53:00.001Z
 publishDate: 2013-01-23T15:53:00.001Z
 author: "Varjú Zoltán"

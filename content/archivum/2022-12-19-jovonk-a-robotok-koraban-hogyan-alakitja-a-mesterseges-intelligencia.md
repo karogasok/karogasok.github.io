@@ -1,5 +1,6 @@
 ---
 title: "Jövőnk a robotok korában – Hogyan alakítja a mesterséges intelligencia életünket?"
+slug: "jovonk-a-robotok-koraban-hogyan-alakitja-a-mesterseges-intelligencia"
 date: 2022-12-19T14:21:12Z
 publishDate: 2022-12-19T14:21:12Z
 author: "Varjú Zoltán"

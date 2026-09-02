@@ -1,5 +1,6 @@
 ---
 title: "Try R - ingyenes statisztikai programozás kurzus"
+slug: "try-r-ingyenes-statisztikai-programozas"
 date: 2012-12-07T09:20:00.001Z
 publishDate: 2012-12-07T09:20:00.001Z
 author: "Varjú Zoltán"

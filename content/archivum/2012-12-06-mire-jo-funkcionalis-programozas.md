@@ -1,5 +1,6 @@
 ---
 title: "Mire jó a funkcionális programozás"
+slug: "mire-jo-funkcionalis-programozas"
 date: 2012-12-06T10:39:00.001Z
 publishDate: 2012-12-06T10:39:00.001Z
 author: "Varjú Zoltán"

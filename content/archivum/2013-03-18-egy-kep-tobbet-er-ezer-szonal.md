@@ -1,5 +1,6 @@
 ---
 title: "Egy kép többet ér ezer szónál?"
+slug: "egy-kep-tobbet-er-ezer-szonal"
 date: 2013-03-18T12:59:00.001Z
 publishDate: 2013-03-18T12:59:00.001Z
 author: "Varjú Zoltán"

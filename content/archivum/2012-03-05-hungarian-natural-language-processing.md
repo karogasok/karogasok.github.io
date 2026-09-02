@@ -1,5 +1,6 @@
 ---
 title: "Hungarian Natural Language Processing Meetup Group"
+slug: "hungarian-natural-language-processing"
 date: 2012-03-05T18:17:00.001Z
 publishDate: 2012-03-05T18:17:00.001Z
 author: "Varjú Zoltán"

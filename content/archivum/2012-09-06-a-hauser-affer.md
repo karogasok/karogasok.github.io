@@ -1,5 +1,6 @@
 ---
 title: "A Hauser affér"
+slug: "a-hauser-affer"
 date: 2012-09-06T07:51:00.001Z
 publishDate: 2012-09-06T07:51:00.001Z
 author: "Varjú Zoltán"

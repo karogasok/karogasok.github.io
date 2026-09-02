@@ -1,5 +1,6 @@
 ---
 title: "Mit rejt a jövő II. Rövid és közép távon mire számíthatunk"
+slug: "mit-rejt-jovo-ii-rovid-es-kozep-tavon"
 date: 2011-01-05T13:17:00.005Z
 publishDate: 2011-01-05T13:17:00.005Z
 author: "Varjú Zoltán"

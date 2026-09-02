@@ -1,5 +1,6 @@
 ---
 title: "The life of a computational linguist III. - Interview with Hugo Liu taste researcher"
+slug: "life-of-computational-linguist-ii-14"
 date: 2010-10-14T05:31:00.002Z
 publishDate: 2010-10-14T05:31:00.002Z
 author: "Varjú Zoltán"

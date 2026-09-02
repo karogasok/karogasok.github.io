@@ -231,6 +231,32 @@ betűkészlet elhasal ezen. Betűcsere előtt ezt kell először megnézni.
 A `-ext` fájlok viszik a Latin Extended blokkot, amiben az `ő` és az `ű` van —
 egy magyar oldalon ezek nem opcionálisak, ezért ezek is előre töltődnek.
 
+## Kereshetőség, llms.txt, analitika
+
+**`/llms.txt`** — géppel olvasható összefoglaló az oldalról, az
+[llms.txt konvenció](https://llmstxt.org/) szerint. **Generált fájl**
+(`layouts/index.llms.txt`), nem kézzel írt: a benne szereplő számok a buildből
+jönnek, így nem csúszhatnak el. A legfontosabb, amit kimond: az archívum
+kétféle tételt kever — saját, teljes szövegű bejegyzéseket és Kereső
+Világ-hivatkozásokat —, mert enélkül egy összefoglaló rossz tulajdonost ad meg.
+
+**Feedek: pontosan kettő.** `/index.xml` (napi bejegyzések) és `/posts/index.xml`.
+A `regi_cimke` taxonómia korábban 94 további feedet publikált, tele archív
+bejegyzésekkel, sehol nem hirdetve. A `check_build.sh` most elbukik, ha kettőnél
+több feed keletkezik.
+
+**OG-kártyák.** A `make og` (`scripts/make_og.py`) az oldal saját betűivel
+generál kártyát minden napi bejegyzéshez a `static/assets/og/` alá; a többi oldal
+a közös kártyát kapja. Az archívumhoz **szándékosan nem** készül: azok
+`canonical`-ja más blogra mutat, és nem a mi nevünkkel kell megjelölni őket.
+
+**Analitika.** A `hugo.toml` `params.ga` mezőjébe kerül a GA4 mérési azonosító.
+**Amíg üres, a partial semmit nem ír ki** — se script, se kérés —, tehát az oldal
+JavaScript-mentes marad, és a helyi szerver sem küld semmit. Ha be van állítva,
+a Consent Mode v2 alapértelmezése `denied`, így hozzájárulás nélkül nem tesz le
+sütit és nem küld azonosítót (ellenőrizve: nulla süti az első betöltés után).
+Cserébe csak modellezett, durvább adat érkezik — ez volt a döntés.
+
 ## Amit szándékosan nem építettünk
 
 Komment, kereső, hírlevél, analitika, sötét mód, címkefelhő, kapcsolódó

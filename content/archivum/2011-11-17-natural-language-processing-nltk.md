@@ -1,5 +1,6 @@
 ---
 title: "scikit-learn: a gépi tanulás nltk-ja"
+slug: "natural-language-processing-nltk"
 date: 2011-11-17T19:39:00.002Z
 publishDate: 2011-11-17T19:39:00.002Z
 author: "Varjú Zoltán"

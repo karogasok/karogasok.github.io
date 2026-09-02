@@ -1,5 +1,6 @@
 ---
 title: "Kik azok a quantok?"
+slug: "kik-azok-quantok"
 date: 2012-06-20T08:39:00.001Z
 publishDate: 2012-06-20T08:39:00.001Z
 author: "Varjú Zoltán"

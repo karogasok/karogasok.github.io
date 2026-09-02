@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: The Geometry of Information Retrieval"
+slug: "konyvismerteto-geometry-of-information"
 date: 2012-10-12T07:54:00.001Z
 publishDate: 2012-10-12T07:54:00.001Z
 author: "Varjú Zoltán"

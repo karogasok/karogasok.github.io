@@ -1,5 +1,6 @@
 ---
 title: "Google Ngram Viewer - Mi a szösz az?"
+slug: "google-ngram-viewer-mi-szosz-az"
 date: 2010-12-26T19:36:00.002Z
 publishDate: 2010-12-26T19:36:00.002Z
 author: "Varjú Zoltán"

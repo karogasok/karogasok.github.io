@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető - Michaelson: An Introduction to Functional Programming Through Lambda Calculus"
+slug: "konyvismerteto-michaelson-introduction-17"
 date: 2012-03-17T15:19:00.003Z
 publishDate: 2012-03-17T15:19:00.003Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: A Toyota-módszer"
+slug: "konyvismerteto-toyota-modszer"
 date: 2012-11-14T10:19:00.001Z
 publishDate: 2012-11-14T10:19:00.001Z
 author: "Varjú Zoltán"

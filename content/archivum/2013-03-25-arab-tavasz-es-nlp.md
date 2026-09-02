@@ -1,5 +1,6 @@
 ---
 title: "Arab tavasz és nlp"
+slug: "arab-tavasz-es-nlp"
 date: 2013-03-25T13:09:00.001Z
 publishDate: 2013-03-25T13:09:00.001Z
 author: "Varjú Zoltán"

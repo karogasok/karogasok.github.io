@@ -1,5 +1,6 @@
 ---
 title: "Filmismertető: The Linguists"
+slug: "filmismerteto-linguists"
 date: 2011-09-21T05:30:00.004Z
 publishDate: 2011-09-21T05:30:00.004Z
 author: "Varjú Zoltán"

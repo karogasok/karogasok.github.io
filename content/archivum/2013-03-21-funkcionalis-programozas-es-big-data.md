@@ -1,5 +1,6 @@
 ---
 title: "Funkcionális programozás és big data"
+slug: "funkcionalis-programozas-es-big-data"
 date: 2013-03-21T06:33:00.001Z
 publishDate: 2013-03-21T06:33:00.001Z
 author: "Varjú Zoltán"

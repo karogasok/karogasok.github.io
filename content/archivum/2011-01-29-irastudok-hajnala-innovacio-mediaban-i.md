@@ -1,5 +1,6 @@
 ---
 title: "Írástudók hajnala: innováció a médiában I. - Wordnik, a 21. század szótára"
+slug: "irastudok-hajnala-innovacio-mediaban-i"
 date: 2011-01-29T12:32:00.001Z
 publishDate: 2011-01-29T12:32:00.001Z
 author: "Varjú Zoltán"

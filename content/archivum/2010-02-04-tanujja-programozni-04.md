@@ -1,5 +1,6 @@
 ---
 title: "Tanújjá programozni!"
+slug: "tanujja-programozni-04"
 date: 2010-02-04T13:26:00Z
 publishDate: 2010-02-04T13:26:00Z
 author: "Varjú Zoltán"

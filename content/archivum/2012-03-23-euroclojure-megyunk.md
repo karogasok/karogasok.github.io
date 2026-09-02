@@ -1,5 +1,6 @@
 ---
 title: "EuroClojure - megyünk"
+slug: "euroclojure-megyunk"
 date: 2012-03-23T13:52:00.001Z
 publishDate: 2012-03-23T13:52:00.001Z
 author: "Varjú Zoltán"

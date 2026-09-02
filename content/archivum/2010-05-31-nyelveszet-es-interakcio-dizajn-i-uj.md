@@ -1,5 +1,6 @@
 ---
 title: "Nyelvészet és interakciódizájn I. - Új irány?"
+slug: "nyelveszet-es-interakcio-dizajn-i-uj"
 date: 2010-05-31T17:31:00.001Z
 publishDate: 2010-05-31T17:31:00.001Z
 author: "Varjú Zoltán"

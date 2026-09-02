@@ -1,5 +1,6 @@
 ---
 title: "Minek nevezzelek? - számítógépes nyelvészet, természetes nyelvi feldolgozás, vagy mi?"
+slug: "minek-nevezzelek-szamitogepes"
 date: 2010-05-12T19:44:00.001Z
 publishDate: 2010-05-12T19:44:00.001Z
 author: "Varjú Zoltán"

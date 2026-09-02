@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle 23. hét"
+slug: "lapszemle-23-het"
 date: 2012-06-07T17:49:00.001Z
 publishDate: 2012-06-07T17:49:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "A ChatGPT mindent megváltoztat?"
+slug: "a-chatgpt-mindent-megvaltoztat"
 date: 2023-02-15T16:43:54Z
 publishDate: 2023-02-15T16:43:54Z
 author: "Varjú Zoltán"

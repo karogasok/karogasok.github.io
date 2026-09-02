@@ -1,5 +1,6 @@
 ---
 title: "Egy értelmetlen vita margójára: avagy miért nem kell a sztochasztikus vs szabályalapú vitában résztvennünk"
+slug: "egy-ertelemetlen-vita-margojara-avagy"
 date: 2011-04-06T09:16:00.004Z
 publishDate: 2011-04-06T09:16:00.004Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Nyelvi relativizmus, avagy hatással van-e nyelvünk gondolkodásunkra I."
+slug: "nyelvi-relativizmus-avagy-hatassal-van-2"
 date: 2011-01-15T14:58:00Z
 publishDate: 2011-01-15T14:58:00Z
 author: "Varjú Zoltán"

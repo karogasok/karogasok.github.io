@@ -1,5 +1,6 @@
 ---
 title: "Természetes nyelvi keresés 1"
+slug: "termeszetes-nyelvi-kereses-1"
 date: 2011-04-18T09:47:00.002Z
 publishDate: 2011-04-18T09:47:00.002Z
 author: "Varjú Zoltán"

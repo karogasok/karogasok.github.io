@@ -1,5 +1,6 @@
 ---
 title: "On Computational History - an interview with William J. Turkel"
+slug: "on-computational-history-interview-with"
 date: 2011-06-01T04:34:00.001Z
 publishDate: 2011-06-01T04:34:00.001Z
 author: "Varjú Zoltán"

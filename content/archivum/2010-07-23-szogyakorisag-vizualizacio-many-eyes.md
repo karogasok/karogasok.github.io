@@ -1,5 +1,6 @@
 ---
 title: "Szógyakoriság vizualizáció Many Eyes használatával"
+slug: "szogyakorisag-vizualizacio-many-eyes"
 date: 2010-07-23T18:12:00.001Z
 publishDate: 2010-07-23T18:12:00.001Z
 author: "Varjú Zoltán"

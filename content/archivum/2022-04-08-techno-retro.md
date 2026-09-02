@@ -1,5 +1,6 @@
 ---
 title: "Techno retro"
+slug: "techno-retro"
 date: 2022-04-08T12:51:17Z
 publishDate: 2022-04-08T12:51:17Z
 author: "Varjú Zoltán"

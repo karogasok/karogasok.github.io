@@ -1,5 +1,6 @@
 ---
 title: "Magyarország demográfiai változásai 1986 és 2018 között"
+slug: "magyarorszag-demografiai-valtozasai"
 date: 2020-01-10T20:27:36Z
 publishDate: 2020-01-10T20:27:36Z
 author: "Putz Orsolya"

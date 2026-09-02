@@ -1,5 +1,6 @@
 ---
 title: "Fogadjunk?"
+slug: "fogadjunk"
 date: 2013-04-12T07:56:00.001Z
 publishDate: 2013-04-12T07:56:00.001Z
 author: "Varjú Zoltán"

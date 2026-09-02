@@ -1,5 +1,6 @@
 ---
 title: "Szórakoztató közgazdaságtan és társadalomtudomány mindenkinek"
+slug: "szorakoztato-kozgazdasagtan-es-tarsadalomtudomany-mindenkinek"
 date: 2022-07-05T13:42:03Z
 publishDate: 2022-07-05T13:42:03Z
 author: "Varjú Zoltán"

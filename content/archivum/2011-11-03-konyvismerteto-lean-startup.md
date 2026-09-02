@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: The Lean Startup"
+slug: "konyvismerteto-lean-startup"
 date: 2011-11-03T09:53:00.002Z
 publishDate: 2011-11-03T09:53:00.002Z
 author: "Varjú Zoltán"

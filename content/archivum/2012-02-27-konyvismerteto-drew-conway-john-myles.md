@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Drew Conway &amp; John Myles White - Machine Learning for Hackers"
+slug: "konyvismerteto-drew-conway-john-myles"
 date: 2012-02-27T06:00:00Z
 publishDate: 2012-02-27T06:00:00Z
 author: "Varjú Zoltán"

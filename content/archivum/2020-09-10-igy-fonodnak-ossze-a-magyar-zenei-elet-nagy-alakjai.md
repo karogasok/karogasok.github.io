@@ -1,5 +1,6 @@
 ---
 title: "Így fonódnak össze a magyar zenei élet nagy alakjai"
+slug: "igy-fonodnak-ossze-a-magyar-zenei-elet-nagy-alakjai"
 date: 2020-09-10T14:05:27Z
 publishDate: 2020-09-10T14:05:27Z
 author: "Varjú Zoltán"

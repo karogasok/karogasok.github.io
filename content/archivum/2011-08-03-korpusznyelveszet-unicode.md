@@ -1,5 +1,6 @@
 ---
 title: "Korpusznyelvészet - Unicode; a korpuszkészítés alapjai 2"
+slug: "korpusznyelveszet-unicode"
 date: 2011-08-03T12:19:00Z
 publishDate: 2011-08-03T12:19:00Z
 author: "Varjú Zoltán"

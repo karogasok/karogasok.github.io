@@ -1,5 +1,6 @@
 ---
 title: "Sublexical Semantics"
+slug: "sublexical-semantics"
 date: 2011-10-02T17:56:00.002Z
 publishDate: 2011-10-02T17:56:00.002Z
 author: "Varjú Zoltán"

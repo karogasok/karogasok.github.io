@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Karl Popper - Test és elme: Az interakció védelmében"
+slug: "konyvismerteto-karl-popper-test-es-elme"
 date: 2011-03-30T09:59:00.002Z
 publishDate: 2011-03-30T09:59:00.002Z
 author: "Varjú Zoltán"

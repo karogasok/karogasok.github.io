@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Getting Started with Processing"
+slug: "konyvismerteto-getting-started-with"
 date: 2010-08-06T17:13:00.001Z
 publishDate: 2010-08-06T17:13:00.001Z
 author: "Varjú Zoltán"

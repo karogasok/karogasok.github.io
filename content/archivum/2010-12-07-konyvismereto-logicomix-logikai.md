@@ -1,5 +1,6 @@
 ---
 title: "Könyvismerető: Logicomix, logikai képregény kicsiknek és nagyoknak"
+slug: "konyvismereto-logicomix-logikai"
 date: 2010-12-07T17:19:00.002Z
 publishDate: 2010-12-07T17:19:00.002Z
 author: "Varjú Zoltán"

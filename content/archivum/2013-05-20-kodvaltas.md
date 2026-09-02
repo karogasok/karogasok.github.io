@@ -1,5 +1,6 @@
 ---
 title: "Kódváltás"
+slug: "kodvaltas"
 date: 2013-05-20T16:18:00.001Z
 publishDate: 2013-05-20T16:18:00.001Z
 author: "Varjú Zoltán"

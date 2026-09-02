@@ -1,5 +1,6 @@
 ---
 title: "Nyelv és gondolkodás a paradigmák átfedő rendszerében"
+slug: "nyelv-es-gondolkodas-paradigmak-atfedo"
 date: 2012-03-19T06:00:00Z
 publishDate: 2012-03-19T06:00:00Z
 author: "Varjú Zoltán"

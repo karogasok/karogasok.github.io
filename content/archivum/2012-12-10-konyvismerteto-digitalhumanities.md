@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Digital_Humanities (ingyenes e-könyv)"
+slug: "konyvismerteto-digitalhumanities"
 date: 2012-12-10T12:04:00.001Z
 publishDate: 2012-12-10T12:04:00.001Z
 author: "Varjú Zoltán"

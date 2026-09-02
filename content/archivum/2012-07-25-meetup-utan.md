@@ -1,5 +1,6 @@
 ---
 title: "Meetup után"
+slug: "meetup-utan"
 date: 2012-07-25T10:59:00.001Z
 publishDate: 2012-07-25T10:59:00.001Z
 author: "Varjú Zoltán"

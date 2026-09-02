@@ -692,6 +692,17 @@ def validate_markdown(body: str, context: str, report: Report) -> None:
             break
 
 
+def clean_title(text: str) -> str:
+    """Strip markup out of a title.
+
+    Titles are plain-text fields — they go into <title>, og:title and every list
+    on the site. A <strong> that leaked out of a WordPress editor renders as
+    literal angle brackets in all three, so it comes out here rather than being
+    escaped over and over downstream.
+    """
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html.unescape(text))).strip()
+
+
 def write_post(path: Path, front: dict, body: str) -> None:
     """Write one archive post: YAML front matter, then the converted body."""
     lines = ["---"]

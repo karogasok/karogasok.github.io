@@ -1,5 +1,6 @@
 ---
 title: "Szöveges információ vizualizációja: szógyakoriság"
+slug: "szoveges-informacio-vizualizacioja"
 date: 2013-04-19T16:14:00.001Z
 publishDate: 2013-04-19T16:14:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Robert D. van Valin Jr. An Introduction to Syntax"
+slug: "konyvismerteto-robert-d-van-valin-jr"
 date: 2011-03-15T14:07:00.002Z
 publishDate: 2011-03-15T14:07:00.002Z
 author: "Varjú Zoltán"

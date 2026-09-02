@@ -1,5 +1,6 @@
 ---
 title: "Hogy állunk a funkcionális programozással?"
+slug: "hogy-allunk-funkcionalis-programozassal"
 date: 2012-11-20T12:15:00.001Z
 publishDate: 2012-11-20T12:15:00.001Z
 author: "Varjú Zoltán"

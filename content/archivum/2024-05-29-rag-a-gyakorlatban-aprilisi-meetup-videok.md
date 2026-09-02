@@ -1,5 +1,6 @@
 ---
 title: "RAG a gyakorlatban - áprilisi meetup videók"
+slug: "rag-a-gyakorlatban-aprilisi-meetup-videok"
 date: 2024-05-29T07:38:05Z
 publishDate: 2024-05-29T07:38:05Z
 author: "Varjú Zoltán"

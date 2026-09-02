@@ -1,5 +1,6 @@
 ---
 title: "Olvasónapló #2 - Computational Social Science"
+slug: "olvasonaplo-2-computational-social"
 date: 2012-09-12T07:14:00.001Z
 publishDate: 2012-09-12T07:14:00.001Z
 author: "Varjú Zoltán"

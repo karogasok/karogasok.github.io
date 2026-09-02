@@ -1,5 +1,6 @@
 ---
 title: "Útikönyvek az algoritmusok világába - ahogy megígértük"
+slug: "utikonyvek-az-algoritmusok-vilagaba"
 date: 2011-05-16T07:59:00.004Z
 publishDate: 2011-05-16T07:59:00.004Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "inkLink videók a Ustream-en"
+slug: "inklink-videok-ustream-en"
 date: 2013-04-08T05:55:00.001Z
 publishDate: 2013-04-08T05:55:00.001Z
 author: "Varjú Zoltán"

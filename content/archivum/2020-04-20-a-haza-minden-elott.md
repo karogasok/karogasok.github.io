@@ -1,5 +1,6 @@
 ---
 title: "A -háza minden előtt"
+slug: "a-haza-minden-elott"
 date: 2020-04-20T07:34:09Z
 publishDate: 2020-04-20T07:34:09Z
 author: "Varjú Zoltán"

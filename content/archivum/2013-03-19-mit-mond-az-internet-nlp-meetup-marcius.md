@@ -1,5 +1,6 @@
 ---
 title: "Mit mond az internet - NLP meetup március 27-én"
+slug: "mit-mond-az-internet-nlp-meetup-marcius"
 date: 2013-03-19T10:40:00.001Z
 publishDate: 2013-03-19T10:40:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "On the European Summer School in Logic, Language, and Information - an interview with Prof. Darja Fišer"
+slug: "on-european-summer-school-in-logic"
 date: 2011-03-15T15:10:00.004Z
 publishDate: 2011-03-15T15:10:00.004Z
 author: "Varjú Zoltán"

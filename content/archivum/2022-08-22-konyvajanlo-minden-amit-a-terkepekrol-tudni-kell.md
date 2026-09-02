@@ -1,5 +1,6 @@
 ---
 title: "Könyvajánló: Minden, amit a térképekről tudni kell"
+slug: "konyvajanlo-minden-amit-a-terkepekrol-tudni-kell"
 date: 2022-08-22T11:38:09Z
 publishDate: 2022-08-22T11:38:09Z
 author: "Varjú Zoltán"

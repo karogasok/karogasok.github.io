@@ -1,5 +1,6 @@
 ---
 title: "NLP Meetup - we have a new confirmed speaker"
+slug: "nlp-meetup-we-have-new-comfirmed-speaker"
 date: 2012-09-17T07:27:00.001Z
 publishDate: 2012-09-17T07:27:00.001Z
 author: "Varjú Zoltán"

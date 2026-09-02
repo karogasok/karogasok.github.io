@@ -1,5 +1,6 @@
 ---
 title: "Szövegvizualizáció térképen"
+slug: "szovegvizualizacio-terkepen"
 date: 2013-03-08T09:04:00.001Z
 publishDate: 2013-03-08T09:04:00.001Z
 author: "Varjú Zoltán"

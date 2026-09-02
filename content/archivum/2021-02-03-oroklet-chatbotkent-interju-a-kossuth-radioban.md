@@ -1,5 +1,6 @@
 ---
 title: "Öröklét chatbotként - interjú a Kossuth Rádióban"
+slug: "oroklet-chatbotkent-interju-a-kossuth-radioban"
 date: 2021-02-03T15:40:16Z
 publishDate: 2021-02-03T15:40:16Z
 author: "Varjú Zoltán"

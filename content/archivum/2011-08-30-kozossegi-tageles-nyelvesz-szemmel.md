@@ -1,5 +1,6 @@
 ---
 title: "A közösségi tagelés nyelvész szemmel"
+slug: "kozossegi-tageles-nyelvesz-szemmel"
 date: 2011-08-30T06:19:00Z
 publishDate: 2011-08-30T06:19:00Z
 author: "Varjú Zoltán"

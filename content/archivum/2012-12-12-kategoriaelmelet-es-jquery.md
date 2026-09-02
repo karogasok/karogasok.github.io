@@ -1,5 +1,6 @@
 ---
 title: "Kategóriaelmélet és jQuery"
+slug: "kategoriaelmelet-es-jquery"
 date: 2012-12-12T09:14:00.001Z
 publishDate: 2012-12-12T09:14:00.001Z
 author: "Varjú Zoltán"

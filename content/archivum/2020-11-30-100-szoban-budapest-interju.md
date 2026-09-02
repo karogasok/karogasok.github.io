@@ -1,5 +1,6 @@
 ---
 title: "100 szóban Budapest - interjú"
+slug: "100-szoban-budapest-interju"
 date: 2020-11-30T11:21:00Z
 publishDate: 2020-11-30T11:21:00Z
 author: "Varjú Zoltán"

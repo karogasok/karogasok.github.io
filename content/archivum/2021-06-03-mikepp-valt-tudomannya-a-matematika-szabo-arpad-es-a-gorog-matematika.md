@@ -1,5 +1,6 @@
 ---
 title: "Miképp vált tudománnyá a matematika? Szabó Árpád és a görög matematika kibontakozása"
+slug: "mikepp-valt-tudomannya-a-matematika-szabo-arpad-es-a-gorog-matematika"
 date: 2021-06-03T13:09:17Z
 publishDate: 2021-06-03T13:09:17Z
 author: "Varjú Zoltán"

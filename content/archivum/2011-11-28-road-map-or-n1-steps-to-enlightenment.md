@@ -1,5 +1,6 @@
 ---
 title: "Road-map – or n+1 steps to enlightenment (or loonybind)"
+slug: "road-map-or-n1-steps-to-enlightenment"
 date: 2011-11-28T18:15:00.002Z
 publishDate: 2011-11-28T18:15:00.002Z
 author: "Varjú Zoltán"

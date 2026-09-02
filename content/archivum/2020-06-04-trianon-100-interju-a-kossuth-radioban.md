@@ -1,5 +1,6 @@
 ---
 title: "Trianon 100 – interjú a Kossuth Rádióban"
+slug: "trianon-100-interju-a-kossuth-radioban"
 date: 2020-06-04T08:25:15Z
 publishDate: 2020-06-04T08:25:15Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Mire jó a digitális bölcsészet?"
+slug: "mire-jo-digitalis-bolcseszet"
 date: 2010-11-30T10:11:00.005Z
 publishDate: 2010-11-30T10:11:00.005Z
 author: "Varjú Zoltán"

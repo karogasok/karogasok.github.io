@@ -1,5 +1,6 @@
 ---
 title: "Szöveges információ vizualizációja: topik gráf"
+slug: "szoveges-informacio-vizualizacioja-24"
 date: 2013-04-24T08:10:00.001Z
 publishDate: 2013-04-24T08:10:00.001Z
 author: "Varjú Zoltán"

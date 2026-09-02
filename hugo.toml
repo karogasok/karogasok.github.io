@@ -64,6 +64,10 @@ summaryLength = 30
   # Crow's shared inbox.
   email = "zoltan.varju@crowintelligence.org"
   ogImage = "/assets/og.png"
+  # Google Analytics measurement ID. Empty means the analytics partial renders
+  # nothing at all — no script, no request — so the site stays JavaScript-free
+  # until an ID is put here, and `hugo server` never phones home.
+  ga = ""
   crowURL = "https://crowintelligence.org/"
   # The archive's real extent, measured from the exports rather than assumed.
   # Used by the archive note and the year-spine.
@@ -96,3 +100,22 @@ summaryLength = 30
 
 [services.rss]
   limit = -1
+
+# llms.txt (https://llmstxt.org/) — a plain-text brief for machines reading the
+# site. Generated rather than hand-written so its counts cannot drift from the
+# build; see layouts/index.llms.txt.
+[outputFormats.llms]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  rel = "alternate"
+
+[outputs]
+  home = ["HTML", "RSS", "llms"]
+  section = ["HTML", "RSS"]
+  # No feeds for taxonomy terms. The regi_cimke taxonomy alone was publishing 94
+  # of them, every one full of archive posts, advertised nowhere and findable
+  # only by guessing a URL. Two feeds is the whole intent: the site feed and the
+  # posts feed.
+  taxonomy = ["HTML"]
+  term = ["HTML"]

@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 19. hét"
+slug: "lapszemle-19-het"
 date: 2012-05-13T18:41:00.001Z
 publishDate: 2012-05-13T18:41:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Legyél te is számítógépes nyelvész - tíz év alatt"
+slug: "legyel-te-is-szamitogepes-nyelvesz-tiz"
 date: 2011-05-03T10:31:00.001Z
 publishDate: 2011-05-03T10:31:00.001Z
 author: "Varjú Zoltán"

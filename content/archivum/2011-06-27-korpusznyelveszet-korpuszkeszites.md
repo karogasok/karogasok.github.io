@@ -1,5 +1,6 @@
 ---
 title: "Korpusznyelvészet - a korpuszkészítés alapjai 1."
+slug: "korpusznyelveszet-korpuszkeszites"
 date: 2011-06-27T09:30:00Z
 publishDate: 2011-06-27T09:30:00Z
 author: "Varjú Zoltán"

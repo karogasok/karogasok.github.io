@@ -1,5 +1,6 @@
 ---
 title: "Digitális bölcsészet - új blog indult"
+slug: "digitalis-bolcseszet-uj-blog-indult"
 date: 2011-08-02T04:40:00Z
 publishDate: 2011-08-02T04:40:00Z
 author: "Varjú Zoltán"

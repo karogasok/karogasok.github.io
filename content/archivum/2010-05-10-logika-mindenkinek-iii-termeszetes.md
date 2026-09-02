@@ -1,5 +1,6 @@
 ---
 title: "Logika mindenkinek III - a természetes nyelvek szemantikája"
+slug: "logika-mindenkinek-iii-termeszetes"
 date: 2010-05-10T19:45:00.001Z
 publishDate: 2010-05-10T19:45:00.001Z
 author: "Varjú Zoltán"

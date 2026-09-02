@@ -1,5 +1,6 @@
 ---
 title: "Book review: Introducing Regular Expressions"
+slug: "book-review-introducing-regular"
 date: 2012-09-08T15:34:00.001Z
 publishDate: 2012-09-08T15:34:00.001Z
 author: "Varjú Zoltán"

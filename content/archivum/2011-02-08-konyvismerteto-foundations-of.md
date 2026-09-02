@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető - The Foundations of Statistics: A Simulation-based Approach"
+slug: "konyvismerteto-foundations-of"
 date: 2011-02-08T18:07:00.002Z
 publishDate: 2011-02-08T18:07:00.002Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Guide to Advanced Empirical Software Engineering"
+slug: "konyvismerteto-guide-to-advanced"
 date: 2012-10-09T07:17:00.001Z
 publishDate: 2012-10-09T07:17:00.001Z
 author: "Varjú Zoltán"

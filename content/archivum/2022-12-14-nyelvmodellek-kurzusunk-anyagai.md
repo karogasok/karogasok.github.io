@@ -1,5 +1,6 @@
 ---
 title: "Nyelvmodellek kurzusunk anyagai"
+slug: "nyelvmodellek-kurzusunk-anyagai"
 date: 2022-12-14T09:17:40Z
 publishDate: 2022-12-14T09:17:40Z
 author: "Varjú Zoltán"

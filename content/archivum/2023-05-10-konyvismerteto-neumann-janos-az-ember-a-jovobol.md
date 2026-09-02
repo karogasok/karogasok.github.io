@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Neumann János - Az ember a jövőből"
+slug: "konyvismerteto-neumann-janos-az-ember-a-jovobol"
 date: 2023-05-10T13:10:25Z
 publishDate: 2023-05-10T13:10:25Z
 author: "Varjú Zoltán"

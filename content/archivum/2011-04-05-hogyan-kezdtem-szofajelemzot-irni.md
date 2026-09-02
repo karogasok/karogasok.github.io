@@ -1,5 +1,6 @@
 ---
 title: "Hogyan kezdtem szófajelemzőt írni?"
+slug: "hogyan-kezdtem-szofajelemzot-irni"
 date: 2011-04-05T08:04:00.002Z
 publishDate: 2011-04-05T08:04:00.002Z
 author: "Varjú Zoltán"

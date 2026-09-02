@@ -1,5 +1,6 @@
 ---
 title: "Mesterséges intelligencia - interjú a Bézs Rádióban"
+slug: "mesterseges-intelligencia-interju-a-bezs-radioban"
 date: 2020-11-05T08:22:08Z
 publishDate: 2020-11-05T08:22:08Z
 author: "Varjú Zoltán"

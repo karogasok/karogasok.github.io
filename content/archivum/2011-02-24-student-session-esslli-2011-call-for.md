@@ -1,5 +1,6 @@
 ---
 title: "Student Session ESSLLI 2011 Call for Papers"
+slug: "student-session-esslli-2011-call-for"
 date: 2011-02-24T16:13:00.002Z
 publishDate: 2011-02-24T16:13:00.002Z
 author: "Varjú Zoltán"

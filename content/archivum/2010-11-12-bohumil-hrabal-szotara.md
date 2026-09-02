@@ -1,5 +1,6 @@
 ---
 title: "Bohumil Hrabal szótára"
+slug: "bohumil-hrabal-szotara"
 date: 2010-11-12T11:21:00.003Z
 publishDate: 2010-11-12T11:21:00.003Z
 author: "Varjú Zoltán"

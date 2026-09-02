@@ -1,5 +1,6 @@
 ---
 title: "The Life of a Computational Linguits V - Interview with Vincenzo Pallotta"
+slug: "life-of-computational-linguits-v"
 date: 2011-01-17T20:19:00Z
 publishDate: 2011-01-17T20:19:00Z
 author: "Varjú Zoltán"

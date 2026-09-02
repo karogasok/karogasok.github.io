@@ -1,5 +1,6 @@
 ---
 title: "Mi is az a dinamikus episztemikus logika és mihez is kezdjünk vele?"
+slug: "mi-is-az-dinamikus-episztemikus-logika"
 date: 2010-10-04T11:48:00.004Z
 publishDate: 2010-10-04T11:48:00.004Z
 author: "Varjú Zoltán"

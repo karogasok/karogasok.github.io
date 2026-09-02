@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: A Semantic Web Primer"
+slug: "konyvismerteto-semantic-web-primer"
 date: 2010-11-06T15:37:00.003Z
 publishDate: 2010-11-06T15:37:00.003Z
 author: "Varjú Zoltán"

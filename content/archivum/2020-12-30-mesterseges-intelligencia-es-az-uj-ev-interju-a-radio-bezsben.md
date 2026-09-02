@@ -1,5 +1,6 @@
 ---
 title: "Mesterséges intelligencia és az új év - interjú a Rádió Bézsben"
+slug: "mesterseges-intelligencia-es-az-uj-ev-interju-a-radio-bezsben"
 date: 2020-12-30T19:23:01Z
 publishDate: 2020-12-30T19:23:01Z
 author: "Varjú Zoltán"

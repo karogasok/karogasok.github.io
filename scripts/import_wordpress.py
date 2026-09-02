@@ -41,6 +41,7 @@ from archive_common import (  # noqa: E402
     MediaResolver,
     Report,
     slugify,
+    clean_title,
     to_markdown,
     validate_markdown,
     write_post,
@@ -210,7 +211,7 @@ def main() -> int:
 
         decision = overrides.get(post_id) or ("import" if lang == "hu" else "skip")
         candidates.append({
-            "post_id": post_id, "title": title,
+            "post_id": post_id, "title": clean_title(title),
             "date": (item.findtext("wp:post_date", namespaces=NS) or "")[:10],
             "wp_author": item.findtext("dc:creator", namespaces=NS) or "",
             "byline": AUTHORS.get(item.findtext("dc:creator", namespaces=NS) or "", DEFAULT_AUTHOR),
@@ -277,6 +278,9 @@ def main() -> int:
         validate_markdown(body, c["url"] or c["title"], report)
         front = {
             "title": c["title"],
+            # See import_blogspot.py: Hugo derives :slug from the title, so the
+            # deduplicated slug has to be stated or same-titled posts collide.
+            "slug": slug,
             "date": published,
             "publishDate": published,
             "author": c["byline"],

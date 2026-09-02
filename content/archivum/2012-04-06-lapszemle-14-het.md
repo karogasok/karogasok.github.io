@@ -1,5 +1,6 @@
 ---
 title: "Lapszemle - 14. hét"
+slug: "lapszemle-14-het"
 date: 2012-04-06T07:21:00.001Z
 publishDate: 2012-04-06T07:21:00.001Z
 author: "Varjú Zoltán"

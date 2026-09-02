@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Reliable Reasoning - gépi tanulás mindenkinek"
+slug: "konyvismerteto-reliable-reasoning-gepi"
 date: 2011-07-14T14:40:00Z
 publishDate: 2011-07-14T14:40:00Z
 author: "Varjú Zoltán"

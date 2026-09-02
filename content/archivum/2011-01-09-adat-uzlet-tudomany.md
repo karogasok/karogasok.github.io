@@ -1,5 +1,6 @@
 ---
 title: "Adat, üzlet, tudomány (frissítve)"
+slug: "adat-uzlet-tudomany"
 date: 2011-01-09T17:49:00.004Z
 publishDate: 2011-01-09T17:49:00.004Z
 author: "Varjú Zoltán"

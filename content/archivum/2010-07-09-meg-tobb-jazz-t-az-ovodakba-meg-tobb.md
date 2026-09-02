@@ -1,5 +1,6 @@
 ---
 title: "Még több jazz-t az óvodákba, még több számítógépes nyelvészetet a gyerekeknek!"
+slug: "meg-tobb-jazz-t-az-ovodakba-meg-tobb"
 date: 2010-07-09T18:50:00.001Z
 publishDate: 2010-07-09T18:50:00.001Z
 author: "Varjú Zoltán"

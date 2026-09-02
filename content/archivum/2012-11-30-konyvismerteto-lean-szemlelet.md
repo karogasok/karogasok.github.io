@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Lean szemlélet"
+slug: "konyvismerteto-lean-szemlelet"
 date: 2012-11-30T09:58:00.001Z
 publishDate: 2012-11-30T09:58:00.001Z
 author: "Varjú Zoltán"

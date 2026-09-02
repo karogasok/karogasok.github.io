@@ -1,5 +1,6 @@
 ---
 title: "Szövegelemzés és AI - előadásaink a Neumann konferencián"
+slug: "szovegelemzes-es-ai-eloadasaink-a-neumann-konferencian"
 date: 2022-11-14T14:07:07Z
 publishDate: 2022-11-14T14:07:07Z
 author: "Varjú Zoltán"

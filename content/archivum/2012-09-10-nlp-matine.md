@@ -1,5 +1,6 @@
 ---
 title: "NLP matiné"
+slug: "nlp-matine"
 date: 2012-09-10T09:32:00.001Z
 publishDate: 2012-09-10T09:32:00.001Z
 author: "Varjú Zoltán"

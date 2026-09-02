@@ -1,5 +1,6 @@
 ---
 title: "Boldog szülinapot nekünk!"
+slug: "boldog-szulinapot-nekunk"
 date: 2011-01-25T10:18:00.002Z
 publishDate: 2011-01-25T10:18:00.002Z
 author: "Varjú Zoltán"

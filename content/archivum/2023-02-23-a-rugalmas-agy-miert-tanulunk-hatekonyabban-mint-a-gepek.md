@@ -1,5 +1,6 @@
 ---
 title: "A rugalmas agy -  Miért tanulunk hatékonyabban, mint a gépek?"
+slug: "a-rugalmas-agy-miert-tanulunk-hatekonyabban-mint-a-gepek"
 date: 2023-02-23T10:39:55Z
 publishDate: 2023-02-23T10:39:55Z
 author: "Varjú Zoltán"

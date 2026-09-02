@@ -1,5 +1,6 @@
 ---
 title: "100 szóban Budapest - tartalomelemzés"
+slug: "100-szoban-budapest-tartalomelemzes"
 date: 2020-11-25T14:54:08Z
 publishDate: 2020-11-25T14:54:08Z
 author: "Varjú Zoltán"

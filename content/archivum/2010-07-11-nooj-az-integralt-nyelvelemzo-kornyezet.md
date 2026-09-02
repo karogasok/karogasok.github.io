@@ -1,5 +1,6 @@
 ---
 title: "NooJ, az Integrált Nyelvelemző Környezet I."
+slug: "nooj-az-integralt-nyelvelemzo-kornyezet"
 date: 2010-07-11T19:59:00.001Z
 publishDate: 2010-07-11T19:59:00.001Z
 author: "Varjú Zoltán"

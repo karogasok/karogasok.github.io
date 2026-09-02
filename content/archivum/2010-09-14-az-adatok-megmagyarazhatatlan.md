@@ -1,5 +1,6 @@
 ---
 title: "Az adatok megmagyarázhatatlan természete"
+slug: "az-adatok-megmagyarazhatatlan"
 date: 2010-09-14T11:27:00.003Z
 publishDate: 2010-09-14T11:27:00.003Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Az Üveghegyen innen"
+slug: "konyvismerteto-az-uveghegyen-innen"
 date: 2011-08-04T07:09:00.002Z
 publishDate: 2011-08-04T07:09:00.002Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Írástudók hajnala IV. - az adatújságírásról"
+slug: "irastudok-hajnala-iv-de-mi-az-az"
 date: 2011-04-11T17:15:00.001Z
 publishDate: 2011-04-11T17:15:00.001Z
 author: "Varjú Zoltán"

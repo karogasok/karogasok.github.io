@@ -1,5 +1,6 @@
 ---
 title: "Google Glass"
+slug: "google-glass"
 date: 2013-02-21T08:24:00.001Z
 publishDate: 2013-02-21T08:24:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Bátran legyünk nyíltak - megéri"
+slug: "batran-legyunk-nyiltak-megeri"
 date: 2011-08-20T13:47:00Z
 publishDate: 2011-08-20T13:47:00Z
 author: "Varjú Zoltán"

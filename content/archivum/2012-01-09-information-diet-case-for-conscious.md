@@ -1,5 +1,6 @@
 ---
 title: "The Information Diet: A Case for Conscious Consumption by Clay A. Johnson [Review]"
+slug: "information-diet-case-for-conscious"
 date: 2012-01-09T10:09:00.001Z
 publishDate: 2012-01-09T10:09:00.001Z
 author: "Varjú Zoltán"

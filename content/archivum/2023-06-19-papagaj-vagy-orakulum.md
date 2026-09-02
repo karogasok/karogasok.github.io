@@ -1,5 +1,6 @@
 ---
 title: "Papagáj vagy orákulum?"
+slug: "papagaj-vagy-orakulum"
 date: 2023-06-19T07:23:36Z
 publishDate: 2023-06-19T07:23:36Z
 author: "Varjú Zoltán"

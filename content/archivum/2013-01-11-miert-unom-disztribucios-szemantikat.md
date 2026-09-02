@@ -1,5 +1,6 @@
 ---
 title: "Miért unom a disztribúciós szemantikát?"
+slug: "miert-unom-disztribucios-szemantikat"
 date: 2013-01-11T10:07:00.001Z
 publishDate: 2013-01-11T10:07:00.001Z
 author: "Varjú Zoltán"

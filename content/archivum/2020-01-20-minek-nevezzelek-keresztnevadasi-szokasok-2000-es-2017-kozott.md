@@ -1,5 +1,6 @@
 ---
 title: "Minek nevezzelek? Keresztnévadási szokások 2000 és 2018 között"
+slug: "minek-nevezzelek-keresztnevadasi-szokasok-2000-es-2017-kozott"
 date: 2020-01-20T21:17:13Z
 publishDate: 2020-01-20T21:17:13Z
 author: "Putz Orsolya"

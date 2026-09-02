@@ -1,5 +1,6 @@
 ---
 title: "inkLink program"
+slug: "inklink-program"
 date: 2013-04-03T07:06:00.001Z
 publishDate: 2013-04-03T07:06:00.001Z
 author: "Varjú Zoltán"

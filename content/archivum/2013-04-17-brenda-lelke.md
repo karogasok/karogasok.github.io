@@ -1,5 +1,6 @@
 ---
 title: "Brenda Lelke"
+slug: "brenda-lelke"
 date: 2013-04-17T05:52:00.001Z
 publishDate: 2013-04-17T05:52:00.001Z
 author: "Varjú Zoltán"

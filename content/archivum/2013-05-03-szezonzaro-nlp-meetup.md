@@ -1,5 +1,6 @@
 ---
 title: "Szezonzáró NLP Meetup"
+slug: "szezonzaro-nlp-meetup"
 date: 2013-05-03T06:00:00Z
 publishDate: 2013-05-03T06:00:00Z
 author: "Varjú Zoltán"

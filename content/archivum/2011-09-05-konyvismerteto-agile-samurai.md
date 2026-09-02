@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: The Agile Samurai"
+slug: "konyvismerteto-agile-samurai"
 date: 2011-09-05T13:20:00.003Z
 publishDate: 2011-09-05T13:20:00.003Z
 author: "Varjú Zoltán"

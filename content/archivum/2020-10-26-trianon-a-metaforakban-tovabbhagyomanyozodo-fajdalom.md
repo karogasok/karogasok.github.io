@@ -1,5 +1,6 @@
 ---
 title: "Trianon: a metaforákban továbbhagyományozódó fájdalom"
+slug: "trianon-a-metaforakban-tovabbhagyomanyozodo-fajdalom"
 date: 2020-10-26T12:17:13Z
 publishDate: 2020-10-26T12:17:13Z
 author: "Varjú Zoltán"

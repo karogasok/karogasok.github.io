@@ -1,5 +1,6 @@
 ---
 title: "Mit tudnak a nyelvmodellek? - interjú a Kossuth Rádióban"
+slug: "mit-tudnak-a-nyelvmodellek-interju-a-kossuth-radioban"
 date: 2020-12-14T19:35:47Z
 publishDate: 2020-12-14T19:35:47Z
 author: "Varjú Zoltán"

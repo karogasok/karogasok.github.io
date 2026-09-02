@@ -1,5 +1,6 @@
 ---
 title: "Szógyakoriság ismét (de most saját fájlból, R használatával elemezve)"
+slug: "szogyakorisag-ismet-de-most-sajat"
 date: 2010-07-14T19:53:00.001Z
 publishDate: 2010-07-14T19:53:00.001Z
 author: "Varjú Zoltán"

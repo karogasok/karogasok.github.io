@@ -1,5 +1,6 @@
 ---
 title: "Digitális bölcsészet MA a Pázmányon"
+slug: "digitalis-bolcseszet-ma-pazmanyon"
 date: 2012-10-13T08:32:00.001Z
 publishDate: 2012-10-13T08:32:00.001Z
 author: "Varjú Zoltán"

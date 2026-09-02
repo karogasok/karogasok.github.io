@@ -1,5 +1,6 @@
 ---
 title: "Incanter, a statistical environment for Clojure - Interview with its creator David Edgar Liebke"
+slug: "incanter-statistical-environment-for"
 date: 2010-11-24T07:53:00.002Z
 publishDate: 2010-11-24T07:53:00.002Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "ScribeFire"
+slug: "scribefire"
 date: 2010-03-02T11:17:00.001Z
 publishDate: 2010-03-02T11:17:00.001Z
 author: "Varjú Zoltán"

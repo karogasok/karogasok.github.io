@@ -1,5 +1,6 @@
 ---
 title: "A Logicomix ingyen olvasható"
+slug: "a-logicomix-ingyen-olvashato"
 date: 2013-03-04T11:19:00.001Z
 publishDate: 2013-03-04T11:19:00.001Z
 author: "Varjú Zoltán"

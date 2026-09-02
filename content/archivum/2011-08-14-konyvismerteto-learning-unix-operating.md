@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Learning the Unix Operating System"
+slug: "konyvismerteto-learning-unix-operating"
 date: 2011-08-14T17:27:00.002Z
 publishDate: 2011-08-14T17:27:00.002Z
 author: "Varjú Zoltán"

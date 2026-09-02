@@ -1,5 +1,6 @@
 ---
 title: "Probabilisztikus programozás"
+slug: "probabilisztikus-programozas"
 date: 2013-03-29T10:05:00.001Z
 publishDate: 2013-03-29T10:05:00.001Z
 author: "Varjú Zoltán"

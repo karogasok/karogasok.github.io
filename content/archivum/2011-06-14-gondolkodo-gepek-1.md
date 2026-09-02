@@ -1,5 +1,6 @@
 ---
 title: "Gondolkodó gépek 1."
+slug: "gondolkodo-gepek-1"
 date: 2011-06-14T10:11:00Z
 publishDate: 2011-06-14T10:11:00Z
 author: "Varjú Zoltán"

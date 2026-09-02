@@ -1,5 +1,6 @@
 ---
 title: "Nyelvi modellek"
+slug: "nyelvi-modellek"
 date: 2012-03-20T11:40:00Z
 publishDate: 2012-03-20T11:40:00Z
 author: "Varjú Zoltán"

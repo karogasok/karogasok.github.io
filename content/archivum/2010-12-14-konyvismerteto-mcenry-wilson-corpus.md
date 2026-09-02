@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: McEnry - Wilson; Corpus Linguistics An Introduction"
+slug: "konyvismerteto-mcenry-wilson-corpus"
 date: 2010-12-14T10:16:00.001Z
 publishDate: 2010-12-14T10:16:00.001Z
 author: "Varjú Zoltán"

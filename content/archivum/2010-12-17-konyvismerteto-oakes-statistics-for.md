@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Oakes; Statistics for Corpus Linguistics"
+slug: "konyvismerteto-oakes-statistics-for"
 date: 2010-12-17T18:57:00.003Z
 publishDate: 2010-12-17T18:57:00.003Z
 author: "Varjú Zoltán"

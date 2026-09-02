@@ -1,5 +1,6 @@
 ---
 title: "Book review: Natural Language Annotation for Machine Learing"
+slug: "book-review-natural-language-annotation"
 date: 2012-04-02T14:21:00.001Z
 publishDate: 2012-04-02T14:21:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Keresés természetes nyelven"
+slug: "kereses-termeszetes-nyelven"
 date: 2010-09-21T10:26:00.001Z
 publishDate: 2010-09-21T10:26:00.001Z
 author: "Varjú Zoltán"

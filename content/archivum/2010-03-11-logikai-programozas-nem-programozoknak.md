@@ -1,5 +1,6 @@
 ---
 title: "Logikai programozás nem programozóknak abszolút kezdő szinttől (prolog)"
+slug: "logikai-programozas-nem-programozoknak"
 date: 2010-03-11T20:24:00.001Z
 publishDate: 2010-03-11T20:24:00.001Z
 author: "Varjú Zoltán"

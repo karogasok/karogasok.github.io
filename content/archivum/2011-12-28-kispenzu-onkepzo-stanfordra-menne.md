@@ -1,5 +1,6 @@
 ---
 title: "Kispénzű önképző a Stanfordra menne?"
+slug: "kispenzu-onkepzo-stanfordra-menne"
 date: 2011-12-28T16:26:00.003Z
 publishDate: 2011-12-28T16:26:00.003Z
 author: "Varjú Zoltán"

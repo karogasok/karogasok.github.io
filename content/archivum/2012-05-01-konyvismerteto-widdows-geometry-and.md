@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető - Widdows: Geometry and Meaning"
+slug: "konyvismerteto-widdows-geometry-and"
 date: 2012-05-01T15:10:00.001Z
 publishDate: 2012-05-01T15:10:00.001Z
 author: "Varjú Zoltán"

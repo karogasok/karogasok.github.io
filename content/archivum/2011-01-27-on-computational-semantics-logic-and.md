@@ -1,5 +1,6 @@
 ---
 title: "On Computational Semantics, Logic and Linguistics - An Interview with Jan van Eijck"
+slug: "on-computational-semantics-logic-and"
 date: 2011-01-27T15:45:00.003Z
 publishDate: 2011-01-27T15:45:00.003Z
 author: "Varjú Zoltán"

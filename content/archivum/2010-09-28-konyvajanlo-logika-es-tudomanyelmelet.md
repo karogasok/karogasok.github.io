@@ -1,5 +1,6 @@
 ---
 title: "Könyvajánló: Logika és tudományelmélet mindenkinek"
+slug: "konyvajanlo-logika-es-tudomanyelmelet"
 date: 2010-09-28T10:54:00.005Z
 publishDate: 2010-09-28T10:54:00.005Z
 author: "Varjú Zoltán"

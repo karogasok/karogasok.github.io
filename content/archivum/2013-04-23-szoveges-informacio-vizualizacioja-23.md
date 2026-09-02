@@ -1,5 +1,6 @@
 ---
 title: "Szöveges információ vizualizációja: topic clouds"
+slug: "szoveges-informacio-vizualizacioja-23"
 date: 2013-04-23T09:48:00.001Z
 publishDate: 2013-04-23T09:48:00.001Z
 author: "Varjú Zoltán"

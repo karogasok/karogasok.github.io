@@ -1,5 +1,6 @@
 ---
 title: "Vigyázzunk a big datával"
+slug: "vigyazzunk-big-dataval"
 date: 2012-09-26T04:00:00Z
 publishDate: 2012-09-26T04:00:00Z
 author: "Varjú Zoltán"

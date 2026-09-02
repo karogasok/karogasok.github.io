@@ -1,5 +1,6 @@
 ---
 title: "Logika mindenkinek I - bevezetés"
+slug: "logika-mindenkinek-i-bevezetes"
 date: 2010-05-04T15:41:00.001Z
 publishDate: 2010-05-04T15:41:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "(cím nélkül)"
+slug: "drivel-el-szep-az-elet-eddig-nem-voltam"
 date: 2010-02-18T17:08:00Z
 publishDate: 2010-02-18T17:08:00Z
 author: "Varjú Zoltán"

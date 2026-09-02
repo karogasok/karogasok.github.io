@@ -1,5 +1,6 @@
 ---
 title: "Ne pazarold el a lehetőséget, amit egy jó kis válság a kezedbe ad!"
+slug: "ne-pazarold-el-a-lehetoseget-amit-egy-jo-kis-valsag-a-kezedbe-ad"
 date: 2022-04-25T13:35:26Z
 publishDate: 2022-04-25T13:35:26Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Personal Kanban"
+slug: "konyvismerteto-personal-kanban"
 date: 2011-11-10T09:20:00.002Z
 publishDate: 2011-11-10T09:20:00.002Z
 author: "Varjú Zoltán"

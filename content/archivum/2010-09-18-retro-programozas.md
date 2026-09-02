@@ -1,5 +1,6 @@
 ---
 title: "Retro programozás"
+slug: "retro-programozas"
 date: 2010-09-18T19:35:00.003Z
 publishDate: 2010-09-18T19:35:00.003Z
 author: "Varjú Zoltán"

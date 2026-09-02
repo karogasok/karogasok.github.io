@@ -1,5 +1,6 @@
 ---
 title: "An Introduction to Scientific Workflows (For Linguists)"
+slug: "introduction-to-scientific-workflows"
 date: 2011-10-04T05:51:00Z
 publishDate: 2011-10-04T05:51:00Z
 author: "Varjú Zoltán"

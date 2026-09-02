@@ -1,5 +1,6 @@
 ---
 title: "R, de miért is használjam? - II."
+slug: "r-de-miert-is-hasznaljam-ii"
 date: 2010-07-29T10:00:00.001Z
 publishDate: 2010-07-29T10:00:00.001Z
 author: "Varjú Zoltán"

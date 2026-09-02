@@ -1,5 +1,6 @@
 ---
 title: "Filmajánló: Wittgenstein"
+slug: "filmajanlo-wittgenstein"
 date: 2012-10-08T10:56:00.001Z
 publishDate: 2012-10-08T10:56:00.001Z
 author: "Varjú Zoltán"

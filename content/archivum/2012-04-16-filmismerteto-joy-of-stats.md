@@ -1,5 +1,6 @@
 ---
 title: "Filmismertető: The Joy of Stats"
+slug: "filmismerteto-joy-of-stats"
 date: 2012-04-16T10:54:00.001Z
 publishDate: 2012-04-16T10:54:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Head First Software Development"
+slug: "konyvismerteto-head-first-software"
 date: 2012-08-30T08:12:00.001Z
 publishDate: 2012-08-30T08:12:00.001Z
 author: "Varjú Zoltán"

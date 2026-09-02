@@ -1,5 +1,6 @@
 ---
 title: "100 szóban Budapest - Karc FM interjú"
+slug: "100-szoban-budapest-karc-fm-interju"
 date: 2020-12-03T11:01:05Z
 publishDate: 2020-12-03T11:01:05Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Knight - Mozilla Learning Lab"
+slug: "knight-mozilla-learning-lab"
 date: 2011-06-30T17:01:00.002Z
 publishDate: 2011-06-30T17:01:00.002Z
 author: "Varjú Zoltán"

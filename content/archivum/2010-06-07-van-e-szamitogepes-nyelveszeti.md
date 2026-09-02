@@ -1,5 +1,6 @@
 ---
 title: "Van-e (számítógépes) nyelvészeti paradigma?"
+slug: "van-e-szamitogepes-nyelveszeti"
 date: 2010-06-07T11:40:00Z
 publishDate: 2010-06-07T11:40:00Z
 author: "Varjú Zoltán"

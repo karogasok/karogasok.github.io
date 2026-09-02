@@ -1,5 +1,6 @@
 ---
 title: "Nyelvészet - csak röviden!"
+slug: "nyelveszet-csak-roviden"
 date: 2010-04-20T19:29:00.001Z
 publishDate: 2010-04-20T19:29:00.001Z
 author: "Varjú Zoltán"

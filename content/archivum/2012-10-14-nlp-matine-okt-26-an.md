@@ -1,5 +1,6 @@
 ---
 title: "NLP matiné okt. 26-án (UPDATED)"
+slug: "nlp-matine-okt-26-an"
 date: 2012-10-14T11:21:00.001Z
 publishDate: 2012-10-14T11:21:00.001Z
 author: "Varjú Zoltán"

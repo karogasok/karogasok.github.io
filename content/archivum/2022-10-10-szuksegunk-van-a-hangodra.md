@@ -1,5 +1,6 @@
 ---
 title: "Szükségünk van a hangodra"
+slug: "szuksegunk-van-a-hangodra"
 date: 2022-10-10T12:42:18Z
 publishDate: 2022-10-10T12:42:18Z
 author: "Varjú Zoltán"

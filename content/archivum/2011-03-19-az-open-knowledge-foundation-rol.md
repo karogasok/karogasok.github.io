@@ -1,5 +1,6 @@
 ---
 title: "Az Open Knowledge Foundation-ről"
+slug: "az-open-knowledge-foundation-rol"
 date: 2011-03-19T10:51:00.002Z
 publishDate: 2011-03-19T10:51:00.002Z
 author: "Varjú Zoltán"

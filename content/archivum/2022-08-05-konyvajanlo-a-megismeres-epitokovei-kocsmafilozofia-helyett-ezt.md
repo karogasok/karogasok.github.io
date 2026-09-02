@@ -1,5 +1,6 @@
 ---
 title: "Könyvajánló: A megismerés építőkövei - kocsmafilozófia helyett ezt olvasd ha érdekel az MI"
+slug: "konyvajanlo-a-megismeres-epitokovei-kocsmafilozofia-helyett-ezt"
 date: 2022-08-05T09:25:01Z
 publishDate: 2022-08-05T09:25:01Z
 author: "Varjú Zoltán"

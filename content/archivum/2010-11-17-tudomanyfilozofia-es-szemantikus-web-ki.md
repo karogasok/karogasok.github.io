@@ -1,5 +1,6 @@
 ---
 title: "Tudományfilozófia és szemantikus web"
+slug: "tudomanyfilozofia-es-szemantikus-web-ki"
 date: 2010-11-17T15:05:00.003Z
 publishDate: 2010-11-17T15:05:00.003Z
 author: "Varjú Zoltán"

@@ -38,6 +38,7 @@ from archive_common import (  # noqa: E402
     MediaResolver,
     Report,
     slugify,
+    clean_title,
     to_markdown,
     validate_markdown,
     write_post,
@@ -131,7 +132,7 @@ def main() -> int:
     seen: set[str] = set()
 
     for entry in keep:
-        title = text_of(entry, A + "title") or "(cím nélkül)"
+        title = clean_title(text_of(entry, A + "title")) or "(cím nélkül)"
         published = text_of(entry, A + "published")
         updated = text_of(entry, A + "updated")
         filename = text_of(entry, B + "filename")
@@ -160,6 +161,10 @@ def main() -> int:
 
         front = {
             "title": title,
+            # Explicit, because Hugo's :slug urlizes the *title* and ignores the
+            # filename. Without this, every post sharing a title with another
+            # from the same year silently overwrites it at build time.
+            "slug": slug,
             "date": published or updated,
             "publishDate": published or updated,
             "author": AUTHOR_ON_SITE,

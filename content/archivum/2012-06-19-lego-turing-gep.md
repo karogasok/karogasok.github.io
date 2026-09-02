@@ -1,5 +1,6 @@
 ---
 title: "LEGO Turing-gép"
+slug: "lego-turing-gep"
 date: 2012-06-19T07:53:00.001Z
 publishDate: 2012-06-19T07:53:00.001Z
 author: "Varjú Zoltán"

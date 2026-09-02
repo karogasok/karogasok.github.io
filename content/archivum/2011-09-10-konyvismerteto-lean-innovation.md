@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Lean Innovation"
+slug: "konyvismerteto-lean-innovation"
 date: 2011-09-10T06:27:00Z
 publishDate: 2011-09-10T06:27:00Z
 author: "Varjú Zoltán"

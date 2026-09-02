@@ -1,5 +1,6 @@
 ---
 title: "Algoritmikus újságírás és fake news - interjú a Kossuth Rádióban"
+slug: "algoritmikus-ujsagiras-es-fake-news-interju-a-kossuth-radioban"
 date: 2020-06-15T18:37:29Z
 publishDate: 2020-06-15T18:37:29Z
 author: "Varjú Zoltán"

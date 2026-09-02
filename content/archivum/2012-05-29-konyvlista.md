@@ -1,5 +1,6 @@
 ---
 title: "Könyvlista"
+slug: "konyvlista"
 date: 2012-05-29T12:27:00.001Z
 publishDate: 2012-05-29T12:27:00.001Z
 author: "Varjú Zoltán"

@@ -1,5 +1,6 @@
 ---
 title: "Írástudók hajnala: innováció a médiában III. - Digitális mesék"
+slug: "irastudok-hajnala-innovacio-mediaban"
 date: 2011-03-28T11:29:00.002Z
 publishDate: 2011-03-28T11:29:00.002Z
 author: "Varjú Zoltán"

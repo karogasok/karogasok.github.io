@@ -1,5 +1,6 @@
 ---
 title: "Tudományfilozófia, gépi tanulás és nyelvészet - egy nem is annyira különös találkozás"
+slug: "tudomanyfilozofia-gepi-tanulas-es"
 date: 2010-12-03T11:56:00Z
 publishDate: 2010-12-03T11:56:00Z
 author: "Varjú Zoltán"

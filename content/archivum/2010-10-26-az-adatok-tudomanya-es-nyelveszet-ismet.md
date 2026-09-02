@@ -1,5 +1,6 @@
 ---
 title: "Az adatok tudománya és nyelvészet - ismét"
+slug: "az-adatok-tudomanya-es-nyelveszet-ismet"
 date: 2010-10-26T08:53:00Z
 publishDate: 2010-10-26T08:53:00Z
 author: "Varjú Zoltán"

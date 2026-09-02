@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Gödel&#39;s Proof"
+slug: "konyvismerteto-godel-proof"
 date: 2012-11-07T09:53:00.001Z
 publishDate: 2012-11-07T09:53:00.001Z
 author: "Varjú Zoltán"

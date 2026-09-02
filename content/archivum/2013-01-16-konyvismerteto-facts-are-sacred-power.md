@@ -1,5 +1,6 @@
 ---
 title: "Könyvismertető: Facts are Sacred: The power of data"
+slug: "konyvismerteto-facts-are-sacred-power"
 date: 2013-01-16T10:02:00.001Z
 publishDate: 2013-01-16T10:02:00.001Z
 author: "Varjú Zoltán"
