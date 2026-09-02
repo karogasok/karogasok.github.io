@@ -24,11 +24,23 @@ other = "Rólam"
 ["nav.media"]
 other = "Média"
 
-["media.radio"]
-other = "Rádió"
+["media.available"]
+other = "Elérhető"
 
-["media.eloadas"]
-other = "Előadások"
+["media.lost"]
+other = "Elveszett felvételek"
+
+["media.lost_note"]
+other = "Ezek a beszélgetések megtörténtek, a rádiók archívuma azonban már nem őrzi a hanganyagot. Az alábbi bejegyzések leírják, miről volt szó."
+
+["media.mufaj.eloadas"]
+other = "Előadás"
+
+["media.mufaj.interju"]
+other = "Interjú"
+
+["media.mufaj.podcast"]
+other = "Podcast"
 
 ["media.at"]
 other = "Az adásban:"

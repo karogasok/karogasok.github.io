@@ -14,46 +14,47 @@
 
 tetelek:
   # ---------------------------------------------------------------- rádió
-  - tipus: radio
+  - mufaj: interju
+    elerheto: false
     cim: "Mire jók a chatbotok és hol tart ma az ember-gép interakció"
     hol: "Kossuth Rádió, Trend Idők"
     ev: 2021
     datum: 2021-05-11
     idopont: "15:18:46–15:22:08"
-    link: "https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2021-05-11_15-11-00&enddate=2021-05-11_15-35-00&ch=mr1"
     forras: "https://blog.crowintelligence.org/hu/2021/05/11/mire-jok-a-chatbotok-es-hol-tart-ma-az-ember-gep-interakcio-interju-a-kossuth-radioban/"
     leiras: "A chatbotokról és a mesterséges intelligenciáról beszélgettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: false
     cim: "Öröklét chatbotként"
     hol: "Kossuth Rádió, Trend Idők"
     ev: 2021
     datum: 2021-02-03
     idopont: "15:16–15:19"
-    link: "https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2021-02-03_15-11-00&enddate=2021-02-03_15-35-00&ch=mr1"
     forras: "https://blog.crowintelligence.org/hu/2021/02/03/oroklet-chatbotkent-interju-a-kossuth-radioban/"
     leiras: "A chatbotokról és a mesterséges intelligenciáról beszélgettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: false
     cim: "Mit tudnak a nyelvmodellek?"
     hol: "Kossuth Rádió, Trend-Idők"
     ev: 2020
     datum: 2020-12-14
     idopont: "15:13:03–15:16:20"
-    link: "https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-12-14_15-11-00&enddate=2020-12-14_15-35-00&ch=mr1"
     forras: "https://blog.crowintelligence.org/hu/2020/12/14/mit-tudnak-a-nyelvmodellek-interju-a-kossuth-radioban/"
     leiras: "Az új neurális nyelvmodellek „képességeiről” beszélgettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: false
     cim: "100 szóban Budapest"
     hol: "Kossuth Rádió, Szombat Reggel"
     ev: 2020
     datum: 2020-12-05
-    link: "https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-12-05_06-00-00&enddate=2020-12-05_08-40-00&ch=mr1"
     forras: "https://blog.crowintelligence.org/hu/2020/12/05/100-szoban-budapest-interju-a-kossuth-radioban/"
     leiras: "A 100 szóban Budapest történetíró pályázat pályaműveit elemző projektünkről, melyet a Budapest Brand Nonprofit Zrt. és a MITTE felkérésére készítettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: true
     cim: "100 szóban Budapest"
     hol: "Karc FM, Spájz"
     ev: 2020
@@ -63,7 +64,8 @@ tetelek:
     forras: "https://blog.crowintelligence.org/hu/2020/12/03/100-szoban-budapest-karc-fm-interju/"
     leiras: "A 100 szóban Budapest történetíró pályázat pályaműveit elemző projektünkről beszélgettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: true
     cim: "100 szóban Budapest"
     hol: "Manna FM, Reggeli Manna"
     ev: 2020
@@ -73,46 +75,47 @@ tetelek:
     forras: "https://blog.crowintelligence.org/hu/2020/11/30/100-szoban-budapest-interju/"
     leiras: "A 100 szóban Budapest történetíró pályázat pályaműveit elemző projektünkről beszélgettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: false
     cim: "Miről szólnak a magyar dalszövegek?"
     hol: "Kossuth Rádió, Trend-Idők"
     ev: 2020
     datum: 2020-10-06
     idopont: "15:16:06–15:19:06"
-    link: "https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-10-05_15-11-00&enddate=2020-10-05_15-35-00&ch=mr1"
     forras: "https://blog.crowintelligence.org/hu/2020/10/06/mirol-szolnak-a-magyar-dalszovegek-interju-a-kossuth-radioban/"
     leiras: "Magyar dalszövegeket és szerzőik kapcsolatait elemző projektünkről beszélgettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: false
     cim: "GPT-3, nyelvmodellek, AI és szöveggenerálás"
     hol: "Kossuth Rádió, Trend-Idők"
     ev: 2020
     datum: 2020-08-08
     idopont: "15:12:12–15:15:10"
-    link: "https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-08-07_15-11-00&enddate=2020-08-07_15-35-00&ch=mr1"
     forras: "https://blog.crowintelligence.org/hu/2020/08/08/gpt-3-nyelvmodellek-ai-es-szoveggeneralas-interju-a-kossuth-radioban/"
     leiras: "Az OpenAI új, GPT-3 modellje kapcsán a szöveggenerálásról és a mesterséges intelligencia határairól beszélgettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: false
     cim: "Algoritmikus újságírás és fake news"
     hol: "Kossuth Rádió, Trend-Idők"
     ev: 2020
     datum: 2020-06-15
-    link: "https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-06-15_15-11-00&enddate=2020-06-15_15-35-00&ch=mr1"
     forras: "https://blog.crowintelligence.org/hu/2020/06/15/algoritmikus-ujsagiras-es-fake-news-interju-a-kossuth-radioban/"
     leiras: "Az algoritmikus újságírásról és a fake news-ról beszélgettünk."
 
-  - tipus: radio
+  - mufaj: interju
+    elerheto: false
     cim: "Trianon 100 — a Trianonnal kapcsolatos metaforákról"
     hol: "Kossuth Rádió, Édes Anyanyelvünk"
     ev: 2020
     datum: 2020-06-04
-    link: "https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-06-02_15-25-00&enddate=2020-06-02_15-40-00&ch=mr1"
     forras: "https://blog.crowintelligence.org/hu/2020/06/04/trianon-100-interju-a-kossuth-radioban/"
     leiras: "Az idén megjelent könyvünk kapcsán a Trianonnal kapcsolatos metaforákról beszéltünk."
 
   # ------------------------------------------------------------- előadás
-  - tipus: eloadas
+  - mufaj: podcast
+    elerheto: true
     cim: "Aki nem használja a ChatGPT-t és a mesterséges intelligenciát, az behozhatatlanul lemarad"
     hol: "napi.hu podcast"
     ev: 2023
@@ -121,7 +124,8 @@ tetelek:
     forras: "https://blog.crowintelligence.org/hu/2023/03/21/aki-nem-hasznalja-a-chatgpt-t-es-a-mesterseges-intelligenciat-az-behozhatatlanul-lemarad/"
     leiras: "Szabó Péterrel, a Microsoft ügyvezetőjével arról beszélgettünk, miben hozott újat a ChatGPT és milyen hatásai lehetnek majd a mindennapjainkra."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Papagáj vagy orákulum?"
     hol: "Budapest Science Meetup"
     ev: 2023
@@ -130,7 +134,8 @@ tetelek:
     forras: "https://blog.crowintelligence.org/hu/2023/06/19/papagaj-vagy-orakulum/"
     leiras: "A ChatGPT-ről és a nagy nyelvmodellekről beszéltünk, és egy saját kis projektünkről, melynek keretében a ChatGPT és pár történelmi személy kitöltötte a Politikai Iránytű kérdőívét."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Egy mesés automatikus szövegelemzés"
     hol: "Neumann konferencia"
     ev: 2022
@@ -139,7 +144,8 @@ tetelek:
     forras: "https://blog.crowintelligence.org/hu/2022/11/14/szovegelemzes-es-ai-eloadasaink-a-neumann-konferencian/"
     leiras: "Népmesék automatikus szövegelemzéséről szóló előadás a Neumann konferencián."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Szövegelemzés és AI"
     hol: "Neumann konferencia"
     ev: 2022
@@ -148,7 +154,8 @@ tetelek:
     forras: "https://blog.crowintelligence.org/hu/2022/11/14/szovegelemzes-es-ai-eloadasaink-a-neumann-konferencian/"
     leiras: "A két Neumann konferencián tartott előadásunk közül a második."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Sorok között olvasva"
     hol: "MIBE Jövendőmondás konferencia"
     ev: 2015
@@ -157,7 +164,8 @@ tetelek:
     forras: "https://kereses.blog.hu/2015/10/28/sorok_kozott_olvasva_mibe_konferencia_eloadas"
     leiras: "Előadás a MIBE Jövendőmondás konferenciáján."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Hogy hivatkoznak egymásra a magyar politikai blogok és híroldalak?"
     hol: "Budapest Science Meetup"
     ev: 2015
@@ -166,7 +174,8 @@ tetelek:
     forras: "https://kereses.blog.hu/2015/05/14/hogy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak_prezentacio"
     leiras: "A politikai blogokkal foglalkozó projektünkről beszéltem a Budapest Science Meetupon."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Kontextus és a hivatkozások ereje"
     hol: "Media Hungary konferencia"
     ev: 2015
@@ -175,7 +184,8 @@ tetelek:
     forras: "https://kereses.blog.hu/2015/05/13/kontextus_es_a_hivatkozasok_ereje_media_hungary_prezentacio"
     leiras: "Politikai blogokat vizsgáló projektünkről adtam elő a Media Hungary konferencián."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Textus; szövegek hálójában"
     hol: "MeetOFF"
     ev: 2015
@@ -184,7 +194,8 @@ tetelek:
     forras: "https://kereses.blog.hu/2015/04/23/textus_szovegek_halojaban"
     leiras: "A MeetOFF rendezvényén tartott előadás diái."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Mit csinál egy nyelvész egy IT cégnél?"
     hol: "Magyarosok szaknapja, Pécs"
     ev: 2014
@@ -193,7 +204,8 @@ tetelek:
     forras: "https://kereses.blog.hu/2014/04/29/iparba_nyelveszek"
     leiras: "Pécsett, a magyarosok szaknapján arról adtam elő, mit is csinál egy nyelvész az iparban."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Szövegbányászat"
     hol: "BURN meetup"
     ev: 2013
@@ -202,7 +214,8 @@ tetelek:
     forras: "https://kereses.blog.hu/2013/11/30/szovegbanyaszat_burn_meetup_eloadas"
     leiras: "A BURN meetupon adtam elő; a szervezők jóvoltából az előadás felvétele is elérhető."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "conTEXT — a szavak titkos élete"
     hol: "Clementine conTEXT konferencia"
     ev: 2013
@@ -211,7 +224,8 @@ tetelek:
     forras: "https://kereses.blog.hu/2013/11/29/a_szavak_titkos_elete_context_prezentaciom"
     leiras: "A Clementine conTEXT — szöveganalitika magyarul konferencián tartott előadás diái."
 
-  - tipus: eloadas
+  - mufaj: eloadas
+    elerheto: true
     cim: "Budapest Users of R Network"
     hol: "R meetup"
     ev: 2013
@@ -219,3 +233,64 @@ tetelek:
     link: "https://www.slideshare.net/slideshow/budapest-users-of-r-network-2013-november-27/28688245"
     forras: "https://kereses.blog.hu/2013/11/28/r_meetup_prezentacio"
     leiras: "Az R meetupon tartott előadás diái. A twitteR csomag interaktív autentikációja nem működik RStudio alatt."
+
+  # --- Az alábbi beszélgetések felvételei már nem érhetők el ----------------
+  # A rádiók archívuma nem őrizte meg őket. A `forras` bejegyzés viszont él, és
+  # tartalmazza az eredeti hivatkozást és az időpontokat is.
+
+  - mufaj: interju
+    elerheto: false
+    cim: "Mesterséges intelligencia és az új év"
+    hol: "Rádió Bézs, Szia, Tanár úr!"
+    ev: 2020
+    datum: 2020-12-30
+    idopont: "32:28-tól"
+    forras: "https://blog.crowintelligence.org/hu/2020/12/30/mesterseges-intelligencia-es-az-uj-ev-interju-a-radio-bezsben/"
+    leiras: "Gerő Péter műsorában a mesterséges intelligencia kapcsán ránk váró kihívásokról beszélgettünk."
+
+  - mufaj: interju
+    elerheto: false
+    cim: "Mesterséges intelligencia"
+    hol: "Rádió Bézs, Szia, Tanár úr!"
+    ev: 2020
+    datum: 2020-11-05
+    forras: "https://blog.crowintelligence.org/hu/2020/11/05/mesterseges-intelligencia-interju-a-bezs-radioban/"
+    leiras: "Gerő Péterrel beszélgettünk a mesterséges intelligenciáról: létezik-e egyáltalán, lehet-e egy gép intelligens."
+
+  - mufaj: interju
+    elerheto: false
+    cim: "Koronavírus és metaforák 3."
+    hol: "Civil Rádió, 117 perc"
+    ev: 2020
+    datum: 2020-09-08
+    idopont: "25:10-től"
+    forras: "https://blog.crowintelligence.org/hu/2020/09/08/koronavirus-es-metaforak-3-beszelgetes-a-civil-radioban/"
+    leiras: "A metaforák automatikus azonosításának kérdéseiről beszélgettünk."
+
+  - mufaj: interju
+    elerheto: false
+    cim: "Koronavírus és metaforák 2."
+    hol: "Civil Rádió, 117 perc"
+    ev: 2020
+    datum: 2020-08-25
+    idopont: "12:08-tól"
+    forras: "https://blog.crowintelligence.org/hu/2020/08/25/koronavirus-es-metaforak-2-beszelgetes-a-civil-radioban/"
+    leiras: "A koronavírus kapcsán használt metaforákról beszélgettünk ismét a 117 perc című műsorban."
+
+  - mufaj: interju
+    elerheto: false
+    cim: "Koronavírus és metaforák"
+    hol: "Civil Rádió, 117 perc"
+    ev: 2020
+    datum: 2020-08-18
+    forras: "https://blog.crowintelligence.org/hu/2020/08/18/koronavirus-es-metaforak-beszelgetes-a-civil-radioban/"
+    leiras: "A koronavírus kapcsán használt metaforákról beszélgettünk, két részletben."
+
+  - mufaj: interju
+    elerheto: false
+    cim: "Trianon 100 — hosszabb interjú"
+    hol: "Kossuth Rádió, Gondolat-jel"
+    ev: 2020
+    datum: 2020-06-08
+    forras: "https://blog.crowintelligence.org/hu/2020/06/08/trianon-100-hosszabb-interju-a-kossuth-radioban/"
+    leiras: "A Gondolat-jel június hetedikei adásában hosszabb interjú hangzott el velünk a Trianonnal kapcsolatos metaforákról."

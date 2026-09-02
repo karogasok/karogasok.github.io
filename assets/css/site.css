@@ -555,6 +555,32 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   color: var(--muted);
 }
 .media-meta > * { margin-right: var(--sp-3); }
+
+/* The genre tag sits inside the title cell, ahead of the title. */
+.media-tag {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: var(--fs-label);
+  letter-spacing: var(--ls-label);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 1px 5px;
+  margin-right: var(--sp-2);
+  vertical-align: 0.12em;
+}
+
+/* A row with nothing to link to. Same grid as .post-item-link so the two
+   sections line up, but not a link and not coloured like one. */
+.post-item-link.is-plain {
+  display: grid;
+  grid-template-columns: var(--date-col) 1fr;
+  gap: var(--sp-2);
+  align-items: baseline;
+  color: var(--ink);
+}
+.media-group.is-lost .post-item-title { color: var(--muted); }
 @media (max-width: 62rem) { .media-meta { margin-left: 0; } }
 
 

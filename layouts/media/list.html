@@ -1,8 +1,14 @@
 {{ define "main" }}
-{{- /* Radio first, then talks; newest first within each. Both groups come from
-       data/media.yaml — nothing here is hosted, every row links out to the
-       recording or the slides, and `forras` points at the post that announced
-       it so a reader can check where the entry came from. */ -}}
+{{- /* Two sections, split on whether the recording still plays.
+
+       The broadcasters' archives have dropped most of the radio audio — eight
+       Kossuth Rádió segments answer "A hanganyag már nem érhető el", and the
+       Civil Rádió and Rádió Bézs files are gone outright. Those appearances
+       still happened, so they stay on the page; they simply link to the post
+       that announced them rather than to a recording that is not there.
+
+       The split keys on `elerheto`, not on a list of URLs: the day one of these
+       turns up, the edit is flipping the flag and adding a link. */ -}}
 {{- $all := hugo.Data.media.tetelek -}}
 <div class="listing">
   <header class="post-head">
@@ -11,11 +17,9 @@
   </header>
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 
-  {{- range $group := slice "eloadas" "radio" }}
-  {{- $rows := where $all "tipus" $group }}
-  {{- with $rows }}
+  {{- with where $all "elerheto" true }}
   <section class="media-group">
-    <h2>{{ i18n (printf "media.%s" $group) }} <span class="archive-year-n">{{ len . }}</span></h2>
+    <h2>{{ i18n "media.available" }} <span class="archive-year-n">{{ len . }}</span></h2>
     <ol class="post-list media-list">
       {{- range sort . "datum" "desc" }}
       <li class="post-item">
@@ -24,11 +28,14 @@
             <time datetime="{{ .datum }}">{{ .ev }}</time>
             <span class="post-item-source">{{ .hol }}</span>
           </span>
-          <span class="post-item-title">{{ .cim }}<span class="ext-mark" aria-hidden="true">↗</span></span>
+          <span class="post-item-title">
+            <span class="media-tag">{{ i18n (printf "media.mufaj.%s" .mufaj) }}</span>
+            {{ .cim }}<span class="ext-mark" aria-hidden="true">↗</span>
+          </span>
         </a>
         {{- with .leiras }}<p class="post-item-lede">{{ . }}</p>{{ end }}
         <p class="media-meta">
-          {{- with .idopont }}<span class="media-at">{{ i18n "media.at" }} {{ . }}</span>{{ end }}
+          {{- with .idopont }}<span>{{ i18n "media.at" }} {{ . }}</span>{{ end }}
           {{- with .link_diak }}<a href="{{ . }}" rel="noopener">{{ i18n "media.slides" }}</a>{{ end }}
           {{- with .forras }}<a href="{{ . }}" rel="noopener">{{ i18n "media.source" }}</a>{{ end }}
         </p>
@@ -37,6 +44,36 @@
     </ol>
   </section>
   {{- end }}
+
+  {{- with where $all "elerheto" false }}
+  <section class="media-group is-lost">
+    <h2>{{ i18n "media.lost" }} <span class="archive-year-n">{{ len . }}</span></h2>
+    <p class="note">{{ i18n "media.lost_note" }}</p>
+    <ol class="post-list media-list">
+      {{- range sort . "datum" "desc" }}
+      <li class="post-item">
+        {{- /* No outbound link: there is nothing at the other end. The title is
+               plain text, and the post that announced it carries the original
+               URL and the timecode. */}}
+        <div class="post-item-link is-plain">
+          <span class="post-item-date">
+            <time datetime="{{ .datum }}">{{ .ev }}</time>
+            <span class="post-item-source">{{ .hol }}</span>
+          </span>
+          <span class="post-item-title">
+            <span class="media-tag">{{ i18n (printf "media.mufaj.%s" .mufaj) }}</span>
+            {{ .cim }}
+          </span>
+        </div>
+        {{- with .leiras }}<p class="post-item-lede">{{ . }}</p>{{ end }}
+        <p class="media-meta">
+          {{- with .idopont }}<span>{{ i18n "media.at" }} {{ . }}</span>{{ end }}
+          {{- with .forras }}<a href="{{ . }}" rel="noopener">{{ i18n "media.source" }}</a>{{ end }}
+        </p>
+      </li>
+      {{- end }}
+    </ol>
+  </section>
   {{- end }}
 </div>
 {{ end }}
