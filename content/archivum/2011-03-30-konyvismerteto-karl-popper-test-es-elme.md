@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "filozófia"
   - "könyvismertető"
   - "nyelvfilozófia"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - objektív
+  - test-elme
+  - popper
+  - Karl
+  - elme
+  - hétköznapi
 ---
 
 **Az okos mások hibáiból tanul, de azért legtöbben saját hibáinkból tanulunk. Most egy olyan könyvet ajánlunk olvasóink figyelmébe amely szembesít minket azzal a ténnyel hogy alapvetően problémákat oldunk meg, jól vagy rosszul, és ez köt minket össze, ezt tesz minket emberivé és ezért vagyunk többé-kevésbé racionálisak.  Olyan kérdésekre is választ kaphatunk hogy mi a nyelv szerepe a megismerés folyamatában és hogyan fejlődhetett ki egyáltalán ez a rendszer? Mindezt egy élvezetes, minden különösebb filozófiai előismeret nélkül is olvasható rövid kis kötetben találhatjuk meg.**

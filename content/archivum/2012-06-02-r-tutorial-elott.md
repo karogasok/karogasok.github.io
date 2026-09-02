@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "R"
   - "meetup"
   - "text mining"
+temak:
+  - Hálózatok és eszközök
+kulcsszavak:
+  - Ubuntu
+  - Studio
+  - tm
+  - telepít
+  - tipp
+  - csomag
 ---
 
 **Két hónap múlva egy egész napot szentelünk az R nyelvnek és a tm csomagnak. Már csak 18 szabad hely maradt, ha nem szeretnél lemaradni, [regisztrálj](http://www.meetup.com/Hungarian-nlp/events/65874002/) mihamarabb! A rendezvény ingyenes (köszönet a [Weblib](http://weblib.hu/)nek!), csupán te, a laptopod és némi előkészület szükséges hozzá - ez a poszt ebben szeretne segíteni.**

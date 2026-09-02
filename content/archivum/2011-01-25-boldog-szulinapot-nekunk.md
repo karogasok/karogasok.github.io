@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/boldog-szulinapot-nekunk.html"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - Vécs
+  - csatlakozás
+  - Humanities
+  - profi
+  - Dávid
+  - fiók
 ---
 
 Egy év eltelt mióta elindult a blog. Igaz az elején még csak ízlelgette Zoli hogy mit jelent blogot írni, nem szerette a blogger netes felületét, kerített szép Firefox kiegészítőket, olvasgatott a Twitter rejtelmeiről (amik személyes fiókján segítettek, ám a blog fiókján nem!) aztán lassan elkezdődött a komolyabb munka. Dávid csatlakozása volt a tavalyi év fordulópontja, már nem egy egyszemélyes blog vagyunk azóta :D Nem mellesleg Ruby programozási nyelv című posztja egyike legnépszerűbb írásainknak. Enikő csatlakozása teremtette meg a "kritikai" szellemet, és aktivizálta Twitter és Tumblr jelenlétünket.  

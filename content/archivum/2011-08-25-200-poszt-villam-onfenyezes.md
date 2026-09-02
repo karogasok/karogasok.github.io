@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "200"
   - "blog"
   - "önfényezés"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - önfényezés
+  - vendégeskedik
+  - tervez
+  - érdeklődési
+  - csatlakozik
+  - hónap
 ---
 
 **Sajnos anno lemaradtam arról hogy a századik poszt kapcsán kezdjek önfényezésbe, ezért a kétszázadik posztot használom fel erre. Villám önfényezésünk egy kis blogtörténetettel kezdődik, majd áttekintjük mi történt velünk az elmúlt bő másfél évben. Vágjunk bele!**

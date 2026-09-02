@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "Significance"
   - "bigmemory"
   - "rstats"
+temak:
+  - A szakma
+kulcsszavak:
+  - Memory
+  - bigmemory
+  - resource
+  - correlation
+  - memory-mapped
+  - portion
 ---
 
 **[bigmemory](http://www.bigmemory.org/) is an R package that "supports the creation, storage, access, and manipulation of massive matrices".[ Don't drown in the data](http://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2012.00592.x/abstract) is a paper by [John W. Emerson](http://www.stat.yale.edu/%7Ejay/) and [Michael J. Kane](https://sites.google.com/site/kaneplusplus/) in the recent issue of Significance (unfortunately the paper is not open access). The authors describes the basic ideas behind bigmemory and why they started the project.**

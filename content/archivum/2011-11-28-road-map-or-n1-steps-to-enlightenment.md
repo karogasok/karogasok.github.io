@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "Clojure"
   - "Clojurelx"
   - "road-map"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - "we'd"
+  - Classics
+  - power
+  - try
+  - topics
+  - tools
 ---
 
 *This post has been cross posted on [Clojurelx](http://clojurelx.blogspot.com/)*

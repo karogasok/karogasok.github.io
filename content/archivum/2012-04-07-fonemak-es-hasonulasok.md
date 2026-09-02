@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "fonetika"
   - "fonológia"
   - "vendégposzt"
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - fonéma
+  - fonológiai
+  - hangsor
+  - hasonulás
+  - megkülönböztető
+  - jegy
 ---
 
 *Fehér Krisztina írása*

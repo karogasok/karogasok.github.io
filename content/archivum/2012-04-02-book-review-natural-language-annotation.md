@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "corpus linguistics"
   - "machine learning"
   - "review"
+temak:
+  - Korpuszépítés és annotáció
+kulcsszavak:
+  - collect
+  - MATTER
+  - chapter
+  - McEnry
+  - brief
+  - cycl
 ---
 
 **The book's title is misleading. Its subtitle - A Guide to Corpus Building for Applications - is more descriptive. I believe that not only machine learners, but linguists (esp. corpus and computational linguists), practitioners of the digital humanities and others who are using and/or collecting linguistic data can deepen their knowledge with the help of this terrific book.**

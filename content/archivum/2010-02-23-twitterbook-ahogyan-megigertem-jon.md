@@ -12,6 +12,15 @@ regi_cimkek:
   - "twitter"
 regi_cimkek_mind:
   - "twitter"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - tweetel
+  - fasza
+  - TwitterBook
+  - üzenet
+  - zavaró
+  - követő
 ---
 
 ## TwitterBook

@@ -241,6 +241,89 @@ soros javítás, nem 364 fájl újraimportálása.
 
 ---
 
+## Témamodell, kulcsszavak, `tema` taxonómia
+
+Új, különálló Python-projekt az `analysis/` mappában (uv, saját `pyproject.toml`
+és lockfile). A `scripts/` szándékosan stdlib-only marad, hogy az importálók
+évek múlva is elinduljanak egy csupasz `python3`-mal; az ML-stack nem szivárog
+bele.
+
+**A folyamat:** emtsv (Docker) lemmatizálás → huBERT beágyazás (chunkolva,
+átlagolva, L2-normalizálva) → BERTopic → keyflux kulcsszavak → `temak`
+taxonómia és `data/temak.yaml`.
+
+### A modell, mérve
+
+818 dokumentum, ebből **318 teljes szövegű**, amire a modell illeszkedik; a
+maradék 496 rövid tétel (Kereső Világ-felvezetők, média- és máshol-leírások)
+utólag kerül rá a kész témákra, 0,25-ös valószínűségi küszöb felett. Fordítva
+nem lett volna értelme: a korpusz darabszám szerinti többsége 37 szavas
+felvezető, és ha azokra illesztünk, azok határozzák meg a témákat.
+
+- **19 téma**, 21,1% kívülálló, a legnagyobb téma a korpusz 9,1%-a.
+- Két futás azonos maggal **814/814 azonos** besorolást ad.
+- Előre rögzített küszöb: ha a kívülállók 40% fölé mennek, vagy egy téma a
+  korpusz harmadánál többet visz, azt rossz modellként jelentem, nem szállítom.
+  Mindkettő teljesült.
+
+### Döntések, amelyek a számokat érintik
+
+| paraméter | érték | miért |
+|---|---|---|
+| `min_cluster_size` | 7 | 318 dokumentum; a BERTopic 10-es alapértéke ennyiből túl keveset hagy |
+| `cluster_selection_method` | `leaf` | a huBERT-vektorok szűk kúpban ülnek, az `eom` egyetlen témába dönt mindent |
+| `min_df` | 2 | egyszer előforduló lemma ne legyen témakifejezés |
+| valószínűségi küszöb | 0,25 | ez alatt a rövid tétel kívülálló marad, nem erőltetjük témába |
+| `MIN_FIT_WORDS` | 80 | ez alatt nincs témajelzés a szövegben |
+| keyflux `min_focus_freq` | 2 | a könyvtár 5-ös alapértéke korpusz-korpusz összevetésre való, nem egyetlen posztra |
+| kulcsszavak / írás | 8 | ebből 6 kerül a front matterbe |
+
+### Emberi döntést igényel
+
+**A 19 témanév gépi javaslat.** Mind a 19 `checked_by_human: false`
+állapotban van az `analysis/out/topic_names.json`-ban, és mindegyik mellett ott
+a téma kifejezéslistája, öt jellemző írás címe, és egy **szó szerinti idézet**,
+amit a szkript visszaellenőrzött a forrásban — így a név ellenőrzése
+sztringkeresés, nem újraolvasás. Mind a 19 idézet visszakereshető.
+
+A témaoldalak ezért egyelőre kiírják, hogy a név gépi javaslat. Az
+`export_temak.py` alapból meg is tagadja a publikálást, amíg a név nincs
+átnézve; a mostani futás a `--allow-unchecked` kapcsolóval készült, hogy legyen
+mit átnézni.
+
+**A 3-as téma („A blog életéből") a leggyengébb.** A 17 írás közös vonása a
+hangnem, nem a tárgy: évfordulók, tervek, köszönetek. Vagy kap egy őszintébb
+nevet, vagy érdemes kívülállóként hagyni.
+
+**Angol kulcsszavak magyar posztokon.** Az emtsv az angol szövegre is magyarként
+néz, így egy angolul idéző poszton az angol tartalmas szavak (`dance`,
+`behavior`) kulcsszóként jönnek ki. Az angol funkciószavakat kiszűrjük, a
+tartalmasakat nem — azok tényleg megkülönböztetik az adott írást.
+
+### Két hiba, amit a modell hozott felszínre
+
+1. **Egy poszt címkéi elvesztek.** A „Chomsky és a statisztika" öt címkéje egyetlen
+   sztringgé olvadt, U+FFFD karakterekkel elválasztva — a rontás a Blogger
+   exportjában van, nem az importálóban. Mivel így minden címke egyszer
+   fordult elő, egyik sem érte el a hubküszöböt: a poszt öt címkeoldalról
+   hiányzott. Az importáló mostantól szétvágja ezeket, a poszt pedig
+   visszakerült a Chomsky, statisztika és számítógépes nyelvészet oldalakra.
+2. **Egy régi bekezdésben megmaradt szemét.** Egy 2011-es poszt linkszövegében
+   `bitxəšï-史` áll, még az eredeti blogból. Az emtsv a CJK-karakterre U+FFFD-t
+   ad vissza, ezért lett belőle témakifejezés. Nem javítottam a szöveget, csak
+   a nem-szó lemmákat szűröm ki.
+
+### Amit szándékosan nem nyúltunk hozzá
+
+- **Az öt pillércímke (`tags`) érintetlen.** A `tema` külön taxonómia; egy
+  klaszterezés eredménye nem keveredhet észrevétlenül a kézzel gondozott
+  szerkesztői állításokkal. A címlap továbbra is csak a pillérekre hivatkozik.
+- **A `temak` taxonómiának nincs feedje.** A `taxonomy`/`term` kimenet
+  továbbra is csak HTML, tehát a 19 új oldal nem hozott vissza 19 hirdetetlen
+  feedet. A build most is pontosan két feedet ad.
+- **A Kereső Világ-tételek nem kaptak oldalt.** A témájuk a
+  `data/temak.yaml`-ban van, a hub onnan listázza őket, hivatkozásként.
+
 ## A Trianon- és metafora-bejegyzések szerzősége
 
 A *Koronavírus és metaforák* sorozat és a *Trianon 100* interjúk **Putz Orsolya**

@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - lx
+  - Semantic
+  - Clojure
+  - zseniális
+  - web
+  - hazai
 ---
 
 **Ezen a héten nem kényeztettük el az olvasókat, de akinek elvonási tünetei vannak az nyugodtan kövesse [@sznyelveszet](http://szamitogepesnyelveszet.tumblr.com/) Twitter fiókunkat és/vagy [Tumblr blogunkat](http://szamitogepesnyelveszet.tumblr.com/). Ajánlónkba mindennek helyt adunk (a jóízlés és a szakma tág keretei között), de csak akkor ha elküldöd a szamitogepes.nyelveszet(kukac)gmail.com email címre.**

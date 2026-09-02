@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "ESSLLI"
   - "ESSLLI 2011"
   - "interview"
+temak:
+  - Kurzusok és önképzés
+kulcsszavak:
+  - ESSLLI
+  - summer
+  - grants
+  - researchers
+  - courses
+  - Ljubljana
 ---
 
 **The Association for Logic, Language and Computation has been organizing the European Summer School in Logic, Language and Information for 23 years. This year [ESSLLI](http://esslli2011.ijs.si/) will be held in Ljubljana (1-12 August, 2011) and we would like to promote this terrific event here (and we urge our readers from the other side of the Atlantic to check the North-American sister event's web page for information about the [NASSLLI](http://www.nasslli.com/)  summer school).We interviewed Prof. [Darja Fišer](http://lojze.lugos.si/darja/home.html), the Chair of the Organizing Committee, on ESSLLI, and yes this is propaganda to the highest degree :-)**  

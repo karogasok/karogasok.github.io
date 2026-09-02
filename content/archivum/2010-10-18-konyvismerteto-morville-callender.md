@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "interakciódizájn"
   - "keresés"
   - "könyvismertető"
+temak:
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - tervezési
+  - Pattern
+  - információtervezés
+  - Library
+  - Patterns
+  - pattern
 ---
 
 *"The future isn't just unwritten - it's unsearched."*  

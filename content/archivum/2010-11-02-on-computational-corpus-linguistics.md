@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "corpus linguistics"
   - "interview"
   - "linguistics"
+temak:
+  - A szakma
+kulcsszavak:
+  - Perl
+  - etc.
+  - skills
+  - terms
+  - corpus
+  - program(s)
 ---
 
 **This week we interviewed [Stefan Th. Gries](http://www.linguistics.ucsb.edu/faculty/stgries/) from University of California, Santa Barbara. He is the author of [Quantitative Corpus Linguistics with R: A Practical Introduction](http://www.amazon.com/Quantitative-Corpus-Linguistics-Practical-Introduction/dp/0415962706) and [Statistics for Linguistics with R: A Practical Introduction](http://www.amazon.com/Statistics-Linguistics-Practical-Introduction-Textbook/dp/3110205653/ref=pd_sim_b_4), two extremely popular books among linguists and students of linguistics.**  

@@ -10,6 +10,11 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/01/pro-git-szabadkonyv.html"
 regi_cimkek_mind:
   - "git"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - érthető
+  - könyv
 ---
 
 **Sokan ismerik és használják a különfléle verzió kezelő rendszereket. Én a Git-re esküszöm mert ezt értettem meg (az ember már csak ilyen). Ebben nagy segítségemre volt egy könyv, amely szabadon hozzáférhető[ itt](http://progit.org/). Scott Chacon Pro Git című könyve az APress-nél is megjelent, akit érdekel és teheti print formában is megveheti.**  

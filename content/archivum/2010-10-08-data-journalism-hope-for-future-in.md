@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "data journalism"
   - "data-driven journalism"
   - "interview"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - journalism
+  - story
+  - conference
+  - journalists
+  - telling
+  - Mirko
 ---
 
 **The present interview is a little digression from "The Life of a Computational Linguist" series, but since data journalism is connected to digital humanities, we decided to present this new movement here.**

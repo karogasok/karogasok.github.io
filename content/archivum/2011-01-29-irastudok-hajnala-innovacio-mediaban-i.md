@@ -22,6 +22,15 @@ regi_cimkek_mind:
   - "lexikológia"
   - "számítógépes nyelvészet"
   - "újmédia"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - Blekko
+  - Smart
+  - McKean
+  - Words
+  - Wordnik
+  - lexikális
 ---
 
 **Sokan temetik a Guttenberg-galaxist, pedig nagy a mozgolódás ezen a téren. Az újmédia telis-tele van innovációval, persze még nem látszik hogy a sok újdonságból mikor marad meg és válik általánosan elfogadottá, azonban vannak olyan irányzatok melyek kijelölik az utat. Sajnos ezekről felénk keveset olvashatunk itthon, az iPad/Kindle és mobil eszközökkel kapcsolatos híreken túl. Sorozatunkban megpróbálunk túllépni ezen és bemutatni pár olyan irányt ami utat mutathat. Az első részben a szavakra fókuszálunk és a szótárra, ami sokak szerint unalmas téma, sokan nagyon egyszerű dolognak tartják az online szótárakat, azonban a kérdés ennél sokkal összetettebb.**  

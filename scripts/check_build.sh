@@ -84,4 +84,32 @@ else
   echo "SKIP  scheduling: no future-dated posts to check"
 fi
 
+# 3. Every theme hub is attached to its own content file.
+#
+# Hugo derives a taxonomy term's directory from the term itself, accents and
+# all, while the permalink strips them. Naming the directory after the ASCII
+# slug builds a hub that looks fine but is a different page: an auto-generated
+# title-cased heading, no external writings and no review notice, because the
+# template joins the data file on the title. Twelve of nineteen hubs were in
+# that state and the build was green throughout. Compare the rendered headings
+# against the names in data/temak.yaml.
+if [ -f "$root/data/temak.yaml" ] && [ -d "$public/tema" ]; then
+  names=$(grep -E '^  nev: ' "$root/data/temak.yaml" | sed -E 's/^  nev: "?(.*[^"])"?$/\1/')
+  bad=0; checked=0
+  for page in "$public"/tema/*/index.html; do
+    [ -f "$page" ] || continue
+    # An alias redirect page has no heading, and pipefail would abort here.
+    h1=$(grep -o '<h1>[^<]*</h1>' "$page" 2>/dev/null | head -1 | sed 's/<[^>]*>//g' || true)
+    # Alias redirect pages carry no heading.
+    [ -z "$h1" ] && continue
+    checked=$((checked + 1))
+    if ! printf '%s\n' "$names" | grep -qxF "$h1"; then
+      echo "FAIL  temak: hub heading '$h1' is in no data/temak.yaml entry" >&2
+      echo "      The term page is not attached to content/temak/<term>/." >&2
+      bad=1; fail=1
+    fi
+  done
+  [ "$bad" -eq 0 ] && echo "OK    temak: $checked theme hub(s) attached to their content files"
+fi
+
 exit $fail

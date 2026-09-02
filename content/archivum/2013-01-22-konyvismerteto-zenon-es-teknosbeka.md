@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "filozófia"
   - "könyvismertető"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - teknősbéka
+  - Fearn
+  - Zénó
+  - Nicholas
+  - elvont
+  - filozófia
 ---
 
 **A kívülállók általában vagy lenézik és teljesen életidegen dolognak tartják, vagy pedig valami nagyon elvont, kevesek számára érthető dolognak tartják a filozófiát. Nicholas Fearn a híres UCL-en tanult filozófiát, de újságíró lett, majd pedig remek ismeretterjesztő könyveket kezdett írni a filozófiáról. Nem olyan elvont (és valljuk be, a legtöbb ember számára érdektelen) kérdésekről szól a Zénón és a teknősbéka mint a preszókratikus filozófia forrásai, vagy Hegel és Kant rendszeres összevetése, hanem a módszeres gondolkodás eszköztárát mutatja be a szerző.**

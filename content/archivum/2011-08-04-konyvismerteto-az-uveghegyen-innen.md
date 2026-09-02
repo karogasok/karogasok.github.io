@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "magyar nyelv"
   - "pedagógia"
   - "vendégposzt"
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - nyelvváltozat
+  - oktatás
+  - kétnyelvű
+  - nyelvtanoktatás
+  - Csernicskó
+  - nevelés
 ---
 
 *Tolnai Tímea vendégposztja*

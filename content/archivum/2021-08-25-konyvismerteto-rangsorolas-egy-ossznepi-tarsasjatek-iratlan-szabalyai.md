@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "matematika"
   - "rangsorolás"
   - "ranking"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - rangsorolás
+  - rangsor
+  - érdi
+  - Péter
+  - alapos
+  - kérdés
 ---
 
 A rangsorok átszövik életünket; keressük a legjobb iskolát a gyerekeinknek, a legjobb kézműves sört, fogadunk arra, ki nyeri majd kedvenc sportunk bajnokságát, tippelgetjük magunkban a következő választás lehetséges eredményeit. Érdi Péter könyve alaposan és olvasmányosan körbejárja a rangsorolás kérdését.

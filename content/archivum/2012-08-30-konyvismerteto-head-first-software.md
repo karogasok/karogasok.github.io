@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "Head First"
   - "Head First Software Development"
   - "könyvismertető"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Head
+  - projektmenedzsment
+  - Development
+  - szoftverfejlesztés
+  - nyugodt
+  - megér
 ---
 
 **A Head First sorozat igen csak jó hírnévnek örvend és saját tapasztalatunk szerint nem érdemtelenül. Azonban a Software Development kötet úgy érezzük kilóg a sorból, valahogy nem sikerült a szerzőknek jól alkalmazni a kognitív tanuláselméleti alapokon nyugvó Head First módszert a témára. Persze rendes iparos munkát tett le az asztalra a kiadó, de ne várjunk többet egy áttekintésnél.**

@@ -19,6 +19,15 @@ regi_cimkek_mind:
   - "python"
   - "trainer"
   - "vendégposzt"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - m-e3
+  - ut_2_betu
+  - ige
+  - INF
+  - m-e1
+  - j-e1
 ---
 
 Tempfli Péter vendégposztja

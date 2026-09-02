@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - tumblr
+  - Enci
+  - bitly
+  - visszatér
+  - Graph
+  - regisztrál
 ---
 
 **Kihagyás után visszatér a rovat! Annyit azonban tanultunk hogy nem ígérünk többet semmit! Itt a tavasz és a nagytakarítás során a tumblr blogot töröltük. El kell gondolkodnunk azon hogy mennyire tudtuk megvalósítani a sok beharangozott változást és mennyire gondoltuk reálisan hogy ez új lendületet ad a blognak. Ez most egy kicsit rendhagyó Lapszemle lesz tehát :D**

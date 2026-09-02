@@ -11,6 +11,15 @@ canonical: "https://blog.crowintelligence.org/hu/2023/02/13/a-kinai-ut-a-technol
 regi_cimkek_mind:
   - "CHIPS Act"
   - "Kína"
+temak:
+  - Mesterséges intelligencia
+kulcsszavak:
+  - Kína
+  - kínai
+  - nyugati
+  - vadász
+  - chip
+  - erdő
 ---
 
 Sokan elkerülhetetlennek tartják Kína és az Egyesült Államok szankciós háborúját. A CHIPS Act és a tervezett Eurpopean Chips Act célja, hogy a Kína számára létfontosságú technológiákhoz való hozzáférést korlátozza. Kína válaszul a saját K+F ráfordításait növeli folyamatosan. Felpöröghet-e az innováció központi utasításra?

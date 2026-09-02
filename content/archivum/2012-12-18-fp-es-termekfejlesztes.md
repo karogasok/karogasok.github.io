@@ -17,6 +17,13 @@ regi_cimkek_mind:
   - "funkcionális programozás"
   - "haskell"
   - "termékfejlesztés"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Unfold
+  - video
+  - Haskell
+  - Clojure
 ---
 
 **Két remek példa arra, hogy nem csak az általam imádott Prismatic esetében jó húzás egy funkcionális nyelv mellett letenni a garast.**

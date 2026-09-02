@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "R"
   - "számítógépes nyelvészet"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - stabil
+  - Definition
+  - szintaxis
+  - speciális
+  - Scheme
+  - támogatás
 ---
 
 **Az [előző részben](http://szamitogepesnyelveszet.blogspot.com/2010/07/r-de-miert-is-hasznaljam-i.html) megvizsgáltuk milyen is elvileg egy ideális nyelv egy számítógépes nyelvész számára. Most sorra vesszük hogy ennek mennyiben felel meg az [R](http://www.r-project.org/) statisztikai programozási nyelv.**  

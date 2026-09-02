@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "git"
   - "szabd szoftver"
   - "tanulás"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - előbb-utóbb
+  - gáz
+  - bug
+  - állás
+  - ismerős
+  - megoszt
 ---
 
 **Nem tudom itthon mennyire elterjedt hogy nem éppen mesés tudással jelentkeznek emberek programozó állásokra, minden esetre viszonylag régi probléma ez a Lajtától nyugatra ahogy arról egy [blog bejegyzés](http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html) (2007-ből) és annak [finomított változata](http://www.codinghorror.com/blog/2010/02/the-nonprogramming-programmer.html) (2010-ből) tanúskodik. A megoldás? Egyrészt az interjú technikák és az előzetes szűrés finomítása. Másrészt a "social coding" elemzése.**  

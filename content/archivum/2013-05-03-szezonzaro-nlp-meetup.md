@@ -22,6 +22,15 @@ regi_cimkek_mind:
   - "nlp meetup"
   - "nyelvtechnológia"
   - "social media monitoring"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - politikaelemző
+  - méltányosság
+  - Neticle
+  - Petykó
+  - kohézió
+  - központ
 ---
 
 Május 22-én tartjuk szezonzárór meetupunkat 18 órától a Colabs-ben (Budapest, Irányi út 3). A részvétel ingyenes, de [előzetes regisztrációhoz kötött](http://www.meetup.com/Hungarian-nlp/events/113821312/).

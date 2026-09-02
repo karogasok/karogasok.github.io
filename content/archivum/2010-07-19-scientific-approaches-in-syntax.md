@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/07/scientific-approaches-in-syntax.html"
+temak:
+  - Paradigmák és nyelvelméletek
+kulcsszavak:
+  - q
+  - phenomenon
+  - r
+  - true
+  - hypothesis
+  - Carstairs-McCarthy
 ---
 
 **A guest post by Hannah Little**

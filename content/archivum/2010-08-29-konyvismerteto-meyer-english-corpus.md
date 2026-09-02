@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/08/konyvismerteto-meyer-english-corpus.html"
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - ajánlható
+  - Meyer
+  - részletes
+  - korpusznyelvészet
+  - nyelvű
+  - pontos
 ---
 
 **Mivel egyre nagyobb teret nyer az empirikus adatokon alapuló kutatás, természetes hogy egyre többen érdeklődnek a korpusznyelvészet iránt. Meyer könyve nem ígér többet mint hogy bemutatja a korpusznyelvészet területét (az angol nyelvű munkákon keresztül), és ezt korrektül meg is teszi.**

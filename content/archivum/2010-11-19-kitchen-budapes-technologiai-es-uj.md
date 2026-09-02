@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "KIBU"
   - "interjú"
   - "újmédia"
+temak:
+  - Startup és termékfejlesztés
+kulcsszavak:
+  - Telekom
+  - Kitchen
+  - KIBU
+  - művészeti
+  - tevékenységi
+  - pályázik
 ---
 
 **Ezen a héten végre ismét magyar interjú kerülhet fel. A [Kitchen Budapest](http://bit.ly/aKTC6M) a Magyar Telekom innovációs laborja, ahol csuda dolgok történnek. Hogy mik is azok, miért jött létre a labor, hogyan működik nehéz pár szóban összefoglalni, de [Bujdosó Attila](http://bit.ly/9NOYYR) koordinátor és internet-freak építész volt olyan kedves és segített nekünk ebben.**

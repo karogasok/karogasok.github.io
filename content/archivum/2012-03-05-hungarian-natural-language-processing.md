@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2012/03/hungarian-natural-language-processing.html"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - csatlakozik
+  - Group
+  - Hungarian
+  - Meetup
+  - natural
+  - processing
 ---
 
 **Létrehoztuk a Hungarian Natural Language Processing Meetup Group-ot, lehet csatlakozni.**

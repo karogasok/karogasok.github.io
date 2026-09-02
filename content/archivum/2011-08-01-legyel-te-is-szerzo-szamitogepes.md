@@ -12,6 +12,15 @@ regi_cimkek:
   - "blog"
 regi_cimkek_mind:
   - "blog"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - bemutatkozik
+  - munkatapasztalat
+  - megbeszél
+  - tanul/tanul
+  - könyvismertető
+  - vállal
 ---
 
 [<span class="lost-media">Hiányzó kép: <a href="http://4.bp.blogspot.com/-uKFUtDVCh2o/TjZbAo8QHII/AAAAAAAAAgw/S7sIZV4wruw/s200/toborz%25C3%25A1s.jpg" rel="nofollow noopener">toborz%25C3%25A1s.jpg</a></span>](http://4.bp.blogspot.com/-uKFUtDVCh2o/TjZbAo8QHII/AAAAAAAAAgw/S7sIZV4wruw/s1600/toborz%25C3%25A1s.jpg)

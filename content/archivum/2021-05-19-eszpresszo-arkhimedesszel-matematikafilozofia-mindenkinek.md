@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "kognitív nyelvészet"
   - "matematika"
   - "matematikafilozófia"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - Buijsman
+  - Everett
+  - matematika
+  - sincs
+  - mindennap
+  - képesség
 ---
 
 Milyen lehet számok nélkül élni? Hogyan alakult ki a matematika? Mi köze van a matematikának a modern demokráciákhoz? Setfan Buijsman a világ legfiatalabb matematikafilozófusa ezeket a kérdéseket járja körül könyvében, mellyel csak egy bajunk van; a magyar címe.

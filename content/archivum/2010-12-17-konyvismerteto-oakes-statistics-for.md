@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "korpusznyelvészet"
   - "könyvismertető"
   - "statisztika"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - Edinburgh
+  - Oakes
+  - rejtelem
+  - színvonal
+  - sorozat
+  - egyedül
 ---
 
 **Az[ előző posztban](http://bit.ly/hJE7uS) bemutatott kötet szervesen kapcsolódik össze a most tárgyalt művel. Azonban előre kell bocsátanom hogy ez a kötet nem egy "bevezetés a statisztikába nyelvészeknek", hanem a statisztikai módszerek alapos és érthető bemutatása a korpusznyelvészet területén. Így elsősorban azoknak ajánlom akik már rendelkeznek a szükséges ismeretekkel megértéséhez.**

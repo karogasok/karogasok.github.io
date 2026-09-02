@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "Pulilab"
   - "python"
   - "állás"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - Pulilab
+  - innovatív
+  - nemzetközi
+  - szakember
+  - technológia
+  - közösség
 ---
 
 **A Pulilab egy StartUp, nemzetközi projekteken dolgozunk (dán, norvég) már egy éve itt Budapesten, a csapat innovatív, dinamikusan fejlődő, minden adott ahhoz, hogy kreativitásunk, innovativitásunk kibontakozhasson. :)**

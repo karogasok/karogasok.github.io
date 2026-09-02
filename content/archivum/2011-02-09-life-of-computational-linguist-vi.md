@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "Wordnik"
   - "computational linguistics"
   - "interview"
+temak:
+  - A szakma
+kulcsszavak:
+  - departments
+  - Electrical
+  - applications
+  - Wordnik
+  - department
+  - Engineers
 ---
 
 **Are you keen on words? You'll love [Wordnik](http://www.wordnik.com/) "the place for all the words, and everything known about them". Jeremy Kahn the director of research at Wordnik was so kind and answered our questions. Jeremy got his AB in Linguistics from Brown University and recently defended his PhD thesis at the University of Washington. He is a very active member of the linguistics community on Twitter, where you can find him as [@trochee](http://twitter.com/#%21/trochee).**  

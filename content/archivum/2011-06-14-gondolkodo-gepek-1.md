@@ -20,6 +20,15 @@ regi_cimkek_mind:
   - "intelligencia"
   - "kognitív tudomány"
   - "mesteséges intelligencia"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - Eliza
+  - kérdező
+  - imitációs
+  - father
+  - Turing
+  - elvi
 ---
 
 **A népszerű Jeopardy vetélkedőn aratott sikere után Watson bekerült a médiába és lassan mindenkinek van róla véleménye. Előkerültek ismét a gépek képességeit firtató kérdések, tényleg lehetnek-e annyira intelligensek mint az ember, vagy túlszárnyalhatják-e és a cyberpunk alkotásokban megjövendölt poszthumán jövő már itt jár a keretek alatt. A dolog pikantériáját az adja hogy az MIT nagyágyúi egy nem rég megrendezett szimpóziumon éppen azon keseregtek hogy valahol letértek az aranykorban kijelölt útról és újra kell indítani a mesterséges intelligencia kutatásokat. Akkor hogyan is állunk ezzel? Miért kesergünk, ha Watson nyert, a jövő pedig már itt is van.**

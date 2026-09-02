@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "lean startup"
   - "startup"
   - "ügyfélfejlesztés"
+temak:
+  - Startup és termékfejlesztés
+kulcsszavak:
+  - startup
+  - Blank
+  - ügyfélfejlesztés
+  - Lean
+  - MVP
+  - Patrick
 ---
 
 **A startup világban egyre népszerűbb az ún. lean startup módszer, amit [Eric Ries „talált ki”](http://www.startuplessonslearned.com/) és népszerűsít szerte a világban. Rövid sorozatunkban [Patrick Vlaskovits](http://vlaskovits.com/) segítségével bemutatjuk hogy miért érdemes odafigyelni erre a mozgalomra és mit is takar valójában a fogalom. Hogy tisztázzuk az alapokat Skype-on beszélgettünk Patrickkal.**

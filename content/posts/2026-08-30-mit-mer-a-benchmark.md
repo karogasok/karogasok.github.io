@@ -7,6 +7,15 @@ forras: "https://arxiv.org/abs/2405.01470"
 forras_cim: "Lessons from the Trenches on Reproducible Evaluation of Language Models"
 tags: ["llm-kiertekeles", "nyilt-forras"]
 draft: false
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - kiértékelő
+  - mérés
+  - dolgozat
+  - állítás
+  - eljárás
+  - állít
 ---
 
 Az EleutherAI csapata a saját kiértékelő könyvtáruk három évének tapasztalatát

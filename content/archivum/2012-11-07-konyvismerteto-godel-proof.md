@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "Gödel's Proof"
   - "könyvismertető"
   - "logika"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - Newman
+  - na
+  - Gödel
+  - Smully
+  - mérő
+  - jeles
 ---
 
 **Mostanában lette figyelmes arra hogy a Gödel tétel lassan annyira beszivárgott a hétköznapi beszélgetésekbe mint a pszichoanalitikus zsargon. Ugyanakkor azt is észrevettem, hogy rosszabb esetben Mérő László könyveiből, jobb esetben Smullyan fejtörőiből ismerős a fogalom sokak számára. Nem szeretném szidni a jeles szerzőket, de lássuk be a lovagok és lőkötők szigete kapcsán érzékeljük csupán miről is lehet szó, Mérő pedig inkább a jeles tétel következményeivel foglalkozik. Azok, akik szeretnének elmélyülni a technikai részletekbe, Smullyan [Gödel nemteljességi tételei](http://www.typotex.hu/konyv/raymond_smullyan_godel_nemteljessegi_tetelei) könyvét Csaba Ferenc kiváló fordításában olvashatják, de sajnos nincs a magyar piacon olyan könyv ami a formalizmust mellőzve, de mégis alaposan mutatja be a 20. század legjelentősebb logikai tételét. Az angolul jól olvasóknak nyújt alapos összefoglalót Nagel és Newman könyve, amit Hofstadter előszava (és gondos szerkesztői keze) egészít ki.**

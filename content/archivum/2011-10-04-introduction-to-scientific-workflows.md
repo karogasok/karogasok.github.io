@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "methodology"
   - "scientific workflows"
   - "workflows"
+temak:
+  - A szakma
+kulcsszavak:
+  - workflows
+  - Run
+  - workflow
+  - imagine
+  - talking
+  - sandwich
 ---
 
 A guest post by Richard Littauer

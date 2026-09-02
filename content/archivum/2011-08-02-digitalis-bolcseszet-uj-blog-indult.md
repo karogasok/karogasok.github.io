@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "digital humanities"
   - "digitális bölcsészet"
+temak:
+  - Mesterséges intelligencia
+kulcsszavak:
+  - ugyancsak
+  - levéltári
+  - antikvakorpusz
+  - elnevezésű
+  - transzdiszciplína
+  - muzeológiai
 ---
 
 [Kalcsó Gyula](http://mnyelv.ektf.hu/oktatok/kalcso_gyula),  a [Digitális bölcsészet blog](http://digitalisbolcseszet.blog.hu/) szerzőjének vendégposztja

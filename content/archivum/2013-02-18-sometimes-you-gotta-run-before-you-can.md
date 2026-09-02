@@ -8,6 +8,12 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2013/02/sometimes-you-gotta-run-before-you-can.html"
+temak:
+  - Startup és termékfejlesztés
+kulcsszavak:
+  - törvény
+  - startup
+  - szám
 ---
 
 [YouTube](http://www.youtube.com/embed/jqt-M9yKkYk)

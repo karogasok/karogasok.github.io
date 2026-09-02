@@ -1,0 +1,5 @@
+---
+title: Szövegvizualizáció
+slug: szovegvizualizacio
+---
+

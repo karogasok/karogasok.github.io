@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/07/05/szorakoztato-kozgazdasagtan-es-tarsadalomtudomany-mindenkinek/"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - racionalitás
+  - összefügg
+  - jelentős
+  - olvasmány
+  - érthető
+  - alapos
 ---
 
 Nem tudjuk tagadni, Tim Harford rajongók vagyunk. Legyen szó akár az adatokról és azok megjelenítéséről, a racionalitásról, vagy éppen a nagy találmányok gazdaságtörténeti bemutatásáról, alapos és érthető olvasmányokkal lát el minket egyik kedvenc szerzőnk.

@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "semantics"
   - "sublexical semantics"
   - "theoretical linguistics"
+temak:
+  - Paradigmák és nyelvelméletek
+kulcsszavak:
+  - Rappaport
+  - Hovav
+  - Levin
+  - Pustejovsky
+  - event
+  - verbs
 ---
 
 A guest post by Richard Littauer

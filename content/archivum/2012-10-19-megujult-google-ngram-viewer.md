@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "korpusz"
   - "korpusznyelvészet"
   - "ngram"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - Ngram
+  - compositions
+  - Viewer
+  - ngram
+  - operátor
+  - összetett
 ---
 
 A szimpla frekvenciákon túl immár minden korpusznyelvész szívét megmelengető képességekkel bővült a [Google Books Ngram Viewer](http://books.google.com/ngrams). A[ Google Research Blog](http://googleresearch.blogspot.hu/2012/10/ngram-viewer-20.html) bejelentése szerint:

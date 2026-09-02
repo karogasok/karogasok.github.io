@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "Rattle"
   - "adatbányászat"
   - "könyvismertető"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - Williams
+  - Rattle
+  - adatbányászat
+  - analízis
+  - jártas
+  - grafikus
 ---
 
 **Egyre többen érdeklődnek a az adattudományi (data science) és gépi tanulási módszerek iránt. Az adatbányászat napjainkban nem annyira felkapott téma, ahogy sokan igyekeznek elkerülni a statisztika és számítógépes statisztika (computatuional statistics) kifejezéseket, de megnyugtatunk mindenkit, a sok buzzword tkp. ugyanazt a dolgot fedi. A megnövekedett érdeklődés és a tény hogy életünket egyre jobban átszövik az említett területek eredményei együtt járnak az igénnyel egy egyszerű, gyakorlatorientált bevezetőre. Williams könyve remekül használható akár a programozásban kevésbé jártas, a statisztika alapjait ismerő érdeklődőknek.**

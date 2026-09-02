@@ -19,6 +19,15 @@ regi_cimkek_mind:
   - "korpusz nyelvészet"
   - "nyelvészet"
   - "zene"
+temak:
+  - Szövegvizualizáció
+kulcsszavak:
+  - könnyűzene
+  - zenei
+  - Szenes
+  - gerinchálózat
+  - hálózat
+  - Iván
 ---
 
 A magyar könnyűzenei élet tele van meglepetésekkel. Ki gondolná például, hogy az 1950-es évek óta több mint 10 000 ember neve került fel a dalszerzők listájára? És azt, hogy Szenes Iván minden idők legmeghatározóbb zenei figurája? Miután megvizsgáltuk [a magyar pop slágerek leggyakoribb szavait](https://blog.crowintelligence.org/hu/2020/08/19/hatvan-ev-dalszovegei/), ezúttal arra voltunk kíváncsiak, hogy ki kivel dolgozik együtt legszívesebben a magyar zeneiparban.

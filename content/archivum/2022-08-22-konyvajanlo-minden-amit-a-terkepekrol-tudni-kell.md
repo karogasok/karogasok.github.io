@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/08/22/konyvajanlo-minden-amit-a-terkepekrol-tudni-kell/"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - kartográfia
+  - térbeli
+  - térképészet
+  - história
+  - térkép
+  - GIS
 ---
 
 Manpság már midenki könnyedén el tud készíteni egy térképet olyan ingyenesen elérhető online eszközökkel mint a [Datawrapper](https://www.datawrapper.de/), vagy olyan nyíltforráskódú szoftverekkel mint a [QGIS](https://www.qgis.org/en/site/). Szeretjük a térképeket és a közoktatásnak hála valamennyire a kultúránk része a térképolvasás és -használat. A térképkészítést gyakran az adatvizualizáció részének tekintik ma, holott van egy rendes külön szakma, a kartográfia. Ennek minimális ismerete segíti a vizualizáció iránt érdeklődőket elkerülni a legtöbb szarvashibát és nem csak szép, hanem használható statikus vagy dinamikus térképeket készíteni. Szerencsére pár remek könyv magyarul is elérhető a témában, ezek közül válogattunk.

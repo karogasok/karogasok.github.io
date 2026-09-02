@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "Digital_Humanities"
   - "digitális bölcsészet"
   - "könyvismertető"
+temak:
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - Digital_Humanities
+  - contemporary
+  - emerging
+  - Production
+  - Press
+  - humanities
 ---
 
 **A digitális bölcsészet iránt még csak érdeklődők és a területen otthonosan mozgók számára is hasznos kiadvány a Digital_Humanities, mely elektronikus verziója ingyen letölthető.**

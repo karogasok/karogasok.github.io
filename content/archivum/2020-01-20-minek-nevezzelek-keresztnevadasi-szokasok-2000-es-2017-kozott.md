@@ -12,6 +12,15 @@ regi_cimkek_mind:
   - "adatvizualizáció"
   - "nevek"
   - "rangsoros adatok"
+temak:
+  - Szövegvizualizáció
+kulcsszavak:
+  - Zoé
+  - fokozatos
+  - Bence
+  - rangsor
+  - fiú
+  - kislány
 ---
 
 Mióta tart a Bencék aranykora? Hány újszülött kapta a Zoé nevet az elmúlt tizennyolc évben? Milyen nevek a legnépszerűbbek napjainkban és voltak a kétezres évek elején? A keresztnevünk mindent elárul rólunk, mi pedig mindent elárulunk az új évezred névadási szokásairól. (A jobb felhasználói élményért a bejegyzést érdemes desktopon olvasni.)

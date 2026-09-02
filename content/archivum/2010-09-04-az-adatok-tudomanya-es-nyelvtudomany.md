@@ -28,6 +28,15 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "valószínűségszámítás"
   - "vizualizáció"
+temak:
+  - Korpuszépítés és annotáció
+kulcsszavak:
+  - Definitive
+  - ManyEyes
+  - MapReduce
+  - CouchDB
+  - szógyakoriság
+  - Hadoop
 ---
 
 **Sokan kérdezték az [előző poszt](http://szamitogepesnyelveszet.blogspot.com/2010/09/az-adatok-tudomany-filozofia-es.html) kapcsán hogy hogyan is indulhatnak el "data science" ügyben. Itt egy kis összefoglaló következik, mit érdemes olvasni, merre érdemes keresgetni, és egy kicsit ajánlani fogom korábbi posztjaimat is. Tehát most sorra vesszük hogy egy nyelvész mit tehet hogy 1) betekintést nyerhessen az adatok tudományába 2) eszköztárába illeszthesse a nyelvi adatok elemzésére alkalmas módszereket.**  

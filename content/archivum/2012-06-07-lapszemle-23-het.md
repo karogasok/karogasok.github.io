@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - blogszünet
+  - beszámoló
+  - NLTK
+  - Meetup
+  - real
+  - time
 ---
 
 **Meetup beszámoló, sőt lassan minden a meetupokról szól, de ajánlunk webinart is, továbbá itt az új NLTK. Blogszünet veszi kezdetét.**

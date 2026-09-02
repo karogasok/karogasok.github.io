@@ -12,6 +12,13 @@ regi_cimkek:
   - "matematika"
 regi_cimkek_mind:
   - "matematika"
+temak:
+  - Kurzusok és önképzés
+kulcsszavak:
+  - Delvin
+  - described
+  - patterns
+  - mathematics
 ---
 
 **[Keith Delvin](http://www.stanford.edu/~kdevlin/) Mathematics: Making the Invisible Visible kurzusa az iTunes-ból kitört és immár elérhető a youtube-on is! Sokunk közös élménye az unalmas iskolai matematika óra. Delvin előadásai viszont kifejezetten szórakoztatóak és alkalmasak arra, hogy motiválják a matek-fóbiában szenvedőket.**

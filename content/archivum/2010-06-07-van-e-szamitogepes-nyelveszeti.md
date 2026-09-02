@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "filozófia"
   - "nyelvészet"
   - "számítógépes nyelvészet"
+temak:
+  - Paradigmák és nyelvelméletek
+kulcsszavak:
+  - indokrináció
+  - folyóirat
+  - kommunikációs
+  - bővít
+  - szak
+  - fizikus
 ---
 
 **Kuhn paradigma fogalmát nem tudjuk a társadalom- és humán tudományokra egy az egyben ráhúzni, és egy kicsit értelmetlennek tűnhet ezt erőltetni amikor a nyelvészet maga is úgy tűnik hogy ezer megközelítést fogad el. Azonban (szerintem) megmozdult valami!**  

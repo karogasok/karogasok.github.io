@@ -33,6 +33,10 @@ summaryLength = 30
   tag = "tags"                 # the pillar taxonomy; hubs live in content/tags/
   szerzo = "author"            # so a post's front matter stays `author: "..."`
   regi_cimke = "regi_cimkek"   # imported labels, kept away from the pillar tags
+  # Themes derived by the topic model in analysis/. Kept separate from `tag`
+  # on purpose: the five pillar tags are hand-curated editorial claims, and a
+  # clustering result should not be able to quietly join them.
+  tema = "temak"
 
 [permalinks]
   [permalinks.page]
@@ -44,6 +48,7 @@ summaryLength = 30
     # rather than alongside the pillar tags. Nothing about the 2010 tag
     # vocabulary should look like an editorial pillar of the current site.
     regi_cimkek = "/archivum/cimke/:slug/"
+    temak = "/tema/:slug/"
 
 [markup]
   [markup.goldmark.renderer]

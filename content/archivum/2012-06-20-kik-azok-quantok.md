@@ -18,6 +18,11 @@ regi_cimkek_mind:
   - "filmajánló"
   - "quant"
   - "quantitative analysts"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - Street
+  - Wall
 ---
 
 **[A big data majd megold mindent](http://szamitogepesnyelveszet.blogspot.hu/2012/06/big-data-majd-megold-mindent.html)** posztunkban hivatkoztunk a quantokra, de elfelejtettük elmondani kik is ők. Maga a szó a "quantitative analyst" rövidítése, tehát kvantitatív elemzőt takar. Aki ennél hosszabb magyarázatot kíván, forduljon a [Wikipedia vonatkozó szócikkéhez](http://en.wikipedia.org/wiki/Quantitative_analyst). Hogy jobban megértsük miért int minket a quantok tapasztalata óvatosságra, ajánjuk Felix Salmon Recipe for [**Disaster: The Formula That Killed Wall Street**](http://www.wired.com/techbiz/it/magazine/17-03/wp_quant?currentPage=all) cikkét, mely az American Statistical Society díját is kiérdemelte. Kicsit másképp, de nagyon jól világítja meg a problémát Marije Meerman **Quants: The Alchemists of Wall Street** című dokumentumfilmje.

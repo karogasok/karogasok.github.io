@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "logika"
   - "nyelvészet"
   - "szemantikus web"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - ágens
+  - episztemológiai
+  - episztemikus
+  - nézőpont
+  - játékelmélet
+  - dinamikus
 ---
 
 Szépfalussy Enikő vendégposztja  

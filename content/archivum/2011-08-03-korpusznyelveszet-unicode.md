@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "korpusz"
   - "korpusznyelvészet"
   - "unicode"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - karakter
+  - szabvány
+  - Unicode
+  - betűtípus
+  - karakterkódolás
+  - tipográfia
 ---
 
 **Az[ előző posztban](http://szamitogepesnyelveszet.blogspot.com/2011/06/korpusznyelveszet-korpuszkeszites.html) végig vettük Leech maximáit, melyek segítenek minket abban hogy használható korpuszt készítsünk. Mivel egy korpusz általában szöveges (de nem szükségszerűen, hiszen már vannak audio korpuszok is) szükségünk van arra hogy a szöveget alkotó karaktereket is egységesen kezeljük, ez teszi lehetővé hogy igény szerinti formában jelenítsük meg, vagy hasonlítsuk össze az egyes korpuszokat. Ez nem csak az eredmények és adatok megosztását, de feldolgozását is megkönnyíti. Sajnos azonban ez nem mindig volt magától értetődő elv, szerencsénkre azonban a dolog változik és a Unicode szabvány terjedőben van. A posztban nem törekszünk arra hogy bemutassuk teljesen magát a szabvány, csupán a mögötte rejlő elveket vesszük sorra és egy kis eligazítást adunk hol tanulhat többet az érdeklődő olvasó (aki kényes a pontos megfogalmazásra és szeretne komolyabban elmerülni a témában, az inkább csak az ajánlott irodalmat fussa át).**

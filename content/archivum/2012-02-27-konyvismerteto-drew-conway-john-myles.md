@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "Machine Learning for Hackers"
   - "gépi tanulás"
   - "könyvismertető"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - Myles
+  - Drew
+  - ng
+  - elnagyolt
+  - Conway
+  - White
 ---
 
 **Andrew Ng online kurzusa nagyon népszerű volt és a "big data" őrület a gépi tanulást nagyon népszerűvé tette. Akik [beharangozó posztunkon ](http://szamitogepesnyelveszet.blogspot.com/2011/12/kispenzu-onkepzo-stanfordra-menne.html)fellelkesedve (vagy más okból) feliratkoztak Ng óráira mára már bizonyára megkapták az újabb késésről szóló levelet. Az eltökélt tanulni vágyók számára ez a könyv ideális! Nyelvészeknek kifejezetten ajánlott, hiszen viszonylag sok szövegfeldolgozás van benne és az R rejtelmeibe is bevezeti az olvasót. Vigyázat! Ahogy a címe is mutatja nem kezdőknek való könyv!**

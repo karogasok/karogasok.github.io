@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "Textplore"
   - "meetup"
   - "nlp meetup"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - korrupció
+  - Textplore
+  - Gazdaság-
+  - vállalkozáskutató
+  - Replise
+  - Corvinus
 ---
 
 Március 27-én tartjuk e havi meetupunkat. A rendezvény ingyenes, de arra kérünk mindenkit, hogy [regisztráljon oldalunkon](http://www.meetup.com/Hungarian-nlp/events/108061322/) és jelezze részvételi szándékát.

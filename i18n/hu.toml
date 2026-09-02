@@ -162,6 +162,15 @@ other = "Crow Intelligence"
 ["tag.posts_here"]
 other = "Bejegyzések ezzel a címkével"
 
+["tema.posts_here"]
+other = "Írások ebben a témában"
+
+["tema.elsewhere"]
+other = "Máshol megjelent írások ebben a témában"
+
+["tema.unreviewed"]
+other = "Ez a témanév gépi javaslat, még nem néztem át."
+
 ["error.title"]
 other = "Nincs ilyen oldal"
 

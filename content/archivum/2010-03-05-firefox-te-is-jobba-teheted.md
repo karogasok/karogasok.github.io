@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "mozilla"
   - "szabd szoftver"
   - "önkéntes"
+temak:
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - böngésző
+  - kiél
+  - véna
+  - nagyrészt
+  - Firefox
+  - kreatív
 ---
 
 **Mindenki kedvenc böngészője, a [Firefox](http://www.mozilla-europe.org/hu/firefox/) :D, egy alapítvány által koordinált nagyrészt önkéntes (és egyben nagyrészt ingyenes) munka eredménye. A legtöbb ember azt hiszi hogy csak programozók járulhatnak hozzá a projekthez. Pedig mindenki tehet valamit. Akár csak annyit hogy Firefox-ot használ, vagy kiéli kreatív hajlamait. Nem kell semmilyen programozási ismeret, csak Te!**  

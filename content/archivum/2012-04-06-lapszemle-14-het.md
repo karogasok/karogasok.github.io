@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - kedvezmény
+  - vásárol
+  - Manning
+  - költség
+  - támogat
+  - kereső
 ---
 
 **Szemlézünk! Táviratilag: Manning kedvezmény, Kereső Világ, adatújságírás, gépi tanulás, mesterséges intelligencia és közgazdaságtan.**  

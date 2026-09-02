@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "adatok"
   - "adatok tudománya"
   - "adatújságírás"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - Lakatos
+  - Holovaty
+  - Feyerabend
+  - kikérés
+  - popper
+  - narrációs
 ---
 
 **Az újságírás is állandóan változik nem csak egy adott kor eseményei, divatjai csapódnak le (nagy érdekes ebből a szempontból a The Economist 1843-ig visszamenő archívuma), hanem alkalmazkodnia kellett a különböző médiumokhoz is (rádió, televízió). Meglepő viszont hogy a sajtó még nem alkalmazkodott teljesen az internet és az adatok kora nyújtotta lehetőségekhez ill. nem reagált még a kihívásokra. Az olvasó joggal kételkedhet, hiszen az internetes hírportálok már torony magasan verik a print médiát, a stílus kalauzokban már külön fejezet foglalkozik az internetes tartalmak készítésének szabályaival, akkor hogy lehet hogy állíthatja valaki hogy nem történt változás? Nos, ez csak részben igaz, már megjelentek az új irány keresői, az adatújságírás (angol terminusokkal data journalism, data-driven journalism, database journalism néven találkozhatunk vele). Írásunk a teljesség igénye nélkül szeretne pár kezdeményezést bemutatni melyek lazán kapcsolódnak, de az adatújságírás hivatkozási pontjai.**

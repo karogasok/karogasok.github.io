@@ -12,6 +12,15 @@ regi_cimkek_mind:
   - "Engima"
   - "McKay"
   - "Turing"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - szolgálat
+  - kódfejtő
+  - McKay
+  - lengyel
+  - park
+  - feltörés
 ---
 
 Az Enigma lassan olyanná válik mint a paradigmaváltás vagy a qubit, mindenki tudni véli mi rejlik a kifejezés mögött, rengeteg ismeretterjesztő tartalom, akár igazi Hollywood-i blockbuster is foglalkozik velük, de valahogy senki tudja igazán mi is történt. Alan Turing zsenialitása vitathatatlanul szükséges volt a német kódok feltöréséhez, de rajta kívül szükség volt a lengyel kódfejtők és a francia titkosszolgálatok munkájára, továbbá az Y szolgálat segítségére.

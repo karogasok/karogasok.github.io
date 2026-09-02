@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "Neumann"
   - "Neumann János"
   - "könyvismertető"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - Neumann
+  - felkavar
+  - Dán
+  - Klára
+  - önreprodukáló
+  - Bhattacharya
 ---
 
 Neumann emlékév van és ennek apropóján magyarul is elérhető immár a zseniális magyar matematikusról szóló könyv fordítása.

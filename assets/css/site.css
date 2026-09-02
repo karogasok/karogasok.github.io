@@ -537,6 +537,14 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
    ("2019 · nyest.hu"), which does not fit the 6.5rem a bare date needs and
    wraps with the separator left dangling at the end of the first line. */
 .post-list.mashol-list { --date-col: 9rem; }
+/* Theme hubs mix pages with external rows whose date column carries the
+   source too ("2016 · kereses"), so they need the same wider column. */
+.listing .post-list.tema-list { --date-col: 9rem; }
+.tema-note {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
 
 /* The media list carries an outlet under the year, like the archive rows do. */
 .post-list.media-list { --date-col: 11rem; }

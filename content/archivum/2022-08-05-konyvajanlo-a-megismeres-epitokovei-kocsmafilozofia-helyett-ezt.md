@@ -10,6 +10,15 @@ forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/08/05/konyvajanlo-a-megismeres-epitokovei-kocsmafilozofia-helyett-ezt-olvasd-ha-erdekel-az-mi/"
 regi_cimkek_mind:
   - "kognitív tudomány"
+temak:
+  - A szakma
+kulcsszavak:
+  - Clark
+  - Quillian
+  - WR
+  - tárolás
+  - meccs
+  - Andy
 ---
 
 Manapság már tényleg mindenkinek van véleménye a mesterséges intelligenciáról és sok tévhitettel és féligazsággal találkozhatunk. De pontosan mi is az az MI, mit tud és hogyan tanul? Miben különbözik a "klasszikus" MI és a deep learning? Mi a kapcsolat az emberi elme, annak modellezése és a gyakorlati implementációk között? Andy Clark izgalmas és olvasmányos könyve alaposan megismerteti a mesterséges intelligencia és a kognitív tudományok kérdéseivel az olvasót.

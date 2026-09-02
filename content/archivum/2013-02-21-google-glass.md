@@ -10,6 +10,15 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2013/02/google-glass.html"
 regi_cimkek_mind:
   - "Google Glass"
+temak:
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - Glass
+  - spectrum
+  - device
+  - IEEE
+  - baba
+  - Parviz
 ---
 
 A Google megmutatta mit is fog tudni a [Google Glass](http://www.google.com/glass/start/).

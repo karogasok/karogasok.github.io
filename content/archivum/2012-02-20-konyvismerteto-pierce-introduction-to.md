@@ -13,6 +13,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "információelmélet"
   - "könyvismertető"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - Pierce
+  - entrópia
+  - információelmélet
+  - Dover
+  - ritmus
+  - Encoding
 ---
 
 **A beszédfeldolgozás terén már elterjedtek az információelméleti módszerek és a sokáig egzotikusnak tartott korpusznyelvészetből lassan de biztosan átszivárog ez a megközelítés a fősodorba is (olyannyira hogy már nem csupán a számítógépes nyelvészek számára illik tudni valamit erről a területről hanem a pszicholingvisták, fonetikusok/fonológusok, kognitivisták is egyre jobban foglalkoznak a témával). Pierce klasszikusa a szó legnemesebb értelmében vett ismeretterjesztő mű ami segít betekinteni a területre, megérteni az alapfogalmakat és mérlegelni hogy mit tudnánk hasznosítani.**

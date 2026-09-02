@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/mit-rejt-jovo-i-jelek-multbol.html"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - szemiotikus
+  - ígéret
+  - ökonómia
+  - Winograd
+  - fordulat
+  - tervezés
 ---
 
 **Az IT világa a permanens forradalom állapotában leledzik mióta világ a világ, de legalábbis mióta a negyvenes évek végén megjelentek az első számítógépek. 1956-ban a Dartmouth College adott helyett egy konferenciának ahol egy csapat csudabogár alak vizionált egy új tudományterület jövőjéről és nem mellesleg megszületett a mesterséges intelligencia terminus technicus. Már akkor úgy gondolták hogy a "nagy áttörés" ott van a kertek alatt valahol és hamarosan bekövetkezik és akkor majd gépek keresik meg a legújabb matematikai  tételeket, következtetik ki a legjobb megoldásokat minden problémára, a népek békében fognak élni hiszen a gépi fordítás segít átlépni a nyelvi korlátokon és az emberiség felszabadul a munka alól. Vártuk, de nem jött össze, aztán jött az új ígéret, a szemantikus web ami már visszafogottabban "csupán" annyit ígér hogy megkönnyíti digitális életünket az információ keresés és információ csere terén. Habár az első gyümölcsök most látszanak beérni, még mindig nem jött el a Kánaán, viszont itt van a legújabb ígéret: data science vagy adattudomány, esetleg az adatok tudománya (vagy mi, a magyar megfelelő még várat magára). Elmúlt egy évtized és jön egy új, évadnyitó posztunkban megvizsgáljuk mire érdemes figyelni a múltból és beletekintünk az üveggömbbe hogy mit hozhat a jövő.**  

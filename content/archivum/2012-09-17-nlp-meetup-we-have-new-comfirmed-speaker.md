@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "meetup"
   - "nlpmeetup"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - LAWa
+  - SZTAKI
+  - Academy
+  - Sciences
+  - quality
+  - Institute
 ---
 
 *Although our meetup is a free event and there is no attendee limit, please register on [this site](http://www.meetup.com/Hungarian-nlp/events/78825672/).*  

@@ -14,6 +14,13 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - Simpson
+  - előad
+  - cím
+  - learning
 ---
 
 **D'oh! Megint eltelt egy hét! Közeleg a meetup, tessék szépen jelentkezni nálunk ha előadnál! Simpsonék a szótárakban, végtelen nyelvi történet, szövegfelfedezés, gépi tanulás tutorial.**  

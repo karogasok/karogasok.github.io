@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "nyelvtechnológia"
   - "vendégposzt"
+temak:
+  - A szakma
+kulcsszavak:
+  - helyesírás-ellenőrzés
+  - Prószéky
+  - nyelvhelyesség
+  - szóellenőrzés
+  - hibaüzenet
+  - Microsoft
 ---
 
 *Tolnai Tímea vendégposztja*

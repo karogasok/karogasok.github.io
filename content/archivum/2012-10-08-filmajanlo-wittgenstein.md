@@ -14,6 +14,14 @@ regi_cimkek:
 regi_cimkek_mind:
   - "Wittgenstein"
   - "filmajánló"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - YouTube
+  - Wittgenstein
+  - filozófiai
+  - film
+  - szerencsére
 ---
 
 [<span class="lost-media">Hiányzó kép: <a href="http://4.bp.blogspot.com/-dxJvqxB8yT0/UHKxhVK8cMI/AAAAAAAAA9c/sM2EdvHViIA/s320/wittgenstein.jpg" rel="nofollow noopener">wittgenstein.jpg</a></span>](http://4.bp.blogspot.com/-dxJvqxB8yT0/UHKxhVK8cMI/AAAAAAAAA9c/sM2EdvHViIA/s1600/wittgenstein.jpg)

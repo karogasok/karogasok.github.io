@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "drt"
   - "logika"
   - "szemantika"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - Montague
+  - fedés
+  - DRT
+  - merészkedik
+  - diskurzus
+  - Semantics
 ---
 
 **A [bevezető könyvek](http://szamitogepesnyelveszet.blogspot.com/2010/05/logika-mindenkinek-i-bevezetes.html) bemutatása és az [automata elmélet és kiszámíthatóság problémája](http://szamitogepesnyelveszet.blogspot.com/2010/05/logika-mindenkinek-ii-automatak.html) után elérkezett az idő hogy egy kicsit gyakorlatibb terepre merészkedjünk. A természetes nyelvek szemantikája már gyakorlati terep, de még egy lépéssel a számítógépes alkalmazások előtt vagyunk, de innét már tényleg csak egy lépés. Ha nagyon türelmetlen vagy akkor régebbi blogbejegyzéseimből ajánlom neked a [funkcionális programozásról ](http://szamitogepesnyelveszet.blogspot.com/2010/03/funkcionalis-programozas-nem.html)ill. a [logikai programozásról szólóakat](http://szamitogepesnyelveszet.blogspot.com/2010/03/logikai-programozas-nem-programozoknak.html).**  

@@ -11,6 +11,15 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2013/01/facebook-graph-s
 regi_cimkek_mind:
   - "Facebook Graph Search"
   - "hülyeség"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - Graph
+  - analitika
+  - béta
+  - aktivitás
+  - Facebook
+  - Microsoft
 ---
 
 **A héten jelentették be a Facebook Graph Search elindulását. A béta szolgáltatás csak kevés kiválasztott és gyorsan jelentkező felhasználóknak érhető el. Sőt - a Facebook oldalán is olvasható - kizárólag az Egyesült Államok területén, a US English felületet használók válhatnak béta tesztelőkké. Persze ez nem zavar senki abban, hogy véleménye legyen.**

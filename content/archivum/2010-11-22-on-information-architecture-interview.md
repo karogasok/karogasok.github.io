@@ -13,6 +13,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "guest post"
   - "infromation architecture"
+temak:
+  - A szakma
+kulcsszavak:
+  - IA
+  - mentorship
+  - fewer
+  - architect
+  - typical
+  - called
 ---
 
 ```

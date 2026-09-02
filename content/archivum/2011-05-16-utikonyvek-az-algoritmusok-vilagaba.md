@@ -19,6 +19,15 @@ regi_cimkek_mind:
   - "prolog"
   - "python"
   - "számítógépes nyelvészet"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Algorithms
+  - Jewels
+  - Stringology
+  - túra
+  - kaland
+  - felkészülés
 ---
 
 **A [Legyél te is számítógépes nyelvész](http://szamitogepesnyelveszet.blogspot.com/2011/05/legyel-te-is-szamitogepes-nyelvesz-tiz.html) posztban megígértük hogy megpróbálunk olyan anyagokat is ajánlani melyek segítenek belépni az algoritmusok gyönyörű világába. Azonban figyelmeztetni kell az olvasót hogy ha hátizsákos turistaként maga szervezi meg az utazást nagyon sok kellemetlenséggel találkozhat, gyakran el fog akadni és néha idegen, fura nyelven beszélő emberek jóindulatára lesz utalva, és soha nem fogja tudni hol éri az este. Ellenben rengeteg élményben lesz része, és ahogy egyre több tapasztalata halmozódik fel, egyre jobban fogja érteni magát és az őt körülvevő világot. Mielőtt azonban elindulnál győződj meg arról hogy minden benne van-e a hátizsákodban (a fent említett poszt ebben segíthet neked)!**

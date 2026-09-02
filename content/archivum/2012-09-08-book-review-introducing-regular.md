@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "book review"
   - "regex"
   - "regular expressions"
+temak:
+  - Korpuszépítés és annotáció
+kulcsszavak:
+  - Regular
+  - shor
+  - follow
+  - expressions
+  - title
+  - regular
 ---
 
 **This title simply does what its title suggests; it introduces novices into regular expressions. The book is short, but informative, and it tries to be as language independent as possible.**

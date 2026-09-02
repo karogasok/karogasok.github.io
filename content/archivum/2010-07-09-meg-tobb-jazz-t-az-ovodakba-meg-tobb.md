@@ -12,6 +12,15 @@ regi_cimkek:
   - "blog"
 regi_cimkek_mind:
   - "blog"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - visszatérő
+  - szolgáltató
+  - opcionális
+  - teljesít
+  - vendég
+  - e-mail
 ---
 
 **Ha jól mennek a dolgok, hamarosan vendég posztok jelennek meg a blogon :D  Az e-mailben jelentkező olvasók száma elérte a hármat (ez nekem nagy szám!), és remélem már gondolkodnak (vagy talán már írnak) hogy mi legyen. Mivel Google Analytics van a blogon, tudom hogy van pár visszatérő olvasó, ha akarnak nyugodtan írhatnak ők is. Gyorsan ide firkantom hogyan lehet belőled szerző:**

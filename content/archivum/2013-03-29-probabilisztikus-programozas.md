@@ -21,6 +21,15 @@ regi_cimkek_mind:
   - "haskell"
   - "probabilisztikus programozás"
   - "scheme"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Probabilistic
+  - models
+  - Functional
+  - probabilisztikus
+  - problems
+  - Programming
 ---
 
 **Az utóbbi napokban a Twitter a [DARPA Probabilistic Programming for Advanced Machine Learning (PPAML) Proposers' Day](http://www.solers.com/BAAinfo-reg/ppaml/)-től hangos. De miért? Rob Zinkov Why [Probabilistic Programming Matters](http://zinkov.com/posts/2012-06-27-why-prob-programming-matters/) posztjában így válaszolja meg a kérdést**

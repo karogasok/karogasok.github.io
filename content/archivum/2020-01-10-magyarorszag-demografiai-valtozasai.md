@@ -13,6 +13,15 @@ regi_cimkek_mind:
   - "demográfia"
   - "idősorok"
   - "térkép"
+temak:
+  - Szövegvizualizáció
+kulcsszavak:
+  - település
+  - lakosság
+  - népesség
+  - népességváltozás
+  - méretű
+  - férfi
 ---
 
 Magyarország lakossága az 1980-as évektől csökken. Hogyan érezhető a népesség fogyása a városokban és a falvakban? Milyen arányban élnek nők és férfiak a különböző méretű településeken? Többek között ezekre a kérdésekre kerestük a választ kutatásunkban, amely a népességváltozás tendenciáit szemlélteti településenként, nemenként és település típusonként.

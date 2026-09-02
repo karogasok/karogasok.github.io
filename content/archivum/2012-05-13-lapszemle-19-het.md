@@ -14,6 +14,12 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - Summit
+  - meetup
+  - Data
 ---
 
 **Megkésett és rövidített lapszemle. Köszöntet a meetup résztvevőinek. Data science Summit videók, ml vs stats.**  

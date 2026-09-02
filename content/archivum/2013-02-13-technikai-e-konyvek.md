@@ -12,6 +12,15 @@ regi_cimkek_mind:
   - "Kindle"
   - "e-könyvek"
   - "e-olvasás"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - egyenlet
+  - dedikált
+  - szinkronizáció
+  - Audible
+  - zavaró
+  - Kindle
 ---
 
 **A legtöbb tanulmány és technikai jellegű könyv manapság pdf formátumban érhető el. A jelenleg elérhető olvasók többségén azonban a pdf nem mutat jól. Így, vagy laptopon, vagy táblán szokás ezeket olvasni. Ez egyben azt is jelenti, hogy lemaradunk az olyan kényelmi szolgáltatásokról mint a Whispersync és a [Whispersync for Voice](http://szamitogepesnyelveszet.blogspot.hu/2013/01/whispersync-for-voice.html) és gyakran sokat kell várnunk a beszerzéssel is. Eddig kételkedtem abban, hogy az egyenletekkel és szimbólumokkal teli kötetek élvezhetők lehetnek ezen a platformon, de Paul J. Nahin [The Logician and the Engineer](http://www.amazon.com/The-Logician-Engineer-Shannon-Information/dp/0691151008) című könyvét olvasva megváltozott a hozzáállásom. Most nem könyvismertető következik (arra is hamarosan sort fogok keríteni), hanem élménybeszámoló az Amazon-kompatibilis technikai könyvek olvasásáról.**

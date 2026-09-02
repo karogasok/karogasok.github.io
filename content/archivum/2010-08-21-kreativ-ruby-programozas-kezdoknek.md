@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "_why"
   - "kezdő"
   - "tanulás"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Ruby
+  - Poignant
+  - Shoes
+  - pedagógiai
+  - tanulhatóság
+  - HacketyHack
 ---
 
 **Augusztus 19-én a világ, de legalábbis a Ruby-t ismerő része, ünnepelt. A kiváló hacker [why the lucky stiff](http://en.wikipedia.org/wiki/Why_the_lucky_stiff) pont egy éve tűnt el a virtuális világból, ám hagyatékát soha nem fogjuk elfelejteni, és hála a lelkes közösségnek, elherdálni sem. Hogy ki is volt _why, arról a neten sokat olvashatsz, a lényeg hogy kiválló pedagógiai érzékkel rendelkezett és sokat tett azért hogy a programozás csodás világa könnyen hozzáférhetővé váljon a fiatalok (és lelkes idősebbek) számára.**  

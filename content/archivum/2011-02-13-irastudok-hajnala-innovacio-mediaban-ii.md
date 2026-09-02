@@ -19,6 +19,15 @@ regi_cimkek_mind:
   - "lexikológia"
   - "szemantikus web"
   - "újmédia"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - munkanélküliségi
+  - ráta
+  - adatforrás
+  - munkanélküliség
+  - információ
+  - publikus
 ---
 
 **[Sorozatunk első részében](http://bit.ly/e3tbGy) megpróbáltuk felhívni a figyelmet arra hogy az újmédia területén alapvető változások történnek és olyan, eddig magától érthetőnek vett dolgokat kell átgondolnunk mint a szótár. Láttuk hogy a Wordnik a média legegyszerűbb építőköveiről a szavakról próbál meg minden lehetséges információt összegyűjteni és elérhetővé tenni (érdemes ezzel kapcsolatban a [Wordnik kutatási igazgatójával, Jeremy Kahn-nal készített interjúnkat](http://bit.ly/hpSsEz) is elolvasni). A digitális platform nem csak azt tette lehetővé hogy az információ konvertálható legyen különböző hordozókra, de egyben azt is hogy az információra mint adatra tekintsünk amiből újabb információ nyerhető ki.**  

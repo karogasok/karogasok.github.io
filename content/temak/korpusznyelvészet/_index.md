@@ -1,0 +1,5 @@
+---
+title: Korpusznyelvészet
+slug: korpusznyelveszet
+---
+

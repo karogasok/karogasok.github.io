@@ -75,6 +75,18 @@ def text_of(entry: ET.Element, tag: str) -> str:
     return (entry.findtext(tag) or "").strip()
 
 
+def split_labels(term):
+    """Split one <category term=...> value into labels.
+
+    Normally a term is a single label. In one post the export delivered all five
+    labels as one string joined by U+FFFD replacement characters — the
+    corruption is in Blogger's export, not in this importer, but the result was
+    a post whose five labels became one nonsense label, rare enough that it
+    never reached a tag page. Splitting on runs of U+FFFD recovers them.
+    """
+    return [part.strip() for part in re.split("\ufffd+", term) if part.strip()]
+
+
 def main() -> int:
     args = parse_args()
     if not FEED.exists():
@@ -119,9 +131,11 @@ def main() -> int:
     label_counts: collections.Counter[str] = collections.Counter()
     for entry in keep:
         for cat in entry.findall(A + "category"):
-            term = (cat.get("term") or "").strip()
-            if term:
-                label_counts[term] += 1
+            # Split here too, or a label recovered from a corrupted term would
+            # be counted under the corrupted string and never reach the page
+            # threshold — which is exactly how five labels went missing.
+            for label in split_labels(cat.get("term") or ""):
+                label_counts[label] += 1
     paged_labels = {l for l, n in label_counts.items() if n >= LABEL_PAGE_MIN}
 
     print(f"blogspot: {len(keep)} posts to import, "
@@ -138,7 +152,13 @@ def main() -> int:
         filename = text_of(entry, B + "filename")
         raw = entry.findtext(A + "content") or ""
 
-        labels = sorted({(c.get("term") or "").strip() for c in entry.findall(A + "category")} - {""})
+        labels = sorted(
+            {
+                label
+                for c in entry.findall(A + "category")
+                for label in split_labels(c.get("term") or "")
+            }
+        )
         paged = [l for l in labels if l in paged_labels]
 
         slug = slugify(title)

@@ -13,6 +13,15 @@ regi_cimkek_mind:
   - "média"
   - "technológia"
   - "újságírás"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - Snowfall
+  - busz
+  - juttat
+  - lap
+  - reggel
+  - költség
 ---
 
 **Néha a teljes technikai arzenál bevetése az ágyúval verébre tipikus esete. A [The Economist](http://www.economist.com/) megmutatta, a hókuszpókusz helyett a józan paraszti ész és a minőségi tartalom egyenes út a növekvő példányszámhoz, valamint az ezzel járó profithoz.**

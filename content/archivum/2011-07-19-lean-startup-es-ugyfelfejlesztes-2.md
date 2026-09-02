@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "lean startup"
   - "startup"
   - "ügyfélfejlesztés"
+temak:
+  - Startup és termékfejlesztés
+kulcsszavak:
+  - ügyfél
+  - ügyfélfejlesztés
+  - MVP
+  - mérföldkő
+  - termék
+  - életképes
 ---
 
 ***Patrick Vlaskovits vendégposztja***  

@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "szövegelemzés"
   - "tartalomelemzés"
   - "társadalomtudomány"
+temak:
+  - A szakma
+kulcsszavak:
+  - clerics
+  - Jihadi
+  - ideology
+  - cleric
+  - Muslim
+  - texts
 ---
 
 **Tegnap futottam bele a Mancs honlapján [egy interjúba Miklósi Lászlóval](http://magyarnarancs.hu/belpol/miklosi-laszlo-tortenelemtanarok-egyesulete-nem-most-kezdodott-83787) a Történelemtanárok Egyletének elnökével. Engem is meglep, hogy pont a fiatal bölcsészek tolódnak egyre inkább jobbra, de rögtön beugrott két tanulmány. Jeskó József, Bakó Judit és Tóth Zoltán [A radikális jobboldal webes hálózatai](http://www.poltudszemle.hu/szamok/2012_1szam/jesko.pdf) című írása nagyon szépen összefoglalja, miképp formálódott a radikális jobb webes jelenléte, ami kulcsfontosságú a fiatalok elérésében (érdemes elolvasni, már csak azért is, mert eddig ez az egyetlen általam is ismert hazai adatvezérelt társadalomtudományi cikk). Ugyanakkor hiányzik még annak megértése, miképp válnak radikálissá pont humán beállítottságú emberek. Itt kerül képbe a dzsihád.  [Rich Nielsen](http://people.fas.harvard.edu/~rnielsen/) a Harvard Department of Goverment PhD hallgatója azt vizsgálja miért válnak radikálissá egyes muszlim vallás- és jogtudósok ([ulema](http://hu.wikipedia.org/wiki/Ulema)). Még nem publikált, de már elérhető tanulmánya a [Jihadi Radicalization of Muslim Clerics](http://people.fas.harvard.edu/~rnielsen/jihad.pdf) remek példa arra, hogyan alkalmazható a számítógépes nyelvészet a társadalomtudományi tartalomelemzésben. Az absztrakt remekül összefoglalja a tanulmányt (elvégre ez a dolga):**

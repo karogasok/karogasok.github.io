@@ -12,6 +12,15 @@ regi_cimkek:
   - "számítógépes nyelvészet"
 regi_cimkek_mind:
   - "számítógépes nyelvészet"
+temak:
+  - A szakma
+kulcsszavak:
+  - inger
+  - rácuppan
+  - cl
+  - feldolgozás
+  - signal
+  - mérnök
 ---
 
 **Minek is nevezzük azt amikor nyelvi adatot bütykölünk a géppel? Vagy egy szép elméletet akarunk tesztelni valahogy egy programmal. Van köze a kettőnek egymáshoz? Mi a különbség a számítógépes nyelvészet és a természetes nyelvi feldolgozás között? Mit takarnak az angol elnevezések (computational linguistics, natural language processing, natural language engineering)?**  

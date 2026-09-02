@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "guest post"
   - "sentiment analysis"
   - "textometry"
+temak:
+  - A szakma
+kulcsszavak:
+  - Sentiment
+  - Opinion
+  - Textometry
+  - forth
+  - pu
+  - technologies
 ---
 
 **A guest post by** Margueritte Leenhardt

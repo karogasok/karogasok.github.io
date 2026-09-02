@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "lean"
   - "szoftverfejlesztés"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - Toyota
+  - Toyota-módszer
+  - autógyártás
+  - lektorál
+  - Liker
+  - termelési
 ---
 
 **A szoftverfejlesztésben már régóta divatos a lean módszertan és az utóbbi két évben robbant be a köztudatba a lean startup fogalma is. De hogy kerül az autógyártásban kifejlesztett és úgy általában a termelőüzemekben alkalmazott metodológia az IT-be**

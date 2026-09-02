@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - Economist
+  - beágyazott
+  - Data
+  - adatújságírás
+  - Science
+  - meetup
 ---
 
 **Jön a meetup, adatújságírás, sentimentelemzés az Economistban, Google és a prediktív analitika.**  

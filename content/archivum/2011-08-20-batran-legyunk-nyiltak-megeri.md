@@ -20,6 +20,15 @@ regi_cimkek_mind:
   - "open source"
   - "szabad szoftver"
   - "szerzői jog"
+temak:
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - licenc
+  - nyíltság
+  - nyílt
+  - szoftver
+  - Creative
+  - szabadalom
 ---
 
 **Sokak számára a nyílt egyet jelent a nyílt szoftverrel az IT világában. Sokan esküsznek a nyíltságra míg mások viszolyognak tőle. Egyesek szerint az egyetlen út a tökéletesség felé, mások szerint nem lehet minőségi eszközöket elérni egy nyílt környezetben. Azonban a furi flanelinges csókák mozgalmából akik egy saját ingyenes oprendszert szerettek volna, eljutottunk odáig hogy már nem csak a szoftverek szabadságát hirdetik egyre többen, hanem az adatokhoz való hozzáférést is. Nem mellesleg ezzel kapcsolatban felmerült egy halom (szerzői)jogi kérdés is. Milyen távlatai vannak a szabad szoftvernek, nyílt adatoknak és megengedő licenceknek?**

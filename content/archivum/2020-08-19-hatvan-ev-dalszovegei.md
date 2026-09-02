@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "dalszövegek"
   - "natural language processing"
   - "pop"
+temak:
+  - Szövegvizualizáció
+kulcsszavak:
+  - dal
+  - kulcsszó
+  - dalszöveg
+  - popdal
+  - évtized
+  - túró
 ---
 
 Gondolta volna, hogy az 1980-as évek popslágereinek egyik kulcsszava a túró? És azt, hogy az inka szó az évezred forduló környékén meghatározó szerepet töltött be a magyar popdalokban? A magyar dalok több meglepetést tartogatnak, mint gondolná. Legújabb projektünkben a magyar dalszövegeket szedtük ízekre az 1950-es évektől egészen napjainkig.

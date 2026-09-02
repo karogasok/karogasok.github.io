@@ -12,6 +12,15 @@ regi_cimkek:
   - "tartalomelemzés"
 regi_cimkek_mind:
   - "tartalomelemzés"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - mese
+  - szövegelemzés
+  - népmese
+  - mesés
+  - Docs
+  - automatikus
 ---
 
 Az idei Neumann konferencián két előadással is jelen voltunk. Alább találhatók absztraktjaink és diáink.

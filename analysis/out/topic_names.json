@@ -1,0 +1,629 @@
+{
+  "0": {
+    "name": "Lapszemle",
+    "slug": "lapszemle",
+    "rationale": "A heti linkgyűjtemények és hírösszefoglalók. Műfaj, nem tárgy — de a modell külön csoportként találta meg, és a 29 dokumentum tényleg ugyanaz a rovat.",
+    "terms": [
+      "kereső",
+      "termés",
+      "hazai",
+      "hír",
+      "nyest.hu",
+      "könyvajánló",
+      "világ",
+      "előadás",
+      "háztáji",
+      "cím"
+    ],
+    "documents": [
+      "Boldog szülinapot nekünk!",
+      "Lapszemle",
+      "Lapszemle",
+      "Lapszemle",
+      "Lapszemle"
+    ],
+    "size_fitted": 29,
+    "size_total": 41,
+    "evidence": {
+      "quote": "Dávid csatlakozása volt a tavalyi év fordulópontja, már nem egy egyszemélyes blog vagyunk azóta:D Nem mellesleg Ruby programozási nyelv című posztja egyike legnépszerűbb írásainknak.",
+      "doc_id": "content/archivum/2011-01-25-boldog-szulinapot-nekunk.md",
+      "title": "Boldog szülinapot nekünk!",
+      "year": 2011
+    },
+    "checked_by_human": false
+  },
+  "1": {
+    "name": "Statisztika és R",
+    "slug": "statisztika-es-r",
+    "rationale": "Statisztikai kézikönyvek és R-es könyvismertetők.",
+    "terms": [
+      "fejezet",
+      "könyv",
+      "statisztika",
+      "kötet",
+      "R",
+      "Statistics",
+      "alap",
+      "alapos",
+      "statisztikai",
+      "ismeret"
+    ],
+    "documents": [
+      "Statisztikai túlélőkészlet",
+      "Valószínűség, statisztika és nyelv",
+      "Könyvismertető - The Foundations of Statistics: A Simulation-based Approach",
+      "Könyvismertető: Statistical Analysis with R",
+      "Könyvismertető: Data Mining with Rattle and R"
+    ],
+    "size_fitted": 19,
+    "size_total": 27,
+    "evidence": {
+      "quote": "Nem annyira ismert, de szerintem a legjobb könyv ami összeköti a statisztika tanítását az R elsajátításával Verzani Using R for Introductory Statistics könyve.",
+      "doc_id": "content/archivum/2010-04-09-statisztikai-tulelokeszlet.md",
+      "title": "Statisztikai túlélőkészlet",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "2": {
+    "name": "NLP meetupok",
+    "slug": "nlp-meetupok",
+    "rationale": "A budapesti NLP meetup meghívói, előadói és álláshirdetései.",
+    "terms": [
+      "meetup",
+      "pszichológiai",
+      "intézet",
+      "előadó",
+      "ELTE",
+      "Short",
+      "tartalomelemzés",
+      "résztvevő",
+      "maximum",
+      "bio"
+    ],
+    "documents": [
+      "Állás: Python fejlesztő@Pulilab",
+      "NLP Meetup - we have a new confirmed speaker",
+      "Évadzáró meetup november 21-én",
+      "Web Intelligence - NLP meetup február 28-án",
+      "Mit mond az internet - NLP meetup március 27-én"
+    ],
+    "size_fitted": 19,
+    "size_total": 53,
+    "evidence": {
+      "quote": "Short bio Andras Benczur received his Ph.D.",
+      "doc_id": "content/archivum/2012-09-17-nlp-meetup-we-have-new-comfirmed-speaker.md",
+      "title": "NLP Meetup - we have a new confirmed speaker",
+      "year": 2012
+    },
+    "checked_by_human": false
+  },
+  "3": {
+    "name": "A blog életéről",
+    "slug": "a-blog-eleterol",
+    "rationale": "Évfordulók, tervek, köszönetek, szerkesztőségi bejelentések. A leggyengébben körülhatárolt csoport: a közös vonás a hangnem, nem a tárgy.",
+    "terms": [
+      "írás",
+      "remél",
+      "Dávid",
+      "csatlakozik",
+      "cucc",
+      "vár",
+      "nyár",
+      "szakmai",
+      "meetup",
+      "lassú"
+    ],
+    "documents": [
+      "Hogyan tovább? - mihez kezdhet magával a magunkfajta",
+      "ESSLLI 2011: Why you should go to Ljubljana this year",
+      "A 200. poszt - villám önfényezés",
+      "Kereső Mobilvilág",
+      "Más! - a változás szele"
+    ],
+    "size_fitted": 17,
+    "size_total": 24,
+    "evidence": {
+      "quote": "Sajnos ennyi telt tőlünk, reméljük az írásokat élvezni fogjátok és valami hasznosat is találtok majd bennük.",
+      "doc_id": "content/archivum/2010-08-12-hogyan-tovabb-mihez-kezdhet-magaval.md",
+      "title": "Hogyan tovább? - mihez kezdhet magával a magunkfajta",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "4": {
+    "name": "Logika és matematika",
+    "slug": "logika-es-matematika",
+    "rationale": "Logikai és matematikai alapok, Neumanntól a jelentés geometriájáig.",
+    "terms": [
+      "logic",
+      "matematika",
+      "logika",
+      "Neumann",
+      "könyv",
+      "Logic",
+      "fejezet",
+      "Szabó",
+      "Widdows",
+      "Montague"
+    ],
+    "documents": [
+      "Logika mindenkinek II - automaták, formális nyelvek és kiszámíthatóság",
+      "Könyvismerető: Logicomix, logikai képregény kicsiknek és nagyoknak",
+      "Könyvismertető - Widdows: Geometry and Meaning",
+      "Könyvismertető: The Geometry of Information Retrieval",
+      "Könyvismertető: Understanding Search Engines: Mathematical Modeling and Text Retrieval"
+    ],
+    "size_fitted": 17,
+    "size_total": 22,
+    "evidence": {
+      "quote": "Boolos et all.: Computability and Logic Ha már van egy alapvető logikai műveltséged, ez a könyv nem okozhat meglepetést.",
+      "doc_id": "content/archivum/2010-05-09-logika-mindenkinek-ii-automatak.md",
+      "title": "Logika mindenkinek II - automaták, formális nyelvek és kiszámíthatóság",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "5": {
+    "name": "Korpusznyelvészet",
+    "slug": "korpusznyelveszet",
+    "rationale": "Korpuszok, korpusznyelvészeti elmélet, nyelvi relativizmus.",
+    "terms": [
+      "korpusz",
+      "esik",
+      "korpusznyelvészet",
+      "nyelv",
+      "beszélő",
+      "mondat",
+      "szótár",
+      "nyelvi",
+      "szó",
+      "minta"
+    ],
+    "documents": [
+      "A minimalista program I - Elvek, paraméterek és miért is kell minimalizmusra törekednünk",
+      "Nyelvi relativizmus, avagy hatással van-e nyelvünk gondolkodásunkra II.",
+      "Korpusznyelvészet – elméleti megfontolások",
+      "Korpusznyelvészet – elméleti megfontolások",
+      "Korpusznyelvészet – elméleti megfontolások"
+    ],
+    "size_fitted": 15,
+    "size_total": 26,
+    "evidence": {
+      "quote": "Valamiért azt tapasztaljuk hogy minden egészséges ember (és nagyon sok különböző betegséggel küzdő is) beszél legalább egy nyelvet.",
+      "doc_id": "content/archivum/2010-06-22-minimalista-program-i-elvek-parameterek.md",
+      "title": "A minimalista program I - Elvek, paraméterek és miért is kell minimalizmusra törekednünk",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "6": {
+    "name": "Adatújságírás és nyílt adat",
+    "slug": "adatujsagiras-es-nyilt-adat",
+    "rationale": "API-k, adatújságírás, nyílt adat és a digitális bölcsészet határa.",
+    "terms": [
+      "journalism",
+      "adat",
+      "API",
+      "tagelés",
+      "Facebook",
+      "tag",
+      "humanities",
+      "Graph",
+      "media",
+      "Google"
+    ],
+    "documents": [
+      "A New York Times és a Guardian API-k használata",
+      "Data-Journalism: Hope for a future in a troubled profession - Interview with Mirko Lorenz",
+      "Mit rejt a jövő II. Rövid és közép távon mire számíthatunk",
+      "Adat, üzlet, tudomány (frissítve)",
+      "Az Open Knowledge Foundation-ről"
+    ],
+    "size_fitted": 15,
+    "size_total": 19,
+    "evidence": {
+      "quote": "Nem csak egyszerűen letölthetők az adatok össze-vissza, hanem jól megtervezett API-kat hoztak létre erre.",
+      "doc_id": "content/archivum/2010-09-10-new-york-times-es-guardian-api-k.md",
+      "title": "A New York Times és a Guardian API-k használata",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "7": {
+    "name": "Tudományfilozófia",
+    "slug": "tudomanyfilozofia",
+    "rationale": "Elméletek, paradigmák, a Chomsky–Norvig vita és a gépi tanulás tudományelméleti helye.",
+    "terms": [
+      "elmélet",
+      "tudományos",
+      "tudományfilozófia",
+      "megközelítés",
+      "tudomány",
+      "matematika",
+      "logika",
+      "Chomsky",
+      "rekonstrukció",
+      "kérdés"
+    ],
+    "documents": [
+      "Tudományfilozófia, gépi tanulás és nyelvészet - egy nem is annyira különös találkozás",
+      "Chomsky és a statisztika",
+      "Chomsky, Norvig és a tudomány",
+      "A számítástudomány \\\"titkos\\\" története dióhéjban",
+      "Filmismertető: The Joy of Stats"
+    ],
+    "size_fitted": 14,
+    "size_total": 32,
+    "evidence": {
+      "quote": "Azt korábbi írásomban röviden bemutattam miképp számolta fel önmagát a klasszikus logikai megközelítésen alapuló tudományfilozófia és fordult át tudományszociológiába.",
+      "doc_id": "content/archivum/2010-12-03-tudomanyfilozofia-gepi-tanulas-es.md",
+      "title": "Tudományfilozófia, gépi tanulás és nyelvészet - egy nem is annyira különös találkozás",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "8": {
+    "name": "A szakma",
+    "slug": "a-szakma",
+    "rationale": "Mi az a számítógépes nyelvészet, és kik csinálják — interjúk és pályaképek.",
+    "terms": [
+      "linguistics",
+      "computational",
+      "computer",
+      "language",
+      "science",
+      "bu",
+      "linguists",
+      "engineering",
+      "WordCram",
+      "like"
+    ],
+    "documents": [
+      "Minek nevezzelek? - számítógépes nyelvészet, természetes nyelvi feldolgozás, vagy mi?",
+      "Nyelvészet és interakciódizájn I. - Új irány?",
+      "The life of a computational linguist II. - Interview with Oliver Mason",
+      "Word Cram - an interview with its creator Dan Bernier",
+      "On Information Architecture - Interview with Dan Klyn"
+    ],
+    "size_fitted": 14,
+    "size_total": 28,
+    "evidence": {
+      "quote": "Mit takarnak az angol elnevezések (computational linguistics, natural language processing, natural language engineering)?",
+      "doc_id": "content/archivum/2010-05-12-minek-nevezzelek-szamitogepes.md",
+      "title": "Minek nevezzelek? - számítógépes nyelvészet, természetes nyelvi feldolgozás, vagy mi?",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "9": {
+    "name": "Programozás nyelvészeknek",
+    "slug": "programozas-nyelveszeknek",
+    "rationale": "Python, R, Ruby, Clojure, nltk — nyelvészeknek szóló bevezetők.",
+    "terms": [
+      "Ruby",
+      "processing",
+      "Scheme",
+      "nltk",
+      "Python",
+      "Java",
+      "programozás",
+      "kezdő",
+      "Clojure",
+      "NLP"
+    ],
+    "documents": [
+      "R, de miért is használjam? - I.",
+      "Könyvismertető: Getting Started with Processing",
+      "Kreatív Ruby programozás kezdőknek",
+      "Retro programozás",
+      "Könyvismertető: Clojure in Action"
+    ],
+    "size_fitted": 14,
+    "size_total": 22,
+    "evidence": {
+      "quote": "Sok olvasó kérdezte miért is használjon R-t, hiszen a Python nyelv ideális nyelvészek számára, nem beszélve az nltk-ról.",
+      "doc_id": "content/archivum/2010-07-29-r-de-miert-is-hasznaljam-i.md",
+      "title": "R, de miért is használjam? - I.",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "10": {
+    "name": "Nyelvelemző eszközök",
+    "slug": "nyelvelemzo-eszkozok",
+    "rationale": "Szófajelemzők, értelmezők, NooJ, Unicode és a saját kezű korpuszkészítés gyakorlata.",
+    "terms": [
+      "nyelvtani",
+      "szabály",
+      "értelmező",
+      "karakter",
+      "fájl",
+      "elemző",
+      "kifejezés",
+      "Gist",
+      "fa",
+      "GitHub"
+    ],
+    "documents": [
+      "NooJ, az Integrált Nyelvelemző Környezet I.",
+      "Szógyakoriság ismét (de most saját fájlból, R használatával elemezve)",
+      "Hogyan kezdtem szófajelemzőt írni?",
+      "Korpusznyelvészet - Unicode; a korpuszkészítés alapjai 2",
+      "Nyelvi értelmező, házilag"
+    ],
+    "size_fitted": 14,
+    "size_total": 17,
+    "evidence": {
+      "quote": "Bemutatni, hogy mennyi és milyen minőségű nyelvelemző programok állnak már jelenleg is a rendelkezésünkre.",
+      "doc_id": "content/archivum/2010-07-11-nooj-az-integralt-nyelvelemzo-kornyezet.md",
+      "title": "NooJ, az Integrált Nyelvelemző Környezet I.",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "11": {
+    "name": "Paradigmák és nyelvelméletek",
+    "slug": "paradigmak-es-nyelvelmeletek",
+    "rationale": "Szintaxiselméletek, lexikai szemantika, Kuhn és a nyelvészeti paradigmák.",
+    "terms": [
+      "paradigma",
+      "event",
+      "Pustejovsky",
+      "hypothesis",
+      "Kuhn",
+      "Hauser",
+      "system",
+      "language",
+      "verbs",
+      "y"
+    ],
+    "documents": [
+      "Scientific Approaches in Syntax: a synthesis of analogies",
+      "Nyelvi relativizmus, avagy hatással van-e nyelvünk gondolkodásunkra I.",
+      "Ismét a paradigmákról",
+      "Sublexical Semantics",
+      "Nyelv és gondolkodás a paradigmák átfedő rendszerében"
+    ],
+    "size_fitted": 9,
+    "size_total": 10,
+    "evidence": {
+      "quote": "What isn't done well is the willingness to drop the initial hypothesis if it is confirmed in one language and then, later, disconfirmed in another.",
+      "doc_id": "content/archivum/2010-07-19-scientific-approaches-in-syntax.md",
+      "title": "Scientific Approaches in Syntax: a synthesis of analogies",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "12": {
+    "name": "Kurzusok és önképzés",
+    "slug": "kurzusok-es-onkepzes",
+    "rationale": "ESSLLI, nyári egyetemek, és hogyan tanuljon meg valaki programozni egyedül.",
+    "terms": [
+      "kurzus",
+      "ESSLLI",
+      "Lisp",
+      "students",
+      "researchers",
+      "courses",
+      "summer",
+      "kínálat",
+      "student",
+      "Haskell"
+    ],
+    "documents": [
+      "Hogyan szerezzünk egy kis gyakorlatot?",
+      "Logikai programozás nem programozóknak abszolút kezdő szinttől (prolog)",
+      "Funkcionális programozás nem-programozóknak (könyvek és honlapok)",
+      "Könyvismertető: The Cartoon Guide to the Computer",
+      "On Lisp - Interview with Gábor Melis"
+    ],
+    "size_fitted": 9,
+    "size_total": 10,
+    "evidence": {
+      "quote": "Erlang Scala Clojure LISP.",
+      "doc_id": "content/archivum/2010-03-25-funkcionalis-programozas-nem.md",
+      "title": "Funkcionális programozás nem-programozóknak (könyvek és honlapok)",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "13": {
+    "name": "Korpuszépítés és annotáció",
+    "slug": "korpuszepites-es-annotacio",
+    "rationale": "Annotációs szabványok, XML, korpuszkészítés lépésről lépésre.",
+    "terms": [
+      "book",
+      "annotáció",
+      "corpus",
+      "title",
+      "XML",
+      "chapter",
+      "stats",
+      "R",
+      "helps",
+      "standard"
+    ],
+    "documents": [
+      "Elveszett logikusok menedéke",
+      "Az adatok tudománya és a nyelvtudomány - olvasnivaló",
+      "Könyvismertető: Introduction to Linguistic Annotation and Text Analytics",
+      "Korpusznyelvészet - a korpuszkészítés alapjai 1.",
+      "Könyvismertető - Michaelson: An Introduction to Functional Programming Through Lambda Calculus"
+    ],
+    "size_fitted": 8,
+    "size_total": 10,
+    "evidence": {
+      "quote": "Az adatok tudományának részét képezi az alkalmazott statisztika, ezért biztos matematikai alapokkal kell rendelkeznie annak aki a területre merészkedik.",
+      "doc_id": "content/archivum/2010-09-04-az-adatok-tudomanya-es-nyelvtudomany.md",
+      "title": "Az adatok tudománya és a nyelvtudomány - olvasnivaló",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "14": {
+    "name": "Nyílt szoftver és tervezés",
+    "slug": "nyilt-szoftver-es-tervezes",
+    "rationale": "Licencek, nyílt forráskód, keresőfelületek és információtervezés.",
+    "terms": [
+      "nyílt",
+      "licenc",
+      "szoftver",
+      "design",
+      "nyíltság",
+      "információtervezés",
+      "Library",
+      "Patterns",
+      "forráskód",
+      "Prismatic"
+    ],
+    "documents": [
+      "Könyvismertető: Morville - Callender: Search Patterns",
+      "Haskell Philosophy?",
+      "Bátran legyünk nyíltak - megéri",
+      "Olvasónapló #2 - Computational Social Science",
+      "Könyvismertető: Digital_Humanities (ingyenes e-könyv)"
+    ],
+    "size_fitted": 8,
+    "size_total": 9,
+    "evidence": {
+      "quote": "A könyv olvasása előtt érdemes megnézni pár ilyen design pattern library-t (szoftver, interfész és adat tervezési minták is vannak a következő gyűjteményben).",
+      "doc_id": "content/archivum/2010-10-18-konyvismerteto-morville-callender.md",
+      "title": "Könyvismertető: Morville - Callender: Search Patterns",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "15": {
+    "name": "Mesterséges intelligencia",
+    "slug": "mesterseges-intelligencia",
+    "rationale": "Watson, a kínai technológiai fejlődés, biopunk — az MI mint közügy.",
+    "terms": [
+      "mesterséges",
+      "Kína",
+      "intelligencia",
+      "Watson",
+      "kínai",
+      "digitális",
+      "biopunk",
+      "technológia",
+      "bölcsészet",
+      "fázis"
+    ],
+    "documents": [
+      "Watson!",
+      "Digitális bölcsészet - új blog indult",
+      "Könyvismertető: Wohlsen - Biopunk: DIY Scientists Hack the Software of Life",
+      "Bölcsészek; kulcs a sikerhez",
+      "Könyvajánló: Emberek és gépek - avagy mit kell tudni ma a mesterséges intelligenciáról"
+    ],
+    "size_fitted": 8,
+    "size_total": 19,
+    "evidence": {
+      "quote": "Most csupán arra vállalkozunk hogy áttekintjük a Watson mögött rejlő fontosabb technológiai megoldásokat és egy kicsit értelmezzük hogy mit jelent ez a győzelem.",
+      "doc_id": "content/archivum/2011-02-23-watson.md",
+      "title": "Watson!",
+      "year": 2011
+    },
+    "checked_by_human": false
+  },
+  "16": {
+    "name": "Szövegvizualizáció",
+    "slug": "szovegvizualizacio",
+    "rationale": "Szófelhők, térképek, demográfiai és névadási ábrák.",
+    "terms": [
+      "év",
+      "kulcsszó",
+      "szó",
+      "szófelhő",
+      "évtized",
+      "hálózat",
+      "térkép",
+      "ábra",
+      "alábbi",
+      "Magyarország"
+    ],
+    "documents": [
+      "Szövegvizualizáció térképen",
+      "Szöveges információ vizualizációja: szógyakoriság",
+      "Szöveges információ vizualizációja: topic clouds",
+      "Magyarország demográfiai változásai 1986 és 2018 között",
+      "Minek nevezzelek? Keresztnévadási szokások 2000 és 2018 között"
+    ],
+    "size_fitted": 8,
+    "size_total": 9,
+    "evidence": {
+      "quote": "A térkép az angol Wikipedia \"History of X\" - ahol az X egy adott ország - szócikkeit dolgozta fel és a legjellemzőbb (azaz leggyakoribb) szóval helyttesítette az adott országot.",
+      "doc_id": "content/archivum/2013-03-08-szovegvizualizacio-terkepen.md",
+      "title": "Szövegvizualizáció térképen",
+      "year": 2013
+    },
+    "checked_by_human": false
+  },
+  "17": {
+    "name": "Hálózatok és eszközök",
+    "slug": "halozatok-es-eszkozok",
+    "rationale": "Gephi, gráfok, telepítés és a hozzájuk tartozó kódrészletek.",
+    "terms": [
+      "Gephi",
+      "gráf",
+      "GitHub",
+      "telepít",
+      "Gist",
+      "Ubuntu",
+      "csomag",
+      "library",
+      "szöveges",
+      "R"
+    ],
+    "documents": [
+      "Szöveges információk vizualizációja Gephi és az AlchemyAPI segítségével",
+      "Dzsudzsák a Twitteren!",
+      "Hello nlp!",
+      "R tutorial előtt",
+      "Álláslehetőség: junior Python programozó @ CEU CNS"
+    ],
+    "size_fitted": 7,
+    "size_total": 8,
+    "evidence": {
+      "quote": "Már sokszor szóltunk róla hogy érdekel minket miként is lehet egy szöveget vizualizálni.",
+      "doc_id": "content/archivum/2010-11-20-szoveges-informaciok-vizualizacioja.md",
+      "title": "Szöveges információk vizualizációja Gephi és az AlchemyAPI segítségével",
+      "year": 2010
+    },
+    "checked_by_human": false
+  },
+  "18": {
+    "name": "Startup és termékfejlesztés",
+    "slug": "startup-es-termekfejlesztes",
+    "rationale": "Lean startup, ügyfélfejlesztés, MVP — a technológia üzleti oldala.",
+    "terms": [
+      "startup",
+      "termék",
+      "Lean",
+      "Startup",
+      "ügyfélfejlesztés",
+      "ügyfél",
+      "innovatív",
+      "Blank",
+      "MVP",
+      "Eric"
+    ],
+    "documents": [
+      "The life of a computational linguist III. - Interview with Hugo Liu taste researcher",
+      "Kitchen Budapest: Technológiai és újmédia boszorkánykonyha - Interjú Bujdosó Attila koordinátor és internet-freak építésszel",
+      "Lean startup és customer development - interjú Patrick Vlaskovits-csal",
+      "Ügyfélfejlesztés dióhéjban",
+      "Könyvismertető: The Lean Startup"
+    ],
+    "size_fitted": 7,
+    "size_total": 10,
+    "evidence": {
+      "quote": "I started my career as an undergraduate researcher working for Marvin Minsky, one of the founders of Artificial Intelligence, and his brilliant protege who became a great colleague of mine, Push Singh.",
+      "doc_id": "content/archivum/2010-10-14-life-of-computational-linguist-ii-14.md",
+      "title": "The life of a computational linguist III. - Interview with Hugo Liu taste researcher",
+      "year": 2010
+    },
+    "checked_by_human": false
+  }
+}

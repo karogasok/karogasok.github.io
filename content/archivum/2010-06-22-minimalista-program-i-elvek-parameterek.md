@@ -20,6 +20,15 @@ regi_cimkek_mind:
   - "minimalista program"
   - "nyelvészet"
   - "számítógépes nyelvészet"
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - G2
+  - grammatika
+  - paraméter
+  - minimalista
+  - G4
+  - G3
 ---
 
 **A minimalizmus megpróbálja a lehetséges emberi nyelvek szerevezőelveinek leírását adni. Ebben két fő elvre támaszkodik; maximális megszorítás mellett (azaz csakis kizárólag az emberi nyelveket szándékozik leírni) a lehető leggazdaságosabban (minél kevesebb szabályt alkalmazva) igyekszik célját elérni. Most nem próbáljuk meg a minimalista programot teljes egészében leírni, hanem csak erre a két alapelvre szorítkozunk.**  

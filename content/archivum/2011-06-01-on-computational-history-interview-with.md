@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "digital humanities"
   - "history"
   - "interview"
+temak:
+  - A szakma
+kulcsszavak:
+  - historians
+  - Mathematica
+  - history
+  - historical
+  - notebooks
+  - William
 ---
 
 **We interviewed William J. Turkel (associate professor, University of Western Ontario) on computational history. You can learn more about William at [his home page](http://williamjturkel.net/), his discontinued [Digital History Hacks](http://digitalhistoryhacks.blogspot.com/) blog is full of interesting posts, and you can find him on Twitter as [@williamjturkel](http://twitter.com/#%21/williamjturkel).**  

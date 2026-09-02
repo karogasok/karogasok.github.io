@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "digitális bölcsészet"
   - "számítógépes nyelvészet"
   - "társadalomtudományok"
+temak:
+  - Mesterséges intelligencia
+kulcsszavak:
+  - Horowitz
+  - Mayer
+  - interdiszciplinaritás
+  - rávilágít
+  - Symbolic
+  - társadalomtudós
 ---
 
 **MIközben a magyar ugaron leépítik a humán- és társadalomtudományokat, addig a világ szerencsésebb felén azt láthatjuk, hogy a siker titka pont bennük rejlik. A kontinentális Európában mindenki vakargatja a fejét, ha valaki nem tradícionális háttérrel kerül az IT világába és elterjedt tévhit hogy kell pár jó mérnök, erős sales és marketing csapat, valami kis lean startup izé és veszik majd a terméket mint a cukrot. Érdekes megfigyelni, hogy az igazán sikeres vállalkozásoknál még egy összetevő akad, ez pediglen a bölcsészek.**

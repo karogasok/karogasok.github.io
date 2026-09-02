@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "digital humanities"
   - "guest post"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - humanities
+  - collections
+  - kinds
+  - Digital
+  - scholars
+  - stylistic
 ---
 
 A guest post by Aditi Muralidharan  

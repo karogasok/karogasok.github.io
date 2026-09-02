@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "Significance"
   - "philosophy"
   - "statistics"
+temak:
+  - Paradigmák és nyelvelméletek
+kulcsszavak:
+  - San
+  - principle
+  - poll
+  - Rawls
+  - agains
+  - Harvard
 ---
 
 I came across a great article - [**Are first-borns more likely to attend Harvard?**](http://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2012.00576.x/abstract) - in the recent issue of Significance. [Antony Millner](http://are.berkeley.edu/%7Ea.millner/Antony_Millner/Home.html) and [Raphael Calel ](http://personal.lse.ac.uk/calel/) investigates [Michael J. Sandel](http://en.wikipedia.org/wiki/Michael_Sandel)’s famous “experiment” in the light of statistics.

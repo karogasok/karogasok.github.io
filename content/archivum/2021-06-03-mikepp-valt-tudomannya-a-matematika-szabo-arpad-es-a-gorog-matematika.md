@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "matematikafilozófia"
   - "tudományfilozófia"
   - "tudománytörténet"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - Szabó
+  - axiomatikus
+  - deduktív
+  - Árpád
+  - geometriai
+  - kora
 ---
 
 Egyre népszerűbbek a matematika történetével és a matematika részterületeinek történeti bemutatásával foglalkozó művek manapság itthon és a nagyvilágban is. Az axiomatikus, deduktív matematika Hellászban bontakozott ki és Euklidész (szándékosan nem Eukleidész) Elemeiben foglalták össze, ami a 19. századig a matematikai képzés egyik alapvető tankönyvének számított. Az, hogy miképp alakult át a gyakorlati geometriai és aritmetikai problémák tára egy deduktív tudománnyá nagyon nagy talány, ennek egyik legnagyobb szakértője volt Szabó Árpád, kinek műveit, annak ellenére hogy magyarul is elérhetőek, jobban ismerik külföldön, mint idehaza.

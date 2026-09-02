@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "haskell"
   - "interview"
   - "natural language processing"
+temak:
+  - Korpuszépítés és annotáció
+kulcsszavak:
+  - nlp
+  - book
+  - g
+  - natural
+  - processing
+  - language
 ---
 
 **These days we are the eyewitnesses of the data boom. More and more linguists turn to statistical and probabilistic methods and start using the quasi-standard tools of data analysis like R, Python and databases (SQL and those noSQL stuffs). It wasn’t easier to get into natural language processing, the nltk toolkit and the book is freely available and there are other great books on the market that teach you the basics and more advanced techniques. Although this huge success, more and more nlp company choose a functional programming language as a tool of development and the [Natural Language Processing for the Working Programmer](http://nlpwp.org/) book (which is presenting the basic ideas of nlp in Haskell, and it is in draft version) got a lot of attention in the community. We interviewed the authors of the book; Daniël de Kok and Harm Brouwer.**

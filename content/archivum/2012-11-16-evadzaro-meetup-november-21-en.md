@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "meetup"
   - "nlp meetup"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - pszichológiai
+  - dr.
+  - tartalomelemzés
+  - intézet
+  - Gazdaság-
+  - vállalkozáskutató
 ---
 
 November 21-én zárjuk első évadunkat, 18:00-kor kezdünk szokott helyünkön, a Colabsben. Kérjük az érdeklődőket hogy [regisztrációval segítsék munkánkat](http://www.meetup.com/Hungarian-nlp/events/86196422/) (a regisztráció és rendezvény is ingyenes). 2013-ban folyt.köv., a tavaszi szezonban két angol és két magyar meetup lesz, várjuk előadók jelentkezését.

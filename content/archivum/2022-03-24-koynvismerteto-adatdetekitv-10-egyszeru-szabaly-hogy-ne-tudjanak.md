@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "adatok"
   - "kritikai gondolkodás"
   - "vizualizáció"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - kritikai
+  - Harford
+  - Tim
+  - gondolkodás
+  - segít
+  - adat
 ---
 
 Ez a data literacy könyv, a How to Lie with Statistics méltó párja (és ennek szerzőjét még nem szerződtette a sötét oldal)! Egyszerűen zseniális, mint minden amit Tim Harford szokott írni 🙂 Dióhéjban: a kritikai gondolkodás és némi pszichológiai ismeret sokat segít az adatok korában is!

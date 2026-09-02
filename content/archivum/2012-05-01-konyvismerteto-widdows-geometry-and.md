@@ -19,6 +19,15 @@ regi_cimkek_mind:
   - "lineáris algebra"
   - "matematika"
   - "számítógépes nyelvészet"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - Widdows
+  - Dominic
+  - királyi
+  - ígér
+  - kaland
+  - út
 ---
 
 **A számítógépes nyelvészethez, miképp a matematikához, nem vezet királyi út. Persze attól hogy nincs királyi út, még nem következik hogy csak egy nem-királyi út lenne, sőt a Nirvanához hasonlatosan a számítógépes nyelvészethez is több út vezet. Ezek közül az egyik azok számára áll nyitva akik a formális gondolkodás terén rendelkeznek egy általános műveltséggel. Nos számukra a legjobb választás Dominic Widdows könyve.**

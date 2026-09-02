@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "elméleti nyelvészet"
   - "filozófia"
+temak:
+  - Paradigmák és nyelvelméletek
+kulcsszavak:
+  - nézetrendszer
+  - Kuhn
+  - jelentésváltozás
+  - Vera
+  - Fehér
+  - békés
 ---
 
 *Fehér Krisztina írása*

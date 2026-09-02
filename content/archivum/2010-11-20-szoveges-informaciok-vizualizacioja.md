@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "digitális bölcsészet"
   - "startup"
   - "szöveg vizualizáció"
+temak:
+  - Hálózatok és eszközök
+kulcsszavak:
+  - Gephi
+  - Gephiben
+  - Plugins
+  - Quick
+  - szerű
+  - AlcehmyAPI
 ---
 
 **Már sokszor szóltunk róla hogy érdekel minket miként is lehet egy szöveget vizualizálni. Persze az első kézenfekvő válasz erre a régi jó öreg Zipf-törvény alapján rajzolt szógyakoriság (ami nekem már egészen kis korom óta a kedvencem), illetve a bigram és n-gram táblák, esetleg szófajok alapján egy piechart. De lehet-e mélyebbre menni ennél? Kelle-e? A második kérdésre én sem tudom a választ, de az elsőre már határozott igen a válasz! Minden különösebb programozási ismeret nélkül betekintést nyerhetünk a szövegek egy mélyebb rétegébe, azonban sajnos anyanyelvünkön ezt még nem tehetjük meg.**  

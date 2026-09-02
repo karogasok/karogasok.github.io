@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "guest post"
   - "job market"
   - "linguistics"
+temak:
+  - A szakma
+kulcsszavak:
+  - Jobs
+  - ll
+  - Resume
+  - speech
+  - audiology
+  - Temporary
 ---
 
 *A guest post by Christopher Phipps, [The Lousy Linguist](http://thelousylinguist.blogspot.com/)*

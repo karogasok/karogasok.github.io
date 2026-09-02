@@ -18,6 +18,10 @@ regi_cimkek_mind:
   - "kognitív nyelvészet"
   - "metafora"
   - "nyelvészet"
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - történelmi
 ---
 
 A trianoni békeszerződés egy olyan történelmi esemény, amely még száz év után is képes érzelmeket kelteni és vitát szítani. Trianon mai napig problémát jelent a nemzet életében. De miért? A kérdést már számtalanszor közelítették meg történelmi, szociológiai, pszichológiai oldalról, de mi most kognitív nyelvészeti szemszögből vizsgáltuk és elgondolkodtató eredményeket kaptunk.

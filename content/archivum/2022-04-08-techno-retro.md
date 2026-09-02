@@ -17,6 +17,11 @@ regi_cimkek_mind:
   - "matematika"
   - "programozás"
   - "számítástudomány"
+temak:
+  - Kurzusok és önképzés
+kulcsszavak:
+  - magyar
+  - könyv
 ---
 
 Imádjuk az ismeretterjesztő könyveket és nagyon sajnáljuk, hogy magyar nyelven és főleg magyar szerzőktől egyre kevesebb igényes munkával találkozunk. Pedig volt idő, amikor kifejezetten színvonalas könyveket lehetett elérni. Saját gyűjteményünkből szemezgettünk és ajánljuk kedves olvasóinknak, hogy bátran szerezzék meg ezeket a könyveket.

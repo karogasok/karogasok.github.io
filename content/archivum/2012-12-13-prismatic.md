@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "nlp"
   - "termékfejlesztés"
   - "topik modell"
+temak:
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - Prismatic
+  - filter
+  - ml
+  - topik
+  - megjelenő
+  - egészen
 ---
 
 **A [Prismatic](http://getprismatic.com/) tkp. remek példa több dologra is. Mi a keresés jövője? Van valami igazán izgalmas felhasználása az NLP-nek és az ML-nek? Lehet egy terméket teljesen egy funkcionális nyelvre alapozni? A perszonalizációval együtt járó filter bubble jelensége ellen tehetünk valamit?**

@@ -12,6 +12,15 @@ regi_cimkek_mind:
   - "Noah D Goodman"
   - "kognitív tudomány"
   - "probabilisztikus programozás"
+temak:
+  - A szakma
+kulcsszavak:
+  - inference
+  - probabilistic
+  - tolls
+  - thine
+  - Goodman
+  - Rational
 ---
 
 > *"No man is an island,*  

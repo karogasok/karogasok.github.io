@@ -13,6 +13,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "RAG"
   - "nlp"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - rag
+  - adózói
+  - Co-pilot
+  - tartalmi
+  - LLM
+  - teljesítmény
 ---
 
 Hosszú szünet után [áprilisban újraindult az NLP meetup](https://www.meetup.com/open-nlp/events/300005041/). Első rendezvényünkön a RAG került terítékre, két gyakorlati példán keresztül.

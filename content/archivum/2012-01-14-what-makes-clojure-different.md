@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "Clojure"
   - "Clojurelx"
   - "PAIP"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - Names
+  - Gist
+  - GitHub
+  - function
+  - last-name
+  - split
 ---
 
 **A friend of mine asked me why Clojure matters and what makes it special and why I think it is good for linguists. This post is the edited version of my answer to my dear friend. Since there are very good books on the market (my favourite is [Clojure in Action](http://www.manning.com/rathore/)) and the internet is full of good tutorials ([4Clojure](https://www.4clojure.com/) is esp. good if you like the learning by doing method) my goal is only to give you a rough picture of functional programming.**

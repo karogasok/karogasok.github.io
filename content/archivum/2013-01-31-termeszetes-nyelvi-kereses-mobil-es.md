@@ -23,6 +23,15 @@ regi_cimkek_mind:
   - "mobil"
   - "mobil keresés"
   - "nyelvtechnológia"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - mobilos
+  - mobilcég
+  - óriási
+  - Wonder
+  - reklám
+  - Yandex
 ---
 
 **Mit tud és mit nem tud ma a Graph Search?**

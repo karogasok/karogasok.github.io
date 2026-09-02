@@ -10,6 +10,12 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/02/elveszett-logikusok-menedeke.html"
 regi_cimkek_mind:
   - "semantic web"
+temak:
+  - Korpuszépítés és annotáció
+kulcsszavak:
+  - sql
+  - web
+  - fejezet
 ---
 
 **Van ahol terem még babér szemantikával babráló nyelvészek, modális logikával álmodó filoszok és Gentzen kalkulusban mindent bizonyító matematikusok számára. A szemantikus web! A munkaerőpiac számotokra is tartogat lehetőséget barátaim, olvasni pedig a fantasztikus [Programming the Semantic Web](http://oreilly.com/catalog/9780596153823) c. könyvet kell.**  

@@ -15,6 +15,8 @@ regi_cimkek_mind:
   - "dalszövegek"
   - "zene"
   - "zenei hálózatok"
+temak:
+  - NLP meetupok
 ---
 
 A [Budapest Science Meetupon](https://www.meetup.com/BpScienceMeetup/events/wbjvrpybcmbnb/) adtunk elő szeptember 24-én. Az előadás FB Live felvétele megtekinthető alább.

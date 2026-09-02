@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "Whispersync for Voice"
   - "média"
   - "productivity"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - Whispersync
+  - voice
+  - Economist
+  - amazon
+  - ár
+  - szolgáltatás
 ---
 
 **Tavaly szeptemberben indította be az Amazon a [Whispersync for Voice](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000827761) szolgáltatást, ami szerintem minden rendes olvasó ember számára a világ egyik legjobb dolga. A [The Economist kapcsán már megemlékeztünk](http://szamitogepesnyelveszet.blogspot.hu/2013/01/nem-minden-technologia.html) arról, hogy sajnos egyre kevesebb idő jut az olvasásra, remek ötlet ha a tartalmat más módon is fogyaszthatjuk. Az Amazon eddig is szinkronizálta eszközeink között, hogy hol tartunk az adott szövegben, a Whispersync for Voice segítségével viszont lehetőségünk van váltogatni a kétféle modalitás között is!**

@@ -10,6 +10,15 @@ forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/04/25/ne-pazarold-el-a-lehetoseget-amit-egy-jo-kis-valsag-a-kezedbe-ad/"
 regi_cimkek_mind:
   - "Karl Popper"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - Ferguson
+  - Diamond
+  - katasztrófa
+  - állam
+  - konzervatív
+  - Jared
 ---
 
 Akik kicsit régebb óta fiatalok, azok még emlékeznek a 2008-as gazdasági válságra. Alig lábaltunk ki a COVID-ból, gazdasági problémák és fegyveres konfliktus borzolja a kedélyeket. Ki tudta ezeket előre jelezni? Hogyan kezelik a társadalmak a megrázkódtatásokat, hogyan tudnak rá egyáltalán felkészülni, milyen jó politikai gyakorlatokat követhetnek egyáltalán?

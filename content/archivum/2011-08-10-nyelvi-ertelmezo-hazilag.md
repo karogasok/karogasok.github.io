@@ -21,6 +21,15 @@ regi_cimkek_mind:
   - "szemantika"
   - "vendégposzt"
   - "yacc"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - előreolvasás
+  - értelmező
+  - nyelvtani
+  - token
+  - lex
+  - bemenet
 ---
 
 *r0ller vendégposztja*

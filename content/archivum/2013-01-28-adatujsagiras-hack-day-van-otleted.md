@@ -12,6 +12,15 @@ regi_cimkek_mind:
   - "OpenNews"
   - "adaújságírás"
   - "hack-day"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - hack-day
+  - OpenNews
+  - Journalism
+  - megrendezés
+  - adatújságírás
+  - önkéntes
 ---
 
 **2013 április 6-án kerül megrendezésre az első magyar adatújságírás nap és hack-day.**

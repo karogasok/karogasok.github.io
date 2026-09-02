@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "nyelvevolúció"
   - "nyelvészet"
   - "rekurzió"
+temak:
+  - Paradigmák és nyelvelméletek
+kulcsszavak:
+  - Hauser
+  - evolution
+  - faculty
+  - Fitch
+  - recursion
+  - FLN
 ---
 
 **Valamikor 2003-ban olvastam anno a mára csak HCF néven elhíresült The Faculty of Language: What Is It, Who Has It, and How Did It Evolve tanulmányt és ismertem meg Marc Hauser nevét. Ez volt a nagy biolinguistics hype kora, én is felültem rá és pár évig nyelvészeti érdeklődésemet teljesen lekötötte a rekurzió eredete és természete. 2007-ben már nem foglalkoztam a témával, de egy barátom révén elért a Hauser ellen indított vizsgálat híre. Ekkor még azt gondoltam, hogy ha követett is el hibát, az nem lehet lényeges - egy kis gond ui. mindig akad az adatokkal  egy empirikus vizsgálatnál. 2010-ben azonban a [The Chronicle részletesen foglalkozott a vizsgálattal](http://chronicle.com/blogs/brainstorm/the-marc-hauser-affair-update/27998) és már lehetett látni hogy valami nagyon nincs rendben, a kísérletek manipulálása mellé már a plágium vádja is bekerült. Most úgy tűnik véget ért a vizsgálat, Hauser is elismerte hibáit, de ezzel egy szerintem nagyon fontos kutatási irányzat diszkreditálódott és került a margóra.**

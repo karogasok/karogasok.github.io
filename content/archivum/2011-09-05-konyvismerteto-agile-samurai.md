@@ -13,6 +13,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "agilis szoftverfejlesztés"
   - "könyvismertető"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Agile
+  - Rasmusson
+  - agile
+  - agilis
+  - Bookshelf
+  - agilista
 ---
 
 **Napjainkban egyre nagyobb teret nyer az agilis (vagy simán angolul hagyva agile) szoftverfejlesztés ezért nem árt többet tudni róla mint az amúgy kiváló angol wikipedia szócikk. A Pragmatic Bookshelf kiadó gondozásában megjelent kötet remekül és érthetően foglalja össze az alapokat. A szerző Jonathan Rasmusson a legendás [ThoughtWorks](http://www.thoughtworks.com/) csapatát erősítette sokáig, blogja a [The Agile Warrior](http://agilewarrior.wordpress.com/) pedig állandó hivatkozási pont az agilisták körében. Az egyetlen problémám a kötettel az ára (34.95 a papír ill. 22 USD a pdf kiadás ára) amit az egy délután kellemesen elolvasható kategóriában túl magas.**

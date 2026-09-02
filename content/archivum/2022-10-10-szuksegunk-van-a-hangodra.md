@@ -10,6 +10,15 @@ forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/10/10/szuksegunk-van-a-hangodra/"
 regi_cimkek_mind:
   - "beszédfeldolgozás"
+temak:
+  - Hálózatok és eszközök
+kulcsszavak:
+  - felolvasott
+  - felolvasás
+  - Koffair
+  - mikrofon
+  - voice
+  - fül
 ---
 
 A [Koffair](https://koffair.com/) projekt elnyerte a [Google News Initiative](https://newsinitiative.withgoogle.com/innovation-challenges/selected-projects/) támogatását. Ennek keretében speech to text megoldásokat fogunk fejleszteni a Tilos és a Civil Rádiók számára, hogy hangarchívumaikat kereshetővé tegyük. Ehhez a Mozilla Common Voice beszédmintáit fogjuk használni, ami lelkes önkéntesek munkáján alapul. A [Common Voice oldalán](https://commonvoice.mozilla.org/hu) bárki tud regisztrálni és mondatok felolvasásával, vagy mások által felolvasott mondatok ellenőrzésével gyarapíthatja az adathalmazt. Ezzel nem csak a Koffair projektet segíted, hanem minden olyan magyar nyelvű projektet, ami hangalapú asszisztív technológiát használna (felolvasó szoftverek, hanginterfészek, stb.) Ha csak egy mondatot olvasol fel és/vagy ellenőrzöl, már azzal is segítettél. Ha naponta csak öt percet áldozol az idődből erre, azzal hatalmasat segítesz mindenkinek! Alább mutatjuk, hogyan is működik ez.

@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - LinkedIn
+  - Big
+  - tutorial
+  - regisztrál
+  - csoport
+  - Data
 ---
 
 **Összevont lapszemle! Ahogyan már meghirdettük meetup és tutorial júliusban. Big data a humán- és társadalomtudományokban és egyebek, hogy a hétvégén is legyen mit olvasni.**

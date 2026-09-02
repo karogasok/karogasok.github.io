@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "book review"
   - "information diet"
   - "könyvismertető"
+temak:
+  - Korpuszépítés és annotáció
+kulcsszavak:
+  - obesity
+  - Johnson
+  - consume
+  - Pomodoro
+  - practical
+  - information
 ---
 
 **According to Johnson there is no such thing as information overload. Rather, we consume junk information produced by content farms. He proposes conscious consumption of information which is not about consuming less, but developing a balanced and healthy habit just like when you go on diet. Although, I don't agree with every word of it, I really enjoyed reading the book as it is full of stories and clear descriptions of various scientific studies.**

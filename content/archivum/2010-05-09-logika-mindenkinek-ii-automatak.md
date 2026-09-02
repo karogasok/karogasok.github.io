@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "formális nyelvek"
   - "logika"
   - "számítógépes nyelvészet"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - automata
+  - filosz
+  - tudor
+  - tálal
+  - matekos
+  - érkező
 ---
 
 **Sorozatom [első darabjában](http://szamitogepesnyelveszet.blogspot.com/2010/05/logika-mindenkinek-i-bevezetes.html) bevezető könyveket ajánlottam a különféle hátterű embereknek. Ebben a részben a logikával szorosan összefüggő, és történeti okok miatt is nehezen elválasztható, ún automata elmélettel foglalkozom. Olyan könyveket igyekeztem összeszedni amelyek segítenek egyfajta minimum tudás elsajátítását. A hangsúly most is azon van hogy a filozófia/logika és a nyelvészet felől érkezők találjanak olyan könyveket melyek segíthetnek nekik. Persze nem szabad elfeledkeznem arról hogy akadnak programozó/programtervező informatikus olvasóim is, így röviden nekik is ajánlok egy könyvet majd.**  

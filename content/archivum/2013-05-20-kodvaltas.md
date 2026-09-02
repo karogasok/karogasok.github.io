@@ -14,6 +14,12 @@ regi_cimkek_mind:
   - "code switch"
   - "nyelvészet"
   - "újságírés"
+temak:
+  - A szakma
+kulcsszavak:
+  - kódváltás
+  - hasonló
+  - projekt
 ---
 
 **[Kódváltásnak](http://hu.wikipedia.org/wiki/Szerkeszt%C5%91:Eino81/K%C3%B3dv%C3%A1lt%C3%A1s) nevezzük amikor egy beszélő különböző nyelvek vagy nyelvváltozatok között vált bizonyos okok miatt. Az [NPR](https://en.wikipedia.org/wiki/NPR) érdekes projektbe vágott, mely neve [Code Switch](http://www.npr.org/blogs/codeswitch/) és a szélesebb értelembe vett kódváltással kapcsolatos tartalmakat közölnek a szerkesztők.**

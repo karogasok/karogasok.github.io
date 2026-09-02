@@ -13,6 +13,11 @@ regi_cimkek:
 regi_cimkek_mind:
   - "blog"
   - "scribefire"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - sikerül
+  - oldal
 ---
 
 **Eddig a Drivel-nevű blogszerkesztőt használtam, ami egészjó, most a [ScribeFire](http://www.scribefire.com/) nevű Firefox kiegészítőre tértem át.**  

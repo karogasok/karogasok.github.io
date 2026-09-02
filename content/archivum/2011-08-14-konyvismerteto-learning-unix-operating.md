@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "linux"
   - "unix"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - nix
+  - multitasking
+  - fura
+  - Windows
+  - Unix
+  - szán
 ---
 
 **Sok remek, ingyenesen elérhető *nix tutorial található a neten, a legtöbben ezek használatával tanultuk meg az alapokat, azonban ezeknek van egy kis "hibája"; nem felhasználóbarátok. Nem arról van szó hogy pontatlanságok lennének bennük, hanem épp ellenkezőleg, gyakran túl sok információt közölnek, nincs megszűrve az anyag és nem egységesek abban hogy milyen hátterű olvasónak szánták. A most ajánlott könyvön érződik a gondos szerkesztői munka, tényleg kezdőbarát és érthető, egyedüli problémája hogy bizonyos részei felett eljárt már az idő.**

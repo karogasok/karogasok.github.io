@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "nyelvfilozófia"
   - "szemantika"
   - "tudományfilozófia"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - pdf
+  - Tarski
+  - Straws
+  - Bar-Hillel
+  - Austin
+  - Hempel
 ---
 
 **Habár én személy szerint nagyon szeretem a filozófiát, Feyerabend nézetét osztom mely szerint nem a tudomány iránt érdeklődő filozófusokra, hanem a filozófiára nyitott tudósokra van inkább szükségünk. Ennek szellemében most a [Nyelvfilozófia - a nemzeti minimum](http://szamitogepesnyelveszet.blogspot.com/2010/04/nyelvfilozofia-nemzeti-minimum.html) poszt után a neten ingyenesen elérhető szövegeket ajánlok; nem hosszú könyveket, hanem rövidebb írásokat melyek körvonalaznak bizonyos problémákat, jelzik hogy nem minden fekete vagy fehér és nem utolsó sorban így vagy úgy de megváltoztatták a világot.**

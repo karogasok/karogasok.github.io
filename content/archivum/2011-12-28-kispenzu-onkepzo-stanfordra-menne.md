@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "online képzés"
   - "tanulás"
   - "önképzés"
+temak:
+  - Kurzusok és önképzés
+kulcsszavak:
+  - class
+  - instruktor
+  - Shoham
+  - Octave
+  - feliratkozik
+  - kínálat
 ---
 
 **A Stanford Engineering Everywhere program már régóta elérhetővé teszi a világ egyik legjobb (sőt, szerintem a legjobb) egyetemének kurzusait (a kínálat megtekinthető [itt](http://see.stanford.edu/see/courses.aspx)). Ez a rendszer nagyon hasonlít az MIT híres [Open Courseware](http://ocw.mit.edu/index.htm) programjához, az előadások jegyzetei letölthetőek, sok esetben maguk az előadások képanyagai is felkerülnek a netre és mindenki kedvére nézegetheti azokat. Azonban a Stanford idén tovább lépett és rendezettebb formában "kínálta" gépi tanulás,  mesterséges intelligencia és adatbázisok kurzusait. Nem sokára pedig még több órára járhatunk virtuálisan, készíthetünk házikat,stb. - mindezt  ingyen. Ha egy kicsit a zsebünkbe nyúlunk, erről papírunk is lehet.**

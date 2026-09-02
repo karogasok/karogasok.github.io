@@ -14,6 +14,14 @@ regi_cimkek:
 regi_cimkek_mind:
   - "meetup"
   - "nlp meetup"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - Prezi
+  - p
+  - Senior
+  - Zolta
+  - Data
 ---
 
 **Our new speaker is Zoltan Toth. Zoltan is a Senior Data Scientist at [Prezi](http://prezi.com/) (the flagship of the Hungarian startup scene) and he is going to speak about his experiences with Pig.**

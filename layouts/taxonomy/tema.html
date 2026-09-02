@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{- /* Themes come from the topic model in analysis/, not from hand-tagging, so
+       a hub has two things the tag hubs do not: the writings that have pages
+       here, and the ones that do not — Kereső Világ leads and media entries,
+       which live in data/temak.yaml because they have no front matter to hold
+       a taxonomy term.
+
+       Same two modes as the tag hubs: prose in _index.md turns the page into an
+       essay with a reading list; without it, it is a plain list. */ -}}
+{{- $isHub := ne (len (.Content | plainify | strings.TrimSpace)) 0 -}}
+{{- $theme := false -}}
+{{- range site.Data.temak }}{{ if eq .nev $.Title }}{{ $theme = . }}{{ end }}{{ end }}
+<div class="listing{{ if $isHub }} is-hub{{ end }}">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+    {{- if and $theme (not $theme.ellenorizve) }}
+    <p class="tema-note">{{ i18n "tema.unreviewed" }}</p>
+    {{- end }}
+  </header>
+
+  {{- if $isHub }}
+  <div class="prose hub-intro">{{ .Content }}</div>
+  {{- end }}
+
+  {{- with .Pages }}
+  <h2 class="hub-list-heading">{{ i18n "tema.posts_here" }} <span class="archive-year-n">{{ len . }}</span></h2>
+  <ol class="post-list{{ if not $isHub }} is-dense{{ end }}">
+    {{- range .ByDate.Reverse }}{{ partial "post-item.html" . }}{{ end }}
+  </ol>
+  {{- end }}
+
+  {{- with $theme }}{{ with .kulsok }}
+  <h2 class="hub-list-heading">{{ i18n "tema.elsewhere" }} <span class="archive-year-n">{{ len . }}</span></h2>
+  <ol class="post-list is-dense tema-list">
+    {{- range . }}
+    <li class="post-item{{ if .link }} is-external{{ end }}">
+      {{- if .link }}
+      <a class="post-item-link" href="{{ .link }}" rel="noopener">
+        <span class="post-item-date">{{ with .ev }}{{ . }} · {{ end }}{{ .forras }}</span>
+        <span class="post-item-title">{{ .cim }}</span>
+      </a>
+      {{- else }}
+      {{- /* The lost recordings: still part of the theme, but there is nothing
+             to link to, so they are listed without a dead link. */ -}}
+      <span class="post-item-date">{{ with .ev }}{{ . }} · {{ end }}{{ .forras }}</span>
+      <span class="post-item-title">{{ .cim }}</span>
+      {{- end }}
+    </li>
+    {{- end }}
+  </ol>
+  {{- end }}{{ end }}
+</div>
+{{ end }}

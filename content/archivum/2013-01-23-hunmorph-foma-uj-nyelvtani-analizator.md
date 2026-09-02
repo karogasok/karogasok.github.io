@@ -13,6 +13,14 @@ regi_cimkek_mind:
   - "morfológia"
   - "nyelvtani analizátor"
   - "nyelvtani generátor"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - foma
+  - támogat
+  - magyar
+  - eszköz
+  - használ
 ---
 
 Köszönjük Eleonórának hogy eljutatta hozzánk a hírt, egyben gratulálunk a fejlesztéshez!  

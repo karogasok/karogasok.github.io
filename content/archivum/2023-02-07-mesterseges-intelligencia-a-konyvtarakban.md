@@ -8,6 +8,12 @@ archiv: true
 forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2023/02/07/mesterseges-intelligencia-a-konyvtarakban/"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - ÁJK
+  - ELTE
+  - munka
 ---
 
 2023 február 22-én, 17 órakor az ELTE ÁJK B épületében, a Kecskeméti utca 10. szám alatt található B/3 előadóban tartjuk kerekasztal-beszélgetésünket a mesterséges intelligencia egyik legkézzelfoghatóbb eszközéről, a ChatGPT-ről. Vajon elveszi a munkánkat? Egyáltalán alkalmas a mindennapi használatra? Mi kell ahhoz, hogy ki tudjuk használni a munkánk során ezeket a lehetőségeket? Erre próbálja megkeresni a válaszokat vendégeinkkel, Balázs Lászlóval (FSZEK), Mikulás Bencével (automatizálással és adattranszformációval foglalkozó IT szakember) és Varjú Zoltánnal (természetes nyelvfeldogozási (NLP) szakértő) a moderátor, Takács Dániel (ELTE ÁJK Kari Könyvtár).

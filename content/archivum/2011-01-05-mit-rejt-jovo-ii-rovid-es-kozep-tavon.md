@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/mit-rejt-jovo-ii-rovid-es-kozep-tavon.html"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - diagrammatikus
+  - képviseleti
+  - demokrácia
+  - preferencia
+  - megegyezés
+  - közelmúlt
 ---
 
 **Előző posztunkban vetettünk egy pillantást a közelmúltra, most pedig áttekintjük hogy a közeli jövőben mit várhatunk. Már napjainkban is elindultak azok a kísérletek melyek megpróbálják emészthetővé és kezelhetővé tenni a minket elárasztó információkat és ezek alapján próbáljuk megtippelni mit hozhat az előttünk álló évtized.**  

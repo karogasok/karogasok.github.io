@@ -19,6 +19,15 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "statisztika"
   - "számítógépes nyelvészet"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - Norvig
+  - tanuláselmélet
+  - offspring
+  - megalkot
+  - szabály-alapú
+  - algoritmikus
 ---
 
 **Peter Norvig a Google tudományos guruja, a legszélesebb körben használt mesterséges intelligencia tankönyv szerzője, a NASA volt kutatója, a Lisp közösség csodált vezéregyénisége tegnap úgy érezte [hozzá kell szólnia](http://norvig.com/chomsky.html) Chomsky megjegyzéséhez, amiről már a [Chomsky és a statisztika](http://szamitogepesnyelveszet.blogspot.com/2011/05/vissza-jovobe-avagy-miert-veszitett.html) írásunkban szóltunk. Norvig érvei súlyosak, és bevallom nem akarom mentegetni Chomsky megjegyzését - amit nem is tudok hova tenni, én sokkal inkább úgy gondolom hogy a cikk írója nem értett valamit, vagy az öreg unta már a konferenciázgatást - de úgy gondolom hogy csúsztatás figyelhető meg az érvekben.**

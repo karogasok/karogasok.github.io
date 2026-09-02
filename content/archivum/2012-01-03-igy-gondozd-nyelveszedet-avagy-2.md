@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "paradigma"
   - "tudományfilozófia"
   - "így gondozd"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - E1
+  - E2
+  - X1
+  - ti.
+  - fejlődési
+  - előfeltevés
 ---
 
 **Az [előző posztban](http://szamitogepesnyelveszet.blogspot.com/2011/12/igy-gondozd-nyelveszedet-avagy.html) megismerkedtünk a paradigma fogalmával és megállapítottuk hogy a nyelvészetben egyszerre van jelen több (egymásnak akár ellent is mondó) elmélet. Most áttekintjük mit mondanak nekünk a különböző tudományfejlődési modellek a "rendes tudományokról". Mindezt pedig azért hogy megnyugtassuk magunkat azzal hogy a látszólagos káosz mögött mégis csak van valami rendezettség.**

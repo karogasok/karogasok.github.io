@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "pszichológia"
   - "viselkedésökonómia"
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - megtakarítási
+  - FTR-
+  - gazdag
+  - Chen
+  - hajlandóság
+  - Boroditsky
 ---
 
 **A nyelvi relativizmus kérdésében én radikális álláspontot képviselek, röviden szerintem nincs ilyen (vagy jobban mondva a nyelven kívüli dolgok miatt vannak bizonyos jelenségek amik kognitív szinten eltéréseket okozhatnak) de hát ez csak egy vélemény. Viszont megrökönyödve olvastam a hírt hogy Keith Chen viselkedésökonómus szerint azon nyelvek beszélői melyek nem bonyolítják túl a jövőidőt (pl. kínai, de nekem rögtön a magyar jutott eszembe!) sokkal nagyobb megtakarítási hajlandósággal rendelkeznek.**

@@ -10,6 +10,10 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/02/hanyagolom-blogom.html"
 regi_cimkek_mind:
   - "hanyag"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - nap
 ---
 
 Nagy volt a lelkesedésem. Szeretek blogot olvasni, jobban mondva úgy négy éve szerettem, aztán hanyagoltam, a végén megint rákaptam.  

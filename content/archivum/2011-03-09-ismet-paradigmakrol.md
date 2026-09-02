@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "filozófia"
   - "korpusznyelvészet"
   - "nyelvészet"
+temak:
+  - Paradigmák és nyelvelméletek
+kulcsszavak:
+  - helytelen
+  - Gibson
+  - Fedorenko
+  - ítélet
+  - alany
+  - Culicover
 ---
 
 **Úgy tűnik tegnapi posztomra többen reagáltak, köszönöm szépen a leveleket (de megjegyezném hogy lehet kommentelni is ám!). Ugyanakkor elkövettem egy hibát, adottnak vettem hogy mindenki ismeri az általam csak gondolatindítónak említett vitát. Ezért most rövide összefoglalnám Gibson és Fedorenko érveit a grammatkalitási ítéletek ellene, ill Culicover és Jackendoff ellenérveit, no meg egy kicsit kiegészíteném a saját gondolataimmal a dolgot.**  

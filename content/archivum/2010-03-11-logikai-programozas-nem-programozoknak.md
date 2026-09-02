@@ -20,6 +20,15 @@ regi_cimkek_mind:
   - "prolog"
   - "számítógépes nyelvészet"
   - "tanulás"
+temak:
+  - Kurzusok és önképzés
+kulcsszavak:
+  - Prolog
+  - Clocksin
+  - prolog
+  - Mellish
+  - évszám
+  - oldalt
 ---
 
 **Azok akiknek az alapmotivációja maga a programozás, az informatika szeretete és/vagy a puszta érdeklődés, sokkal könnyebb elsajátítani egy programozási paradigmát. Miért? Nem tudom pontosan, de talán azért mert nekik a kontextus adott, egy új dolog tanulása maga a kontextus. A tanulás pedig már csak ilyen, kontextus függő. De mi legyen azokkal akik máshonnét közelítik meg a dolgot?**  

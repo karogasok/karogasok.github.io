@@ -17,6 +17,15 @@ regi_cimkek_mind:
   - "kezdő"
   - "szabd szoftver"
   - "tanulás"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Scratch
+  - követel
+  - programoz
+  - szereplő
+  - megtanul
+  - környezet
 ---
 
 A programozás - legalábbis az én véleményem szerint - ma már nem egy valami különös, távoli szakma, hanem egy lassan de biztosan egy eszköz. Egyre több szakma magas színvonalú művelése követeli meg hogy alapszinten tudjon a szakember programozni. A kezdő lépések megtételében segíthet az [Lifelong Kindergarten :: MIT Media Lab ](http://bit.ly/c3unEo)által 8-16 évesek számára kifejlesztett [Scratch](http://bit.ly/bIoiKp) programozási környezet idősebbeknek is.  

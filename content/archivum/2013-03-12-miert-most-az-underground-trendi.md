@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "Google"
   - "innováció"
   - "kutatás"
+temak:
+  - Startup és termékfejlesztés
+kulcsszavak:
+  - innovatív
+  - impact
+  - team
+  - Products
+  - difﬁcult
+  - advances
 ---
 
 **Nem tudom mi számít innovatívnak ma. Pont tegnap került a kezembe - vagy inkább a képernyőmre - [a Google kutatási kultúrájáról egy tanulmány](http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//pubs/archive/38149.pdf). Maga az írás nem olyan nagy szám szerintem, nyilván van benne egy nagy adag önfényezés és hát a tudomány- és tudásszociológia közhelye szerint magunkat nem tudjuk objektíven megítélni, de nagyon megfogott az, miképp látják az alkalmazott/ipari kutatás lényegét.**

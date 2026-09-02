@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "NLP matiné"
   - "meetup"
   - "nlp meetup"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - bemutatkozó
+  - ötperces
+  - zoltan.varju(kukac)gmail.com
+  - nyelvtechnológiai
+  - jelentkezik
+  - nyugodt
 ---
 
 Közeledik októberi meetupunk! Kicsit rendhagyó módon most rövid, ötperces intézmény/céges bemutatkozókat várunk - jelentkezni a zoltan.varju(kukac)gmail.com címen lehet. A meetup célja hogy a számítógépes nyelvészettel foglalkozó, ill. a nyelvtechnológiai megoldások iránt (potenciális) felhasználóként érdeklődő cégek és intézmények bemutatkozhassanak egymásnak és a közönségnek. Ez az az alakalom amikor nyugodtan hozhatsz magaddal céges ismertetőket, egy raklapnyi névjegyet, sőt nyugodtan megemlítheted ha munkatársat vagy éppen partnert keresel. **A részvétel ingyenes (mint midig), létszámkorlát nincs, de arra kérünk mindenkit hogy [a rendezvény oldalán regisztráljon és jelezze hogy jön-e vagy nem](http://www.meetup.com/Hungarian-nlp/events/81688562/).** Köszönet főszponzorunknak a [Weblib Kft](http://www.weblib.hu/).-nek és médiapartnerünknek a [nyest.hu](http://www.nyest.hu/)-nak. A még nem végleges program:

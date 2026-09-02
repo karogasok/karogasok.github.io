@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - DNA
+  - MapReduce
+  - Computing
+  - interjú
+  - óra
+  - meetup
 ---
 
 **Jön a meetup, az eurocentrikus személet már a mobilnet terén is gáz, DNA computing, MapReduce algoritmusok. Ja és [hétvégre](http://bit.ly/I7FzHK) :D**

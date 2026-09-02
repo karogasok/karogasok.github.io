@@ -10,6 +10,15 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/08/elindult-goldenblog.html"
 regi_cimkek_mind:
   - "Goldenblog 2011"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - mezőny
+  - keleti
+  - szavaz
+  - szavazat
+  - szakértői
+  - sunt
 ---
 
 **... és lehet ránk is szavazni [itt](http://goldenblog.hu/) az IT kategóriában. Végigbogarászva a mezőnyt sok érdekes új blogra találtam. Úgy tűnik hogy az IT-b belül a mobilos és a kütyü blogok vannak többségben, az egyéb kategóriákban pedig igazi gyöngyszemekre akadtunk. Természetesen örülünk ha ránk szavazna a kedves olvasó, azonban úgy gondoljuk érdemes másokra is felhívni a figyelmet.**

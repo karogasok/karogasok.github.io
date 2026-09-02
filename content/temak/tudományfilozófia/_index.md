@@ -1,0 +1,5 @@
+---
+title: Tudományfilozófia
+slug: tudomanyfilozofia
+---
+

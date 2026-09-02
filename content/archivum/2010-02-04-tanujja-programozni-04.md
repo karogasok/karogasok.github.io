@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/02/tanujja-programozni_04.html"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Ruby
+  - Scheme
+  - sajna
+  - Structure
+  - programozós
+  - érdekeset
 ---
 
 Ezer és egy hanem millió forrásból lehet elkezdeni tanulni. És soha sem késő! Én "öreg fejjel" vágtam bele a lecsóba és szerintem egész jól haladok. Íme az én szubjektív kalauzom.  

@@ -15,6 +15,11 @@ regi_cimkek_mind:
   - "NLP matiné"
   - "meetup"
   - "nlp meetup"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - nyelvtechnológiai
+  - cég
 ---
 
 **Október 19-én tartjuk első NLP matinénkat, melynek célja hogy a nyelvtechnológiai cégek röviden bemutatkozhassanak egymásnak, a potenciális ügyfeleiknek és természetesen a nagyérdeműnek. [Regisztálj a meetup oldalon](http://www.meetup.com/Hungarian-nlp/events/81688562/), ha szeretnél részt venni!** A program dióhéjban:

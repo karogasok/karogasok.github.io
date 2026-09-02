@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "R"
   - "online kurzus"
   - "statisztikai programozás"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - lecke
+  - elvégzés
+  - tanuló
+  - kurzus
+  - végez
+  - út
 ---
 
 [<span class="lost-media">Hiányzó kép: <a href="http://2.bp.blogspot.com/-ucAGs4k3EDk/UMG1AUaG2fI/AAAAAAAAA_g/4cqGkgEiSBA/s320/tryR.png" rel="nofollow noopener">tryR.png</a></span>](http://2.bp.blogspot.com/-ucAGs4k3EDk/UMG1AUaG2fI/AAAAAAAAA_g/4cqGkgEiSBA/s1600/tryR.png)

@@ -11,6 +11,15 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2012/05/konyvlista.html"
 regi_cimkek_mind:
   - "könyvek"
   - "könyvlista"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - átrág
+  - pandas
+  - Seven
+  - Practice
+  - Action
+  - cucc
 ---
 
 Úgy döntöttem kiteszem a blogra ezentúl hogy mit olvasok éppen, ill. mi érdekel.  

@@ -15,6 +15,12 @@ regi_cimkek_mind:
   - "Freakonomics"
   - "big data"
   - "filmajánló"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - Freakonomics
+  - remek
+  - adat
 ---
 
 **Térdig gázolunk a big datában, de sokszor úgy tűnik hogy az adatok begyűjtése mellett elsikkad a kreatív elemzés. A társadalomtudományoktól van mit tanulnunk ezen a téren. Levitt és Dubner sikerkönyve a [Freakonomics ](http://www.amazon.com/Freakonomics-Economist-Explores-Hidden-Everything/dp/0060731338/ref=sr_1_1?ie=UTF8&qid=1347004541&sr=8-1&keywords=freakonomics)és annak folytatása a [SuperFreakonomics](http://www.amazon.com/SuperFreakonomics-Cooling-Patriotic-Prostitutes-Insurance/dp/0060889586/ref=sr_1_2?ie=UTF8&qid=1347004541&sr=8-2&keywords=freakonomics) remek példája annak miképp is lehet az adatokból érdekes válaszokat kinyerni. A dokumentumfilm nagyon élvezetesen mutatja be ezt a folyamatot, de természetesen nem megy bele annyira a részletekbe mint a könyv. Hétvégére viszont remek néznivaló a Freakonomics! Nem maradunk nyelvi vonatkozások nélkül sem, a nevek és az éves jövedelem közötti összefüggések vizsgálata minden szociolingvisztika iránt érdeklődő kolléga szívét meg fogja dobogtatni.**

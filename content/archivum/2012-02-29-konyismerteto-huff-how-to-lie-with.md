@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "Darrell Huff"
   - "How to Lie with Statistics"
   - "könyvismertető"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - critical
+  - megáll
+  - thinking
+  - Quantitative
+  - előfeltevés
+  - átlag
 ---
 
 **Ahogy egy kedves olvasó csipkelődve megjegyezte a minap, lassan statisztika bloggá válik a Számítógépes nyelvészet. Ettől nem kell félni, de tény hogy tudományunkban egyre nagyobb szerepe van a statisztikának, sőt a "hagyományos" nyelvészetben sem mehetünk el mellette. Ez a kis könyv nem ígér mást mint hogy megmutatja hogyan vezethetnek minket félre a statisztika leplébe öltözött jelenségek. Minimális matematikai ismeretek (kb. általános iskolai szint) és közepes angol nyelvtudással követhető az írás és habár önmagában is megáll, legjobban talán mint amolyan motiváló elő- vagy kiegészítő olvasmány szolgálja a tudásra éhes tömegeket.**

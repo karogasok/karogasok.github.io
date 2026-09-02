@@ -12,6 +12,15 @@ regi_cimkek:
   - "R"
 regi_cimkek_mind:
   - "R"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - Sweave
+  - Graphics
+  - ggplot2
+  - ProjectTemplate
+  - developed
+  - egyedi
 ---
 
 **Sokan írtak nekünk mostanában hogy elveszve érzik magukat az R nyelv elsajátítása során. Sajnos hiány van a kezdők számára íródott és a könyvek/tutorialok és a "magasabb" szintű irodalom között. Ezen a legtöbben úgy lépnek túl hogy mire túljutnak a bevezető műveken már szert tesznek pár ismerősre, bekapcsolódnak a nyelv köré szerveződött közösség életébe és másoktól sajátítja el a szükséges ismereteket. Hazánkban sajnos ez nem megy olyan könnyen, ezért most pár tippet adunk arra miként induljon el a kedves olvasó.**

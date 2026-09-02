@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "kurzus"
   - "nlp"
   - "nyelvmodellek"
+temak:
+  - Hálózatok és eszközök
+kulcsszavak:
+  - notebook
+  - Docs
+  - mappa
+  - Jupyter
+  - repo
+  - nyelvmodell
 ---
 
 Múlt héten Kolozsvárott jártunk és egy kurzust tartottunk a nyelvmodellekről az MCC diákjainak. A posztban elérhetők diáink, a kapcsolódó modellek, repo és Colabon futtatható Jupyter notebookok.

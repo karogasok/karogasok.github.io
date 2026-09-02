@@ -13,6 +13,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "informatika"
   - "könyvismertető"
+temak:
+  - Kurzusok és önképzés
+kulcsszavak:
+  - képregény
+  - volatilis
+  - Cartoon
+  - illusztrátor
+  - hardver
+  - informatika
 ---
 
 **Sajnos hazánkban a képregény műfaja elhanyagolt, sokan nem tudják hova tenni, pedig ha jó érzékkel nyúl hozzá egy szerző egy témához (és jó illusztrátor vagy jó illusztrátorral dolgozik együtt), akkor csodák születhetnek. Felejtsük el hogy csak a gyerekeknek szólnak a képregények, hogy nem lehet elmesélni egy egy érdekes történetet vagy bemutatni valamit ebben a műfajban. A Cartoon Guide to the Computer a képregényes ismeretterjesztés egyik legjobb darabja! Természetesen az olvasó nem fogja elsajátítani az alapokat elolvasása során, azonban olyan fogódzókat kap, melyek segítik elindulni az informatika világának felfedezésében.**

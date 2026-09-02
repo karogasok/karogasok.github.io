@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "gépi tanulás"
   - "könyvismertető"
   - "python"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - indukció
+  - Reasoning
+  - villamosmérnök
+  - jelfeldolgozás
+  - tanuláselmélet
+  - nyers
 ---
 
 **Manapság a gépi tanulás (leánykori nevén statisztikai tanuláselmélet) egyre elterjedtebb, érthető hát az igény arra hogy egy minnél közérthetőbb könyv segítségével ismerkedhessen meg alapfogalmaival a nagyérdemű. Nem szabad azonban összetéveszteni a bevezetést az ismeretterjesztéssel! Tudjuk hogy a matematikához (és a formális elméletekhez) nincs királyi út, mivel azonban a gépi tanulás már rég olyan területek ajtaján kopogtat mint a társadalomtudományok és a digitális bölcsészet szükség van egy könnyen emészthető bevezető könyvre. A most bemutatásra kerülő kötet ennek teljesen meg is felel, bónuszként pedig szabadon letölthető a nyomtatás előtti nyers verziója.**

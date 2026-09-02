@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "Udacity"
   - "edX"
   - "tanulás"
+temak:
+  - Kurzusok és önképzés
+kulcsszavak:
+  - kurzus
+  - Thrun
+  - edX
+  - Coursera
+  - Sebastian
+  - tananyag
 ---
 
 **Több mint nyolcvan levelet kaptunk amiben a mostanában indult különféle ingyenes online kurzusok felől érdeklődtek a kedves olvasók. Mivel a kínálat immár zavarba ejtően széles, megértjük hogy gondot okozhat a megfelelő szintű és minőségű kurzus kiválasztása. Sorozatunk első részében először áttekintjük a kínálatot, majd az általunk legkezdőbarátabbnak ítélt Udacity kurzusaival foglalkozunk bővebben.**

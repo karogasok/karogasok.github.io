@@ -11,6 +11,15 @@ canonical: "https://blog.crowintelligence.org/hu/2022/12/19/jovonk-a-robotok-kor
 regi_cimkek_mind:
   - "ai"
   - "könyv"
+temak:
+  - Mesterséges intelligencia
+kulcsszavak:
+  - Ford
+  - technológiai
+  - demokratikus
+  - kihívás
+  - robot
+  - állam
 ---
 
 Hogyan alakítja át a mindennapjainkat a mesterséges intelligencia? Milyen társadalmi és etikai kihívások elé állít minket a technológiai fejlődés? Hogyan tudnak a demokratikus társadalmak erre reagálni? Ezekre a kérdésekre keresi Martin Ford legújabb könyve a választ.

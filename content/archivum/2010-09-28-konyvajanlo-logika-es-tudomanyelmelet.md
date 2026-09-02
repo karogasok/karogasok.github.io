@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "kezdő"
   - "könyv"
   - "logika"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - fejtörő
+  - Smullyan
+  - paradoxon
+  - Gödel-tétel
+  - rejtély
+  - Raymond
 ---
 
 Szépfalussy Enikő vendégposztja  

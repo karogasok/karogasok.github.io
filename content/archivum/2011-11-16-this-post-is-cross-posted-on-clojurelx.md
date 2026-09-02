@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "Clojure"
   - "linguistics"
   - "manifesto"
+temak:
+  - A szakma
+kulcsszavak:
+  - ideas
+  - "We'd"
+  - common
+  - Classic
+  - PAIP
+  - linguists
 ---
 
 This post is cross-posted on [clojurelx](http://clojurelx.blogspot.com/), a new project blog

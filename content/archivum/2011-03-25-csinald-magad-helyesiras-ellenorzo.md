@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "helyesírás-ellenőrző"
   - "python"
   - "számítógépes nyelvészet"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - big.txt
+  - fájl
+  - correct
+  - helyesírás
+  - oszlop
+  - wordcount.txt
 ---
 
 **[Peter Norvig](http://bit.ly/eWKvK3) nagy sikerű esszéjét követve most saját helyesírás ellenőrzőt fogunk készíteni, mégpedig a Google megszokott javaslatainak mintájára. Ehhez viszont mi nem használjuk fel A magyar helyesírás szabályait, sőt semmilyen szabályt nem fogunk követni! Az adatok fognak minket vezetni utunkon. Itt nem törünk a kereskedelmi forgalomban és ingyenesen elérhető szoftverek babérjaira, csak az alapelveket szeretnénk bemutatni és egy kicsit bátorítani szeretnénk az olvasót hogy vágjon bele a programozás világába akkor is ha csak kevés előismerettel rendelkezik a területen.**

@@ -20,6 +20,15 @@ regi_cimkek_mind:
   - "filozófia"
   - "narráció"
   - "újmédia"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - médium
+  - lineáris
+  - újmédia
+  - leader
+  - kibontás
+  - mesélő
 ---
 
 **Sorozatunkban továbbra is azt kutatjuk hogy miképp hat a digitális kor a Guttenberg-galaxisra. Nem a táblagépek és ekönyv olvasók harcáról fogunk szólni, hanem valami sokkal mélyebb dologról, arról miképp hat az új kor az íróra és az olvasóra. Az előző posztokban már foglalkoztunk azzal hogy a [digitális korban hogyan néz ki egy szótár](http://bit.ly/e3tbGy) és mire jó azon kívül hogy egy-egy szó definícióját megadja, továbbá [megvizsgáltuk hogy az adatok kora milyen kihívásokkal jár ](http://bit.ly/e2Qkxq)és milyen válaszok születtek erre. Most egy kicsit visszaveszünk a technikából és jó bölcsészekhez híven arra fókuszálunk hogy miképp viszonyulunk az új médiumhoz ill. miképp alakítja át ez narrációs technikáinkat.**

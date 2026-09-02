@@ -15,6 +15,15 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "predikció"
   - "vespignani"
+temak:
+  - Tudományfilozófia
+kulcsszavak:
+  - Vespignani
+  - etikai
+  - barabási
+  - technológiai
+  - mindennap
+  - AI
 ---
 
 Nincs olyan technológiai fórum manapság, ahol el ne hangozna, hogy az adatok korában élünk, a mesterséges intelligencia pedig beköltözött a mobiltelefonjainkba, sőt az AI megkerülhetetlen része mindennapjainknak. Na, de mi is pontosan az a big data? Hogy jön a mesterséges intelligenciához? Mire való napjaink technológiai őrülete? Vespignani *A jóslás algoritmusá*ban közérthetően válaszol ezekre az alapkérdésekre és részletesen elmagyarázza, hogyan alakult ki ez a korszakalkotó "irányzat". Barabási Albert-László mellett mi is jó szívvel ajánljuk ezt az olvasmányt.

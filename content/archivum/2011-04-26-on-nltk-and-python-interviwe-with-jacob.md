@@ -20,6 +20,15 @@ regi_cimkek_mind:
   - "natural language processing"
   - "nltk"
   - "python"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - developers
+  - nltk
+  - demos
+  - functional
+  - NLTK
+  - Custom
 ---
 
 **Getting into natural language processing has never been easier these days thanks to the popular [natural language toolkit](http://www.nltk.org/) (nltk). Python, nltk and even the book that teaches you nlp are free! Although nltk was designed by its creators with pedagogical considerations, Jacob Perkins ([@japerk](http://twitter.com/#%21/japerk)) showed with his nltk demos that it can serve as a serious API. His blog [http://streamhacker.com](http://streamhacker.com/) has become a standard source of tips and hacks for nltk users, and his ["Python Text Procesing with NLTK 2.0 Cookbook"](https://www.packtpub.com/python-text-processing-nltk-20-cookbook/book) is the natural choice for everyone who wants to be a pro nlp guy.**

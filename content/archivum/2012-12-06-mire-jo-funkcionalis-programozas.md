@@ -12,6 +12,15 @@ regi_cimkek:
   - "funkcionális programozás"
 regi_cimkek_mind:
   - "funkcionális programozás"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - Haghighi
+  - Naur
+  - szerszám
+  - run-times
+  - Scala
+  - effort
 ---
 
 **Sokan úgy vannak a funkcionális programozással mint a big data-val; ízlelgetik, próbálgatják és foglalkoznak vele, mert mindenki más is ezt teszi. Alapvetően három dolog fokozta fel a paradigma iránti érdeklődést 1) a MapReduce-t a funkcionális paradigma ihlette 2) a statisztikai programozás és a gépi tanulás terén népszerű R nyelv és a mostanában különösen startupok körében elterjedt Clojure sikere 3) a párhuzamos feldolgozás elterjedése. A posztban megpróbálom körüljárni hogy tényleg jobb-e a funkcionális paradigma és hogy milyen feladatokra érdemes funkcionális nyelvet választani.**

@@ -15,6 +15,12 @@ regi_cimkek_mind:
   - "adatújságírás"
   - "inkLink"
   - "inklink 2013"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - regisztrál
+  - jegy
+  - továbbra
 ---
 
 **Az inkLink-re továbbra is [lehet regisztrálni](http://inklink2013.eventbrite.com/), de az ingyenes jegyek már elfogytak. Arra kérünk mindekit, amennyiben lehetősége van rá, támogatói jeggyel regisztráljon. Diákok, munkanélküliek és tényleg rászorulók levélben keressenek meg minket (zoltan.varju(kukac)gmail.com) ha szeretnének regisztrálni (díjmentesen regisztráljuk őket továbbra is). Április 5-én a LEG jóvoltából egy részben szponzorált sörözésre várjuk a regisztrált résztvevőket, mely keretében az előadókkal és a szervezőkkel kötetlenül is lehet egy kicsit beszélgetni. Az előadások angol nyelvűek és reményeink szerint a UStream-en is elérhetőek lesznek. A program:**

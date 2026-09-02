@@ -15,6 +15,13 @@ regi_cimkek_mind:
   - "ekönyv"
   - "keresés"
   - "mobil keresés"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - szerző
+  - kereső
+  - írás
+  - világ
 ---
 
 Elkészült végre a Kereső Mobilvilág ekönyv! A Kereső Világ posztjaira alapozva, felkért szerzők írásaival kiegészítve készítettünk egy kis tanulmánykötetet a mobil keresésre fókuszálva. A mű pdf és mobi formátumban is elérhető [itt](http://weblib.hu/kereso-mobilvilag), ill. egy beharangozó posztot olvashattaok [itt](http://kereses.blog.hu/2011/11/23/mobil_keresovilag). Én itt szeretném megragadni az alkalmat hogy köszönetet mondjak azoknak akik segítettek nekünk egy-egy írással:

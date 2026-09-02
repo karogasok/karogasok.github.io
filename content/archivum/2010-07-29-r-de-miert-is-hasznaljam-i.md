@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "R"
   - "nltk"
   - "számítógépes nyelvészet"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - követelmény
+  - teljesítmény
+  - nltk
+  - Loper
+  - bővíthetőség
+  - dizájn
 ---
 
 **Sok olvasó kérdezte miért is használjon R-t, hiszen a Python nyelv ideális nyelvészek számára, nem beszélve az nltk-ról. Senkit sem szeretnék lebeszélni megszokott eszközeinek használatáról, de vannak esetek amikor az R használata egyszerűbb, természetesebb és hatékonyabb. Most azt szeretném bemutatni miért érdemes elgondolkodni más eszközök használatáról is.**  

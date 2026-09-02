@@ -19,6 +19,15 @@ regi_cimkek_mind:
   - "nyelvelemző"
   - "számítógépes nyelvészet"
   - "vendégposzt"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - NooJ
+  - nyelvelemző
+  - szóalak
+  - elemzett
+  - szövegkörnyezet
+  - tulajdonnév
 ---
 
 VENDÉGPOSZT!

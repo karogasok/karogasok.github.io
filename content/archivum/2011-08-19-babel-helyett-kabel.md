@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "gépi fordítás"
   - "nyelvészet"
   - "számítógépes nyelvészet"
+temak:
+  - Nyelvelemző eszközök
+kulcsszavak:
+  - keretes
+  - figyelő
+  - párhuzamos
+  - számítástudomány
+  - rend
+  - kezdet
 ---
 
 **A print Figyelőben Bábel helyett kábel címmel jelent meg egy írás. Sajna kommentelni csak előfizetőknek lehet. Akinek van papír Figyelője, vagy akad hozzáférése, [erről a cikkről](http://www.figyelo.hu/20110817/babel_helyett_kabel/) van szó.**

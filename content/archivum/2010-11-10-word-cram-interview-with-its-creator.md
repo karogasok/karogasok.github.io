@@ -14,6 +14,15 @@ regi_cimkek_mind:
   - "interview"
   - "text visualization"
   - "wordcram"
+temak:
+  - A szakma
+kulcsszavak:
+  - WordCram
+  - Wordle
+  - "I'd"
+  - Letters
+  - Scattered
+  - wordcram
 ---
 
 **This week we interviewed Dan Bernier, the creator of [WordCram](http://bit.ly/bRq2ZR). Dan runs a nice blog, the [Invisible Blocks](http://bit.ly/8YLsOC), and you can find him on twitter as [@danbernier](http://bit.ly/9S4j21), if you want to get info on WordCram, follow [@wordcram](http://bit.ly/bpasqE).**  

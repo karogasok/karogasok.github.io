@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "könyvismertető"
   - "lean startup"
+temak:
+  - Startup és termékfejlesztés
+kulcsszavak:
+  - Ries
+  - srác
+  - Startup
+  - Measure
+  - Lean
+  - Build
 ---
 
 **A legtöbben úgy képzeljük hogy egy startup pár flanelinges srác ötleteléséből születik egy kollégiumi szobában, aztán a srácok keményen dolgoznak és egyszer csak multimilliomosok lesznek. A történet akár igaz is lehet, de szeretjük elfelejteni hogy a történet gyakrabban ér véget azzal hogy vagy nem sikerül elég befektetést felhajtania a fiatal srácoknak, vagy elhasználnak (elégetnek) minden pénzt a zseniális ötletre, anélkül hogy sikerülne életképes üzletet létrehozniuk. Eric Ries Lean Startup módszere megpróbál segíteni abban hogy az ötlet életképessége mihamarabb kiderüljön és jól hasznosuljon a befektetett tőke.**

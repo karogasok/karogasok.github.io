@@ -14,6 +14,15 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - blogszünet
+  - szervez
+  - tutorial
+  - Graph
+  - Big
+  - knowledge
 ---
 
 **Itt a Google Knowledge Graph, R tutorialt szervezünk és az Economistban most big data van.**  

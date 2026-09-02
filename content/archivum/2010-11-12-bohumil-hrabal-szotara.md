@@ -18,6 +18,15 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "lexikológia"
   - "vendégposzt"
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - Hrabal
+  - írói
+  - SYN2005
+  - szókincs
+  - próza
+  - Bohumil
 ---
 
 Tempfli Péter vendégposztja

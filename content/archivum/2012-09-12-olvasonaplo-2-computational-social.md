@@ -11,6 +11,13 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2012/09/olvasonaplo-2-co
 regi_cimkek_mind:
   - "computational social science"
   - "olvasónapló"
+temak:
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - Social
+  - David
+  - Computational
+  - Science
 ---
 
 **Egyre inkább úgy gondolom hogy a számítógépes nyelvészet egyfajta szolgálóleány. Egy-egy új eljárás lényege általában az hogy valami más terület számára megnyissa az elemzés lehetőségét. Pl. a sentiment analysis, a szövegbányászat, tartalomelemzés stb. mind erről szól. Ennek alkalmazott vetülete az üzleti intelligencia és az adattudomány, valamint a marketing. Sokkal izgalmasabb és nagyobb gyakorlati haszonnal kecsegtet szerintem ha nem ezekre fókuszálunk, hanem  a társadalomtudományokra.**

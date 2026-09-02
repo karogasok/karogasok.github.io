@@ -8,6 +8,15 @@ archiv: true
 forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/10/14/segitunk-ha-adatos-szakemberre-van-szukseged/"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - támogató
+  - maximum
+  - hirdetés
+  - kiemelt
+  - levelezőlista
+  - Engineer
 ---
 
 Ha kifejezetten adatos szakembereket keresel egy pozícióra, akkor mi tudunk neked segíteni. Az [OpenNLP meetupnak](https://www.meetup.com/open-nlp/) több mint 2200 tagja van, rajtunk keresztül elérheted őket.

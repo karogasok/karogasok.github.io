@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "digitális bölcsészet"
   - "lexikológia"
   - "vendégposzt"
+temak:
+  - Korpusznyelvészet
+kulcsszavak:
+  - dictionary
+  - anxiety
+  - DH
+  - lexicographic
+  - Digital
+  - prescriptions
 ---
 
 **A guest post by Toma Tasovac**  

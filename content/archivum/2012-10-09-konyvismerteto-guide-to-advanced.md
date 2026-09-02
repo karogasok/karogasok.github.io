@@ -16,6 +16,15 @@ regi_cimkek_mind:
   - "empirical software engineering"
   - "könyvismertető"
   - "szoftverfejlesztés"
+temak:
+  - Statisztika és R
+kulcsszavak:
+  - Empirical
+  - advanc
+  - metodológiai
+  - szoftverfejlesztés
+  - software
+  - engineering
 ---
 
 **Az ún. [empirical software engineering](http://www.americanscientist.org/issues/id.13845,y.2011,no.6,content.true,page.1,css.print/issue.aspx) irányzat számomra nagyon szimpatikusan a [Manifesto for Agile Software Development](http://agilemanifesto.org/)-re hajazva a szoftvert emberi alkotásnak tekinti s úgy gondolja hogy a szoftverfejlesztés tanulmányozása során ezt a tényt figyelembe kell vennünk. Ezért a társadalom- és viselkedéstudományok módszertanára nagyon hasonlító metodológia van kibontakozóban mind az ipari, mind az akadémiai kutatók köreiben egyre gyakrabban merülnek fel metodológiai kérdések és egyre markánsabban látható az empirikus szoftverfejlesztési tanulmányok citátumaiban is ez. Kifejezetten érdekes hogy nagyon gyakran csap át egy ilyen vizsgálódás meta-elméletté, rengeteg "literature review" jelenik meg, nem ritka a kifejezetten tudományfilozófiai kérdésekkel foglalkozó írás sem (valamiért nagyon szeretik Poppert, de éppen Kuhnról felejtkeznek el, aki az ilyen zavarodottságot és meta irányultságot a kialakulóban vagy éppen hanyatlóban lévő paradigmák tünetének tartja). A Guide to Advanced Empirical Software Engineering egy alapos iparosmunka ezen a területen.**  
