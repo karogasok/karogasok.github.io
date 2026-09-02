@@ -46,6 +46,24 @@ MIN_DF = 2
 #: Below this it stays an outlier rather than being forced into a theme.
 PROBABILITY_FLOOR = 0.25
 
+#: Share of a document's membership a topic must reach to become one of its
+#: labels. Chosen after reading ``scripts/report_multilabel.py``; with 19 topics
+#: the uniform prior is 0.053, so this is a little under twice chance.
+MULTI_LABEL_FLOOR = 0.10
+
+#: Most labels one document may carry.
+MULTI_LABEL_CAP = 3
+
+#: A secondary label must also reach this fraction of the document's strongest
+#: score. Without it a diffuse membership vector — which is exactly what HDBSCAN
+#: produces for a document sitting near the noise boundary — hands three themes
+#: to a document that really has none.
+#:
+#: Measured against the strongest score rather than the primary's, because the
+#: primary usually comes from c-TF-IDF outlier reduction and frequently has a
+#: membership score of 0.00. Comparing against zero is a gate that never closes.
+MULTI_LABEL_RATIO = 0.5
+
 
 @dataclass(frozen=True)
 class TopicSummary:
@@ -181,6 +199,187 @@ def drop_stopwords(lemma_docs: Sequence[str], stopwords: Iterable[str]) -> list[
     ]
 
 
+def probability_columns(fitted: Sequence[int]) -> list[int]:
+    """Topic ids in the column order of BERTopic's probability matrix.
+
+    BERTopic drops the outlier bin from the matrix and orders the rest
+    ascending, so column *j* is the *j*-th smallest non-outlier topic id. There
+    is no getter for this; getting it wrong shifts every score by one topic and
+    the result looks like a worse model rather than a bug.
+
+    Args:
+        fitted: The topic id assigned to each fitted document.
+
+    Returns:
+        Topic ids, ascending.
+
+    Example:
+        >>> probability_columns([2, 0, -1, 2, 5])
+        [0, 2, 5]
+        >>> probability_columns([-1, -1])
+        []
+    """
+    return sorted({int(topic) for topic in fitted if topic != OUTLIER})
+
+
+def labels_above(
+    row: Sequence[float],
+    columns: Sequence[int],
+    *,
+    floor: float = MULTI_LABEL_FLOOR,
+) -> list[tuple[int, float]]:
+    """One document's topics that clear ``floor``, strongest first.
+
+    Args:
+        row: The document's membership scores, one per column.
+        columns: Topic ids, from :func:`probability_columns`.
+        floor: Minimum score. Defaults to :data:`MULTI_LABEL_FLOOR`.
+
+    Returns:
+        ``(topic_id, score)`` pairs, descending by score. Ties break towards the
+        lower topic id, which is the larger topic, so the ordering is stable.
+
+    Raises:
+        ValueError: If ``row`` and ``columns`` disagree on length.
+
+    Example:
+        >>> labels_above([0.6, 0.02, 0.15], [0, 1, 2])
+        [(0, 0.6), (2, 0.15)]
+        >>> labels_above([0.04, 0.03], [0, 1])
+        []
+    """
+    if len(row) != len(columns):
+        msg = (
+            f"row has {len(row)} scores but there are {len(columns)} topic "
+            f"columns; the probability matrix and the topic list disagree"
+        )
+        raise ValueError(msg)
+    above = [
+        (int(topic), float(score))
+        for topic, score in zip(columns, row, strict=True)
+        if score >= floor
+    ]
+    above.sort(key=lambda pair: (-pair[1], pair[0]))
+    return above
+
+
+def label_set(
+    row: Sequence[float],
+    columns: Sequence[int],
+    primary: int,
+    *,
+    floor: float = MULTI_LABEL_FLOOR,
+    cap: int = MULTI_LABEL_CAP,
+    ratio: float = MULTI_LABEL_RATIO,
+) -> tuple[list[int], list[float]]:
+    """Multi-label a document, its primary label always first.
+
+    ``primary`` is the ``topic_reduced`` label, which came from c-TF-IDF outlier
+    reduction rather than from this matrix, so it is not necessarily the argmax.
+    It leads anyway: a c-TF-IDF reassignment reads the document's own
+    vocabulary, which is better evidence than a membership vector computed in a
+    five-dimensional projection.
+
+    Args:
+        row: The document's membership scores.
+        columns: Topic ids, from :func:`probability_columns`.
+        primary: The single label already assigned, or :data:`OUTLIER`.
+        floor: Minimum score for a label. Defaults to
+            :data:`MULTI_LABEL_FLOOR`.
+        cap: Most labels to return. Defaults to :data:`MULTI_LABEL_CAP`.
+        ratio: A secondary label must reach this fraction of the strongest
+            score in ``row``. Defaults to :data:`MULTI_LABEL_RATIO`.
+
+    Returns:
+        ``(topic_ids, scores)``, primary first. A document whose primary is
+        :data:`OUTLIER` and whose scores all sit under ``floor`` gets empty
+        lists — no theme is the honest answer for a two-sentence blurb.
+
+    Example:
+        >>> label_set([0.6, 0.02, 0.4], [0, 1, 2], 0)
+        ([0, 2], [0.6, 0.4])
+
+        The ratio gate drops a label that clears the floor but is dwarfed:
+
+        >>> label_set([0.8, 0.11, 0.0], [0, 1, 2], 0)
+        ([0], [0.8])
+
+        The primary leads even when another topic scores higher:
+
+        >>> label_set([0.3, 0.5, 0.0], [0, 1, 2], 0)
+        ([0, 1], [0.3, 0.5])
+
+        >>> label_set([0.01, 0.01], [0, 1], -1)
+        ([], [])
+    """
+    above = labels_above(row, columns, floor=floor)
+    scores = dict(above)
+    ids: list[int] = []
+    if primary != OUTLIER:
+        ids.append(int(primary))
+    strongest = above[0][1] if above else 0.0
+    gate = strongest * ratio
+    for topic, score in above:
+        if len(ids) >= cap:
+            break
+        if topic in ids or score < gate:
+            continue
+        ids.append(topic)
+    return ids, [round(scores.get(topic, 0.0), 4) for topic in ids]
+
+
+@dataclass(frozen=True)
+class LabelSpread:
+    """How many labels the documents ended up carrying.
+
+    Attributes:
+        counts: Number of labels mapped to number of documents.
+        mean: Average labels per document.
+        largest: Most labels any one document carries.
+        coverage: Share of documents carrying at least one label.
+    """
+
+    counts: dict[int, int]
+    mean: float
+    largest: int
+    coverage: float
+
+
+def label_spread(label_sets: Sequence[Sequence[int]]) -> LabelSpread:
+    """Describe a multi-label assignment before anything is written.
+
+    Args:
+        label_sets: One list of topic ids per document.
+
+    Returns:
+        The spread. An empty corpus gives zeros rather than raising, because
+        this is a reporting function and a report of nothing is still a report.
+
+    Example:
+        >>> spread = label_spread([[1], [1, 2], [], [3, 4, 5], [2]])
+        >>> spread.counts[1], spread.counts[0], spread.largest
+        (2, 1, 3)
+        >>> round(spread.mean, 2), round(spread.coverage, 2)
+        (1.4, 0.8)
+        >>> label_spread([]).coverage
+        0.0
+    """
+    total = len(label_sets)
+    if total == 0:
+        return LabelSpread({}, 0.0, 0, 0.0)
+    counts: dict[int, int] = {}
+    for labels in label_sets:
+        counts[len(labels)] = counts.get(len(labels), 0) + 1
+    assigned = sum(1 for labels in label_sets if labels)
+    total_labels = sum(len(labels) for labels in label_sets)
+    return LabelSpread(
+        counts=dict(sorted(counts.items())),
+        mean=total_labels / total,
+        largest=max(len(labels) for labels in label_sets),
+        coverage=assigned / total,
+    )
+
+
 def build_model(
     *,
     min_cluster_size: int = MIN_CLUSTER_SIZE,
@@ -301,14 +500,40 @@ def assign(
     Returns:
         One topic id per document.
     """
+    return place(model, lemma_docs, embeddings, floor=floor)[0]
+
+
+def place(
+    model: BERTopic,
+    lemma_docs: Sequence[str],
+    embeddings: np.ndarray,
+    *,
+    floor: float = PROBABILITY_FLOOR,
+) -> tuple[list[int], np.ndarray]:
+    """As :func:`assign`, but keeps the probability matrix.
+
+    Args:
+        model: A fitted model.
+        lemma_docs: Space-joined lemmas.
+        embeddings: Unit-length vectors, row-aligned to ``lemma_docs``.
+        floor: Minimum probability to accept. Defaults to
+            :data:`PROBABILITY_FLOOR`.
+
+    Returns:
+        The topic ids and the probability matrix. The matrix is returned
+        untouched by ``floor`` — the floor decides the single label, while
+        multi-labelling reads the raw scores.
+    """
     if len(lemma_docs) == 0:
-        return []
+        return [], np.zeros((0, 0))
     topics, probabilities = model.transform(list(lemma_docs), embeddings)
-    strengths = _best_strength(np.asarray(probabilities), len(topics))
-    return [
+    probabilities = np.asarray(probabilities)
+    strengths = _best_strength(probabilities, len(topics))
+    assigned = [
         int(topic) if strength >= floor else OUTLIER
         for topic, strength in zip(topics, strengths, strict=True)
     ]
+    return assigned, probabilities
 
 
 def _best_strength(probabilities: np.ndarray, n: int) -> np.ndarray:

@@ -28,12 +28,18 @@ from karogasok_temak.naming import evidence_quote
 from karogasok_temak.stopwords import hungarian_stopwords
 from karogasok_temak.topics import (
     MIN_CLUSTER_SIZE,
+    MULTI_LABEL_CAP,
+    MULTI_LABEL_FLOOR,
+    MULTI_LABEL_RATIO,
     OUTLIER,
     RANDOM_SEED,
-    assign,
     build_model,
     drop_stopwords,
     fit_topics,
+    label_set,
+    label_spread,
+    place,
+    probability_columns,
     summarise,
 )
 
@@ -60,6 +66,19 @@ def _fingerprint(documents: list[Document]) -> str:
         digest.update(document.text.encode("utf-8"))
         digest.update(b"\0")
     return digest.hexdigest()
+
+
+def _row(probabilities: np.ndarray, position: int, width: int) -> np.ndarray:
+    """One document's scores, widened to the full topic vocabulary.
+
+    ``transform`` returns a flat vector of strengths rather than a per-topic
+    matrix when BERTopic decides not to compute full probabilities. There is
+    nothing to spread across topics in that case, so the row stays zero and the
+    document keeps whatever single label it was given.
+    """
+    if probabilities.ndim == 2 and probabilities.shape[1] == width:
+        return probabilities[position]
+    return np.zeros(width, dtype=np.float32)
 
 
 def _embeddings(documents: list[Document]) -> np.ndarray:
@@ -124,7 +143,18 @@ def main() -> int:
     reduced = model.reduce_outliers(
         [lemma_docs[i] for i in fit_idx], fit_topics_list, strategy="c-tf-idf"
     )
-    placed = assign(model, [lemma_docs[i] for i in rest_idx], vectors[rest_idx])
+    placed, placed_probabilities = place(
+        model, [lemma_docs[i] for i in rest_idx], vectors[rest_idx]
+    )
+
+    # One dense matrix in `documents` order, so every downstream consumer can
+    # index it the same way it indexes `documents`.
+    columns = probability_columns(fit_topics_list)
+    matrix = np.zeros((len(documents), len(columns)), dtype=np.float32)
+    for position, index in enumerate(fit_idx):
+        matrix[index] = _row(probabilities, position, len(columns))
+    for position, index in enumerate(rest_idx):
+        matrix[index] = _row(placed_probabilities, position, len(columns))
 
     summary = summarise(fit_topics_list)
     print(
@@ -136,18 +166,67 @@ def main() -> int:
     )
 
     assignments: dict[str, dict[str, object]] = {}
+    label_sets: list[list[int]] = []
     for position, index in enumerate(fit_idx):
+        primary = int(reduced[position])
+        ids, scores = label_set(matrix[index], columns, primary)
+        label_sets.append(ids)
         assignments[documents[index].doc_id] = {
             "topic": int(fit_topics_list[position]),
-            "topic_reduced": int(reduced[position]),
+            "topic_reduced": primary,
             "role": "fitted",
+            "topics": ids,
+            "scores": scores,
         }
     for position, index in enumerate(rest_idx):
+        primary = int(placed[position])
+        ids, scores = label_set(matrix[index], columns, primary)
+        label_sets.append(ids)
         assignments[documents[index].doc_id] = {
-            "topic": int(placed[position]),
-            "topic_reduced": int(placed[position]),
+            "topic": primary,
+            "topic_reduced": primary,
             "role": "placed",
+            "topics": ids,
+            "scores": scores,
         }
+
+    # The contract export_temak.py relies on: where a document already had a
+    # theme, that theme still leads. Asserted rather than assumed, because a
+    # violation would move writings between hubs with no other symptom.
+    #
+    # Documents whose single label is OUTLIER are deliberately exempt. HDBSCAN's
+    # approximate_predict calls them noise, but their soft membership vector can
+    # still put most of their weight on one topic — the two are different
+    # computations, and the floor in place() can only demote, never promote. Such
+    # a document gets themes here and stays off the hubs, which is the whole
+    # reason multi-labelling widens coverage.
+    promoted = 0
+    for assignment in assignments.values():
+        labels = assignment["topics"]
+        primary = assignment["topic_reduced"]
+        if primary != OUTLIER:
+            assert labels and labels[0] == primary, assignment
+        elif labels:
+            promoted += 1
+
+    spread = label_spread(label_sets)
+    np.savez(
+        OUT / "probabilities.npz",
+        doc_ids=np.array([d.doc_id for d in documents], dtype=object),
+        columns=np.array(columns),
+        matrix=matrix,
+    )
+    print(
+        f"  {promoted} outlier document(s) given a theme by soft membership",
+        flush=True,
+    )
+    print(
+        "\n  labels per document: "
+        + ", ".join(f"{n}→{c}" for n, c in spread.counts.items())
+        + f"\n  mean {spread.mean:.2f}, coverage {spread.coverage:.1%}, "
+        f"largest {spread.largest}",
+        flush=True,
+    )
 
     topics: list[dict[str, object]] = []
     for topic_id in sorted({t for t in fit_topics_list if t != OUTLIER}):
@@ -191,6 +270,15 @@ def main() -> int:
         )
 
     payload = {
+        "topic_columns": columns,
+        "multi_label": {
+            "floor": MULTI_LABEL_FLOOR,
+            "cap": MULTI_LABEL_CAP,
+            "ratio": MULTI_LABEL_RATIO,
+            "spread": spread.counts,
+            "mean": round(spread.mean, 4),
+            "coverage": round(spread.coverage, 4),
+        },
         "model": {
             "embedder": MODEL_NAME,
             "min_cluster_size": args.min_cluster_size,
