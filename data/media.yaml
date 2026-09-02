@@ -104,16 +104,6 @@ tetelek:
     forras: "https://blog.crowintelligence.org/hu/2020/06/15/algoritmikus-ujsagiras-es-fake-news-interju-a-kossuth-radioban/"
     leiras: "Az algoritmikus újságírásról és a fake news-ról beszélgettünk."
 
-  - mufaj: interju
-    elerheto: false
-    cim: "Trianon 100 — a Trianonnal kapcsolatos metaforákról"
-    hol: "Kossuth Rádió, Édes Anyanyelvünk"
-    ev: 2020
-    datum: 2020-06-04
-    forras: "https://blog.crowintelligence.org/hu/2020/06/04/trianon-100-interju-a-kossuth-radioban/"
-    leiras: "Az idén megjelent könyvünk kapcsán a Trianonnal kapcsolatos metaforákról beszéltünk."
-
-  # ------------------------------------------------------------- előadás
   - mufaj: podcast
     elerheto: true
     cim: "Aki nem használja a ChatGPT-t és a mesterséges intelligenciát, az behozhatatlanul lemarad"
@@ -256,41 +246,3 @@ tetelek:
     datum: 2020-11-05
     forras: "https://blog.crowintelligence.org/hu/2020/11/05/mesterseges-intelligencia-interju-a-bezs-radioban/"
     leiras: "Gerő Péterrel beszélgettünk a mesterséges intelligenciáról: létezik-e egyáltalán, lehet-e egy gép intelligens."
-
-  - mufaj: interju
-    elerheto: false
-    cim: "Koronavírus és metaforák 3."
-    hol: "Civil Rádió, 117 perc"
-    ev: 2020
-    datum: 2020-09-08
-    idopont: "25:10-től"
-    forras: "https://blog.crowintelligence.org/hu/2020/09/08/koronavirus-es-metaforak-3-beszelgetes-a-civil-radioban/"
-    leiras: "A metaforák automatikus azonosításának kérdéseiről beszélgettünk."
-
-  - mufaj: interju
-    elerheto: false
-    cim: "Koronavírus és metaforák 2."
-    hol: "Civil Rádió, 117 perc"
-    ev: 2020
-    datum: 2020-08-25
-    idopont: "12:08-tól"
-    forras: "https://blog.crowintelligence.org/hu/2020/08/25/koronavirus-es-metaforak-2-beszelgetes-a-civil-radioban/"
-    leiras: "A koronavírus kapcsán használt metaforákról beszélgettünk ismét a 117 perc című műsorban."
-
-  - mufaj: interju
-    elerheto: false
-    cim: "Koronavírus és metaforák"
-    hol: "Civil Rádió, 117 perc"
-    ev: 2020
-    datum: 2020-08-18
-    forras: "https://blog.crowintelligence.org/hu/2020/08/18/koronavirus-es-metaforak-beszelgetes-a-civil-radioban/"
-    leiras: "A koronavírus kapcsán használt metaforákról beszélgettünk, két részletben."
-
-  - mufaj: interju
-    elerheto: false
-    cim: "Trianon 100 — hosszabb interjú"
-    hol: "Kossuth Rádió, Gondolat-jel"
-    ev: 2020
-    datum: 2020-06-08
-    forras: "https://blog.crowintelligence.org/hu/2020/06/08/trianon-100-hosszabb-interju-a-kossuth-radioban/"
-    leiras: "A Gondolat-jel június hetedikei adásában hosszabb interjú hangzott el velünk a Trianonnal kapcsolatos metaforákról."
