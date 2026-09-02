@@ -126,16 +126,6 @@ tetelek:
 
   - mufaj: eloadas
     elerheto: true
-    cim: "Egy mesés automatikus szövegelemzés"
-    hol: "Neumann konferencia"
-    ev: 2022
-    datum: 2022-11-14
-    link: "https://docs.google.com/presentation/d/e/2PACX-1vTtk9aZcUJcU5fXoHs3wUurEBEvQt_bsgNY680SXwRT_oqW53kfNdHBQ-Wkalvhbw/pub?start=false&loop=false&delayms=3000"
-    forras: "https://blog.crowintelligence.org/hu/2022/11/14/szovegelemzes-es-ai-eloadasaink-a-neumann-konferencian/"
-    leiras: "Népmesék automatikus szövegelemzéséről szóló előadás a Neumann konferencián."
-
-  - mufaj: eloadas
-    elerheto: true
     cim: "Szövegelemzés és AI"
     hol: "Neumann konferencia"
     ev: 2022

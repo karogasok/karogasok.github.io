@@ -1,4 +1,38 @@
 irasok:
+  - cim: "Computational Classics: The Wrath and the Journey"
+    hol: "crowintelligence.org"
+    ev: 2026
+    link: "https://crowintelligence.org/aporia/homer/"
+    leiras: "Az esszé számítógépes és adatelemzési módszerekkel – témamodellezéssel, hálózatelemzéssel és statisztikával – vizsgálja Homérosz két eposzát, az Iliászt és az Odüsszeiát."
+    nyelv: "en"
+
+  - cim: "The Nagel Index: Does power change a person?"
+    hol: "crowintelligence.org"
+    ev: 2026
+    link: "https://crowintelligence.org/aporia/nagel-essay/"
+    leiras: "A projekt számítógépes pszicholingvisztikai módszerekkel, Thomas Nagel elméletére építve elemzi hét amerikai elnök és vezető nyilvános, illetve privát nyelvhasználata közötti különbségeket."
+    nyelv: "en"
+
+  - cim: "Whereof one cannot speak, thereof one must be silent"
+    hol: "crowintelligence.org"
+    ev: 2026
+    link: "https://crowintelligence.org/aporia/wittgenstein/"
+    leiras: "Egy vizuális és adatelemzési projekt, amely Ludwig Wittgenstein Tractatus Logico-Philosophicus című művét alakítja interaktív 2D-s és 3D-s hálózatokká."
+    nyelv: "en"
+
+  - cim: "The Epistemic Arcade"
+    hol: "crowintelligence.org"
+    ev: 2026
+    link: "https://crowintelligence.org/aporia/epistemic-arcade/"
+    leiras: "Egy megerősítéses tanulási modellt (RL) és a Tetris játékot bemutató projekt, amely a kiterjesztett elme (extended mind) filozófiai elméletét modellezi."
+    nyelv: "en"
+
+  - cim: "Nekem írod a dalt — neked elemzem"
+    hol: "crowintelligence.org"
+    ev: 2026
+    link: "https://crowintelligence.org/aporia/magyar-dalszovegek-essze/"
+    leiras: "A projekt a magyar könnyűzenei dalszövegek több mint hetven évének nyelvi, jelentéstani és érzelmi változásait elemzi évtizedenkénti szóbeágyazások (word embeddings) segítségével."
+
   - cim: "Examination of online education experiences from stakeholder perspective – a Hungarian case study"
     hol: "ResearchGate"
     ev: 2022
@@ -31,7 +65,7 @@ irasok:
     hol: "Manning Publications"
     ev: 2020
     link: "https://www.manning.com/liveproject/sentiment-analysis-and-natural-language-processing-for-marketing"
-    leiras: "Egy átfogó gyakorlati projekt, amely a természetes nyelvfeldolgozás (NLP) és a hangulatelemzés (sentiment analysis) marketingcélú alkalmazását és modellépítését mutatja be."
+    leiras: "Egy átfogó gyakorlati projekt, amely a természetesnyelv-feldolgozás (NLP) és a hangulatelemzés (sentiment analysis) marketingcélú alkalmazását és modellépítését mutatja be."
     nyelv: "en"
 
   - cim: "Minden nőre legalább két férfi jut az online sajtóban a Budapest-Moszkva-Strasbourg háromszögben"

@@ -238,3 +238,19 @@ soros javítás, nem 364 fájl újraimportálása.
    landolna minden feliratkozónál, és csendben tenné.
 2. **Jövőbeli `publishDate` nem kerülhet ki.** Ez maga az ütemezés; ha elromlik,
    az összes betárazott bejegyzés egyszerre jelenik meg, más tünet nélkül.
+
+---
+
+## A Trianon- és metafora-bejegyzések szerzősége
+
+A *Koronavírus és metaforák* sorozat és a *Trianon 100* interjúk **Putz Orsolya**
+megjelenései, ezért nem szerepelnek a Média oldalon.
+
+A hozzájuk tartozó **blogbejegyzések viszont Varjú Zoltáné**: ő írta őket, hogy
+beharangozza az elkészült anyagokat. A Crow Intelligence a közös vállalkozásuk,
+így a `crowintelligenceteam` fiók alatt megjelent bejegyzések helyesen szerepelnek
+az ő neve alatt. **A bylinek maradnak, ahogy vannak** — ez a korábbi importnál
+jelölt feltevés ezzel megerősítést nyert.
+
+Ami a Média oldalra kerül, az ettől külön kérdés: ott a megjelenés szerzője
+számít, nem a beharangozó bejegyzésé.
