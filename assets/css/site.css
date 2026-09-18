@@ -437,6 +437,13 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 /* A video, shown as its own thumbnail above a link. No frame, so it sits in the
    text column like any other figure and carries its caption in the label voice
    the rest of the site uses for metadata. */
+.kep { margin: var(--sp-4) 0; max-width: var(--measure); }
+.kep img { display: block; width: 100%; height: auto; }
+.kep figcaption { margin-top: var(--sp-1); color: var(--muted); font-size: var(--fs-small); }
+.kep figcaption a { color: var(--muted); }
+.kep figcaption a:hover { color: var(--accent); }
+.kep-forras::before { content: " — "; }
+
 .video { margin: var(--sp-4) 0; max-width: var(--measure); }
 .video img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); }
 .video figcaption { margin-top: var(--sp-1); color: var(--muted); font-size: var(--fs-small); }

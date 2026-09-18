@@ -97,9 +97,32 @@ köré épített eszköz, és ne is legyen.
 
 ### Kép
 
-A képek a `static/img/<bejegyzés-slug>/` alá kerülnek, a szövegben pedig
-`![alt szöveg](/img/<bejegyzés-slug>/abra.png)` hivatkozik rájuk. Az `alt`
-szöveg nem opcionális: aki képernyőolvasóval jön, annak az a kép.
+A képek a `static/img/<bejegyzés-slug>/` alá kerülnek — a `make start` már
+létrehozta a mappát. A `static/` nem része a hivatkozásnak: ami ott van, az az
+oldal gyökeréből szolgálódik ki.
+
+```markdown
+![Hím muslica felülnézetből](/img/muslica/Male_Fruit_Fly_Above.webp)
+```
+
+Képaláírással és forrásmegjelöléssel:
+
+```markdown
+{{< kep src="muslica/Male_Fruit_Fly_Above.webp"
+        alt="Hím muslica felülnézetből"
+        cim="A hím muslica agyának teljes konnektomja"
+        szerzo="Google Research"
+        forras="https://research.google/blog/..."
+        licenc="CC BY 4.0" >}}
+```
+
+A `src` az `/img/`-hez képest relatív. Csak a `src` és az `alt` kötelező.
+
+Az `alt` szöveg nem opcionális: aki képernyőolvasóval jön, annak az a kép. Ha
+hiányzik, a build figyelmeztet.
+
+**Nem a miénk kép esetén nézd meg a licencet, és írd oda.** A `szerzo` és a
+`forras` pont erre van.
 
 Nem page bundle (`posts/slug/index.md` a képekkel egy mappában), pedig az lenne
 a korszerűbb elrendezés. Az `analysis/` témamodellje a `content/posts/*.md`

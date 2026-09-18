@@ -1,0 +1,31 @@
+{{- /* A picture with a caption and, where it is not ours, a credit.
+
+       Plain Markdown gives a bare <img> with no room for either. A borrowed
+       image needs to say where it came from — the same reason every project
+       page carries an "About the project" section.
+
+       {{< kep src="muslica/abra.webp" alt="..." cim="..."
+               forras="https://..." szerzo="..." licenc="CC BY 4.0" >}}
+
+       Only src and alt are required. src is relative to /img/. */ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- if not $alt }}{{ warnf "kep: nincs alt szöveg a(z) %s képhez (%s)" $src .Page.File.Path }}{{ end -}}
+<figure class="kep">
+  <img src="{{ printf "/img/%s" $src | relURL }}" alt="{{ $alt }}" loading="lazy" />
+  {{- if or (.Get "cim") (.Get "szerzo") (.Get "forras") }}
+  <figcaption>
+    {{- with .Get "cim" }}{{ . }}{{ end }}
+    {{- if or (.Get "szerzo") (.Get "forras") }}
+    <span class="kep-forras">
+      {{- with .Get "forras" -}}
+        <a href="{{ . }}" rel="noopener">{{ $.Get "szerzo" | default . }}</a>
+      {{- else -}}
+        {{ .Get "szerzo" }}
+      {{- end }}
+      {{- with .Get "licenc" }} · {{ . }}{{ end }}
+    </span>
+    {{- end }}
+  </figcaption>
+  {{- end }}
+</figure>
