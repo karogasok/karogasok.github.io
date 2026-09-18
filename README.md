@@ -41,9 +41,11 @@ Lépésenként:
 képmappát (`static/img/<slug>/`), és kiírja, milyen URL-en fog megjelenni.
 Utána már csak a `forras`, a `forras_cim` és a `tags` kell.
 
-**2. Megírás.** A `forras` a **hivatkozás célja**, a `forras_cim` a
-**megjelenő szöveg** — ezt a kettőt könnyű felcserélni, és ha felcserélődik, a
-forráshivatkozás a cím szövegére mutat. A `tags` a tiéd, kézzel.
+**2. Megírás.** A `forras_url` a **hivatkozás célja**, a `forras_cim` a
+**megjelenő szöveg**. (A mező azért nem `forras`, mert a magyar „cím" egyszerre
+jelent címet és webcímet, és a kettő így folyton felcserélődött — a
+`forras_cim`-et olvasva az ember URL-t ír bele. Ha a `forras_url` mégsem
+cím, a build figyelmeztet.) A `tags` a tiéd, kézzel.
 
 **3. `make postprocess`** teszi rá a témákat és a kulcsszavakat. **Futtasd újra,
 ha a szöveg változott**: a kulcsszavakhoz kell, hogy egy szótő legalább kétszer

@@ -4,7 +4,7 @@ slug: ""
 date: {{ .Date }}
 publishDate: {{ .Date }}
 author: "Varjú Zoltán"
-forras: ""
+forras_url: ""
 forras_cim: ""
 tags: []
 draft: false

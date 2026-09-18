@@ -64,7 +64,7 @@ def front_matter(title: str, slug: str, when: dt.datetime) -> str:
         f"date: {stamp}\n"
         f"publishDate: {stamp}\n"
         'author: "Varjú Zoltán"\n'
-        'forras: ""\n'
+        'forras_url: ""\n'
         'forras_cim: ""\n'
         "tags: []\n"
         "draft: false\n"

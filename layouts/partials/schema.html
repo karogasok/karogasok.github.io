@@ -58,7 +58,7 @@
   {{- with .Params.canonical -}}
     {{- $posting = merge $posting (dict "mainEntityOfPage" .) -}}
   {{- end -}}
-  {{- with .Params.forras -}}
+  {{- with (.Params.forras_url | default .Params.forras) -}}
     {{- $posting = merge $posting (dict "citation" (dict "@type" "CreativeWork" "url" . "name" ($.Params.forras_cim | default .))) -}}
   {{- end -}}
   {{- $graph = $graph | append $posting -}}

@@ -31,7 +31,16 @@
   {{- /* The one source under discussion. It gets its own block against a maroon
          rule rather than being dropped into a sentence: a reader who wants the
          thing itself should not have to hunt the paragraph for it. */}}
-  {{- with .Params.forras }}
+  {{- /* `forras_url` is the address, `forras_cim` the title. The field was
+         called `forras`, but in Hungarian `cím` means both "title" and
+         "address", so `forras_cim` reads as the URL and the pair kept getting
+         written the wrong way round — which points the link at the title text.
+         The old name still works; the warning is what stops it going unnoticed. */ -}}
+  {{- $url := .Params.forras_url | default .Params.forras }}
+  {{- with $url }}
+  {{- if not (or (hasPrefix . "http") (hasPrefix . "/")) }}
+    {{- warnf "forras_url nem cím, hanem szöveg: %q (%s) — a forras_cim-mel van felcserélve?" . $.File.Path }}
+  {{- end }}
   <p class="margin-item source">
     <span class="margin-label">{{ i18n "post.source" }}</span>
     <a href="{{ . }}" rel="noopener">{{ $.Params.forras_cim | default . }}</a>
