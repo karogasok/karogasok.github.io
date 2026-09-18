@@ -121,9 +121,19 @@ fi
 # `média` and `media` collide there while being distinct terms; that is how this
 # check earned its place.
 if [ -d "$public/tema" ] || [ -d "$public/kulcsszo" ]; then
-  links=$(grep -rhoE 'href="/(tema|kulcsszo)/[^"]*"' "$public" --include='*.html' 2>/dev/null \
-          | sed 's/^href="//;s/"$//' | sort -u)
+  # `hugo --minify` drops the quotes around simple attribute values, so this has
+  # to match href=/tema/x/ as well as href="/tema/x/". Matching only the quoted
+  # form made this check find nothing in exactly the build CI runs — and with
+  # pipefail a grep that matches nothing takes the whole script down before it
+  # can say so, which is why the || true is load-bearing rather than tidy.
+  links=$( { grep -rhoE 'href="?/(tema|kulcsszo)/[^"'"'"' >]*' "$public" \
+               --include='*.html' 2>/dev/null || true; } \
+           | sed 's/^href=//;s/^"//' | sort -u)
   total=$(printf '%s\n' "$links" | grep -c . || true)
+  if [ "$total" -eq 0 ]; then
+    echo "FAIL  tags: no theme or keyword links found at all — the check is blind" >&2
+    fail=1
+  fi
   broken=0
   while IFS= read -r href; do
     [ -z "$href" ] && continue
