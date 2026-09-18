@@ -5,7 +5,7 @@
 HUGO ?= hugo
 DATE := $(shell date +%Y-%m-%d)
 
-.PHONY: help start new serve build check clean fonts og youtube import-blogspot import-wordpress import-kereses prune-media
+.PHONY: help start new postprocess serve build check clean fonts og youtube import-blogspot import-wordpress import-kereses prune-media
 
 help:
 	@echo "make new t=\"a bejegyzés címe\"   új bejegyzés a mai dátummal"
@@ -13,6 +13,7 @@ help:
 	@echo "make build                       éles build a public/ könyvtárba"
 	@echo "make check                       build + a feed és az ütemezés ellenőrzése"
 	@echo "make fonts                       betűkészletek újratöltése"
+	@echo "make postprocess f=\"fájl.md\"     témák és kulcsszavak a bejegyzésre"
 	@echo "make og                          OG-kártyák generálása"
 	@echo "make youtube                     videó-nyitóképek letöltése"
 	@echo "make import-blogspot             Blogspot archívum importálása"
@@ -48,6 +49,12 @@ check: build
 
 fonts:
 	python3 scripts/fetch_fonts.py
+
+# Témák és kulcsszavak rávezetése egy megírt bejegyzésre:
+#   make postprocess f=2026-09-18-muslica.md
+# f nélkül minden olyan írást feldolgoz, amelyiken még nem járt.
+postprocess:
+	./scripts/postprocess.sh $(f)
 
 og:
 	python3 scripts/make_og.py

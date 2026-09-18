@@ -94,12 +94,15 @@ később mégis írnál hozzá bevezetőt, akkor kell.
 A gépi címkékhez, miután megírtad a bejegyzést:
 
 ```sh
-cd analysis
-make emtsv-up
-uv run python scripts/infer.py        # csak az új írásokat nézi
-uv run python scripts/export_temak.py
-make emtsv-down
+make postprocess f=2026-09-18-muslica.md   # egy bejegyzésre
+make postprocess                           # mindenre, amin még nem járt
 ```
+
+Elindítja az emtsv-t, ha nem fut, rávezeti a témákat és a kulcsszavakat, és
+beírja a front matterbe meg az adatfájlokba. **Futtasd újra, ha a szöveg
+változott** — egy néven megadott bejegyzést mindig újraszámol.
+
+Az emtsv utána is fut; `make -C analysis emtsv-down` állítja le.
 
 Az `infer.py` **nem tanít újra modellt**: a meglévőre vetíti rá az új írást.
 Egy újratanítás egyetlen új dokumentumtól is elmozdíthatja a klaszterhatárokat,

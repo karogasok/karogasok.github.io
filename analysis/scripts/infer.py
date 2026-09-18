@@ -28,7 +28,7 @@ from typing import cast
 
 import numpy as np
 
-from karogasok_temak.corpus import Document, load_corpus
+from karogasok_temak.corpus import SITE, Document, load_corpus
 from karogasok_temak.embed import (
     MODEL_NAME,
     SentenceEncoder,
@@ -71,6 +71,25 @@ def _pieces(text: str, limit: int = MAX_CHARS) -> list[str]:
     return out
 
 
+def _doc_id(raw: str) -> str | None:
+    """Turn what a person types into a corpus id.
+
+    Accepts a path relative to the site, an absolute path, or a bare filename in
+    ``content/posts/`` — the three things anyone would reasonably type.
+
+    Args:
+        raw: What was given on the command line.
+
+    Returns:
+        The id used in the artefacts, or ``None`` if there is no such file.
+    """
+    candidates = [Path(raw), SITE / raw, SITE / "content" / "posts" / raw]
+    for candidate in candidates:
+        if candidate.is_file():
+            return str(candidate.resolve().relative_to(SITE))
+    return None
+
+
 def _load(name: str) -> dict:
     """Read a JSON artefact, failing with a usable message."""
     path = OUT / name
@@ -87,12 +106,17 @@ def _vectors(documents: list[Document], fresh: list[Document]) -> np.ndarray:
     later refit still finds it valid instead of re-encoding all 814 documents.
     """
     cache = OUT / "embeddings.npz"
-    known: dict[str, np.ndarray] = {}
+    cached: dict[str, np.ndarray] = {}
     if cache.exists():
         stored = np.load(cache, allow_pickle=True)
-        known = dict(
+        cached = dict(
             zip([str(d) for d in stored["doc_ids"]], stored["vectors"], strict=True)
         )
+    # Whatever is being done now is re-encoded, because its text may have
+    # changed since it was last seen.
+    for document in fresh:
+        cached.pop(document.doc_id, None)
+    known = cached
 
     from sentence_transformers import SentenceTransformer
 
@@ -115,6 +139,11 @@ def main() -> int:
     """Infer themes and keywords for anything not yet in the artefacts."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "paths",
+        nargs="*",
+        help="specific writings to do; without any, everything not yet done",
+    )
     args = parser.parse_args()
 
     topics = _load("topics.json")
@@ -127,16 +156,33 @@ def main() -> int:
 
     documents = load_corpus()
     known = set(topics["assignments"])
-    fresh = [d for d in documents if d.doc_id not in known]
-    if not fresh:
-        print(f"nothing new — all {len(documents)} items already have themes.")
-        return 0
-    print(f"{len(fresh)} new item(s):")
+    by_id = {d.doc_id: d for d in documents}
+
+    if args.paths:
+        fresh = []
+        for raw in args.paths:
+            doc_id = _doc_id(raw)
+            if doc_id is None or doc_id not in by_id:
+                print(f"nem találom a korpuszban: {raw}", file=sys.stderr)
+                return 1
+            fresh.append(by_id[doc_id])
+        # A writing named outright is done again even if it was done before:
+        # asking for it by name means it has changed since.
+        redo = {d.doc_id for d in fresh}
+    else:
+        fresh = [d for d in documents if d.doc_id not in known]
+        redo = set()
+        if not fresh:
+            print(f"nothing new — all {len(documents)} items already have themes.")
+            return 0
+
+    print(f"{len(fresh)} item(s) to do:")
     for document in fresh:
-        print(f"  {document.doc_id}  ({document.word_count} words)")
+        again = " (again)" if document.doc_id in known else ""
+        print(f"  {document.doc_id}  ({document.word_count} words){again}")
 
     for document in fresh:
-        if document.doc_id in lemmas:
+        if document.doc_id in lemmas and document.doc_id not in redo:
             continue
         found: list[str] = []
         for piece in _pieces(document.text):
