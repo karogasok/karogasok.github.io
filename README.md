@@ -14,11 +14,22 @@ Ez az oldal nem ügyfélszerzésre való. A kereskedelmi profil a
 ## Bejegyzést írni
 
 ```sh
-make new t="Az LLM-ek nem tudnak zárójelet számolni"
+make start t="Az LLM-ek nem tudnak zárójelet számolni"
+make start t="Az egész világ egy muslicát kínoz mostanában" s="muslica"
 ```
 
-Létrehozza a `content/posts/ÉÉÉÉ-HH-NN-slug.md` fájlt a mai dátummal, kitöltött
-címmel. Utána már csak a `forras`, a `forras_cim` és a `tags` kell.
+Létrehozza a `content/posts/ÉÉÉÉ-HH-NN-slug.md` fájlt, **a képmappát**
+(`static/img/<slug>/`), és kiírja a végleges URL-t. Utána már csak a `forras`,
+a `forras_cim` és a `tags` kell.
+
+Az `s=` opcionális: rövid slugot ad a hosszú cím mellé. Enélkül a slug a
+címből készül, és egy hosszú cím hosszú URL-t és hosszú fájlnevet jelent.
+
+**A slug egy döntés, egyszer.** A Hugo a *címből* vezeti le a poszt URL-jét, nem
+a fájlnévből — ezért tűnt el annak idején kilenc „Lapszemle" című archív
+bejegyzés ugyanazon a címen. A `make start` ezért a front matterbe is beírja,
+így a fájlnév, a `slug:`, az URL és a képmappa ugyanaz a szó. Utólag átnevezni
+a fájlt nem elég, és nem is kell.
 
 A cím **állítás legyen, ne téma.** „Az LLM-ek nem tudnak zárójelet számolni",
 nem „Az LLM-ek és a zárójelek".

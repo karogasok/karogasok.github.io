@@ -5,7 +5,7 @@
 HUGO ?= hugo
 DATE := $(shell date +%Y-%m-%d)
 
-.PHONY: help new serve build check clean fonts og youtube import-blogspot import-wordpress import-kereses prune-media
+.PHONY: help start new serve build check clean fonts og youtube import-blogspot import-wordpress import-kereses prune-media
 
 help:
 	@echo "make new t=\"a bejegyzés címe\"   új bejegyzés a mai dátummal"
@@ -22,6 +22,13 @@ help:
 
 # One command to start a post. The filename carries the date so the directory
 # sorts chronologically; the URL does not use it.
+# Egy bejegyzés indítása: fájl + képmappa + a végleges URL, egy döntésből.
+# Az s= rövid slugot ad a hosszú cím mellé:
+#   make start t="Az egész világ egy muslicát kínoz mostanában" s="muslica"
+start:
+	@test -n "$(t)" || { echo 'kell egy cím: make start t="a cím" [s="rovid-slug"]'; exit 1; }
+	@python3 scripts/start_post.py -t "$(t)" $(if $(s),-s "$(s)",)
+
 new:
 	@test -n "$(t)" || { echo 'kell egy cím: make new t="a cím"'; exit 1; }
 	@slug=$$(printf '%s' "$(t)" | iconv -f utf8 -t ascii//TRANSLIT 2>/dev/null | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$$//g'); \
