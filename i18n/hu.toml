@@ -197,6 +197,12 @@ other = "Témák"
 ["cimke.kulcsszavak"]
 other = "Kulcsszavak"
 
+["video.alt"]
+other = "A videó nyitóképe"
+
+["video.hol"]
+other = "YouTube"
+
 ["error.title"]
 other = "Nincs ilyen oldal"
 

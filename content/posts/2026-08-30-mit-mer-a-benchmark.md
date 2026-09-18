@@ -36,8 +36,7 @@ csak egy szám. A dolgozat legerősebb mondata az, hogy a reprodukálhatóság n
 utólagos ellenőrzés kérdése, hanem annak eldöntése, hogy egyáltalán mit
 állítottunk.
 
-Itt kapcsolódik ahhoz, amivel ez a napló legtöbbször foglalkozik: mit tudunk
-arról, hogy mit tudnak a gépek. Ha egy képességről szóló állítás egy nem
+Ha egy képességről szóló állítás egy nem
 rögzített eljárás kimenete, akkor az állítás nem a modellről szól, hanem a
 mérésről. A kérdés innentől nem az, hogy „tud-e", hanem hogy ki döntötte el, mit
 jelent a tudni ebben az esetben — és leírta-e valahol.

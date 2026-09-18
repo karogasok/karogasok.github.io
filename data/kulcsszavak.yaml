@@ -3003,12 +3003,15 @@ agilista:
   darab: 1
 agy:
   slug: agy
-  darab: 2
+  darab: 3
   kulsok:
     - cim: "Tánc, kiterjesztett elme és mesterséges intelligencia"
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/11/05/tanc_es_mesterseges_intelligencia"
+agysejt:
+  slug: agysejt
+  darab: 1
 ajánlat:
   slug: ajanlat
   darab: 1
@@ -6493,6 +6496,9 @@ munkatapasztalat:
 munkálat:
   slug: munkalat
   darab: 1
+muslica:
+  slug: muslica
+  darab: 1
 mutat:
   slug: mutat
   darab: 1
@@ -6680,9 +6686,12 @@ nemzetközi:
 net:
   slug: net
   darab: 1
+neuron:
+  slug: neuron
+  darab: 1
 neurális:
   slug: neuralis
-  darab: 1
+  darab: 2
   kulsok:
     - cim: "A neurális az új szexi!"
       ev: 2016

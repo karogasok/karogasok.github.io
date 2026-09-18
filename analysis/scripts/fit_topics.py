@@ -15,7 +15,6 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import sys
 from pathlib import Path
@@ -24,7 +23,12 @@ from typing import cast
 import numpy as np
 
 from karogasok_temak.corpus import Document, load_corpus
-from karogasok_temak.embed import MODEL_NAME, SentenceEncoder, embed_documents
+from karogasok_temak.embed import (
+    MODEL_NAME,
+    SentenceEncoder,
+    embed_documents,
+    fingerprint,
+)
 from karogasok_temak.naming import evidence_quote
 from karogasok_temak.stopwords import hungarian_stopwords
 from karogasok_temak.topics import (
@@ -54,22 +58,6 @@ N_REPRESENTATIVE = 6
 N_TERMS = 12
 
 
-def _fingerprint(documents: list[Document]) -> str:
-    """Hash the exact texts that will be encoded.
-
-    Keying the cache on document ids alone is not enough: changing
-    :func:`strip_markup` changes the text without changing a single id, and the
-    stale vectors would be reused in silence.
-    """
-    digest = hashlib.sha256()
-    for document in documents:
-        digest.update(document.doc_id.encode("utf-8"))
-        digest.update(b"\0")
-        digest.update(document.text.encode("utf-8"))
-        digest.update(b"\0")
-    return digest.hexdigest()
-
-
 def _row(probabilities: np.ndarray, position: int, width: int) -> np.ndarray:
     """One document's scores, widened to the full topic vocabulary.
 
@@ -87,10 +75,10 @@ def _embeddings(documents: list[Document]) -> np.ndarray:
     """Encode every document, caching against the exact texts encoded."""
     cache = OUT / "embeddings.npz"
     ids = [d.doc_id for d in documents]
-    fingerprint = _fingerprint(documents)
+    digest = fingerprint([(d.doc_id, d.text) for d in documents])
     if cache.exists():
         stored = np.load(cache, allow_pickle=True)
-        if str(stored["fingerprint"]) == fingerprint:
+        if str(stored["fingerprint"]) == digest:
             print("  embeddings: cache hit", flush=True)
             return stored["vectors"]
         print("  embeddings: corpus text changed, re-encoding", flush=True)
@@ -110,7 +98,7 @@ def _embeddings(documents: list[Document]) -> np.ndarray:
         cache,
         doc_ids=np.array(ids, dtype=object),
         vectors=vectors,
-        fingerprint=np.array(fingerprint),
+        fingerprint=np.array(digest),
     )
     return vectors
 
@@ -214,6 +202,19 @@ def main() -> int:
             assert labels and labels[0] == primary, assignment
         elif labels:
             promoted += 1
+
+    # Pickle rather than safetensors: only pickle keeps the fitted UMAP and
+    # HDBSCAN, and those are what `transform` needs to place a new writing on
+    # these exact topics. The safetensors form keeps the topic representations
+    # alone and falls back to cosine similarity, which would answer a different
+    # question from the one the published tags were built on.
+    #
+    # The cost is that the file is tied to these library versions — it is a
+    # cache, not an archive. uv.lock is the reproducibility record; delete this
+    # and re-run if anything in the stack moves.
+    model.save(
+        str(OUT / "model.pkl"), serialization="pickle", save_embedding_model=False
+    )
 
     spread = label_spread(label_sets)
     np.savez(

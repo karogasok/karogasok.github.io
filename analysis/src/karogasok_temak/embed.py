@@ -15,6 +15,7 @@ This is a port of ``parlamonitor/src/parlamonitor/topics.py::embed_documents``.
 
 from __future__ import annotations
 
+import hashlib
 from collections.abc import Iterator, Sequence
 from typing import Protocol
 
@@ -44,6 +45,41 @@ class SentenceEncoder(Protocol):
     ) -> np.ndarray:
         """Encode sentences into vectors."""
         ...
+
+
+def fingerprint(items: Sequence[tuple[str, str]]) -> str:
+    """Hash the exact texts an embedding cache was built from.
+
+    Keying a cache on document ids alone is not enough: changing
+    :func:`~karogasok_temak.corpus.strip_markup` changes the text without
+    changing a single id, and the stale vectors would be reused in silence.
+
+    Takes ``(id, text)`` pairs rather than documents so the cache can be
+    validated without importing the corpus loader, and so both the fitting
+    script and the inference script compute it the same way.
+
+    Args:
+        items: ``(doc_id, text)`` in the order they are stored.
+
+    Returns:
+        A hex digest.
+
+    Example:
+        >>> fingerprint([("a", "szöveg")]) == fingerprint([("a", "szöveg")])
+        True
+        >>> fingerprint([("a", "szöveg")]) == fingerprint([("a", "más")])
+        False
+        >>> one = fingerprint([("a", "x"), ("b", "y")])
+        >>> one == fingerprint([("b", "y"), ("a", "x")])
+        False
+    """
+    digest = hashlib.sha256()
+    for doc_id, text in items:
+        digest.update(doc_id.encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(text.encode("utf-8"))
+        digest.update(b"\0")
+    return digest.hexdigest()
 
 
 def chunk_words(words: Sequence[str], size: int = CHUNK_WORDS) -> Iterator[list[str]]:

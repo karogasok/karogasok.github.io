@@ -12,6 +12,9 @@ test:
 # emtsv runs as a service. The first request after start pays ~40s to load the
 # morphological analyser; everything after that is fast.
 emtsv-up:
-	docker run --rm -d --name emtsv -p 5000:5000 mtaril/emtsv
+	# --network host, not -p 5000:5000: creating the veth pair for a bridge
+	# network fails on this machine ("operation not supported"), so the
+	# published-port form never starts. Host networking needs no veth.
+	docker run --rm -d --name emtsv --network host mtaril/emtsv
 emtsv-down:
 	docker stop emtsv

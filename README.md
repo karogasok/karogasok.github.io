@@ -34,6 +34,66 @@ Nagyjából 150–300 szó.
 Az `inbox.md` a nyersanyag: napközben oda kerül egy link meg két mondat. Nincs
 köré épített eszköz, és ne is legyen.
 
+### Kép
+
+A képek a `static/img/<bejegyzés-slug>/` alá kerülnek, a szövegben pedig
+`![alt szöveg](/img/<bejegyzés-slug>/abra.png)` hivatkozik rájuk. Az `alt`
+szöveg nem opcionális: aki képernyőolvasóval jön, annak az a kép.
+
+Nem page bundle (`posts/slug/index.md` a képekkel egy mappában), pedig az lenne
+a korszerűbb elrendezés. Az `analysis/` témamodellje a `content/posts/*.md`
+mintára keresi a bejegyzéseket, így egy bundle-be tett írás **némán kimaradna a
+címkézésből** — kapna egy üres `temak` és `kulcsszavak` mezőt, és senki nem
+venné észre.
+
+### Videó
+
+```markdown
+{{< youtube nSMY0SjyeEc >}}
+```
+
+Utána `make youtube`. A szkript lekéri a videó címét az oEmbed végpontról,
+letölti a nyitóképet a `static/img/youtube/` alá, és beírja a
+`data/youtube.yaml` fájlba.
+
+A megjelenés **nem iframe**: a saját kiszolgálónkról jövő nyitókép, alatta a
+cím és a hivatkozás. Így az oldal megnyitása egyetlen kérést sem küld a
+Google-nek — beágyazott lejátszóval a sütik még a hozzájárulás előtt
+megérkeznének, és az egész consent-mode beállítás értelmét vesztené.
+
+Ha a `make youtube` még nem futott le, vagy a videót azóta törölték, a shortcode
+sima hivatkozásra esik vissza, és a build figyelmeztet. Nem lesz törött kép.
+
+### Címkék
+
+Háromféle címke van, és **nem keverednek**:
+
+| mező | ki adja | hol jelenik meg |
+|---|---|---|
+| `tags` | te, kézzel | `/tags/<slug>/` |
+| `temak` | a témamodell | `/tema/<slug>/` |
+| `kulcsszavak` | kulcsszókinyerés | `/kulcsszo/<slug>/` |
+
+A `tags` a tiéd: az `export_temak.py` soha nem írja felül, csak a másik kettőt.
+Amit a `tags` mezőbe írsz, az lesz a hub címe is — az öt pillér azért van
+sluggal hivatkozva (`llm-kiertekeles`), mert azokhoz tartozik egy
+`content/tags/<term>/_index.md` bevezetővel. Új címkéhez nem kell fájl; ha
+később mégis írnál hozzá bevezetőt, akkor kell.
+
+A gépi címkékhez, miután megírtad a bejegyzést:
+
+```sh
+cd analysis
+make emtsv-up
+uv run python scripts/infer.py        # csak az új írásokat nézi
+uv run python scripts/export_temak.py
+make emtsv-down
+```
+
+Az `infer.py` **nem tanít újra modellt**: a meglévőre vetíti rá az új írást.
+Egy újratanítás egyetlen új dokumentumtól is elmozdíthatja a klaszterhatárokat,
+és a már kint lévő bejegyzések némán másik témába kerülnének.
+
 ## Ütemezés
 
 A `publishDate` lehet jövőbeli. A Hugo alapból kihagyja a jövőbeli dátumú

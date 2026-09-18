@@ -433,6 +433,17 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
    it is set in the body face to stand apart from the keyword list without
    reaching for the accent, which this site spends only on hover and focus. */
 .tag.is-tema { font-family: var(--text); color: var(--body); }
+
+/* A video, shown as its own thumbnail above a link. No frame, so it sits in the
+   text column like any other figure and carries its caption in the label voice
+   the rest of the site uses for metadata. */
+.video { margin: var(--sp-4) 0; max-width: var(--measure); }
+.video img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); }
+.video figcaption { margin-top: var(--sp-1); color: var(--muted); font-size: var(--fs-small); }
+.video figcaption a { color: var(--ink); }
+.video figcaption a:hover { color: var(--accent); }
+.video-szerzo::before { content: " · "; }
+.video-hol::before { content: " · "; }
 .post.is-archive > .archive-oldtags { border-top: 1px solid var(--rule); padding-top: var(--sp-3); }
 
 .hub-intro { margin-bottom: var(--sp-5); }

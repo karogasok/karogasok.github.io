@@ -1,0 +1,30 @@
+{{- /* A YouTube video as a poster: its own thumbnail, stored in static/img/,
+       above a link to YouTube.
+
+       Not an iframe. The site carries no third-party frames and no scripts
+       beyond consent-gated analytics, and an embedded player would set Google's
+       cookies before the reader had agreed to anything. The thumbnail is served
+       from here for the same reason — opening a post makes no request to
+       Google at all.
+
+       Run `make youtube` after adding one. Until then, and for a video that has
+       been taken down, this falls back to a plain link rather than a broken
+       picture. */ -}}
+{{- $id := .Get "id" | default (.Get 0) -}}
+{{- $url := printf "https://www.youtube.com/watch?v=%s" $id -}}
+{{- $video := index hugo.Data.youtube $id -}}
+{{- if not $video }}
+  {{- warnf "youtube: %s is not in data/youtube.yaml — run `make youtube` (in %s)" $id .Page.File.Path -}}
+{{- end }}
+<figure class="video">
+  {{- with $video }}{{ with .kep }}
+  <a href="{{ $url }}" rel="noopener">
+    <img src="{{ . | relURL }}" alt="{{ i18n "video.alt" }}" loading="lazy" width="480" height="360" />
+  </a>
+  {{- end }}{{ end }}
+  <figcaption>
+    <a href="{{ $url }}" rel="noopener">{{ with $video }}{{ .cim | default $id }}{{ else }}{{ $id }}{{ end }}<span class="ext-mark" aria-hidden="true">↗</span></a>
+    {{- with $video }}{{ with .szerzo }}<span class="video-szerzo">{{ . }}</span>{{ end }}{{ end }}
+    <span class="video-hol">{{ i18n "video.hol" }}</span>
+  </figcaption>
+</figure>
