@@ -1,5 +1,6 @@
 ---
 title: ""
+slug: ""
 date: {{ .Date }}
 publishDate: {{ .Date }}
 author: "Varjú Zoltán"

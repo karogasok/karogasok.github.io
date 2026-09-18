@@ -27,6 +27,7 @@ new:
 	@slug=$$(printf '%s' "$(t)" | iconv -f utf8 -t ascii//TRANSLIT 2>/dev/null | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$$//g'); \
 	  $(HUGO) new "posts/$(DATE)-$$slug.md" && \
 	  sed -i "s|^title: \"\"|title: \"$(t)\"|" "content/posts/$(DATE)-$$slug.md" && \
+	  sed -i "s|^slug: \"\"|slug: \"$$slug\"|" "content/posts/$(DATE)-$$slug.md" && \
 	  echo "content/posts/$(DATE)-$$slug.md"
 
 serve:
