@@ -13,14 +13,64 @@ Ez az oldal nem ügyfélszerzésre való. A kereskedelmi profil a
 
 ## Bejegyzést írni
 
+Az egész út, az üres fájltól a publikálásig. A részletek a szakasz alfejezeteiben.
+
 ```sh
-make start t="Az LLM-ek nem tudnak zárójelet számolni"
+# 1. Indítás — fájl, képmappa, végleges URL, egy döntésből
 make start t="Az egész világ egy muslicát kínoz mostanában" s="muslica"
+
+# 2. Megírod. Közben: make serve → http://localhost:1313/
+
+# 3. Gépi címkék: témák és kulcsszavak
+make postprocess f=2026-09-18-muslica.md
+
+# 4. Ha videó van benne
+make youtube
+
+# 5. OG-kártya a megosztáshoz
+make og
+
+# 6. Ellenőrzés, majd publikálás
+make check
+git add -A && git commit -m "..." && git push
 ```
 
-Létrehozza a `content/posts/ÉÉÉÉ-HH-NN-slug.md` fájlt, **a képmappát**
-(`static/img/<slug>/`), és kiírja a végleges URL-t. Utána már csak a `forras`,
-a `forras_cim` és a `tags` kell.
+Lépésenként:
+
+**1. `make start`** létrehozza a `content/posts/ÉÉÉÉ-HH-NN-slug.md` fájlt, a
+képmappát (`static/img/<slug>/`), és kiírja, milyen URL-en fog megjelenni.
+Utána már csak a `forras`, a `forras_cim` és a `tags` kell.
+
+**2. Megírás.** A `forras` a **hivatkozás célja**, a `forras_cim` a
+**megjelenő szöveg** — ezt a kettőt könnyű felcserélni, és ha felcserélődik, a
+forráshivatkozás a cím szövegére mutat. A `tags` a tiéd, kézzel.
+
+**3. `make postprocess`** teszi rá a témákat és a kulcsszavakat. **Futtasd újra,
+ha a szöveg változott**: a kulcsszavakhoz kell, hogy egy szótő legalább kétszer
+előforduljon, így egy félkész írás kevesebbet ad, mint a kész. Az emtsv-t
+elindítja, ha nem fut, és utána futni hagyja.
+
+**4. `make youtube`** csak akkor kell, ha `{{< youtube ID >}}` van a szövegben.
+
+**5. `make og`** minden bejegyzéshez legyárt egy OG-kártyát a
+`static/assets/og/` alá, ugyanazokkal a betűkkel és színekkel, mint az oldal.
+
+**6. `make check`** felépíti az oldalt és lefuttatja az ellenőrzéseket: pontosan
+két feed van, az archívum nem szivárog a feedbe, a jövőbeli dátumú bejegyzések
+kimaradnak, minden témahub a saját tartalmi fájljához tartozik, és minden
+téma- és kulcsszó-hivatkozás létező oldalra mutat. Ha ez zöld, mehet a push.
+
+**A megjelenés ideje a `publishDate`.** Ha a mai dátum, a következő buildnél
+kint van; ha jövőbeli, a cron engedi ki — lásd az [Ütemezés](#ütemezés)
+szakaszt. A push maga is buildet indít, tehát egy mai dátumú bejegyzés a push
+után pár perccel él.
+
+### Mielőtt pusholsz
+
+- Elolvastad a saját szövegedet a `make serve` alatt, nem csak a szerkesztőben?
+- A `forras` tényleg URL, a `forras_cim` tényleg cím?
+- A `make postprocess` a **végleges** szövegen futott le?
+- `make check` zöld?
 
 Az `s=` opcionális: rövid slugot ad a hosszú cím mellé. Enélkül a slug a
 címből készül, és egy hosszú cím hosszú URL-t és hosszú fájlnevet jelent.

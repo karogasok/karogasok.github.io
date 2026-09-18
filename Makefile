@@ -8,12 +8,13 @@ DATE := $(shell date +%Y-%m-%d)
 .PHONY: help start new postprocess serve build check clean fonts og youtube import-blogspot import-wordpress import-kereses prune-media
 
 help:
-	@echo "make new t=\"a bejegyzés címe\"   új bejegyzés a mai dátummal"
+	@echo "make start t=\"cím\" [s=\"slug\"]  új bejegyzés: fájl + képmappa + URL"
+	@echo "make postprocess f=\"fájl.md\"   témák és kulcsszavak rávezetése"
+	@echo "make new t=\"a bejegyzés címe\"   csak a fájl (a start régi változata)"
 	@echo "make serve                       helyi szerver, piszkozatokkal együtt"
 	@echo "make build                       éles build a public/ könyvtárba"
-	@echo "make check                       build + a feed és az ütemezés ellenőrzése"
+	@echo "make check                       build + az oldal ellenőrzése"
 	@echo "make fonts                       betűkészletek újratöltése"
-	@echo "make postprocess f=\"fájl.md\"     témák és kulcsszavak a bejegyzésre"
 	@echo "make og                          OG-kártyák generálása"
 	@echo "make youtube                     videó-nyitóképek letöltése"
 	@echo "make import-blogspot             Blogspot archívum importálása"
