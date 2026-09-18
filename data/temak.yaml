@@ -5,7 +5,7 @@
   nev: Lapszemle
   slug: lapszemle
   ellenorizve: false
-  darab: 41
+  darab: 114
   kifejezesek:
     - kereső
     - termés
@@ -21,22 +21,126 @@
     szoveg: "Dávid csatlakozása volt a tavalyi év fordulópontja, már nem egy egyszemélyes blog vagyunk azóta:D Nem mellesleg Ruby programozási nyelv című posztja egyike legnépszerűbb írásainknak."
     forras: content/archivum/2011-01-25-boldog-szulinapot-nekunk.md
   kulsok:
+    - cim: Papagáj vagy orákulum?
+      ev: 2023
+      forras: media
+      link: "https://docs.google.com/presentation/d/e/2PACX-1vSFhGG_A6QDdJF54sekTBHAyorm2SHb6F7AAHOOOHlpchSDLUz9XGGEBzy-u04p1t_i-Zt54WB6Rxl4/pub?start=false&loop=false&delayms=3000"
+    - cim: Minden nőre legalább két férfi jut az online sajtóban a Budapest-Moszkva-Strasbourg háromszögben
+      ev: 2019
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/minden-nore-legalabb-ket-ferfi-jut-az-online-sajtoban-a-budapest-moszkva-starasbourg-haromszogben"
+    - cim: Gender bias in Hungarian political discourse
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/05/15/gender_bias_in_hungarian_political_discourse"
+    - cim: A CEU-ügy a Twitteren - interaktív topikmodell vizualizáció
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/04/a_ceu-ugy_a_twitteren_interaktiv_topikmodell_vizualizacio"
+    - cim: Babák a hangok világában
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/26/babak_a_hangok_vilagaban"
+    - cim: "Cicák helyett műholdak!"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/10/16/cicak_helyett_muholdak"
+    - cim: "Illa berek, nádak, erek, szövegek, képek, deep learning meg vektorterek @ MeetOFF"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/03/28/illa_berek_nadak_erek_szovegek_kepek_deep_learning_meg_vektorterek_meetoff"
     - cim: "Precognox @ Startup Safary"
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/04/21/precognox_startup_safary"
+    - cim: Precognox Hackathon Kaposváron
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/03/11/precognox_hackathon_kaposvaron"
     - cim: A mókuson túl - avagy miről beszélünk mi
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/10/19/a_mokuson_tul_avagy_mirol_beszelunk_mi"
+    - cim: Brainy Solutions - NLP meetup május 20-án
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/18/brainy_solutions_nlp_meetup_majus_20-an"
+    - cim: "KConnect @ ICT 2015"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/20/kconnect_ict"
     - cim: Miről ír a Kuruc.info Cigánybűnözés rovata?
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/05/29/mirol_ir_a_kuruc_info_ciganybunozes_rovata"
+    - cim: Morvay Gergő gyakornokunk ELTE Almuni ösztöndíjas
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/02/05/morvay_gergo_gyakornokunk_elte_almuni_osztondijas"
+    - cim: NLP erőforrások az áprilisi meetupon
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/22/nlp_eroforrasok_az_aprilisi_meetupon"
+    - cim: "Szeptember 15. BOK meetup: Oktatás és adatok - vége a nyári szünetnek"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/09/03/szeptember_15_bok_meetup_oktatas_es_adatok_vege_a_nyari_szunetnek"
     - cim: A politikai blogszféra I.
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/07/19/a_politikai_blogszfera_i"
+    - cim: "Játék az érzelmekkel!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/09/jatek_az_erzelmekkel"
+    - cim: NLP eszközök magyarra - Nov. 27. NLP meetup
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/11/25/nlp_eszkozok_magyarra_nov_27_nlp_meetup"
+    - cim: "NLP matiné - mutasd meg magad!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/04/nlp_matine_mutasd_meg_magad"
+    - cim: NLP matiné júniusban
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/05/07/nlp_matine_juniusban"
+    - cim: NLP matiné slideok
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/29/nlp_matine_slideok"
+    - cim: NLP meetup slideok
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/05/29/nlp_meetup_slideok"
+    - cim: NLP nap a Precognoxnál - avagy mit is csinálunk mi?
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/12/12/nlp_nap_a_precognoxnal_avagy_mit_is_csinalunk_mi"
+    - cim: Nine Algorithms That Changed the Future - közérthetően elmagyarázva
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/13/nine_algorithms_that_changed_the_future_kozerthetoen_elmagyarazva"
+    - cim: November 20. conTEXT - szöveganalitika magyarul
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/11/04/november_20_context_szoveganalitika_magyarul"
+    - cim: "Szeptember 25: NLP meetup"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/16/szeptember_25_nlp_meetup"
+    - cim: Szeptember 3-án R and C++ a BURN meeutpon
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/28/szeptember_3-an_r_and_c_a_burn_meeutpon"
+    - cim: "Szeptember 8: Első Kaposvári Szoftverfejlesztő Meetup"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/05/szeptember_8_elso_kaposvari_szoftverfejleszto_meetup"
+    - cim: Évadnyitó NLP meetup 2014. február 20-án
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/18/evadnyito_nlp_meetup_2014_februar_20-an"
     - cim: A Facebook tudja kivel kavarsz - akkor is ha nem jelölöd a profilodon
       ev: 2013
       forras: kereses
@@ -45,19 +149,167 @@
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/04/29/a_google_felvasarolta_a_wavii-t"
+    - cim: A Nuance felvásárolta a Tweddle Group-ot
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/06/a_nuance_felvasarolta_a_tweddle_group-ot"
+    - cim: A Twitter felvásárolta a Bluefin Labs-t
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/06/a_twitter_felvasarolta_a_bluefin_labs-t"
+    - cim: A szavak titkos élete - conTEXT prezentációm
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/29/a_szavak_titkos_elete_context_prezentaciom"
+    - cim: Az online tartalomelemzés határai
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/07/az_online_tartalomelemzes_hatarai"
+    - cim: Budapest Users of R Network
+      ev: 2013
+      forras: media
+      link: "https://www.slideshare.net/slideshow/budapest-users-of-r-network-2013-november-27/28688245"
+    - cim: Budapest Users of R Network - 2013. november 27.
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/14/budapest_users_of_r_network_2013_november"
+    - cim: CompSS ajánló
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/15/compss_ajanlo"
+    - cim: Elindult a Twitter TV ad targeting
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/30/elindult_a_twitter_tv_ad_targeting"
+    - cim: Elindult az Online Politikai Elemzések
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/10/elindult_az_online_politikai_elemzesek"
+    - cim: Gyűlöletbeszéd és szexuális zaklatás a Twitteren
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/06/gyuloletbeszed_es_szexualis_zaklatas_a_twitteren"
+    - cim: "Lájkolj, s megmondom ki is vagy!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/31/lajkolj_s_megmondom_ki_is_vagy"
+    - cim: Megjósolhatóak a forradalmak?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/17/megjosolhatoak_a_forradalmak"
+    - cim: Milyen legyen jövőre a Kereső Világ?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/10/milyen_legyen_jovore_a_kereso_vilag"
+    - cim: Mit árul el rólad a Twitter fiókod?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/30/mit_arul_el_rolad_a_twitter_fiokod"
+    - cim: Politikai véleményárfolyam - avagy miről beszél az internet népe?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/18/politikai_velemenyarfolyam_avagy_mirol_beszel_az_internet_nepe"
+    - cim: Prismatic - hírolvasás Google Reader után
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/02/prismatic_hirolvasas_google_reader_utan"
+    - cim: R meetup prezentáció
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/28/r_meetup_prezentacio"
+    - cim: Szótár egy óra alatt - Kutatók Éjszakája szeptember 27-én
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/24/szotar_egy_ora_alatt_kutatok_ejszakaja_szeptember_27-en"
     - cim: Twitter forradalom?
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/06/14/twitter_forradalom"
+    - cim: Tőzsdére megy a Twitter
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/17/tozsdere_megy_a_twitter"
+    - cim: Watchup - a személyes videó hírcsatorna
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/23/watchup_a_szemelyes_video_hircsatorna"
+    - cim: "Yahoo! Interest Graph"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/11/yahoo_interest_graph"
+    - cim: Yandex Wonder - ami a Facebook Graph Search szeretne lenni
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/01/26/yandex_wonder_ami_a_facebook_graph_search_szeretne_lenni"
+    - cim: "grannatik. - a tudomány csajos dolog!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/16/grannatik_a_tudomany_csajos_dolog"
+    - cim: inkLink 2013 - részletes program
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/04/inklink_2013_reszletes_program"
+    - cim: Adatújságírás 1
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/01/adatujsagiras_1"
+    - cim: "Az oroszok már a spájzban vannak, bádogosokkal, receptekkel, bölcsészekkel"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/01/03/az_oroszok_mar_a_spajzban_vannak_badogosokkal_receptekkel_bolcseszekkel"
     - cim: "Dragon Go, a bűvös sárkány"
       ev: 2012
       forras: kereses
       link: "https://kereses.blog.hu/2012/01/17/dragon_go_a_buvos_sarkany"
+    - cim: Első magyar NLP meetup
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/14/elso_magyarl_nlp_meetup"
+    - cim: Goldenblog 2012
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/01/goldenblog_827"
+    - cim: Kereső Világ 2012
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/12/18/kereso_vilag_641"
+    - cim: Kereső olvasók
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/01/10/kereso_olvasok"
+    - cim: Meetup update
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/09/21/meetup_update"
+    - cim: Mi köze van a palackorrú delfineknek a valósidejű kereséshez?
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/08/07/mi_koze_van_a_palackorru_delfineknek_a_valosideju_kereseshez"
+    - cim: Pénzkeresők
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/06/05/penzkeresok"
+    - cim: Search+Google+
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/01/22/search_google"
+    - cim: "Wajam és Gmail results - személyeskedjünk!"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/02/wajam_es_gmail_results_szemelyeskedjunk"
+    - cim: "Baidu-zz egy kicsit, és máris megtudod! - a Google-verő kínai kereső bemutatkozik"
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/09/13/baidu_zz_egy_kicsit_es_maris_megtudod_a_google_vero_kinai_kereso_bemutatkozik"
+    - cim: Kereső Mobilvilág - ekönyv
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/23/mobil_keresovilag"
 - id: 1
   nev: Statisztika és R
   slug: statisztika-es-r
   ellenorizve: false
-  darab: 27
+  darab: 45
   kifejezesek:
     - fejezet
     - könyv
@@ -65,23 +317,82 @@
     - kötet
     - R
     - Statistics
-    - alap
     - alapos
+    - alap
     - statisztikai
     - ismeret
   idezet:
     szoveg: "Nem annyira ismert, de szerintem a legjobb könyv ami összeköti a statisztika tanítását az R elsajátításával Verzani Using R for Introductory Statistics könyve."
     forras: content/archivum/2010-04-09-statisztikai-tulelokeszlet.md
   kulsok:
+    - cim: Algoritmikus újságírás és fake news
+      ev: 2020
+      forras: media
+    - cim: Egy kép többet mond ezer szónál
+      ev: 2017
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/egy-kep-tobbet-mond-ezer-szonal"
+    - cim: Topik modellek és word2vec
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/05/30/a_topik_modellek_es_word2vec"
+    - cim: "Ezt olvasd, ha a gépi tanulásba vágnád a fejszédet"
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/06/07/ezt_olvasd_ha_a_gepi_tanulasba_vagnad_a_fejszedet"
+    - cim: Neked is mindenről a vaj jut az eszedbe?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/08/05/neked_is_mindenrol_a_vaj_jut_az_eszedbe"
+    - cim: Szövegvizualizációk a szófelhőkön túl - MOME TechTea diák
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/11/18/szovegvizualizaciok_a_szofelhokon_tul_mome_techtea_diak"
+    - cim: Fogalmi metaforák
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/27/fogalmi_metaforak"
+    - cim: Jarvis már (majdnem) itt van köztünk
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/28/jarvis_mar_majdnem_itt_van_koztunk"
+    - cim: Making Sense of Data - Google MOOC kurzus
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/17/making_sense_of_data_google_mooc_kurzus"
     - cim: Adatújságírás – csináld magad
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/04/09/adatujsagiras_csinald_magad"
+    - cim: Csak a szöveg
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/21/csak_a_szoveg"
+    - cim: Facebook Graph Search
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/01/16/facebook_graph_search"
+    - cim: Graph Databases - ingyenes ekönyv
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/22/graph_databases_ingyenes_ekonyv"
+    - cim: Pápai vizeken ne kalózkodj - segítenek ebben a SPARQL endpointok
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/20/papai_vizeken_ne_kalozkodj_segitenek_ebben_a_sparql_endpointok"
+    - cim: Weotta - mit csinálsz ma?
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/15/weotta_mit_csinalsz_ma"
+    - cim: "Kérdezz! Felelek."
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/02/kerdezz_felelek_957"
 - id: 2
   nev: NLP meetupok
   slug: nlp-meetupok
   ellenorizve: false
-  darab: 53
+  darab: 101
   kifejezesek:
     - meetup
     - pszichológiai
@@ -92,16 +403,23 @@
     - tartalomelemzés
     - résztvevő
     - maximum
-    - bio
+    - március
   kulsok:
     - cim: Examination of online education experiences from stakeholder perspective – a Hungarian case study
       ev: 2022
       forras: mashol
       link: "https://www.researchgate.net/publication/361286170_Examination_of_online_education_experiences_from_stakeholder_perspective_-_a_Hungarian_case_study"
+    - cim: 100 szóban Budapest
+      ev: 2020
+      forras: media
     - cim: Áprilisban ezeken a rendezvényeken találkozhatsz velünk
       ev: 2018
       forras: kereses
       link: "https://kereses.blog.hu/2018/03/27/aprilisban_ezeken_a_rendezvenyeken_talalkozhatsz_velunk"
+    - cim: "A migráció arcai @ nyest.hu"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/09/04/a_migracio_arcai_nyest_hu"
     - cim: "Big Data Konferencia @ Pécs 2017.11.30"
       ev: 2017
       forras: kereses
@@ -110,14 +428,42 @@
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/05/31/latens_jelentesek_es_a_szemantikai_ter_workshop"
+    - cim: "Mind reading and Search @ d-kom Budapest"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/03/09/mind_reading_and_search_d-kom_budapest"
     - cim: "The Data Deluge, How Big Data Is Changing Our Life, Presentation @ Futurology Forum"
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/05/22/the_data_deluge_how_big_data_is_changing_our_life_presentation_futurology_forum"
+    - cim: "Tüntetések, civilek és a CEU - párhuzamos valóságok az online médiában"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/15/civilek_es_ceu_az_online_mediaban"
+    - cim: "A multimodális keresés és tartalomelemzés lehetőségei @ conTEXT 2016"
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/11/29/a_multimodalis_kereses_es_tartalomelemzes_lehetosegei_context"
     - cim: Ezeken a konfokon találkozhatsz velünk októberben
       ev: 2016
       forras: kereses
       link: "https://kereses.blog.hu/2016/10/11/ezeken_a_konfokon_talalkozhatsz_velunk_oktoberben"
+    - cim: Magyar nyelvű tartalmak elemzése
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/05/17/magyar_nyelvu_tartalmak_elemzese"
+    - cim: Meetup slides
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/04/26/meetup_slideok_805"
+    - cim: Adatok és jogászok - BOK meetup május 14-én
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/11/adatok_es_jogaszok_bok_meetup_majus_14-en"
+    - cim: DIGIWHIST a korrupció ellen
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/13/digiwhist_korrupcio_ellen"
     - cim: European Commission study of big data and other data-driven approaches for policy-making (data4policy)
       ev: 2015
       forras: kereses
@@ -142,10 +488,42 @@
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/03/14/marcius_27-28_bok_meetup_es_k-monitor_hackathon"
+    - cim: Nov. 17-én conTEXT 2015 - magyar szöveganalitikai konferencia
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/14/nov_17-en_context_2015_magyar_szoveganalitikai_konferencia"
+    - cim: Okt. 21-én Open Knowledge Meetup és Műhelykonferencia az E-kereskedelmről
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/13/okt_21_open_knowledge_meetup_es_muhelykonferencia_az_e-kereskedelmrol"
+    - cim: Olvasni jó? MeetOFF április 23-án
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/16/olvasni_jo_meetoff_aprilis_23-an"
+    - cim: Politikai blogok és híroldalak minden mennyiségben
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/08/politikai_blogok_es_hiroldalak_minden_mennyisegben"
+    - cim: Politikai blogokkal foglalkozó projektünk a Media Hungary-n
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/20/politikai_blogokkal_foglalkozo_projektunk_a_media_hungary-n"
+    - cim: Sorok között olvasva
+      ev: 2015
+      forras: media
+      link: "https://www.youtube.com/watch?v=4BGROq5YqFQ"
+    - cim: Sorok között olvasva - MIBE konferencia-előadás
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/28/sorok_kozott_olvasva_mibe_konferencia_eloadas"
     - cim: "Szövegvizualizációk a szófelhőkön túl - Precognox @ MOME TechTea"
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/11/11/szovegvizualizaciok_a_szofelhokon_tul_precognox_mome_techtea"
+    - cim: Textus; szövegek hálójában
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/23/textus_szovegek_halojaban"
     - cim: "conTEXT 2015 - a regisztráció elkezdődött!"
       ev: 2015
       forras: kereses
@@ -154,6 +532,14 @@
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/02/07/eletkepek_kaposvari_irodankbol"
+    - cim: "A Neticle Technologies gyakornokokat keres!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/27/a_neticle_technologies_online_evangelist_trainee-t_keres"
+    - cim: Big Data + Search - Big Data Meetup 2014. február 12.
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/20/big_data_search_big_data_meetup_2014_februar"
     - cim: Data is everywhere - nov. 25. BOK meetup
       ev: 2014
       forras: kereses
@@ -170,6 +556,26 @@
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/03/25/elindult_a_kozbeszerzes_ceu_hu_oldal"
+    - cim: Magyar politikai blogszféra - adatok
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/03/magyar_politikai_blogszfera_adatok"
+    - cim: Magyar politikai blogszféra - webkonf slide-ok
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/11/08/magyar_politikai_blogszfera_webkonf_slide-ok"
+    - cim: Magyar politikai blogszféra - általános jellemzők
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/07/magyar_politikai_blogszfera_altalanos_jellemzok"
+    - cim: Meetup slideok
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/26/meetup_slideok"
+    - cim: Mit csinál egy nyelvész egy IT cégnél?
+      ev: 2014
+      forras: media
+      link: "https://www.slideshare.net/slideshow/mit-csinl-egy-nyelvsz-egy-it-cgnl/34033475"
     - cim: "NLP és termékfejlesztés előadás @ CEU MicroData"
       ev: 2014
       forras: kereses
@@ -178,14 +584,38 @@
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/09/19/oktober_16_e-kormanyzat_muhelykonferencia_es_budapest_open_knowledge_meetup"
+    - cim: "Precognox @ CeBIT"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/03/11/precognox_cebit"
+    - cim: "Szeptember 15: Budapest Open Knowledge Meetup"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/08/szeptember_15_budapest_open_knowledge_meetup"
+    - cim: A Twitter belép a tartalomiparba?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/10/a_twitter_belep_a_tartalomiparba"
     - cim: Adatújságírás - mérföldkövek
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/02/26/adatujsagiras_merfoldkovek"
+    - cim: "Az opendata.hu tesztelőket keres!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/06/az_opendata_hu_teszteloket_keres"
     - cim: Budapest BI Forum - 2013 november 6-7.
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/08/28/budapest_bi_forum_2013_november_6"
+    - cim: Journalism Plus Plus - európai adatújságírók hálózata
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/19/journalism_plus_plus_europai_adatujsagirok_halozata"
+    - cim: Juristat - jog és big data
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/03/juristat_jog_es_big_data"
     - cim: Közösségi hirdetés a Facebookon
       ev: 2013
       forras: kereses
@@ -198,10 +628,18 @@
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/05/27/magyar_open_data_hub_indul"
+    - cim: Mit mond az internet - NLP meetup március 27-én
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/03/19/mit_mond_az_internet_nlp_meetup_marcius_27-en"
     - cim: Nyílt adatok - Open Access konferencia a W3C Magyar Iroda szervezésében október 3-án
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/09/25/nyilt_adatok_open_access_konferencia_a_w3c_magyar_iroda_szervezeseben_oktober_3-an"
+    - cim: "Open Source Intelligence Konferencia, 2013. október 3."
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/20/open_source_intelligence_konferencia_2013_oktober"
     - cim: Példakép Alapítvány közönségszavazás
       ev: 2013
       forras: kereses
@@ -210,10 +648,54 @@
       ev: 2013
       forras: media
       link: "https://www.youtube.com/watch?v=TlDt7td7BJA"
+    - cim: Szövegbányászat - BURN meetup előadás
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/30/szovegbanyaszat_burn_meetup_eloadas"
+    - cim: Szöveges tartalom feltárása - MIBE-klub 2013. dec. 18.
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/12/szoveges_tartalom_feltarasa_mibe-klub_2013_dec"
+    - cim: Twitter forradalmak
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/14/twitter_forradalmak"
+    - cim: Web Intelligence - NLP meetup február 28-án
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/21/web_intelligence_nlp_meetup_februar_28-an"
+    - cim: conTEXT - szöveganalitika magyarul 2013. november 21.
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/12/context_szoveganalitika_magyarul_2013_november"
+    - cim: "ePSI Platform Workshop - 2013. október 2, Budapest"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/04/epsi_platform_workshop_2013_oktober_2_budapest"
     - cim: inkLink 2013 - adatújságírás-nap április 6-án
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/03/06/inklink_2013_adatujsagiras-nap_aprilis_6-an"
+    - cim: NLP Meetup - új előadó
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/09/18/nlp_meetup_uj_eloado"
+    - cim: NLP matiné okt. 26-án
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/23/nlp_matine_okt_26-an"
+    - cim: NLP meetup hírek
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/09/11/nlp_meetup_hirek"
+    - cim: Szövegbányászat minden mennyiségben
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/26/szovegbanyaszat_minden_mennyisegben"
+    - cim: newsle - közszájon forog
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/08/14/newsle_kozszajon_forog"
     - cim: rt.ly - most mi van?
       ev: 2012
       forras: kereses
@@ -226,7 +708,7 @@
   nev: A blog életéről
   slug: a-blog-eleterol
   ellenorizve: false
-  darab: 24
+  darab: 115
   kifejezesek:
     - írás
     - remél
@@ -236,37 +718,313 @@
     - vár
     - nyár
     - szakmai
-    - meetup
     - lassú
+    - meetup
   idezet:
     szoveg: "Sajnos ennyi telt tőlünk, reméljük az írásokat élvezni fogjátok és valami hasznosat is találtok majd bennük."
     forras: content/archivum/2010-08-12-hogyan-tovabb-mihez-kezdhet-magaval.md
   kulsok:
+    - cim: Papagáj vagy orákulum?
+      ev: 2023
+      forras: media
+      link: "https://docs.google.com/presentation/d/e/2PACX-1vSFhGG_A6QDdJF54sekTBHAyorm2SHb6F7AAHOOOHlpchSDLUz9XGGEBzy-u04p1t_i-Zt54WB6Rxl4/pub?start=false&loop=false&delayms=3000"
+    - cim: Minden nőre legalább két férfi jut az online sajtóban a Budapest-Moszkva-Strasbourg háromszögben
+      ev: 2019
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/minden-nore-legalabb-ket-ferfi-jut-az-online-sajtoban-a-budapest-moszkva-starasbourg-haromszogben"
+    - cim: Gender bias in Hungarian political discourse
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/05/15/gender_bias_in_hungarian_political_discourse"
+    - cim: The nation in American political discourse
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/05/15/the_nation_in_american_political_discourse"
+    - cim: 10 éves a Kereső Világ
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/09/11/10_eves_a_kereso_vilag"
+    - cim: A CEU-ügy a Twitteren - interaktív topikmodell vizualizáció
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/04/a_ceu-ugy_a_twitteren_interaktiv_topikmodell_vizualizacio"
+    - cim: Babák a hangok világában
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/26/babak_a_hangok_vilagaban"
+    - cim: "Cicák helyett műholdak!"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/10/16/cicak_helyett_muholdak"
+    - cim: "Illa berek, nádak, erek, szövegek, képek, deep learning meg vektorterek @ MeetOFF"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/03/28/illa_berek_nadak_erek_szovegek_kepek_deep_learning_meg_vektorterek_meetoff"
+    - cim: "Ki hogy beszél és milyen képet vág hozzá? @ conTEXT 2017"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/11/07/ki_hogy_beszel_es_milyen_kepet_vag_hozza_context"
+    - cim: Budapest.AI
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/10/26/budapest_ai"
+    - cim: Precognox Hackathon Kaposváron
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/03/11/precognox_hackathon_kaposvaron"
+    - cim: A Precognox az Adatozz okosan hackathonon
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/07/a_precognox_az_adatozz_okosan_hackathonon"
     - cim: Brainy Solutions - NLP meetup május 20-án
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/05/18/brainy_solutions_nlp_meetup_majus_20-an"
+    - cim: "KConnect @ ICT 2015"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/20/kconnect_ict"
     - cim: Kiszámíthatóak vagyunk?
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/03/02/kiszamithatoak_vagyunk"
+    - cim: Miért foglalkozunk emócióelemzéssel és politikai blogokkal?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/01/02/miert_foglalkozunk_emocioelemzessel_es_politikai_blogokkal"
+    - cim: "Miért nem kell félni attól, hogy a mesterséges intelligencia átveszi felettünk a hatalmat?"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/01/13/miert_nem_kell_felni_attol_hogy_a_mesterseges_intelligencia_atveszi_felettunk_a_hatalmat"
+    - cim: NLP erőforrások - meetup prezentációk
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/29/nlp_eroforrasok_meetup_prezentaciok"
+    - cim: Receptkereső a Precognoxtól
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/22/receptkereso_a_precognoxtol"
+    - cim: A novemberi NLP meetup diái
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/11/29/a_novemberi_nlp_meetup_diai"
+    - cim: A radikális jobboldal a hálózatelemzők kedvence
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/30/a_radikalis_jobboldal_a_halozatelemzok_kedvence"
     - cim: Dec. 18. Évadzáró NLP meetup
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/12/15/dec_18_evadzaro_nlp_meetup"
+    - cim: "Iparba nyelvészek!!!!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/29/iparba_nyelveszek"
+    - cim: "NLP meetup május 28-án: Viselkedünk a neten"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/05/12/nlp_meetup_majus_28-an_viselkedunk_a_neten"
+    - cim: NLP meetup slideok
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/05/29/nlp_meetup_slideok"
+    - cim: "NLP meetup április 30-án: Internetes jósda"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/29/nlp_meetup_aprilis_30-an_internetes_josda"
+    - cim: Nine Algorithms That Changed the Future - közérthetően elmagyarázva
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/13/nine_algorithms_that_changed_the_future_kozerthetoen_elmagyarazva"
+    - cim: November 20. conTEXT - szöveganalitika magyarul
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/11/04/november_20_context_szoveganalitika_magyarul"
+    - cim: "Szeptember 25: NLP meetup"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/16/szeptember_25_nlp_meetup"
+    - cim: Szeptember 3-án R and C++ a BURN meeutpon
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/28/szeptember_3-an_r_and_c_a_burn_meeutpon"
+    - cim: "Vendégposzt: Slamby, világklasszis értelmező technológia"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/18/vendegposzt_slamby_vilagklasszis_ertelmezo_technologia"
+    - cim: A Nuance felvásárolta a Tweddle Group-ot
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/06/a_nuance_felvasarolta_a_tweddle_group-ot"
+    - cim: A Twitter felvásárolta a Bluefin Labs-t
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/06/a_twitter_felvasarolta_a_bluefin_labs-t"
+    - cim: A szavak titkos élete - conTEXT prezentációm
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/29/a_szavak_titkos_elete_context_prezentaciom"
+    - cim: Az online tartalomelemzés határai
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/07/az_online_tartalomelemzes_hatarai"
+    - cim: BlackBerry és az érintőképernyős szövegbevitel
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/07/blackberry_es_az_erintokepernyos_szovegbevitel"
+    - cim: Budapest Users of R Network
+      ev: 2013
+      forras: media
+      link: "https://www.slideshare.net/slideshow/budapest-users-of-r-network-2013-november-27/28688245"
+    - cim: CompSS ajánló
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/15/compss_ajanlo"
+    - cim: Elindult a Twitter TV ad targeting
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/30/elindult_a_twitter_tv_ad_targeting"
+    - cim: Elindult az Online Politikai Elemzések
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/10/elindult_az_online_politikai_elemzesek"
+    - cim: "Gépkocsiba be!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/02/gepkocsiba_be"
+    - cim: Megjósolhatóak a forradalmak?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/17/megjosolhatoak_a_forradalmak"
+    - cim: Megéri keresőmarketingre költeni?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/16/megeri_keresomarketingre_kolteni"
+    - cim: Mire jó a szentimentelemzés?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/17/mire_jo_a_szentimentelemzes"
+    - cim: Nyelvtechnológia gyűlöletbeszéd és genocídium ellen
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/13/nyelvtechnologia_gyuloletbeszed_es_genocidium_ellen"
+    - cim: Politikai véleményárfolyam - avagy miről beszél az internet népe?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/18/politikai_velemenyarfolyam_avagy_mirol_beszel_az_internet_nepe"
+    - cim: Prismatic - hírolvasás Google Reader után
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/02/prismatic_hirolvasas_google_reader_utan"
     - cim: Párhuzamos világok - az online vizsgálódások határai
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/04/23/parhuzamos_vilagok_az_online_vizsgalodasok_hatarai"
+    - cim: Szezonzáró NLP Meetup
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/09/szezonzaro_nlp_meetup"
+    - cim: Szól az autórádió
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/03/05/szol_az_autoradio"
+    - cim: Tőzsdére megy a Twitter
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/17/tozsdere_megy_a_twitter"
+    - cim: Watchup - a személyes videó hírcsatorna
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/23/watchup_a_szemelyes_video_hircsatorna"
+    - cim: "Yahoo! Interest Graph"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/11/yahoo_interest_graph"
+    - cim: Yandex Wonder - ami a Facebook Graph Search szeretne lenni
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/01/26/yandex_wonder_ami_a_facebook_graph_search_szeretne_lenni"
+    - cim: "grannatik. - a tudomány csajos dolog!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/16/grannatik_a_tudomany_csajos_dolog"
+    - cim: inkLink 2013 - részletes program
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/04/inklink_2013_reszletes_program"
     - cim: Évértékelő
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/12/13/evertekelo_974"
+    - cim: Adatújságírás 1
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/01/adatujsagiras_1"
+    - cim: "Az oroszok már a spájzban vannak, bádogosokkal, receptekkel, bölcsészekkel"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/01/03/az_oroszok_mar_a_spajzban_vannak_badogosokkal_receptekkel_bolcseszekkel"
+    - cim: Első a mobil
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/07/03/elso_a_mobil"
+    - cim: Goldenblog 2012
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/01/goldenblog_827"
+    - cim: HVG Jövő 2.0 - ajánljuk magunkat
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/15/hvg_jovo_2_0_ajanljuk_magunkat"
+    - cim: Hungarian Natural Language Processing Meetup - előadás videók
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/08/03/hungarian_natural_language_processing_meetup_eloadas_videok"
+    - cim: Meetup update
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/09/21/meetup_update"
+    - cim: Pénzkeresők
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/06/05/penzkeresok"
+    - cim: Search+Google+
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/01/22/search_google"
+    - cim: "Wajam és Gmail results - személyeskedjünk!"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/02/wajam_es_gmail_results_szemelyeskedjunk"
+    - cim: Wolfram - másképp
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/12/11/wolfram_maskepp"
+    - cim: bluefin labs - az új Nielsen
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/09/04/bluefin_labs_az_uj_nielsen"
+    - cim: Évadzáró NLP meetup november 21-én
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/11/20/evadzaro_nlp_meetup_november_21-en"
+    - cim: "Baidu-zz egy kicsit, és máris megtudod! - a Google-verő kínai kereső bemutatkozik"
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/09/13/baidu_zz_egy_kicsit_es_maris_megtudod_a_google_vero_kinai_kereso_bemutatkozik"
+    - cim: Feltörekvő keresők 1.
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/12/06/feltorekvo_keresok_1"
+    - cim: Kereső Mobilvilág - ekönyv
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/23/mobil_keresovilag"
 - id: 4
   nev: Logika és matematika
   slug: logika-es-matematika
   ellenorizve: false
-  darab: 22
+  darab: 61
   kifejezesek:
     - logic
     - matematika
@@ -281,11 +1039,120 @@
   idezet:
     szoveg: "Boolos et all.: Computability and Logic Ha már van egy alapvető logikai műveltséged, ez a könyv nem okozhat meglepetést."
     forras: content/archivum/2010-05-09-logika-mindenkinek-ii-automatak.md
+  kulsok:
+    - cim: The Epistemic Arcade
+      ev: 2026
+      forras: mashol
+      link: "https://crowintelligence.org/aporia/epistemic-arcade/"
+    - cim: "Whereof one cannot speak, thereof one must be silent"
+      ev: 2026
+      forras: mashol
+      link: "https://crowintelligence.org/aporia/wittgenstein/"
+    - cim: Nemi előítéletek és szóbeágyazási modellek
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/01/30/tenyleg_rossz_meleg_kutyanak_lenni_mit_mondanak_nekunk_errol_a_szobeagyazasi_modellek"
+    - cim: Verhetjük-e nyugodtan a robotunkat?
+      ev: 2018
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/verhetjuk-e-nyugodtan-a-robotunkat"
+    - cim: A gép az ember tükre
+      ev: 2016
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/a-gep-az-ember-tukre"
+    - cim: "A gépek (még) nem fordulnak ellenünk!"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/27/a_gepek_meg_nem_fordulnak_ellenunk"
+    - cim: "Racionalitás, érzelmek, nyelv"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/04/racionalitas_erzelmek_nyelv"
+    - cim: "Tánc, kiterjesztett elme és mesterséges intelligencia"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/11/05/tanc_es_mesterseges_intelligencia"
+    - cim: Álmodnak-e az androidok elektronikus bárányokkal?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/03/24/almodnak-e_az_androidok_elektronikus_baranyokkal_810"
+    - cim: A Bletchley Park titkos élete - minden geek kötelező nyári olvasmánya
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/03/a_bletchley_park_titkos_elete_minden_geek_kotelezo_nyari_olvasmanya"
+    - cim: "A legjobb tudományos blogokat Debrecenben írják!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/03/a_legjobb_tudomanyos_blogokat_debrecenben_irjak"
+    - cim: "A társalgás pszichológiája - pragmatika mindenkinek!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/05/a_tarsalgas_pszichologiaja_pragmatika_mindenkinek"
+    - cim: Az adattudomány sötét titka
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/05/14/az_adattudomany_sotet_titka"
+    - cim: Ezek csak szavak - amik rólunk árulkodnak
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/24/ezek_csak_szavak_amik_rolunk_arulkodnak"
+    - cim: Jarvis már (majdnem) itt van köztünk
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/28/jarvis_mar_majdnem_itt_van_koztunk"
+    - cim: "Könyvajánló: The Information: A History, A Theory, A Flood"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/19/konyajanlo_the_information_a_history_a_theory_a_flood"
+    - cim: Nincs rossz reklám...
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/05/05/nincs_rossz_reklam"
+    - cim: Nyelvazonosítás
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/11/nyelvazonositas"
+    - cim: "Pepper, az érzelmes robot"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/09/pepper_az_erzelmes_robot"
+    - cim: "Adatra fel!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/08/adatra_fel"
+    - cim: Az amerikai gyűlöletbeszéd geográfiája
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/20/az_amerikai_gyuloletbeszed_geografiaja"
+    - cim: Funkcionális programozás - divat vagy van benne valami?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/06/funkcionalis_programozas_divat_vagy_van_benne_valami"
+    - cim: Mindennapi metaforák
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/12/mindennapi_metaforak"
+    - cim: Szentimentelemzés és kontextus
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/18/szentimentelemzes_es_kontextus"
+    - cim: The Revolution Will Not Be Televised
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/18/the_revolution_will_not_be_televised"
+    - cim: Trayvon Martin ügy a Twitteren
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/19/trayvon_martin_ugy_a_twitteren"
+    - cim: A szavak titkos élete
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/10/25/a_szavak_titkos_elete_747"
 - id: 5
   nev: Korpusznyelvészet
   slug: korpusznyelveszet
   ellenorizve: false
-  darab: 26
+  darab: 38
   kifejezesek:
     - korpusz
     - esik
@@ -301,10 +1168,22 @@
     szoveg: Valamiért azt tapasztaljuk hogy minden egészséges ember (és nagyon sok különböző betegséggel küzdő is) beszél legalább egy nyelvet.
     forras: content/archivum/2010-06-22-minimalista-program-i-elvek-parameterek.md
   kulsok:
+    - cim: The Epistemic Arcade
+      ev: 2026
+      forras: mashol
+      link: "https://crowintelligence.org/aporia/epistemic-arcade/"
+    - cim: A gép az ember tükre - avagy hogyan (ne) adjuk át saját előítéleteinket a mesterséges értelemnek
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/05/24/a_gep_az_ember_tukre_avagy_hogyan_ne_adjuk_at_sajat_eloiteleteinket_a_mesterseges_ertelemnek"
     - cim: Barangolások a szemantikai térben
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/04/19/barangolasok_a_szemantikai_terben"
+    - cim: Egy kép többet mond ezer szónál
+      ev: 2017
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/egy-kep-tobbet-mond-ezer-szonal"
     - cim: "Kisvilágunk, a nyelv"
       ev: 2015
       forras: kereses
@@ -313,6 +1192,18 @@
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/04/15/az_angol_bizony_nem_eleg"
+    - cim: Fogalmi metaforák
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/27/fogalmi_metaforak"
+    - cim: Jarvis már (majdnem) itt van köztünk
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/28/jarvis_mar_majdnem_itt_van_koztunk"
+    - cim: "Könyvajánló: The Information: A History, A Theory, A Flood"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/19/konyajanlo_the_information_a_history_a_theory_a_flood"
     - cim: Nyelvészet mindenkinek 2.
       ev: 2014
       forras: kereses
@@ -329,15 +1220,27 @@
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/10/30/a_sajat_kis_vilagunk_mit_kezdjunk_a_filter_bubble_jelenseggel"
+    - cim: Funkcionális programozás - divat vagy van benne valami?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/06/funkcionalis_programozas_divat_vagy_van_benne_valami"
     - cim: Nomen est omen - avagy mit árul el rólunk a nevünk
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/10/18/nomen_est_omen_avagy_mit_arul_el_rolunk_a_nevunk"
+    - cim: Trayvon Martin ügy a Twitteren
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/19/trayvon_martin_ugy_a_twitteren"
+    - cim: Weotta - mit csinálsz ma?
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/15/weotta_mit_csinalsz_ma"
 - id: 6
   nev: Adatújságírás és nyílt adat
   slug: adatujsagiras-es-nyilt-adat
   ellenorizve: false
-  darab: 19
+  darab: 105
   kifejezesek:
     - journalism
     - adat
@@ -352,11 +1255,274 @@
   idezet:
     szoveg: "Nem csak egyszerűen letölthetők az adatok össze-vissza, hanem jól megtervezett API-kat hoztak létre erre."
     forras: content/archivum/2010-09-10-new-york-times-es-guardian-api-k.md
+  kulsok:
+    - cim: 100 szóban Budapest
+      ev: 2020
+      forras: media
+    - cim: 100 szóban Budapest
+      ev: 2020
+      forras: media
+      link: "https://www.mixcloud.com/karcfm/sp%C3%A1jz-2020-12-03-0900-1200-2/"
+    - cim: 100 szóban Budapest
+      ev: 2020
+      forras: media
+      link: "https://soundcloud.com/mannafm/budapest-update-reggeli-manna-hepi-endrevel-es-hudak-anitaval-2020-11-30-6-ora"
+    - cim: Miről szólnak a magyar dalszövegek?
+      ev: 2020
+      forras: media
+    - cim: Sentiment Analysis and Natural Language Processing for Marketing
+      ev: 2020
+      forras: mashol
+      link: "https://www.manning.com/liveproject/sentiment-analysis-and-natural-language-processing-for-marketing"
+    - cim: "Emberközpontú gépi tanulás @ Entrepreneur DNA"
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/02/08/emberkozpontu_gepi_tanulas_entrepreneur_dna"
+    - cim: Mi az a deep learning?
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/06/07/mi_az_a_deep_learning"
+    - cim: "A migráció arcai @ nyest.hu"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/09/04/a_migracio_arcai_nyest_hu"
+    - cim: "Hogy olvas újságot a mesterséges intelligencia és mit lát a képeken? @ Budapest Science Meetup"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/09/14/hogy_olvas_ujsagot_a_mesterseges_intelligencia_es_mit_lat_a_kepeken_budapest_science_meetup"
+    - cim: "K-Monitor: Adatbázis a közpénzek útjáról"
+      ev: 2017
+      forras: mashol
+      link: "https://k-monitor.github.io/"
+    - cim: Magyar Twitter Szentiment Korpusz
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/06/22/magyar_twitter_szentiment_korpusz"
+    - cim: Milyen topikokból áll egy ingatlanhirdetés?
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/06/20/milyen_topikokbol_all_egy_ingatlanhirdetes"
+    - cim: "Real-World Deep Learning for NLP @ Budapest Data Forum"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/06/13/real-world_deep_learning_for_nlp_budapest_data_forum"
+    - cim: "Tüntetések, civilek és a CEU - párhuzamos valóságok az online médiában"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/15/civilek_es_ceu_az_online_mediaban"
+    - cim: "A multimodális keresés és tartalomelemzés lehetőségei @ conTEXT 2016"
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/11/29/a_multimodalis_kereses_es_tartalomelemzes_lehetosegei_context"
+    - cim: A Google és a mobilod
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/07/a_google_es_a_mobilod"
+    - cim: Beszélünk az érzelmeinkről - OSINT diák
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/11/04/beszelunk_az_erzelmeinkrol_osint_diak"
+    - cim: Hogy hivatkoznak egymásra a magyar politikai blogok és híroldalak?
+      ev: 2015
+      forras: media
+      link: "https://www.youtube.com/watch?v=sA8TsIWUSCI"
+    - cim: Hogy hivatkoznak egymásra a magyar politikai blogok és híroldalak? - prezentáció
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/14/hogy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak_prezentacio"
+    - cim: Hogy közösködnek a politikai blogok és híroldalak?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/07/hogy_kozoskodnek_a_politikai_blogok_es_hiroldalak"
+    - cim: "Konf: Jövendőmondás - predikció a múlt és a jelen adatai alapján"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/09/23/jovendomondas_predikcio_a_mult_es_a_jelen_adatai_alapjan"
+    - cim: Orbán Viktor országértékelő beszédei képekben
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/28/orban_viktor_orszagertekelo_beszedei_kepekben"
+    - cim: Politikai blogokkal foglalkozó projektünk a Media Hungary-n
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/20/politikai_blogokkal_foglalkozo_projektunk_a_media_hungary-n"
+    - cim: "Precognox @ KConnect Hackathon, Sheffield"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/11/12/precognox_kconnect_hackathon_sheffield"
+    - cim: Sorok között olvasva
+      ev: 2015
+      forras: media
+      link: "https://www.youtube.com/watch?v=4BGROq5YqFQ"
+    - cim: Sorok között olvasva - MIBE konferencia-előadás
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/28/sorok_kozott_olvasva_mibe_konferencia_eloadas"
+    - cim: Textus; szövegek hálójában
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/23/textus_szovegek_halojaban"
+    - cim: Textus; szövegek hálójában
+      ev: 2015
+      forras: media
+      link: "https://www.slideshare.net/slideshow/textus-szvegek-hljban/47237756"
+    - cim: Így hivatkoznak egymásra a magyar politikai blogok és híroldalak
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/03/04/igy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak"
+    - cim: 25 év Tankcsapda dalainak topik eloszlása
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/07/21/25_ev_tankcsapda_dalainak_topik_eloszlasa"
+    - cim: "A Neticle Technologies gyakornokokat keres!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/27/a_neticle_technologies_online_evangelist_trainee-t_keres"
+    - cim: Big Data + Search - Big Data Meetup 2014. február 12.
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/20/big_data_search_big_data_meetup_2014_februar"
+    - cim: Big Data Meetup prezentáció
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/17/big_data_meetup_prezentacio"
+    - cim: "CommonCrawl - ha unod a kis adathalmazokat, akkor 148TB-ot elemezhetsz a segítségével"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/11/commoncrawl_ha_unod_a_kis_adathalmazokat_akkor_148tb-ot_elemezhetsz_a_segitsegevel"
+    - cim: Magyar politikai blogszféra - webkonf slide-ok
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/11/08/magyar_politikai_blogszfera_webkonf_slide-ok"
+    - cim: Magyar politikai blogszféra - általános jellemzők
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/07/magyar_politikai_blogszfera_altalanos_jellemzok"
+    - cim: Mit csinál egy nyelvész egy IT cégnél?
+      ev: 2014
+      forras: media
+      link: "https://www.slideshare.net/slideshow/mit-csinl-egy-nyelvsz-egy-it-cgnl/34033475"
+    - cim: "Október 15: Design és NLP"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/10/09/oktober_15_design_es_nlp"
+    - cim: "Szeptember 15: Budapest Open Knowledge Meetup"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/08/szeptember_15_budapest_open_knowledge_meetup"
+    - cim: Így cenzúrázd az internetet
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/26/igy_cenzurazd_az_internetet"
+    - cim: A Twitter belép a tartalomiparba?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/10/a_twitter_belep_a_tartalomiparba"
+    - cim: Adatújságírás - a kezdetek
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/19/adatujsagiras_a_kezdetek"
+    - cim: Big data goes to Hollywood
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/18/big_data_goes_to_hollywood"
+    - cim: "George Lakoff @ CEU! 2013. október 16-án"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/10/george_lakoff_ceu_2013_oktober_16-an"
+    - cim: House of Cards – tartalom és big data
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/07/house_of_cards_tartalom_es_big_data"
+    - cim: Journalism Plus Plus - európai adatújságírók hálózata
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/19/journalism_plus_plus_europai_adatujsagirok_halozata"
+    - cim: Marketing és (nyelv)technológia
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/28/marketing_es_nyelv_technologia"
+    - cim: Miért buknak el nemzetek? - és mi köze van ennek a nyílt adatokhoz?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/21/miert_buknak_el_nemzetek_es_mi_koze_van_ennek_a_nyilt_adatokhoz"
+    - cim: Silk - indíts saját adatblogot
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/03/12/silk_indits_sajat_adatblogot"
+    - cim: Szentimentelemzésre alapozott döntések
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/29/szentimentelemzesre_alapozott_dontesek"
+    - cim: Szöveges tartalom feltárása - MIBE-klub 2013. dec. 18.
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/12/szoveges_tartalom_feltarasa_mibe-klub_2013_dec"
+    - cim: Twitter forradalmak
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/14/twitter_forradalmak"
+    - cim: Társadalmi kísérletek és big data
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/16/tarsadalmi_kiserletek_es_big_data"
+    - cim: conTEXT - szöveganalitika magyarul 2013. november 21.
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/12/context_szoveganalitika_magyarul_2013_november"
+    - cim: "ePSI Platform Workshop - 2013. október 2, Budapest"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/04/epsi_platform_workshop_2013_oktober_2_budapest"
+    - cim: Új algoritmus a hálózatok jobb megismerésére
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/08/uj_algoritmus_a_halozatok_jobb_megismeresere"
+    - cim: A huNLP levelezőlista
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/09/13/hunlp_levelezolista"
+    - cim: Adat piac 2. rész
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/03/06/adat_piac_2_resz"
+    - cim: Google Knowledge Graph
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/03/20/google_knowledge_graph"
+    - cim: "Silk - adatra fel!"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/22/silk_adatra_fel"
+    - cim: Sok a szöveg? - Magyarországi Web Konferencia 2012
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/19/sok_a_szoveg_magyarorszagi_web_konferencia"
+    - cim: Szövegbányászat minden mennyiségben
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/26/szovegbanyaszat_minden_mennyisegben"
+    - cim: Trapit - avagy megint egy közösségi hírolvasó
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/08/trapit_avagy_megint_egy_kozossegi_hirolvaso"
+    - cim: newsle - közszájon forog
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/08/14/newsle_kozszajon_forog"
+    - cim: A keresés fejlődése hat percben
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/28/a_kereses_fejlodese_hat_percben"
+    - cim: Felkapott témák keresése
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/10/11/felkapott_temak_keresese"
 - id: 7
   nev: Tudományfilozófia
   slug: tudomanyfilozofia
   ellenorizve: false
-  darab: 32
+  darab: 63
   kifejezesek:
     - elmélet
     - tudományos
@@ -371,11 +1537,92 @@
   idezet:
     szoveg: Azt korábbi írásomban röviden bemutattam miképp számolta fel önmagát a klasszikus logikai megközelítésen alapuló tudományfilozófia és fordult át tudományszociológiába.
     forras: content/archivum/2010-12-03-tudomanyfilozofia-gepi-tanulas-es.md
+  kulsok:
+    - cim: "Computational Classics: The Wrath and the Journey"
+      ev: 2026
+      forras: mashol
+      link: "https://crowintelligence.org/aporia/homer/"
+    - cim: Nemi előítéletek és szóbeágyazási modellek
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/01/30/tenyleg_rossz_meleg_kutyanak_lenni_mit_mondanak_nekunk_errol_a_szobeagyazasi_modellek"
+    - cim: Az elméleti minimum...
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/09/01/az_elmeleti_minimum"
+    - cim: "Az álhírek és az áltudomány elleni harc nem technológiai kérdés, ez a demokráciáról szól"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/10/az_alhirek_es_altudomany_elleni_harc_nem_technologiai_kerdes_ez_a_demokraciarol_szol"
+    - cim: The Mathematical Corporation
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/08/18/the_mathematical_corporation"
+    - cim: Morális gépek
+      ev: 2016
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/moralis-gepek"
+    - cim: "Racionalitás, érzelmek, nyelv"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/04/racionalitas_erzelmek_nyelv"
+    - cim: "Tánc, kiterjesztett elme és mesterséges intelligencia"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/11/05/tanc_es_mesterseges_intelligencia"
+    - cim: Álmodnak-e az androidok elektronikus bárányokkal?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/03/24/almodnak-e_az_androidok_elektronikus_baranyokkal_810"
+    - cim: "A legjobb tudományos blogokat Debrecenben írják!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/03/a_legjobb_tudomanyos_blogokat_debrecenben_irjak"
+    - cim: Ezek csak szavak - amik rólunk árulkodnak
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/24/ezek_csak_szavak_amik_rolunk_arulkodnak"
+    - cim: "Good Math - logika, számításelmélet és matek érdekesen tálalva"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/07/02/good_math_logika_szamitaselmelet_es_matek_erdekesen_talalva"
+    - cim: "Könyvajánló: The Theory That Would Not Die"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/20/konyvajanlo_the_theory_that_would_not_die"
+    - cim: Nyelvazonosítás
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/11/nyelvazonositas"
+    - cim: Az amerikai gyűlöletbeszéd geográfiája
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/20/az_amerikai_gyuloletbeszed_geografiaja"
+    - cim: Funkcionális programozás - divat vagy van benne valami?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/06/funkcionalis_programozas_divat_vagy_van_benne_valami"
+    - cim: Kognitív nyelvészet és (politikai) marketing
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/27/kognitiv_nyelveszet_es_politikai_marketing"
+    - cim: Mindennapi metaforák
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/12/mindennapi_metaforak"
+    - cim: A szavak titkos élete
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/10/25/a_szavak_titkos_elete_747"
+    - cim: Bölcs keresők
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/08/bolcs_keresok"
 - id: 8
   nev: A szakma
   slug: a-szakma
   ellenorizve: false
-  darab: 28
+  darab: 33
   kifejezesek:
     - linguistics
     - computational
@@ -391,6 +1638,10 @@
     szoveg: "Mit takarnak az angol elnevezések (computational linguistics, natural language processing, natural language engineering)?"
     forras: content/archivum/2010-05-12-minek-nevezzelek-szamitogepes.md
   kulsok:
+    - cim: Elindult az r-projekt.hu
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/05/24/elindult_az_r-projekt_hu"
     - cim: Idibon - Big Data Bábel
       ev: 2013
       forras: kereses
@@ -411,7 +1662,7 @@
   nev: Programozás nyelvészeknek
   slug: programozas-nyelveszeknek
   ellenorizve: false
-  darab: 22
+  darab: 43
   kifejezesek:
     - Ruby
     - processing
@@ -427,15 +1678,58 @@
     szoveg: "Sok olvasó kérdezte miért is használjon R-t, hiszen a Python nyelv ideális nyelvészek számára, nem beszélve az nltk-ról."
     forras: content/archivum/2010-07-29-r-de-miert-is-hasznaljam-i.md
   kulsok:
+    - cim: Algoritmikus újságírás és fake news
+      ev: 2020
+      forras: media
     - cim: "Nézzünk az adatokba!"
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/09/19/nezzunk_az_adatokba"
+    - cim: Alternatív megoldások a pötyögésre mobilon
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/07/09/alternativ_megoldasok_a_potyogesre_mobilon"
+    - cim: Bababeszéd és gráfok 2.
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/08/bababeszed_es_grafok_698"
+    - cim: Gondolatolvasás - a brain-to-text már valóság
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/09/07/gondolatolvasas_a_brain-to-text_mar_valosag"
+    - cim: Neked is mindenről a vaj jut az eszedbe?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/08/05/neked_is_mindenrol_a_vaj_jut_az_eszedbe"
+    - cim: Egyenlőtlenség és keresési trendek
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/01/egyenlotlenseg_es_keresesi_trendek"
+    - cim: Jobb szentimentelemzés deep learning használatával
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/12/jobb_szentimentelemzes_deep_learning_hasznalataval"
+    - cim: Small Data
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/24/small_data"
+    - cim: Evernote Moleskine - régi és új
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/16/evernote_moleskine_regi_es_uj"
+    - cim: Nuance - beszédtechnológia mint szolgáltatás
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/08/28/nuance_beszedtechnologia_mint_szolgaltatas"
+    - cim: "Kérdezz! Felelek."
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/02/kerdezz_felelek_957"
 - id: 10
   nev: Nyelvelemző eszközök
   slug: nyelvelemzo-eszkozok
   ellenorizve: false
-  darab: 17
+  darab: 45
   kifejezesek:
     - nyelvtani
     - szabály
@@ -451,20 +1745,106 @@
     szoveg: "Bemutatni, hogy mennyi és milyen minőségű nyelvelemző programok állnak már jelenleg is a rendelkezésünkre."
     forras: content/archivum/2010-07-11-nooj-az-integralt-nyelvelemzo-kornyezet.md
   kulsok:
+    - cim: Mire jók a chatbotok és hol tart ma az ember-gép interakció
+      ev: 2021
+      forras: media
+    - cim: Mit tudnak a nyelvmodellek?
+      ev: 2020
+      forras: media
+    - cim: Hogyan tanuljon a mesterséges intelligencia?
+      ev: 2017
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/hogyan-tanuljon-a-mesterseges-intelligencia"
+    - cim: Miről beszélt Orbán Viktor?
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/05/02/mirol_beszelt_orban_viktor"
+    - cim: "A neurális az új szexi!"
+      ev: 2016
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/a-neuralis-az-uj-szexi"
+    - cim: Deep Learning mobilon - SwiftKey Neural Alpha
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/12/deep_learning_mobilon_swiftkey_neural_alpha"
+    - cim: Hogyan befolyásolja a gondolkodásunkat a mindennapi számítógép-használat? A QWERTY-hatás
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/07/17/a_qwerty-hatasrol"
+    - cim: Hálózattudomány és nyelv - magyar könyvek
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/01/halozattudomany_es_nyelv_magyar_konyvek"
+    - cim: Múlt idő és kognitív technológia
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/17/csak_termeszetesen_443"
+    - cim: A Clementine Consulting szöveganalitikai elemzőt keres
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/24/a_clementine_consulting_szoveganalitikai_elemzot_keres"
+    - cim: "A Precognox nyelvész gyakornokokat keres!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/09/a_precognox_nyelvesz_gyakornokokat_keres"
+    - cim: CEU MicroData is hiring a junior programmer to perform text analytics tasks
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/02/ceu_microdata_is_hiring_a_junior_programmer_to_perform_text_analytics_tasks"
+    - cim: Kvantumfizika és nyelvészet
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/25/kvantumfizika_es_nyelveszet"
+    - cim: "MOOC ajánló: Corpus Linguistics: Method, Analysis, Interpretation"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/22/mooc_ajanlo_corpus_linguistics_method_analysis_interpretation"
+    - cim: 2013 a beszédtechnológia éve?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/22/2013_a_beszedtechnologia_eve"
+    - cim: A Nuance van a Siri beszédfelismerője mögött - ez már hivatalos
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/05/a_nuance_van_a_siri_beszedfelismeroje_mogott_ez_mar_hivatalos"
+    - cim: Idibon - Big Data Bábel
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/21/idibon_big_data_babel"
     - cim: Precognox Labs - Entity Extractor
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/09/10/precognox_labs_entity_extractor"
+    - cim: Ray Kurzweil a Google-nél
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/01/14/ray_kurzweill_a_google-nel"
+    - cim: "Szavak, városok, long tail és a 80/20 szabály"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/05/szavak_varosok_long_tail_es_a_80_20_szabaly"
+    - cim: Prediktív analitika mint szolgáltatás
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/08/21/prediktiv_analitika_mint_szolgaltatas"
+    - cim: Using Clojure in Linguistic Computing
+      ev: 2012
+      forras: mashol
+      link: "https://www.researchgate.net/publication/220028786_Using_Clojure_in_Linguistic_Computing"
+    - cim: A szavak titkos élete
+      ev: 2011
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/a-szavak-titkos-elete"
 - id: 11
   nev: Paradigmák és nyelvelméletek
   slug: paradigmak-es-nyelvelmeletek
   ellenorizve: false
-  darab: 10
+  darab: 54
   kifejezesek:
     - paradigma
     - event
-    - Pustejovsky
     - hypothesis
+    - Pustejovsky
     - Kuhn
     - Hauser
     - system
@@ -474,11 +1854,120 @@
   idezet:
     szoveg: "What isn't done well is the willingness to drop the initial hypothesis if it is confirmed in one language and then, later, disconfirmed in another."
     forras: content/archivum/2010-07-19-scientific-approaches-in-syntax.md
+  kulsok:
+    - cim: "Computational Classics: The Wrath and the Journey"
+      ev: 2026
+      forras: mashol
+      link: "https://crowintelligence.org/aporia/homer/"
+    - cim: The Epistemic Arcade
+      ev: 2026
+      forras: mashol
+      link: "https://crowintelligence.org/aporia/epistemic-arcade/"
+    - cim: "Whereof one cannot speak, thereof one must be silent"
+      ev: 2026
+      forras: mashol
+      link: "https://crowintelligence.org/aporia/wittgenstein/"
+    - cim: Nemi előítéletek és szóbeágyazási modellek
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/01/30/tenyleg_rossz_meleg_kutyanak_lenni_mit_mondanak_nekunk_errol_a_szobeagyazasi_modellek"
+    - cim: Az elméleti minimum...
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/09/01/az_elmeleti_minimum"
+    - cim: "Az álhírek és az áltudomány elleni harc nem technológiai kérdés, ez a demokráciáról szól"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/10/az_alhirek_es_altudomany_elleni_harc_nem_technologiai_kerdes_ez_a_demokraciarol_szol"
+    - cim: Egy kép többet mond ezer szónál
+      ev: 2017
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/egy-kep-tobbet-mond-ezer-szonal"
+    - cim: The Mathematical Corporation
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/08/18/the_mathematical_corporation"
+    - cim: Van fogalmunk róla?
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/05/09/van_fogalmunk_rola"
+    - cim: "Racionalitás, érzelmek, nyelv"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/04/racionalitas_erzelmek_nyelv"
+    - cim: "Tánc, kiterjesztett elme és mesterséges intelligencia"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/11/05/tanc_es_mesterseges_intelligencia"
+    - cim: Álmodnak-e az androidok elektronikus bárányokkal?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/03/24/almodnak-e_az_androidok_elektronikus_baranyokkal_810"
+    - cim: "A legjobb tudományos blogokat Debrecenben írják!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/03/a_legjobb_tudomanyos_blogokat_debrecenben_irjak"
+    - cim: Egy igazi metaforamasina a Yossarian?
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/10/10/egy_igazi_metaforamasina_a_yossarian"
+    - cim: Ezek csak szavak - amik rólunk árulkodnak
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/24/ezek_csak_szavak_amik_rolunk_arulkodnak"
+    - cim: "Good Math - logika, számításelmélet és matek érdekesen tálalva"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/07/02/good_math_logika_szamitaselmelet_es_matek_erdekesen_talalva"
+    - cim: "Könyvajánló: The Theory That Would Not Die"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/20/konyvajanlo_the_theory_that_would_not_die"
+    - cim: Nyelvazonosítás
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/11/nyelvazonositas"
+    - cim: Valószínűleg valószínű vagy valószínűtlen a nyelv
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/10/30/valoszinuleg_valoszinu_vagy_valoszinutlen_a_nyelv"
+    - cim: Az amerikai gyűlöletbeszéd geográfiája
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/20/az_amerikai_gyuloletbeszed_geografiaja"
+    - cim: Kognitív nyelvészet és (politikai) marketing
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/27/kognitiv_nyelveszet_es_politikai_marketing"
+    - cim: Mindennapi metaforák
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/12/mindennapi_metaforak"
+    - cim: Mire jók a tudományos modellek?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/27/mire_jok_a_tudomanyos_modellek"
+    - cim: "Nekünk elmélet kell!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/26/nekunk_elmelet_kell"
+    - cim: A szavak titkos élete
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/10/25/a_szavak_titkos_elete_747"
+    - cim: Bölcs keresők
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/08/bolcs_keresok"
+    - cim: "Keressünk közösen!"
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/12/20/keressunk_kozosen"
 - id: 12
   nev: Kurzusok és önképzés
   slug: kurzusok-es-onkepzes
   ellenorizve: false
-  darab: 10
+  darab: 43
   kifejezesek:
     - kurzus
     - ESSLLI
@@ -490,11 +1979,79 @@
     - kínálat
     - student
     - Haskell
+  kulsok:
+    - cim: Algoritmikus újságírás és fake news
+      ev: 2020
+      forras: media
+    - cim: Kézírással Androidon
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/01/19/kezirassal_androidon"
+    - cim: Bababeszéd és gráfok 2.
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/08/bababeszed_es_grafok_698"
+    - cim: Gondolatolvasás - a brain-to-text már valóság
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/09/07/gondolatolvasas_a_brain-to-text_mar_valosag"
+    - cim: Neked is mindenről a vaj jut az eszedbe?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/08/05/neked_is_mindenrol_a_vaj_jut_az_eszedbe"
+    - cim: Data Analysis with R
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/10/22/data_analysis_with_r"
+    - cim: Egyenlőtlenség és keresési trendek
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/01/egyenlotlenseg_es_keresesi_trendek"
+    - cim: Fogalmi metaforák
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/27/fogalmi_metaforak"
+    - cim: "Learning by doing: Írjunk és teszteljünk saját nyelvtant"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/29/learning_by_doing_irjunk_es_teszteljunk_sajat_nyelvtant"
+    - cim: "Állás: Java + NLP"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/09/allas_java_nlp"
+    - cim: "Az adatújságírás után itt a JavaScript újságírás!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/02/az_adatujsagiras_utan_itt_a_javascript_ujsagiras"
+    - cim: Precognox Labs - News Tagger
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/11/precognox_labs_news_tagger"
+    - cim: Small Data
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/24/small_data"
+    - cim: Evernote Moleskine - régi és új
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/16/evernote_moleskine_regi_es_uj"
+    - cim: Weotta - mit csinálsz ma?
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/15/weotta_mit_csinalsz_ma"
+    - cim: Feltörekvő keresők 2.
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/12/13/feltorekvo_keresok_2"
+    - cim: "Kérdezz! Felelek."
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/02/kerdezz_felelek_957"
 - id: 13
   nev: Korpuszépítés és annotáció
   slug: korpuszepites-es-annotacio
   ellenorizve: false
-  darab: 10
+  darab: 56
   kifejezesek:
     - book
     - annotáció
@@ -506,11 +2063,113 @@
     - R
     - helps
     - standard
+  kulsok:
+    - cim: Szövegelemzés és AI
+      ev: 2022
+      forras: media
+      link: "https://docs.google.com/presentation/d/e/2PACX-1vSxIh-9aYfUurHNLEQw6Y-UamdEPzopgK9jTzyss4P_ChUr9B5mcn9PiN12pIQ9GX0loi_nUXvKU8Dv/pub?start=false&loop=false&delayms=3000"
+    - cim: Mire jók a chatbotok és hol tart ma az ember-gép interakció
+      ev: 2021
+      forras: media
+    - cim: "GPT-3, nyelvmodellek, AI és szöveggenerálás"
+      ev: 2020
+      forras: media
+    - cim: Mit tudnak a nyelvmodellek?
+      ev: 2020
+      forras: media
+    - cim: Hogyan tanuljon a mesterséges intelligencia?
+      ev: 2017
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/hogyan-tanuljon-a-mesterseges-intelligencia"
+    - cim: Szonifikáció
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/25/szonifikacio"
+    - cim: "A neurális az új szexi!"
+      ev: 2016
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/a-neuralis-az-uj-szexi"
+    - cim: Bababeszéd és gráfok
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/05/bababeszed_es_grafok"
+    - cim: Deep Learning mobilon - SwiftKey Neural Alpha
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/12/deep_learning_mobilon_swiftkey_neural_alpha"
+    - cim: Hogyan befolyásolja a gondolkodásunkat a mindennapi számítógép-használat? A QWERTY-hatás
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/07/17/a_qwerty-hatasrol"
+    - cim: Hálózattudomány és nyelv - magyar könyvek
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/01/halozattudomany_es_nyelv_magyar_konyvek"
+    - cim: "Kisvilágunk, a nyelv 2. - szemantikai és szóasszociációs hálózatok"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/09/01/kisvilagunk_a_nyelv_2_szemantikai_halozatok"
+    - cim: Múlt idő és kognitív technológia
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/17/csak_termeszetesen_443"
+    - cim: A Clementine Consulting szöveganalitikai elemzőt keres
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/24/a_clementine_consulting_szoveganalitikai_elemzot_keres"
+    - cim: "A Precognox nyelvész gyakornokokat keres!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/09/a_precognox_nyelvesz_gyakornokokat_keres"
+    - cim: CEU MicroData is hiring a junior programmer to perform text analytics tasks
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/02/ceu_microdata_is_hiring_a_junior_programmer_to_perform_text_analytics_tasks"
+    - cim: "Könyvajánló: Taming Text"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/03/17/konyvajanlo_taming_text"
+    - cim: 2013 a beszédtechnológia éve?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/22/2013_a_beszedtechnologia_eve"
+    - cim: A Nuance van a Siri beszédfelismerője mögött - ez már hivatalos
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/05/a_nuance_van_a_siri_beszedfelismeroje_mogott_ez_mar_hivatalos"
+    - cim: Idibon - Big Data Bábel
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/21/idibon_big_data_babel"
+    - cim: Ray Kurzweil a Google-nél
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/01/14/ray_kurzweill_a_google-nel"
+    - cim: Reverb - a Wordnik nevet váltott
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/12/reverb_a_wordnik_nevet_valtott"
+    - cim: "Szavak, városok, long tail és a 80/20 szabály"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/05/szavak_varosok_long_tail_es_a_80_20_szabaly"
+    - cim: Prediktív analitika mint szolgáltatás
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/08/21/prediktiv_analitika_mint_szolgaltatas"
+    - cim: Using Clojure in Linguistic Computing
+      ev: 2012
+      forras: mashol
+      link: "https://www.researchgate.net/publication/220028786_Using_Clojure_in_Linguistic_Computing"
+    - cim: A szavak titkos élete
+      ev: 2011
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/a-szavak-titkos-elete"
 - id: 14
   nev: Nyílt szoftver és tervezés
   slug: nyilt-szoftver-es-tervezes
   ellenorizve: false
-  darab: 9
+  darab: 123
   kifejezesek:
     - nyílt
     - licenc
@@ -518,18 +2177,354 @@
     - design
     - nyíltság
     - információtervezés
-    - Library
     - Patterns
+    - Library
     - forráskód
     - Prismatic
   idezet:
     szoveg: "A könyv olvasása előtt érdemes megnézni pár ilyen design pattern library-t (szoftver, interfész és adat tervezési minták is vannak a következő gyűjteményben)."
     forras: content/archivum/2010-10-18-konyvismerteto-morville-callender.md
+  kulsok:
+    - cim: 100 szóban Budapest
+      ev: 2020
+      forras: media
+      link: "https://www.mixcloud.com/karcfm/sp%C3%A1jz-2020-12-03-0900-1200-2/"
+    - cim: 100 szóban Budapest
+      ev: 2020
+      forras: media
+      link: "https://soundcloud.com/mannafm/budapest-update-reggeli-manna-hepi-endrevel-es-hudak-anitaval-2020-11-30-6-ora"
+    - cim: Miről szólnak a magyar dalszövegek?
+      ev: 2020
+      forras: media
+    - cim: Sentiment Analysis and Natural Language Processing for Marketing
+      ev: 2020
+      forras: mashol
+      link: "https://www.manning.com/liveproject/sentiment-analysis-and-natural-language-processing-for-marketing"
+    - cim: "Emberközpontú gépi tanulás @ Entrepreneur DNA"
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/02/08/emberkozpontu_gepi_tanulas_entrepreneur_dna"
+    - cim: Mi az a deep learning?
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/06/07/mi_az_a_deep_learning"
+    - cim: "Hogy olvas újságot a mesterséges intelligencia és mit lát a képeken? @ Budapest Science Meetup"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/09/14/hogy_olvas_ujsagot_a_mesterseges_intelligencia_es_mit_lat_a_kepeken_budapest_science_meetup"
+    - cim: "K-Monitor: Adatbázis a közpénzek útjáról"
+      ev: 2017
+      forras: mashol
+      link: "https://k-monitor.github.io/"
+    - cim: Magyar Twitter Szentiment Korpusz
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/06/22/magyar_twitter_szentiment_korpusz"
+    - cim: "Mennyit ér a kecód? Medián négyzetméter árak vizualizálva!"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/05/19/mennyit_er_a_kecod"
+    - cim: "Real-World Deep Learning for NLP @ Budapest Data Forum"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/06/13/real-world_deep_learning_for_nlp_budapest_data_forum"
+    - cim: "Tüntetések, civilek és a CEU - párhuzamos valóságok az online médiában"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/15/civilek_es_ceu_az_online_mediaban"
+    - cim: "A multimodális keresés és tartalomelemzés lehetőségei @ conTEXT 2016"
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/11/29/a_multimodalis_kereses_es_tartalomelemzes_lehetosegei_context"
+    - cim: A Google és a mobilod
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/07/a_google_es_a_mobilod"
+    - cim: Beszélünk az érzelmeinkről - OSINT diák
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/11/04/beszelunk_az_erzelmeinkrol_osint_diak"
+    - cim: Hogy hivatkoznak egymásra a magyar politikai blogok és híroldalak?
+      ev: 2015
+      forras: media
+      link: "https://www.youtube.com/watch?v=sA8TsIWUSCI"
+    - cim: Hogy hivatkoznak egymásra a magyar politikai blogok és híroldalak? - prezentáció
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/14/hogy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak_prezentacio"
+    - cim: Hogy közösködnek a politikai blogok és híroldalak?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/07/hogy_kozoskodnek_a_politikai_blogok_es_hiroldalak"
+    - cim: "Konf: Jövendőmondás - predikció a múlt és a jelen adatai alapján"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/09/23/jovendomondas_predikcio_a_mult_es_a_jelen_adatai_alapjan"
+    - cim: New KConnect search services give healthcare the very best in medical information
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/14/new_kconnect_search_services_give_healthcare_the_very_best_in_medical_information"
+    - cim: Orbán Viktor országértékelő beszédei képekben
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/05/28/orban_viktor_orszagertekelo_beszedei_kepekben"
+    - cim: "Precognox @ KConnect Hackathon, Sheffield"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/11/12/precognox_kconnect_hackathon_sheffield"
+    - cim: "Ráfázhatsz a big data elemzésével!"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/01/05/rafazhatsz_a_big_data_elemzesevel"
+    - cim: Sorok között olvasva
+      ev: 2015
+      forras: media
+      link: "https://www.youtube.com/watch?v=4BGROq5YqFQ"
+    - cim: Sorok között olvasva - MIBE konferencia-előadás
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/28/sorok_kozott_olvasva_mibe_konferencia_eloadas"
+    - cim: Textus; szövegek hálójában
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/23/textus_szovegek_halojaban"
+    - cim: Textus; szövegek hálójában
+      ev: 2015
+      forras: media
+      link: "https://www.slideshare.net/slideshow/textus-szvegek-hljban/47237756"
+    - cim: Így hivatkoznak egymásra a magyar politikai blogok és híroldalak
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/03/04/igy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak"
+    - cim: A Google mint adatkereső
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/06/a_google_mint_adatkereso"
+    - cim: "A Neticle Technologies gyakornokokat keres!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/27/a_neticle_technologies_online_evangelist_trainee-t_keres"
+    - cim: A szakítás koreográfiája a közösségi médiában
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/10/06/a_szakitas_koreografiaja_a_kozossegi_mediaban"
+    - cim: Big Data + Search - Big Data Meetup 2014. február 12.
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/20/big_data_search_big_data_meetup_2014_februar"
+    - cim: Big Data Meetup prezentáció
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/17/big_data_meetup_prezentacio"
+    - cim: "CommonCrawl - ha unod a kis adathalmazokat, akkor 148TB-ot elemezhetsz a segítségével"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/11/commoncrawl_ha_unod_a_kis_adathalmazokat_akkor_148tb-ot_elemezhetsz_a_segitsegevel"
+    - cim: Hírelemző - új projekt a Precognox Labs-ben
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/10/hirelemzo_uj_projekt_a_precognox_labs-ben"
+    - cim: "Legyél hatékony (ipari) kutató!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/11/02/legyel_hatekony_ipari_kutato"
+    - cim: Mi az a nowcasting?
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/03/24/mi_az_a_nowcasting"
+    - cim: "Október 15: Design és NLP"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/10/09/oktober_15_design_es_nlp"
+    - cim: Plotly - kollaboratív interaktív adatvizualizáció
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/03/plotly_kollaborativ_interaktiv_adatvizualizacio"
+    - cim: Quixey - kereső a mobil-kornak
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/23/quixey_kereso_a_mobil-kornak"
+    - cim: "Trading Consequences: gazdaságtörténet és nyelvtechnológia"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/01/trading_consequences_gazdasagtortenet_es_nyelvtechnologia"
+    - cim: Twitter dialektológia
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/15/twitter_dialektologia"
+    - cim: swirl - interaktív környezet a statisztika és az R elsajátításához
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/06/16/swirl_interaktiv_kornyezet_a_statisztika_es_az_r_elsajatitasahoz"
+    - cim: Így cenzúrázd az internetet
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/26/igy_cenzurazd_az_internetet"
+    - cim: A Precognox megjelent az USA piacán
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/22/a_precognox_megjelent_az_usa_piacan"
+    - cim: A Twitter belép a tartalomiparba?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/10/a_twitter_belep_a_tartalomiparba"
+    - cim: A levelek köztársasága
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/19/a_levelek_koztarsasaga"
+    - cim: Adatújságírás - a kezdetek
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/02/19/adatujsagiras_a_kezdetek"
+    - cim: Adatújságírás - vissza a gyökerekhez
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/03/26/adatujsagiras_vissza_a_gyokerekhez"
+    - cim: Big data goes to Hollywood
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/18/big_data_goes_to_hollywood"
+    - cim: Data science kicsit másképp
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/22/data_science_kicsit_maskepp"
+    - cim: Fogyasztói hangulat mérése online szövegekre alapozva
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/25/fogyasztoi_hangulat_merese_online_szovegekre_alapozva"
+    - cim: "George Lakoff @ CEU! 2013. október 16-án"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/10/george_lakoff_ceu_2013_oktober_16-an"
+    - cim: Gráfadatbázisok
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/17/grafadatbazisok"
+    - cim: House of Cards – tartalom és big data
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/07/house_of_cards_tartalom_es_big_data"
+    - cim: Journalism Plus Plus - európai adatújságírók hálózata
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/19/journalism_plus_plus_europai_adatujsagirok_halozata"
+    - cim: "LinkedIn: több tartalom, jobb kereső"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/30/linkedin_tobb_tartalom_jobb_kereso"
+    - cim: Lobbicsoportok és civil mozgalmak hálózatainak alakulása a SOPA-PIPA vita kapcsán
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/31/lobbicsoportok_es_civil_mozgalmak_halozatainak_alakulasa_a_sopa-pipa_vita_kapcsan"
+    - cim: Marketing és (nyelv)technológia
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/28/marketing_es_nyelv_technologia"
+    - cim: Miért buknak el nemzetek? - és mi köze van ennek a nyílt adatokhoz?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/21/miert_buknak_el_nemzetek_es_mi_koze_van_ennek_a_nyilt_adatokhoz"
+    - cim: Piackutatás és big data
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/01/25/piackutatas_es_big_data"
+    - cim: Precognox Labs - Twitter Sentiment Analyzer
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/13/precognox_labs_twitter_sentiment_analyzer"
+    - cim: Precognox Labs - beszédfelismerős cégkereső
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/30/precognox_labs_beszedfelismeros_cegkereso"
+    - cim: Silk - indíts saját adatblogot
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/03/12/silk_indits_sajat_adatblogot"
+    - cim: Szöveges tartalom feltárása - MIBE-klub 2013. dec. 18.
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/12/szoveges_tartalom_feltarasa_mibe-klub_2013_dec"
+    - cim: Twitter forradalmak
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/14/twitter_forradalmak"
+    - cim: Társadalmi kísérletek és big data
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/16/tarsadalmi_kiserletek_es_big_data"
+    - cim: "A big data nagy, de miről szól?"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/07/24/a_big_data_nagy_de_mirol_szol"
+    - cim: A huNLP levelezőlista
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/09/13/hunlp_levelezolista"
+    - cim: Adat piac 2. rész
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/03/06/adat_piac_2_resz"
+    - cim: "DiscoverText, a szövegfelfedező"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/04/17/discovertext_a_szovegfelfedezo"
+    - cim: Gavagai - a nyúlon túl
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/29/gavagai_a_nyulon_tul"
+    - cim: Google Knowledge Graph
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/03/20/google_knowledge_graph"
+    - cim: "Hírek, másképp"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/01/31/hirek_maskepp"
+    - cim: Keresés és big data
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/06/12/kereses_big_data"
+    - cim: "Linkeskedésből jeles: bitly"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/03/27/linkeskedesbol_jeles_bitly"
+    - cim: Luminoso - a józan ész fényénél
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/09/25/luminoso_a_jozan_esz_fenyenel"
+    - cim: "Silk - adatra fel!"
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/22/silk_adatra_fel"
+    - cim: Sok a szöveg? - Magyarországi Web Konferencia 2012
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/10/19/sok_a_szoveg_magyarorszagi_web_konferencia"
+    - cim: Trapit - avagy megint egy közösségi hírolvasó
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/05/08/trapit_avagy_megint_egy_kozossegi_hirolvaso"
+    - cim: Wavii - közösségi hírfolyam
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/04/24/wavii_kozossegi_hirfolyam"
+    - cim: newsle - közszájon forog
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/08/14/newsle_kozszajon_forog"
+    - cim: A keresés fejlődése hat percben
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/28/a_kereses_fejlodese_hat_percben"
+    - cim: Felkapott témák keresése
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/10/11/felkapott_temak_keresese"
 - id: 15
   nev: Mesterséges intelligencia
   slug: mesterseges-intelligencia
   ellenorizve: false
-  darab: 19
+  darab: 28
   kifejezesek:
     - mesterséges
     - Kína
@@ -545,6 +2540,13 @@
     szoveg: Most csupán arra vállalkozunk hogy áttekintjük a Watson mögött rejlő fontosabb technológiai megoldásokat és egy kicsit értelmezzük hogy mit jelent ez a győzelem.
     forras: content/archivum/2011-02-23-watson.md
   kulsok:
+    - cim: "The Nagel Index: Does power change a person?"
+      ev: 2026
+      forras: mashol
+      link: "https://crowintelligence.org/aporia/nagel-essay/"
+    - cim: Mesterséges intelligencia
+      ev: 2020
+      forras: media
     - cim: Mesterséges intelligencia és az új év
       ev: 2020
       forras: media
@@ -552,10 +2554,18 @@
       ev: 2018
       forras: kereses
       link: "https://kereses.blog.hu/2018/02/13/konyvajanlo_weapons_of_math_destruction_how_big_data_increases_inequality_and_threatens_democracy"
+    - cim: "Prediction Machines: The Simple Economics of Artificial Intelligence"
+      ev: 2018
+      forras: kereses
+      link: "https://kereses.blog.hu/2018/05/18/konyvismerteto_prediction_machines_the_simple_economics_of_artificial_intelligence"
     - cim: "Készülj fel a robotok támadására!"
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/05/05/keszulj_fel_a_robotok_tamadasara"
+    - cim: "Könyvajánló: Heart of the Machine - Our Future in a World of Artificial Emotional Intelligence"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/10/24/konyvajanlo_heart_of_the_machine_our_future_in_a_world_of_artificial_emotional_intelligence"
     - cim: Agyas gépek
       ev: 2015
       forras: kereses
@@ -568,6 +2578,10 @@
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/09/17/szuletett_kiborgok_vagyunk"
+    - cim: "Váltsunk együtt paradigmát a nyílt tudománnyal!"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/01/27/valtsunk_egyutt_paradigmat_a_nyilt_tudomannyal"
     - cim: "Beszélj a drónodhoz!"
       ev: 2014
       forras: kereses
@@ -580,6 +2594,10 @@
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/04/03/robotok_bevandorlok_a_jovobol"
+    - cim: "George Lakoff @ CEU! 2013. október 16-án"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/10/george_lakoff_ceu_2013_oktober_16-an"
     - cim: Palantir - az új generációs elemző intézet
       ev: 2012
       forras: kereses
@@ -588,7 +2606,7 @@
   nev: Szövegvizualizáció
   slug: szovegvizualizacio
   ellenorizve: false
-  darab: 9
+  darab: 18
   kifejezesek:
     - év
     - kulcsszó
@@ -608,11 +2626,39 @@
       ev: 2026
       forras: mashol
       link: "https://crowintelligence.org/aporia/magyar-dalszovegek-essze/"
+    - cim: Miről beszélt Orbán Viktor?
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/05/02/mirol_beszelt_orban_viktor"
+    - cim: Budapest BI Forum
+      ev: 2016
+      forras: kereses
+      link: "https://kereses.blog.hu/2016/10/27/budapest_bi_forum"
+    - cim: "Szavak, városok, politikai blogok"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/03/16/szavak_varosok_politikai_blog"
+    - cim: A szíriai polgárháború a GDELT adatbázison keresztül
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/29/a_sziriai_polgarhaboru_a_gdelt_adatbazison_keresztul"
+    - cim: Google Hummingbird
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/30/google_hummingbird"
+    - cim: Ngrammatológia - túl az adatokon
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/29/ngrammatologia_tul_az_adatokon"
+    - cim: "Adatok, filozófia, nyelvészet"
+      ev: 2011
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/adatok-filozofia-nyelveszet"
 - id: 17
   nev: Hálózatok és eszközök
   slug: halozatok-es-eszkozok
   ellenorizve: false
-  darab: 8
+  darab: 22
   kifejezesek:
     - Gephi
     - gráf
@@ -628,15 +2674,51 @@
     szoveg: Már sokszor szóltunk róla hogy érdekel minket miként is lehet egy szöveget vizualizálni.
     forras: content/archivum/2010-11-20-szoveges-informaciok-vizualizacioja.md
   kulsok:
+    - cim: Getting Started with Google Colab Using PyTorch
+      ev: 2020
+      forras: mashol
+      link: "https://www.manning.com/liveproject/getting-started-with-Google-Colab-using-PyTorch"
+    - cim: Getting Started with Google Colab Using TensorFlow
+      ev: 2020
+      forras: mashol
+      link: "https://www.manning.com/liveproject/getting-started-with-google-colab-using-tensorflow"
+    - cim: Getting Started with Jupyter Notebook
+      ev: 2020
+      forras: mashol
+      link: "https://www.manning.com/liveproject/getting-started-with-jupyter-notebook"
     - cim: Megmondjuk ki válaszol szépen a Járókelő bejelentéseire
       ev: 2018
       forras: kereses
       link: "https://kereses.blog.hu/2018/03/07/gepi_osztalyozas_a_jarokelonel"
+    - cim: Hogyan befolyásolja a gondolkodásunkat a mindennapi számítógép-használat?
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/07/06/hogyan_befolyasolja_a_gondolkodasunkat_a_mindennapi_szamitogep-hasznalat"
+    - cim: Milyen is az internet nyelve?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/25/milyen_is_az_internet_nyelve"
+    - cim: Mire jó az adatújságírás?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/28/mire_jo_az_adatujsagiras"
+    - cim: opendata.hu - honosítók kerestetnek
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/02/opendata_hu_honositok_kerestetnek"
+    - cim: Adatújságírás 2.
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/06/19/adatujsagiras_2"
+    - cim: Google Handwrite - keress kézírással mobileszközön
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/07/30/google_handwrite_keress_kezirassal_mobileszkozon"
 - id: 18
   nev: Startup és termékfejlesztés
   slug: startup-es-termekfejlesztes
   ellenorizve: false
-  darab: 10
+  darab: 44
   kifejezesek:
     - startup
     - termék
@@ -646,13 +2728,128 @@
     - ügyfél
     - innovatív
     - Blank
-    - MVP
     - Eric
+    - MVP
   idezet:
     szoveg: "I started my career as an undergraduate researcher working for Marvin Minsky, one of the founders of Artificial Intelligence, and his brilliant protege who became a great colleague of mine, Push Singh."
     forras: content/archivum/2010-10-14-life-of-computational-linguist-ii-14.md
   kulsok:
+    - cim: 100 szóban Budapest
+      ev: 2020
+      forras: media
+      link: "https://www.mixcloud.com/karcfm/sp%C3%A1jz-2020-12-03-0900-1200-2/"
+    - cim: 100 szóban Budapest
+      ev: 2020
+      forras: media
+      link: "https://soundcloud.com/mannafm/budapest-update-reggeli-manna-hepi-endrevel-es-hudak-anitaval-2020-11-30-6-ora"
+    - cim: Miről szólnak a magyar dalszövegek?
+      ev: 2020
+      forras: media
+    - cim: "Apának munkája van, anyának teste"
+      ev: 2019
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/apanak-munkaja-van-anyanak-teste"
+    - cim: Ingatlanhirdetések kulcsszavai járások/kerületek szerint
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/06/19/ingatlanhirdetesek_kulcsszavai_jarasok_keruletek_szerint"
+    - cim: "Real-World Deep Learning for NLP @ Budapest Data Forum"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/06/13/real-world_deep_learning_for_nlp_budapest_data_forum"
+    - cim: "Pár dolog, amit tudnod kell mielőtt elveszik a gépek a munkádat"
+      ev: 2016
+      forras: mashol
+      link: "https://www.nyest.hu/hirek/par-dolog-amit-tudnod-kell-mielott-elveszik-a-gepek-a-munkadat"
+    - cim: "Gépi tanulás mindenkinek: Machine Learning with R"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/28/gepi_tanulas_mindenkinek_machine_learning_with_r"
+    - cim: "Legyél hatékony (ipari) kutató!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/11/02/legyel_hatekony_ipari_kutato"
+    - cim: Senior Java fejlesztőt keresünk kaposvári irodánkba
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/05/senior_java_fejlesztot_keresunk_kaposvari_irodankba"
+    - cim: Így cenzúrázd az internetet
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/26/igy_cenzurazd_az_internetet"
+    - cim: A Precognox csatlakozott a LinguaPark Klaszterhez
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/04/10/a_precognox_csatlakozott_a_linguapark_klaszterhez"
+    - cim: A Precognox megjelent az USA piacán
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/22/a_precognox_megjelent_az_usa_piacan"
+    - cim: A big data buktatói
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/01/a_big_data_buktatoi"
     - cim: "Adatok, statisztika, üzlet"
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/11/20/adatok_statisztika_uzlet"
+    - cim: Amikor egy adathibán nemzetek sorsa múlhat...
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/13/amikor_egy_adathiban_nemzetek_sorsa_mulhat"
+    - cim: Azt beszéli már az egész város
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/04/azt_beszeli_mar_az_egesz_varos_118"
+    - cim: Csoportviselkedés feltárása szervezeteken belül
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/07/26/csoportviselkedes_feltarasa_szervezeteken_belul"
+    - cim: Egyre individualistább a nyelv?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/22/egyre_individualistabb_a_nyelv"
+    - cim: Gépi fordítás másképp
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/10/24/gepi_forditas_maskepp"
+    - cim: "Ki a bura alól!"
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/12/02/ki_a_bura_alol"
+    - cim: Lombiq - bemutatkozás
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/07/lombiq_bemutatkozas"
+    - cim: Miért buknak el nemzetek? - és mi köze van ennek a nyílt adatokhoz?
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/21/miert_buknak_el_nemzetek_es_mi_koze_van_ennek_a_nyilt_adatokhoz"
+    - cim: Nyári szakmai gyakorlati lehetőség a Precognox-nál
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/05/10/nyari_szakmai_gyakorlati_lehetoseg_a_precognox-nal"
+    - cim: Precognox Labs - szentimentelemző
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/09/12/precognox_labs_szentimentelemzo"
+    - cim: conTEXT - szöveganalitika magyarul 2013. november 21.
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/11/12/context_szoveganalitika_magyarul_2013_november"
+    - cim: conTEXT — a szavak titkos élete
+      ev: 2013
+      forras: media
+      link: "https://www.slideshare.net/slideshow/context-a-szavak-titkos-lete/28741564"
+    - cim: Google Now - a gondolatolvasó
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/07/10/google_now_a_gondolatolvaso"
+    - cim: Keressük a jövőt
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/10/04/keressuk_a_jovot"
+    - cim: Mindenre van app... de hol?
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/10/16/mindenre_van_app_de_hol"

@@ -21,7 +21,6 @@ kulcsszavak:
   - dr.
   - tartalomelemzés
   - intézet
-  - Gazdaság-
   - vállalkozáskutató
 ---
 

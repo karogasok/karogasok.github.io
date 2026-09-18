@@ -19,11 +19,9 @@ temak:
   - Programozás nyelvészeknek
 kulcsszavak:
   - scikit-learn
-  - Scikit-learn
   - csomag
   - rejtelem
   - választás
-  - nltk
 ---
 
 **A [Natural Language Processing](http://www.nltk.org/) (nltk) keretrendszer a nem csak számítógépes nyelvészt iránt érdeklődők tömegeit vezette/vezeti be a szakma rejtelmeibe, hanem már a "való világban", üzleti alkalmazásokba építve is bizonyított. A nyílt forráskódú projektekre leselkedő veszélyt - hogy nem alakul ki a lelkes önkéntesek köre - elkerülte, és az "alapító atyáknak" hála egy jó minőségű, immár több nyelvre is fordított, [szabadon hozzáférhető](http://www.nltk.org/book) könyv vezeti be a szakma rejtelmeibe a nagyérdeműt. A [scikit-learn](http://scikit-learn.org/stable/) valami hasonlóvá próbál kinőni a gépi tanulás területén - remélem így már érthető a cím :D**

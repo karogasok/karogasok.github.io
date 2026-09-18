@@ -14,13 +14,13 @@ regi_cimkek_mind:
   - "könyvismertető"
 temak:
   - Tudományfilozófia
+  - Logika és matematika
 kulcsszavak:
   - Hodges
   - kódjátszma
   - Engima
   - Turing-gép
   - Turing
-  - filotaxis
 ---
 
 [Nem lesz közterület elnevezve Alan Turingról Budapesten](https://hvg.hu/itthon/20230619_Ujbuda_kozterulet_Alan_Turing_LMBTQ_homofobia). Talán ennek az a legfőbb oka, hogy nem igazán ismerik az életét és munkásságát, pedig akit igazán érdekel ki a fene Alan Turing és mi mindent ért el azalatta rövid negyvenkét év alatt amíg élt.

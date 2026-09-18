@@ -25,7 +25,6 @@ kulcsszavak:
   - Manga
   - workbook
   - comic
-  - concepts
 ---
 
 **In a nutshell, the Manga Guide to Linear Algebra is a terrific learning aid for those who are looking for a refresher or a starting point. It does an excellent job at motivating the basic concepts, and working trough the accompanying workbook gives a solid foundation for further studies. It doesn't promise more than helping you to get started, so it is not a substitute for classics like [Janich's Linear Algebra](http://www.amazon.com/Linear-Algebra-Undergraduate-Texts-Mathematics/dp/0387941282), or [Linear Algebra Done Right](http://www.amazon.com/Linear-Algebra-Right-Undergraduate-Mathematics/dp/0387982590). But it surely helps you to get a high level view of the field, yet it is packed into an entertaining story.**

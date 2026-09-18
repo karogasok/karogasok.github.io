@@ -19,10 +19,9 @@ temak:
 kulcsszavak:
   - nézetrendszer
   - Kuhn
-  - jelentésváltozás
   - Vera
+  - jelentésváltozás
   - Fehér
-  - békés
 ---
 
 *Fehér Krisztina írása*

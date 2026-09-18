@@ -20,10 +20,9 @@ temak:
 kulcsszavak:
   - harris
   - Anderson
-  - Linguists
+  - linguists
   - film
   - terepmunka
-  - akad
 ---
 
 **[Filmet már ajánlottunk](http://szamitogepesnyelveszet.blogspot.com/2011/04/kod-feltorese-mert-filmet-meg-nem.html), de hát ritka mint a fehér holló amikor egy szakmai blogon ilyet tehetünk. A The Linguists című dokumentum film Greg Anderson és David Harrison "világkörüli útját" mutatja be mely során veszélyeztetett nyelvekről gyűjtenek anyagot. Mindenkinek csak ajánlani tudom ezt a gyöngyszemet mert odaszegezi az embert a képernyő elé a nyelvészeti terepmunka bemutatása.**

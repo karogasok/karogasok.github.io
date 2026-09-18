@@ -21,11 +21,10 @@ temak:
   - Tudományfilozófia
 kulcsszavak:
   - törésvonal
-  - keveredik
   - könyvelő
+  - keveredik
   - érett
   - szembenállás
-  - empirizmus
 ---
 
 **Volt szerencsém interneten keresztül előadni a fenti címen a [Budapest Science Meetup](http://www.meetup.com/BpScienceMeetup/) novemberi összejövetelén. Szeretném megköszönni Sebestyén Endre és a többi szervező abszolút pozitív, segítőkész hozzáállását. Már régóta keresek egy sztorit, amiben elmesélhetem miért szeretem a (számítógépes) nyelvészetet, miért tartom értelmetlennek a generativisták és statisztikusok közötti “hitvitákat” valamint az alkalmazott és tiszta tudomány közötti megkülönböztetést. A Meetup felkérése remek alkalom volt arra hogy ráncba szedjem gondolataimat, most pedig egy rövid sorozatban kicsit hosszabban, írásban is megkísérelem ezt. Szeretném hangsúlyozni hogy részben nagyon személyes, részben pedig spekulatív gondolatokat teszek közzé most Feyerabend “Anything goes!” jelmondatának szellemében.**

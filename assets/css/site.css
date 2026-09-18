@@ -411,6 +411,28 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
 .archive-year > h2 { border-top: 1px solid var(--line); padding-top: var(--sp-2); }
 .archive-year-n { color: var(--muted); margin-left: var(--sp-2); }
 .archive-oldtags { grid-column: text; margin-top: var(--sp-5); color: var(--muted); font-size: var(--fs-small); }
+
+/* Themes and keywords from the model. On an article they sit under the prose
+   like the original labels do; inside a list row they are one more line of
+   metadata, indented to the same column as the lede so the row still reads as
+   date -> title -> everything else. */
+.cimkek {
+  color: var(--muted);
+  font-size: var(--fs-small);
+  margin: var(--sp-1) 0 0;
+}
+.post > .cimkek,
+.page > .cimkek { grid-column: text; margin-top: var(--sp-5); }
+.post.is-archive > .cimkek { border-top: 1px solid var(--rule); padding-top: var(--sp-3); }
+.post-item .cimkek { margin-left: calc(var(--date-col, 6.5rem) + var(--sp-2)); }
+/* The label sits inline with the tags rather than above them, so a row grows by
+   one line and not by three. */
+.cimkek .margin-label { margin-right: 0.4em; }
+.cimkek .margin-label ~ .margin-label { margin-left: 0.9em; }
+/* A theme is a coarser thing than a keyword and there are nineteen of them, so
+   it is set in the body face to stand apart from the keyword list without
+   reaching for the accent, which this site spends only on hover and focus. */
+.tag.is-tema { font-family: var(--text); color: var(--body); }
 .post.is-archive > .archive-oldtags { border-top: 1px solid var(--rule); padding-top: var(--sp-3); }
 
 .hub-intro { margin-bottom: var(--sp-5); }

@@ -22,7 +22,6 @@ kulcsszavak:
   - Gries
   - korpusznyelvészet
   - részletes
-  - mű
 ---
 
 **Napjainkban a korpusznyelvészeti módszertan reneszánszát éli, azonban sajnos a hazai felsőoktatásban még nem vált általánossá oktatása (habár vannak biztató jelek). Talán ezért kérték sokan hogy ajánljunk olyan könyveket melyeket önállóan is feldolgozhatnak az érdeklődők. McEnry és Wilson műve egy alapos és átgondolt bevezetés azok számára akik már rendelkeznek egy minimális háttérrel (azaz hallgattak már egy nyelvészeti bevezető tárgyat, vagy olvastak bevezető jellegű műveket - akik ezt még nem tették meg, [Nyelvészet - csak röviden](http://bit.ly/fbd2kY) posztunkban találhatnak információt arról hol érdemes elkezdeni a témával való ismerkedést). Augusztusban bemutattuk [Meyer English Corpus Linguistics](http://bit.ly/exQTOQ) művét, ami egy áttekintést ad a témáról, az informatika területéről érkezők számára ajánljuk hogy olvassák el azt a rövid bevezető munkát mielőtt belekezdenek ebbe a komolyabb munkába, nyelvész és egyéb bölcsész olvasóinknak pedig ajánljuk hogy statisztikai ismereteiket elevenítsék fel, vagy ha ezen a téren nem járatosak, olvassák el [Statisztikai túlélőkészlet](http://bit.ly/i5VWXH) posztunkat ami talán segíthet elindulni a területen.**

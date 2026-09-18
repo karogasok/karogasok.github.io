@@ -23,11 +23,10 @@ temak:
   - Nyelvelemző eszközök
 kulcsszavak:
   - m-e3
-  - ut_2_betu
   - ige
-  - INF
   - m-e1
-  - j-e1
+  - INF
+  - szabályszerűség
 ---
 
 Tempfli Péter vendégposztja

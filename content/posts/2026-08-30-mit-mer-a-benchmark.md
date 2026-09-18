@@ -9,13 +9,14 @@ tags: ["llm-kiertekeles", "nyilt-forras"]
 draft: false
 temak:
   - Korpusznyelvészet
+  - Tudományfilozófia
+  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - kiértékelő
   - mérés
   - dolgozat
   - állítás
   - eljárás
-  - állít
 ---
 
 Az EleutherAI csapata a saját kiértékelő könyvtáruk három évének tapasztalatát

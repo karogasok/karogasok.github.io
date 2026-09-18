@@ -15,13 +15,14 @@ regi_cimkek_mind:
   - "business model generation"
 temak:
   - Statisztika és R
+  - Korpuszépítés és annotáció
+  - Kurzusok és önképzés
 kulcsszavak:
   - business
   - chapter
   - style
   - limits
   - authors
-  - content
 ---
 
 **Having finished the BMGEN book I have mixed feelings. I am sure I can use the methods described in the book in real life. Although I loved its format and design, its content is like a draft or lecture notes that limits the whole book. Even I don't know if it is a "real book"... It has got sections and chapters, I do love its figures, but it is lacking explanations, and the content is very fragmented into short messages.**

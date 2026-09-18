@@ -27,7 +27,6 @@ kulcsszavak:
   - szóalak
   - elemzett
   - szövegkörnyezet
-  - tulajdonnév
 ---
 
 VENDÉGPOSZT!

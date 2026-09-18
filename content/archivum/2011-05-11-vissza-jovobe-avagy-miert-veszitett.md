@@ -21,12 +21,11 @@ regi_cimkek_mind:
 temak:
   - Tudományfilozófia
 kulcsszavak:
-  - dance
   - purely
-  - behavior
+  - dance
   - messy
+  - behavior
   - kezdeti
-  - Chomsky
 ---
 
 **Nem rég az MIT symposium [Brains, Minds and Machines](http://web.mit.edu/newsoffice/2011/mit150-brain-ai-symposium.html) konferenciáján vitatták meg a terület nagyágyúi hogy miért rekedtek meg a mesterséges intelligencia kutatások az ötvenes évek kezdeti sikerei után. Csak úgy röpködnek a nevek az esemény körül, Sydney Brenner, Marvin Minsky, Steven Pinker, Noam Chomsky, Barbara Partee, Emilio Bizzi és Rodney Brooks hogy csak az ismertebbeket említsük visszasírták a kezdeti évek kreativitását és nagyravágyását. A (számítógépes) nyelvészek közösségét azonban megragadta Chomsky egyik  probabilisztikus/statisztikai módszer-ellenes gondolata. A Replicated Typo-n Hannah Little "[Chomsky derides purely statistical methods](http://www.replicatedtypo.com/irreverant-and-irrelevant/chomsky-derides-purely-statistical-methods/3584/)" posztjában csak kérdésként fogalmazta meg hogy mit gondol erről a szakma és nagyon érdekes reakciók érkeztek...**

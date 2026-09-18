@@ -16,13 +16,13 @@ regi_cimkek_mind:
   - "lapszemle"
 temak:
   - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
 kulcsszavak:
   - Economist
   - beágyazott
   - Data
   - adatújságírás
   - Science
-  - meetup
 ---
 
 **Jön a meetup, adatújságírás, sentimentelemzés az Economistban, Google és a prediktív analitika.**  

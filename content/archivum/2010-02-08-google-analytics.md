@@ -22,7 +22,6 @@ kulcsszavak:
   - sikerül
   - vár
   - rendszer
-  - egyszerű
 ---
 
 Sikerült beállítanom a Google Analytics fiókomat és már mérni is fogom a blogom forgalmát. Gondolom nem lesz valami jelentős, de majd megkérem a családot hogy klikkeljen rám néha.  

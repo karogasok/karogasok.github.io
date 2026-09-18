@@ -12,6 +12,7 @@ regi_cimkek_mind:
   - "git"
 temak:
   - Nyelvelemző eszközök
+  - Korpuszépítés és annotáció
 kulcsszavak:
   - érthető
   - könyv

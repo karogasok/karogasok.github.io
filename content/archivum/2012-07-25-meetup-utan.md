@@ -17,10 +17,9 @@ temak:
 kulcsszavak:
   - Tyler
   - Schnoebelen
-  - Ingo
   - Feinerer
+  - Ingo
   - rendezvény
-  - remél
 ---
 
 Köszönjük a meetup csoport tagjainak hogy részt vettek tegnapi rendezvényeinken, reméljük mindenki jól érezte magát és az nlp iránti szenvedélye csak tovább nőtt. Köszönjük Ingo Feinerernek az egész napos kitartó munkát, egy tutorial és egy meetup előadás ugyanazon a napon nem kis teljesítmény! Tyler Schnoebelennek köszönjük hogy a nyári kikapcsolódásába szorított egy kis helyet nekünk is! Rendezvényünket a [Weblib](http://www.weblib.hu/) támogatta, köszönet érte. Az előadások felvételeit hamarosan feltöltjük és már szervezzük a következő meetupot. Ősszel reméljük ismét találkozunk! Addig is kellemes nyarat mindenkinek, ne felejtsetek el szavazni ránk a [Goldenblog](http://www.goldenblog.hu/) versenyen!

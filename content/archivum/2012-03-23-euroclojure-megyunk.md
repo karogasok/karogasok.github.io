@@ -15,6 +15,11 @@ regi_cimkek_mind:
   - "Clojure"
   - "Clojurelx"
   - "EuroClojure"
+temak:
+  - Lapszemle
+  - A blog életéről
+kulcsszavak:
+  - Clojure
 ---
 
 **Mostanában off-line vagyunk aktívabbak. Az a megtiszteltetés ért hogy a [EuroClojure](http://euroclojure.com/2012/) konferencián adhatok elő májusban. Nagyon furcsa nekem hogy a Clojure közösség meghatározó alakjaival [látom a nevem egy oldalon mint előadó](http://euroclojure.com/2012/speakers/), igyekszem felnőni a feladathoz. Köszönöm a [Clojure & lx](http://clojurelx.blogspot.com/) blogon társaimnak, Peteris Ernis-nek és Richar Littauer-nek a közös munkát.**

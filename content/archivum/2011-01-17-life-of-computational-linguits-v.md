@@ -22,7 +22,6 @@ kulcsszavak:
   - mental
   - wants
   - issue
-  - semantic
 ---
 
 **After a long hiatus we continue our series. We interviewed [Vincenzo Pallotta](http://bit.ly/gHyodz) who is a research professor at the [Webster University, Geneva](http://bit.ly/fN3tpj), a core group member at [ThinkServices](http://bit.ly/hE8UpK), and co-founder and CTO at [ InterAnalytics](http://bit.ly/h23aPi). Vincenzo is a unique mix of strong scholarly interest and a vein for business with a broad interest spanning from theoretical computer science to human computer interaction and computational linguistics.**  

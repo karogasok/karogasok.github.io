@@ -26,7 +26,6 @@ kulcsszavak:
   - metamatematika
   - kl
   - Tarski
-  - érvelés
 ---
 
 **Az érdeklődők is tisztában vannak azzal hogy a mesterséges intelligencia és a számítógépes nyelvészet története során először a sztochasztikus módszerek tűntek befutónak, majd a logikai és szabályalapú megközelítések lett egyeduralkodók egészen a kilencvenes évekig, majd a statisztikai nyelvfeldolgozás diadalmaskodott és napjainkban is megállíthatatlanul tör előre. Még szakmai berkekben is megfigyelhető egyfajta ellentét a szabályalapú és a sztochasztikus megközelítések hívei között. Azok akik bele mennek ebbe az egymásra mutogatásba és vitába azonban joggal vádolhatók felületességgel, mivel elfelejtik hogy mindkét megközelítés egy tőről fakad, de nem ugyanarról szól! Hogy ezt megvilágítsuk segítségéül hívjuk a matematika filozófiáját, a szemantikát, a szemantikus webet és a kilencvenes évek egyik rapcore bandáját is.**

@@ -20,6 +20,12 @@ regi_cimkek_mind:
   - "nlpmeetup"
   - "twitter"
   - "video"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - Tyler
+  - talk
+  - Vimeo
 ---
 
 On 24 July, we hold our [second meetup](http://www.meetup.com/Hungarian-nlp/events/66306182/) and thanks to Akos Kadar now we release Tyler Schnoebelen's talk. We will upload Ingo Feinerer's talk soon.

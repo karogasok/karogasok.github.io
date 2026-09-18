@@ -17,13 +17,13 @@ regi_cimkek_mind:
   - "pomodoro"
 temak:
   - Tudományfilozófia
+  - A blog életéről
 kulcsszavak:
   - kan
   - Personal
   - PK
   - közhely
   - tábla
-  - progress
 ---
 
 **Talán az egyik legnagyobb problémája a XXI. század emberének az hogy nem tud mit kezdeni a rászakadt információval. Hírek, szakirodalom, család, barátok, munka, tanulás stb mind egy időben szakad ránk és egymással "versenyez" az időnkért. Persze vannak akiknek nem okoz különösebb nehézséget kezelni ezt a helyzetet, de a maradék (szerintem többség) rászorul hogy valamilyen módon megszervezze életét, rendet rakjon a különböző kötelezettségek között. Rengeteg módszer létezik, ezek nagy része szerintem egyszerűen baromság, mások pedig jók, csak nem mindenre. A Personal Kanban - habár szerintem túl hype-olt - egy egész jó megközelítés, ami ha nem is mindenható, de jól alkalmazható.**

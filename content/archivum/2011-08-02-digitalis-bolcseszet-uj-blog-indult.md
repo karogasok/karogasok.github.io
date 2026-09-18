@@ -18,11 +18,10 @@ temak:
   - Mesterséges intelligencia
 kulcsszavak:
   - ugyancsak
-  - levéltári
-  - antikvakorpusz
+  - muzeológiai
   - elnevezésű
   - transzdiszciplína
-  - muzeológiai
+  - antikvakorpusz
 ---
 
 [Kalcsó Gyula](http://mnyelv.ektf.hu/oktatok/kalcso_gyula),  a [Digitális bölcsészet blog](http://digitalisbolcseszet.blog.hu/) szerzőjének vendégposztja

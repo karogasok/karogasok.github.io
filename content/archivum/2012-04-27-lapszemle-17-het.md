@@ -13,10 +13,9 @@ temak:
 kulcsszavak:
   - Global
   - nagyvilág
-  - csatlakozik
   - mozgalom
+  - csatlakozik
   - Science
-  - Data
 ---
 
 **Sűrű volt ez a hét! Lassan körvonalazódik a meetup, csatlakoztunk a Data Science Global mozgalomhoz és még a hétvégi ajánlót is megírtuk.**  

@@ -17,12 +17,11 @@ regi_cimkek_mind:
 temak:
   - Adatújságírás és nyílt adat
 kulcsszavak:
-  - journalism
+  - Journalism
   - story
   - conference
   - journalists
   - telling
-  - Mirko
 ---
 
 **The present interview is a little digression from "The Life of a Computational Linguist" series, but since data journalism is connected to digital humanities, we decided to present this new movement here.**

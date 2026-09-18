@@ -15,6 +15,11 @@ regi_cimkek_mind:
   - "filmajánló"
   - "mesterséges intelligencia"
   - "tudománytörténet"
+temak:
+  - Logika és matematika
+kulcsszavak:
+  - csemege
+  - film
 ---
 
 **Ez a filme igazi csemege! 1961-ben az MIT centenáriumára készült, öt évvel a [Dartmouth konferencia ](http://en.wikipedia.org/wiki/Dartmouth_Conferences)után. Éppen csak nevet adtak a gyereknek a kutatók, de már látják a közeli jövőt teli robotokkal, gépi fordítással és minden más nyalánksággal. A szereplőgárda erős; [Claude Shannon](http://en.wikipedia.org/wiki/Claude_Shannon), [Jerome Y. Lettvin](http://en.wikipedia.org/wiki/Jerome_Lettvin), [Douglas T. Ross](http://en.wikipedia.org/wiki/Douglas_T._Ross), [Ronald Melzack](http://en.wikipedia.org/wiki/Ronald_Melzack), [Arthur L. Samuel](http://en.wikipedia.org/wiki/Arthur_L._Samuel) és [Barbel Inhelde](http://en.wikipedia.org/wiki/B%C3%A4rbel_Inhelder). Egyszerre érdekes, mint tudománytörténeti csemege és vicces mint egy retró film.**

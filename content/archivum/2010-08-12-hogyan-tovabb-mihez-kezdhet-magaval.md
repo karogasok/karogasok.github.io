@@ -16,7 +16,6 @@ kulcsszavak:
   - remél
   - írás
   - nyelvész
-  - munka
 ---
 
 Az elmúlt hetekben rengeteg levelet kaptunk (köszönjük). Sokan kértek egy kis útmutatást hogy mit is csinál egy számítógépes nyelvész, milyen esélyei vannak a munkaerőpiacon, mit kell tudnia és merre mehet tovább valaki egy nyelvész BA vagy infós BSc után. A blognak nem célja hogy pályaválasztási tanácsadással és munkaerő közvetítéssel foglalkozzon, de a kérdéseket megértjük és elfogadjuk. Amit mi tehetünk értetek megtettük!  

@@ -14,12 +14,13 @@ regi_cimkek_mind:
   - "probabilisztikus programozás"
 temak:
   - A szakma
+  - Paradigmák és nyelvelméletek
+  - Korpusznyelvészet
 kulcsszavak:
   - inference
   - probabilistic
-  - tolls
   - thine
-  - Goodman
+  - tolls
   - Rational
 ---
 

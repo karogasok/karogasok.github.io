@@ -16,6 +16,8 @@ regi_cimkek_mind:
   - "klasszifikáció"
   - "kognitív nyelvészet"
   - "metafora"
+temak:
+  - Korpuszépítés és annotáció
 ---
 
 A metaforák automatikus azonosításának kérdéseiről beszélgettünk a Civil Rádió 117 perc című műsorban. A beszélgetés első fele [ezen a linken](https://civilradio.hu/archivum/2020_09_07_17_00_01.m3u) hallgatható meg 25:10-től, a második rész pedig [ezen](https://civilradio.hu/archivum/2020_09_07_17_30_01.m3u) érhető el (05:38-ig tart).

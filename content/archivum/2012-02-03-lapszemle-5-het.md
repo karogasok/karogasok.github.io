@@ -22,7 +22,6 @@ kulcsszavak:
   - tanít
   - Computing
   - Clojure
-  - hír
 ---
 
 **Még mindig tart téli álmunk, de [Facebook oldalunk](http://www.facebook.com/pages/Sz%C3%A1m%C3%ADt%C3%B3g%C3%A9pes-nyelv%C3%A9szet/131049423587009), [@sznyelveszet](https://twitter.com/#!/sznyelveszet) Twitter fiókunk és [Tumblr blogunk](http://szamitogepesnyelveszet.tumblr.com/) áll az információra éhes olvasók rendelkezésére. Szerzőnek jelentkezni a szamitogepes.nyelveszet(kukac)gmail.com címen lehet, szintén itt lehet velünk kapcsolatba kerülni.**

@@ -24,7 +24,6 @@ kulcsszavak:
   - developed
   - Church
   - enigma
-  - aritmetika
 ---
 
 **A címet Steve Blank [poszt-sorozatától](http://steveblank.com/category/secret-history-of-silicon-valley/) és [előadásától](http://steveblank.com/secret-history/) loptam előre megfontolt szándékkal. Blank zseniálisan meséli el miképp jelent meg a vállalkozói kultúra a Szilícium-völgyben, hogyan működött együtt a tudományos világ az üzleti élet és a biztonságpolitika. Azonban ez a történetnek csak az egyik fele. A 19. század vége felé valami egészen forradalmi történt, olyan ami megváltoztatta a világot mivel a számítógépek megalkotásához és a komputációs modellezés megjelenéséhez vezetett.**

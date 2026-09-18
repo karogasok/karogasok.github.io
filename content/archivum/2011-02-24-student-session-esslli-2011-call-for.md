@@ -20,13 +20,13 @@ regi_cimkek_mind:
   - "summer school"
 temak:
   - NLP meetupok
+  - A blog életéről
+  - Lapszemle
 kulcsszavak:
   - session
-  - Submissions
   - submissions
   - papers
   - Student
-  - website
 ---
 
 **The Student Session of the 23rd European Summer School in Logic, Language, and Information ESSLLI will take place in Ljubljana, Slovenia on August 1-12, 2011. The Student Session is held under the auspices of ESSLLI 2011, which will feature a wide range of foundational and advanced courses and workshops in all areas of Logic, Language, and Computation. Consult the main ESSLLI website at [http://esslli2011.ijs.si/](http://esslli2011.ijs.si/) for further information, including registration information and course listings.**  

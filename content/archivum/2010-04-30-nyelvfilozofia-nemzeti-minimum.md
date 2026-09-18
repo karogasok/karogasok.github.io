@@ -22,13 +22,13 @@ regi_cimkek_mind:
   - "nyelvészet"
 temak:
   - Logika és matematika
+  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - nyelvfilozófia
   - Quine
   - visszatekintés
-  - dogma
-  - Osiris
   - primer
+  - dogma
 ---
 
 **Az olvasói keménymag (Anita és Zsolt) kérésének teszek most eleget és megpróbálom összeszedni mit is illik/kellene/jó tudni nyelvfilozófiáról annak akit érdekel a nyelv. Mielőtt azonban belekezdesz az olvasásba, alapvető logikai ismeretek szükségesek a témához (szóval ha ezek hiányoznak irány a könyvtár/bolt/net és szerezd be a [BML](http://www.osiriskonyveshaz.hu/kiado.php)-t, ha módod van rá, a régebbi kiadás jobb mivel tartalmazza Máté András történeti összefoglalóját).**  

@@ -14,6 +14,12 @@ regi_cimkek:
 regi_cimkek_mind:
   - "Trianon"
   - "metafora"
+temak:
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - adás
+  - interjú
 ---
 
 A Kossuth Rádió Gondolat-jel című műsorának június hetedikei adásában egy hosszabb interjú hangzott el velünk a Trianonnal kapcsolatos metaforák kapcsán.

@@ -20,12 +20,11 @@ regi_cimkek_mind:
 temak:
   - Paradigmák és nyelvelméletek
 kulcsszavak:
-  - Rappaport
   - Hovav
+  - Rappaport
   - Levin
   - Pustejovsky
   - event
-  - verbs
 ---
 
 A guest post by Richard Littauer

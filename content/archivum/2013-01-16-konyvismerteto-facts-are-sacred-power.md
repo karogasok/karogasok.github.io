@@ -25,7 +25,6 @@ kulcsszavak:
   - Sacred
   - újságíró
   - Simon
-  - olcsó
 ---
 
 **Azok, akik tudni szeretnék mi is az az adatújságírás, Simon Rogers - a The Guradian [Datablog](http://www.guardian.co.uk/news/datablog) szerkesztője - ebben a kis könyvben megadja a választ.**

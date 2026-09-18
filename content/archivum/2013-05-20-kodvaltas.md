@@ -16,6 +16,8 @@ regi_cimkek_mind:
   - "újságírés"
 temak:
   - A szakma
+  - Nyelvelemző eszközök
+  - Korpuszépítés és annotáció
 kulcsszavak:
   - kódváltás
   - hasonló

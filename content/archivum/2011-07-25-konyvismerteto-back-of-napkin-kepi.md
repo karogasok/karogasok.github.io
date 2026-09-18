@@ -24,7 +24,6 @@ kulcsszavak:
   - megszorítás
   - üzleti
   - megért
-  - érthető
 ---
 
 **Már elsütöttük párszor a blogon hogy egy kép többet ér ezer szónál, de arról keveset írtunk hogy elkészíteni egy ilyen képet és megérteni nem is olyan magától érthető dolog. A most bemutatásra kerülő kötet ehhez nyújt segítséget, azonban rögtön az elején le kell szögeznem hogy bizonyos megszorításokkal.**

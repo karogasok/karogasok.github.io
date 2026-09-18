@@ -19,10 +19,9 @@ temak:
 kulcsszavak:
   - à
   - est
-  - certitude
   - rais
+  - certitude
   - pas
-  - "qu'on"
 ---
 
 **A modern bayesiánus statisztikáról kevesen tudják, hogy alapvetően teológiai eredetű. Pascal Pensées-ben veti fel először az "empirikus" istenbizonyítást, ami "forradalmi" a bevett deduktív istenbizonyításokhoz képest. A 233-ban felvetett probléma az első döntéselméleti elemzés is egyben és megnyitotta az utat Bayes vizsgálódásai előtt. A Stanford Encyclopedia of Philosophy-n [Pascal fogadásáról ](http://plato.stanford.edu/entries/pascal-wager/) többet is megtudhat az olvasó.**

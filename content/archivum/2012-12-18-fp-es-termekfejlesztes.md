@@ -21,7 +21,7 @@ temak:
   - Programozás nyelvészeknek
 kulcsszavak:
   - Unfold
-  - video
+  - videó
   - Haskell
   - Clojure
 ---

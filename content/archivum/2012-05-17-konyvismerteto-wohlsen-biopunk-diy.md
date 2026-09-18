@@ -21,7 +21,6 @@ kulcsszavak:
   - Meredith
   - riportkönyv
   - vírus
-  - otthon
 ---
 
 **Ahogy egyre nagyobb teret nyer a DIY mozgalom úgy szabadulnak fel a geekek attól hogy egy gép előtt töltsék életük jelentős részét. Lehet otthon mechanikus cuccokat barkácsolni, elektronikus vonalon ott az Arduino, robotikára a Lego Mindstorms és bizony ma már szintetikus biológát is művelhetünk otthon. A Biopunk egy riportkönyv, nem nyújt bevezetést, sőt még ismeretterjesztőnek sem nevezném, ellenben szórakoztat és elgondolkoztató, továbbá még a nyelvészethez is van némi köze.**

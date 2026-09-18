@@ -171,6 +171,32 @@ other = "Máshol megjelent írások ebben a témában"
 ["tema.unreviewed"]
 other = "Ez a témanév gépi javaslat, még nem néztem át."
 
+["kulcsszo.posts_here"]
+other = "Írások ezzel a kulcsszóval"
+
+["kulcsszo.elsewhere"]
+other = "Máshol megjelent írások ezzel a kulcsszóval"
+
+["kulcsszo.mi_ez"]
+other = "Kulcsszó. Gépi kivonat: azok a szavak, amelyeket az adott írás az összes többinél jóval gyakrabban használ."
+
+# The source of an item that has no page here. Keyed off the value in the data
+# file, so a new source is a new line rather than a template change.
+["forras.kereses"]
+other = "Kereső Világ"
+
+["forras.mashol"]
+other = "Máshol"
+
+["forras.media"]
+other = "Média"
+
+["cimke.temak"]
+other = "Témák"
+
+["cimke.kulcsszavak"]
+other = "Kulcsszavak"
+
 ["error.title"]
 other = "Nincs ilyen oldal"
 

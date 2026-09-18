@@ -25,7 +25,6 @@ kulcsszavak:
   - kétnyelvű
   - nyelvtanoktatás
   - Csernicskó
-  - nevelés
 ---
 
 *Tolnai Tímea vendégposztja*

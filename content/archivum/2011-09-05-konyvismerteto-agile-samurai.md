@@ -15,11 +15,10 @@ regi_cimkek_mind:
   - "könyvismertető"
 temak:
   - Programozás nyelvészeknek
+  - Kurzusok és önképzés
 kulcsszavak:
-  - Agile
-  - Rasmusson
   - agile
-  - agilis
+  - Rasmusson
   - Bookshelf
   - agilista
 ---

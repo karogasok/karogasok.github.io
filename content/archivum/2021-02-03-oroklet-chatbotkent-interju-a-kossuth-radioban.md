@@ -13,6 +13,9 @@ regi_cimkek:
 regi_cimkek_mind:
   - "chatbot"
   - "interjú"
+temak:
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
 ---
 
 A Kossuth Rádió Trend Idők című műsorában beszélgettünk a chatbotokról és a mesterséges intelligenciáról. Az adás [ezen a linken](https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2021-02-03_15-11-00&enddate=2021-02-03_15-35-00&ch=mr1) hallgatható vissza 15:16 és 15:19 között.

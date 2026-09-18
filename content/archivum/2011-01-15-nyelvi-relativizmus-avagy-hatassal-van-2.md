@@ -29,7 +29,6 @@ kulcsszavak:
   - privát
   - Sapir-Whorf
   - tan
-  - relativizmus
 ---
 
 **Sokan ismerik a városi legendát hogy az eszkimók a hóra húsz vagy n szóval is rendelkeznek, mi meg csak eggyel. Ugyebár az eszkimók ott fent északon havas környezetben élnek, a hó annyira átjárta mindennapjaikat hogy temérdek szót alkottak rá, mi meg nem. Ez így nem igaz (l. itt), de a nyelvi relativizmus tétele megér egy posztot, hiszen nem rég a [The Economist Debates sorozatában Lera Boroditsky és mark Liberman](http://econ.st/i22E3B) cserélt eszmét erről. És persze gyakorlati következményei is vannak annak hogy mennyire érvényes ez a tétel!**  

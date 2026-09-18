@@ -22,13 +22,13 @@ regi_cimkek_mind:
   - "vizualizáció"
 temak:
   - Nyelvelemző eszközök
+  - Programozás nyelvészeknek
 kulcsszavak:
   - szógyakorisági
   - tábla
   - vizualizáció
   - készít
   - fontos
-  - szép
 ---
 
 [Legelső szógyakorisági posztomban](http://szamitogepesnyelveszet.blogspot.com/2010/07/szogyakorisag.html) amúgy ránézésre fedeztük fel egy korpusz tartalmát előre elkészített szógyakorisági táblával. [Majd pedig megnéztük](http://szamitogepesnyelveszet.blogspot.com/2010/07/szogyakorisag-ismet-de-most-sajat.html) hogyan készíthetünk egyszerűen egy gyakorisági táblát, és miképp tehetjük szebbé ábránkat. Ehhez minimális programozásra volt szükség, viszont kaptunk egy szép táblát amiből az IBM [Many Eyes](http://manyeyes.alphaworks.ibm.com/manyeyes/) rendszerével interaktív vizualizációt készíthetünk könnyen, gyorsan, ingyen.  

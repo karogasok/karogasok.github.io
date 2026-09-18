@@ -16,6 +16,7 @@
   <div class="prose">
     {{ .Content }}
   </div>
+  {{ partial "cimkek.html" (dict "temak" .Params.temak "kulcsszavak" .Params.kulcsszavak) }}
   {{- with .Params.regi_cimkek }}
   <p class="archive-oldtags">
     <span class="margin-label">{{ i18n "archive.old_tags" }}</span>

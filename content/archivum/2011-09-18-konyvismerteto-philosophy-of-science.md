@@ -20,11 +20,10 @@ temak:
   - Tudományfilozófia
 kulcsszavak:
   - Okasha
-  - Samir
   - metafizikai
+  - Samir
   - Newton
   - tudós
-  - tudományfilozófia
 ---
 
 **Szeretjük azt hinni hogy a tudós objektíven csak is az igazságot kutatja, ebben pedig olyan következetes hogy még akár saját magát is feláldozza. Talán éppen ezért hiszünk abban hogy a tudományos tudás kitüntetett, nem csak megbízunk a tudományos eredményekre alapozott termékekben, de manapság már politikai döntések születnek rájuk alapozva, vagy legalábbis hivatkozva. A tudomány mindennapi életünk részévé vált, az iskolákban már egészen kis kortól tanítják, egyre több pénzt költünk (vagy legalábbis érezzük hogy kellene költeni) kutatásra és fejlesztésre. Talán nem árt egy kicsit mögé látni ezeknek a folyamatoknak, elgondolkodni azon hogy mit adhat a tudomány nekünk, mennyire megbízható, mennyire demokratikus minden esetben szakértőért kiáltani. Ez a rövid kis könyv remekül összefoglalja a tudomány filozófiai kérdéseit és megadja a keretet hogy alaposan elgondolkodjunk ezeken a kérdéseken.**

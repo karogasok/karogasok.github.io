@@ -26,13 +26,14 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - Korpusznyelvészet
+  - A szakma
+  - Nyelvelemző eszközök
 kulcsszavak:
   - parancs
   - paraméter
   - lokalizáció
   - Ubiquity
   - Raskin
-  - univerzális
 ---
 
 **[Ahogy arról már posztoltam](http://szamitogepesnyelveszet.blogspot.com/2010/05/nyelveszet-es-interakcio-dizajn-i-uj.html) a Ubiquity projekt teljesen új irányt jelent a számítógépes nyelvészet és az interakciódizájn területén. De milyen elvek rejlenek mögötte?**  

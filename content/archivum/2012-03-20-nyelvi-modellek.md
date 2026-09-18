@@ -16,6 +16,9 @@ regi_cimkek_mind:
   - "előadás"
   - "információelmélet"
   - "nyelvi modellek"
+temak:
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
 ---
 
 [Beágyazott tartalom](http://videotorium.hu/hu/embed/3702.html)

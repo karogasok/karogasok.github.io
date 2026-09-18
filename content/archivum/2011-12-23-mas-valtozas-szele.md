@@ -16,7 +16,6 @@ kulcsszavak:
   - szakmai
   - rendszeres
   - vonal
-  - Dávid
 ---
 
 **Lassan két éve hogy elindult a blog, ha minden igaz ez a bejegyzés a 244. a sorban. Anno más néven egy többé-kevésbé személyes blog indult, ami egyre szakmaibb irányt vette,  majd a szerzőgárda bővülése és a vendégposztok végleg eltérítették az eredeti iránytól - amit én egyáltalán nem bánok. Ezt azonban nem követte a blog arculata, részben lustaságból, részben időhiány következtében. Most itt az idő valami másra, a változásra. Röviden: a személyes vonal helyett a közösségi oldalt fogja a blog megjelenése tükrözni, a szakmaibb írások több teret kapnak szemben az ismeretterjesztőkkel és ha a csillagok is úgy akarják elindítunk egy saját kis projektet.**

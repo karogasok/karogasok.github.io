@@ -17,8 +17,7 @@ kulcsszavak:
   - Diamond
   - katasztrófa
   - állam
-  - konzervatív
-  - Jared
+  - megjósolhatatlan
 ---
 
 Akik kicsit régebb óta fiatalok, azok még emlékeznek a 2008-as gazdasági válságra. Alig lábaltunk ki a COVID-ból, gazdasági problémák és fegyveres konfliktus borzolja a kedélyeket. Ki tudta ezeket előre jelezni? Hogyan kezelik a társadalmak a megrázkódtatásokat, hogyan tudnak rá egyáltalán felkészülni, milyen jó politikai gyakorlatokat követhetnek egyáltalán?

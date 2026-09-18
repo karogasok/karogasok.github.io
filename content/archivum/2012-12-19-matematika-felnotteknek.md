@@ -14,6 +14,8 @@ regi_cimkek_mind:
   - "matematika"
 temak:
   - Kurzusok és önképzés
+  - Logika és matematika
+  - Mesterséges intelligencia
 kulcsszavak:
   - Delvin
   - described

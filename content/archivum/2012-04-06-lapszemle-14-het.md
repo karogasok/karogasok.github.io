@@ -22,7 +22,6 @@ kulcsszavak:
   - Manning
   - költség
   - támogat
-  - kereső
 ---
 
 **Szemlézünk! Táviratilag: Manning kedvezmény, Kereső Világ, adatújságírás, gépi tanulás, mesterséges intelligencia és közgazdaságtan.**  

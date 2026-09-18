@@ -10,6 +10,10 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/01/az-elso-posztom.html"
 regi_cimkek_mind:
   - "az első"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - világ
 ---
 
 Helló Világ!  

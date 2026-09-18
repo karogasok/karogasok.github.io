@@ -13,10 +13,9 @@ temak:
 kulcsszavak:
   - q
   - phenomenon
-  - r
+  - R
   - true
   - hypothesis
-  - Carstairs-McCarthy
 ---
 
 **A guest post by Hannah Little**

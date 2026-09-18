@@ -18,7 +18,6 @@ kulcsszavak:
   - device
   - IEEE
   - baba
-  - Parviz
 ---
 
 A Google megmutatta mit is fog tudni a [Google Glass](http://www.google.com/glass/start/).

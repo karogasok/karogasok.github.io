@@ -15,7 +15,6 @@ kulcsszavak:
   - Meyer
   - részletes
   - korpusznyelvészet
-  - nyelvű
   - pontos
 ---
 

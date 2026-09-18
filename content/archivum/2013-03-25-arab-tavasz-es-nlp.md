@@ -19,12 +19,11 @@ regi_cimkek_mind:
 temak:
   - Adatújságírás és nyílt adat
 kulcsszavak:
-  - coverage
   - Egyptian
+  - coverage
   - Independent
-  - media
-  - Causey
-  - latent
+  - média
+  - regime
 ---
 
 **Mostanában nagyon rákattantam a "computational social science" témára, mivel úgy látom nagyon gazdag terület, amiben az nlp-nek is sok szép szerep jut(hat). [Trey Causey ](http://treycausey.com/)a University of Washington PhD hallgatója az autoriter államok médiáit vizsgálja empirikus alapon, ehhez pedig nagyban támaszkodik a látens dirichlet allokációra ([latent dirichlet allocation - LDA](http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)) a korpuszelemzésben. [Disszertációjának összegzése](http://treycausey.com/dissertation.html) szerint:**

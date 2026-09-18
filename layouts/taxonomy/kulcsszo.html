@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{- /* A keyword hub. Keywords come from keyness against the rest of the corpus,
+       not from hand-tagging, so most of them gather a handful of writings and a
+       few gather many — that is what keyness is for.
+
+       Like the theme hubs, this lists both the writings that have pages here and
+       the ones that do not, the latter from data/kulcsszavak.yaml. The data file
+       is a map keyed by the keyword so the lookup is one index, not a scan: with
+       this many hubs a scan would be quadratic. */ -}}
+{{- $entry := index hugo.Data.kulcsszavak .Title -}}
+{{- $isHub := ne (len (.Content | plainify | strings.TrimSpace)) 0 -}}
+<div class="listing{{ if $isHub }} is-hub{{ end }}">
+  <header class="post-head">
+    <h1 class="kulcsszo-cim">{{ .Title }}</h1>
+    <p class="note">{{ i18n "kulcsszo.mi_ez" }}</p>
+  </header>
+
+  {{- if $isHub }}
+  <div class="prose hub-intro">{{ .Content }}</div>
+  {{- end }}
+
+  {{- with .Pages }}
+  <h2 class="hub-list-heading">{{ i18n "kulcsszo.posts_here" }} <span class="archive-year-n">{{ len . }}</span></h2>
+  <ol class="post-list is-dense">
+    {{- range .ByDate.Reverse }}{{ partial "post-item.html" . }}{{ end }}
+  </ol>
+  {{- end }}
+
+  {{- with $entry }}{{ with .kulsok }}
+  <h2 class="hub-list-heading">{{ i18n "kulcsszo.elsewhere" }} <span class="archive-year-n">{{ len . }}</span></h2>
+  {{ partial "kulso-lista.html" . }}
+  {{- end }}{{ end }}
+</div>
+{{ end }}

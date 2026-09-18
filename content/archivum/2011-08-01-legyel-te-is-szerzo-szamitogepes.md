@@ -18,7 +18,6 @@ kulcsszavak:
   - bemutatkozik
   - munkatapasztalat
   - megbeszél
-  - tanul/tanul
   - könyvismertető
   - vállal
 ---

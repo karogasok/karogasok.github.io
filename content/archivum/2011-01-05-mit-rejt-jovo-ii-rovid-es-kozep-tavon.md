@@ -11,12 +11,11 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/mit-rejt-jovo-ii
 temak:
   - Adatújságírás és nyílt adat
 kulcsszavak:
-  - diagrammatikus
   - képviseleti
+  - diagrammatikus
   - demokrácia
-  - preferencia
   - megegyezés
-  - közelmúlt
+  - preferencia
 ---
 
 **Előző posztunkban vetettünk egy pillantást a közelmúltra, most pedig áttekintjük hogy a közeli jövőben mit várhatunk. Már napjainkban is elindultak azok a kísérletek melyek megpróbálják emészthetővé és kezelhetővé tenni a minket elárasztó információkat és ezek alapján próbáljuk megtippelni mit hozhat az előttünk álló évtized.**  

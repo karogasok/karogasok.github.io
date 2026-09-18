@@ -22,13 +22,14 @@ regi_cimkek_mind:
   - "szemantika"
 temak:
   - Logika és matematika
+  - Paradigmák és nyelvelméletek
+  - Korpusznyelvészet
 kulcsszavak:
   - Distributional
   - Compositional
   - Widdows
   - Sadrzadeh
   - kompozícionalitás
-  - implementál
 ---
 
 **Itt vannak a nagy adatok, hát vizsgálhatjuk a disztribúciót orrvérzésig. Firth disztribúciós hipotézisével amúgy nincs baj, Wittgenstein is kacérkodott valami hasonlóval. A másik oldalon ott van a Frege-elve, avagy a kompozícionalitás. Persze szokták mondani hogy a formális szemantika nem más mint "exercise in typesetting". De valahol érezzük, hogy egyik elvvel sem mehetünk el a falig. További érdekesség, hogy nem mondanak egymásnak ellent, a disztribúció a szavakra vonatkozik, a kompozícionalitás pedig az összetett kifejezésekre.**

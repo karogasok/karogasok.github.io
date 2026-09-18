@@ -46,9 +46,10 @@ MIN_DF = 2
 #: Below this it stays an outlier rather than being forced into a theme.
 PROBABILITY_FLOOR = 0.25
 
-#: Share of a document's membership a topic must reach to become one of its
-#: labels. Chosen after reading ``scripts/report_multilabel.py``; with 19 topics
-#: the uniform prior is 0.053, so this is a little under twice chance.
+#: Share of a document's topic mixture a topic must reach to become one of its
+#: labels, applied to a row normalised by :func:`as_mixture`. With 19 topics the
+#: uniform share is 0.053, so this is a little under twice chance. Chosen after
+#: reading ``scripts/report_multilabel.py``.
 MULTI_LABEL_FLOOR = 0.10
 
 #: Most labels one document may carry.
@@ -142,11 +143,19 @@ def is_wordlike(lemma: str) -> bool:
     mojibake from the original blog, including a CJK character that emtsv
     cannot represent.
 
-    A lemma qualifies if its **first** character is a letter. Testing whether it
-    merely contains one is not enough: ``:D`` would pass on its ``D``, and it
-    was a top term for the link-roundup topic. Leading-letter also drops ``10%``
-    and percent-encoded URL fragments, while keeping ``R`` and ``nyest.hu``,
-    which are real terms in this corpus.
+    A lemma qualifies if its **first** character is a letter and the rest are
+    letters, digits, dots or hyphens.
+
+    Testing only that it *contains* a letter is not enough: ``:D`` would pass on
+    its ``D``, and it was a top term for the link-roundup topic. Requiring a
+    leading letter drops ``10%`` and percent-encoded URL fragments. Restricting
+    the remaining characters drops three further kinds of rubbish that reached
+    the published tags — emtsv's alternative analyses joined by a slash
+    (``tanul/tanul``), emphasis markers surviving inside a word
+    (``valós***_idejű``), and an email address that had become a topic term.
+
+    Dots and hyphens stay, because ``nyest.hu`` and ``scikit-learn`` are real
+    terms here. ``C++`` is lost, which is the price of the rule.
 
     Args:
         lemma: The lemma to test.
@@ -155,12 +164,16 @@ def is_wordlike(lemma: str) -> bool:
         Whether to keep it.
 
     Example:
-        >>> [is_wordlike(x) for x in ("nyelv", "R", "nyest.hu")]
-        [True, True, True]
+        >>> [is_wordlike(x) for x in ("nyelv", "R", "nyest.hu", "scikit-learn")]
+        [True, True, True, True]
         >>> [is_wordlike(x) for x in ("„", "\ufffd", ":D", "-", "10%", "")]
         [False, False, False, False, False, False]
+        >>> [is_wordlike(x) for x in ("tanul/tanul", "valós***_idejű", "we'd")]
+        [False, False, False]
     """
-    return bool(lemma) and lemma[0].isalpha()
+    if not lemma or not lemma[0].isalpha():
+        return False
+    return all(c.isalnum() or c in ".-" for c in lemma)
 
 
 def drop_stopwords(lemma_docs: Sequence[str], stopwords: Iterable[str]) -> list[str]:
@@ -197,6 +210,47 @@ def drop_stopwords(lemma_docs: Sequence[str], stopwords: Iterable[str]) -> list[
         )
         for document in lemma_docs
     ]
+
+
+def as_mixture(row: Sequence[float]) -> list[float]:
+    """Rescale one document's topic scores so they sum to 1.
+
+    HDBSCAN's soft-cluster strengths are not a mixture: across this corpus the
+    rows sum to a median of 0.73, the shortfall being the document's membership
+    in nothing at all. Thresholding the raw numbers therefore answers "how
+    strongly does this document belong to topic *t*", which is a different
+    question from "what share of this document is topic *t*" — a raw 0.10 on a
+    row summing to 0.73 is really 14% of the assigned mass.
+
+    Normalising makes the floor mean the share, which is how the threshold is
+    described and how a reader will understand it. It also lifts the short
+    entries, whose rows sum lowest precisely because there is little text to be
+    sure about.
+
+    The rescaling is uniform, so it cannot reorder a document's topics and
+    leaves :data:`MULTI_LABEL_RATIO` — a ratio between two entries of the same
+    row — untouched.
+
+    Args:
+        row: Raw membership scores.
+
+    Returns:
+        Scores summing to 1, or all zeros if the row was empty of membership.
+        An all-zero row stays all-zero rather than becoming a uniform
+        distribution: no evidence must not turn into evidence for everything.
+
+    Example:
+        >>> [round(x, 3) for x in as_mixture([0.3, 0.3, 0.15])]
+        [0.4, 0.4, 0.2]
+        >>> as_mixture([0.0, 0.0])
+        [0.0, 0.0]
+        >>> sum(as_mixture([0.5, 0.2, 0.03]))
+        1.0
+    """
+    total = sum(row)
+    if total <= 0:
+        return [0.0] * len(row)
+    return [value / total for value in row]
 
 
 def probability_columns(fitted: Sequence[int]) -> list[int]:

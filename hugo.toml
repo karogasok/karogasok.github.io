@@ -26,6 +26,12 @@ summaryLength = 30
 
 # No theme. The layouts are in layouts/ and are written for this site.
 
+# Taxonomy term pages get their heading from the term itself. Hugo title-cases
+# auto-generated list titles by default, which would turn the keyword `korpusz`
+# into `Korpusz` and the old label `számítógépes nyelvészet` into title case —
+# neither is how they were written.
+capitalizeListTitles = false
+
 [taxonomies]
   # Hugo reads these as singular = "plural". The plural is both the front-matter
   # key and the default URL segment; the URLs are then given Hungarian names
@@ -37,6 +43,10 @@ summaryLength = 30
   # on purpose: the five pillar tags are hand-curated editorial claims, and a
   # clustering result should not be able to quietly join them.
   tema = "temak"
+  # Keywords, from the same pipeline. Multi-valued like `tema`: a writing
+  # carries its five strongest, and every keyword gets a hub so a tag is never
+  # a dead end.
+  kulcsszo = "kulcsszavak"
 
 [permalinks]
   [permalinks.page]
@@ -49,6 +59,7 @@ summaryLength = 30
     # vocabulary should look like an editorial pillar of the current site.
     regi_cimkek = "/archivum/cimke/:slug/"
     temak = "/tema/:slug/"
+    kulcsszavak = "/kulcsszo/:slug/"
 
 [markup]
   [markup.goldmark.renderer]

@@ -22,7 +22,6 @@ kulcsszavak:
   - nemzetközi
   - szakember
   - technológia
-  - közösség
 ---
 
 **A Pulilab egy StartUp, nemzetközi projekteken dolgozunk (dán, norvég) már egy éve itt Budapesten, a csapat innovatív, dinamikusan fejlődő, minden adott ahhoz, hogy kreativitásunk, innovativitásunk kibontakozhasson. :)**

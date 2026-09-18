@@ -16,7 +16,6 @@ kulcsszavak:
   - cím
   - intelligencia
   - gépi
-  - alkalmazás
 ---
 
 Hannah Fry a [Numberphile](https://www.youtube.com/c/numberphile) csatornán kezdte a tudománynépszerűsítést és az elmúlt években talán az egyik legismertebb matematikus lett a világon. A siker nem véletlen, mivel nagyon jól tudja a bonyolult fogalmakat is emészthető formában tálalni, talán ezért is volt egy időben a Deep Mind podcastok házigazdája. Az *Emberek és gépek* című könyve alaposan és érthetően mutatja be mi a fene az a mesterséges intelligencia, hogyan működik, mik a határai és igen, még arról is értelmesen tud szólni hogy akkor kell-e félni tőle.

@@ -16,6 +16,7 @@ regi_cimkek_mind:
   - "lapszemle"
 temak:
   - NLP meetupok
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Summit
   - meetup

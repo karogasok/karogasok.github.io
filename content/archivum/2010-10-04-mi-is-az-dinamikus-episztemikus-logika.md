@@ -20,13 +20,13 @@ regi_cimkek_mind:
   - "szemantikus web"
 temak:
   - Tudományfilozófia
+  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - ágens
   - episztemológiai
   - episztemikus
   - nézőpont
   - játékelmélet
-  - dinamikus
 ---
 
 Szépfalussy Enikő vendégposztja  

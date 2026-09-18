@@ -25,12 +25,12 @@ regi_cimkek_mind:
   - "nyelvtechnológia"
 temak:
   - Adatújságírás és nyílt adat
+  - Lapszemle
 kulcsszavak:
   - mobilos
   - mobilcég
   - óriási
   - Wonder
-  - reklám
   - Yandex
 ---
 

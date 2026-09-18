@@ -13,6 +13,11 @@ regi_cimkek_mind:
   - "citizen science"
   - "open data"
   - "open source"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - GIS
+  - nyílt
 ---
 
 Az [URBANUM](https://urbanum.hu/) és az [Egymeder](http://egymeder.hu/) csoport által szervezett rendezvényen adtunk elő a nyílt adatok és a nyílt forráskód találkozásáról a GIS (vagy magyarosan geoinformatika) területén. Az esemény teljes programja elérhető [itt](https://azeszaki.hu/hu/programok/uj-kanyart-vesz-a-duna-varos-es-taj-kozosseg-es-kozlekedes-interdiszciplinaris-kozossegepites-es-kerekasztal).

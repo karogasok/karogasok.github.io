@@ -19,13 +19,13 @@ regi_cimkek_mind:
   - "szoftverfejlesztés"
 temak:
   - Statisztika és R
+  - Kurzusok és önképzés
 kulcsszavak:
   - Toyota
   - Toyota-módszer
   - autógyártás
-  - lektorál
   - Liker
-  - termelési
+  - lektorál
 ---
 
 **A szoftverfejlesztésben már régóta divatos a lean módszertan és az utóbbi két évben robbant be a köztudatba a lean startup fogalma is. De hogy kerül az autógyártásban kifejlesztett és úgy általában a termelőüzemekben alkalmazott metodológia az IT-be**

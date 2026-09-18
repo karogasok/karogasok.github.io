@@ -24,7 +24,6 @@ kulcsszavak:
   - választás
   - ismeretterjesztő
   - cucc
-  - bevezető
 ---
 
 **Hivatalosan is van egy darab olvasóm! Habár nem az általam megcélzott csoportból (bölcsészek),  egy programozó hallgató írt nekem. Az illető arra kért, tudnék-e valamit ajánlani neki, aki nem tanult nyelvészetet, de mest.int. órán bejött neki a természetes nyelvi feldolgozás, és szeretne valami 'lájtosat'. Nos, rossz hír hogy nincs királyi út a nyelvészethez, de megpróbáltam összeszedni pár jó cuccot amivel ellehetnek az érdeklődők.**  

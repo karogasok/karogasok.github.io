@@ -13,6 +13,11 @@ regi_cimkek_mind:
   - "LEGO"
   - "Turing gép"
   - "Turing év"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - Vimeo
+  - Turing
 ---
 
 [Vimeo](http://player.vimeo.com/video/44202270)

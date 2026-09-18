@@ -14,6 +14,14 @@ regi_cimkek_mind:
   - "topik gráfok"
   - "topik modellek"
   - "vizualizáció"
+temak:
+  - Paradigmák és nyelvelméletek
+  - Logika és matematika
+  - Tudományfilozófia
+kulcsszavak:
+  - centrális
+  - hír
+  - téma
 ---
 
 **Az alábbi ábra az egyes dokumentumok (magyar úsjágcikkek) és topikok kapcsolatát szemlélteti. A gráf elrendezésével még gondjaim vannak, nem sikerül azt a layoutot megtalálnom ami kicsiben is jól mutatja a kapcsolódási pontokat. Az viszont jól látszik, hogy vannak centrális témák, ezek köré csoportosul az összes többi. Érdekes, hogy a centrális cikkek a belföldi témákkal foglalkozó hírek, a szellősebb részen a külföldi hírek vannak, a széleken a bulvár és a kultúra.**

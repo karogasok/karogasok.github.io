@@ -19,7 +19,6 @@ temak:
 kulcsszavak:
   - Neumann
   - felkavar
-  - Dán
   - Klára
   - önreprodukáló
   - Bhattacharya

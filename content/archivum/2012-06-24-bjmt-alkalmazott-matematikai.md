@@ -12,13 +12,14 @@ regi_cimkek_mind:
   - "BJMT Alkalmazott Matematikai Konferencia 2012"
 temak:
   - A szakma
+  - Paradigmák és nyelvelméletek
+  - Korpusznyelvészet
 kulcsszavak:
   - Bender
   - algorithms
   - parallel
   - large
   - Norvig
-  - Data
 ---
 
 **A [BJMT Alkalmazott Matematikai Konferencia 2012](http://amk2012.math.sze.hu/content/index/id/8088/m/2973)-n vettem részt nem rég, köszönet érte a [WebLib](http://weblib.hu/)nek. Sok érdekes előadást hallottam, remélem hamarosan jut időm egy élménybeszámoló megírására. Itt olvashatod absztraktomat és a hozzá kapcsolódó slideot is megnézheted.**

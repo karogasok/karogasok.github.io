@@ -17,6 +17,7 @@ regi_cimkek_mind:
   - "inklink 2013"
 temak:
   - Lapszemle
+  - A blog életéről
 kulcsszavak:
   - regisztrál
   - jegy

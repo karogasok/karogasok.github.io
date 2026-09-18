@@ -16,13 +16,13 @@ regi_cimkek_mind:
   - "lapszemle"
 temak:
   - Lapszemle
+  - A blog életéről
 kulcsszavak:
   - Moszkva
   - kockázati
   - tőke
   - badge
   - Experience
-  - szekció
 ---
 
 **Megszüntetve megőrzött Lapszemle rovatunkat ezentúl felváltva írjuk, reméljük így sokkal színesebb hírekkel szolgálhatunk. Az én verziómban két "extra" kapott helyet; a "Háztáji" szekcióban a bloggal kapcsolatos hírek, közlemények kerülnek be kb. havi rendszerességgel, a "Funkcionálos alfabéta" szekcióban pedig saját hobbim, a funkcionális programozás hírei kerülnek terítékre, minden másban szeretném megőrizni az Enikő által bevezetett struktúrát. Aki hét közben sem akar lemaradni semmiről az lájkoljon minket a Facebookon, kövesse [@sznyelveszet](https://twitter.com/#%21/sznyelveszet) Twitter fiókunkat és olvassa [szamitogepesnyelveszet.tumblr.com](http://szamitogepesnyelveszet.tumblr.com/) Tumblr blogunkat.**

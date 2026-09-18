@@ -19,8 +19,7 @@ temak:
   - A szakma
 kulcsszavak:
   - ideas
-  - "We'd"
-  - common
+  - Common
   - Classic
   - PAIP
   - linguists

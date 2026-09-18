@@ -18,6 +18,9 @@ regi_cimkek_mind:
   - "interjú"
   - "tartalomelemzés"
   - "zene"
+temak:
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
 ---
 
 A Kossuth Rádió Trend-Idők című műsorában beszélgettünk magyar dalszövegeket és szerzőik kapcsolatait elemző projektünkről. Az adás [ezen a linken ](https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-10-05_15-11-00&enddate=2020-10-05_15-35-00&ch=mr1)hallgatható vissza (15:16:06-nél kezdődik és 15:19:06-ig tart).

@@ -20,7 +20,6 @@ kulcsszavak:
   - korpusznyelvészet
   - korpusz
   - átlag
-  - busa
 ---
 
 **Mi is az a korpusznyelvészet? Sokan úgy tekintenek a korpuszokra mint a nyelvi adatok egyetlen lehetséges forrásaira, mások azt hiszik hogy ez valami nagyon új irányzat, de szeretnénk lehűteni a kedélyeket – a korpusznyelvészet ugyanis egy módszertani irányzat, se nem több, se nem kevesebb. Sajnos azonban ezt az irányzatot is „megfertőzte” a szokásos irány és szeretik a korpusznyelvészek is Chomskyval szemben meghatározni magukat. Vizsgáljuk meg egy kicsit közelebbről a két legelterjedtebb ködképet a korpusznyelvészetről.**

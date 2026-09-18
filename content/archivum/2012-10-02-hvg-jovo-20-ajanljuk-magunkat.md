@@ -13,6 +13,12 @@ regi_cimkek:
 regi_cimkek_mind:
   - "HVG Jövő 2.0"
   - "keresés"
+temak:
+  - Kurzusok és önképzés
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - HVG
+  - kép
 ---
 
 Megjelent a **[HVG Extra, Jövő 2.0 ](http://extra.hvg.hu/magazin/jovo-2)**kiadványa! Papíron, fizetős kontent formában, de 890 HUF nem olyan sok érte.

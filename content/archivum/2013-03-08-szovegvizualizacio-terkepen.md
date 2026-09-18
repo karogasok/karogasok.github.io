@@ -19,7 +19,6 @@ kulcsszavak:
   - térkép
   - x
   - adott
-  - szó
 ---
 
 **A [maphugger.com](http://maphugger.com/) egy remek oldal, ami tele van igen ötletes térképekkel. A [Laconic History of the World](http://hugepic.io/d2012641f/3.00/57.89/9.67) minden országot egy szóval jelenít meg. A térkép az angol Wikipedia "History of X" - ahol az X egy adott ország - szócikkeit dolgozta fel és a legjellemzőbb (azaz leggyakoribb) szóval helyttesítette az adott országot. Érdekes, hogy hazánk így a "Party", még Szlovákia a "Hungary" szóval került megjelenítésre. A "War" túlburjánzása mutatja milyen szomorú is a történelem, a volt gyarmatok pedig rendre a gyarmattartók nevével jelentek meg.**

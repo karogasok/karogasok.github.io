@@ -20,7 +20,6 @@ kulcsszavak:
   - Partee
   - halmazelméleti
   - intencionális
-  - matekos
 ---
 
 **Egyáltalán nem bánom, de a blog lassan kezd átmenni olvasmány ajánlóba. Azért remélem hogy hamarosan áttérhetek más írásokra is, de Anita kérésének eleget téve most arról írok hogy hol/mit érdemes logikáról olvasni/tudni.**  

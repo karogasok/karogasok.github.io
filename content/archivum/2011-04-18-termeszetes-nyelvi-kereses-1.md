@@ -26,13 +26,14 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - Tudományfilozófia
+  - Nyílt szoftver és tervezés
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - emlős
   - TrueKnowledge
   - találat
   - ló
   - rangsorolás
-  - Swingly
 ---
 
 **A keresés megszokott része digitális hétköznapjainknak; nem csak az interneten szoktunk keresni, hanem dokumentumainkban és azok között és egyre több operációs rendszer integrál egy általános keresőt ami nem csak a szöveges fájlok, hanem minden adat és program között képes keresni. A keresés általánossá vált, része az ember-gép interakciónak (HCI - human computer interaction), s habár egyre megszokottabb a kulcsszavas keresés, nem szabad elfelejtenünk hogy [a begépelt kulcsszavak száma folyamatosan növekszik](http://bit.ly/gA8S5G), miközben az információ mennyisége rohamosan gyarapodik. A megnövekedett komplexitást két oldalról "támadhatjuk", egyrészt az információ mélyebb elemzésével és strukturálásával, másrészt a felhasználó ún. naiv elméletének (a keresőmotor működésére vonatkozó félig-meddig tudatos elképzeléseinek) jobb megértésével és kiszolgálásával. A természetes nyelvi keresés ennek a kettős igénynek próbál megfelelni.**

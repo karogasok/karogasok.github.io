@@ -64,7 +64,12 @@ class Document:
         year: Publication year, or ``None`` where the source has no date.
         fittable: Whether this document is long enough and ours to fit on.
         url: Where the piece lives, for data-file rows that have no page on
-            this site. ``None`` for pages, whose URL Hugo derives itself.
+            this site. ``None`` for pages, whose URL Hugo derives itself, and
+            ``None`` for a recording that has been taken down — there is
+            genuinely nothing to link to and inventing one would be a lie.
+        key: A stable identifier for a row with no page, used to attach tags to
+            it from a data file. Falls back to the announcing post when the
+            piece itself is gone, so a lost recording can still be tagged.
     """
 
     doc_id: str
@@ -74,6 +79,7 @@ class Document:
     year: int | None
     fittable: bool
     url: str | None = None
+    key: str | None = None
 
     @property
     def word_count(self) -> int:
@@ -166,7 +172,11 @@ def _read_yaml_rows(path: Path, source: str, key: str) -> list[Document]:
         if title is None:
             continue
         year = re.search(r"(?:ev|datum): (\d{4})", block)
-        link = re.search(r'link: "(.*?)"', block)
+        link = re.search(r'\n\s+link: "(.*?)"', "\n" + block)
+        # The post that announced the piece. For a lost recording it is the only
+        # stable handle there is.
+        announced = re.search(r'\n\s+forras: "(.*?)"', "\n" + block)
+        handle = link or announced
         text = f"{title.group(1)}. {body.group(1) if body else ''}".strip()
         docs.append(
             Document(
@@ -179,6 +189,7 @@ def _read_yaml_rows(path: Path, source: str, key: str) -> list[Document]:
                 # case not ours to let define a theme.
                 fittable=False,
                 url=link.group(1) if link else None,
+                key=handle.group(1) if handle else None,
             )
         )
     return docs

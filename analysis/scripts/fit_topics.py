@@ -19,11 +19,12 @@ import hashlib
 import json
 import sys
 from pathlib import Path
+from typing import cast
 
 import numpy as np
 
 from karogasok_temak.corpus import Document, load_corpus
-from karogasok_temak.embed import MODEL_NAME, embed_documents
+from karogasok_temak.embed import MODEL_NAME, SentenceEncoder, embed_documents
 from karogasok_temak.naming import evidence_quote
 from karogasok_temak.stopwords import hungarian_stopwords
 from karogasok_temak.topics import (
@@ -33,6 +34,7 @@ from karogasok_temak.topics import (
     MULTI_LABEL_RATIO,
     OUTLIER,
     RANDOM_SEED,
+    as_mixture,
     build_model,
     drop_stopwords,
     fit_topics,
@@ -96,7 +98,11 @@ def _embeddings(documents: list[Document]) -> np.ndarray:
     from sentence_transformers import SentenceTransformer
 
     print(f"  embeddings: loading {MODEL_NAME}", flush=True)
-    model = SentenceTransformer(MODEL_NAME)
+    # SentenceTransformer.encode takes far more arguments than the protocol
+    # names, so it does not satisfy it structurally even though every call here
+    # is valid. The protocol exists so the tests can pass a fake encoder; this
+    # is the one place a real one is constructed.
+    model = cast("SentenceEncoder", SentenceTransformer(MODEL_NAME))
     vectors = embed_documents(
         [d.text for d in documents], model, show_progress_bar=True
     )
@@ -169,7 +175,7 @@ def main() -> int:
     label_sets: list[list[int]] = []
     for position, index in enumerate(fit_idx):
         primary = int(reduced[position])
-        ids, scores = label_set(matrix[index], columns, primary)
+        ids, scores = label_set(as_mixture(matrix[index]), columns, primary)
         label_sets.append(ids)
         assignments[documents[index].doc_id] = {
             "topic": int(fit_topics_list[position]),
@@ -180,7 +186,7 @@ def main() -> int:
         }
     for position, index in enumerate(rest_idx):
         primary = int(placed[position])
-        ids, scores = label_set(matrix[index], columns, primary)
+        ids, scores = label_set(as_mixture(matrix[index]), columns, primary)
         label_sets.append(ids)
         assignments[documents[index].doc_id] = {
             "topic": primary,

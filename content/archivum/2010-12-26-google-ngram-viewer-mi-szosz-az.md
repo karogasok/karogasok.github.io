@@ -32,13 +32,13 @@ regi_cimkek_mind:
   - "szöveg vizualizáció"
 temak:
   - Korpusznyelvészet
+  - Statisztika és R
 kulcsszavak:
   - bag
   - vizsla
   - felkarol
-  - emelkedik
   - cenzúra
-  - Viewer
+  - emelkedik
 ---
 
 **A Google Labs mostanában indította el Books Ngram Viewer szolgáltatását és megjelntek a legkülönbözőbb "elemzések" mindenhol - még a print HVG-ben is találtam! Arról viszont kevés szó esik hogy mit is takar tkp. ez a szolgáltatás, miért indította el a Google, mi egyáltalán az az ngram (vagy jobban mondva n-gram) és mire jó ez azon kívül hogy szép grafikont rajzolunk.**  

@@ -16,6 +16,11 @@ regi_cimkek_mind:
   - "big data"
   - "data science"
   - "funkcionális programozás"
+temak:
+  - Adatújságírás és nyílt adat
+kulcsszavak:
+  - Nathan
+  - Paco
 ---
 
 **Paco Nathan ([Concurrent](http://www.concurrentinc.com/) data science director) egy olyan slide-ot csinált, ami önmagában is érthetővé teszi, miért nyer egyre nagyobb teret a funkcionális programozás big data körökben.**

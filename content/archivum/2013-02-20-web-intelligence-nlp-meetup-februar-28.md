@@ -22,10 +22,9 @@ temak:
 kulcsszavak:
   - Associativy
   - ICTs
-  - cau
   - Heintz
   - ASP.NET
-  - Orchard
+  - cau
 ---
 
 **Február 28-án tartjuk évadnyitó meetupunkat 18 órától a Colabs-ben (Budapest, Irányi utca 3.) A rendezvény továbbra is ingyenes, de kérünk minden kedves érdeklődőt, [regisztráljon oldalunkon és részvételi szándékát jelezze](http://www.meetup.com/Hungarian-nlp/events/99689252/) (ezzel is segítve a szervezők munkáját)**

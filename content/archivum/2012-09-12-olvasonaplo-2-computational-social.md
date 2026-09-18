@@ -15,7 +15,7 @@ temak:
   - Nyílt szoftver és tervezés
 kulcsszavak:
   - Social
-  - David
+  - Dávid
   - Computational
   - Science
 ---

@@ -17,6 +17,8 @@ regi_cimkek_mind:
   - "filmajánló"
 temak:
   - Lapszemle
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
 kulcsszavak:
   - Freakonomics
   - remek

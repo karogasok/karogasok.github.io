@@ -12,6 +12,7 @@ regi_cimkek_mind:
   - "design thinking"
 temak:
   - Startup és termékfejlesztés
+  - Nyílt szoftver és tervezés
 kulcsszavak:
   - design
 ---

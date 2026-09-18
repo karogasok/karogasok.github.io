@@ -19,10 +19,9 @@ temak:
 kulcsszavak:
   - blogszünet
   - beszámoló
-  - NLTK
-  - Meetup
+  - nltk
+  - meetup
   - real
-  - time
 ---
 
 **Meetup beszámoló, sőt lassan minden a meetupokról szól, de ajánlunk webinart is, továbbá itt az új NLTK. Blogszünet veszi kezdetét.**

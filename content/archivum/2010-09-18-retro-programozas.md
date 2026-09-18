@@ -21,7 +21,6 @@ kulcsszavak:
   - LISP
   - Common
   - repl
-  - Sussman
   - SLIME
 ---
 

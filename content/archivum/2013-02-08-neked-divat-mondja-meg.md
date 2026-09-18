@@ -18,13 +18,13 @@ regi_cimkek_mind:
   - "tudományfilozófia"
 temak:
   - Tudományfilozófia
+  - Logika és matematika
 kulcsszavak:
-  - pókháló
   - pók
   - protein
+  - pókháló
   - mintázat
   - Elias
-  - kategóriaelmélet
 ---
 
 **[Peter Elias](http://en.wikipedia.org/wiki/Peter_Elias) 1958-as[ IRE](http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?reload=true&punumber=10933) szekesztői írása, [Two Famous Papers](http://oikosjournal.files.wordpress.com/2011/09/elias1958ire-editorial.pdf), remek humorérzékkel mutatja be, mennyire rá tudnak kattani a kutatók egy-egy új elméletre. Ez akkoriban épp az információelmélet volt, de [Norvig hírhedt esszéje](http://norvig.com/chomsky.html) nyomán tudjuk, ez ma sincs másképp. Persze ne legyünk igazságtalanok, hisz tudjuk, [Shannon neves tanulmányában](http://cm.bell-labs.com/cm/ms/what/shannonday/shannon1948.pdf) is szerepelnek nyelvi példák. De az adatok tényleg az elméletek végét jelentik, [ahogy az Chris Anderson gondolja](http://www.wired.com/science/discoveries/magazine/16-07/pb_theory)?**

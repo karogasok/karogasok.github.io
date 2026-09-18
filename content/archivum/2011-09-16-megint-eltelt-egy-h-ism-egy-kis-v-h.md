@@ -18,11 +18,10 @@ temak:
   - Lapszemle
 kulcsszavak:
   - Kornai
-  - eBay
-  - apai
   - néger
   - Tongue
-  - UX
+  - apai
+  - eBay
 ---
 
 **Megint eltelt egy hét, ismét összeállítottunk egy kis válogatást a hétvégére. Akinek hét közben is szüksége van infókra az kövesse [@sznyelveszet](http://twitter.com/#%21/sznyelveszet) Twitter fiókunkat és böngéssze [szamitogepesnyelveszet.tumblr.com](http://szamitogepesnyelveszet.tumblr.com/) oldalunkat, vagy lájkoljon minket a FB-on.**

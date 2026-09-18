@@ -18,6 +18,11 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "tartalomelemzés"
   - "topikmodellek"
+temak:
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - Budapest
 ---
 
 A Kossuth Rádió Szombat Reggel című műsorában beszélgettünk a [100 szóban Budapest](https://budapest.in100words.eu/hu) történetíró pályázat pályaműveit elemző projektünkről, melyet a Budapest Brand Nonprofit Zrt. és a MITTE felkérésére készítettünk.

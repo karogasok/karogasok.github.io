@@ -19,7 +19,6 @@ kulcsszavak:
   - demokratikus
   - kihívás
   - robot
-  - állam
 ---
 
 Hogyan alakítja át a mindennapjainkat a mesterséges intelligencia? Milyen társadalmi és etikai kihívások elé állít minket a technológiai fejlődés? Hogyan tudnak a demokratikus társadalmak erre reagálni? Ezekre a kérdésekre keresi Martin Ford legújabb könyve a választ.

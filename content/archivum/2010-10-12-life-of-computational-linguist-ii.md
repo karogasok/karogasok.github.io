@@ -26,11 +26,10 @@ temak:
   - A szakma
 kulcsszavak:
   - Birmingham
-  - Oliver
   - mainly
+  - Oliver
   - favourite
   - Trier
-  - synergetic
 ---
 
 **This week we interviewed [Oliver Mason](http://bit.ly/9TB8ac), a computational linguist at the [Department of English](http://bit.ly/bdU6Jf) of [University of Birmingham](http://bit.ly/ctGLWU). He holds an MA in Computational Linguistics from the [University of Trier](http://bit.ly/aU3Ew3), and a PhD in Linguistics from the University of Birmingham. You can find more information on Oliver on his [personal webpage](http://bit.ly/btG52n). He runs two blogs, [Language and Computation](http://bit.ly/bBpYNV) and [Learning, Teaching, Research](http://bit.ly/do54pf). You can find him on twitter as [ojmason](http://bit.ly/bZcbBz).**  

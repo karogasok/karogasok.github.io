@@ -34,6 +34,12 @@
           </span>
         </a>
         {{- with .leiras }}<p class="post-item-lede">{{ . }}</p>{{ end }}
+        {{- /* Keyed by URL, so a lost recording with nothing to link to has no
+               key. `index` treats a nil key as an error rather than a miss, so
+               the guard is required, not defensive. */ -}}
+        {{- with (or .link .forras) }}{{ with index hugo.Data.temak_index . }}
+        {{ partial "cimkek.html" (dict "temak" .t "kulcsszavak" .k) }}
+        {{- end }}{{ end }}
         <p class="media-meta">
           {{- with .idopont }}<span>{{ i18n "media.at" }} {{ . }}</span>{{ end }}
           {{- with .link_diak }}<a href="{{ . }}" rel="noopener">{{ i18n "media.slides" }}</a>{{ end }}
@@ -66,6 +72,12 @@
           </span>
         </div>
         {{- with .leiras }}<p class="post-item-lede">{{ . }}</p>{{ end }}
+        {{- /* Keyed by URL, so a lost recording with nothing to link to has no
+               key. `index` treats a nil key as an error rather than a miss, so
+               the guard is required, not defensive. */ -}}
+        {{- with (or .link .forras) }}{{ with index hugo.Data.temak_index . }}
+        {{ partial "cimkek.html" (dict "temak" .t "kulcsszavak" .k) }}
+        {{- end }}{{ end }}
         <p class="media-meta">
           {{- with .idopont }}<span>{{ i18n "media.at" }} {{ . }}</span>{{ end }}
           {{- with .forras }}<a href="{{ . }}" rel="noopener">{{ i18n "media.source" }}</a>{{ end }}

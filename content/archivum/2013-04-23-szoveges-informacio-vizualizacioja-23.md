@@ -23,7 +23,6 @@ kulcsszavak:
   - Topic
   - gyakorisági
   - topik
-  - Wordle
 ---
 
 A magyar online sajtóból gyűjtöttem be cikkeket, sima nltk snowball stemmelésen mentek át normalizálás során, majd MALLET-et használva 20 elemű topik modellt készítettem. Az egyes topikokhoz leginkább hozzájáruló szavak gyakorisági listájából generáltam szófelhőket. A pytagcloud kifejezetten csúnya, de legalább programmatikusan generálhatóak a képek, a Wordle sokkal szebb. de a gyakorisági táblákat kézzel kell bemásolni a generálás előtt. Az eredményeken látszik, hogy pontosításra szorul a scraper (ti. nem csak a cikkek szövegét szedi ki, hanem még sok menüelemet és reklámot stb) és jobb stemmer sem ártana. Ezek ellenére a tapasztalatom azt mutatja, egészen informatívak a szófelhők - magyarán az adott topikról sokat elárulnak.

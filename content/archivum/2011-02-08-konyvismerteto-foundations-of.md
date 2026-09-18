@@ -23,10 +23,9 @@ temak:
 kulcsszavak:
   - Vasishth
   - Shravan
-  - telepít
   - Broe
+  - telepít
   - hipotézis
-  - Michael
 ---
 
 **Sokakat tántorít el a tény hogy manapság a (számítógépes) nyelvészet bizony nagyon matematizált. Ezen a tényen nem tudunk változtatni, már Eukleidész is megmondta I. Ptolemaiosznak hogy a matematikához nem vezet királyi út. Azonban nem kell félni, az alapos ismeretek a mi területünkön inkább gyakorlatiak (persze el lehet menni egészen "durva" területekre is) és gyakran köthetők alkalmazott problémákhoz. A most ismertetett kötet ebben segít, az alkalmazásra teszi a hangsúlyt és ebben segítségül hívja az R statisztikai programozási nyelvet.**

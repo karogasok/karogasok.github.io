@@ -18,13 +18,13 @@ regi_cimkek_mind:
   - "statistical programming"
 temak:
   - A szakma
+  - Korpuszépítés és annotáció
 kulcsszavak:
   - Incanter
   - Lisp-Stat
   - libraries
   - library
   - Ecosystem
-  - functionality
 ---
 
 This week we interviewd David Edgar Liebke the creator of [Incanter](http://incanter.org/) (a statistical and graphics environment for the JVM). David is a developer and statistician working for [Clojure/core](http://clojure.com/) at [Relevance Inc](http://thinkrelevance.com/). He has a B.S. in cognitive science (UC San Diego), M.S. in applied mathematics and statistics (Georgetown), an M.B.A. (UC Irvine). He's got a nice blog, [Data Sorcery with Clojure](http://data-sorcery.org/), and you can find him on Twitter as [@liebke](http://twitter.com/#%21/liebke).  

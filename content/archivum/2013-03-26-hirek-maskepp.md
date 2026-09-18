@@ -12,6 +12,8 @@ regi_cimkek_mind:
   - "computational linguistics light"
   - "hírek"
   - "news"
+kulcsszavak:
+  - angol
 ---
 
 Egytlen igazán népszerű "szolgáltatásunk"  a Számítógépes nyelvészeten a különböző neveken futó linkajánló "rovatunk" volt. A **[Computational Linguistics Light](http://complinglight.tumblr.com/)** célja betölteni ezt az űrt. Minden általam érdekesnek talált angol nyelvű cikket, tanulmányt, honlapot és egyéb forrást ezen a helyen osztok meg a továbbiakban, néha minimálisan kommentelem is ezeket (angolul).

@@ -24,7 +24,6 @@ kulcsszavak:
   - megismerkedik
   - minimális
   - programoz
-  - R
 ---
 
 **Nehéz jó kezdő könyvet találni azoknak akik egyszerre szeretnének megismerkedni mind az R nyelvvel, mind a statisztikával. Sokan (köztük én is) nem tartják jó ötletnek egyszerre beleugrani a két dologba (sőt, háromba, ha programozni se tud az illető), azonban a most bemutatásra kerülő kötet nagyon közel van az ideálishoz: azok akik már programoztak valaha (tudják mi az hogy változó, miért van egy függvénynek argumentuma, mik azok a kontroll struktúrák stb) és tisztában vannak a matematikai alapjaival (kb. nyolc általános és minimális érdeklődés) haszonnal forgathatják a könyvet.**

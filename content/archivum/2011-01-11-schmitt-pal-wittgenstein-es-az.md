@@ -27,7 +27,6 @@ kulcsszavak:
   - vizualizáció
   - Eyes
   - DNS
-  - nyúl
 ---
 
 **Mielőtt azt hinné a kedves olvasó hogy a politikáról lesz szó, szólok hogy nem. A köztársaság elnöke beszédet mondott, a [Social Times](http://bit.ly/hrRED6) pedig a [Many Eyes](http://bit.ly/hVpTAM) használatával [készített egy szövegfelhőt](http://bit.ly/e6KyfR), gondolván hogy így megkönnyíti az elemzők dolgát. Nagyon reméljük hogy a megszólítottak nem kezdtek el rögvest dolgozni a szép új eszközzel. Hogy miért? Erről szól ez a poszt. A vizualizáció szép, jó és hasznos, csak tudni kell mire való, mik a korlátai és hogyan értelmezhetjük. Ebben segít nekünk egy kicsit Wittgenstein.**  

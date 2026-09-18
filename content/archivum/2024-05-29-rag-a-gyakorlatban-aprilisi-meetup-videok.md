@@ -21,7 +21,6 @@ kulcsszavak:
   - Co-pilot
   - tartalmi
   - LLM
-  - teljesítmény
 ---
 
 Hosszú szünet után [áprilisban újraindult az NLP meetup](https://www.meetup.com/open-nlp/events/300005041/). Első rendezvényünkön a RAG került terítékre, két gyakorlati példán keresztül.

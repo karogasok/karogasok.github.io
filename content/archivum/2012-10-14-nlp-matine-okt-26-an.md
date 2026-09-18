@@ -20,7 +20,6 @@ temak:
 kulcsszavak:
   - bemutatkozó
   - ötperces
-  - zoltan.varju(kukac)gmail.com
   - nyelvtechnológiai
   - jelentkezik
   - nyugodt

@@ -23,7 +23,6 @@ kulcsszavak:
   - összetett
   - összetételi
   - térkép
-  - betűsor
 ---
 
 A magyar nyelv olyan, mint egy kincsesbánya, amelynek használói temérdek új szót alkothatnak. Kreativitásért az elődeinknek sem kellett a szomszédba menniük, amikor elnevezték lakóhelyüket – akár egy elemű, akár több elemű névről legyen szó. Vizsgáljuk meg közelebbről az összetett szóból álló településneveket és térképezzük fel a leggyakoribb utótagokat.

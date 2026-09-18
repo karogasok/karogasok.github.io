@@ -17,9 +17,8 @@ kulcsszavak:
   - Kína
   - kínai
   - nyugati
-  - vadász
   - chip
-  - erdő
+  - vadász
 ---
 
 Sokan elkerülhetetlennek tartják Kína és az Egyesült Államok szankciós háborúját. A CHIPS Act és a tervezett Eurpopean Chips Act célja, hogy a Kína számára létfontosságú technológiákhoz való hozzáférést korlátozza. Kína válaszul a saját K+F ráfordításait növeli folyamatosan. Felpöröghet-e az innováció központi utasításra?

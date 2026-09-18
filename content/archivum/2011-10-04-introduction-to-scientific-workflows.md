@@ -17,13 +17,13 @@ regi_cimkek_mind:
   - "workflows"
 temak:
   - A szakma
+  - Programozás nyelvészeknek
 kulcsszavak:
   - workflows
   - Run
   - workflow
   - imagine
   - talking
-  - sandwich
 ---
 
 A guest post by Richard Littauer

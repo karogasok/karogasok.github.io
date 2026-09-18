@@ -24,12 +24,11 @@ regi_cimkek_mind:
 temak:
   - Programozás nyelvészeknek
 kulcsszavak:
-  - Probabilistic
+  - probabilistic
   - models
-  - Functional
+  - functional
   - probabilisztikus
   - problems
-  - Programming
 ---
 
 **Az utóbbi napokban a Twitter a [DARPA Probabilistic Programming for Advanced Machine Learning (PPAML) Proposers' Day](http://www.solers.com/BAAinfo-reg/ppaml/)-től hangos. De miért? Rob Zinkov Why [Probabilistic Programming Matters](http://zinkov.com/posts/2012-06-27-why-prob-programming-matters/) posztjában így válaszolja meg a kérdést**

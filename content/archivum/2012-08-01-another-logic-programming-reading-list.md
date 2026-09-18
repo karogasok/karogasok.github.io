@@ -18,12 +18,12 @@ regi_cimkek_mind:
   - "prolog"
 temak:
   - Nyelvelemző eszközök
+  - Korpuszépítés és annotáció
 kulcsszavak:
   - Blackburn
   - Prolog
   - Bos
   - Aljoscha
-  - Kristina
   - Stephan
 ---
 

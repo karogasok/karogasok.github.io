@@ -13,13 +13,13 @@ regi_cimkek_mind:
   - "politikai iránytű"
 temak:
   - Lapszemle
+  - A blog életéről
 kulcsszavak:
   - iránytű
   - GPT
   - politikus
   - kitölt
   - nyelvmodell
-  - ChatGPT
 ---
 
 A [Budapest Science Meetup júniusi rendezvényén](https://www.meetup.com/bpsciencemeetup/events/wbjvrpyfcjblb/) az utóbbi hónapok slágertémájáról a ChatGPT-ről is beszéltünk, no meg a nagy nyelvmodellekről általában és egy kicsit saját kis projektünkről melynek keretében a ChatGPT és pár történelmi személy és politikus kitöltötte a Pokitikai Iránytű kérdőívet. Alább diánikat lehet találni és egy interakítv vizut amin többek között Orbán, Kossuth és Szálasi eredményeit lehet böngészni a Politikai Iránytűn.

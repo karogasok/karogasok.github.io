@@ -16,6 +16,13 @@ regi_cimkek_mind:
   - "gépi látás"
   - "nlp"
   - "nyelvmodell"
+temak:
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - úr
+  - tanár
+  - mesterséges
+  - intelligencia
 ---
 
 Ma délután Gerő Péter ["Szia, Tanár Úr!"](https://www.radiobezs.hu/radiobezs/gero-peter?fbclid=IwAR23W-m7bVJx1ULA4HZz3ITLTtVxe98tHivKlLtiD7ERnmNIz0oThBMIARg#) műsorában beszélgettünk a mesterséges intelligencia kapcsán ránk váró kihívásokról. Az adás [ezen a linken](https://www.radiobezs.hu/radiobezs/radiobezs.archivplayer.page?szam=http%3A%2F%2Fwww.radiobezs.hu%2Fradiobezs_files%2FArch%C3%ADvum%2F2020%2F1230_1500.mp3) hallgatható vissza, az interjú 32:28-nál kezdődik és 39_17-ig tart.

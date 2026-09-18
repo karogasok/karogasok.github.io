@@ -15,13 +15,13 @@ regi_cimkek_mind:
   - "kérdőív"
 temak:
   - NLP meetupok
+  - A blog életéről
 kulcsszavak:
   - kérdőív
   - kitöltés
   - funkcionális
   - bevezetés
   - cég
-  - programozás
 ---
 
 **Arra kérem kedves olvasóimat, hogy segítsenek nekem feltérképezni hogyan állnak a magyarországi fejlesztők és cégek a funkcionális programozáshoz. Ezért egy rövid kérdőív kitöltésére kérek mindenkit, attól függően hogy melyik csoportba illi:**

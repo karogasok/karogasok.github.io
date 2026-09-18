@@ -1,0 +1,23 @@
+{{- /* The themes and keywords of one writing, as links to their hubs.
+
+       Both come from the model in analysis/, so they are shown together and
+       labelled, rather than mixed into the hand-curated tags. Links are built
+       with `urlize`, the same call the old archive labels use, because that is
+       what Hugo itself uses to derive a term's URL — a stored slug would be a
+       second opinion that can drift from the first.
+
+       Takes a dict: `temak` and `kulcsszavak`, either of which may be empty. */ -}}
+{{- $temak := .temak -}}
+{{- $kulcsszavak := .kulcsszavak -}}
+{{- if or $temak $kulcsszavak -}}
+<p class="cimkek">
+  {{- with $temak }}
+  <span class="margin-label">{{ i18n "cimke.temak" }}</span>
+  {{- range . }}<a class="tag is-tema" href="{{ (printf "/tema/%s/" (urlize .)) | relURL }}">{{ . }}</a>{{ end }}
+  {{- end }}
+  {{- with $kulcsszavak }}
+  <span class="margin-label">{{ i18n "cimke.kulcsszavak" }}</span>
+  {{- range . }}<a class="tag" href="{{ (printf "/kulcsszo/%s/" (urlize .)) | relURL }}">{{ . }}</a>{{ end }}
+  {{- end }}
+</p>
+{{- end -}}

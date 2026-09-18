@@ -22,7 +22,6 @@ kulcsszavak:
   - hosszú
   - tanul
   - kód
-  - könnyű
 ---
 
 **Mindenki azt ajánlja a pályakezdőknek hogy még tanulmányaik alatt szerezzenek gyakrolatot. Nem tudom ki hogy van vele, de szerintem egy rendesen tanuló nappalis diáknak ez nehéz. Viszont van egy jó hír; a szabad szoftverek világában saját idődet beosztva, a saját tempódban szerezhetsz egy kis gyakorlatot**.  

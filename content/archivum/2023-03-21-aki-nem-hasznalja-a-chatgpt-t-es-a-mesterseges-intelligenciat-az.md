@@ -13,6 +13,9 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ChatGPT"
   - "interjú"
+temak:
+  - Lapszemle
+  - A blog életéről
 ---
 
 A napi.hu podcastában Szabó Péterrel a Microsoft ügyvezetőjével arról beszélgettünk, miben hozott újat a ChatGPT és milyen hatásai lehetnek majd mindenapjainkra.

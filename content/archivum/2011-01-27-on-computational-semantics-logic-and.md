@@ -20,13 +20,13 @@ regi_cimkek_mind:
   - "semantics"
 temak:
   - Logika és matematika
+  - Statisztika és R
 kulcsszavak:
   - logic
   - Road
-  - Eijck
   - Beth
+  - Eijck
   - CUP
-  - mathematics
 ---
 
 **We interviewed [Jan van Eijck](http://bit.ly/i2GtWD) who is the co-author of [Computational Semantics with Functional Programming](http://bit.ly/gIaFrd), a recent [title from Cambridge University Press](http://bit.ly/gyxeX9). Prof. van Eijck is a senior researcher at [CWI](http://bit.ly/gPl3RA) (Centre for Mathematics and Computer Science) Amsterdam, and part time full professor of computational linguistics at [Uil-OTS](http://bit.ly/fuWpuF) (Research Institute for Language and Speech), Utrecht.**  

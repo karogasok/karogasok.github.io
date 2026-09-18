@@ -18,7 +18,6 @@ regi_cimkek_mind:
 temak:
   - Nyelvelemző eszközök
 kulcsszavak:
-  - "we'd"
   - Classics
   - power
   - try

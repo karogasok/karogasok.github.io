@@ -16,6 +16,14 @@ regi_cimkek_mind:
   - "digitális bölcsészet"
   - "számítógépes nyelvészet"
   - "továbbtanulás"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - PPKE
+  - BTK
+  - tanár
+  - óra
+  - számítógépes
 ---
 
 Az országban egyedül a PPKE BTK-n szeptemberben ismét indul MA szintű számítógépes nyelvész képzés 'digitális bölcsészet: számítógépes szakirány' néven. Az nyelvészeti órákat a PPKE BTK-n tartják , az informatikai órákat pedig a PPKE ITK-n. A szakirányfelelősök: Prószéky Gábor egy. tanár és Surányi Balázs egy. tanár **okt. 16-án du. 5-6 között** szaktájékoztatót tartanak.

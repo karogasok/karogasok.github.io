@@ -18,12 +18,12 @@ regi_cimkek_mind:
   - "tudományfilozófia"
 temak:
   - Tudományfilozófia
+  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - rekonstrukció
   - ontológia
   - interpretáció
   - felfedezés
-  - igazolhatóság
   - megfigyelési
 ---
 

@@ -22,11 +22,10 @@ temak:
   - Nyelvelemző eszközök
 kulcsszavak:
   - szövegfájl
-  - sorted.freq.list
   - textfile
   - sorted.table
   - tó
-  - karaktersor
+  - sorted.freq.list
 ---
 
 **Az előző technikai jellegű [posztomban](http://bit.ly/9H52qu) a Magyar Webkorpusz alapján vetettünk egy pillantást a szógyakoriságra. Most egy saját szöveges fájlból készítünk szógyakorisági témát.**  

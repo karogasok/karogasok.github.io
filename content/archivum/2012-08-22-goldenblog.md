@@ -15,13 +15,13 @@ regi_cimkek_mind:
   - "goldenblog"
 temak:
   - Lapszemle
+  - A blog életéről
 kulcsszavak:
   - befőz
   - ajánlat
-  - tudományos/ismeretterjesztő
   - szavaz
   - keleti
-  - imád
+  - együttműködik
 ---
 
 **Idén is belecsaptunk a lecsóba és neveztük magunkat a Goldenblogra. Csak közhelyeket puffogtathatunk, a mezőny erős, nem is szeretnénk nyerni (pedig szeretnénk), csak azért neveztünk hogy ismertséget szerezzünk (ez spéci igaz is), a részvétel a fontos, meg ilyenek. Ezen felbuzdulva kérjük a kedves olvasót hogy szavazzon ránk az IT kategóriában, valamint szemezgetünk konkurenseink között is, továbbá a nagyérdemű figyelmébe ajánlunk egy-két blogot a többi kategóriában is. De először egy kicsit írunk magunkról.**

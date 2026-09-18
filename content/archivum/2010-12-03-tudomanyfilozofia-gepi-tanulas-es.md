@@ -24,7 +24,6 @@ kulcsszavak:
   - halandó
   - Szókratész
   - fúj
-  - dühös
 ---
 
 **[Előző posztomban](http://bit.ly/grfssK) a tudományfilozófia és a szemantikus web közös kérdéseit jártam körbe, és amellett próbáltam érvelni hogy a deduktív érvelés határait érdemes figyelembe venni. Most az induktív megközelítés problémáit próbálom meg körüljárni, és ismét a tudományfilozófiát hívom segítségül. Az ún. gépi tanulás statisztikai módszerekkel próbál meg egy adattömegben "rendet vágni" és használható tudást kinyerni. Ebben közel áll a tudományos tevékenységhez (ahol adatot gyűjtünk, leíró statisztikát készítünk és megpróbálunk összefüggéseket találni, elméleteket gyártani). Azt korábbi írásomban röviden bemutattam miképp számolta fel önmagát a klasszikus logikai megközelítésen alapuló tudományfilozófia és fordult át tudományszociológiába. Azonban a történet itt nem állt meg. A múlt század negyvenes éveiben megjelent egy irányzat ami a tudományos tevékenység igazolási kontextusa helyett a kutatási módszerek vizsgálatára helyezte a hangsúlyt, azaz az indukció problémájára.**  

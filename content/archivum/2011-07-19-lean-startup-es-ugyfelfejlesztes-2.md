@@ -24,7 +24,6 @@ kulcsszavak:
   - MVP
   - mérföldkő
   - termék
-  - életképes
 ---
 
 ***Patrick Vlaskovits vendégposztja***  

@@ -19,13 +19,13 @@ regi_cimkek_mind:
   - "szoftverfejlesztés"
 temak:
   - Statisztika és R
+  - Kurzusok és önképzés
 kulcsszavak:
-  - lean
-  - szemlélet
+  - Lean
   - Toyota-módszer
+  - szemlélet
   - átállás
   - termelés
-  - Womack
 ---
 
 **Nehéz nem találkozni a lean szóval manapság. Van lean szoftverfejlesztés, lean startup és még a ott van a [personal kanban](http://szamitogepesnyelveszet.blogspot.hu/2011/11/konyvismerteto-personal-kanban.html) és egyéb csodamódszerek garmadája. Vannak akik már-már vallásosan hisznek ezekben a módszerekben, de a többség számára inkább érdekes és értékes módszerek tárháza ez, amiből sokat lehet tanulni. Womack és Jones művét eddig minden általam olvasott lean szoftverfejlesztéssel foglalkozó könyv, cikk, poszt stb. nagyon ajánlotta, ezért nagyon nagy elvárásokkal vetettem magam olvasásába. Elvárásaimmal ellentétben ez a könyv nem hozható kapcsolatba az IT-vel, de ettől még nagyon izgalmas és lebilincselő olvasmány.**

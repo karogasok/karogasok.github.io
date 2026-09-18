@@ -22,7 +22,6 @@ kulcsszavak:
   - szociolingvista
   - racionalista
   - anomália
-  - merül
 ---
 
 **A napokban érdekes vita bontakozott ki a twitterszférában Melodye Dye alias [@moximer](http://bit.ly/fpYbPm) [Let's stop mistaking 'thought experiments' for science](http://bit.ly/i2pMl0) posztja kapcsán. A régi racionalizmus vs empirizmus kérdés merült fel metodológiai köntösben: elfogadhatóak-e a nyelvész grammatikai ítéletei? Vannak akik kétségbe vonják a korpusznyelvészet korlátlan megbízhatóságát (pl [@asayeed](http://bit.ly/egeUt2)), mások szerint szigorúan empirista alapon kell állnunk (pl. Jeremy Kahn alias  [@trochee](http://bit.ly/g9dzyO) - vele készített interjúnkat elolvashatod [itt](http://bit.ly/hpSsEz)) én azonban amellett szeretnék röviden érvelni hogy a nyelvészet nem természettudomány, nem is lesz az soha és ez így jó!**  

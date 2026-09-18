@@ -23,10 +23,9 @@ temak:
 kulcsszavak:
   - annotáció
   - maxima
-  - EUs
   - EAGLES
+  - EUs
   - TEI
-  - alapelv
 ---
 
 **Az[ előző korpusznyelvészeti posztban](http://szamitogepesnyelveszet.blogspot.com/2011/06/korpusznyelveszet-elmeleti.html) láthattuk hogy milyen elméleti megfontolásokat kell figyelembe vennünk mielőtt korpuszt használunk. Ezeket figyelembe véve érdemes tudnunk hogy milyen elvek mellett épül fel egy jó korpusz. Most a legalapvetőbb vezérelevekt és ajánlásokat vesszük sorra.**

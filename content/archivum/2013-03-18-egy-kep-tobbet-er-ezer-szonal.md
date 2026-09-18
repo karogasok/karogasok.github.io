@@ -12,6 +12,11 @@ regi_cimkek:
   - "vizualizáció"
 regi_cimkek_mind:
   - "vizualizáció"
+temak:
+  - Kurzusok és önképzés
+  - Programozás nyelvészeknek
+kulcsszavak:
+  - vizualizál
 ---
 
 **Nem könnyű dolog szöveges információt képpé alakítani. Egyre inkább úgy gondolom, nem is muszáj  mindent vizualizálni. Persze értékelem a The Economist próbálkozását, ami a palagázról szóló vitát próbálta vizuálisan összefoglalni.**

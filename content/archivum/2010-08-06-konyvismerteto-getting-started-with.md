@@ -22,9 +22,8 @@ kulcsszavak:
   - Reas
   - Fry
   - Ben
-  - vékony
-  - Maeda
   - koordináta
+  - vékony
 ---
 
 **Sokan kérték hogy egy egyszerű, mindenki számára érthető bevezető könyvet ajánljak. Dióhéjban: a Processing nyelvet egyszerűen, példákon keresztül el lehet sajátítani akár egyedül is, hiszen alapvetően vizualizációkat készít vele az ember és "látásra"[![getting-started-with-processing](http://farm5.static.flickr.com/4082/4865363103_c263cb7894.jpg)](http://www.flickr.com/photos/szgny/4865363103/) el tudjuk dönteni hogy azt érte-e el a kódunk amit akartunk. A Processing-et tekinthetjük speciális Javanak, elsajátítása után könnyen áttérhetünk a nagy testvér használatára is. Ne feledjük azt sem hogy nagyon szórakoztató bütykölni egy ilyen nyelvet!**

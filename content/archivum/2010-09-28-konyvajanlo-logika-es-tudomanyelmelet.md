@@ -20,13 +20,14 @@ regi_cimkek_mind:
   - "logika"
 temak:
   - Logika és matematika
+  - Tudományfilozófia
+  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - fejtörő
   - Smullyan
   - paradoxon
-  - Gödel-tétel
   - rejtély
-  - Raymond
+  - Gödel-tétel
 ---
 
 Szépfalussy Enikő vendégposztja  

@@ -20,9 +20,11 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - Programozás nyelvészeknek
+  - Hálózatok és eszközök
+  - Nyílt szoftver és tervezés
 kulcsszavak:
-  - anyag
   - honlap
+  - anyag
 ---
 
 **Tervbe vettem hogy egy (vagy két) blogbejegyzést szentelek a számítógépes nyelvészetnek/természetes nyelv feldolgozásnak. Szokásomhoz híven nem hard core programozóknak és számítás tudoroknak szánom az ismertetőket, hanem érdeklődő nyelvészeknek/filoszoknak.**  

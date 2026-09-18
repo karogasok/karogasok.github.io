@@ -8,6 +8,14 @@ archiv: true
 forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/05/04/magyarorszagon-konnyebb-kocsmat-talalni-mint-orvost/"
+temak:
+  - Startup és termékfejlesztés
+kulcsszavak:
+  - területi
+  - eloszlás
+  - kategória
+  - csomag
+  - API
 ---
 
 Az [Overpass API ](https://wiki.openstreetmap.org/wiki/Overpass_API)segítségével megnéztük pár kategória területi eloszlását. Úgy tűnik tényleg igaz, hogy minden településen található egy templom és egy kocsma, sajnos az orvosokról és az ipari felhasználású épületekről ugyanez már nem mondható el.

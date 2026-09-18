@@ -18,11 +18,10 @@ temak:
   - Kurzusok és önképzés
 kulcsszavak:
   - games
-  - Lisp
-  - Common
+  - LISP
   - SBCL
   - Melis
-  - programmer
+  - Common
 ---
 
 **These days we see the renaissance of Lisp. New titles has been (and will be) published. Recently a Hungarian Lisp programmer, Gábor Melis, won the [Google AI contest](http://bit.ly/dHeKLk). He was so kind and gave us an interview. Gábor is a graduate of the [Eötvös Lóránd University](http://bit.ly/hi4lga) with an MSc in Software Architect - Mathematics, and now he is working for [Franz Inc.](http://www.franz.com/) - the vendor of Allegro Common Lisp, a proprietary Common Lisp implementation and AllgegroGraph RDF store. He likes programming contests - and we hope he'll win even more of them. You can read his blog at [http://quotenil.com/](http://quotenil.com/)**  

@@ -16,7 +16,6 @@ kulcsszavak:
   - hirdetés
   - kiemelt
   - levelezőlista
-  - Engineer
 ---
 
 Ha kifejezetten adatos szakembereket keresel egy pozícióra, akkor mi tudunk neked segíteni. Az [OpenNLP meetupnak](https://www.meetup.com/open-nlp/) több mint 2200 tagja van, rajtunk keresztül elérheted őket.

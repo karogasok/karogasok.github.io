@@ -22,13 +22,13 @@ regi_cimkek_mind:
   - "valószínűségszámítás"
 temak:
   - Logika és matematika
+  - Tudományfilozófia
 kulcsszavak:
   - hatos
   - dobás
   - valószínűség
   - interpretáció
   - kijelentés
-  - szubjektivista
 ---
 
 **Manapság nagyon divatosak a big data-ról és prediktív analitkáról írott ismeretterjesztő könyvek. A négy legsikeresebb ezek közül Gleick: [The Information](http://www.amazon.com/Information-History-Theory-Flood/dp/1400096235),  Silver: [The Signal and the Noise](http://www.amazon.com/The-Signal-Noise-Many-Predictions/dp/159420411X/ref=pd_sim_b_2),  McGrayne: [The Theory That Would Not Die](http://www.amazon.com/dp/0300188226) és Mlodinow [Részeg bolyongás](http://szamitogepesnyelveszet.blogspot.hu/2013/02/konyvismerteto-reszeg-bolyongas.html)a. Mindegyik kötet foglalkozik valamennyire a valószínűség interpretációival, de nem jut túl a frekventista vs szubjektivista értelmezés rövid bemutatásán. A valószínűség értelmezése egyre központibb problémát jelent a mai analitka-vezérelt korban, ezt világosan jelzik olyan döntéshozóknak szánt címek mint a [Managin Uncertainty](http://www.profilebooks.com/isbn/9781846684883/). Szabó Gábor kiválló munkája remekül összefoglalja a valószínűség értelmezésével kapcsolatos kérdéseket, méghozzá világos és érthető módon, habár az ismeretterjesztő könyvekkel ellentétben feltételezi, hogy olvasója rendelkezik alapos matematikai előismeretekkel.**

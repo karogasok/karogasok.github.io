@@ -20,6 +20,11 @@ regi_cimkek_mind:
   - "meetup"
   - "nlpmeetup"
   - "rstats"
+temak:
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - Vimeo
 ---
 
 We started a [Vimeo channel](https://vimeo.com/hunlp) where you can watch the talks of the [Hungarian Natural Language Processing Meetup](http://www.meetup.com/Hungarian-nlp/).

@@ -16,12 +16,12 @@ regi_cimkek_mind:
   - "rstats"
 temak:
   - A szakma
+  - Korpuszépítés és annotáció
 kulcsszavak:
   - Memory
   - bigmemory
   - resource
-  - correlation
-  - memory-mapped
+  - RAM
   - portion
 ---
 

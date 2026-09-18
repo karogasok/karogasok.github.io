@@ -19,13 +19,14 @@ regi_cimkek_mind:
   - "könyvismertető"
 temak:
   - Statisztika és R
+  - Korpuszépítés és annotáció
+  - Kurzusok és önképzés
 kulcsszavak:
   - Tunkelang
   - facettás
   - Concepts
   - találati
   - halmaz
-  - Daniel
 ---
 
 **Mi is az a facetta? Erre a legjobb választ eddig [Király Péter blogján találtam](http://kirunews.blog.hu/2009/03/03/solr_hogyan): "kategóriák különféle ortogonális halmazaiban fellelhető tulajdonságok együttese. De inkább: a találati halmaz automatikus kategorizálása az egyes rekordokban található mező-értékek alapján. Segítségükkel könnyűszerrel áttekinthető és szűrhető a találati halmaz." [Daniel Tunkelang](http://www.cs.cmu.edu/%7Equixote/) a CMU professzora és az [Endeca](http://www.endeca.com/en/home.html) információ menedzsment eszközt készítő cég egyik alapítója (no meg a [TunkRank algoritmus](http://tunkrank.com/) megalkotója, a méltán népszerű [The Noisy Channel](http://thenoisychannel.com/) blog szerzője stb stb) egy rövid, ám alapos könyvben foglalta össze a témát. Szépen, tisztességesen járja körül hogy mi is az a facettás keresés, honnét ered, mi fán terem és hogyan használható.**

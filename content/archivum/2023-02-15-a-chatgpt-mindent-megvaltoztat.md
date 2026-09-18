@@ -14,9 +14,8 @@ kulcsszavak:
   - chatbot
   - ChatGPT
   - nyelvmodell
-  - Galactica
   - tej
-  - LaMDA
+  - Galactica
 ---
 
 Itt a ChatGPT és tényleg mindenki evvel foglalkozik. Egyesek szerint minden meg fog változni, a Google az [Altavista](https://en.wikipedia.org/wiki/AltaVista) sorsára jut, [mások szerint a Kodak-sztori ismétlődik meg](https://telex.hu/holdblog/2023/02/14/chatgpt-a-kodak-szindroma) és [van aki szerint a Google LaMDA nyelvmodellje érző lény](https://blog.crowintelligence.org/2022/06/23/sentient-machines-stochastic-parrots-and-the-ghost-in-the-shell/). Joggal merül fel a lakossági kérdés; akkor most mi van?

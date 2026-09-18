@@ -8,6 +8,10 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/09/kereses-termeszetes-nyelven.html"
+temak:
+  - Nyílt szoftver és tervezés
+  - NLP meetupok
+  - Adatújságírás és nyílt adat
 ---
 
 A Kereső Világ blogon vendégposztoltam a fenti címen, az írást [ide kattintva](http://kereses.blog.hu/2010/09/21/kereses_termeszetes_nyelven) elolvashatod.

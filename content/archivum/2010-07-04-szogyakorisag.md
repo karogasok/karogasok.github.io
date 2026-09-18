@@ -24,7 +24,6 @@ kulcsszavak:
   - webkorpusz
   - web2.2-fre-sorted.top100k.txt
   - oszlop
-  - logscale
 ---
 
 **Egyik kedvenc tanárom mesélte mindig hogy angolos hallgató korában a kiadott olvasmányokból szószedetet kellett készíteniük és amolyan röpdoli-szerűen számon kérték rajtuk a szavakat. Az én tanárom persze rögtön azon gondolkodott el hogy meddig kell elolvasnia egy adott könyvet hogy nagy valószínűséggel meglegyen neki a legtöbb szó. Egyszer amikor ezt mesélte hozzátette; mennyi szót kell ismernie egy helyesírás elemzőnek hogy jól működjön? Érdemes-e még több szót "belepakolni" hogy nagyon jól működjön? Most ezt a kérdés próbáljuk meg eldönteni, amolyan ránézésre!**  

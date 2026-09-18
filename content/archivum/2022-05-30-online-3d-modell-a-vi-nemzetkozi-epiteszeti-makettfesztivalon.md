@@ -8,6 +8,12 @@ archiv: true
 forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/05/30/online-3d-modell-a-vi-nemzetkozi-epiteszeti-makettfesztivalon/"
+temak:
+  - Hálózatok és eszközök
+kulcsszavak:
+  - fotogrammetriai
+  - készít
+  - modell
 ---
 
 Az [Urbanum Labbal](https://urbanum-lab.github.io/) a [VI. Nemzetközi Építészeti Makettfesztiválra](https://www.facebook.com/events/498444305397712/) a már lebontott [Országos Villamos Teherelosztó ](https://epiteszforum.hu/megis-lebontjak--vegveszelyben-virag-csaba-vari-epulete-)épületének fotogrammetriai rekonstrukciójából készítettünk online is elérhető 3D modellt.

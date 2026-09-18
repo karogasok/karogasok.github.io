@@ -23,9 +23,8 @@ kulcsszavak:
   - Rosling
   - előkerül
   - film
-  - sentiment
+  - Sentiment
   - szakma
-  - élet
 ---
 
 **[Hal R. Varian](http://en.wikipedia.org/wiki/Hal_Varian) is megmondta a jövő legszexibb szakmája a statisztikus. [Hans Rosling](http://en.wikipedia.org/wiki/Hans_Rosling) a Karolinska Intézet kiválló kutatója (akit sokan csak [TED előadása](http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen.html) miatt ismernek) a BBC és az Open University felkérésére elkészített a legjobb statisztikai ismeretterjesztő filmet.  Az ismeretterjesztés nehéz dolog hiszen el kell találni az arányokat a szórakoztatás és a tudományos ismeretek bemutatása és átadása között, a film ennek eleget is tesz. Kifejezetten üdítően hat hogy akad benne gépi fordítás és sentiment elemzés is, szóval számítógépes nyelvészeknek kötelező.**

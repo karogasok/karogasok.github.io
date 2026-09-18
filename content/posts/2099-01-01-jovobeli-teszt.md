@@ -5,6 +5,8 @@ publishDate: 2099-01-01T07:00:00+01:00
 author: "Varjú Zoltán"
 tags: ["llm-kiertekeles"]
 draft: false
+temak:
+  - Korpuszépítés és annotáció
 ---
 
 Ütemezési próba. Ha ez a szöveg látszik az élő oldalon, akkor a jövőbeli

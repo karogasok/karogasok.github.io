@@ -30,13 +30,13 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - Statisztika és R
+  - Kurzusok és önképzés
 kulcsszavak:
   - elengedhetetlen
   - diszkrét
   - Head
   - matek
   - érkezik
-  - bemutató
 ---
 
 **Úgy néz ki hogy májusban megszaporodnak a levelek melyekben arról érdeklődnek a kedves olvasók hogy miképp is válhat valaki számítógépes nyelvésszé. Ahhoz hogy valaki szakértő legyen egy területen, kb tíz év gyakorlás és gyakorlat szükséges (l. Norvig [Teach Yourself Programming](http://norvig.com/21-days.html) esszéjét vagy Mérő László Mindenki másképp egyforma könyvét), rossz hír hogy az interdiszciplináris területeken talán több is. Jó hír viszont hogy ezt egyáltalán nem kell úgy érteni hogy ennyi időt kell az iskolapadban eltölteni (habár ha egy PhD-t bevállal valaki, akkor nyolc kellemes évet tölthet el a felsőoktatásban - talán nem véletlenül). Tovább bonyolítja a helyzetet hogy a számítógépes nyelvészet területére különböző hátterű emberek érkeznek ezért nincs egységes recept. Blogunkon megpróbálunk olyan forrásokat is bemutatni amik segíthetnek az érdeklődőknek, most ezeket szedegettem össze és megpróbáltam egy egységes keretbe foglalni hogy ki-ki megtalálja a maga forrásait útja elkezdéséhez.**

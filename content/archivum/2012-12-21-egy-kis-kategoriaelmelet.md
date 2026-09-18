@@ -16,13 +16,14 @@ regi_cimkek_mind:
   - "kategóriaelmélet"
 temak:
   - Statisztika és R
+  - Logika és matematika
+  - Tudományfilozófia
 kulcsszavak:
+  - category
   - Lambek
-  - Category
   - kategóriaelmélet
   - Vimeo
   - Theory
-  - előadás
 ---
 
 **Egy ideje pár barátommal kategóriaelmélettel foglalkozunk hobbiból. Az elmúlt hetek során pár nagyon jó forrást ismertem meg, ezek úgy gondolom az olvasók számára sem haszontalanok.**

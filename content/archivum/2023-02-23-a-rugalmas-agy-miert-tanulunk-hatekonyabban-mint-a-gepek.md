@@ -18,7 +18,6 @@ kulcsszavak:
   - inspirált
   - Dehaene
   - rugalmas
-  - kognitív
 ---
 
 Hogyan tanulunk? Mire képesek az agyunk felépítése által inspirált mélytanulási modellek és hogyan hat egymásra a kognitív idegtudomány és a mesterséges intelligencia? Stanislas Dehaene [A rugalmas agy](https://www.typotex.hu/book/12769/a_rugalmas_agy_miert_tanulunk_hatekonyabban_mint_a_gepek) című könyve mind a kognitív tudományok, mind a mesterséges intelligencia iránt érdeklődők számára izgalmas olvasmány. A legtöbb ismeretterjesztő könyvvel ellentétben mer ajánlásokat megfogalmazni arra, hogyan kellene hasznosítani a tudomány eredményeit a hétköznapokban.

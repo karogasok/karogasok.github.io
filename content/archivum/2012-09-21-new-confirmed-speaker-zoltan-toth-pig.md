@@ -16,6 +16,7 @@ regi_cimkek_mind:
   - "nlp meetup"
 temak:
   - NLP meetupok
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Prezi
   - p

@@ -18,6 +18,13 @@ regi_cimkek_mind:
   - "korpusznyelvészet"
   - "tartalomelemzés"
   - "topik modellek"
+temak:
+  - A blog életéről
+kulcsszavak:
+  - pályamű
+  - videó
+  - elemez
+  - Budapest
 ---
 
 A [100 szóban Budapest](https://budapest.in100words.eu/hu) történetíró pályázat pályaműveit elemeztük a Budapest Brand Nonprofit Zrt. és a MITTE felkérésére. Adatainkat felhasználva született egy remek kis videó is.

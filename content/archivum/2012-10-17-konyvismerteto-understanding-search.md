@@ -25,7 +25,6 @@ kulcsszavak:
   - színvonal
   - Modeling
   - Mathematical
-  - Retrieval
 ---
 
 **Sokan kérdezték hogy akad-e valami ami [Widdows könyvénél](http://szamitogepesnyelveszet.blogspot.hu/2012/05/konyvismerteto-widdows-geometry-and.html) komolyabb, de nem annyira mint [van Rijsbergen munkája](http://szamitogepesnyelveszet.blogspot.hu/2012/10/konyvismerteto-geometry-of-information.html). Habár vannak hibái és egy kicsit már érződik raja az idő, Michael W. Berry Understanding Search Engines: Mathematical Modeling and Text Retrieval című könyve remekül betöltheti a híd szerepét.**

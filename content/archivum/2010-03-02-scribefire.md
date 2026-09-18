@@ -15,6 +15,8 @@ regi_cimkek_mind:
   - "scribefire"
 temak:
   - Nyelvelemző eszközök
+  - Hálózatok és eszközök
+  - A blog életéről
 kulcsszavak:
   - sikerül
   - oldal

@@ -26,7 +26,6 @@ kulcsszavak:
   - Boroditsky
   - törzs
   - számfogalom
-  - rekurzió
 ---
 
 **A [sorozat előző részében](http://bit.ly/etwqNA) körül jártuk a nyelvi relativizmus gyökereit és rámutattunk arra hogy ennek gyakorlati vetületei is van a számítógépes nyelvészetben ahova a sztochasztikus vs. szabály alapú megközelítés vitájaként került át. Napjainkban a relativizmus erős változatát szinte mindenki elveti, azonban Lera Boroditsky eredeti kísérletekkel próbálja meg bemutatni hogy bizonyos területeken igen is nagy hatással van nyelvünk gondolkodásunkra, Daniel Everett pedig rámutat arra hogy a nyelvi képességek nagyban kulturálisan determináltak (és talán a nyelv független elménk rekurzív képességeitől is). Természetesen ezek a kutatások önmagukban is érdekesek (mivel sok dolgot elárulnak rólunk), azonban van egy gyakorlati vetületük is, hiszen rávilágítanak arra hogy talán nem kezelhetők a nyelvek egy egységes keretben, továbbá az interakciódizájn területén is figyelmet érdemel az a tény hogy nyelvünk hatással van arra miképp érintkezünk a minket körülvevő világgal.**  

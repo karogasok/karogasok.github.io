@@ -19,13 +19,13 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - Tudományfilozófia
+  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - metaphors
   - Community
-  - phase
   - reveal
+  - phase
   - Metaphor
-  - conceptual
 ---
 
 **Draaisma [Metaforamasina](http://www.typotex.hu/konyv/metaforamasina) c. könyve nagyszerűen mutatja be mennyire meghatározó egy-egy metafora a tudományban. A DARPA Metaphor Program nevű kutatási programja azonban a hétköznapi nyelvben használt metaforákra összpontosít:**

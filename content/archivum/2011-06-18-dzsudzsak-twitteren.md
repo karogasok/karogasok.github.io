@@ -19,11 +19,10 @@ temak:
   - Hálózatok és eszközök
 kulcsszavak:
   - Protovis
-  - xy
   - Dzsudzsák
-  - cPickle
-  - rt
+  - xy
   - dot.d
+  - cPickle
 ---
 
 **Először egy népszerű oldal  Twitter feedjét szerettem volna elemezni, jobban mondva hogy mennyi RT-t kap egy-egy hír, de úgy tűnik a magyar felhasználókat nem kapta el a Twitter láz és nem lehet elég adatot találni egy-egy hírre. Így hát váltottam a [nyest.hu](http://www.nyest.hu/) [Hol van az a Mahacskala](http://www.nyest.hu/hirek/hol-van-az-a-mahacskala) cikkétől inspirálva első körben begyűjtöttem pár Dzsudzsákról szóló csiripelést, mivel mostanában sok hír kering(ett) leghíresebb futballistánk körül és a hab a tortán hogy nem csak magyarul! Így a begyűjtött tweeteken sok-sok dolgot bemutathatunk :D Figyelem, ez egy technikai poszt, Python kóddal, pip_/easy_install használatát lehet hogy nem úszod meg.**

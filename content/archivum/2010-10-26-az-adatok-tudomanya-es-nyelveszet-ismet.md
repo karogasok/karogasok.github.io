@@ -18,13 +18,13 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - A szakma
+  - Korpuszépítés és annotáció
 kulcsszavak:
   - Bender
   - eszköztár
   - adatbázis
   - szükséges
   - net
-  - üzleti
 ---
 
 **Napjainkban az adatok korát éljük. Ennek megfelelően kialakulóban van egy új alkalmazott tudományág, az adatok tudománya (data science) melyet itt [már bemutattunk](http://bit.ly/a76k9z) és a [nyelvészeti adatok természetéről](http://bit.ly/duvKCK) is ejtettünk pár szót, azoknak pedig akik szeretnének jobban elmélyedni a témában egy kis [összafoglalót](http://bit.ly/cVuG7n) is közöltünk. Most [Bender és Good](http://bit.ly/bnLnQe) nyomán arra szeretnénk kitérni hogy mit tud hasznosítani a nyelvtudomány az adatok tudományának eszköztárából és mit tud adni ezért cserébe.**  

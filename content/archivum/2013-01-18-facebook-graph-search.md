@@ -13,13 +13,13 @@ regi_cimkek_mind:
   - "hülyeség"
 temak:
   - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
 kulcsszavak:
   - Graph
   - analitika
-  - béta
   - aktivitás
+  - béta
   - Facebook
-  - Microsoft
 ---
 
 **A héten jelentették be a Facebook Graph Search elindulását. A béta szolgáltatás csak kevés kiválasztott és gyorsan jelentkező felhasználóknak érhető el. Sőt - a Facebook oldalán is olvasható - kizárólag az Egyesült Államok területén, a US English felületet használók válhatnak béta tesztelőkké. Persze ez nem zavar senki abban, hogy véleménye legyen.**

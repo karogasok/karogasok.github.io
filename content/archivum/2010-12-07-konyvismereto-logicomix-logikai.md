@@ -22,7 +22,6 @@ kulcsszavak:
   - Doxiadis
   - UC
   - Berkeley
-  - megalapozás
 ---
 
 **[Apostolos Doxiadis](http://bit.ly/eYIPSL), egy matematikus végzettségű író és [Christos H. Papadimitriou](http://bit.ly/eZjOYH) a UC Berkeley számítástudomány professzora (és a legendás UC Berkeley Logic Group tagja) [Alecos Papadatos](http://bit.ly/i7hMPs) és [Annie Di Donna](http://bit.ly/fvq0oA) illusztrátorok segítségével egy igazán szép és szórakoztató képregényben mondja el [Betrand Russel](http://bit.ly/geSxXs) egész életén át tartó kalandját mely a megismerés és a matematika megalapozását tűzte ki céljául. Mielőtt legyintene az olvasó, elárulom ez bizony egy best-seller! Hogy miért? Mert jó! Annyira hogy nem csak a képregényfanok körében aratott sikert, hanem a logikusok, matematikusok, filozófusok, nyelvészek és számítástudományi szakemberek és diákok körében is kultusza lett a kiadása óta eltelt egy évben.**

@@ -24,7 +24,6 @@ kulcsszavak:
   - kognitív
   - fut
   - Kind
-  - alkalmazott
 ---
 
 **Tudományfilozófusok és -szociológusok figyeltek fel arra a jelenségre, hogy egyes tudományágakat folyamatosan átneveznek, ez a rebranding. [Egy mai példa](http://kbroman.wordpress.com/2013/04/05/data-science-is-statistics/)**

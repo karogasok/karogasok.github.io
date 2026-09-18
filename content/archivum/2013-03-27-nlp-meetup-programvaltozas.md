@@ -12,6 +12,10 @@ regi_cimkek:
   - "nlp meetup"
 regi_cimkek_mind:
   - "nlp meetup"
+temak:
+  - Lapszemle
+kulcsszavak:
+  - előadás
 ---
 
 Figyelem! Tempfli Péter **Social media monitoring előadását sajnos el kell halasztanunk** a májusi meetupra. Ez a mai Textplore előadást nem érinti, továbbra is várunk mindenkit 18:00-tól a Colabs-ben [http://bit.ly/W9HmEJ](http://bit.ly/W9HmEJ)

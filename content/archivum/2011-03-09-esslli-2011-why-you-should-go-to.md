@@ -28,7 +28,6 @@ kulcsszavak:
   - subm
   - Lassiter
   - ESSLLI
-  - submissions
 ---
 
 *[Dan Lassiter](http://homepages.nyu.edu/%7Edhl271/Site/Home.html), the chair of the 2011 ESSLLI Student Session, invites you to attend the 23rd European Summer School in Logic Language and Information*

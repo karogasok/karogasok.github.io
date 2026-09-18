@@ -29,7 +29,6 @@ kulcsszavak:
   - nyelvtani
   - token
   - lex
-  - bemenet
 ---
 
 *r0ller vendégposztja*

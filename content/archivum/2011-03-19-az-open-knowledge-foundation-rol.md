@@ -20,9 +20,8 @@ kulcsszavak:
   - munkacsoport
   - Working
   - Comprehensive
-  - alapítvány
   - Infochimps
-  - Open
+  - alapítvány
 ---
 
 **[Raw data now! ](http://bit.ly/gnDJZE)- szól Tim Berners-Lee jelmondata a sokak által kedvel TED előadáson. Már többször foglalkoztunk azzal hogy elárasztanak bennünket az adatok ami egyrészt jó, másfelől arra késztet minket hogy átgondoljuk eddigi metodológiánkat és felvegyük a lépést a korral, de egyben a demokráciákat is nagy feladat elé állítja ez a változás. Az [Open Knowledge Foundation](http://bit.ly/hOkVKO) ezekre a változásokra próbál válaszokat találni és posztunkban ezeket mutatjuk be, annak apropóján hogy blogunk alapítója Zoli csatlakozott az alapítvány Open Data in Linguistics munkacsoportjához.**

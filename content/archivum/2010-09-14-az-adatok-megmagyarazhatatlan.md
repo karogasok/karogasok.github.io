@@ -35,10 +35,9 @@ temak:
 kulcsszavak:
   - newtoni
   - természet
+  - elmélkedik
   - Carnap
   - relativitáselmélet
-  - elmélkedik
-  - elfogadható
 ---
 
 **"For those who were hoping that a small number of general rules could explain language, it is worth noting that language is inherently complex, with hundreds of thousands of vocabulary words and a vast variety of grammatical constructions. Every day, new words are coined and old usages are modified. This suggests that we can’t reduce what we want to say to the free combination of a few abstract primitives."** Halevy, Norvig, Pereira: [The unreasonable Effectiveness of Data](http://bit.ly/9T4wKI)  

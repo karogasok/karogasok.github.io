@@ -24,7 +24,6 @@ kulcsszavak:
   - DH
   - lexicographic
   - Digital
-  - prescriptions
 ---
 
 **A guest post by Toma Tasovac**  

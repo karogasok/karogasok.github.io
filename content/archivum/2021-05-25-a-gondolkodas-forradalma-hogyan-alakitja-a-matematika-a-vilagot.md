@@ -23,7 +23,6 @@ kulcsszavak:
   - születés
   - András
   - matematika
-  - kultúra
 ---
 
 A modern tudomány a mindennapi életünk részévé vált. De hogyan lehetséges, hogy ennyire átalakította a mindennapjainkat? Mosóczi András szerint a matematika a kulcsa ennek. A folyami kultúrák földmérési és adózási problémáitól az űrutazásig és a számítástudomány születéséig végig kíséri az emberiség történetét a tudományok királynője.

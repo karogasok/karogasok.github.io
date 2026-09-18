@@ -23,6 +23,7 @@ from karogasok_temak.topics import (
     MULTI_LABEL_FLOOR,
     MULTI_LABEL_RATIO,
     OUTLIER,
+    as_mixture,
     label_set,
     label_spread,
     labels_above,
@@ -50,7 +51,8 @@ def main() -> int:
     stored = np.load(matrix_path, allow_pickle=True)
     doc_ids = [str(d) for d in stored["doc_ids"]]
     columns = [int(c) for c in stored["columns"]]
-    matrix = stored["matrix"]
+    # Reported in mixture shares, which is what the floor is expressed in.
+    matrix = [as_mixture(row) for row in stored["matrix"]]
     primaries = [
         int(topics["assignments"][doc_id]["topic_reduced"]) for doc_id in doc_ids
     ]

@@ -22,9 +22,8 @@ kulcsszavak:
   - tervezési
   - Pattern
   - információtervezés
-  - Library
-  - Patterns
-  - pattern
+  - library
+  - patterns
 ---
 
 *"The future isn't just unwritten - it's unsearched."*  

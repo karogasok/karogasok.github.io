@@ -14,6 +14,12 @@ regi_cimkek:
 regi_cimkek_mind:
   - "adatújságírás"
   - "inkLink"
+temak:
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
+  - Startup és termékfejlesztés
+kulcsszavak:
+  - inkLink
 ---
 
 A [Ustream](http://www.ustream.tv/new) jóvoltából az inkLink-et online is követni lehetett. A közvetítést többen nézték mint amennyien megjelentek a helyszínen! Az [inkLink csatornáján](http://www.ustream.tv/channel/inklink) megtekinthető az összes előadás - jó szórakozást hozzá :D

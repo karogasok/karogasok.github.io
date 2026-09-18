@@ -16,13 +16,13 @@ regi_cimkek_mind:
   - "nlpmeetup"
 temak:
   - NLP meetupok
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - SharePoint
   - Agnes
   - customers
   - Solutions
   - Mining
-  - structured
 ---
 
 [<span class="lost-media">Hiányzó kép: <a href="http://3.bp.blogspot.com/-H3_fwLc4EGg/UEBljvRH-uI/AAAAAAAAA6o/Ux86vJHLcY8/s1600/meetup.jpg" rel="nofollow noopener">meetup.jpg</a></span>](http://3.bp.blogspot.com/-H3_fwLc4EGg/UEBljvRH-uI/AAAAAAAAA6o/Ux86vJHLcY8/s1600/meetup.jpg)

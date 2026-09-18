@@ -16,9 +16,8 @@ kulcsszavak:
   - Clark
   - Quillian
   - WR
-  - tárolás
-  - meccs
   - Andy
+  - meccs
 ---
 
 Manapság már tényleg mindenkinek van véleménye a mesterséges intelligenciáról és sok tévhitettel és féligazsággal találkozhatunk. De pontosan mi is az az MI, mit tud és hogyan tanul? Miben különbözik a "klasszikus" MI és a deep learning? Mi a kapcsolat az emberi elme, annak modellezése és a gyakorlati implementációk között? Andy Clark izgalmas és olvasmányos könyve alaposan megismerteti a mesterséges intelligencia és a kognitív tudományok kérdéseivel az olvasót.

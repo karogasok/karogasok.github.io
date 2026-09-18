@@ -15,13 +15,13 @@ regi_cimkek_mind:
   - "tudományfilozófia"
 temak:
   - Tudományfilozófia
+  - Logika és matematika
 kulcsszavak:
   - egyház
   - Kampis
   - hihetetlen
   - különbözik
   - tudományfilozófia
-  - olvasmányos
 ---
 
 Mi a fene az a tudomány? Miben különbözik a tudományos tudás a tudás más formáitól? Hogyan működik a tudomány? Hogyan is fejlődik a tudomány? Miben különbözik a tudományos következtetés a hagyományos józan paraszti észtől? [Kampis György Tudományfilozófiá](https://www.typotex.hu/book/12712/kampis_gyorgy_tudomanyfilozofia)ja rendes filozófiai műhöz méltóan nem ad választ ezekre a kérdésekre. Ellenben hihetetlenül olvasmányosan vezeti végig az olvasót a tudományfilozófia kérdésein.

@@ -19,13 +19,13 @@ regi_cimkek_mind:
   - "élménybeszámoló"
 temak:
   - Lapszemle
+  - A blog életéről
 kulcsszavak:
   - poszter
-  - gyökszótár
-  - laptopos
-  - Vajna
   - többnyelvűség
+  - laptopos
   - munkálat
+  - vacsora
 ---
 
 **Pár napja zajlott le a [VIII. Magyar Számítógépes Nyelvészeti Konferencia](http://www.inf.u-szeged.hu/projectdirs/mszny2011/) Szegeden (pontosan Dec. 1-2), amin a [Weblib](http://weblib.hu/)nek hála kibicelhettem (későn bukkantunk rá az infóra ahhoz hogy valamit be is tudjak adni, no majd jövőre!). Címszavakban: az előadások színvonalasak voltak, a helyszín (József Attila Tanulmányi és Információs Központ) nekem nagyon bejött, a szervezők (Szegedi Tudományegyetem Informatikai Tanszékcsoportja) kitettek magukért és nagyon jó emberekkel találkoztam (a beszédfelismeréssel foglalkozó kollégákkal eltöltött vacsorát nagyon élveztem!). A továbbiakban teljesen szubjektíven szeretnék kiemelni pár előadást, szeretném azonban hangsúlyozni hogy a többi előadás is remek volt, de nem értek minden témához és sajnos pénteken nem tudtam végig maradni ezért a merítésem koránt sem teljes. Szerencsére nyugodtan szemezgethetek, a konferenciakötet ugyanis elektronikus formában mindenki számára elérhető [itt](http://www.inf.u-szeged.hu/projectdirs/mszny2011/index.php/konferenciakotet).**

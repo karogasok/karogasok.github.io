@@ -23,10 +23,9 @@ temak:
 kulcsszavak:
   - Haskell
   - multimédia
-  - Hudak
   - GHC
   - Hugs
-  - tételez
+  - Hudak
 ---
 
 **A [logikai programozás](http://bit.ly/bGF3sg) után most a funkcionális paradigma elsajátítására buzdítok mindenkit. Habár nehéz, mindenképpen megéri, különösen a logika iránt érdeklődőknek.**  

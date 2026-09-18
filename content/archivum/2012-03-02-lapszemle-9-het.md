@@ -18,11 +18,10 @@ temak:
   - A blog életéről
 kulcsszavak:
   - PragPub
-  - Kindle-varázs
   - core.logic
-  - Tumblr
+  - Kindle-varázs
+  - tumblr
   - lx
-  - dönt
 ---
 
 **Szerencsére ismét itt a hétvége, reméljük a jövőben sem marad el. Meglepően sokan kezdték hiányolni Tumblr blogunkat, a kedvükért felhívjuk mindenki figyelmét hogy idő és vállalkozó kedv hiányában felfüggesztettük ezt a "szolgáltatást". Aki nem bírja ki szakmai hírek nélkül az kövesse @sznyelveszet Twitter fiókunkat és/vagy lájkoljon minket a Facebookon.**

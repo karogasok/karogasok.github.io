@@ -22,7 +22,6 @@ kulcsszavak:
   - kinds
   - Digital
   - scholars
-  - stylistic
 ---
 
 A guest post by Aditi Muralidharan  

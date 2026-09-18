@@ -25,7 +25,6 @@ kulcsszavak:
   - hangsor
   - hasonulás
   - megkülönböztető
-  - jegy
 ---
 
 *Fehér Krisztina írása*

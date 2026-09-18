@@ -21,12 +21,12 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - Programozás nyelvészeknek
+  - Kurzusok és önképzés
 kulcsszavak:
-  - Algorithms
-  - Jewels
+  - algorithms
   - Stringology
   - túra
-  - kaland
+  - Jewels
   - felkészülés
 ---
 

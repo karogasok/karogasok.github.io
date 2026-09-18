@@ -20,13 +20,13 @@ regi_cimkek_mind:
   - "szemantikus web"
 temak:
   - Statisztika és R
+  - Korpuszépítés és annotáció
 kulcsszavak:
   - xml
   - áttekintés
   - logikus
   - szemantikus
   - web
-  - technológia
 ---
 
 **A [szemantikus webről](http://szamitogepesnyelveszet.blogspot.com/2010/10/szemantikus-webrol.html) szóló írásunk után most egy olyan forrást mutatunk be amit segít eligazodni és elindulni az érdeklődő olvasóknak. Tehát nem egy enciklopédikus művet ajánlunk itt, hanem egy áttekintő művet amit alapvető ismeretek birtokában mindenki haszonnal forgathat és segítségével képet alkothat magának a területről.**

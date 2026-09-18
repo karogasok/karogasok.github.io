@@ -112,4 +112,32 @@ if [ -f "$root/data/temak.yaml" ] && [ -d "$public/tema" ]; then
   [ "$bad" -eq 0 ] && echo "OK    temak: $checked theme hub(s) attached to their content files"
 fi
 
+# 4. Every theme and keyword tag leads somewhere.
+#
+# Tags are generated, and their URLs are derived twice — once by the exporter
+# when it decides which hubs to create, once by Hugo when it turns a term into a
+# path. The two agreeing is the whole design, and when they disagree the page
+# still builds: the tag just 404s. Hugo strips accents and case for the URL, so
+# `média` and `media` collide there while being distinct terms; that is how this
+# check earned its place.
+if [ -d "$public/tema" ] || [ -d "$public/kulcsszo" ]; then
+  links=$(grep -rhoE 'href="/(tema|kulcsszo)/[^"]*"' "$public" --include='*.html' 2>/dev/null \
+          | sed 's/^href="//;s/"$//' | sort -u)
+  total=$(printf '%s\n' "$links" | grep -c . || true)
+  broken=0
+  while IFS= read -r href; do
+    [ -z "$href" ] && continue
+    target="$public${href}index.html"
+    if [ ! -f "$target" ]; then
+      [ "$broken" -lt 5 ] && echo "FAIL  tags: $href is linked but was never built" >&2
+      broken=$((broken + 1)); fail=1
+    fi
+  done < <(printf '%s\n' "$links")
+  if [ "$broken" -eq 0 ]; then
+    echo "OK    tags: all $total theme and keyword links resolve"
+  else
+    echo "FAIL  tags: $broken of $total links are dead" >&2
+  fi
+fi
+
 exit $fail

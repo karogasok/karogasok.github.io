@@ -19,7 +19,6 @@ kulcsszavak:
   - Seven
   - Practice
   - Action
-  - cucc
 ---
 
 Úgy döntöttem kiteszem a blogra ezentúl hogy mit olvasok éppen, ill. mi érdekel.  

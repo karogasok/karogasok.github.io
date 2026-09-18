@@ -16,6 +16,8 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "logika"
   - "tudománytörténet"
+kulcsszavak:
+  - Logicomix
 ---
 
 **Akik szeretik a logikát és/vagy a tudománytörténetet, azok minden bizonnyal örömmel fogadják hogy a kultikus Logicomix ingyenesen olvasható online. Aki offline is szeretné bújni a kötet, az megvásárolhatja elektronikus formában, ami még mindig olcsóbb és gyorsabb megoldás mint a papír verzió beszerzése. [A Logicomixról régebben már írtunk egy kis ismertetőt](http://szamitogepesnyelveszet.blogspot.hu/2010/12/konyvismereto-logicomix-logikai.html). Jó olvasgatást!**

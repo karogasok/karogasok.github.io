@@ -21,7 +21,6 @@ kulcsszavak:
   - összehasonlítás
   - Conway
   - heti
-  - cloud
 ---
 
 **Az alábbi ábrákat a[ Heti Válasz](http://hetivalasz.hu/vilag/tet-nelkuli-vita-zajlott-magyarorszagrol-62904/) és a [NOL](http://nol.hu/kulfold/az_eb_nem_var_juniusig_az_eljarasokkal) cikkeinek szövegeiből készítettem. Az írások a héten az Európai Parlamentben hazánk kapcsán lezajlott vitáról szólnak. Minden szófelhő szógyakoriságon alapul, a szövegek tisztításon átmentek, de szótövezésen nem. Engem leginkább az érdekel, hogyan használhatók a szófelhők tartalomelemzésre. Ennek nyilván akkor van értelme, ha nagy mennyiségű adatot akarunk áttekinteni, de most jobban érdekel melyik eljárás felhasználóbarát (azaz informatív).**

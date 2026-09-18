@@ -11,6 +11,8 @@ canonical: "https://blog.crowintelligence.org/hu/2020/06/15/algoritmikus-ujsagir
 regi_cimkek_mind:
   - "fake news"
   - "újságírás"
+temak:
+  - Nyílt szoftver és tervezés
 ---
 
 Az algoritmikus újságírásról és a fake news-ról beszélgettünk a Kossuth Rádió Trend-Idők című műsorában. Az adás visszahallgatható [itt](https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-06-15_15-11-00&enddate=2020-06-15_15-35-00&ch=mr1&fbclid=IwAR3tQPQMlQe0QhqVxJMLIkc6-a9Ovy8bbA4R2fBfUc7exIRT5zJ-bI9kjJY).

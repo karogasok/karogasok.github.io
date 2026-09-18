@@ -29,7 +29,6 @@ kulcsszavak:
   - feltör
   - film
   - enigma
-  - lengyel
 ---
 
 **Rendes olvasóink reggeltől estig csak nyelvészettel, logikával és informatikával foglalkoznak és már tudják hogy kikapcsolódni is csak igazi geek módjára lehet nekik és elolvasták már nem rég ajánlott [Logicomix képregényt](http://bit.ly/fSrgXA). [A kód feltörése (Breaking the Code)](http://imdb.to/g9ce5M) film [Hugh Whitemore](http://bit.ly/hc7ovK) azonos című színművén alapszik, melyhez a szerző segítségére volt a nagyszerű matematikus és Turing-fan [Andrew Hodges](http://bit.ly/gBuMZW) (akinek [The Engima](http://amzn.to/ePXByF) című kultkönyve szintén alap!). A feltörni kívánt kód a németek hírhedt enigmája, a feltörő [Alan Turing](http://bit.ly/gFeIOk), a helyszín [Bletchley Park](http://bit.ly/eQkfST), Anglia.**

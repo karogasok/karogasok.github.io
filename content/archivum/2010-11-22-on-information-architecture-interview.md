@@ -21,7 +21,6 @@ kulcsszavak:
   - fewer
   - architect
   - typical
-  - called
 ---
 
 ```

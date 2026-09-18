@@ -19,6 +19,8 @@
         "url" .RelPermalink
         "external" false
         "source" (i18n (printf "archive.source.%s" (.Params.forras_platform | default "blogspot")))
+        "temak" .Params.temak
+        "kulcsszavak" .Params.kulcsszavak
         "lead" "") -}}
 {{- end -}}
 {{- with hugo.Data.kereses -}}
@@ -69,6 +71,15 @@
         {{- /* The lead only appears on external rows, because they are the only
                ones a reader cannot open here to find out what they are. */}}
         {{- with .lead }}<p class="post-item-lede">{{ . }}</p>{{ end }}
+        {{- /* A row's tags. Pages carry them in front matter; the Kereső Világ
+               entries have no page, so theirs come from the index keyed by URL. */ -}}
+        {{- if .external }}
+          {{- with index hugo.Data.temak_index .url }}
+          {{ partial "cimkek.html" (dict "temak" .t) }}
+          {{- end }}
+        {{- else }}
+          {{ partial "cimkek.html" (dict "temak" .temak) }}
+        {{- end }}
       </li>
       {{- end }}
     </ol>

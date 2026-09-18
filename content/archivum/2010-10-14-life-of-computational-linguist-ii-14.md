@@ -19,12 +19,11 @@ regi_cimkek_mind:
 temak:
   - Startup és termékfejlesztés
 kulcsszavak:
-  - fabric
-  - Hunch
   - tas
+  - Hunch
+  - fabric
   - taste
   - Hunch.com
-  - Scientist
 ---
 
 **This interview is a little digression from our series, The life of a computational linguist. We talked with [Hugo Liu](http://bit.ly/8ZUMGo) who's the Chief Scientist at [Hunch.com](http://bit.ly/afAOqP) and a research affiliate of the [MIT Media Laboratory](http://bit.ly/cu4Bv0) and [MIT Comparative Media Studies Program](http://bit.ly/csy2kI), where he has taught courses on artificial intelligence, and philosophy of aesthetics. He's got a blog at [larifari.org](http://bit.ly/b1JghX) and you can find him on twitter as [@dochugo](http://bit.ly/9pfexO)**  

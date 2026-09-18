@@ -26,7 +26,6 @@ kulcsszavak:
   - Prediction
   - Freebase
   - API
-  - akvizíció
 ---
 
 **Ahogyan arról már korábbi posztunkban beszámoltunk, kialakulóban van egy új alkalmazott tudomány mely megpróbálja komplex módon kezelni és elemezni a megnövekedett adatmennyiséget. A hangsúly az alkalmazott jelzőn van, hiszen már napjainkban is vannak olyan cégek melyek adattudományi módszereken alapuló megoldásokat kínálnak, ezek közül próbálunk meg párat bemutatni.**  

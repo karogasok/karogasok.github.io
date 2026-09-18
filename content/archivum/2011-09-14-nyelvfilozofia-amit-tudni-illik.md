@@ -20,12 +20,12 @@ regi_cimkek_mind:
   - "tudományfilozófia"
 temak:
   - Tudományfilozófia
+  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - pdf
   - Tarski
   - Straws
   - Bar-Hillel
-  - Austin
   - Hempel
 ---
 

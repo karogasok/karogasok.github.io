@@ -18,10 +18,9 @@ regi_cimkek_mind:
 temak:
   - Nyílt szoftver és tervezés
 kulcsszavak:
-  - Digital_Humanities
   - contemporary
-  - emerging
   - Production
+  - emerging
   - Press
   - humanities
 ---

@@ -23,7 +23,6 @@ kulcsszavak:
   - evolution
   - faculty
   - Fitch
-  - recursion
   - FLN
 ---
 

@@ -16,6 +16,14 @@ regi_cimkek_mind:
   - "R"
   - "konferencia"
   - "nyelvtechnológia"
+temak:
+  - NLP meetupok
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - október
+  - konferencia
+  - cím
 ---
 
 Október 4-én az **[Open Source BI Fórum 2012](http://www.opensourcebi.hu/)** konferencián adok elő, *[Adatbányászat az R nyelv alkalmazásával](http://www.opensourcebi.hu/program/adatbanyaszat-az-r-nyelv-alkalmazasaval/)* címen.

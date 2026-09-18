@@ -19,13 +19,14 @@ regi_cimkek_mind:
   - "software engineering"
 temak:
   - Tudományfilozófia
+  - Nyílt szoftver és tervezés
+  - Startup és termékfejlesztés
 kulcsszavak:
   - Proofs
   - Scientific
   - software
   - Philosophy
   - Computing
-  - kialakul
 ---
 
 **Az nlp, a gépi tanulás és a legtöbb analitikai perverzió tkp. alapkutatásokból nőtte ki magát és mostanában kezd igazán teret nyeri az iparban. A hagyományos shopokban kialakult egy már nagyon jól működő praktika a software engineering, ami a tervezéstől a minőségbiztosításon át a projektmenedzsmentig mindent lefed. Persze nincs általános csodaszer és vannak metodológiai viták, de a bevett gyakorlatok kialakultak. A scientific computing ellenben nagyon más utat járt be. Az olyan startupok és érettebb cégek sikerei mint pl Prismatic, Factual, Silkapp, Twitter azt sugallják hogy a funkcionális nyelvek segítségével hatékonyan alkalmazhatók az iparban is a scientific computing eredményei. Ez azonban csak a hipotézisem, melyet alábbi olvasmányaimra alapozok. A következő pár hónapban remélem sikerül pár cégnél és kutatóhelynél személyesen is kérdőíveznem, strukturált interjúkat folytatnom a témában. Ha lenne javaslatot további szakirodalomra, vagy ismersz olyan céget/kutatóhelyet ahol funkcionális programozási nyelvet használnak, kérlek írj nekem a zoltan.varju(kukac)gmail.com email címre.**

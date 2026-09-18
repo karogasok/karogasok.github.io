@@ -16,6 +16,9 @@
         <span class="post-item-title">{{ .cim }}{{ if and .nyelv (ne .nyelv "hu") }} <span class="lang-note">({{ .nyelv }})</span>{{ end }}</span>
       </a>
       {{- with .leiras }}<p class="post-item-lede">{{ . }}</p>{{ end }}
+      {{- with .link }}{{ with index hugo.Data.temak_index . }}
+      {{ partial "cimkek.html" (dict "temak" .t "kulcsszavak" .k) }}
+      {{- end }}{{ end }}
     </li>
     {{- end }}
   </ol>

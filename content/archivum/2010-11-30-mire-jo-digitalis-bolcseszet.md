@@ -14,13 +14,13 @@ regi_cimkek_mind:
   - "digitális bölcsészet"
 temak:
   - Tudományfilozófia
+  - Mesterséges intelligencia
 kulcsszavak:
   - bölcsészet
   - bölcsészettudomány
   - kvark
   - képzés
   - digitális
-  - matematizáltság
 ---
 
 **Nem rég értesültünk arról hogy a Pázmány Péter Katolikus Egyetem Bölcsészettudományi Karán digitális bölcsészet MA képzés indul. Az érdeklődőket egy ismertetővel várják december 7-én 5 órától Piliscsabán (a szakleírást [itt](http://bit.ly/erswGZ) található, ezen kívül Debrecenben is lehet ilyen képzésre jelentkezni és ott van digitális bölcsészeti központ is - habár honlap nélkül, ami furcsa).  A hír kapcsán érdemes egy kicsit körüljárni mi is az a digitális bölcsészet, mire jó és mennyiben kapcsolódnak a magyar kezdeményezések a nemzetközi irányhoz.**  

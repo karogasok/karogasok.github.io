@@ -27,10 +27,9 @@ temak:
 kulcsszavak:
   - politikaelemző
   - méltányosság
-  - Neticle
-  - Petykó
   - kohézió
-  - központ
+  - Petykó
+  - Neticle
 ---
 
 Május 22-én tartjuk szezonzárór meetupunkat 18 órától a Colabs-ben (Budapest, Irányi út 3). A részvétel ingyenes, de [előzetes regisztrációhoz kötött](http://www.meetup.com/Hungarian-nlp/events/113821312/).

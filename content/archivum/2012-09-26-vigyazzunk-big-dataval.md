@@ -18,6 +18,7 @@ regi_cimkek_mind:
   - "evidence-based policy making"
 temak:
   - Lapszemle
+  - A blog életéről
 kulcsszavak:
   - evidence-based
   - irányzat

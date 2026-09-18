@@ -24,7 +24,6 @@ kulcsszavak:
   - ismertet
   - kalkulus
   - ml
-  - funkcionális
 ---
 
 **A funkcionális programozás iránt napjainkban ismét megnőtt az érdeklődés. A párhuzamos/konkurens programozás terén egyre inkább előtérbe kerülnek a funkcionális nyelvek (Haskell, Erlang, Clojure ill. Scala), ill. a Hadoop és egyéb MapReduce eszközök is egy régi funkcionális megoldásra építenek, de pl. a "mainstream" nyelvek is egyre több megoldást vesznek át ebből a paradigmából (pl. a Python és a Ruby is megemlíti a Lisp-et mint nagy elődöt). Michaelson könyve egyszerűen tökéletes! Senki sem tanulhat meg belőle programozni (ez hülyén hangozhat elsőre), nem is ez a célja, de pont oda juthat el vele az érdeklődő olvasó ahonnét már sikeresen támadhatja a funkcionális nyelveket. Nagy előnye hogy nem csak infósok és matekosok forgathatják haszonnal, hanem nyelvészek és filozófusok is.**

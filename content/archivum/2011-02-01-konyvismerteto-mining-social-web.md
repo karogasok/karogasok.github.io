@@ -20,13 +20,14 @@ regi_cimkek_mind:
   - "social web"
 temak:
   - Programozás nyelvészeknek
+  - Hálózatok és eszközök
+  - Nyílt szoftver és tervezés
 kulcsszavak:
   - Matthew
   - Networks
-  - nltk
   - Cookbook
+  - nltk
   - mélyed
-  - jártas
 ---
 
 **A közösségi média rengeteg adatot generál és szerencsére a különféle API-okon keresztül ezekhez bárki hozzáférhet. Azonban nem olyan egyszerű belevágni ezek elemzésébe. Matthew A. Russel könyve ehhez nyújt praktikus segítséget, rengeteg példával és jó minőségű kóddal támogatva mely saját elemzéseink kiindulópontjául is szolgálhat. Mindent összevetve a kötet remek, azonban bármennyire is próbál egyszerű lenni, nem árt ha az olvasó jártas a programozás terén (python), ismeri a legalapvetőbb számítógépes nyelvészeti alapfogalmakat (még jobb ha az nltk-t is), valamennyire ismeri a szemantikus webet és egy kicsit az átlagosnál többet tud a közösségi oldalakról.**

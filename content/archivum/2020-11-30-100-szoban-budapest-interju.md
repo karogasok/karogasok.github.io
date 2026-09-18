@@ -17,6 +17,12 @@ regi_cimkek_mind:
   - "LDA"
   - "korpusznyelvészet"
   - "topikmodellek"
+temak:
+  - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - Manna
+  - Budapest
 ---
 
 A ReggeliManna című műsorban beszélgettünk a [100 szóban Budapest](https://budapest.in100words.eu/hu) történetíró pályázat pályaműveit elemző projektünkről, melyet a Budapest Brand Nonprofit Zrt. és a MITTE felkérésére készítettünk. Az interjú visszahallgatható alább, 6:35 és 12:09 között.

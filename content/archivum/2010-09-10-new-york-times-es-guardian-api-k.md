@@ -29,12 +29,10 @@ regi_cimkek_mind:
 temak:
   - Adatújságírás és nyílt adat
 kulcsszavak:
-  - JSON
   - megtervezett
-  - u_end
+  - JSON
   - API
   - Query
-  - api
 ---
 
 **Ahogy az előző posztokban említettem sokan reménykednek abban hogy a neten összegyűlt hatalmas adat mennyiség betekintést nyújthat abba hogyan is működik a nyelv. Habár sokat segíthet ha rengeteg adattal rendelkezünk, ennek vannak határai - ahogy erre pl [Kilgariff](http://www.kilgarriff.co.uk/publications.htm) is rámutatott. Nem is beszélve a technikai és jogi korlátokról.**  

@@ -15,6 +15,12 @@ regi_cimkek_mind:
   - "fekete hattyú"
   - "interjú"
   - "koronavírus"
+temak:
+  - Nyílt szoftver és tervezés
+kulcsszavak:
+  - perc
+  - beszélgetés
+  - fél
 ---
 
 A koronavírus kapcsán használt metaforákról beszélgettünk a 117 perc című műsorban. A beszélgetés két részletben elérhető a rádió archívumából. A beszélgetés első fele [ezen a linken](https://civilradio.hu/archivum/2020_08_17_17_00_01.m3u) hallgatható meg (a 28. perctől), a második fele pedig [ezen a linken](https://civilradio.hu/archivum/2020_08_17_17_30_01.m3u) érhető el.

@@ -20,10 +20,9 @@ temak:
 kulcsszavak:
   - Ir
   - Geometry
-  - prológus
   - kvantumelmélet
+  - prológus
   - Rijsbergen
-  - kvantumlogika
 ---
 
 **C.J. "Keith" van Rijsbergen az IR egyik élő legendája, 1979-ben megjelent Information Retrieval c. könyve (mely [szabadon elérhető a neten](http://www.dcs.gla.ac.uk/Keith/Preface.html)) igazi mérföldkő volt a területen. A The Geometry of Information Retrieval majd harminc évvel a klasszikus után jelent meg, és alig 185 oldalba sűrítve írja le a terület mai állását és ad betekintést a kvantumlogikán alapuló jövőbe.**

@@ -16,13 +16,13 @@ regi_cimkek_mind:
   - "interview"
 temak:
   - A szakma
+  - Korpuszépítés és annotáció
 kulcsszavak:
   - indexing
   - evaluating
   - category
   - e.g.
-  - algorithm
-  - Pingar
+  - consistency
 ---
 
 **This week we interviewed [Alyona Medelyan](http://bit.ly/aE1IL5) who's a Senior Software Engineer & Researcher at the NZ enterprise search company [Pingar](http://bit.ly/cwDCzD) where she's working in the areas of semantic and faceted search, query analysis and search result representation. She's got a nice research blog, the [Topic indexing blog](http://bit.ly/cTzcDD), and you can find her on twitter as [@zelandiya](http://bit.ly/9dGwwA)**

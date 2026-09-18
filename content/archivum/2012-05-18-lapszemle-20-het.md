@@ -16,13 +16,13 @@ regi_cimkek_mind:
   - "lapszemle"
 temak:
   - Lapszemle
+  - A blog életéről
 kulcsszavak:
   - blogszünet
   - szervez
   - tutorial
   - Graph
   - Big
-  - knowledge
 ---
 
 **Itt a Google Knowledge Graph, R tutorialt szervezünk és az Economistban most big data van.**  

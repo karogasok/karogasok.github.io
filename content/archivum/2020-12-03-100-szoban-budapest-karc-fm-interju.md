@@ -17,6 +17,10 @@ regi_cimkek_mind:
   - "LDA"
   - "korpusznyelvészet"
   - "tartalomelemzés"
+temak:
+  - NLP meetupok
+kulcsszavak:
+  - Budapest
 ---
 
 A Karc FM Spájz című műsorában beszélgettünk  a [100 szóban Budapest](https://budapest.in100words.eu/hu) történetíró pályázat pályaműveit elemző projektünkről, melyet a Budapest Brand Nonprofit Zrt. és a MITTE felkérésére készítettünk. Az interjú visszahallgatható alább, 04:10 és 17:00 között.

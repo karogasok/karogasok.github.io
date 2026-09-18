@@ -19,10 +19,9 @@ temak:
   - Kurzusok és önképzés
 kulcsszavak:
   - kurzus
-  - Thrun
   - edX
+  - Thrun
   - Coursera
-  - Sebastian
   - tananyag
 ---
 

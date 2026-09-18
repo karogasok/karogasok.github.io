@@ -27,7 +27,6 @@ kulcsszavak:
   - nyíltság
   - nyílt
   - szoftver
-  - Creative
   - szabadalom
 ---
 

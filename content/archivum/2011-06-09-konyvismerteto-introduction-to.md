@@ -22,11 +22,10 @@ temak:
   - Korpuszépítés és annotáció
 kulcsszavak:
   - Gate
-  - Analytics
+  - analytics
+  - xml
   - szövegelemzés
-  - XML
   - informatikus
-  - annotáció
 ---
 
 **Sokak számára nehéz belépni a számítógépes szövegelemzés világába, legyenek akár nyelvészek (akiknek pl. nem volt alkalmuk programozást és/vagy formális módszereket tanulni) vagy informatikusok (akik pl. nem tanultak specifikusan számítógépes nyelvészetet, nem találkoztak eddig nyelvészeti elemzéssel). A most bemutatásra kerülő könyv nekik nyújt támogatást, és habár nem mentes a hibáktól, jelenleg nem ismerek jobbat a piacon.**

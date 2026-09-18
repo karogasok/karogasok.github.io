@@ -22,8 +22,7 @@ kulcsszavak:
   - ll
   - Resume
   - speech
-  - audiology
-  - Temporary
+  - forensic
 ---
 
 *A guest post by Christopher Phipps, [The Lousy Linguist](http://thelousylinguist.blogspot.com/)*

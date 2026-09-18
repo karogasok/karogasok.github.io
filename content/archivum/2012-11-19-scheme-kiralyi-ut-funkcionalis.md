@@ -21,7 +21,6 @@ kulcsszavak:
   - Languages
   - SICP
   - Types
-  - folytatás
 ---
 
 **Szerencsére egyre többen érdeklődnek a funkcionális nyelvek iránt. Sokkal sajnálatosabb hogy sokan eltántorodnak a kezdeti lelkesedés után. Sok nyelvész és logikus számára életük első programozási nyelve a Haskell manapság, nekik nem okoz gondot a régi szokások levetkőzése, ellenben a komolyabb feladatok (vagy az egész egyszerű I/O) estén sokan elakadnak. Szoftverfejlesztők általában az Erlang vagy a Clojure mellett teszik le a garast, de gyakran szembesülnek azzal hogy ezen közösségekben divat régi Lisp és Prolog könyveket ajánlgatni. Sokkal egyszerűbb ha nem rögtön a divatos nyelvekkel ismerkedünk meg, hanem a Scheme nyelvvel töltünk el egy kis időt. A nyelvek változnak, a mögöttes elvek azonban nem, érdemesebb először ezeket megtanulni.**

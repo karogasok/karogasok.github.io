@@ -1,0 +1,23 @@
+{{- /* The members of a hub that have no page on this site: Kereső Világ leads,
+       máshol articles, média appearances. They live in a data file because
+       there is no front matter to hold a taxonomy term, so both the theme hubs
+       and the keyword hubs render them through here rather than twice.
+
+       Takes the slice of entries directly. */ -}}
+<ol class="post-list is-dense tema-list">
+  {{- range . }}
+  <li class="post-item{{ if .link }} is-external{{ end }}">
+    {{- if .link }}
+    <a class="post-item-link" href="{{ .link }}" rel="noopener">
+      <span class="post-item-date">{{ with .ev }}{{ . }} · {{ end }}{{ i18n (printf "forras.%s" .forras) }}</span>
+      <span class="post-item-title">{{ .cim }}<span class="ext-mark" aria-hidden="true">↗</span></span>
+    </a>
+    {{- else }}
+    {{- /* The lost recordings: still members, but there is nothing to link to,
+           so they are listed without a dead link. */ -}}
+    <span class="post-item-date">{{ with .ev }}{{ . }} · {{ end }}{{ i18n (printf "forras.%s" .forras) }}</span>
+    <span class="post-item-title">{{ .cim }}</span>
+    {{- end }}
+  </li>
+  {{- end }}
+</ol>

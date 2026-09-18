@@ -17,12 +17,11 @@ regi_cimkek_mind:
 temak:
   - Lapszemle
 kulcsszavak:
+  - Gibbs
+  - Mura
+  - Uninitiated
   - tf-idf
   - Finetti
-  - Uninitiated
-  - Mura
-  - Gibbs
-  - probabilisztikus
 ---
 
 **Kósza kísérletem a Lapszemle rovat befagyasztására sok levelet eredményezett, ezért elvetettem - viszont Enikő igazolt távollétében nem tudom garantálni a heti rendszerességet. Aki nem akar lemaradni híreinkről, az lájkoljon minket a Facebookon, kövesse [@sznyelveszet](http://scribefire-next/twitter.com/#%21/sznyelveszet) Twitter fiókunkat és csekkolja [szamitogepesnyelveszet.tumblr.com](http://scribefire-next/szamitogepesnyelveszet.tumblr.com) oldalunkat - én szóltam!**

@@ -20,10 +20,9 @@ temak:
 kulcsszavak:
   - innovációs
   - Innovation
-  - agilis
   - Toyota
+  - agilis
   - vállalat
-  - lean
 ---
 
 **A lean vállalatszervezési rendszer nem új, a Toyotánál már az 1950-es években bevezették az alapját képző TPS-t (Toyota Production System), ám igazi lendületet Womack és Jones könyvei után kapott ([The Machine That Changed the World](http://www.amazon.com/Machine-That-Changed-World-Revolutionizing/dp/0743299795/ref=pd_sim_b_4) 1990-ben jelent meg Roos-szal közösen, ill a [Lean Thinking](http://www.amazon.com/Lean-Thinking-Corporation-Revised-Updated/dp/0743249275/ref=sr_1_1?ie=UTF8&qid=1315596334&sr=8-1) 1996-ban) és napjainkban sokan a válság egyik lehetséges átvészelési módjának tartják. A szoftverfejélesztés területén is megjelent a lean filozófia, gyakran az agilis fejlesztéssel összekötve, és ahogyan blogunkon is hírt adtunk róla megjelent a lean startup mozgalom is (erről Vlaskovits Patrick írását ajánljuk blogunkon az [ügyfélfejlesztésről](http://szamitogepesnyelveszet.blogspot.com/2011/07/lean-startup-es-ugyfelfejlesztes-2.html), ill. a [Patrickkal készített interjúnkat](http://szamitogepesnyelveszet.blogspot.com/2011/07/leasn-startup-es-customer-development.html), továbbá a [Kockázati tőke blogon írtt válaszait](http://kockazatitoke.blog.hu/2011/08/01/lean_startup_customer_development_ugyfelfejlesztes) is érdemes elolvasni). A Lean Innovation könyvet azért vettem kézbe mert gondoltam nem árt megtudni hogy a szerintem legkritikusabb szakaszban miképp is lehet használni a módszert, és habár egész jó élmény volt elolvasni ezt a könyvet bevallom nem lettem okosabb (vigyázat, ebben az is benne van hogy én vagyok hülye a könyvhöz).**

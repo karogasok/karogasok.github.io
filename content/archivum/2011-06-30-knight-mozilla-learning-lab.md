@@ -19,13 +19,14 @@ regi_cimkek_mind:
   - "mozilla"
 temak:
   - Adatújságírás és nyílt adat
+  - Nyílt szoftver és tervezés
+  - Hálózatok és eszközök
 kulcsszavak:
   - Mozilla
   - Challenge
   - communities
-  - Knight
   - bevon
-  - posztol
+  - Knight
 ---
 
 **Ahogyan arról már hírt adtunk örömünkben, beválogattak minket a [Knight Foundation](http://www.knightfoundation.org/) és a [Mozilla Foundation](http://www.mozilla.org/foundation/) közös kezdeményezésében rendezett Learning Lab-be. Szóval a nyár egy részét szorgos munkával és tanulással fogjuk tölteni (és egy kicsit kevesebbet is fogunk posztolni).  A cél pedig nem más mint az adatújságírás terén elérni valamit.**

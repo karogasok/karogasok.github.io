@@ -24,7 +24,6 @@ kulcsszavak:
   - Head
   - matek
   - valószínűségszámítás
-  - Statistics
 ---
 
 **Az a helyzet hogy tudomány matek nélkül nincs. Aki mást mond, hazudik, vagy valami nagyon nem kurrens képe van a tudományról. Jó hír hogy nem kell Neumann-ná válni, emelt szintű érettségit sem kell tenned, de a minimum hogy egy kis statisztikát, valószínűségszámítást és logikát magadra szedsz. (A saját véleményem az, hogy nem kell matematikussá lenned, de annyi kell hogy tudd mire guglizz rá, hol keressed a választ és tudd alkalmazni a saját problémádra amit találtál).**  

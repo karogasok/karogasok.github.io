@@ -26,7 +26,6 @@ kulcsszavak:
   - Rathore
   - makró
   - JVM
-  - specifikus
 ---
 
 **Az elmúlt pár évben egyértelműen megnőtt az érdeklődés a funkcionális programozási nyelvek iránt és ez összekapcsolódott a JVM nyelvek körüli felhajtással is. Míg a Marin Odersky vezetésével az EPFL-en kifejlesztett Scala egy alapvetően objektum orientált nyelv ami magába olvasztja a funkcionális paradigma javát, a Clojure visszatért a második legöregebb nyelv, a Lisp, által követett nem tisztán funkcionális stílushoz. Habár a Scala olyan nagy ágyúknál van használatban mint a Twitter, a Wordnik vagy az Uberblic, a [FlightCaster](http://flightcaster.com/) (és Bradford Cross legendás, már megszűnt Measuring Measures blogja) és a [Factual](http://www.factual.com/) sikerei bebizonyították hogy a Clojure kifejezetten alkalmas a napjainkban meghatározó vonalat képviselő ún. research driven data startupok problémáinak megoldására. A kiadók persze próbálják meglovagolni a fokozódó érdeklődést több-kevesebb sikerrel, azonban ez nem könnyű egy JVM nyelv esetében sem. A Clojure közelébe kétféle ember kerül általában, Java vagy Lisp (vagy más funkcionális nyelv iránt érdeklődő) programozó. Vitathatatlan tény hogy a Java háttérrel rendelkezők vannak többségben, őket remekül ki is szolgálják az eddig megjelent könyvek, ellenben Rathore olyan könyvvel ajándékozta meg a közönséget amit a Lisperek is haszonnal forgathatnak.**

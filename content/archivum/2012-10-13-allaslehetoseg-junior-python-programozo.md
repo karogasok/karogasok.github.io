@@ -24,7 +24,6 @@ kulcsszavak:
   - Python
   - programozó
   - tapasztalat
-  - adat
 ---
 
 A [**Közép-európai Egyetem NETWORKS**](http://www.ceu.hu/cns) kutatócsoportja **Python programozót keres november 1-től** egy kutatási projektre. **A programozó feladata, hogy egy Python-fejlesztő team tagjaként olyan programokat írjon, amelyek szöveges adatokból strukturált adatokat állítanak elő.** A pozíció megállapodás szerinti, de várhatóan **heti 20 munkaórával** jár, rugalmas időbeosztásban. A munkavégzés helye az Egyetem V. kerület, Nádor u. 11. szám alatti épülete.  

@@ -24,7 +24,6 @@ kulcsszavak:
   - matematika
   - sincs
   - mindennap
-  - képesség
 ---
 
 Milyen lehet számok nélkül élni? Hogyan alakult ki a matematika? Mi köze van a matematikának a modern demokráciákhoz? Setfan Buijsman a világ legfiatalabb matematikafilozófusa ezeket a kérdéseket járja körül könyvében, mellyel csak egy bajunk van; a magyar címe.

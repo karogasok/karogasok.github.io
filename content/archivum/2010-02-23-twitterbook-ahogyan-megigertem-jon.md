@@ -20,7 +20,6 @@ kulcsszavak:
   - TwitterBook
   - üzenet
   - zavaró
-  - követő
 ---
 
 ## TwitterBook

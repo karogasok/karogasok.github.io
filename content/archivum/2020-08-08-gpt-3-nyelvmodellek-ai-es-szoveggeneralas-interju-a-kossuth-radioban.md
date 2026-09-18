@@ -18,6 +18,8 @@ regi_cimkek_mind:
   - "deep learning"
   - "interjú"
   - "nyelvmodell"
+temak:
+  - Korpuszépítés és annotáció
 ---
 
 Az OpenAI új, GPT-3 modellje kapcsán a szöveggenerálásról és a mesterséges intelligencia határairól beszélgettünk a Kossuth Rádió Trend-Idők műcorában. Az adás [ezen a linken érhető el](https://mediaklikk.hu/radio-lejatszo-kossuth/?date=2020-08-07_15-11-00&enddate=2020-08-07_15-35-00&ch=mr1&fbclid=IwAR2uKokHoSXaBTioK336VmvBKB4ftgUAilH9Z8MsVSSZQwMmbQUHybO-Iig), az interjú 15:12:12-től 15:15:10-ig tart.

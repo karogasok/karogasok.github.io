@@ -22,7 +22,6 @@ kulcsszavak:
   - Academy
   - Sciences
   - quality
-  - Institute
 ---
 
 *Although our meetup is a free event and there is no attendee limit, please register on [this site](http://www.meetup.com/Hungarian-nlp/events/78825672/).*  

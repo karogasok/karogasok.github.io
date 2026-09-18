@@ -29,7 +29,6 @@ kulcsszavak:
   - Delicious
   - címke
   - falu
-  - tag
 ---
 
 **Manapság a neten egyre többször találkozhatunk különféle oldalakkal ahol arra kérnek minket (vagy jobb esetben csak lehetőségként ajánlják fel) hogy tageljünk. A legegyszerűbb esete ennek egy blog (mint pl ez), ahol a meta-adatok segítenek képet adni arról miről is szól az adott poszt, a “related posts” szkript is ezek alapján találja meg a kapcsolódó írásokat. Ebből rögtön kitűnik hogy a tagelés remek információkezelő eszköz, de mennyire jó és milyen körben használható, mit kezdhetünk vele?**

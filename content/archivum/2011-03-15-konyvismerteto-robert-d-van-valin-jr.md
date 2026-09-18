@@ -25,7 +25,6 @@ kulcsszavak:
   - alapfogalom
   - Syntax
   - előismeret
-  - Introduction
 ---
 
 **Van a nyelvészetnek egy olyan területe amit vagy nagyon szeret valaki, vagy nagyon utál: a szintaxis. Az azonban tagadhatatlan hogy a különböző nyelvészeti irányzatok a mondattan köré szerveződnek és a generatív elméletek ismerete kulcsfontosságú napjainkban is, hiszen ezekhez képest határozzák meg magukat az új elméletek is. A most bemutatásra kerülő kötet nem ígér többet mint egy belépőt a területre.**
