@@ -708,7 +708,7 @@
   nev: A blog életéről
   slug: a-blog-eleterol
   ellenorizve: false
-  darab: 116
+  darab: 115
   kifejezesek:
     - írás
     - remél
@@ -1152,7 +1152,7 @@
   nev: Korpusznyelvészet
   slug: korpusznyelveszet
   ellenorizve: false
-  darab: 38
+  darab: 37
   kifejezesek:
     - korpusz
     - esik
@@ -1522,7 +1522,7 @@
   nev: Tudományfilozófia
   slug: tudomanyfilozofia
   ellenorizve: false
-  darab: 63
+  darab: 62
   kifejezesek:
     - elmélet
     - tudományos
@@ -1839,7 +1839,7 @@
   nev: Paradigmák és nyelvelméletek
   slug: paradigmak-es-nyelvelmeletek
   ellenorizve: false
-  darab: 54
+  darab: 53
   kifejezesek:
     - paradigma
     - event
@@ -2524,7 +2524,7 @@
   nev: Mesterséges intelligencia
   slug: mesterseges-intelligencia
   ellenorizve: false
-  darab: 28
+  darab: 29
   kifejezesek:
     - mesterséges
     - Kína

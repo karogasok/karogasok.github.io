@@ -3003,12 +3003,15 @@ agilista:
   darab: 1
 agy:
   slug: agy
-  darab: 2
+  darab: 3
   kulsok:
     - cim: "Tánc, kiterjesztett elme és mesterséges intelligencia"
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/11/05/tanc_es_mesterseges_intelligencia"
+agysejt:
+  slug: agysejt
+  darab: 1
 ajánlat:
   slug: ajanlat
   darab: 1
@@ -3764,9 +3767,6 @@ dobás:
 dogma:
   slug: dogma
   darab: 1
-dolgozat:
-  slug: dolgozat
-  darab: 1
 dolgozik:
   slug: dolgozik
   darab: 2
@@ -3887,9 +3887,6 @@ elemző:
       link: "https://kereses.blog.hu/2014/01/24/a_clementine_consulting_szoveganalitikai_elemzot_keres"
 elengedhetetlen:
   slug: elengedhetetlen
-  darab: 1
-eljárás:
-  slug: eljaras
   darab: 1
 elme:
   slug: elme
@@ -5473,9 +5470,6 @@ kitöltés:
 kiél:
   slug: kiel
   darab: 1
-kiértékelő:
-  slug: kiertekelo
-  darab: 1
 kl:
   slug: kl
   darab: 1
@@ -6572,9 +6566,6 @@ méretű:
 mérföldkő:
   slug: merfoldko
   darab: 1
-mérés:
-  slug: meres
-  darab: 1
 mérő:
   slug: mero
   darab: 1
@@ -6682,6 +6673,9 @@ nemzetközi:
   darab: 1
 net:
   slug: net
+  darab: 1
+neuron:
+  slug: neuron
   darab: 1
 neurális:
   slug: neuralis
@@ -8987,9 +8981,6 @@ zseniális:
   darab: 1
 állás:
   slug: allas
-  darab: 1
-állítás:
-  slug: allitas
   darab: 1
 áltudomány:
   slug: altudomany
