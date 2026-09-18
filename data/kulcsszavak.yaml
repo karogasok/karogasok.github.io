@@ -3462,6 +3462,9 @@ clerics:
 clouds:
   slug: clouds
   darab: 1
+coding:
+  slug: coding
+  darab: 1
 collect:
   slug: collect
   darab: 1
@@ -4595,6 +4598,9 @@ halmaz:
   darab: 1
 halmazelméleti:
   slug: halmazelmeleti
+  darab: 1
+halmoz:
+  slug: halmoz
   darab: 1
 hangsor:
   slug: hangsor
@@ -7103,6 +7109,9 @@ p:
       ev: 2012
       forras: kereses
       link: "https://kereses.blog.hu/2012/09/21/meetup_update"
+pair:
+  slug: pair
+  darab: 1
 palackorrú:
   slug: palackorru
   darab: 1
@@ -8371,6 +8380,9 @@ tartalom:
 tartalomelemzés:
   slug: tartalomelemzes
   darab: 1
+tartozás:
+  slug: tartozas
+  darab: 1
 tas:
   slug: tas
   darab: 1
@@ -8747,6 +8759,9 @@ vendégeskedik:
   darab: 1
 vetélkedő:
   slug: vetelkedo
+  darab: 1
+vi:
+  slug: vi
   darab: 1
 videó:
   slug: video
