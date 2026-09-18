@@ -57,8 +57,15 @@ fonts:
 postprocess:
 	./scripts/postprocess.sh $(f)
 
+# Az egyetlen szkript a scripts/ alatt, aminek kell valami a standard könyvtáron
+# kívül (Pillow). Nem telepítjük a rendszer pythonjába: az uv egy eldobható
+# környezetben futtatja, így a scripts/ továbbra is "csupasz python3-mal is
+# elindul" marad mindenütt, ahol nem kép készül.
 og:
-	python3 scripts/make_og.py
+	@command -v uv > /dev/null || { \
+	  echo "ehhez uv kell: https://docs.astral.sh/uv/  (vagy: pip install --user pillow)"; \
+	  exit 1; }
+	uv run --no-project --with pillow python3 scripts/make_og.py
 
 youtube:
 	python3 scripts/fetch_youtube.py
