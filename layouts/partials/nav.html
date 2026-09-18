@@ -1,4 +1,4 @@
-{{- /* Three items, all of them this site's own.
+{{- /* Everything here is this site's own.
 
        The header used to mirror Crow Intelligence's navigation. That was wrong:
        this is a personal reading journal, not a page of the company site, and a
@@ -16,6 +16,9 @@
       <span class="nav-brand-text">{{ site.Title }}</span>
     </a>
     <div class="nav-links">
+      {{- /* The writing being done now comes before the writing that was done
+             elsewhere years ago. */}}
+      <a href="{{ "/posts/" | relURL }}">{{ i18n "nav.posts" }}</a>
       <a href="{{ "/archivum/" | relURL }}">{{ i18n "nav.archive" }}</a>
       <a href="{{ "/mashol/" | relURL }}">{{ i18n "nav.elsewhere" }}</a>
       <a href="{{ "/media/" | relURL }}">{{ i18n "nav.media" }}</a>
