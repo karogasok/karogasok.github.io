@@ -99,11 +99,11 @@ irasok:
     leiras: "Az automatikus tartalomelemzés vizualizációs lehetőségeivel, különösen a szófelhők előnyeivel és értelmezési buktatóival foglalkozik."
 
 
-  - cim: "K-Monitor: Adatbázis a közpénzek útjáról"
+  - cim: "PARLDATA: a parlamenti felszólalások elemzése"
     hol: "k-monitor.github.io"
     ev: 2017
     link: "https://k-monitor.github.io/"
-    leiras: "Egy adatbázis és vizualizációs projekt a közpénzek felhasználásának átláthatóságáért, melyben az adatelemzésben és a beszámoló megírásában vettem részt több önkéntessel."
+    leiras: "A K-Monitor 2017-es projektje, amely az Országgyűlés jegyzőkönyveit tette kereshetővé és elemezhetővé. A felszólalások szókincsgazdagságát, ennek pártonkénti eloszlását és a Parlamentben visszatérő témákat vizsgáltuk; az adatelemzésben és a beszámoló megírásában vettem részt több önkéntessel."
 
   - cim: "Fizika a cicás képekért!"
     hol: "nyest.hu"

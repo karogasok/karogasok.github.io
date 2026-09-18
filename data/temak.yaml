@@ -392,7 +392,7 @@
   nev: NLP meetupok
   slug: nlp-meetupok
   ellenorizve: false
-  darab: 101
+  darab: 102
   kifejezesek:
     - meetup
     - pszichológiai
@@ -432,6 +432,10 @@
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/03/09/mind_reading_and_search_d-kom_budapest"
+    - cim: "PARLDATA: a parlamenti felszólalások elemzése"
+      ev: 2017
+      forras: mashol
+      link: "https://k-monitor.github.io/"
     - cim: "The Data Deluge, How Big Data Is Changing Our Life, Presentation @ Futurology Forum"
       ev: 2017
       forras: kereses
@@ -1240,7 +1244,7 @@
   nev: Adatújságírás és nyílt adat
   slug: adatujsagiras-es-nyilt-adat
   ellenorizve: false
-  darab: 105
+  darab: 104
   kifejezesek:
     - journalism
     - adat
@@ -1290,10 +1294,6 @@
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/09/14/hogy_olvas_ujsagot_a_mesterseges_intelligencia_es_mit_lat_a_kepeken_budapest_science_meetup"
-    - cim: "K-Monitor: Adatbázis a közpénzek útjáról"
-      ev: 2017
-      forras: mashol
-      link: "https://k-monitor.github.io/"
     - cim: Magyar Twitter Szentiment Korpusz
       ev: 2017
       forras: kereses
@@ -2169,7 +2169,7 @@
   nev: Nyílt szoftver és tervezés
   slug: nyilt-szoftver-es-tervezes
   ellenorizve: false
-  darab: 123
+  darab: 122
   kifejezesek:
     - nyílt
     - licenc
@@ -2212,10 +2212,6 @@
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/09/14/hogy_olvas_ujsagot_a_mesterseges_intelligencia_es_mit_lat_a_kepeken_budapest_science_meetup"
-    - cim: "K-Monitor: Adatbázis a közpénzek útjáról"
-      ev: 2017
-      forras: mashol
-      link: "https://k-monitor.github.io/"
     - cim: Magyar Twitter Szentiment Korpusz
       ev: 2017
       forras: kereses

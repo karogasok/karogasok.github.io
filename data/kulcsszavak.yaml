@@ -2922,12 +2922,8 @@ adatbányászat:
   darab: 1
 adatbázis:
   slug: adatbazis
-  darab: 3
+  darab: 2
   kulsok:
-    - cim: "K-Monitor: Adatbázis a közpénzek útjáról"
-      ev: 2017
-      forras: mashol
-      link: "https://k-monitor.github.io/"
     - cim: A szíriai polgárháború a GDELT adatbázison keresztül
       ev: 2013
       forras: kereses
@@ -4224,6 +4220,14 @@ felolvasott:
 felolvasás:
   slug: felolvasas
   darab: 1
+felszólalás:
+  slug: felszolalas
+  darab: 1
+  kulsok:
+    - cim: "PARLDATA: a parlamenti felszólalások elemzése"
+      ev: 2017
+      forras: mashol
+      link: "https://k-monitor.github.io/"
 feltárás:
   slug: feltaras
   darab: 1
@@ -5773,14 +5777,6 @@ közbeszerzési:
 közhely:
   slug: kozhely
   darab: 1
-közpénz:
-  slug: kozpenz
-  darab: 1
-  kulsok:
-    - cim: "K-Monitor: Adatbázis a közpénzek útjáról"
-      ev: 2017
-      forras: mashol
-      link: "https://k-monitor.github.io/"
 közszolgálati:
   slug: kozszolgalati
   darab: 1
