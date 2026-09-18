@@ -9,7 +9,7 @@
        essay with a reading list; without it, it is a plain list. */ -}}
 {{- $isHub := ne (len (.Content | plainify | strings.TrimSpace)) 0 -}}
 {{- $theme := false -}}
-{{- range site.Data.temak }}{{ if eq .nev $.Title }}{{ $theme = . }}{{ end }}{{ end }}
+{{- range hugo.Data.temak }}{{ if eq .nev $.Title }}{{ $theme = . }}{{ end }}{{ end }}
 <div class="listing{{ if $isHub }} is-hub{{ end }}">
   <header class="post-head">
     <h1>{{ .Title }}</h1>
