@@ -150,4 +150,20 @@ if [ -d "$public/tema" ] || [ -d "$public/kulcsszo" ]; then
   fi
 fi
 
+# 5. No Markdown link written inside out.
+#
+# `(szöveg)[url]` instead of `[szöveg](url)` is valid text to Markdown, so it
+# renders without complaint — as the literal sentence with the raw URL printed
+# in the middle of it. Three posts running had it. The string `)[http` cannot
+# appear in rendered prose any other way.
+inside_out=$(grep -rlF ')[http' "$public" --include='*.html' 2>/dev/null || true)
+if [ -n "$inside_out" ]; then
+  while IFS= read -r page; do
+    echo "FAIL  links: inside-out Markdown link in ${page#$public} — (szöveg)[url] should be [szöveg](url)" >&2
+  done <<< "$inside_out"
+  fail=1
+else
+  echo "OK    links: no inside-out Markdown links"
+fi
+
 exit $fail

@@ -79,6 +79,9 @@ Andy:
 Anglia:
   slug: anglia
   darab: 1
+Anthropic:
+  slug: anthropic
+  darab: 1
 Apache:
   slug: apache
   darab: 1
@@ -513,6 +516,9 @@ DNS:
   darab: 1
 DRT:
   slug: drt
+  darab: 1
+Damásio:
+  slug: damasio
   darab: 1
 Data:
   slug: data
@@ -1398,7 +1404,7 @@ LISP:
   darab: 2
 LLM:
   slug: llm
-  darab: 1
+  darab: 2
 Labs:
   slug: labs
   darab: 1
@@ -9105,7 +9111,7 @@ zseniális:
   darab: 2
 érzelem:
   slug: erzelem
-  darab: 1
+  darab: 2
   kulsok:
     - cim: "Racionalitás, érzelmek, nyelv"
       ev: 2015
