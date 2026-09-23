@@ -6,7 +6,7 @@ publishDate: 2026-09-23T07:00:00+02:00
 author: "Varjú Zoltán"
 forras_url: "https://www.nature.com/articles/s41562-026-02558-6"
 forras_cim: "Large language models do not have emotions"
-tags: []
+tags: ["idegtudomány", "kognitív tudomány", "AI"]
 draft: false
 temak:
   - Korpusznyelvészet

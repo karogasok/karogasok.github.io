@@ -6,7 +6,7 @@ publishDate: 2026-09-18T07:00:00+02:00
 author: "Varjú Zoltán"
 forras_url: "https://arxiv.org/abs/2603.22106"
 forras_cim: "From Technical Debt to Cognitive and Intent Debt: Rethinking Software Health in the Age of AI"
-tags: []
+tags: ["Fejlesztés"]
 draft: false
 temak:
   - Statisztika és R
