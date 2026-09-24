@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -60,6 +61,29 @@ def main() -> int:  # noqa: C901, PLR0915
             f"  {RESULT.name} exists — the gate has already run. Not running it again."
         )
         return 1
+    frozen = HERE / "temalista_kalibracio.json"
+    dirty = subprocess.run(
+        [
+            "git",
+            "status",
+            "--porcelain",
+            "--",
+            str(frozen),
+            str(HERE / "temalista.yaml"),
+        ],
+        capture_output=True,
+        text=True,
+        check=True,
+    ).stdout.strip()
+    if dirty:
+        print("  calibration or theme list differs from the commit; not running")
+        return 1
+    commit = subprocess.run(
+        ["git", "log", "-1", "--format=%H", "--", str(frozen)],
+        capture_output=True,
+        text=True,
+        check=True,
+    ).stdout.strip()
     cal, record = load_calibration(
         HERE / "temalista_kalibracio.json", HERE / "temalista.yaml"
     )
@@ -169,6 +193,7 @@ def main() -> int:  # noqa: C901, PLR0915
     passed = g1 and g2 and g3
     result = {
         "passed": passed,
+        "preregistration_commit": commit,
         "G1": {
             "passed": g1,
             "new_F": f_new.f,
