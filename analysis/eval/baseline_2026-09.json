@@ -1,0 +1,2764 @@
+{
+ "leiras": "A témabesorolás állapota a témák újratervezése előtt, a commitolt front matterből és a data/temak_index.yaml-ből. Kulcs: az oldal útvonala, illetve a sor URL-je (nem a pozícionális doc_id).",
+ "commit": "d8fb76d7362b0958c2f245ff3be770e24d275f3d",
+ "oldalak": {
+  "content/archivum/2010-01-22-az-elso-posztom.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2010-01-22-pro-git-szabadkonyv.md": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2010-01-27-hogyan-szerezzunk-egy-kis-gyakorlatot.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2010-02-03-elveszett-logikusok-menedeke.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2010-02-03-hanyagolom-blogom.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2010-02-04-tanujja-programozni-04.md": [
+   "Programozás nyelvészeknek",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2010-02-08-google-analytics.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2010-02-09-twitter.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2010-02-17-na-akkor-most-tesztelem-drivel-t.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2010-02-18-drivel-el-szep-az-elet-eddig-nem-voltam.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2010-02-23-twitterbook-ahogyan-megigertem-jon.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2010-03-02-scribefire.md": [
+   "Nyelvelemző eszközök",
+   "Hálózatok és eszközök",
+   "A blog életéről"
+  ],
+  "content/archivum/2010-03-05-firefox-te-is-jobba-teheted.md": [
+   "Nyílt szoftver és tervezés",
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2010-03-06-algoritmikus-fejvadaszat-ha-nem.md": [
+   "A blog életéről",
+   "Programozás nyelvészeknek",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2010-03-11-logikai-programozas-nem-programozoknak.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2010-03-12-lehet-jatek-tanulas-legalabbis.md": [
+   "Programozás nyelvészeknek",
+   "A szakma"
+  ],
+  "content/archivum/2010-03-25-funkcionalis-programozas-nem.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2010-03-26-szamitogepes-nyelveszet-bejegyzes.md": [
+   "Programozás nyelvészeknek",
+   "Hálózatok és eszközök",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2010-04-09-statisztikai-tulelokeszlet.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2010-04-20-nyelveszet-csak-roviden.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2010-04-30-nyelvfilozofia-nemzeti-minimum.md": [
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2010-05-04-logika-mindenkinek-i-bevezetes.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2010-05-09-logika-mindenkinek-ii-automatak.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2010-05-10-logika-mindenkinek-iii-termeszetes.md": [
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2010-05-12-minek-nevezzelek-szamitogepes.md": [
+   "A szakma"
+  ],
+  "content/archivum/2010-05-17-valoszinuseg-statisztika-es-nyelv.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2010-05-31-nyelveszet-es-interakcio-dizajn-i-uj.md": [
+   "A szakma"
+  ],
+  "content/archivum/2010-06-07-van-e-szamitogepes-nyelveszeti.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2010-06-09-nyelveszet-es-interakciodizajn-ii-elvek.md": [
+   "Korpusznyelvészet",
+   "A szakma",
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2010-06-22-minimalista-program-i-elvek-parameterek.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2010-07-04-szogyakorisag.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2010-07-09-meg-tobb-jazz-t-az-ovodakba-meg-tobb.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2010-07-11-nooj-az-integralt-nyelvelemzo-kornyezet.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2010-07-14-szogyakorisag-ismet-de-most-sajat.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2010-07-19-scientific-approaches-in-syntax.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2010-07-23-szogyakorisag-vizualizacio-many-eyes.md": [
+   "Nyelvelemző eszközök",
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2010-07-29-r-de-miert-is-hasznaljam-i.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2010-07-29-r-de-miert-is-hasznaljam-ii.md": [
+   "Programozás nyelvészeknek",
+   "Korpuszépítés és annotáció",
+   "A szakma"
+  ],
+  "content/archivum/2010-08-06-konyvismerteto-getting-started-with.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2010-08-09-anxiety-of-digital-humanities.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2010-08-12-hogyan-tovabb-mihez-kezdhet-magaval.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2010-08-21-kreativ-ruby-programozas-kezdoknek.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2010-08-29-konyvismerteto-meyer-english-corpus.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2010-09-04-az-adatok-tudomanya-es-nyelvtudomany.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2010-09-10-new-york-times-es-guardian-api-k.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2010-09-14-az-adatok-megmagyarazhatatlan.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2010-09-18-retro-programozas.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2010-09-21-kereses-termeszetes-nyelven.md": [
+   "Nyílt szoftver és tervezés",
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2010-09-23-life-of-computational-linguist-i.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2010-09-28-konyvajanlo-logika-es-tudomanyelmelet.md": [
+   "Logika és matematika",
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2010-10-04-mi-is-az-dinamikus-episztemikus-logika.md": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2010-10-08-data-journalism-hope-for-future-in.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2010-10-12-life-of-computational-linguist-ii.md": [
+   "A szakma"
+  ],
+  "content/archivum/2010-10-14-life-of-computational-linguist-ii-14.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2010-10-16-life-of-computational-linguist-iv.md": [
+   "A szakma",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2010-10-18-konyvismerteto-morville-callender.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2010-10-26-az-adatok-tudomanya-es-nyelveszet-ismet.md": [
+   "A szakma",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2010-11-02-on-computational-corpus-linguistics.md": [
+   "A szakma",
+   "Nyelvelemző eszközök",
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2010-11-04-digital-humanities-introduction-for.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2010-11-06-konyvismerteto-semantic-web-primer.md": [
+   "Statisztika és R",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2010-11-10-word-cram-interview-with-its-creator.md": [
+   "A szakma"
+  ],
+  "content/archivum/2010-11-12-bohumil-hrabal-szotara.md": [
+   "Korpusznyelvészet",
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2010-11-17-tudomanyfilozofia-es-szemantikus-web-ki.md": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2010-11-19-kitchen-budapes-technologiai-es-uj.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2010-11-20-szoveges-informaciok-vizualizacioja.md": [
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2010-11-22-on-information-architecture-interview.md": [
+   "A szakma"
+  ],
+  "content/archivum/2010-11-24-incanter-statistical-environment-for.md": [
+   "A szakma",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2010-11-30-mire-jo-digitalis-bolcseszet.md": [
+   "Tudományfilozófia",
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2010-12-03-tudomanyfilozofia-gepi-tanulas-es.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2010-12-07-konyvismereto-logicomix-logikai.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2010-12-14-konyvismerteto-mcenry-wilson-corpus.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2010-12-17-konyvismerteto-oakes-statistics-for.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2010-12-26-google-ngram-viewer-mi-szosz-az.md": [
+   "Korpusznyelvészet",
+   "Statisztika és R"
+  ],
+  "content/archivum/2010-12-31-konyvismerteto-cartoon-guide-to.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-01-04-mit-rejt-jovo-i-jelek-multbol.md": [
+   "Adatújságírás és nyílt adat",
+   "Startup és termékfejlesztés",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2011-01-05-mit-rejt-jovo-ii-rovid-es-kozep-tavon.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2011-01-09-adat-uzlet-tudomany.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2011-01-11-schmitt-pal-wittgenstein-es-az.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2011-01-15-nyelvi-relativizmus-avagy-hatassal-van-2.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2011-01-17-life-of-computational-linguits-v.md": [
+   "A szakma"
+  ],
+  "content/archivum/2011-01-24-on-lisp-interview-with-gabor-melis.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-01-25-boldog-szulinapot-nekunk.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-01-27-on-computational-semantics-logic-and.md": [
+   "Logika és matematika",
+   "Statisztika és R"
+  ],
+  "content/archivum/2011-01-29-irastudok-hajnala-innovacio-mediaban-i.md": [
+   "Adatújságírás és nyílt adat",
+   "Korpuszépítés és annotáció",
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2011-02-01-konyvismerteto-mining-social-web.md": [
+   "Programozás nyelvészeknek",
+   "Hálózatok és eszközök",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2011-02-04-nyelvi-relativizmus-avagy-hatassal-van.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2011-02-08-konyvismerteto-foundations-of.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2011-02-09-life-of-computational-linguist-vi.md": [
+   "A szakma"
+  ],
+  "content/archivum/2011-02-13-irastudok-hajnala-innovacio-mediaban-ii.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2011-02-23-watson.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2011-02-24-student-session-esslli-2011-call-for.md": [
+   "NLP meetupok",
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "content/archivum/2011-03-02-konyvismerteto-statistical-analysis.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2011-03-08-kell-e-nekunk-paradigma.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2011-03-09-esslli-2011-why-you-should-go-to.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2011-03-09-ismet-paradigmakrol.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2011-03-15-konyvismerteto-robert-d-van-valin-jr.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2011-03-15-on-european-summer-school-in-logic.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-03-19-az-open-knowledge-foundation-rol.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2011-03-22-haskell-philosophy.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2011-03-25-csinald-magad-helyesiras-ellenorzo.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2011-03-28-irastudok-hajnala-innovacio-mediaban.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2011-03-30-konyvismerteto-karl-popper-test-es-elme.md": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2011-04-01-kod-feltorese-mert-filmet-meg-nem.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2011-04-05-hogyan-kezdtem-szofajelemzot-irni.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2011-04-06-egy-ertelemetlen-vita-margojara-avagy.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2011-04-07-korpusznyelveszet-elmeleti-07.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2011-04-07-korpusznyelveszet-elmeleti-2.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2011-04-11-irastudok-hajnala-iv-de-mi-az-az.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2011-04-18-termeszetes-nyelvi-kereses-1.md": [
+   "Tudományfilozófia",
+   "Nyílt szoftver és tervezés",
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2011-04-26-on-nltk-and-python-interviwe-with-jacob.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2011-04-28-natural-language-processing-for-working.md": [
+   "Korpuszépítés és annotáció",
+   "Programozás nyelvészeknek",
+   "A szakma"
+  ],
+  "content/archivum/2011-05-03-legyel-te-is-szamitogepes-nyelvesz-tiz.md": [
+   "Statisztika és R",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-05-04-opinion-mining-sentiment-analysis-or.md": [
+   "A szakma",
+   "Nyílt szoftver és tervezés",
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2011-05-11-vissza-jovobe-avagy-miert-veszitett.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2011-05-16-utikonyvek-az-algoritmusok-vilagaba.md": [
+   "Programozás nyelvészeknek",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-05-20-lapszemle-20.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-05-27-lapszemle-27.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-05-28-chomsky-norvig-es-tudomany.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2011-06-01-on-computational-history-interview-with.md": [
+   "A szakma",
+   "Startup és termékfejlesztés",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2011-06-09-konyvismerteto-introduction-to.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2011-06-14-gondolkodo-gepek-1.md": [
+   "Tudományfilozófia",
+   "Logika és matematika"
+  ],
+  "content/archivum/2011-06-18-dzsudzsak-twitteren.md": [
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2011-06-21-korpusznyelveszet-elmeleti.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2011-06-27-korpusznyelveszet-korpuszkeszites.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2011-06-30-knight-mozilla-learning-lab.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés",
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2011-07-08-lapszemle-3.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-07-14-konyvismerteto-reliable-reasoning-gepi.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2011-07-17-leasn-startup-es-customer-development.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2011-07-19-lean-startup-es-ugyfelfejlesztes-2.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2011-07-25-konyvismerteto-back-of-napkin-kepi.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2011-08-01-legyel-te-is-szerzo-szamitogepes.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2011-08-02-digitalis-bolcseszet-uj-blog-indult.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2011-08-03-korpusznyelveszet-unicode.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2011-08-04-konyvismerteto-az-uveghegyen-innen.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2011-08-07-konyvismerteto-szamitogeppel-emberi.md": [
+   "A szakma",
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2011-08-08-elindult-goldenblog.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2011-08-10-nyelvi-ertelmezo-hazilag.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2011-08-14-konyvismerteto-learning-unix-operating.md": [
+   "Programozás nyelvészeknek",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-08-19-babel-helyett-kabel.md": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2011-08-20-batran-legyunk-nyiltak-megeri.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2011-08-25-200-poszt-villam-onfenyezes.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2011-08-30-kozossegi-tageles-nyelvesz-szemmel.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2011-09-02-lapszemle-2.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-09-05-konyvismerteto-agile-samurai.md": [
+   "Programozás nyelvészeknek",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-09-09-lapszemle-09.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-09-10-konyvismerteto-lean-innovation.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2011-09-14-nyelvfilozofia-amit-tudni-illik.md": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2011-09-16-megint-eltelt-egy-h-ism-egy-kis-v-h.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-09-18-konyvismerteto-philosophy-of-science.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2011-09-21-filmismerteto-linguists.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2011-09-24-lapszemle-24.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-10-02-sublexical-semantics.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2011-10-04-introduction-to-scientific-workflows.md": [
+   "A szakma",
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2011-10-05-konyvismerteto-data-mining-with-rattle.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2011-10-07-lapszemle.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-10-09-szamitastudomany-titkos-tortenete.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2011-10-14-lapszemle-14.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2011-10-24-konyvismerteto-faceted-search.md": [
+   "Statisztika és R",
+   "Korpuszépítés és annotáció",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-10-26-hitelvalsag-es-nyelv-avagy-miert-ne.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2011-10-31-so-you-want-real-job.md": [
+   "A szakma"
+  ],
+  "content/archivum/2011-11-03-konyvismerteto-lean-startup.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2011-11-10-konyvismerteto-personal-kanban.md": [
+   "Tudományfilozófia",
+   "A blog életéről"
+  ],
+  "content/archivum/2011-11-16-this-post-is-cross-posted-on-clojurelx.md": [
+   "A szakma"
+  ],
+  "content/archivum/2011-11-17-natural-language-processing-nltk.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2011-11-23-kereso-mobilvilag.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2011-11-28-road-map-or-n1-steps-to-enlightenment.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2011-12-05-mszny-2011-elmenybeszamolo.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2011-12-08-igy-gondozd-nyelveszedet-avagy.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2011-12-23-mas-valtozas-szele.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2011-12-28-kispenzu-onkepzo-stanfordra-menne.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2011-12-30-konyvismerteto-clojure-in-action.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2012-01-03-igy-gondozd-nyelveszedet-avagy-2.md": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2012-01-08-hello-nlp.md": [
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2012-01-09-information-diet-case-for-conscious.md": [
+   "Korpuszépítés és annotáció",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2012-01-13-lapszemle-2-het.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2012-01-14-what-makes-clojure-different.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2012-01-27-lapszemle-4-het.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-02-03-lapszemle-5-het.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-02-14-ketto.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2012-02-20-konyvismerteto-pierce-introduction-to.md": [
+   "Statisztika és R",
+   "Logika és matematika"
+  ],
+  "content/archivum/2012-02-27-konyvismerteto-drew-conway-john-myles.md": [
+   "Statisztika és R",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2012-02-29-konyismerteto-huff-how-to-lie-with.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2012-03-02-lapszemle-9-het.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2012-03-05-hungarian-natural-language-processing.md": [
+   "NLP meetupok",
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "content/archivum/2012-03-17-konyvismerteto-michaelson-introduction-17.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2012-03-19-nyelv-es-gondolkodas-paradigmak-atfedo.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2012-03-20-nyelvi-modellek.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-03-23-euroclojure-megyunk.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2012-03-30-lapszemle-13-het.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-04-02-book-review-natural-language-annotation.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2012-04-06-lapszemle-14-het.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-04-07-fonemak-es-hasonulasok.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2012-04-13-lapszemle-15-het.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-04-16-filmismerteto-joy-of-stats.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2012-04-20-lapszemle-16-het.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-04-26-r-idosebbeknek-es-halandoknak.md": [
+   "Statisztika és R",
+   "Korpuszépítés és annotáció",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2012-04-27-lapszemle-17-het.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2012-05-01-konyvismerteto-widdows-geometry-and.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2012-05-04-elso-magyar-nlp-meetup.md": [
+   "A szakma",
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2012-05-05-lapszemle-18-het.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-05-13-lapszemle-19-het.md": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2012-05-17-konyvismerteto-wohlsen-biopunk-diy.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2012-05-18-lapszemle-20-het.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2012-05-29-konyvlista.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2012-06-01-lapszemle-21-es-22-het.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-06-02-r-tutorial-elott.md": [
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2012-06-07-lapszemle-23-het.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-06-19-lego-turing-gep.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2012-06-20-kik-azok-quantok.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-06-24-bjmt-alkalmazott-matematikai.md": [
+   "A szakma",
+   "Paradigmák és nyelvelméletek",
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2012-07-04-allas-python-fejlesztopulilab.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2012-07-09-book-review-business-model-generation.md": [
+   "Statisztika és R",
+   "Korpuszépítés és annotáció",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2012-07-10-statistics-and-sandels-justice.md": [
+   "Paradigmák és nyelvelméletek",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2012-07-17-book-review-manga-guide-to-linear.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2012-07-25-meetup-utan.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2012-07-29-meetup-video-tyler-schnoebelen-gender.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-08-01-another-logic-programming-reading-list.md": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2012-08-03-meetup-video-ingo-feinerer-distributed.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-08-09-online-kurzusok-1-hogyan-induljunk-el.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2012-08-15-statistics-and-r-for-linguists-reading.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2012-08-22-goldenblog.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2012-08-23-bigmemory-don-drown-in-data.md": [
+   "A szakma",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2012-08-30-konyvismerteto-head-first-software.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2012-08-31-olvasonaplo-1.md": [
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2012-09-01-nlp-meetup-enterprise-search-hadoop.md": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2012-09-06-a-hauser-affer.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2012-09-07-filmajanlo-freakonomics-movie.md": [
+   "Lapszemle",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-09-08-book-review-introducing-regular.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2012-09-10-nlp-matine.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2012-09-12-olvasonaplo-2-computational-social.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-09-17-nlp-meetup-we-have-new-comfirmed-speaker.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2012-09-18-scientific-computing-vs-software.md": [
+   "Tudományfilozófia",
+   "Nyílt szoftver és tervezés",
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2012-09-21-new-confirmed-speaker-zoltan-toth-pig.md": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2012-09-25-filmajanlo-thinking-machine-1961.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2012-09-26-vigyazzunk-big-dataval.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2012-10-02-hvg-jovo-20-ajanljuk-magunkat.md": [
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2012-10-02-oktoberi-konferenciak.md": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-10-08-filmajanlo-wittgenstein.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2012-10-09-konyvismerteto-guide-to-advanced.md": [
+   "Statisztika és R",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-10-12-konyvismerteto-geometry-of-information.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2012-10-13-allaslehetoseg-junior-python-programozo.md": [
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2012-10-13-digitalis-bolcseszet-ma-pazmanyon.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2012-10-14-nlp-matine-okt-26-an.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2012-10-17-konyvismerteto-understanding-search.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2012-10-19-megujult-google-ngram-viewer.md": [
+   "Nyelvelemző eszközök"
+  ],
+  "content/archivum/2012-10-29-six-provocations-for-big-data.md": [
+   "Tudományfilozófia",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-10-30-egy-masik-metaforamasina.md": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2012-11-07-konyvismerteto-godel-proof.md": [
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2012-11-14-konyvismerteto-toyota-modszer.md": [
+   "Statisztika és R",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2012-11-16-evadzaro-meetup-november-21-en.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2012-11-19-scheme-kiralyi-ut-funkcionalis.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2012-11-20-hogy-allunk-funkcionalis-programozassal.md": [
+   "NLP meetupok",
+   "A blog életéről"
+  ],
+  "content/archivum/2012-11-30-konyvismerteto-lean-szemlelet.md": [
+   "Statisztika és R",
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2012-12-06-mire-jo-funkcionalis-programozas.md": [
+   "Programozás nyelvészeknek",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-12-07-try-r-ingyenes-statisztikai-programozas.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2012-12-10-konyvismerteto-digitalhumanities.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-12-12-kategoriaelmelet-es-jquery.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2012-12-13-prismatic.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2012-12-18-fp-es-termekfejlesztes.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2012-12-19-matematika-felnotteknek.md": [
+   "Kurzusok és önképzés",
+   "Logika és matematika",
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2012-12-21-egy-kis-kategoriaelmelet.md": [
+   "Statisztika és R",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2013-01-02-harom-ev.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2013-01-11-miert-unom-disztribucios-szemantikat.md": [
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek",
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2013-01-16-konyvismerteto-facts-are-sacred-power.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2013-01-18-facebook-graph-search.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2013-01-19-bolcseszek-kulcs-sikerhez.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2013-01-22-konyvismerteto-zenon-es-teknosbeka.md": [
+   "Tudományfilozófia",
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2013-01-23-hunmorph-foma-uj-nyelvtani-analizator.md": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2013-01-23-nem-minden-technologia.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2013-01-28-adatujsagiras-hack-day-van-otleted.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2013-01-30-whispersync-for-voice.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2013-01-31-termeszetes-nyelvi-kereses-mobil-es.md": [
+   "Adatújságírás és nyílt adat",
+   "Lapszemle"
+  ],
+  "content/archivum/2013-02-03-philang-2013.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2013-02-05-inklink-2013.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2013-02-07-cilc-2013.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2013-02-08-neked-divat-mondja-meg.md": [
+   "Tudományfilozófia",
+   "Logika és matematika"
+  ],
+  "content/archivum/2013-02-13-technikai-e-konyvek.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2013-02-18-konyvismerteto-reszeg-bolyongas.md": [
+   "Statisztika és R",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2013-02-18-sometimes-you-gotta-run-before-you-can.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2013-02-20-web-intelligence-nlp-meetup-februar-28.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2013-02-21-google-glass.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2013-02-25-design-thinking.md": [
+   "Startup és termékfejlesztés",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2013-03-04-a-logicomix-ingyen-olvashato.md": [],
+  "content/archivum/2013-03-06-inklink-2013-2.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2013-03-08-szovegvizualizacio-terkepen.md": [
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2013-03-12-miert-most-az-underground-trendi.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2013-03-13-konyvismerteto-valoszinuseg.md": [
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2013-03-18-egy-kep-tobbet-er-ezer-szonal.md": [
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2013-03-19-mit-mond-az-internet-nlp-meetup-marcius.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2013-03-21-funkcionalis-programozas-es-big-data.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2013-03-22-dzsihad-es-nlp.md": [
+   "A szakma",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2013-03-25-arab-tavasz-es-nlp.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/archivum/2013-03-26-hirek-maskepp.md": [],
+  "content/archivum/2013-03-27-nlp-meetup-programvaltozas.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2013-03-29-probabilisztikus-programozas.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2013-04-03-inklink-program.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2013-04-08-inklink-videok-ustream-en.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés",
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2013-04-10-mire-jo-probabilisztikus-programozas.md": [
+   "A szakma",
+   "Paradigmák és nyelvelméletek",
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2013-04-12-fogadjunk.md": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "content/archivum/2013-04-17-brenda-lelke.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2013-04-19-szoveges-informacio-vizualizacioja.md": [
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2013-04-23-szoveges-informacio-vizualizacioja-23.md": [
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2013-04-24-szoveges-informacio-vizualizacioja-24.md": [
+   "Paradigmák és nyelvelméletek",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2013-05-03-szezonzaro-nlp-meetup.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2013-05-20-kodvaltas.md": [
+   "A szakma",
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2013-05-24-valtozas.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2020-01-10-magyarorszag-demografiai-valtozasai.md": [
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2020-01-20-minek-nevezzelek-keresztnevadasi-szokasok-2000-es-2017-kozott.md": [
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2020-04-20-a-haza-minden-elott.md": [
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2020-06-04-trianon-100-interju-a-kossuth-radioban.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2020-06-04-trianon-100-mi-a-baj-trianonnal.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/archivum/2020-06-08-trianon-100-hosszabb-interju-a-kossuth-radioban.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2020-06-15-algoritmikus-ujsagiras-es-fake-news-interju-a-kossuth-radioban.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2020-08-08-gpt-3-nyelvmodellek-ai-es-szoveggeneralas-interju-a-kossuth-radioban.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2020-08-18-koronavirus-es-metaforak-beszelgetes-a-civil-radioban.md": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2020-08-19-hatvan-ev-dalszovegei.md": [
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2020-08-25-koronavirus-es-metaforak-2-beszelgetes-a-civil-radioban.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2020-09-08-koronavirus-es-metaforak-3-beszelgetes-a-civil-radioban.md": [
+   "Korpuszépítés és annotáció"
+  ],
+  "content/archivum/2020-09-10-igy-fonodnak-ossze-a-magyar-zenei-elet-nagy-alakjai.md": [
+   "Szövegvizualizáció"
+  ],
+  "content/archivum/2020-09-30-dobbasszusszoveg-budapest-science-meetup-eloadas.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2020-10-06-mirol-szolnak-a-magyar-dalszovegek-interju-a-kossuth-radioban.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2020-10-26-trianon-a-metaforakban-tovabbhagyomanyozodo-fajdalom.md": [],
+  "content/archivum/2020-11-04-a-joslas-algoritmusa-konyvajanlo.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2020-11-05-mesterseges-intelligencia-interju-a-bezs-radioban.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2020-11-25-100-szoban-budapest-tartalomelemzes.md": [
+   "A blog életéről"
+  ],
+  "content/archivum/2020-11-30-100-szoban-budapest-interju.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2020-12-03-100-szoban-budapest-karc-fm-interju.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2020-12-05-100-szoban-budapest-interju-a-kossuth-radioban.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2020-12-14-mit-tudnak-a-nyelvmodellek-interju-a-kossuth-radioban.md": [],
+  "content/archivum/2020-12-30-mesterseges-intelligencia-es-az-uj-ev-interju-a-radio-bezsben.md": [
+   "Programozás nyelvészeknek"
+  ],
+  "content/archivum/2021-02-03-oroklet-chatbotkent-interju-a-kossuth-radioban.md": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "content/archivum/2021-05-11-mire-jok-a-chatbotok-es-hol-tart-ma-az-ember-gep-interakcio-interju-a.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2021-05-19-eszpresszo-arkhimedesszel-matematikafilozofia-mindenkinek.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2021-05-21-a-tudomany-tudomanya-konyvismerteto.md": [
+   "Tudományfilozófia",
+   "Logika és matematika"
+  ],
+  "content/archivum/2021-05-25-a-gondolkodas-forradalma-hogyan-alakitja-a-matematika-a-vilagot.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2021-06-03-mikepp-valt-tudomannya-a-matematika-szabo-arpad-es-a-gorog-matematika.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2021-06-17-enigma-az-adattudomany-mindig-is-csapatmunka-volt.md": [
+   "Tudományfilozófia",
+   "Logika és matematika"
+  ],
+  "content/archivum/2021-08-25-konyvismerteto-rangsorolas-egy-ossznepi-tarsasjatek-iratlan-szabalyai.md": [
+   "Logika és matematika",
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2021-09-28-uj-kanyart-vesz-a-duna-varos-es-taj-kozosseg-es-kozlekedes.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2022-03-24-koynvismerteto-adatdetekitv-10-egyszeru-szabaly-hogy-ne-tudjanak.md": [
+   "Logika és matematika",
+   "Statisztika és R"
+  ],
+  "content/archivum/2022-04-08-techno-retro.md": [
+   "Kurzusok és önképzés"
+  ],
+  "content/archivum/2022-04-12-rekreacios-logika-es-szamitastudomany-mindenkinek.md": [
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2022-04-25-ne-pazarold-el-a-lehetoseget-amit-egy-jo-kis-valsag-a-kezedbe-ad.md": [
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2022-05-04-magyarorszagon-konnyebb-kocsmat-talalni-mint-orvost.md": [
+   "Startup és termékfejlesztés"
+  ],
+  "content/archivum/2022-05-30-online-3d-modell-a-vi-nemzetkozi-epiteszeti-makettfesztivalon.md": [
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2022-07-05-szorakoztato-kozgazdasagtan-es-tarsadalomtudomany-mindenkinek.md": [
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "content/archivum/2022-07-15-konyvajanlo-emberek-es-gepek-avagy-mit-kell-tudni-ma-a-mesterseges.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2022-08-05-konyvajanlo-a-megismeres-epitokovei-kocsmafilozofia-helyett-ezt.md": [
+   "A szakma"
+  ],
+  "content/archivum/2022-08-22-konyvajanlo-minden-amit-a-terkepekrol-tudni-kell.md": [
+   "Statisztika és R"
+  ],
+  "content/archivum/2022-10-10-szuksegunk-van-a-hangodra.md": [
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2022-10-14-segitunk-ha-adatos-szakemberre-van-szukseged.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2022-11-14-szovegelemzes-es-ai-eloadasaink-a-neumann-konferencian.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2022-12-08-tudomanyfilozofia-ha-erdekel-mi-a-fene-az-a-tudomany.md": [
+   "Tudományfilozófia",
+   "Logika és matematika"
+  ],
+  "content/archivum/2022-12-14-nyelvmodellek-kurzusunk-anyagai.md": [
+   "Hálózatok és eszközök"
+  ],
+  "content/archivum/2022-12-19-jovonk-a-robotok-koraban-hogyan-alakitja-a-mesterseges-intelligencia.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2023-02-07-mesterseges-intelligencia-a-konyvtarakban.md": [
+   "NLP meetupok"
+  ],
+  "content/archivum/2023-02-13-a-kinai-ut-a-technologiaban.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2023-02-15-a-chatgpt-mindent-megvaltoztat.md": [
+   "Lapszemle"
+  ],
+  "content/archivum/2023-02-23-a-rugalmas-agy-miert-tanulunk-hatekonyabban-mint-a-gepek.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/archivum/2023-03-21-aki-nem-hasznalja-a-chatgpt-t-es-a-mesterseges-intelligenciat-az.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2023-05-10-konyvismerteto-neumann-janos-az-ember-a-jovobol.md": [
+   "Logika és matematika"
+  ],
+  "content/archivum/2023-06-19-papagaj-vagy-orakulum.md": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "content/archivum/2023-06-30-ki-a-fene-az-az-alan-turing.md": [
+   "Tudományfilozófia",
+   "Logika és matematika"
+  ],
+  "content/archivum/2024-05-29-rag-a-gyakorlatban-aprilisi-meetup-videok.md": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "content/posts/2026-09-18-cognitive-debt.md": [
+   "Statisztika és R"
+  ],
+  "content/posts/2026-09-18-muslica.md": [
+   "Mesterséges intelligencia"
+  ],
+  "content/posts/2026-09-23-llm-emotions.md": [
+   "Korpusznyelvészet"
+  ],
+  "content/posts/2026-09-24-jev-system-1.md": [
+   "Logika és matematika"
+  ],
+  "content/posts/2099-01-01-jovobeli-teszt.md": [
+   "Korpuszépítés és annotáció"
+  ]
+ },
+ "sorok": {
+  "https://blog.crowintelligence.org/hu/2020/06/15/algoritmikus-ujsagiras-es-fake-news-interju-a-kossuth-radioban/": [
+   "Statisztika és R",
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "https://blog.crowintelligence.org/hu/2020/08/08/gpt-3-nyelvmodellek-ai-es-szoveggeneralas-interju-a-kossuth-radioban/": [
+   "Korpuszépítés és annotáció"
+  ],
+  "https://blog.crowintelligence.org/hu/2020/10/06/mirol-szolnak-a-magyar-dalszovegek-interju-a-kossuth-radioban/": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés",
+   "Startup és termékfejlesztés"
+  ],
+  "https://blog.crowintelligence.org/hu/2020/11/05/mesterseges-intelligencia-interju-a-bezs-radioban/": [
+   "Mesterséges intelligencia"
+  ],
+  "https://blog.crowintelligence.org/hu/2020/12/05/100-szoban-budapest-interju-a-kossuth-radioban/": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://blog.crowintelligence.org/hu/2020/12/14/mit-tudnak-a-nyelvmodellek-interju-a-kossuth-radioban/": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://blog.crowintelligence.org/hu/2020/12/30/mesterseges-intelligencia-es-az-uj-ev-interju-a-radio-bezsben/": [
+   "Mesterséges intelligencia"
+  ],
+  "https://blog.crowintelligence.org/hu/2021/02/03/oroklet-chatbotkent-interju-a-kossuth-radioban/": [],
+  "https://blog.crowintelligence.org/hu/2021/05/11/mire-jok-a-chatbotok-es-hol-tart-ma-az-ember-gep-interakcio-interju-a-kossuth-radioban/": [
+   "Korpuszépítés és annotáció",
+   "Nyelvelemző eszközök"
+  ],
+  "https://crowintelligence.org/aporia/epistemic-arcade/": [
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek",
+   "Korpusznyelvészet"
+  ],
+  "https://crowintelligence.org/aporia/homer/": [
+   "Paradigmák és nyelvelméletek",
+   "Tudományfilozófia"
+  ],
+  "https://crowintelligence.org/aporia/magyar-dalszovegek-essze/": [
+   "Szövegvizualizáció"
+  ],
+  "https://crowintelligence.org/aporia/nagel-essay/": [
+   "Mesterséges intelligencia"
+  ],
+  "https://crowintelligence.org/aporia/wittgenstein/": [
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://docs.google.com/presentation/d/e/2PACX-1vSFhGG_A6QDdJF54sekTBHAyorm2SHb6F7AAHOOOHlpchSDLUz9XGGEBzy-u04p1t_i-Zt54WB6Rxl4/pub?start=false&loop=false&delayms=3000": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://docs.google.com/presentation/d/e/2PACX-1vSxIh-9aYfUurHNLEQw6Y-UamdEPzopgK9jTzyss4P_ChUr9B5mcn9PiN12pIQ9GX0loi_nUXvKU8Dv/pub?start=false&loop=false&delayms=3000": [
+   "Korpuszépítés és annotáció"
+  ],
+  "https://k-monitor.github.io/": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2011/09/13/baidu_zz_egy_kicsit_es_maris_megtudod_a_google_vero_kinai_kereso_bemutatkozik": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2011/09/28/mobil_vs_desktop_kereses": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2011/10/04/keressuk_a_jovot": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2011/10/11/felkapott_temak_keresese": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2011/10/16/mindenre_van_app_de_hol": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2011/10/25/a_szavak_titkos_elete_747": [
+   "Paradigmák és nyelvelméletek",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2011/11/02/kerdezz_felelek_957": [
+   "Statisztika és R",
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2011/11/08/bolcs_keresok": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2011/11/23/mobil_keresovilag": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2011/11/28/a_kereses_fejlodese_hat_percben": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2011/12/06/feltorekvo_keresok_1": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2011/12/13/feltorekvo_keresok_2": [
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2011/12/20/keressunk_kozosen": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2012/01/03/az_oroszok_mar_a_spajzban_vannak_badogosokkal_receptekkel_bolcseszekkel": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/01/10/kereso_olvasok": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/01/17/dragon_go_a_buvos_sarkany": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/01/22/search_google": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/01/31/hirek_maskepp": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/03/06/adat_piac_2_resz": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/03/13/adat_piac_3_resz": [],
+  "https://kereses.blog.hu/2012/03/20/google_knowledge_graph": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/03/27/linkeskedesbol_jeles_bitly": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/04/17/discovertext_a_szovegfelfedezo": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/04/24/wavii_kozossegi_hirfolyam": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/05/01/adatujsagiras_1": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/05/08/trapit_avagy_megint_egy_kozossegi_hirolvaso": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/05/14/elso_magyarl_nlp_meetup": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/05/15/weotta_mit_csinalsz_ma": [
+   "Korpusznyelvészet",
+   "Statisztika és R",
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2012/05/22/silk_adatra_fel": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/05/26/szovegbanyaszat_minden_mennyisegben": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2012/05/29/gavagai_a_nyulon_tul": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/06/05/penzkeresok": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2012/06/12/kereses_big_data": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/06/19/adatujsagiras_2": [
+   "Hálózatok és eszközök"
+  ],
+  "https://kereses.blog.hu/2012/07/03/elso_a_mobil": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2012/07/10/google_now_a_gondolatolvaso": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2012/07/17/mennyire_erett_a_nyelvtechnologia_ma": [
+   "A szakma"
+  ],
+  "https://kereses.blog.hu/2012/07/24/a_big_data_nagy_de_mirol_szol": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/07/30/google_handwrite_keress_kezirassal_mobileszkozon": [
+   "Hálózatok és eszközök"
+  ],
+  "https://kereses.blog.hu/2012/07/31/rt_ly_most_mi_van": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2012/08/03/hungarian_natural_language_processing_meetup_eloadas_videok": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2012/08/07/mi_koze_van_a_palackorru_delfineknek_a_valosideju_kereseshez": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/08/14/newsle_kozszajon_forog": [
+   "Adatújságírás és nyílt adat",
+   "NLP meetupok",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/08/21/prediktiv_analitika_mint_szolgaltatas": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2012/08/28/nuance_beszedtechnologia_mint_szolgaltatas": [
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2012/09/04/bluefin_labs_az_uj_nielsen": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2012/09/11/nlp_meetup_hirek": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2012/09/13/hunlp_levelezolista": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/09/18/nlp_meetup_uj_eloado": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2012/09/21/meetup_update": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/09/25/luminoso_a_jozan_esz_fenyenel": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/10/01/goldenblog_827": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2012/10/02/wajam_es_gmail_results_szemelyeskedjunk": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2012/10/09/palantir_az_uj_generacios_elemzo_intezet": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2012/10/15/hvg_jovo_2_0_ajanljuk_magunkat": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2012/10/16/evernote_moleskine_regi_es_uj": [
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2012/10/19/sok_a_szoveg_magyarorszagi_web_konferencia": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2012/10/23/nlp_matine_okt_26-an": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2012/11/20/evadzaro_nlp_meetup_november_21-en": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2012/12/11/wolfram_maskepp": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2012/12/18/kereso_vilag_641": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/01/14/ray_kurzweill_a_google-nel": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2013/01/15/big_data_forradalom": [],
+  "https://kereses.blog.hu/2013/01/16/facebook_graph_search": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2013/01/22/circa_ujsag_vagy_app": [],
+  "https://kereses.blog.hu/2013/01/25/piackutatas_es_big_data": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/01/26/yandex_wonder_ami_a_facebook_graph_search_szeretne_lenni": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/02/05/mobil_beviteli_eszkozok_ujragondolva": [],
+  "https://kereses.blog.hu/2013/02/06/a_twitter_felvasarolta_a_bluefin_labs-t": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/02/07/blackberry_es_az_erintokepernyos_szovegbevitel": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/02/11/yahoo_interest_graph": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/02/12/reverb_a_wordnik_nevet_valtott": [
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2013/02/19/adatujsagiras_a_kezdetek": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/02/21/web_intelligence_nlp_meetup_februar_28-an": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/02/22/2013_a_beszedtechnologia_eve": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2013/02/26/adatujsagiras_merfoldkovek": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/03/05/szol_az_autoradio": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/03/06/inklink_2013_adatujsagiras-nap_aprilis_6-an": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/03/12/silk_indits_sajat_adatblogot": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/03/19/mit_mond_az_internet_nlp_meetup_marcius_27-en": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/03/26/adatujsagiras_vissza_a_gyokerekhez": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/04/02/prismatic_hirolvasas_google_reader_utan": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/04/04/inklink_2013_reszletes_program": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/04/09/adatujsagiras_csinald_magad": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2013/04/10/a_precognox_csatlakozott_a_linguapark_klaszterhez": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/04/16/tarsadalmi_kiserletek_es_big_data": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/04/18/the_revolution_will_not_be_televised": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2013/04/23/parhuzamos_vilagok_az_online_vizsgalodasok_hatarai": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/04/25/milyen_is_az_internet_nyelve": [
+   "Hálózatok és eszközök"
+  ],
+  "https://kereses.blog.hu/2013/04/29/a_google_felvasarolta_a_wavii-t": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/04/30/linkedin_tobb_tartalom_jobb_kereso": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/05/02/gepkocsiba_be": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/05/07/house_of_cards_tartalom_es_big_data": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/05/09/szezonzaro_nlp_meetup": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/05/10/nyari_szakmai_gyakorlati_lehetoseg_a_precognox-nal": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/05/13/amikor_egy_adathiban_nemzetek_sorsa_mulhat": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/05/14/twitter_forradalmak": [
+   "Adatújságírás és nyílt adat",
+   "NLP meetupok",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/05/21/idibon_big_data_babel": [
+   "A szakma",
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2013/05/27/magyar_open_data_hub_indul": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/05/28/marketing_es_nyelv_technologia": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/05/29/ngrammatologia_tul_az_adatokon": [
+   "Szövegvizualizáció"
+  ],
+  "https://kereses.blog.hu/2013/05/30/elindult_a_twitter_tv_ad_targeting": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/05/31/a_tweet_a_lelek_tukre": [],
+  "https://kereses.blog.hu/2013/06/03/juristat_jog_es_big_data": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/06/04/azt_beszeli_mar_az_egesz_varos_118": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/06/05/a_nuance_van_a_siri_beszedfelismeroje_mogott_ez_mar_hivatalos": [
+   "Korpuszépítés és annotáció",
+   "Nyelvelemző eszközök"
+  ],
+  "https://kereses.blog.hu/2013/06/06/a_nuance_felvasarolta_a_tweddle_group-ot": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/06/07/lombiq_bemutatkozas": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/06/10/a_twitter_belep_a_tartalomiparba": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/06/13/nyelvtechnologia_gyuloletbeszed_es_genocidium_ellen": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/06/14/twitter_forradalom": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/06/17/mire_jo_a_szentimentelemzes": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/06/18/szentimentelemzes_es_kontextus": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2013/06/19/journalism_plus_plus_europai_adatujsagirok_halozata": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/06/20/az_amerikai_gyuloletbeszed_geografiaja": [
+   "Logika és matematika",
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2013/06/21/csak_a_szoveg": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2013/06/26/nekunk_elmelet_kell": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2013/06/27/kognitiv_nyelveszet_es_politikai_marketing": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2013/06/28/mire_jo_az_adatujsagiras": [
+   "Hálózatok és eszközök"
+  ],
+  "https://kereses.blog.hu/2013/07/15/compss_ajanlo": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/07/16/megeri_keresomarketingre_kolteni": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/07/17/grafadatbazisok": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/07/18/big_data_goes_to_hollywood": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/07/19/trayvon_martin_ugy_a_twitteren": [
+   "Logika és matematika",
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2013/07/22/graph_databases_ingyenes_ekonyv": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2013/07/23/watchup_a_szemelyes_video_hircsatorna": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/07/24/small_data": [
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2013/07/25/fogyasztoi_hangulat_merese_online_szovegekre_alapozva": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/07/26/csoportviselkedes_feltarasa_szervezeteken_belul": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/07/29/szentimentelemzesre_alapozott_dontesek": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2013/07/30/mit_arul_el_rolad_a_twitter_fiokod": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/07/31/lobbicsoportok_es_civil_mozgalmak_halozatainak_alakulasa_a_sopa-pipa_vita_kapcsan": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/08/01/a_big_data_buktatoi": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/08/02/az_adatujsagiras_utan_itt_a_javascript_ujsagiras": [
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2013/08/05/szavak_varosok_long_tail_es_a_80_20_szabaly": [
+   "Korpuszépítés és annotáció",
+   "Nyelvelemző eszközök"
+  ],
+  "https://kereses.blog.hu/2013/08/06/gyuloletbeszed_es_szexualis_zaklatas_a_twitteren": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/08/07/az_online_tartalomelemzes_hatarai": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/08/08/uj_algoritmus_a_halozatok_jobb_megismeresere": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2013/08/09/serendip-o-matic_csodalkozz_a_bibliografiadra": [],
+  "https://kereses.blog.hu/2013/08/12/mindennapi_metaforak": [
+   "Paradigmák és nyelvelméletek",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2013/08/20/papai_vizeken_ne_kalozkodj_segitenek_ebben_a_sparql_endpointok": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2013/08/22/egyre_individualistabb_a_nyelv": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/08/28/budapest_bi_forum_2013_november_6": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/08/29/a_sziriai_polgarhaboru_a_gdelt_adatbazison_keresztul": [
+   "Szövegvizualizáció"
+  ],
+  "https://kereses.blog.hu/2013/08/30/precognox_labs_beszedfelismeros_cegkereso": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/09/04/epsi_platform_workshop_2013_oktober_2_budapest": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2013/09/05/legyel_az_nlp_meetup_szervezoje": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/09/06/az_opendata_hu_teszteloket_keres": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/09/09/precognox_labs_text_extractor": [],
+  "https://kereses.blog.hu/2013/09/10/precognox_labs_entity_extractor": [
+   "Nyelvelemző eszközök"
+  ],
+  "https://kereses.blog.hu/2013/09/11/precognox_labs_news_tagger": [
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2013/09/12/precognox_labs_szentimentelemzo": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/09/13/precognox_labs_twitter_sentiment_analyzer": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/09/17/megjosolhatoak_a_forradalmak": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/09/20/open_source_intelligence_konferencia_2013_oktober": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/09/24/szotar_egy_ora_alatt_kutatok_ejszakaja_szeptember_27-en": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/09/25/nyilt_adatok_open_access_konferencia_a_w3c_magyar_iroda_szervezeseben_oktober_3-an": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/09/27/mire_jok_a_tudomanyos_modellek": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2013/09/30/google_hummingbird": [
+   "Szövegvizualizáció"
+  ],
+  "https://kereses.blog.hu/2013/10/02/opendata_hu_honositok_kerestetnek": [
+   "Hálózatok és eszközök"
+  ],
+  "https://kereses.blog.hu/2013/10/08/adatra_fel": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2013/10/10/george_lakoff_ceu_2013_oktober_16-an": [
+   "Mesterséges intelligencia",
+   "Nyílt szoftver és tervezés",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2013/10/17/tozsdere_megy_a_twitter": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/10/18/nomen_est_omen_avagy_mit_arul_el_rolunk_a_nevunk": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2013/10/22/a_precognox_megjelent_az_usa_piacan": [
+   "Startup és termékfejlesztés",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/10/24/gepi_forditas_maskepp": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/10/29/hirelemzes": [],
+  "https://kereses.blog.hu/2013/10/30/a_sajat_kis_vilagunk_mit_kezdjunk_a_filter_bubble_jelenseggel": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2013/10/31/lajkolj_s_megmondom_ki_is_vagy": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/11/05/a_facebook_tudja_kivel_kavarsz_akkor_is_ha_nem_jelolod_a_profilodon": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/11/06/funkcionalis_programozas_divat_vagy_van_benne_valami": [
+   "Logika és matematika",
+   "Korpusznyelvészet",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2013/11/12/context_szoveganalitika_magyarul_2013_november": [
+   "Startup és termékfejlesztés",
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2013/11/14/budapest_users_of_r_network_2013_november": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/11/15/kozossegi_hirdetes_a_facebookon": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/11/19/a_levelek_koztarsasaga": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/11/20/adatok_statisztika_uzlet": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/11/21/miert_buknak_el_nemzetek_es_mi_koze_van_ennek_a_nyilt_adatokhoz": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés",
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/11/22/data_science_kicsit_maskepp": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/11/28/r_meetup_prezentacio": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/11/29/a_szavak_titkos_elete_context_prezentaciom": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/11/30/szovegbanyaszat_burn_meetup_eloadas": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/12/02/ki_a_bura_alol": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2013/12/10/elindult_az_online_politikai_elemzesek": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/12/10/milyen_legyen_jovore_a_kereso_vilag": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2013/12/11/peldakep_alapitvany_kozonsegszavazas": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2013/12/12/szoveges_tartalom_feltarasa_mibe-klub_2013_dec": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2013/12/13/evertekelo_974": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/12/16/grannatik_a_tudomany_csajos_dolog": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2013/12/18/politikai_velemenyarfolyam_avagy_mirol_beszel_az_internet_nepe": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/01/09/a_precognox_nyelvesz_gyakornokokat_keres": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2014/01/20/big_data_search_big_data_meetup_2014_februar": [
+   "Adatújságírás és nyílt adat",
+   "NLP meetupok",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/01/24/a_clementine_consulting_szoveganalitikai_elemzot_keres": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2014/01/27/a_neticle_technologies_online_evangelist_trainee-t_keres": [
+   "Nyílt szoftver és tervezés",
+   "Adatújságírás és nyílt adat",
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/01/28/jarvis_mar_majdnem_itt_van_koztunk": [
+   "Korpusznyelvészet",
+   "Statisztika és R",
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2014/01/30/a_radikalis_jobboldal_a_halozatelemzok_kedvence": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2014/02/03/a_legjobb_tudomanyos_blogokat_debrecenben_irjak": [
+   "Paradigmák és nyelvelméletek",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2014/02/05/senior_java_fejlesztot_keresunk_kaposvari_irodankba": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2014/02/06/a_google_mint_adatkereso": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/02/10/hirelemzo_uj_projekt_a_precognox_labs-ben": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/02/11/commoncrawl_ha_unod_a_kis_adathalmazokat_akkor_148tb-ot_elemezhetsz_a_segitsegevel": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/02/14/egy_igazan_big_data_projekt_a_precognox_labs-ben": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/02/17/big_data_meetup_prezentacio": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/02/18/evadnyito_nlp_meetup_2014_februar_20-an": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/02/19/konyajanlo_the_information_a_history_a_theory_a_flood": [
+   "Logika és matematika",
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2014/02/20/konyvajanlo_the_theory_that_would_not_die": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2014/02/26/igy_cenzurazd_az_internetet": [
+   "Startup és termékfejlesztés",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/02/27/fogalmi_metaforak": [
+   "Korpusznyelvészet",
+   "Statisztika és R",
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2014/03/04/de_mihez_kezdjunk_a_big_data-val": [],
+  "https://kereses.blog.hu/2014/03/11/precognox_cebit": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/03/17/konyvajanlo_taming_text": [
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2014/03/21/alan_turing_institute_brit_tudosok_es_a_big_data": [],
+  "https://kereses.blog.hu/2014/03/24/mi_az_a_nowcasting": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/03/25/elindult_a_kozbeszerzes_ceu_hu_oldal": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/04/01/trading_consequences_gazdasagtortenet_es_nyelvtechnologia": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/04/02/ceu_microdata_is_hiring_a_junior_programmer_to_perform_text_analytics_tasks": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2014/04/03/robotok_bevandorlok_a_jovobol": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2014/04/15/az_angol_bizony_nem_eleg": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2014/04/17/making_sense_of_data_google_mooc_kurzus": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2014/04/18/a_rut_kiskacsa_meg_az_ingyen_ebed": [],
+  "https://kereses.blog.hu/2014/04/21/beszelj_a_dronodhoz": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2014/04/23/nyelveszet_mindenkinek": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2014/04/24/ezek_csak_szavak_amik_rolunk_arulkodnak": [
+   "Paradigmák és nyelvelméletek",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2014/04/28/gepi_tanulas_mindenkinek_machine_learning_with_r": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2014/04/29/iparba_nyelveszek": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2014/04/29/nlp_meetup_aprilis_30-an_internetes_josda": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2014/05/03/nyelveszet_mindenkinek_145": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2014/05/05/nincs_rossz_reklam": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2014/05/06/bizzunk_a_gepekben": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2014/05/07/nlp_matine_juniusban": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/05/12/nlp_meetup_majus_28-an_viselkedunk_a_neten": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2014/05/14/az_adattudomany_sotet_titka": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2014/05/24/elindult_az_r-projekt_hu": [
+   "A szakma"
+  ],
+  "https://kereses.blog.hu/2014/05/29/nlp_meetup_slideok": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2014/06/03/a_bletchley_park_titkos_elete_minden_geek_kotelezo_nyari_olvasmanya": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2014/06/04/nlp_matine_mutasd_meg_magad": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/06/05/a_tarsalgas_pszichologiaja_pragmatika_mindenkinek": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2014/06/09/pepper_az_erzelmes_robot": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2014/06/13/nine_algorithms_that_changed_the_future_kozerthetoen_elmagyarazva": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2014/06/16/swirl_interaktiv_kornyezet_a_statisztika_es_az_r_elsajatitasahoz": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/06/23/quixey_kereso_a_mobil-kornak": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/06/29/nlp_matine_slideok": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/07/02/good_math_logika_szamitaselmelet_es_matek_erdekesen_talalva": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2014/07/19/a_politikai_blogszfera_i": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/07/21/25_ev_tankcsapda_dalainak_topik_eloszlasa": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2014/08/03/magyar_politikai_blogszfera_adatok": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/08/07/magyar_politikai_blogszfera_altalanos_jellemzok": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2014/08/11/nyelvazonositas": [
+   "Paradigmák és nyelvelméletek",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2014/08/12/jobb_szentimentelemzes_deep_learning_hasznalataval": [
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2014/08/15/twitter_dialektologia": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/08/22/nyelveszet_mindenkinek_330": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2014/08/25/kvantumfizika_es_nyelveszet": [
+   "Nyelvelemző eszközök"
+  ],
+  "https://kereses.blog.hu/2014/08/28/szeptember_3-an_r_and_c_a_burn_meeutpon": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/09/01/egyenlotlenseg_es_keresesi_trendek": [
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2014/09/03/plotly_kollaborativ_interaktiv_adatvizualizacio": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/09/05/szeptember_8_elso_kaposvari_szoftverfejleszto_meetup": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/09/08/szeptember_15_budapest_open_knowledge_meetup": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2014/09/09/allas_java_nlp": [
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2014/09/09/jatek_az_erzelmekkel": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/09/16/szeptember_25_nlp_meetup": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/09/18/vendegposzt_slamby_vilagklasszis_ertelmezo_technologia": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2014/09/19/oktober_16_e-kormanyzat_muhelykonferencia_es_budapest_open_knowledge_meetup": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/09/22/mooc_ajanlo_corpus_linguistics_method_analysis_interpretation": [
+   "Nyelvelemző eszközök"
+  ],
+  "https://kereses.blog.hu/2014/09/26/meetup_slideok": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/09/29/learning_by_doing_irjunk_es_teszteljunk_sajat_nyelvtant": [
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2014/10/06/a_szakitas_koreografiaja_a_kozossegi_mediaban": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/10/09/oktober_15_design_es_nlp": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/10/10/egy_igazi_metaforamasina_a_yossarian": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2014/10/14/tartalomelemzes_a_de_bevezetes_a_digitalis_bolcseszetbe_kurzusan_tartott_eloadasom_diai": [],
+  "https://kereses.blog.hu/2014/10/17/design_es_nlp_meetup_slideok": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/10/22/data_analysis_with_r": [
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2014/10/30/valoszinuleg_valoszinu_vagy_valoszinutlen_a_nyelv": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2014/11/02/legyel_hatekony_ipari_kutato": [
+   "Startup és termékfejlesztés",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2014/11/04/november_20_context_szoveganalitika_magyarul": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/11/08/magyar_politikai_blogszfera_webkonf_slide-ok": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2014/11/18/nlp_es_termekfejlesztes_eloadasom_ceu_microdata": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/11/24/data_is_everywhere_nov_25_bok_meetup": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2014/11/25/nlp_eszkozok_magyarra_nov_27_nlp_meetup": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/11/29/a_novemberi_nlp_meetup_diai": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2014/12/12/nlp_nap_a_precognoxnal_avagy_mit_is_csinalunk_mi": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2014/12/15/dec_18_evadzaro_nlp_meetup": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2015/01/02/miert_foglalkozunk_emocioelemzessel_es_politikai_blogokkal": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2015/01/05/rafazhatsz_a_big_data_elemzesevel": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/01/13/miert_nem_kell_felni_attol_hogy_a_mesterseges_intelligencia_atveszi_felettunk_a_hatalmat": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2015/01/21/nem_eleg_okosnak_latszani": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2015/01/27/valtsunk_egyutt_paradigmat_a_nyilt_tudomannyal": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2015/02/02/a_nyolcvanas_es_kilencvenes_evek_slagerei_meg_a_deep_learning": [],
+  "https://kereses.blog.hu/2015/02/05/morvay_gergo_gyakornokunk_elte_almuni_osztondijas": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2015/02/07/eletkepek_kaposvari_irodankbol": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/02/09/kapcsolodjunk_ossze_linked_data_a_kozos_bok_es_nlp_meetupon": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/03/02/kiszamithatoak_vagyunk": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2015/03/04/igy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/03/09/agyas_gepek": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2015/03/14/marcius_27-28_bok_meetup_es_k-monitor_hackathon": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/03/16/szavak_varosok_politikai_blog": [
+   "Szövegvizualizáció"
+  ],
+  "https://kereses.blog.hu/2015/03/18/european_commission_study_of_big_data_and_other_data-driven_approaches_for_policy-making_data4policy": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/03/24/almodnak-e_az_androidok_elektronikus_baranyokkal_810": [
+   "Tudományfilozófia",
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2015/03/31/romaellenes_gyuloletbeszed_kepekben": [],
+  "https://kereses.blog.hu/2015/04/07/hogy_kozoskodnek_a_politikai_blogok_es_hiroldalak": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/04/13/digiwhist_korrupcio_ellen": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/04/14/new_kconnect_search_services_give_healthcare_the_very_best_in_medical_information": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/04/16/olvasni_jo_meetoff_aprilis_23-an": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/04/20/politikai_blogokkal_foglalkozo_projektunk_a_media_hungary-n": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2015/04/22/nlp_eroforrasok_az_aprilisi_meetupon": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2015/04/23/textus_szovegek_halojaban": [
+   "NLP meetupok",
+   "Nyílt szoftver és tervezés",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2015/04/29/nlp_eroforrasok_meetup_prezentaciok": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2015/05/04/racionalitas_erzelmek_nyelv": [
+   "Paradigmák és nyelvelméletek",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2015/05/07/a_google_es_a_mobilod": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/05/08/politikai_blogok_es_hiroldalak_minden_mennyisegben": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/05/11/adatok_es_jogaszok_bok_meetup_majus_14-en": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/05/13/kontextus_es_a_hivatkozasok_ereje_media_hungary_prezentacio": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/05/14/hogy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak_prezentacio": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/05/15/kisvilagunk_a_nyelv": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2015/05/18/brainy_solutions_nlp_meetup_majus_20-an": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2015/05/19/hogy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/05/22/receptkereso_a_precognoxtol": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2015/05/27/a_gepek_meg_nem_fordulnak_ellenunk": [
+   "Logika és matematika"
+  ],
+  "https://kereses.blog.hu/2015/05/28/orban_viktor_orszagertekelo_beszedei_kepekben": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/05/29/mirol_ir_a_kuruc_info_ciganybunozes_rovata": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2015/06/01/halozattudomany_es_nyelv_magyar_konyvek": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2015/06/05/bababeszed_es_grafok": [
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2015/06/08/bababeszed_es_grafok_698": [
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2015/06/17/csak_termeszetesen_443": [
+   "Korpuszépítés és annotáció",
+   "Nyelvelemző eszközök"
+  ],
+  "https://kereses.blog.hu/2015/07/06/hogyan_befolyasolja_a_gondolkodasunkat_a_mindennapi_szamitogep-hasznalat": [
+   "Hálózatok és eszközök"
+  ],
+  "https://kereses.blog.hu/2015/07/09/alternativ_megoldasok_a_potyogesre_mobilon": [
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2015/07/17/a_qwerty-hatasrol": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2015/08/05/neked_is_mindenrol_a_vaj_jut_az_eszedbe": [
+   "Statisztika és R",
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2015/08/13/automatikus_szovegelemzo_api_vegre_magyar_nyelven_is": [],
+  "https://kereses.blog.hu/2015/09/01/kisvilagunk_a_nyelv_2_szemantikai_halozatok": [
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2015/09/03/szeptember_15_bok_meetup_oktatas_es_adatok_vege_a_nyari_szunetnek": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2015/09/07/gondolatolvasas_a_brain-to-text_mar_valosag": [
+   "Kurzusok és önképzés",
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2015/09/17/szuletett_kiborgok_vagyunk": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2015/09/23/jovendomondas_predikcio_a_mult_es_a_jelen_adatai_alapjan": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/10/01/deep_learning_mit_olvassunk": [],
+  "https://kereses.blog.hu/2015/10/07/a_precognox_az_adatozz_okosan_hackathonon": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2015/10/12/deep_learning_mobilon_swiftkey_neural_alpha": [
+   "Korpuszépítés és annotáció",
+   "Nyelvelemző eszközök"
+  ],
+  "https://kereses.blog.hu/2015/10/13/okt_21_open_knowledge_meetup_es_muhelykonferencia_az_e-kereskedelmrol": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/10/14/nov_17-en_context_2015_magyar_szoveganalitikai_konferencia": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/10/19/a_mokuson_tul_avagy_mirol_beszelunk_mi": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2015/10/20/kconnect_ict": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2015/10/22/context_2015_a_regisztracio_elkezdodott": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/10/28/sorok_kozott_olvasva_mibe_konferencia_eloadas": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/11/04/beszelunk_az_erzelmeinkrol_osint_diak": [
+   "Nyílt szoftver és tervezés",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2015/11/05/tanc_es_mesterseges_intelligencia": [
+   "Tudományfilozófia",
+   "Logika és matematika",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2015/11/11/szovegvizualizaciok_a_szofelhokon_tul_precognox_mome_techtea": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2015/11/12/precognox_kconnect_hackathon_sheffield": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2015/11/17/topik_vizualizacio_lda_nyelvi_grafok_es_kulcsszokinyeres_context_slideok": [],
+  "https://kereses.blog.hu/2015/11/18/szovegvizualizaciok_a_szofelhokon_tul_mome_techtea_diak": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2016/01/19/kezirassal_androidon": [
+   "Kurzusok és önképzés"
+  ],
+  "https://kereses.blog.hu/2016/01/29/szovegbanyaszat_a_kurt_akademian": [],
+  "https://kereses.blog.hu/2016/03/11/precognox_hackathon_kaposvaron": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2016/04/26/meetup_slideok_805": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2016/05/09/van_fogalmunk_rola": [
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2016/05/17/magyar_nyelvu_tartalmak_elemzese": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2016/06/07/ezt_olvasd_ha_a_gepi_tanulasba_vagnad_a_fejszedet": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2016/10/11/ezeken_a_konfokon_talalkozhatsz_velunk_oktoberben": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2016/10/26/budapest_ai": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2016/10/27/budapest_bi_forum": [
+   "Szövegvizualizáció"
+  ],
+  "https://kereses.blog.hu/2016/11/29/a_multimodalis_kereses_es_tartalomelemzes_lehetosegei_context": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2017/03/09/mind_reading_and_search_d-kom_budapest": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2017/03/28/illa_berek_nadak_erek_szovegek_kepek_deep_learning_meg_vektorterek_meetoff": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2017/04/04/a_ceu-ugy_a_twitteren_interaktiv_topikmodell_vizualizacio": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2017/04/06/az_egesz_vilag_a_ceu-val_van": [],
+  "https://kereses.blog.hu/2017/04/10/az_alhirek_es_altudomany_elleni_harc_nem_technologiai_kerdes_ez_a_demokraciarol_szol": [
+   "Paradigmák és nyelvelméletek",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2017/04/15/civilek_es_ceu_az_online_mediaban": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2017/04/19/barangolasok_a_szemantikai_terben": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2017/04/21/precognox_startup_safary": [
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2017/04/25/szonifikacio": [
+   "Korpuszépítés és annotáció"
+  ],
+  "https://kereses.blog.hu/2017/04/26/babak_a_hangok_vilagaban": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2017/05/02/mirol_beszelt_orban_viktor": [
+   "Szövegvizualizáció",
+   "Nyelvelemző eszközök"
+  ],
+  "https://kereses.blog.hu/2017/05/05/keszulj_fel_a_robotok_tamadasara": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2017/05/19/mennyit_er_a_kecod": [
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2017/05/22/the_data_deluge_how_big_data_is_changing_our_life_presentation_futurology_forum": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2017/05/25/tul_a_szofelhokon_szovegvizualizacios_gyakorlatok_nlp_meetup": [],
+  "https://kereses.blog.hu/2017/05/30/a_topik_modellek_es_word2vec": [
+   "Statisztika és R"
+  ],
+  "https://kereses.blog.hu/2017/05/31/latens_jelentesek_es_a_szemantikai_ter_workshop": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2017/06/13/real-world_deep_learning_for_nlp_budapest_data_forum": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés",
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2017/06/19/ingatlanhirdetesek_kulcsszavai_jarasok_keruletek_szerint": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://kereses.blog.hu/2017/06/20/milyen_topikokbol_all_egy_ingatlanhirdetes": [
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2017/06/22/magyar_twitter_szentiment_korpusz": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2017/08/18/the_mathematical_corporation": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2017/09/01/az_elmeleti_minimum": [
+   "Tudományfilozófia",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://kereses.blog.hu/2017/09/04/a_migracio_arcai_nyest_hu": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://kereses.blog.hu/2017/09/11/10_eves_a_kereso_vilag": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2017/09/14/hogy_olvas_ujsagot_a_mesterseges_intelligencia_es_mit_lat_a_kepeken_budapest_science_meetup": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2017/09/19/nezzunk_az_adatokba": [
+   "Programozás nyelvészeknek"
+  ],
+  "https://kereses.blog.hu/2017/10/09/igy_keszitunk_statikus_riportokat": [],
+  "https://kereses.blog.hu/2017/10/16/cicak_helyett_muholdak": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2017/10/24/konyvajanlo_heart_of_the_machine_our_future_in_a_world_of_artificial_emotional_intelligence": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2017/11/07/ki_hogy_beszel_es_milyen_kepet_vag_hozza_context": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2017/11/10/big_data_konferencia_pecs_2017_11": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2018/01/30/tenyleg_rossz_meleg_kutyanak_lenni_mit_mondanak_nekunk_errol_a_szobeagyazasi_modellek": [
+   "Paradigmák és nyelvelméletek",
+   "Logika és matematika",
+   "Tudományfilozófia"
+  ],
+  "https://kereses.blog.hu/2018/02/08/emberkozpontu_gepi_tanulas_entrepreneur_dna": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://kereses.blog.hu/2018/02/13/konyvajanlo_weapons_of_math_destruction_how_big_data_increases_inequality_and_threatens_democracy": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2018/02/19/konyvajanlo_machines_of_loving_grace_the_quest_for_common_ground_between_human_and_robots": [],
+  "https://kereses.blog.hu/2018/03/07/gepi_osztalyozas_a_jarokelonel": [
+   "Hálózatok és eszközök"
+  ],
+  "https://kereses.blog.hu/2018/03/27/aprilisban_ezeken_a_rendezvenyeken_talalkozhatsz_velunk": [
+   "NLP meetupok"
+  ],
+  "https://kereses.blog.hu/2018/05/15/gender_bias_in_hungarian_political_discourse": [
+   "A blog életéről",
+   "Lapszemle"
+  ],
+  "https://kereses.blog.hu/2018/05/15/the_nation_in_american_political_discourse": [
+   "A blog életéről"
+  ],
+  "https://kereses.blog.hu/2018/05/18/konyvismerteto_prediction_machines_the_simple_economics_of_artificial_intelligence": [
+   "Mesterséges intelligencia"
+  ],
+  "https://kereses.blog.hu/2018/05/24/a_gep_az_ember_tukre_avagy_hogyan_ne_adjuk_at_sajat_eloiteleteinket_a_mesterseges_ertelemnek": [
+   "Korpusznyelvészet"
+  ],
+  "https://kereses.blog.hu/2018/06/07/mi_az_a_deep_learning": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://soundcloud.com/mannafm/budapest-update-reggeli-manna-hepi-endrevel-es-hudak-anitaval-2020-11-30-6-ora": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés",
+   "Startup és termékfejlesztés"
+  ],
+  "https://www.manning.com/liveproject/getting-started-with-Google-Colab-using-PyTorch": [
+   "Hálózatok és eszközök"
+  ],
+  "https://www.manning.com/liveproject/getting-started-with-google-colab-using-tensorflow": [
+   "Hálózatok és eszközök"
+  ],
+  "https://www.manning.com/liveproject/getting-started-with-jupyter-notebook": [
+   "Hálózatok és eszközök"
+  ],
+  "https://www.manning.com/liveproject/sentiment-analysis-and-natural-language-processing-for-marketing": [
+   "Nyílt szoftver és tervezés",
+   "Adatújságírás és nyílt adat"
+  ],
+  "https://www.mixcloud.com/karcfm/sp%C3%A1jz-2020-12-03-0900-1200-2/": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés",
+   "Startup és termékfejlesztés"
+  ],
+  "https://www.nyest.hu/hirek/a-gep-az-ember-tukre": [
+   "Logika és matematika"
+  ],
+  "https://www.nyest.hu/hirek/a-neuralis-az-uj-szexi": [
+   "Korpuszépítés és annotáció",
+   "Nyelvelemző eszközök"
+  ],
+  "https://www.nyest.hu/hirek/a-szavak-titkos-elete": [
+   "A szakma",
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://www.nyest.hu/hirek/adatok-filozofia-nyelveszet": [
+   "Szövegvizualizáció"
+  ],
+  "https://www.nyest.hu/hirek/apanak-munkaja-van-anyanak-teste": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://www.nyest.hu/hirek/egy-kep-tobbet-mond-ezer-szonal": [
+   "Korpusznyelvészet",
+   "Statisztika és R",
+   "Paradigmák és nyelvelméletek"
+  ],
+  "https://www.nyest.hu/hirek/fizika-a-cicas-kepekert": [],
+  "https://www.nyest.hu/hirek/hogyan-lehet-szamitogepes-nyelvesz": [
+   "A szakma"
+  ],
+  "https://www.nyest.hu/hirek/hogyan-tanuljon-a-mesterseges-intelligencia": [
+   "Nyelvelemző eszközök",
+   "Korpuszépítés és annotáció"
+  ],
+  "https://www.nyest.hu/hirek/minden-nore-legalabb-ket-ferfi-jut-az-online-sajtoban-a-budapest-moszkva-starasbourg-haromszogben": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://www.nyest.hu/hirek/moralis-gepek": [
+   "Tudományfilozófia"
+  ],
+  "https://www.nyest.hu/hirek/par-dolog-amit-tudnod-kell-mielott-elveszik-a-gepek-a-munkadat": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://www.nyest.hu/hirek/verhetjuk-e-nyugodtan-a-robotunkat": [
+   "Logika és matematika"
+  ],
+  "https://www.researchgate.net/publication/220028786_Using_Clojure_in_Linguistic_Computing": [
+   "Korpuszépítés és annotáció",
+   "Nyelvelemző eszközök"
+  ],
+  "https://www.researchgate.net/publication/361286170_Examination_of_online_education_experiences_from_stakeholder_perspective_-_a_Hungarian_case_study": [
+   "NLP meetupok"
+  ],
+  "https://www.slideshare.net/slideshow/budapest-users-of-r-network-2013-november-27/28688245": [
+   "Lapszemle",
+   "A blog életéről"
+  ],
+  "https://www.slideshare.net/slideshow/context-a-szavak-titkos-lete/28741564": [
+   "Startup és termékfejlesztés"
+  ],
+  "https://www.slideshare.net/slideshow/kontextus-s-a-hivatkozsok-ereje/47962309": [
+   "NLP meetupok"
+  ],
+  "https://www.slideshare.net/slideshow/mit-csinl-egy-nyelvsz-egy-it-cgnl/34033475": [
+   "Adatújságírás és nyílt adat",
+   "NLP meetupok"
+  ],
+  "https://www.slideshare.net/slideshow/textus-szvegek-hljban/47237756": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://www.youtube.com/watch?v=4BGROq5YqFQ": [
+   "NLP meetupok",
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ],
+  "https://www.youtube.com/watch?v=TlDt7td7BJA": [
+   "NLP meetupok"
+  ],
+  "https://www.youtube.com/watch?v=nSMY0SjyeEc": [],
+  "https://www.youtube.com/watch?v=sA8TsIWUSCI": [
+   "Adatújságírás és nyílt adat",
+   "Nyílt szoftver és tervezés"
+  ]
+ }
+}

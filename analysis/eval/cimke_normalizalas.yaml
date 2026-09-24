@@ -1,0 +1,57 @@
+# How the author's own historical labels are cleaned before they are used as the
+# yardstick for theme placement. Fixed BEFORE any new-method result is seen, so
+# the yardstick cannot be bent towards the method it judges.
+#
+# Sources: `regi_cimkek_mind` in the archive front matter (Blogspot/WordPress
+# labels) and `cimkek` in data/kereses.yaml (blog.hu tags). Everything is
+# casefolded first.
+
+# Labels that say what KIND of post something is, not what it is ABOUT. A theme
+# is a subject, so agreeing or disagreeing with a genre label is not evidence
+# either way.
+mufaj:
+  - könyvismertető
+  - book review
+  - könyvajánló
+  - filmajánló
+  - ajánló
+  - lapszemle
+  - hírek
+  - interjú
+  - interview
+  - vendégposzt
+  - guest post
+  - meetup
+  - nlp meetup
+  - nlpmeetup
+  - konferencia
+  - előadás
+  - állás
+  - kezdő
+  - blog
+  # Employer and sister companies: on the Kereső Világ blog these mark whose
+  # news it is, not what the post is about.
+  - precognox
+  - precognox labs
+  - inklink
+  - neticle
+
+# Spelling variants and Hungarian/English pairs that mean the same subject.
+# variant: canonical
+osszevonas:
+  computational linguistics: számítógépes nyelvészet
+  linguistics: nyelvészet
+  natural language processing: nyelvtechnológia
+  nlp: nyelvtechnológia
+  data science: adatok tudománya
+  adatvizualizáció: vizualizáció
+  open data: nyílt adat
+  opendata.hu: nyílt adat
+  ai: mesterséges intelligencia
+  machine learning: gépi tanulás
+  szabd szoftver: szabad szoftver
+  free software: szabad szoftver
+
+# A label used on fewer documents than this cannot say two writings belong
+# together, so it is dropped. Counted per source, after merging.
+min_df: 2
