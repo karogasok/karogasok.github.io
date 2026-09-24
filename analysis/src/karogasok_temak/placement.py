@@ -31,6 +31,7 @@ from __future__ import annotations
 
 from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
+from pathlib import Path
 
 import numpy as np
 
@@ -236,3 +237,48 @@ def place(
         round(best, 4),
         role,
     )
+
+
+class StaleCalibrationError(RuntimeError):
+    """The theme list changed after the calibration was frozen."""
+
+
+def load_calibration(path: Path, themes_path: Path) -> tuple[Calibration, dict]:
+    """Read the frozen calibration, refusing it if the theme list has moved on.
+
+    The calibration's theme vectors were built from particular seeds, and its
+    thresholds tuned against them. Placing writings with a calibration frozen for
+    a different theme list would produce confident nonsense, so the list's hash
+    is checked first.
+
+    Args:
+        path: ``analysis/temalista_kalibracio.json``.
+        themes_path: ``analysis/temalista.yaml``.
+
+    Returns:
+        The calibration and the full record, including the encoder spec.
+
+    Raises:
+        StaleCalibrationError: If ``temalista.yaml`` changed since freezing.
+    """
+    import hashlib
+    import json
+
+    record = json.loads(path.read_text(encoding="utf-8"))
+    current = hashlib.sha256(themes_path.read_bytes()).hexdigest()
+    if current != record["temalista_sha256"]:
+        msg = (
+            "temalista.yaml changed after the calibration was frozen; "
+            "re-run scripts/place.py and scripts/freeze.py"
+        )
+        raise StaleCalibrationError(msg)
+    cal = Calibration(
+        mean=np.array(record["mean"]),
+        theme_keys=tuple(record["theme_keys"]),
+        vectors=np.array(record["vectors"]),
+        seed_counts=tuple(record["seed_counts"]),
+        tau=dict(record["tau"]),
+        g={int(k): float(v) for k, v in record["g"].items()},
+        delta=float(record["delta"]),
+    )
+    return cal, record

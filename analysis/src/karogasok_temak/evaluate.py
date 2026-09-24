@@ -3,7 +3,7 @@
 Most of this corpus was labelled by its author years before any model touched
 it: Blogspot and WordPress labels on the archive pages, blog.hu tags on the
 Kereső Világ rows. Those labels are the yardstick. A placement is good to the
-extent that writings it puts together are writings he put together.
+extent that writings it puts together are writings the author put together.
 
 The metric is **extended BCubed** (Amigó, Gonzalo, Artiles & Verdejo, 2009),
 which handles the case both sides have here: a writing may carry several themes

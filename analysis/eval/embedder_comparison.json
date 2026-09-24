@@ -1,0 +1,192 @@
+{
+  "yardstick": "share of 5 nearest neighbours sharing a cleaned author label",
+  "baseline": "hubert/centred",
+  "rule": "switch only for a gain of at least 0.03, 95% CI above 0",
+  "specs": {
+    "hubert": {
+      "name": "hubert",
+      "model": "NYTK/sentence-transformers-experimental-hubert-hungarian",
+      "chunk_words": 80,
+      "prefix": "",
+      "max_seq_length": 128
+    },
+    "e5-large": {
+      "name": "e5-large",
+      "model": "intfloat/multilingual-e5-large",
+      "chunk_words": 200,
+      "prefix": "query: ",
+      "max_seq_length": 512
+    },
+    "bge-m3": {
+      "name": "bge-m3",
+      "model": "BAAI/bge-m3",
+      "chunk_words": 1100,
+      "prefix": "",
+      "max_seq_length": 2048
+    }
+  },
+  "results": {
+    "hubert/raw": {
+      "oldalak": {
+        "agreement": 0.3363295880149813,
+        "n": 267
+      },
+      "sorok": {
+        "agreement": 0.22279792746113988,
+        "n": 193
+      }
+    },
+    "hubert/centred": {
+      "oldalak": {
+        "agreement": 0.33782771535580525,
+        "n": 267
+      },
+      "sorok": {
+        "agreement": 0.22590673575129536,
+        "n": 193
+      }
+    },
+    "e5-large/raw": {
+      "oldalak": {
+        "agreement": 0.41498127340823976,
+        "n": 267
+      },
+      "sorok": {
+        "agreement": 0.37305699481865284,
+        "n": 193
+      }
+    },
+    "e5-large/centred": {
+      "oldalak": {
+        "agreement": 0.44868913857677906,
+        "n": 267
+      },
+      "sorok": {
+        "agreement": 0.38860103626943004,
+        "n": 193
+      }
+    },
+    "bge-m3/raw": {
+      "oldalak": {
+        "agreement": 0.4157303370786517,
+        "n": 267
+      },
+      "sorok": {
+        "agreement": 0.38341968911917096,
+        "n": 193
+      }
+    },
+    "bge-m3/centred": {
+      "oldalak": {
+        "agreement": 0.43595505617977526,
+        "n": 267
+      },
+      "sorok": {
+        "agreement": 0.38549222797927457,
+        "n": 193
+      }
+    }
+  },
+  "vs_baseline": {
+    "hubert/raw": {
+      "oldalak": {
+        "delta": -0.0014981273408239697,
+        "ci95": [
+          -0.020224719101123598,
+          0.017977528089887642
+        ],
+        "n": 267,
+        "clears_rule": false
+      },
+      "sorok": {
+        "delta": -0.0031088082901554407,
+        "ci95": [
+          -0.0227979274611399,
+          0.016580310880829015
+        ],
+        "n": 193,
+        "clears_rule": false
+      }
+    },
+    "e5-large/raw": {
+      "oldalak": {
+        "delta": 0.07715355805243446,
+        "ci95": [
+          0.042696629213483155,
+          0.11161048689138577
+        ],
+        "n": 267,
+        "clears_rule": true
+      },
+      "sorok": {
+        "delta": 0.14715025906735751,
+        "ci95": [
+          0.11191709844559584,
+          0.18445595854922278
+        ],
+        "n": 193,
+        "clears_rule": true
+      }
+    },
+    "e5-large/centred": {
+      "oldalak": {
+        "delta": 0.11086142322097377,
+        "ci95": [
+          0.08089887640449439,
+          0.14082397003745317
+        ],
+        "n": 267,
+        "clears_rule": true
+      },
+      "sorok": {
+        "delta": 0.16269430051813472,
+        "ci95": [
+          0.12746113989637306,
+          0.1979274611398964
+        ],
+        "n": 193,
+        "clears_rule": true
+      }
+    },
+    "bge-m3/raw": {
+      "oldalak": {
+        "delta": 0.07790262172284644,
+        "ci95": [
+          0.045692883895131084,
+          0.11161048689138575
+        ],
+        "n": 267,
+        "clears_rule": true
+      },
+      "sorok": {
+        "delta": 0.15751295336787563,
+        "ci95": [
+          0.122279792746114,
+          0.19378238341968915
+        ],
+        "n": 193,
+        "clears_rule": true
+      }
+    },
+    "bge-m3/centred": {
+      "oldalak": {
+        "delta": 0.09812734082397004,
+        "ci95": [
+          0.06666666666666665,
+          0.13033707865168542
+        ],
+        "n": 267,
+        "clears_rule": true
+      },
+      "sorok": {
+        "delta": 0.1595854922279793,
+        "ci95": [
+          0.1233160621761658,
+          0.19481865284974095
+        ],
+        "n": 193,
+        "clears_rule": true
+      }
+    }
+  }
+}

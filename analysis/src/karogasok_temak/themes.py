@@ -2,7 +2,7 @@
 
 Themes are no longer whatever a clustering happens to find. They are a list the
 author owns, in ``analysis/temalista.yaml``; each theme is defined by a handful
-of his own writings (its *seeds*), and every other writing is placed by how
+of the author's own writings (its *seeds*), and every other writing is placed by how
 close it is to them. This module reads that list and refuses a bad one.
 
 The refusals exist because the mistakes are silent otherwise:
@@ -24,6 +24,7 @@ from collections import Counter
 from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Any
 
 #: The three states a theme can be in.
 STATES = ("aktiv", "javaslat", "megszunt")
@@ -62,7 +63,7 @@ class Theme:
     eredet: Mapping[str, object] = field(default_factory=dict)
 
 
-def parse(raw: Mapping[str, object]) -> list[Theme]:
+def parse(raw: Mapping[str, Any]) -> list[Theme]:
     """Turn the loaded YAML into themes, without judging them.
 
     Args:
