@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "preregistration_commit": "54128dbcb3bf9962ca683434c3c8e046b7c93f6d",
+  "G1": {
+    "passed": true,
+    "new_F": 0.35430508069938926,
+    "baseline_A_F": 0.2182858009049865,
+    "baseline_B_F": 0.26344212181518617,
+    "stronger": "B",
+    "delta": 0.0908629588842031,
+    "ci95": [
+      0.030034440884917035,
+      0.12191513878548847
+    ],
+    "n": 182
+  },
+  "G2": {
+    "passed": true,
+    "coverage_rows": 0.7135678391959799,
+    "coverage_long_pages": 0.794392523364486,
+    "mean_themes_rows": 1.2311557788944723,
+    "mean_themes_rows_baseline": 1.4673366834170853,
+    "largest_share_rows": 0.1306532663316583,
+    "largest_share_pages": 0.11214953271028037
+  },
+  "G3": {
+    "passed": true,
+    "posts": {
+      "content/posts/2026-09-18-cognitive-debt.md": {
+        "got": [
+          "programozas",
+          "startup"
+        ],
+        "expected_any_of": [
+          "megismeres",
+          "programozas"
+        ],
+        "flagged_no_theme": false,
+        "ok": true
+      },
+      "content/posts/2026-09-18-muslica.md": {
+        "got": [
+          "megismeres"
+        ],
+        "expected_any_of": [
+          "megismeres",
+          "mesterseges-intelligencia"
+        ],
+        "flagged_no_theme": false,
+        "ok": true
+      },
+      "content/posts/2026-09-23-llm-emotions.md": {
+        "got": [
+          "nyelvmodellek",
+          "nyelvelmelet"
+        ],
+        "expected_any_of": [
+          "megismeres",
+          "nyelvmodellek"
+        ],
+        "flagged_no_theme": false,
+        "ok": true
+      },
+      "content/posts/2026-09-24-jev-system-1.md": {
+        "got": [],
+        "expected_any_of": [
+          "megismeres",
+          "mesterseges-intelligencia",
+          "nyelvmodellek"
+        ],
+        "flagged_no_theme": true,
+        "ok": true
+      }
+    }
+  }
+}
