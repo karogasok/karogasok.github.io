@@ -11,8 +11,11 @@ by pointing at numbers:
 
 1. **Centre.** Sentence-embedding spaces are anisotropic — everything is fairly
    similar to everything, so no threshold means much. Subtracting the mean of
-   the author's own pages spreads them out. The mean is frozen at calibration,
-   so adding a writing never moves the others.
+   the author's own pages spreads them out. Short blurbs (mostly news leads
+   written by others) sit off to one side of the pages as a group, which made
+   whichever theme lay in that direction a catch-all; so short writings may be
+   centred on their own mean. The means are frozen at calibration, so adding a
+   writing never moves the others.
 2. **Theme vectors.** A theme is the normalised mean of its seeds' centred
    vectors. Seeds only: folding confident members back in would drift towards
    dense regions and leak into the evaluation.
@@ -20,7 +23,11 @@ by pointing at numbers:
    ``τ(class) + g(k) − g(k_ref)``: a base level per length class (long pages,
    short blurbs), corrected by ``g``, the measured typical member similarity of
    a theme with ``k`` seeds — a centroid of more seeds sits closer to its
-   members, so one global level would penalise the thinly seeded themes.
+   members, so one global level would penalise the thinly seeded themes. By
+   default the correction is **one-sided**: it may raise a threshold, never
+   lower it below the base level. Lowering it was tried first and turned both
+   3-seed themes into catch-alls — a noisier centroid combined with a more
+   lenient bar took in 2011 press reviews as *Nyelvmodellek*.
 4. **Several themes.** The best theme that clears its threshold is primary; a
    second or third must clear its own threshold *and* score within ``δ`` of the
    best. At most three. A seed always carries its own theme. A writing that
@@ -140,7 +147,11 @@ class Calibration:
         tau: Base threshold per length class, ``"long"`` and ``"short"``.
         g: Typical member similarity by seed count (see :func:`seed_count_curve`).
         delta: A secondary theme must score within this of the best.
-        cap: Most themes per writing.
+        cap: Most themes per writing. Defaults to :data:`CAP`.
+        one_sided: If true (the default), the seed-count correction may raise a
+            threshold but never lower it below ``tau[klass]``.
+        mean_short: If set, subtracted instead of ``mean`` from ``"short"``
+            writings. Defaults to ``None`` (one mean for both classes).
     """
 
     mean: np.ndarray
@@ -151,13 +162,37 @@ class Calibration:
     g: Mapping[int, float]
     delta: float
     cap: int = CAP
+    one_sided: bool = True
+    mean_short: np.ndarray | None = None
+
+    def centre(self, raw: np.ndarray, klass: str) -> np.ndarray:
+        """Subtract the frozen mean for ``klass`` and normalise."""
+        mean = (
+            self.mean_short
+            if klass == "short" and self.mean_short is not None
+            else self.mean
+        )
+        return unit((raw - mean)[None, :])[0]
 
     def threshold(self, theme: int, klass: str) -> float:
-        """The similarity a writing of ``klass`` needs to join ``theme``."""
+        """The similarity a writing of ``klass`` needs to join ``theme``.
+
+        Example:
+            >>> cal = Calibration(np.zeros(2), ("a", "b"), np.eye(2), (3, 8),
+            ...                   {"long": 0.2}, {3: 0.2, 5: 0.3, 8: 0.35}, 0.1)
+            >>> round(cal.threshold(0, "long"), 3), round(cal.threshold(1, "long"), 3)
+            (0.2, 0.25)
+            >>> round(cal.__class__(**{**cal.__dict__, "one_sided": False})
+            ...       .threshold(0, "long"), 3)
+            0.1
+        """
         k = self.seed_counts[theme]
         nearest = min(self.g, key=lambda x: abs(x - k))
         ref = min(self.g, key=lambda x: abs(x - K_REF))
-        return self.tau[klass] + self.g[nearest] - self.g[ref]
+        correction = self.g[nearest] - self.g[ref]
+        if self.one_sided:
+            correction = max(correction, 0.0)
+        return self.tau[klass] + correction
 
 
 @dataclass(frozen=True)
@@ -212,8 +247,7 @@ def place(
         >>> place(np.array([-1.0, -1.0]), "long", cal, seed_of=["b"]).themes
         ('b',)
     """
-    vector = unit((raw - cal.mean)[None, :])[0]
-    sims = cal.vectors @ vector
+    sims = cal.vectors @ cal.centre(raw, klass)
     order = np.argsort(-sims, kind="stable")
     best = float(sims[order[0]])
     chosen: list[int] = [
@@ -280,5 +314,9 @@ def load_calibration(path: Path, themes_path: Path) -> tuple[Calibration, dict]:
         tau=dict(record["tau"]),
         g={int(k): float(v) for k, v in record["g"].items()},
         delta=float(record["delta"]),
+        one_sided=bool(record.get("one_sided", True)),
+        mean_short=(
+            np.array(record["mean_short"]) if record.get("mean_short") else None
+        ),
     )
     return cal, record

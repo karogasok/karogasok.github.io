@@ -9,7 +9,13 @@ Grid, declared before any result was seen:
 * centring on the mean of the author's pages, or of the whole corpus;
 * δ (the margin a secondary theme must be within) ∈ {0.05, 0.10, 0.15};
 * τ_long over the similarity levels that place 60–98% of the long pages;
-* then τ_short, with everything else fixed, on the Kereső Világ tuning half.
+* then, with everything else fixed and on the Kereső Világ tuning half, the
+  short writings' centring (the long pages' mean, or the mean of the short
+  writings themselves, held-out rows excluded) and τ_short.
+
+Added after the first run, before the gate: the one-sided seed-count correction
+and the short writings' own mean. The first run's review showed both 3-seed
+themes and then *Vizualizáció* acting as catch-alls; see placement.py.
 
 A configuration is admissible only if it meets the gate's G2 limits on the
 tuning data: at least 70% of long pages and 40% of rows get a theme, the mean
@@ -33,6 +39,7 @@ import json
 import sys
 from collections import Counter
 from pathlib import Path
+from typing import Any
 
 import numpy as np
 
@@ -77,7 +84,7 @@ def evaluate(
     gold: dict[str, frozenset[str]],
     baseline_mean: float,
     cover_min: float,
-) -> dict[str, object]:
+) -> dict[str, Any]:
     """Score one class of writings and check the G2 limits."""
     n = len(keys)
     counts = Counter(t for k in keys for t in placed[k])
@@ -143,12 +150,12 @@ def main() -> int:  # noqa: C901, PLR0915
         if a.get("role") == "fitted" and a["topic_reduced"] >= 0 and doc_id in by_key:
             clusters.setdefault(a["topic_reduced"], []).append(doc_id)
 
-    report: dict[str, object] = {"encoders": {}}
+    report: dict[str, Any] = {"encoders": {}}
     best_overall: tuple[float, str, dict, Calibration] | None = None
     for name in names:
         raw = encode_cached(spec_named(name), [by_key[k].text for k in keys])
         row = {k: i for i, k in enumerate(keys)}
-        results = []
+        results: list[dict[str, Any]] = []
         for centring in ("pages", "corpus"):
             ref = long_pages if centring == "pages" else keys
             mean = raw[[row[k] for k in ref]].mean(axis=0)
@@ -197,43 +204,69 @@ def main() -> int:  # noqa: C901, PLR0915
         pool = admissible or results
         top = max(pool, key=lambda r: (r["pages"]["F"], r["tau_long"]))
         cal: Calibration = top["_cal"]
-        centred_rows = [raw[row[k]] for k in rows_dev]
-        sims_rows = np.array(
-            [
-                float(np.max(cal.vectors @ unit((v - cal.mean)[None])[0]))
-                for v in centred_rows
-            ]
-        )
-        short_results = []
-        for tau_s in np.unique(
-            np.round(np.quantile(sims_rows, np.linspace(0.05, 0.60, 24)), 3)
-        ):
-            cal_s = Calibration(
+        short_ref = [
+            k
+            for k in keys
+            if klass[k] == "short"
+            and not (by_key[k].source == "kereses" and split_of(k) == "test")
+        ]
+        short_means = {
+            "long": None,
+            "own": raw[[row[k] for k in short_ref]].mean(axis=0),
+        }
+        short_results: list[dict[str, Any]] = []
+        for short_centring, mean_short in short_means.items():
+            base_s = Calibration(
                 cal.mean,
                 cal.theme_keys,
                 cal.vectors,
                 cal.seed_counts,
-                {"long": cal.tau["long"], "short": float(tau_s)},
+                dict(cal.tau),
                 cal.g,
                 cal.delta,
+                mean_short=mean_short,
             )
-            placed = {k: place(raw[row[k]], klass[k], cal_s).themes for k in rows_dev}
-            short_results.append(
-                {
-                    "tau_short": float(tau_s),
-                    "rows": evaluate(
-                        placed, rows_dev, gold_rows, mean_a_rows, COVER_SHORT
-                    ),
-                    "_cal": cal_s,
+            sims_rows = np.array(
+                [
+                    float(np.max(cal.vectors @ base_s.centre(raw[row[k]], klass[k])))
+                    for k in rows_dev
+                ]
+            )
+            for tau_s in np.unique(
+                np.round(np.quantile(sims_rows, np.linspace(0.05, 0.60, 24)), 3)
+            ):
+                cal_s = Calibration(
+                    cal.mean,
+                    cal.theme_keys,
+                    cal.vectors,
+                    cal.seed_counts,
+                    {"long": cal.tau["long"], "short": float(tau_s)},
+                    cal.g,
+                    cal.delta,
+                    mean_short=mean_short,
+                )
+                placed = {
+                    k: place(raw[row[k]], klass[k], cal_s).themes for k in rows_dev
                 }
-            )
+                short_results.append(
+                    {
+                        "short_centring": short_centring,
+                        "tau_short": float(tau_s),
+                        "rows": evaluate(
+                            placed, rows_dev, gold_rows, mean_a_rows, COVER_SHORT
+                        ),
+                        "_cal": cal_s,
+                    }
+                )
         pool_s = [r for r in short_results if r["rows"]["admissible"]] or short_results
         top_s = max(pool_s, key=lambda r: (r["rows"]["F"], r["tau_short"]))
         final: Calibration = top_s["_cal"]
         score = (top["pages"]["F"] + top_s["rows"]["F"]) / 2
         report["encoders"][name] = {
             "centring": top["centring"],
+            "short_centring": top_s["short_centring"],
             "delta": top["delta"],
+            "one_sided": final.one_sided,
             "tau": dict(final.tau),
             "g": {str(k): v for k, v in final.g.items()},
             "pages": top["pages"],
@@ -243,7 +276,8 @@ def main() -> int:  # noqa: C901, PLR0915
             "choice_score": score,
         }
         print(
-            f"== {name}: centring={top['centring']} δ={top['delta']} "
+            f"== {name}: centring={top['centring']}/{top_s['short_centring']} "
+            f"δ={top['delta']} "
             f"τ_long={final.tau['long']:.3f} τ_short={final.tau['short']:.3f}"
         )
         for cls, ev in (("pages", top["pages"]), ("rows ", top_s["rows"])):
@@ -287,6 +321,7 @@ def main() -> int:  # noqa: C901, PLR0915
         OUT / "kalibracio_jelolt.npz",
         encoder=np.array(winner),
         mean=cal.mean,
+        mean_short=cal.mean_short if cal.mean_short is not None else np.array(0.0),
         theme_keys=np.array(cal.theme_keys),
         vectors=cal.vectors,
         seed_counts=np.array(cal.seed_counts),
@@ -294,6 +329,7 @@ def main() -> int:  # noqa: C901, PLR0915
         g_k=np.array(list(cal.g)),
         g_v=np.array(list(cal.g.values())),
         delta=np.array(cal.delta),
+        one_sided=np.array(cal.one_sided),
     )
     (OUT / "placement_tuning.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2, default=str), encoding="utf-8"
@@ -309,7 +345,7 @@ def main() -> int:  # noqa: C901, PLR0915
     lines += ["## A négy 2026-os bejegyzés", ""]
     for k in [k for k in pages if k.startswith("content/posts/2026")]:
         p = placed_all[k]
-        cal_sims = cal.vectors @ unit((raw[row[k]] - cal.mean)[None])[0]
+        cal_sims = cal.vectors @ cal.centre(raw[row[k]], klass[k])
         near = ", ".join(
             f"{label[cal.theme_keys[i]]} {cal_sims[i]:.2f}"
             for i in np.argsort(-cal_sims)[:3]
@@ -332,9 +368,7 @@ def main() -> int:  # noqa: C901, PLR0915
         ]
         ranked = sorted(
             members,
-            key=lambda k: (
-                -float(cal.vectors[i] @ unit((raw[row[k]] - cal.mean)[None])[0])
-            ),
+            key=lambda k: -float(cal.vectors[i] @ cal.centre(raw[row[k]], klass[k])),
         )
         lines.append(
             f"- **{label[t]}**: " + "; ".join(by_key[k].title[:50] for k in ranked[:4])

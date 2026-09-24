@@ -65,9 +65,24 @@ GATE = {
 }
 
 
+#: How the method changed between the first dev run and freezing — all on the
+#: tuning data, none after the held-out half was touched.
+CHANGES = [
+    "Seed-count correction made one-sided: the first run lowered the bar for the "
+    "two 3-seed themes, and Nyelvmodellek (134) and Megismerés (73) became "
+    "catch-alls, taking in 2011 press reviews and Kanban book reviews.",
+    "Short writings may be centred on their own mean (held-out rows excluded): "
+    "with page centring, the Kereső Világ blurbs as a group leaned +0.09 towards "
+    "Vizualizáció, which grew to 151. Chosen by the declared rule on dev rows.",
+    "Known, left for the author: ten 2011–12 Lapszemle link roundups land in "
+    "Nyelvmodellek. Affects pages only, not the gate.",
+]
+
+
 def main() -> int:
     """Write the frozen calibration."""
     npz = np.load(HERE / "out" / "kalibracio_jelolt.npz", allow_pickle=True)
+    tuning = json.loads((HERE / "out" / "placement_tuning.json").read_text("utf-8"))
     encoder = str(npz["encoder"])
     spec = spec_named(encoder)
     themes_file = (HERE / "temalista.yaml").read_bytes()
@@ -78,12 +93,24 @@ def main() -> int:
         "seed_counts": [int(k) for k in npz["seed_counts"]],
         "tau": {"long": float(npz["tau"][0]), "short": float(npz["tau"][1])},
         "delta": float(npz["delta"]),
+        "one_sided": bool(npz["one_sided"]),
         "g": {
             str(int(k)): float(v) for k, v in zip(npz["g_k"], npz["g_v"], strict=True)
         },
         "mean": [round(float(x), 6) for x in npz["mean"]],
+        "mean_short": (
+            [round(float(x), 6) for x in npz["mean_short"]]
+            if npz["mean_short"].size > 1
+            else None
+        ),
         "vectors": [[round(float(x), 6) for x in row] for row in npz["vectors"]],
         "gate": GATE,
+        "dev_results": tuning["encoders"][encoder],
+        "baselines_dev": {
+            "pages": tuning["baseline_pages"],
+            "rows": tuning["baseline_rows"],
+        },
+        "changes_before_freezing": CHANGES,
     }
     out = HERE / "temalista_kalibracio.json"
     out.write_text(json.dumps(record, ensure_ascii=False, indent=1), encoding="utf-8")
