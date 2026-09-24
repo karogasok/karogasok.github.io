@@ -306,17 +306,18 @@ def paired_bootstrap(
     return Delta(observed, float(low), float(high), len(keys), n)
 
 
-def knn_agreement(
+def knn_shares(
     vectors: np.ndarray,
     keys: Sequence[str],
     gold: Mapping[str, frozenset[str]],
     *,
     k: int = 5,
-) -> tuple[float, int]:
-    """Share of each writing's nearest neighbours that share one of its labels.
+) -> tuple[np.ndarray, list[str]]:
+    """Per writing: the share of its nearest neighbours that share a label.
 
     A property of an embedding, not of a placement: it asks whether writings
-    the author labelled alike end up near each other.
+    the author labelled alike end up near each other. Neighbours are searched
+    only among the writings that have labels.
 
     Args:
         vectors: One row per key, in the same order.
@@ -325,14 +326,15 @@ def knn_agreement(
         k: Neighbours per writing. Defaults to 5.
 
     Returns:
-        The mean share and the number of writings scored.
+        The per-writing shares and the keys they belong to, in the same order.
 
     Example:
         >>> v = np.array([[1.0, 0.0], [0.9, 0.1], [0.0, 1.0], [0.1, 0.9]])
         >>> g = {"a": frozenset({"x"}), "b": frozenset({"x"}),
         ...      "c": frozenset({"y"}), "d": frozenset({"y"})}
-        >>> knn_agreement(v, ["a", "b", "c", "d"], g, k=1)
-        (1.0, 4)
+        >>> shares, scored = knn_shares(v, ["a", "b", "c", "d"], g, k=1)
+        >>> shares.tolist(), scored
+        ([1.0, 1.0, 1.0, 1.0], ['a', 'b', 'c', 'd'])
     """
     rows = [i for i, key in enumerate(keys) if key in gold]
     x = vectors[rows]
@@ -341,8 +343,64 @@ def knn_agreement(
     np.fill_diagonal(sims, -np.inf)
     neighbours = np.argsort(-sims, axis=1)[:, :k]
     labels = [gold[keys[i]] for i in rows]
-    shares = [
-        np.mean([bool(labels[i] & labels[j]) for j in row])
-        for i, row in enumerate(neighbours)
-    ]
-    return float(np.mean(shares)), len(rows)
+    shares = np.array(
+        [
+            np.mean([bool(labels[i] & labels[j]) for j in row])
+            for i, row in enumerate(neighbours)
+        ]
+    )
+    return shares, [keys[i] for i in rows]
+
+
+def knn_agreement(
+    vectors: np.ndarray,
+    keys: Sequence[str],
+    gold: Mapping[str, frozenset[str]],
+    *,
+    k: int = 5,
+) -> tuple[float, int]:
+    """Mean of :func:`knn_shares`, with the number of writings scored.
+
+    Example:
+        >>> v = np.array([[1.0, 0.0], [0.9, 0.1], [0.0, 1.0], [0.1, 0.9]])
+        >>> g = {"a": frozenset({"x"}), "b": frozenset({"x"}),
+        ...      "c": frozenset({"y"}), "d": frozenset({"y"})}
+        >>> knn_agreement(v, ["a", "b", "c", "d"], g, k=1)
+        (1.0, 4)
+    """
+    shares, scored = knn_shares(vectors, keys, gold, k=k)
+    return float(shares.mean()), len(scored)
+
+
+def paired_mean_delta(
+    a: np.ndarray, b: np.ndarray, *, n: int = N_BOOTSTRAP, seed: int = SEED
+) -> Delta:
+    """Mean of ``b − a`` over paired per-writing scores, with a 95% interval.
+
+    Args:
+        a: Baseline per-writing scores.
+        b: Candidate per-writing scores, same writings, same order.
+        n: Resamples. Defaults to :data:`N_BOOTSTRAP`.
+        seed: RNG seed. Defaults to :data:`SEED`.
+
+    Returns:
+        The observed mean difference and its interval.
+
+    Raises:
+        ValueError: If the two arrays are not paired.
+
+    Example:
+        >>> d = paired_mean_delta(np.array([0.2, 0.4]), np.array([0.3, 0.5]), n=50)
+        >>> round(d.observed, 3), round(d.low, 3), round(d.high, 3)
+        (0.1, 0.1, 0.1)
+    """
+    if a.shape != b.shape:
+        msg = f"scores are not paired: {a.shape} vs {b.shape}"
+        raise ValueError(msg)
+    diff = b - a
+    rng = np.random.default_rng(seed)
+    means = np.array(
+        [diff[rng.integers(0, len(diff), len(diff))].mean() for _ in range(n)]
+    )
+    low, high = np.percentile(means, [2.5, 97.5])
+    return Delta(float(diff.mean()), float(low), float(high), len(diff), n)

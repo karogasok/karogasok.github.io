@@ -1,0 +1,214 @@
+# The site's themes. Owned by the author; the topic model only proposes.
+#
+# Each active theme is defined by its seeds — 3 to 8 of the author's own
+# writings — and every other writing is placed by similarity to them.
+# The URL is /tema/<urlize(nev)>/, so renaming a theme moves it: put the old
+# name in korabbi_nevek and it redirects. A retired theme needs atiranyitas.
+# The 2026 posts are deliberately NOT seeds: they are what the placement is
+# tested on, and a seed would carry its theme by fiat.
+# Validate with: uv run python scripts/check_themes.py
+
+temak:
+  - kulcs: korpusznyelveszet
+    nev: "Korpusznyelvészet"
+    leiras: "Korpuszok építése, annotálása és használata: a nyelv vizsgálata nagy szövegmennyiségen."
+    allapot: aktiv
+    magok:
+      - content/archivum/2011-04-07-korpusznyelveszet-elmeleti-07.md
+      - content/archivum/2010-08-29-konyvismerteto-meyer-english-corpus.md
+      - content/archivum/2011-06-09-konyvismerteto-introduction-to.md
+      - content/archivum/2012-04-02-book-review-natural-language-annotation.md
+      - content/archivum/2011-06-27-korpusznyelveszet-korpuszkeszites.md
+    korabbi_nevek:
+      - "Korpuszépítés és annotáció"
+    eredet: {bertopic: [5, 13]}
+
+  - kulcs: nyelvtechnologia
+    nev: "Nyelvtechnológia"
+    leiras: "Nyelvelemző programok és alkalmazások: értelmezők, szófajelemzők, helyesírás-ellenőrzők, keresés."
+    allapot: aktiv
+    magok:
+      - content/archivum/2011-08-10-nyelvi-ertelmezo-hazilag.md
+      - content/archivum/2011-03-25-csinald-magad-helyesiras-ellenorzo.md
+      - content/archivum/2011-04-05-hogyan-kezdtem-szofajelemzot-irni.md
+      - content/archivum/2011-04-18-termeszetes-nyelvi-kereses-1.md
+      - content/archivum/2012-10-19-megujult-google-ngram-viewer.md
+    korabbi_nevek:
+      - "Nyelvelemző eszközök"
+    eredet: {bertopic: [10]}
+
+  - kulcs: programozas
+    nev: "Programozás és szoftverfejlesztés"
+    leiras: "Programozási nyelvek, a programozás megtanulása, és hogy hogyan készül a szoftver."
+    allapot: aktiv
+    magok:
+      - content/archivum/2012-11-19-scheme-kiralyi-ut-funkcionalis.md
+      - content/archivum/2010-08-21-kreativ-ruby-programozas-kezdoknek.md
+      - content/archivum/2012-12-06-mire-jo-funkcionalis-programozas.md
+      - content/archivum/2012-08-30-konyvismerteto-head-first-software.md
+      - content/archivum/2012-08-09-online-kurzusok-1-hogyan-induljunk-el.md
+    korabbi_nevek:
+      - "Programozás nyelvészeknek"
+      - "Kurzusok és önképzés"
+    eredet: {bertopic: [9, 12]}
+
+  - kulcs: statisztika
+    nev: "Statisztika és valószínűség"
+    leiras: "Statisztikai módszerek és valószínűségi gondolkodás, gyakran R-rel és nyelvi adatokon."
+    allapot: aktiv
+    magok:
+      - content/archivum/2011-03-02-konyvismerteto-statistical-analysis.md
+      - content/archivum/2011-02-08-konyvismerteto-foundations-of.md
+      - content/archivum/2010-05-17-valoszinuseg-statisztika-es-nyelv.md
+      - content/archivum/2010-12-17-konyvismerteto-oakes-statistics-for.md
+      - content/archivum/2012-08-15-statistics-and-r-for-linguists-reading.md
+    korabbi_nevek:
+      - "Statisztika és R"
+    eredet: {bertopic: [1]}
+
+  - kulcs: logika-es-matematika
+    nev: "Logika és matematika"
+    leiras: "Logika, matematika és a matematika filozófiája, a nagyközönségnek szóló könyvektől a formális rendszerekig."
+    allapot: aktiv
+    magok:
+      - content/archivum/2010-05-04-logika-mindenkinek-i-bevezetes.md
+      - content/archivum/2010-09-28-konyvajanlo-logika-es-tudomanyelmelet.md
+      - content/archivum/2012-11-07-konyvismerteto-godel-proof.md
+      - content/archivum/2021-06-03-mikepp-valt-tudomannya-a-matematika-szabo-arpad-es-a-gorog-matematika.md
+      - content/archivum/2021-05-19-eszpresszo-arkhimedesszel-matematikafilozofia-mindenkinek.md
+    eredet: {bertopic: [4]}
+
+  - kulcs: tudomanyfilozofia
+    nev: "Tudományfilozófia"
+    leiras: "Mitől tudomány a tudomány: elméletek, módszerek, és hogy mit mondanak az adatok."
+    allapot: aktiv
+    magok:
+      - content/archivum/2011-05-28-chomsky-norvig-es-tudomany.md
+      - content/archivum/2010-12-03-tudomanyfilozofia-gepi-tanulas-es.md
+      - content/archivum/2011-09-18-konyvismerteto-philosophy-of-science.md
+      - content/archivum/2010-09-14-az-adatok-megmagyarazhatatlan.md
+      - content/archivum/2021-05-21-a-tudomany-tudomanya-konyvismerteto.md
+    eredet: {bertopic: [7]}
+
+  - kulcs: nyelvelmelet
+    nev: "Nyelvelmélet"
+    leiras: "Nyelvészeti elméletek és paradigmák, a generatív grammatikától a nyelvi relativizmusig."
+    allapot: aktiv
+    magok:
+      - content/archivum/2012-03-19-nyelv-es-gondolkodas-paradigmak-atfedo.md
+      - content/archivum/2011-01-15-nyelvi-relativizmus-avagy-hatassal-van-2.md
+      - content/archivum/2011-03-08-kell-e-nekunk-paradigma.md
+      - content/archivum/2012-09-06-a-hauser-affer.md
+      - content/archivum/2010-07-19-scientific-approaches-in-syntax.md
+      - content/archivum/2010-06-22-minimalista-program-i-elvek-parameterek.md
+    korabbi_nevek:
+      - "Paradigmák és nyelvelméletek"
+    eredet: {bertopic: [11]}
+
+  - kulcs: a-szakma
+    nev: "A szakma"
+    leiras: "A számítógépes nyelvészet mint szakma: interjúk, pályák, és hogy mi is ez a terület."
+    allapot: aktiv
+    magok:
+      - content/archivum/2011-02-09-life-of-computational-linguist-vi.md
+      - content/archivum/2011-01-17-life-of-computational-linguits-v.md
+      - content/archivum/2010-11-02-on-computational-corpus-linguistics.md
+      - content/archivum/2010-05-12-minek-nevezzelek-szamitogepes.md
+      - content/archivum/2011-08-07-konyvismerteto-szamitogeppel-emberi.md
+    eredet: {bertopic: [8]}
+
+  - kulcs: adatujsagiras
+    nev: "Adatújságírás és nyílt adat"
+    leiras: "Adatújságírás, nyílt adat és nyílt szoftver: az adatok és a kód szabad hozzáférhetősége."
+    allapot: aktiv
+    magok:
+      - content/archivum/2011-04-11-irastudok-hajnala-iv-de-mi-az-az.md
+      - content/archivum/2011-03-19-az-open-knowledge-foundation-rol.md
+      - content/archivum/2010-10-08-data-journalism-hope-for-future-in.md
+      - content/archivum/2011-08-20-batran-legyunk-nyiltak-megeri.md
+      - content/archivum/2011-01-09-adat-uzlet-tudomany.md
+    korabbi_nevek:
+      - "Nyílt szoftver és tervezés"
+    eredet: {bertopic: [6, 14]}
+
+  - kulcs: mesterseges-intelligencia
+    nev: "Mesterséges intelligencia"
+    leiras: "A mesterséges intelligencia mint technológia és közügy, a Watsontól a robotok koráig."
+    allapot: aktiv
+    magok:
+      - content/archivum/2011-02-23-watson.md
+      - content/archivum/2022-07-15-konyvajanlo-emberek-es-gepek-avagy-mit-kell-tudni-ma-a-mesterseges.md
+      - content/archivum/2022-12-19-jovonk-a-robotok-koraban-hogyan-alakitja-a-mesterseges-intelligencia.md
+      - content/archivum/2023-02-07-mesterseges-intelligencia-a-konyvtarakban.md
+      - content/archivum/2023-02-13-a-kinai-ut-a-technologiaban.md
+    eredet: {bertopic: [15]}
+
+  - kulcs: startup
+    nev: "Startup és termékfejlesztés"
+    leiras: "A technológia üzleti oldala: lean startup, ügyfélfejlesztés, innováció."
+    allapot: aktiv
+    magok:
+      - content/archivum/2011-11-03-konyvismerteto-lean-startup.md
+      - content/archivum/2011-07-19-lean-startup-es-ugyfelfejlesztes-2.md
+      - content/archivum/2011-07-17-leasn-startup-es-customer-development.md
+      - content/archivum/2010-11-19-kitchen-budapes-technologiai-es-uj.md
+    eredet: {bertopic: [18]}
+
+  - kulcs: vizualizacio
+    nev: "Vizualizáció és hálózatelemzés"
+    leiras: "Szövegek és adatok ábrázolása: szógyakoriság, térképek, hálózatok."
+    allapot: aktiv
+    magok:
+      - content/archivum/2013-03-08-szovegvizualizacio-terkepen.md
+      - content/archivum/2013-04-19-szoveges-informacio-vizualizacioja.md
+      - content/archivum/2020-09-10-igy-fonodnak-ossze-a-magyar-zenei-elet-nagy-alakjai.md
+      - content/archivum/2010-11-20-szoveges-informaciok-vizualizacioja.md
+      - content/archivum/2020-08-19-hatvan-ev-dalszovegei.md
+    korabbi_nevek:
+      - "Szövegvizualizáció"
+      - "Hálózatok és eszközök"
+    eredet: {bertopic: [16, 17]}
+
+  - kulcs: megismeres
+    nev: "Megismerés és idegtudomány"
+    leiras: "Hogyan gondolkodunk és tanulunk: agy, megismerés, metaforák, és a gépek összevetése velünk."
+    allapot: aktiv
+    magok:
+      - content/archivum/2023-02-23-a-rugalmas-agy-miert-tanulunk-hatekonyabban-mint-a-gepek.md
+      - content/archivum/2022-08-05-konyvajanlo-a-megismeres-epitokovei-kocsmafilozofia-helyett-ezt.md
+      - content/archivum/2012-10-30-egy-masik-metaforamasina.md
+    eredet: {uj: 2026-09}
+
+  - kulcs: nyelvmodellek
+    nev: "Nyelvmodellek"
+    leiras: "Nagy nyelvmodellek: mit tudnak, mit nem, és hogyan beszélünk róluk."
+    allapot: aktiv
+    magok:
+      - content/archivum/2023-02-15-a-chatgpt-mindent-megvaltoztat.md
+      - content/archivum/2023-06-19-papagaj-vagy-orakulum.md
+      - content/archivum/2022-12-14-nyelvmodellek-kurzusunk-anyagai.md
+    eredet: {uj: 2026-09}
+
+  # Retired: genres rather than subjects. Their URLs lead to the matching old-label hub.
+  - kulcs: lapszemle
+    nev: "Lapszemle"
+    leiras: "Műfaj, nem téma: a heti linkgyűjtemények."
+    allapot: megszunt
+    atiranyitas: /archivum/cimke/lapszemle/
+    eredet: {bertopic: [0]}
+
+  - kulcs: nlp-meetupok
+    nev: "NLP meetupok"
+    leiras: "Műfaj, nem téma: esemény- és előadás-meghívók."
+    allapot: megszunt
+    atiranyitas: /archivum/cimke/nlp-meetup/
+    eredet: {bertopic: [2]}
+
+  - kulcs: a-blog-eleterol
+    nev: "A blog életéről"
+    leiras: "Műfaj, nem téma: évfordulók, tervek, köszönetek."
+    allapot: megszunt
+    atiranyitas: /archivum/cimke/blog/
+    korabbi_nevek:
+      - "A blog életéből"
+    eredet: {bertopic: [3]}
