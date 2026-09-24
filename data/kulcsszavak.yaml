@@ -1268,6 +1268,9 @@ Jeopardy:
 Jev:
   slug: jev
   darab: 1
+Jevons:
+  slug: jevons
+  darab: 1
 Jewels:
   slug: jewels
   darab: 1
@@ -8578,9 +8581,6 @@ továbbra:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/05/18/brainy_solutions_nlp_meetup_majus_20-an"
-továbbít:
-  slug: tovabbit
-  darab: 1
 transzdiszciplína:
   slug: transzdiszciplina
   darab: 1

@@ -1156,7 +1156,7 @@
   nev: Korpusznyelvészet
   slug: korpusznyelveszet
   ellenorizve: false
-  darab: 39
+  darab: 38
   kifejezesek:
     - korpusz
     - esik
@@ -1839,7 +1839,7 @@
   nev: Paradigmák és nyelvelméletek
   slug: paradigmak-es-nyelvelmeletek
   ellenorizve: false
-  darab: 54
+  darab: 53
   kifejezesek:
     - paradigma
     - event
