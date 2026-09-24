@@ -21,7 +21,7 @@ temak:
 kulcsszavak:
   - követelmény
   - teljesítmény
-  - nltk
+  - NLTK
   - Loper
   - bővíthetőség
 ---

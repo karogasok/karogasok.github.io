@@ -20,7 +20,7 @@ temak:
   - Tudományfilozófia
 kulcsszavak:
   - rebranding
-  - statistics
+  - Statistics
   - kognitív
   - fut
   - Kind

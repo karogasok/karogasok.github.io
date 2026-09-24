@@ -23,8 +23,8 @@ kulcsszavak:
   - Blackburn
   - Prolog
   - Bos
-  - Aljoscha
   - Stephan
+  - Kristina
 ---
 
 **Inspired by David Nolen's recent post, [A Logic Programming Reading List,](http://dosync.posterous.com/a-logic-programming-reading-list) I compiled my own list. Of course my list is biased towards computational linguistics, but I included a book on databases. The titles are freely available on the Internet!**

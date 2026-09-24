@@ -26,7 +26,7 @@ kulcsszavak:
   - medium
   - lineáris
   - újmédia
-  - mesélő
+  - kibontás
   - leader
 ---
 

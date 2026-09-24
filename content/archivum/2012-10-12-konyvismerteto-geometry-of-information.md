@@ -20,8 +20,8 @@ temak:
 kulcsszavak:
   - Ir
   - Geometry
-  - kvantumelmélet
   - prológus
+  - kvantumelmélet
   - Rijsbergen
 ---
 

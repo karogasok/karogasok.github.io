@@ -17,11 +17,11 @@ regi_cimkek_mind:
 temak:
   - Lapszemle
 kulcsszavak:
+  - Quid
   - kedvezmény
   - vásárol
   - Manning
   - költség
-  - támogat
 ---
 
 **Szemlézünk! Táviratilag: Manning kedvezmény, Kereső Világ, adatújságírás, gépi tanulás, mesterséges intelligencia és közgazdaságtan.**  

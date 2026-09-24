@@ -36,14 +36,18 @@ from karogasok_temak.embed import (
     fingerprint,
 )
 from karogasok_temak.emtsv import lemmatize
-from karogasok_temak.keywords import TOP_N, corpus_counts, document_keywords
+from karogasok_temak.keywords import (
+    TOP_N,
+    corpus_counts,
+    document_keywords,
+    keyword_lemmas,
+)
 from karogasok_temak.stopwords import hungarian_stopwords
 from karogasok_temak.topics import (
     OUTLIER,
     PROBABILITY_FLOOR,
     as_mixture,
     drop_stopwords,
-    is_wordlike,
     label_set,
 )
 
@@ -207,8 +211,7 @@ def main() -> int:
     # Keyness is measured against the whole corpus, so the new piece is compared
     # with everything already written rather than with itself.
     filtered = {
-        doc_id: [w for w in words if w.casefold() not in stops and is_wordlike(w)]
-        for doc_id, words in lemmas.items()
+        doc_id: keyword_lemmas(words, stops) for doc_id, words in lemmas.items()
     }
     totals = corpus_counts(list(filtered.values()))
 

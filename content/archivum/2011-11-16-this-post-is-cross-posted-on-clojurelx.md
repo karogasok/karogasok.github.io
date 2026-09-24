@@ -21,8 +21,8 @@ kulcsszavak:
   - ideas
   - Common
   - Classic
-  - PAIP
   - linguists
+  - PAIP
 ---
 
 This post is cross-posted on [clojurelx](http://clojurelx.blogspot.com/), a new project blog

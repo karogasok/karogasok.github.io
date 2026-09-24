@@ -20,10 +20,10 @@ temak:
   - Logika és matematika
 kulcsszavak:
   - művészet
-  - NIPS
   - kutyaetológia
+  - NIPS
   - tudománymetrika
-  - tudomás
+  - PDP
 ---
 
 Barabási Albert-László és Dashun Wang egy nagyon olvasmányos és alapos műben foglalta össze a tudománymetrika eredményeit és egészíti ki azt a hálózattudomány eszköztárával. A kötetet minden érdeklődőnek csak ajánlani tudjuk, annak ellenére, hogy erős hiányérzetünk van, mivel a tudományfilozófiai és -szociológiai előzményeket nagyon szelektíven kezeli, a kortárs vizsgálódásokról tudomást sem vesz és a tudomány tudományát neoliberális személetben főleg döntéshozóknak és az innovációs folyamatokat menedzselőknek ajánlja.

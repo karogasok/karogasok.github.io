@@ -23,8 +23,8 @@ temak:
 kulcsszavak:
   - helyesírás-ellenőrzés
   - Prószéky
-  - nyelvhelyesség
   - szóellenőrzés
+  - nyelvhelyesség
   - hibaüzenet
 ---
 

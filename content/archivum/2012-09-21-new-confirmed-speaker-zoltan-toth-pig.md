@@ -19,7 +19,6 @@ temak:
   - Adatújságírás és nyílt adat
 kulcsszavak:
   - Prezi
-  - p
   - Senior
   - Zolta
   - Data

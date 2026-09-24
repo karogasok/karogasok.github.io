@@ -20,7 +20,7 @@ temak:
   - Nyílt szoftver és tervezés
 kulcsszavak:
   - tervezési
-  - Pattern
+  - pattern
   - információtervezés
   - library
   - patterns

@@ -22,7 +22,7 @@ temak:
   - Statisztika és R
   - Korpuszépítés és annotáció
 kulcsszavak:
-  - xml
+  - XML
   - áttekintés
   - logikus
   - szemantikus

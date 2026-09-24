@@ -23,9 +23,9 @@ temak:
   - Nyelvelemző eszközök
 kulcsszavak:
   - m-e3
-  - ige
   - m-e1
   - INF
+  - ige
   - szabályszerűség
 ---
 

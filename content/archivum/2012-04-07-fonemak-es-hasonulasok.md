@@ -22,9 +22,9 @@ temak:
 kulcsszavak:
   - fonéma
   - fonológiai
-  - hangsor
   - hasonulás
-  - megkülönböztető
+  - langue
+  - hangsor
 ---
 
 *Fehér Krisztina írása*

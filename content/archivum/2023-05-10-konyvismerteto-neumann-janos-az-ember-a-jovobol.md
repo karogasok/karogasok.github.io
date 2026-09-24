@@ -21,7 +21,7 @@ kulcsszavak:
   - felkavar
   - Klára
   - önreprodukáló
-  - Bhattacharya
+  - dan
 ---
 
 Neumann emlékév van és ennek apropóján magyarul is elérhető immár a zseniális magyar matematikusról szóló könyv fordítása.

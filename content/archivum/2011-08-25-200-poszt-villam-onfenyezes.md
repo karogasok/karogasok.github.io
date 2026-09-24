@@ -17,8 +17,8 @@ regi_cimkek_mind:
 temak:
   - A blog életéről
 kulcsszavak:
-  - vendégeskedik
   - önfényezés
+  - vendégeskedik
   - tervez
   - érdeklődési
   - csatlakozik

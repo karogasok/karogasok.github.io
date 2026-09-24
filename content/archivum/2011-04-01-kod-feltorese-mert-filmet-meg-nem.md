@@ -24,8 +24,8 @@ regi_cimkek_mind:
 temak:
   - Tudományfilozófia
 kulcsszavak:
-  - hős
   - Anglia
+  - hős
   - feltör
   - film
   - enigma

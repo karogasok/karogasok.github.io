@@ -31,8 +31,8 @@ temak:
 kulcsszavak:
   - parancs
   - paraméter
-  - lokalizáció
   - Ubiquity
+  - lokalizáció
   - Raskin
 ---
 

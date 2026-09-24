@@ -18,8 +18,8 @@ temak:
   - Logika és matematika
 kulcsszavak:
   - képregény
-  - Papadimitriou
   - Doxiadis
+  - Papadimitriou
   - UC
   - Berkeley
 ---

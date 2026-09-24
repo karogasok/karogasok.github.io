@@ -22,9 +22,9 @@ temak:
   - Korpuszépítés és annotáció
   - Kurzusok és önképzés
 kulcsszavak:
-  - Tunkelang
   - facettás
-  - Concepts
+  - Tunkelang
+  - concepts
   - találati
   - halmaz
 ---

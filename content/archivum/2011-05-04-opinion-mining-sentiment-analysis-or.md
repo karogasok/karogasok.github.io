@@ -20,10 +20,10 @@ temak:
   - Adatújságírás és nyílt adat
 kulcsszavak:
   - Sentiment
-  - Textometry
   - Opinion
+  - Textometry
   - forth
-  - pu
+  - technologies
 ---
 
 **A guest post by** Margueritte Leenhardt

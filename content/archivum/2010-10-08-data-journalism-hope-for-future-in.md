@@ -19,8 +19,8 @@ temak:
 kulcsszavak:
   - Journalism
   - story
-  - conference
   - journalists
+  - conference
   - telling
 ---
 

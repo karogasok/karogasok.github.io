@@ -29,8 +29,8 @@ temak:
 kulcsszavak:
   - Blekko
   - Smart
-  - McKean
   - Words
+  - McKean
   - Wordnik
 ---
 

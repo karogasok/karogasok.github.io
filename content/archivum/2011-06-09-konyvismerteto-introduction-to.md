@@ -23,8 +23,8 @@ temak:
 kulcsszavak:
   - Gate
   - analytics
-  - xml
   - szövegelemzés
+  - XML
   - informatikus
 ---
 

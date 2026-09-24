@@ -31,14 +31,8 @@ Alan:
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/03/21/alan_turing_institute_brit_tudosok_es_a_big_data"
-AlcehmyAPI:
-  slug: alcehmyapi
-  darab: 1
 Algirdas:
   slug: algirdas
-  darab: 1
-Aljoscha:
-  slug: aljoscha
   darab: 1
 Alpha:
   slug: alpha
@@ -72,9 +66,6 @@ Anderson:
   darab: 1
 András:
   slug: andras
-  darab: 1
-Andy:
-  slug: andy
   darab: 1
 Anglia:
   slug: anglia
@@ -144,9 +135,6 @@ Berkeley:
 Beth:
   slug: beth
   darab: 1
-Bhattacharya:
-  slug: bhattacharya
-  darab: 1
 Bi:
   slug: bi
   darab: 2
@@ -209,9 +197,6 @@ Bluefin:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/02/06/a_twitter_felvasarolta_a_bluefin_labs-t"
-Bohumil:
-  slug: bohumil
-  darab: 1
 Bookshelf:
   slug: bookshelf
   darab: 1
@@ -226,7 +211,7 @@ Broe:
   darab: 1
 Budapest:
   slug: budapest
-  darab: 13
+  darab: 12
   kulsok:
     - cim: 100 szóban Budapest
       ev: 2020
@@ -251,10 +236,6 @@ Budapest:
       ev: 2016
       forras: kereses
       link: "https://kereses.blog.hu/2016/10/27/budapest_bi_forum"
-    - cim: "Október 16: e-Kormányzat Műhelykonferencia és Budapest Open Knowledge Meetup"
-      ev: 2014
-      forras: kereses
-      link: "https://kereses.blog.hu/2014/09/19/oktober_16_e-kormanyzat_muhelykonferencia_es_budapest_open_knowledge_meetup"
     - cim: "Szeptember 15: Budapest Open Knowledge Meetup"
       ev: 2014
       forras: kereses
@@ -298,8 +279,8 @@ CEU-ügy:
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/04/04/a_ceu-ugy_a_twitteren_interaktiv_topikmodell_vizualizacio"
-CILC-en:
-  slug: cilc-en
+CILC:
+  slug: cilc
   darab: 1
   kulsok:
     - cim: The nation in American political discourse
@@ -314,11 +295,17 @@ CKAN:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/10/02/opendata_hu_honositok_kerestetnek"
+CTO:
+  slug: cto
+  darab: 1
 CUP:
   slug: cup
   darab: 1
 Carnap:
   slug: carnap
+  darab: 1
+Carstairs-McCarthy:
+  slug: carstairs-mccarthy
   darab: 1
 Cartoon:
   slug: cartoon
@@ -331,6 +318,9 @@ Casasanto:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/07/17/a_qwerty-hatasrol"
+Casey:
+  slug: casey
+  darab: 1
 CeBIT:
   slug: cebit
   darab: 1
@@ -344,12 +334,16 @@ Challenge:
   darab: 1
 ChatGPT:
   slug: chatgpt
-  darab: 2
+  darab: 3
   kulsok:
     - cim: "Aki nem használja a ChatGPT-t és a mesterséges intelligenciát, az behozhatatlanul lemarad"
       ev: 2023
       forras: media
       link: "https://www.youtube.com/watch?v=nSMY0SjyeEc"
+    - cim: Papagáj vagy orákulum?
+      ev: 2023
+      forras: media
+      link: "https://docs.google.com/presentation/d/e/2PACX-1vSFhGG_A6QDdJF54sekTBHAyorm2SHb6F7AAHOOOHlpchSDLUz9XGGEBzy-u04p1t_i-Zt54WB6Rxl4/pub?start=false&loop=false&delayms=3000"
 Chen:
   slug: chen
   darab: 1
@@ -401,7 +395,7 @@ Co-pilot:
   darab: 1
 Colab:
   slug: colab
-  darab: 2
+  darab: 3
   kulsok:
     - cim: Getting Started with Google Colab Using PyTorch
       ev: 2020
@@ -455,9 +449,6 @@ Computing:
       ev: 2012
       forras: mashol
       link: "https://www.researchgate.net/publication/220028786_Using_Clojure_in_Linguistic_Computing"
-Concepts:
-  slug: concepts
-  darab: 1
 Consequences:
   slug: consequences
   darab: 1
@@ -486,8 +477,8 @@ CouchDB:
 Coursera:
   slug: coursera
   darab: 1
-Csernicskó:
-  slug: csernicsko
+Custom:
+  slug: custom
   darab: 1
 DH:
   slug: dh
@@ -577,9 +568,6 @@ Delvin:
   darab: 1
 Demystified:
   slug: demystified
-  darab: 1
-Descartes:
-  slug: descartes
   darab: 1
 Development:
   slug: development
@@ -677,9 +665,6 @@ Elias:
 Eliza:
   slug: eliza
   darab: 1
-Empirical:
-  slug: empirical
-  darab: 1
 Enci:
   slug: enci
   darab: 1
@@ -708,9 +693,6 @@ European:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/03/18/european_commission_study_of_big_data_and_other_data-driven_approaches_for_policy-making_data4policy"
-Evans:
-  slug: evans
-  darab: 1
 Everett:
   slug: everett
   darab: 2
@@ -730,6 +712,9 @@ Eyes:
   darab: 1
 FLN:
   slug: fln
+  darab: 1
+FSF:
+  slug: fsf
   darab: 1
 FTR-:
   slug: ftr
@@ -833,6 +818,9 @@ Freebase:
 Fry:
   slug: fry
   darab: 2
+Functional:
+  slug: functional
+  darab: 2
 Futurology:
   slug: futurology
   darab: 1
@@ -844,8 +832,8 @@ Futurology:
 G2:
   slug: g2
   darab: 1
-G4:
-  slug: g4
+G3:
+  slug: g3
   darab: 1
 GDELT:
   slug: gdelt
@@ -860,7 +848,7 @@ GHC:
   darab: 1
 GIS:
   slug: gis
-  darab: 1
+  darab: 2
 GPT:
   slug: gpt
   darab: 1
@@ -924,9 +912,9 @@ Giraph:
 Gist:
   slug: gist
   darab: 2
-GitHub:
-  slug: github
-  darab: 2
+Git:
+  slug: git
+  darab: 1
 Glass:
   slug: glass
   darab: 1
@@ -999,7 +987,7 @@ Google:
       link: "https://kereses.blog.hu/2011/12/13/feltorekvo_keresok_2"
 Graph:
   slug: graph
-  darab: 7
+  darab: 8
   kulsok:
     - cim: Facebook Graph Search
       ev: 2013
@@ -1017,6 +1005,10 @@ Graph:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/01/26/yandex_wonder_ami_a_facebook_graph_search_szeretne_lenni"
+    - cim: Google Knowledge Graph
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/03/20/google_knowledge_graph"
 Graphics:
   slug: graphics
   darab: 1
@@ -1028,7 +1020,7 @@ Group:
   darab: 1
 Guardian:
   slug: guardian
-  darab: 1
+  darab: 2
   kulsok:
     - cim: A Twitter belép a tartalomiparba?
       ev: 2013
@@ -1056,9 +1048,6 @@ Hackathon:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/03/14/marcius_27-28_bok_meetup_es_k-monitor_hackathon"
-HacketyHack:
-  slug: hacketyhack
-  darab: 1
 Hacking:
   slug: hacking
   darab: 1
@@ -1084,9 +1073,6 @@ Handwrite:
 Harford:
   slug: harford
   darab: 1
-Harvard:
-  slug: harvard
-  darab: 1
 Haskell:
   slug: haskell
   darab: 3
@@ -1098,9 +1084,6 @@ Head:
   darab: 3
 Heintz:
   slug: heintz
-  darab: 1
-Hempel:
-  slug: hempel
   darab: 1
 History:
   slug: history
@@ -1184,6 +1167,9 @@ INF:
 Ian:
   slug: ian
   darab: 1
+IdeaShop:
+  slug: ideashop
+  darab: 1
 Incanter:
   slug: incanter
   darab: 1
@@ -1193,14 +1179,6 @@ Independent:
 Infochimps:
   slug: infochimps
   darab: 1
-Information:
-  slug: information
-  darab: 1
-  kulsok:
-    - cim: "Könyvajánló: The Information: A History, A Theory, A Flood"
-      ev: 2014
-      forras: kereses
-      link: "https://kereses.blog.hu/2014/02/19/konyajanlo_the_information_a_history_a_theory_a_flood"
 Ingo:
   slug: ingo
   darab: 1
@@ -1254,6 +1232,14 @@ Jasmin:
 Jason:
   slug: jason
   darab: 1
+Java:
+  slug: java
+  darab: 2
+  kulsok:
+    - cim: "Állás: Java + NLP"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/09/allas_java_nlp"
 JavaScript:
   slug: javascript
   darab: 2
@@ -1380,6 +1366,9 @@ Koffair:
 Kornai:
   slug: kornai
   darab: 1
+Kristina:
+  slug: kristina
+  darab: 1
 Kuhn:
   slug: kuhn
   darab: 1
@@ -1410,9 +1399,6 @@ LISP:
   darab: 2
 LLM:
   slug: llm
-  darab: 2
-LLM-ek:
-  slug: llm-ek
   darab: 1
 Labs:
   slug: labs
@@ -1753,6 +1739,9 @@ NLP:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/09/05/legyel_az_nlp_meetup_szervezoje"
+NLTK:
+  slug: nltk
+  darab: 5
 Names:
   slug: names
   darab: 1
@@ -1772,7 +1761,7 @@ Ner:
       link: "https://kereses.blog.hu/2013/09/10/precognox_labs_entity_extractor"
 Neticle:
   slug: neticle
-  darab: 3
+  darab: 2
   kulsok:
     - cim: Automatikus szövegelemző API végre magyar nyelven is
       ev: 2015
@@ -1876,7 +1865,7 @@ Open:
       link: "https://kereses.blog.hu/2013/05/27/magyar_open_data_hub_indul"
 OpenNews:
   slug: opennews
-  darab: 3
+  darab: 2
 Opinion:
   slug: opinion
   darab: 1
@@ -1891,11 +1880,14 @@ Orbán:
 PAIP:
   slug: paip
   darab: 1
+PDP:
+  slug: pdp
+  darab: 1
 PK:
   slug: pk
   darab: 1
-POLTEXT-en:
-  slug: poltext-en
+POLTEXT:
+  slug: poltext
   darab: 1
   kulsok:
     - cim: The nation in American political discourse
@@ -1916,9 +1908,6 @@ Partee:
   darab: 1
 Patrick:
   slug: patrick
-  darab: 1
-Pattern:
-  slug: pattern
   darab: 1
 Perl:
   slug: perl
@@ -1969,6 +1958,9 @@ Poignant:
   darab: 1
 Pomodoro:
   slug: pomodoro
+  darab: 1
+Powerset:
+  slug: powerset
   darab: 1
 Practice:
   slug: practice
@@ -2079,6 +2071,12 @@ Quantitative:
 Query:
   slug: query
   darab: 1
+Quick:
+  slug: quick
+  darab: 1
+Quid:
+  slug: quid
+  darab: 1
 Quillian:
   slug: quillian
   darab: 1
@@ -2095,7 +2093,7 @@ Quixey:
       link: "https://kereses.blog.hu/2014/06/23/quixey_kereso_a_mobil-kornak"
 R:
   slug: r
-  darab: 6
+  darab: 5
   kulsok:
     - cim: Szeptember 3-án R and C++ a BURN meeutpon
       ev: 2014
@@ -2143,9 +2141,6 @@ Rasmusson:
 Rathore:
   slug: rathore
   darab: 1
-Rational:
-  slug: rational
-  darab: 1
 Rattle:
   slug: rattle
   darab: 1
@@ -2165,9 +2160,6 @@ Reas:
   darab: 1
 Reasoning:
   slug: reasoning
-  darab: 1
-Regular:
-  slug: regular
   darab: 1
 Replise:
   slug: replise
@@ -2434,6 +2426,17 @@ Solutions:
 Sourcefabric:
   slug: sourcefabric
   darab: 1
+Startup:
+  slug: startup
+  darab: 4
+  kulsok:
+    - cim: "Precognox @ Startup Safary"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/21/precognox_startup_safary"
+Statistics:
+  slug: statistics
+  darab: 2
 Stephan:
   slug: stephan
   darab: 1
@@ -2457,6 +2460,9 @@ Studio:
   darab: 1
 Summit:
   slug: summit
+  darab: 1
+Sussman:
+  slug: sussman
   darab: 1
 Sweave:
   slug: sweave
@@ -2493,6 +2499,9 @@ Szókratész:
 TEI:
   slug: tei
   darab: 1
+THATCamp:
+  slug: thatcamp
+  darab: 1
 TK:
   slug: tk
   darab: 1
@@ -2524,14 +2533,6 @@ TechTea:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/11/11/szovegvizualizaciok_a_szofelhokon_tul_precognox_mome_techtea"
-Technologies:
-  slug: technologies
-  darab: 1
-  kulsok:
-    - cim: "A Neticle Technologies gyakornokokat keres!"
-      ev: 2014
-      forras: kereses
-      link: "https://kereses.blog.hu/2014/01/27/a_neticle_technologies_online_evangelist_trainee-t_keres"
 Telekom:
   slug: telekom
   darab: 1
@@ -2591,11 +2592,11 @@ Trayvon:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/07/19/trayvon_martin_ugy_a_twitteren"
-Trier:
-  slug: trier
-  darab: 1
 TrueKnowledge:
   slug: trueknowledge
+  darab: 1
+Tunisia:
+  slug: tunisia
   darab: 1
 Tunkelang:
   slug: tunkelang
@@ -2684,9 +2685,6 @@ Ubiquity:
 Ubuntu:
   slug: ubuntu
   darab: 1
-Understanding:
-  slug: understanding
-  darab: 1
 Unfold:
   slug: unfold
   darab: 1
@@ -2701,6 +2699,9 @@ Unix:
   darab: 1
 Ustream:
   slug: ustream
+  darab: 1
+Vajna:
+  slug: vajna
   darab: 1
 Vali:
   slug: vali
@@ -2783,6 +2784,9 @@ Wavii:
 Whispersync:
   slug: whispersync
   darab: 1
+White:
+  slug: white
+  darab: 1
 Widdows:
   slug: widdows
   darab: 2
@@ -2809,9 +2813,6 @@ Wonder:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/01/26/yandex_wonder_ami_a_facebook_graph_search_szeretne_lenni"
-WordCram:
-  slug: wordcram
-  darab: 1
 Wordle:
   slug: wordle
   darab: 1
@@ -2832,6 +2833,9 @@ Working:
 X1:
   slug: x1
   darab: 1
+XML:
+  slug: xml
+  darab: 2
 Yahoo:
   slug: yahoo
   darab: 1
@@ -2848,6 +2852,14 @@ Yandex:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/01/26/yandex_wonder_ami_a_facebook_graph_search_szeretne_lenni"
+Yossarian:
+  slug: yossarian
+  darab: 1
+  kulsok:
+    - cim: Egy igazi metaforamasina a Yossarian?
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/10/10/egy_igazi_metaforamasina_a_yossarian"
 YouTube:
   slug: youtube
   darab: 1
@@ -3006,12 +3018,15 @@ adás:
 adózói:
   slug: adozoi
   darab: 1
+agains:
+  slug: agains
+  darab: 1
 agile:
   slug: agile
   darab: 1
 agilis:
   slug: agilis
-  darab: 1
+  darab: 2
 agilista:
   slug: agilista
   darab: 1
@@ -3113,6 +3128,9 @@ amazon:
   darab: 1
 analitika:
   slug: analitika
+  darab: 1
+analogy:
+  slug: analogy
   darab: 1
 analytics:
   slug: analytics
@@ -3296,6 +3314,9 @@ beszédfelismerős:
 beszélgetés:
   slug: beszelgetes
   darab: 1
+betűsor:
+  slug: betusor
+  darab: 1
 betűtípus:
   slug: betutipus
   darab: 1
@@ -3351,11 +3372,11 @@ bitly:
 blogszünet:
   slug: blogszunet
   darab: 2
+bolyongás:
+  slug: bolyongas
+  darab: 1
 book:
   slug: book
-  darab: 1
-boring:
-  slug: boring
   darab: 1
 bottlenos:
   slug: bottlenos
@@ -3365,6 +3386,9 @@ bottlenos:
       ev: 2012
       forras: kereses
       link: "https://kereses.blog.hu/2012/08/07/mi_koze_van_a_palackorru_delfineknek_a_valosideju_kereseshez"
+brief:
+  slug: brief
+  darab: 1
 brit:
   slug: brit
   darab: 1
@@ -3465,9 +3489,6 @@ civil:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/07/31/lobbicsoportok_es_civil_mozgalmak_halozatainak_alakulasa_a_sopa-pipa_vita_kapcsan"
-cl:
-  slug: cl
-  darab: 1
 class:
   slug: class
   darab: 1
@@ -3538,6 +3559,9 @@ conTEXT:
       ev: 2013
       forras: media
       link: "https://www.slideshare.net/slideshow/context-a-szavak-titkos-lete/28741564"
+concepts:
+  slug: concepts
+  darab: 1
 conference:
   slug: conference
   darab: 1
@@ -3566,6 +3590,9 @@ corpus:
       link: "https://kereses.blog.hu/2014/09/22/mooc_ajanlo_corpus_linguistics_method_analysis_interpretation"
 correct:
   slug: correct
+  darab: 1
+correlation:
+  slug: correlation
   darab: 1
 cours:
   slug: cours
@@ -3621,6 +3648,9 @@ cucc:
 customers:
   slug: customers
   darab: 1
+cycl:
+  slug: cycl
+  darab: 1
 cég:
   slug: ceg
   darab: 5
@@ -3661,6 +3691,9 @@ dalszöveg:
     - cim: Miről szólnak a magyar dalszövegek?
       ev: 2020
       forras: media
+dan:
+  slug: dan
+  darab: 1
 dance:
   slug: dance
   darab: 1
@@ -3830,6 +3863,9 @@ drive:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/07/29/szentimentelemzesre_alapozott_dontesek"
+dönt:
+  slug: dont
+  darab: 1
 e-kormányzat:
   slug: e-kormanyzat
   darab: 1
@@ -3870,6 +3906,9 @@ egyáltalán:
   darab: 1
 együttműködik:
   slug: egyuttmukodik
+  darab: 1
+egészen:
+  slug: egeszen
   darab: 1
 elemez:
   slug: elemez
@@ -4027,6 +4066,9 @@ emerging:
   darab: 1
 emlős:
   slug: emlos
+  darab: 1
+empirical:
+  slug: empirical
   darab: 1
 empirista:
   slug: empirista
@@ -4363,6 +4405,9 @@ fontos:
 fonéma:
   slug: fonema
   darab: 1
+fordulat:
+  slug: fordulat
+  darab: 1
 fordítási:
   slug: forditasi
   darab: 1
@@ -4393,15 +4438,9 @@ forth:
 fotogrammetriai:
   slug: fotogrammetriai
   darab: 1
-free-form:
-  slug: free-form
-  darab: 1
 function:
   slug: function
   darab: 1
-functional:
-  slug: functional
-  darab: 2
 funkcionális:
   slug: funkcionalis
   darab: 2
@@ -4436,9 +4475,6 @@ fél:
 fúj:
   slug: fuj
   darab: 1
-g:
-  slug: g
-  darab: 1
 games:
   slug: games
   darab: 1
@@ -4462,6 +4498,9 @@ gerinchálózat:
 ggplot2:
   slug: ggplot2
   darab: 1
+github:
+  slug: github
+  darab: 2
 gnuplot:
   slug: gnuplot
   darab: 1
@@ -4487,7 +4526,7 @@ grants:
   darab: 1
 gráf:
   slug: graf
-  darab: 3
+  darab: 4
   kulsok:
     - cim: Bababeszéd és gráfok 2.
       ev: 2015
@@ -4534,6 +4573,9 @@ gyors:
       link: "https://kereses.blog.hu/2015/07/09/alternativ_megoldasok_a_potyogesre_mobilon"
 gyémánt:
   slug: gyemant
+  darab: 1
+gyökszótár:
+  slug: gyokszotar
   darab: 1
 gyűlöletbeszéd:
   slug: gyuloletbeszed
@@ -4616,7 +4658,7 @@ halmaz:
   darab: 1
 halmazelméleti:
   slug: halmazelmeleti
-  darab: 1
+  darab: 2
 halmoz:
   slug: halmoz
   darab: 1
@@ -4670,6 +4712,9 @@ hatékony:
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/11/02/legyel_hatekony_ipari_kutato"
+hazai:
+  slug: hazai
+  darab: 1
 healthcare:
   slug: healthcare
   darab: 1
@@ -4866,9 +4911,6 @@ idő:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/06/17/csak_termeszetesen_443"
-időpont:
-  slug: idopont
-  darab: 1
 idősor:
   slug: idosor
   darab: 1
@@ -4879,6 +4921,9 @@ idősor:
       link: "https://kereses.blog.hu/2017/04/25/szonifikacio"
 igazi:
   slug: igazi
+  darab: 1
+igazolhatóság:
+  slug: igazolhatosag
   darab: 1
 igazság:
   slug: igazsag
@@ -4910,6 +4955,9 @@ imitációs:
   darab: 1
 impact:
   slug: impact
+  darab: 1
+implementál:
+  slug: implemental
   darab: 1
 indexing:
   slug: indexing
@@ -4947,6 +4995,14 @@ informatikus:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/05/10/nyari_szakmai_gyakorlati_lehetoseg_a_precognox-nal"
+information:
+  slug: information
+  darab: 1
+  kulsok:
+    - cim: "Könyvajánló: The Information: A History, A Theory, A Flood"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/19/konyajanlo_the_information_a_history_a_theory_a_flood"
 információ:
   slug: informacio
   darab: 3
@@ -5165,14 +5221,6 @@ izgatottság:
 jQuery:
   slug: jquery
   darab: 1
-java:
-  slug: java
-  darab: 2
-  kulsok:
-    - cim: "Állás: Java + NLP"
-      ev: 2014
-      forras: kereses
-      link: "https://kereses.blog.hu/2014/09/09/allas_java_nlp"
 jegy:
   slug: jegy
   darab: 1
@@ -5192,6 +5240,9 @@ jelentésváltozás:
   darab: 1
 jelentős:
   slug: jelentos
+  darab: 1
+jeles:
+  slug: jeles
   darab: 1
 jelfeldolgozás:
   slug: jelfeldolgozas
@@ -5337,9 +5388,6 @@ kategória:
 kategóriaelmélet:
   slug: kategoriaelmelet
   darab: 1
-kb:
-  slug: kb
-  darab: 1
 kedvezmény:
   slug: kedvezmeny
   darab: 1
@@ -5439,6 +5487,12 @@ keveredik:
 kezdeti:
   slug: kezdeti
   darab: 1
+kiadás:
+  slug: kiadas
+  darab: 1
+kibontás:
+  slug: kibontas
+  darab: 1
 kiborgo:
   slug: kiborgo
   darab: 1
@@ -5501,9 +5555,6 @@ kitöltés:
 kiél:
   slug: kiel
   darab: 1
-kl:
-  slug: kl
-  darab: 1
 klaszter:
   slug: klaszter
   darab: 1
@@ -5546,9 +5597,6 @@ kombinatorikus:
   darab: 1
 kommunikációs:
   slug: kommunikacios
-  darab: 1
-kompozícionalitás:
-  slug: kompozicionalitas
   darab: 1
 konferencia:
   slug: konferencia
@@ -5804,6 +5852,9 @@ közbeszerzési:
 közhely:
   slug: kozhely
   darab: 1
+központ:
+  slug: kozpont
+  darab: 1
 közszolgálati:
   slug: kozszolgalati
   darab: 1
@@ -5887,12 +5938,15 @@ lambda:
   darab: 1
 language:
   slug: language
-  darab: 2
+  darab: 3
   kulsok:
     - cim: NLP meetup hírek
       ev: 2012
       forras: kereses
       link: "https://kereses.blog.hu/2012/09/11/nlp_meetup_hirek"
+langue:
+  slug: langue
+  darab: 1
 lap:
   slug: lap
   darab: 2
@@ -5901,9 +5955,6 @@ lap:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/05/07/house_of_cards_tartalom_es_big_data"
-laptopos:
-  slug: laptopos
-  darab: 1
 large:
   slug: large
   darab: 1
@@ -5980,6 +6031,9 @@ levél:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/11/19/a_levelek_koztarsasaga"
+levéltári:
+  slug: leveltari
+  darab: 1
 lex:
   slug: lex
   darab: 1
@@ -6004,9 +6058,6 @@ lineáris:
 linguists:
   slug: linguists
   darab: 2
-ll:
-  slug: ll
-  darab: 1
 lobbicsoport:
   slug: lobbicsoport
   darab: 1
@@ -6027,9 +6078,6 @@ lokalizáció:
 lokalizálás:
   slug: lokalizalas
   darab: 1
-lx:
-  slug: lx
-  darab: 2
 lány:
   slug: lany
   darab: 1
@@ -6221,7 +6269,7 @@ medium:
       link: "https://kereses.blog.hu/2013/08/02/az_adatujsagiras_utan_itt_a_javascript_ujsagiras"
 meetup:
   slug: meetup
-  darab: 18
+  darab: 19
   kulsok:
     - cim: Adatok és jogászok - BOK meetup május 14-én
       ev: 2015
@@ -6255,6 +6303,10 @@ meetup:
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/04/29/nlp_meetup_aprilis_30-an_internetes_josda"
+    - cim: "Október 16: e-Kormányzat Műhelykonferencia és Budapest Open Knowledge Meetup"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/19/oktober_16_e-kormanyzat_muhelykonferencia_es_budapest_open_knowledge_meetup"
     - cim: "Szeptember 15: Budapest Open Knowledge Meetup"
       ev: 2014
       forras: kereses
@@ -6300,9 +6352,6 @@ megfelelő:
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/08/18/the_mathematical_corporation"
-megfigyelési:
-  slug: megfigyelesi
-  darab: 1
 meghatározó:
   slug: meghatarozo
   darab: 1
@@ -6316,12 +6365,6 @@ megismerkedik:
   darab: 1
 megjelenő:
   slug: megjeleno
-  darab: 1
-megjósolhatatlan:
-  slug: megjosolhatatlan
-  darab: 1
-megkülönböztető:
-  slug: megkulonbozteto
   darab: 1
 megrendezés:
   slug: megrendezes
@@ -6391,11 +6434,11 @@ mesterséges:
       ev: 2018
       forras: kereses
       link: "https://kereses.blog.hu/2018/02/19/konyvajanlo_machines_of_loving_grace_the_quest_for_common_ground_between_human_and_robots"
-mesélő:
-  slug: meselo
-  darab: 1
 mesés:
   slug: meses
+  darab: 1
+metafizika:
+  slug: metafizika
   darab: 1
 metafizikai:
   slug: metafizikai
@@ -6432,9 +6475,6 @@ minimális:
 mintázat:
   slug: mintazat
   darab: 1
-ml:
-  slug: ml
-  darab: 2
 mobil:
   slug: mobil
   darab: 4
@@ -6589,6 +6629,9 @@ méretű:
 mérföldkő:
   slug: merfoldko
   darab: 1
+mérnök:
+  slug: mernok
+  darab: 1
 mérő:
   slug: mero
   darab: 1
@@ -6626,14 +6669,6 @@ művészet:
 művészeti:
   slug: muveszeti
   darab: 1
-na:
-  slug: na
-  darab: 2
-  kulsok:
-    - cim: "The Nagel Index: Does power change a person?"
-      ev: 2026
-      forras: mashol
-      link: "https://crowintelligence.org/aporia/nagel-essay/"
 nagyrészt:
   slug: nagyreszt
   darab: 1
@@ -6708,6 +6743,16 @@ neurális:
       ev: 2016
       forras: mashol
       link: "https://www.nyest.hu/hirek/a-neuralis-az-uj-szexi"
+nevelés:
+  slug: neveles
+  darab: 1
+news:
+  slug: news
+  darab: 1
+  kulsok:
+    - cim: Algoritmikus újságírás és fake news
+      ev: 2020
+      forras: media
 newsl:
   slug: newsl
   darab: 1
@@ -6719,18 +6764,12 @@ newsl:
 newtoni:
   slug: newtoni
   darab: 1
-ng:
-  slug: ng
-  darab: 1
 ngram:
   slug: ngram
   darab: 1
 nix:
   slug: nix
   darab: 1
-nltk:
-  slug: nltk
-  darab: 4
 notebook:
   slug: notebook
   darab: 2
@@ -6879,7 +6918,7 @@ nyelvészet:
       link: "https://kereses.blog.hu/2014/05/03/nyelveszet_mindenkinek_145"
 nyelvű:
   slug: nyelvu
-  darab: 1
+  darab: 2
   kulsok:
     - cim: Magyar nyelvű tartalmak elemzése
       ev: 2016
@@ -6901,6 +6940,9 @@ nyilvános:
       ev: 2011
       forras: kereses
       link: "https://kereses.blog.hu/2011/10/25/a_szavak_titkos_elete_747"
+nyomorúság:
+  slug: nyomorusag
+  darab: 1
 nyugati:
   slug: nyugati
   darab: 1
@@ -7053,6 +7095,9 @@ oldal:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/12/10/elindult_az_online_politikai_elemzesek"
+oldalt:
+  slug: oldalt
+  darab: 1
 olvasmány:
   slug: olvasmany
   darab: 1
@@ -7122,14 +7167,6 @@ orvos:
 oszlop:
   slug: oszlop
   darab: 2
-p:
-  slug: p
-  darab: 2
-  kulsok:
-    - cim: Meetup update
-      ev: 2012
-      forras: kereses
-      link: "https://kereses.blog.hu/2012/09/21/meetup_update"
 pair:
   slug: pair
   darab: 1
@@ -7164,6 +7201,12 @@ park:
   darab: 1
 pas:
   slug: pas
+  darab: 1
+pathology:
+  slug: pathology
+  darab: 1
+pattern:
+  slug: pattern
   darab: 1
 patterns:
   slug: patterns
@@ -7209,9 +7252,6 @@ piackutatás:
       link: "https://kereses.blog.hu/2013/01/25/piackutatas_es_big_data"
 pirahã:
   slug: piraha
-  darab: 1
-pl:
-  slug: pl
   darab: 1
 plágium:
   slug: plagium
@@ -7296,9 +7336,6 @@ politikus:
 poll:
   slug: poll
   darab: 1
-pontos:
-  slug: pontos
-  darab: 1
 pontosság:
   slug: pontossag
   darab: 1
@@ -7313,9 +7350,6 @@ popdal:
 popper:
   slug: popper
   darab: 2
-portion:
-  slug: portion
-  darab: 1
 poszter:
   slug: poszter
   darab: 1
@@ -7335,6 +7369,9 @@ practical:
   darab: 1
 pragmatic:
   slug: pragmatic
+  darab: 1
+predictions:
+  slug: predictions
   darab: 1
 preferencia:
   slug: preferencia
@@ -7453,11 +7490,11 @@ prológus:
 protein:
   slug: protein
   darab: 1
+próza:
+  slug: proza
+  darab: 1
 pszichológiai:
   slug: pszichologiai
-  darab: 1
-pu:
-  slug: pu
   darab: 1
 purely:
   slug: purely
@@ -7467,6 +7504,9 @@ pytagcloud:
   darab: 1
 pályamű:
   slug: palyamu
+  darab: 1
+pályázik:
+  slug: palyazik
   darab: 1
 párhuzamos:
   slug: parhuzamos
@@ -7495,9 +7535,6 @@ pók:
   darab: 1
 pókháló:
   slug: pokhalo
-  darab: 1
-q:
-  slug: q
   darab: 1
 quality:
   slug: quality
@@ -7540,7 +7577,7 @@ rangsor:
   darab: 2
 rangsorolás:
   slug: rangsorolas
-  darab: 2
+  darab: 1
 real:
   slug: real
   darab: 1
@@ -7558,12 +7595,12 @@ receptkereső:
 reggel:
   slug: reggel
   darab: 1
-regime:
-  slug: regime
-  darab: 1
 regisztrál:
   slug: regisztral
   darab: 2
+regular:
+  slug: regular
+  darab: 1
 rejtelem:
   slug: rejtelem
   darab: 2
@@ -7575,6 +7612,9 @@ rekonstrukció:
   darab: 1
 relativitáselmélet:
   slug: relativitaselmelet
+  darab: 1
+relativizmus:
+  slug: relativizmus
   darab: 1
 remek:
   slug: remek
@@ -7614,17 +7654,14 @@ rendszer:
 rendszeres:
   slug: rendszeres
   darab: 1
-repl:
-  slug: repl
-  darab: 1
-repo:
-  slug: repo
-  darab: 1
 researchers:
   slug: researchers
   darab: 1
 resource:
   slug: resource
+  darab: 1
+responses:
+  slug: responses
   darab: 1
 reveal:
   slug: reveal
@@ -7849,17 +7886,6 @@ srác:
 stabil:
   slug: stabil
   darab: 1
-startup:
-  slug: startup
-  darab: 4
-  kulsok:
-    - cim: "Precognox @ Startup Safary"
-      ev: 2017
-      forras: kereses
-      link: "https://kereses.blog.hu/2017/04/21/precognox_startup_safary"
-statistics:
-  slug: statistics
-  darab: 2
 stats:
   slug: stats
   darab: 1
@@ -7894,8 +7920,8 @@ submissions:
 summer:
   slug: summer
   darab: 1
-szabadalom:
-  slug: szabadalom
+synergetic:
+  slug: synergetic
   darab: 1
 szabvány:
   slug: szabvany
@@ -8078,7 +8104,7 @@ szolgálat:
   darab: 1
 szolgáltatás:
   slug: szolgaltatas
-  darab: 1
+  darab: 2
   kulsok:
     - cim: Prediktív analitika mint szolgáltatás
       ev: 2012
@@ -8104,6 +8130,9 @@ számítógépes:
       ev: 2011
       forras: mashol
       link: "https://www.nyest.hu/hirek/hogyan-lehet-szamitogepes-nyelvesz"
+szándék:
+  slug: szandek
+  darab: 1
 szép:
   slug: szep
   darab: 1
@@ -8117,7 +8146,7 @@ színvonal:
   darab: 2
 szó:
   slug: szo
-  darab: 8
+  darab: 9
   kulsok:
     - cim: 100 szóban Budapest
       ev: 2020
@@ -8260,6 +8289,9 @@ szöveggenerálás:
 szövegkörnyezet:
   slug: szovegkornyezet
   darab: 1
+szövegszerkesztő:
+  slug: szovegszerkeszto
+  darab: 1
 szövegvizualizációs:
   slug: szovegvizualizacios
   darab: 1
@@ -8285,14 +8317,6 @@ születés:
 szünetel:
   slug: szunetel
   darab: 1
-t:
-  slug: t
-  darab: 1
-  kulsok:
-    - cim: Szövegbányászat minden mennyiségben
-      ev: 2012
-      forras: kereses
-      link: "https://kereses.blog.hu/2012/05/26/szovegbanyaszat_minden_mennyisegben"
 tag:
   slug: tag
   darab: 1
@@ -8340,6 +8364,9 @@ tankcsapda:
       link: "https://kereses.blog.hu/2014/07/21/25_ev_tankcsapda_dalainak_topik_eloszlasa"
 tanul:
   slug: tanul
+  darab: 1
+tanulhatóság:
+  slug: tanulhatosag
   darab: 1
 tanulmány:
   slug: tanulmany
@@ -8416,6 +8443,14 @@ tea:
 team:
   slug: team
   darab: 1
+technologies:
+  slug: technologies
+  darab: 2
+  kulsok:
+    - cim: "A Neticle Technologies gyakornokokat keres!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/01/27/a_neticle_technologies_online_evangelist_trainee-t_keres"
 technológia:
   slug: technologia
   darab: 1
@@ -8450,7 +8485,7 @@ teljesít:
   darab: 1
 teljesítmény:
   slug: teljesitmeny
-  darab: 1
+  darab: 2
 telling:
   slug: telling
   darab: 1
@@ -8486,9 +8521,6 @@ természettudomány:
 tervez:
   slug: tervez
   darab: 1
-tervezés:
-  slug: tervezes
-  darab: 1
 tervezési:
   slug: tervezesi
   darab: 1
@@ -8497,9 +8529,6 @@ területi:
   darab: 1
 test-elme:
   slug: test-elme
-  darab: 1
-tevékenységi:
-  slug: tevekenysegi
   darab: 1
 text:
   slug: text
@@ -8529,9 +8558,6 @@ tipp:
   darab: 1
 title:
   slug: title
-  darab: 1
-tm:
-  slug: tm
   darab: 1
 token:
   slug: token
@@ -8581,8 +8607,8 @@ továbbra:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/05/18/brainy_solutions_nlp_meetup_majus_20-an"
-transzdiszciplína:
-  slug: transzdiszciplina
+továbbít:
+  slug: tovabbit
   darab: 1
 true:
   slug: true
@@ -8616,9 +8642,6 @@ tudományos:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/09/27/mire_jok_a_tudomanyos_modellek"
-tudomás:
-  slug: tudomas
-  darab: 1
 tudor:
   slug: tudor
   darab: 1
@@ -8631,14 +8654,6 @@ tumblr:
 tutorial:
   slug: tutorial
   darab: 2
-tv:
-  slug: tv
-  darab: 1
-  kulsok:
-    - cim: Elindult a Twitter TV ad targeting
-      ev: 2013
-      forras: kereses
-      link: "https://kereses.blog.hu/2013/05/30/elindult_a_twitter_tv_ad_targeting"
 tweetel:
   slug: tweetel
   darab: 1
@@ -8653,7 +8668,7 @@ tálal:
   darab: 1
 támogat:
   slug: tamogat
-  darab: 2
+  darab: 1
 támogató:
   slug: tamogato
   darab: 1
@@ -8665,6 +8680,9 @@ tárol:
       ev: 2012
       forras: kereses
       link: "https://kereses.blog.hu/2012/07/24/a_big_data_nagy_de_mirol_szol"
+tárolás:
+  slug: tarolas
+  darab: 1
 téma:
   slug: tema
   darab: 3
@@ -8690,21 +8708,15 @@ térbeli:
   darab: 1
 térkép:
   slug: terkep
-  darab: 3
+  darab: 1
 térképészet:
   slug: terkepeszet
-  darab: 1
-tévedés:
-  slug: tevedes
   darab: 1
 típusosság:
   slug: tipusossag
   darab: 1
 tó:
   slug: to
-  darab: 1
-többnyelvűség:
-  slug: tobbnyelvuseg
   darab: 1
 tökéletes:
   slug: tokeletes
@@ -8754,6 +8766,9 @@ ujj:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/07/09/alternativ_megoldasok_a_potyogesre_mobilon"
+understanding:
+  slug: understanding
+  darab: 1
 utólag:
   slug: utolag
   darab: 1
@@ -8780,9 +8795,6 @@ vendégeskedik:
   darab: 1
 vetélkedő:
   slug: vetelkedo
-  darab: 1
-vi:
-  slug: vi
   darab: 1
 videó:
   slug: video
@@ -8924,9 +8936,6 @@ végez:
 végre:
   slug: vegre
   darab: 1
-vékony:
-  slug: vekony
-  darab: 1
 véleményárfolyam:
   slug: velemenyarfolyam
   darab: 1
@@ -8958,6 +8967,9 @@ web2.2-fre-sorted.top100k.txt:
 webkorpusz:
   slug: webkorpusz
   darab: 1
+website:
+  slug: website
+  darab: 1
 wolfram:
   slug: wolfram
   darab: 1
@@ -8969,6 +8981,9 @@ wolfram:
 wordcloud:
   slug: wordcloud
   darab: 1
+wordcram:
+  slug: wordcram
+  darab: 1
 workbook:
   slug: workbook
   darab: 1
@@ -8977,15 +8992,6 @@ workflow:
   darab: 1
 workflows:
   slug: workflows
-  darab: 1
-x:
-  slug: x
-  darab: 1
-xml:
-  slug: xml
-  darab: 2
-xy:
-  slug: xy
   darab: 1
 zavaró:
   slug: zavaro
@@ -9044,7 +9050,7 @@ zseniális:
       link: "https://kereses.blog.hu/2013/03/06/inklink_2013_adatujsagiras-nap_aprilis_6-an"
 ár:
   slug: ar
-  darab: 2
+  darab: 1
   kulsok:
     - cim: "Mennyit ér a kecód? Medián négyzetméter árak vizualizálva!"
       ev: 2017
@@ -9106,6 +9112,9 @@ zseniális:
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/11/21/miert_buknak_el_nemzetek_es_mi_koze_van_ennek_a_nyilt_adatokhoz"
+érdekeset:
+  slug: erdekeset
+  darab: 1
 érdeklődési:
   slug: erdeklodesi
   darab: 1
@@ -9230,7 +9239,7 @@ zseniális:
   darab: 1
 összetett:
   slug: osszetett
-  darab: 1
+  darab: 2
 összetételi:
   slug: osszeteteli
   darab: 1

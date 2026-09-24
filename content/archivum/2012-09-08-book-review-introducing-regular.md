@@ -18,7 +18,7 @@ regi_cimkek_mind:
 temak:
   - Korpuszépítés és annotáció
 kulcsszavak:
-  - Regular
+  - regular
   - shor
   - follow
   - expressions

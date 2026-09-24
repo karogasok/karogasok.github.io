@@ -20,7 +20,7 @@ regi_cimkek_mind:
 temak:
   - Logika és matematika
 kulcsszavak:
-  - Understanding
+  - understanding
   - Engines
   - színvonal
   - Modeling

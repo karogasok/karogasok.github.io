@@ -19,10 +19,10 @@ temak:
   - A szakma
 kulcsszavak:
   - Jobs
-  - ll
   - Resume
   - speech
   - forensic
+  - pathology
 ---
 
 *A guest post by Christopher Phipps, [The Lousy Linguist](http://thelousylinguist.blogspot.com/)*

@@ -11,11 +11,11 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/07/scientific-appro
 temak:
   - Paradigmák és nyelvelméletek
 kulcsszavak:
-  - q
   - phenomenon
-  - R
   - true
   - hypothesis
+  - Carstairs-McCarthy
+  - analogy
 ---
 
 **A guest post by Hannah Little**

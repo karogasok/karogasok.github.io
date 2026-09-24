@@ -19,8 +19,8 @@ temak:
 kulcsszavak:
   - games
   - LISP
-  - SBCL
   - Melis
+  - SBCL
   - Common
 ---
 

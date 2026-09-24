@@ -16,9 +16,9 @@ temak:
 kulcsszavak:
   - nemteljességi
   - Gödel
+  - fixpont
   - kombinatorikus
   - típusosság
-  - fixpont
 ---
 
 A kombinatorikus logika és Gödel tétle Raymond Smullyan-nek hála remek fejtörőkön keresztül is megismerhető. Sokan nem csak a funkcionális programozási nyelvek és a típuselmélet alapját látják ebben, hanem mint Hofstadter vagy éppen Mérő László, úgy gondolják, nagyon húsba vágó következményei is vannak ennek. Mi nem teszünk igazságot, de felhívjuk pár rendkívül szórakoztató könyvre a figyelmet.

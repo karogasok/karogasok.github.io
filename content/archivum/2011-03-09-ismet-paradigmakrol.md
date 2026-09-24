@@ -22,8 +22,8 @@ temak:
   - Paradigmák és nyelvelméletek
 kulcsszavak:
   - helytelen
-  - Fedorenko
   - Gibson
+  - Fedorenko
   - ítélet
   - alany
 ---

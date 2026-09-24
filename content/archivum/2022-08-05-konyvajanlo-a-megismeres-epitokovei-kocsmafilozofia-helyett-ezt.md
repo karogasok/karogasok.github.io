@@ -14,9 +14,9 @@ temak:
   - A szakma
 kulcsszavak:
   - Clark
-  - Quillian
   - WR
-  - Andy
+  - Quillian
+  - tárolás
   - meccs
 ---
 

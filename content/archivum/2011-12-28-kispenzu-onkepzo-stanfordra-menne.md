@@ -21,9 +21,9 @@ temak:
   - Kurzusok és önképzés
 kulcsszavak:
   - class
-  - instruktor
   - Shoham
   - Octave
+  - instruktor
   - feliratkozik
 ---
 

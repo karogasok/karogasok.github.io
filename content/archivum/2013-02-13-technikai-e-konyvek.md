@@ -17,8 +17,8 @@ temak:
   - A blog életéről
 kulcsszavak:
   - egyenlet
-  - szinkronizáció
   - dedikált
+  - szinkronizáció
   - Audible
   - zavaró
 ---

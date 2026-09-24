@@ -21,8 +21,8 @@ temak:
   - Kurzusok és önképzés
 kulcsszavak:
   - előbb-utóbb
-  - gáz
   - bug
+  - gáz
   - állás
   - ismerős
 ---

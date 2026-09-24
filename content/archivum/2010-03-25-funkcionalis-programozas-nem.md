@@ -22,10 +22,10 @@ temak:
   - Kurzusok és önképzés
 kulcsszavak:
   - Haskell
-  - multimédia
+  - Hudak
   - GHC
   - Hugs
-  - Hudak
+  - multimédia
 ---
 
 **A [logikai programozás](http://bit.ly/bGF3sg) után most a funkcionális paradigma elsajátítására buzdítok mindenkit. Habár nehéz, mindenképpen megéri, különösen a logika iránt érdeklődőknek.**  

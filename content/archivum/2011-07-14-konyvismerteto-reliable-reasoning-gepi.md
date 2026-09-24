@@ -23,8 +23,8 @@ temak:
 kulcsszavak:
   - indukció
   - Reasoning
-  - jelfeldolgozás
   - villamosmérnök
+  - jelfeldolgozás
   - tanuláselmélet
 ---
 

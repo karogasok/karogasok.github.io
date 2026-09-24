@@ -28,9 +28,9 @@ temak:
   - Lapszemle
 kulcsszavak:
   - mobilos
+  - Wonder
   - mobilcég
   - óriási
-  - Wonder
   - Yandex
 ---
 

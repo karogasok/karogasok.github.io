@@ -20,7 +20,7 @@ regi_cimkek_mind:
 temak:
   - Startup és termékfejlesztés
 kulcsszavak:
-  - startup
+  - Startup
   - Blank
   - ügyfélfejlesztés
   - Lean

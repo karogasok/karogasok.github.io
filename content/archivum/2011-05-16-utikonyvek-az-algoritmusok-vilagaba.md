@@ -24,9 +24,9 @@ temak:
   - Kurzusok és önképzés
 kulcsszavak:
   - algorithms
+  - Jewels
   - Stringology
   - túra
-  - Jewels
   - felkészülés
 ---
 

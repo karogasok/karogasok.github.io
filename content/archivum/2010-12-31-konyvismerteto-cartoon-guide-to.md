@@ -17,8 +17,8 @@ temak:
   - Kurzusok és önképzés
 kulcsszavak:
   - képregény
-  - volatilis
   - Cartoon
+  - volatilis
   - illusztrátor
   - hardver
 ---

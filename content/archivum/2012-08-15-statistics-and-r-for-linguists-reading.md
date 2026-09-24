@@ -22,7 +22,7 @@ kulcsszavak:
   - assumes
   - intro
   - cours
-  - statistics
+  - Statistics
 ---
 
 **Linguists and students of linguistics can find themselves in tough situations since statistics and computing are usually not an integral part of their education, or they only get a crash course on these subjects. I think R is good choice for self study because of the available high quality books and other resources.**

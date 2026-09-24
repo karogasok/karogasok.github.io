@@ -12,10 +12,10 @@ temak:
   - Statisztika és R
 kulcsszavak:
   - coding
-  - vi
-  - halmoz
   - tartozás
+  - halmoz
   - pair
+  - szándék
 ---
 
 A vibe coding hihetetlenül felgyorsította a fejlesztési folyamatokat. Ugyanakkor egyre több helyről hallani hogy a fejlesztők kezdenek kimerülté válni, a projektek pedig egyre átláthatatlanabbak és egy-egy változtatás egyre körülményesebb és egyre több nemszándékolt következménnyel jár. Storey nagyon meggyőzően szól arról, hogy ennek legfőbb okai 1) a vibe  coding technical debt-tel is jár - habár ez viszonylag könnyen orvosolható 2) kognitív tartozást halmozunk fel miközben egyre több mindent bízunk az AI-ra 3) mindeközben a projekt szándékaival szemben is tartozást halmozunk fel.

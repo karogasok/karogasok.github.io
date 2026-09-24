@@ -19,7 +19,7 @@ temak:
 kulcsszavak:
   - blogszünet
   - beszámoló
-  - nltk
+  - NLTK
   - meetup
   - real
 ---

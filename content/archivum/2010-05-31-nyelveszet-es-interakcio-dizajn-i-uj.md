@@ -28,8 +28,8 @@ kulcsszavak:
   - konzol
   - Gates
   - menü
-  - lokalizálás
   - Bill
+  - lokalizálás
 ---
 
 **Azt hitted hogy a számítógépes nyelvészet gépi fordításra, szövegbányászatra meg keresésre való? Miközben fákat rajzoltál, logikát tanultál, nyelvhierarchiával fárasztottad az agyadat, arra gondoltál milyen szexi dolog a webdizájn? Fáradtan nézted programozó barátodat, aki nagyon örült hogy végre összekötheti művészhajlamait tanult szakmájával a humán-komputer interakció vagy éppen az interakció dizájn területén? Na ennek most vége!**  

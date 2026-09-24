@@ -23,10 +23,10 @@ temak:
   - Szövegvizualizáció
 kulcsszavak:
   - Hrabal
-  - írói
   - SYN2005
   - szókincs
-  - Bohumil
+  - írói
+  - próza
 ---
 
 Tempfli Péter vendégposztja

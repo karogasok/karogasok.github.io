@@ -17,10 +17,10 @@ regi_cimkek_mind:
 temak:
   - A szakma
 kulcsszavak:
-  - WordCram
+  - wordcram
   - Wordle
-  - Scattered
   - Letters
+  - Scattered
   - Algirdas
 ---
 

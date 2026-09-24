@@ -184,6 +184,12 @@ def fold(term: str) -> str:
     return "".join(c for c in decomposed if not unicodedata.combining(c))
 
 
+def _is_acronym(term: str) -> bool:
+    """Two or more letters, all of them capitals: ``LLM``, ``API``, ``NLTK``."""
+    letters = [c for c in term if c.isalpha()]
+    return len(letters) >= 2 and all(c.isupper() for c in letters)
+
+
 def canonical_forms(counts: Mapping[str, int]) -> dict[str, str]:
     """Map every keyword variant onto the one spelling that gets the hub.
 
@@ -192,10 +198,11 @@ def canonical_forms(counts: Mapping[str, int]) -> dict[str, str]:
     alone, one of them silently wins the page and the other's writings vanish
     from it. Merging them here makes that explicit and keeps the counts true.
 
-    The winner is the most frequent spelling; ties go to the one starting
-    lowercase, which is usually the lemma rather than a sentence-initial
-    accident, and then to alphabetical order so the result never depends on
-    dictionary ordering.
+    An all-capitals acronym wins whenever it is among the spellings: ``LLM`` is
+    how the word is written, even where the author once typed ``llm``. Otherwise
+    the most frequent spelling wins; ties go to the one starting lowercase, which
+    is usually the lemma rather than a sentence-initial accident, and then to
+    alphabetical order so the result never depends on dictionary ordering.
 
     This merges by appearance, not by meaning. It is safe for the variants this
     corpus actually contains — every group is one word spelled two ways — but a
@@ -215,6 +222,8 @@ def canonical_forms(counts: Mapping[str, int]) -> dict[str, str]:
         'magyar'
         >>> canonical_forms({"Media": 2, "média": 2})["Media"]
         'média'
+        >>> canonical_forms({"llm": 5, "LLM": 1})["llm"]
+        'LLM'
     """
     groups: dict[str, list[str]] = defaultdict(list)
     for term in counts:
@@ -223,7 +232,7 @@ def canonical_forms(counts: Mapping[str, int]) -> dict[str, str]:
     for members in groups.values():
         winner = min(
             members,
-            key=lambda t: (-counts[t], not t[:1].islower(), t),
+            key=lambda t: (not _is_acronym(t), -counts[t], not t[:1].islower(), t),
         )
         for term in members:
             mapping[term] = winner
@@ -322,9 +331,7 @@ def main() -> int:
     # corpus rather than on whichever document happened to come first.
     raw_counts: Counter[str] = Counter()
     for doc_id in assignments:
-        raw_counts.update(
-            normalise_term(k["term"]) for k in keywords.get(doc_id, [])[:N_KEYWORDS]
-        )
+        raw_counts.update(normalise_term(k["term"]) for k in keywords.get(doc_id, []))
     canonical = canonical_forms(raw_counts)
     merged = {
         winner: sorted(v for v, w in canonical.items() if w == winner and v != w)
@@ -350,12 +357,13 @@ def main() -> int:
             continue
         theme_ids = [t for t in assignment["topics"] if int(t) in approved]
         themes = [approved[int(t)]["name"] for t in theme_ids]
+        # Merge spellings first, then cut: two spellings of one word must not use
+        # up two of the five places.
         terms = list(
             dict.fromkeys(
-                canonical[normalise_term(k["term"])]
-                for k in keywords.get(doc_id, [])[:N_KEYWORDS]
+                canonical[normalise_term(k["term"])] for k in keywords.get(doc_id, [])
             )
-        )
+        )[:N_KEYWORDS]
 
         for topic_id in theme_ids:
             theme_members[int(topic_id)] += 1

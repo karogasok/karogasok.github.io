@@ -16,8 +16,8 @@ temak:
   - Tudományfilozófia
   - Logika és matematika
 kulcsszavak:
-  - kódfejtő
   - szolgálat
+  - kódfejtő
   - McKay
   - lengyel
   - park

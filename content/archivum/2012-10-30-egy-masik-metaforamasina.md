@@ -23,8 +23,8 @@ temak:
 kulcsszavak:
   - metaphors
   - Community
-  - reveal
   - phase
+  - reveal
   - Metaphor
 ---
 

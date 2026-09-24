@@ -19,9 +19,9 @@ regi_cimkek_mind:
 temak:
   - Startup és termékfejlesztés
 kulcsszavak:
-  - tas
-  - Hunch
   - fabric
+  - Hunch
+  - tas
   - taste
   - Hunch.com
 ---

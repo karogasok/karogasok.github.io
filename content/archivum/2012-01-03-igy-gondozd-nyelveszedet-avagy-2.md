@@ -22,8 +22,8 @@ temak:
   - Paradigmák és nyelvelméletek
 kulcsszavak:
   - E1
-  - X1
   - E2
+  - X1
   - fejlődési
   - ti.
 ---

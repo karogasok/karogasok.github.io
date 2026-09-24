@@ -19,8 +19,8 @@ temak:
   - A blog életéről
 kulcsszavak:
   - Moszkva
-  - kockázati
   - tőke
+  - kockázati
   - badge
   - Experience
 ---

@@ -19,9 +19,9 @@ temak:
   - Kurzusok és önképzés
 kulcsszavak:
   - kurzus
+  - Coursera
   - edX
   - Thrun
-  - Coursera
   - tananyag
 ---
 

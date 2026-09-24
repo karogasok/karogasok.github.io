@@ -7,6 +7,7 @@
     - Programozás nyelvészeknek
   k:
     - fake
+    - news
     - algoritmikus
     - újságírás
 "https://blog.crowintelligence.org/hu/2020/08/08/gpt-3-nyelvmodellek-ai-es-szoveggeneralas-interju-a-kossuth-radioban/":
@@ -74,8 +75,6 @@
 "https://crowintelligence.org/aporia/nagel-essay/":
   t:
     - Mesterséges intelligencia
-  k:
-    - na
 "https://crowintelligence.org/aporia/wittgenstein/":
   t:
     - Logika és matematika
@@ -84,6 +83,8 @@
   t:
     - A blog életéről
     - Lapszemle
+  k:
+    - ChatGPT
 "https://docs.google.com/presentation/d/e/2PACX-1vSxIh-9aYfUurHNLEQw6Y-UamdEPzopgK9jTzyss4P_ChUr9B5mcn9PiN12pIQ9GX0loi_nUXvKU8Dv/pub?start=false&loop=false&delayms=3000":
   t:
     - Korpuszépítés és annotáció
@@ -210,6 +211,7 @@
     - Adatújságírás és nyílt adat
     - Nyílt szoftver és tervezés
   k:
+    - Graph
     - knowledge
     - Google
 "https://kereses.blog.hu/2012/03/27/linkeskedesbol_jeles_bitly":
@@ -261,7 +263,6 @@
     - Adatújságírás és nyílt adat
   k:
     - szövegbányászat
-    - t
     - R
 "https://kereses.blog.hu/2012/05/29/gavagai_a_nyulon_tul":
   t:
@@ -324,9 +325,9 @@
   t:
     - Lapszemle
   k:
-    - delfin
     - palackorrú
     - bottlenos
+    - delfin
     - köz
     - keresés
 "https://kereses.blog.hu/2012/08/14/newsle_kozszajon_forog":
@@ -374,8 +375,6 @@
   t:
     - A blog életéről
     - Lapszemle
-  k:
-    - p
 "https://kereses.blog.hu/2012/09/25/luminoso_a_jozan_esz_fenyenel":
   t:
     - Nyílt szoftver és tervezés
@@ -692,7 +691,6 @@
     - Lapszemle
   k:
     - targeting
-    - tv
     - Twitter
 "https://kereses.blog.hu/2013/05/31/a_tweet_a_lelek_tukre":
 "https://kereses.blog.hu/2013/06/03/juristat_jog_es_big_data":
@@ -1275,7 +1273,7 @@
     - NLP meetupok
   k:
     - Neticle
-    - Technologies
+    - technologies
     - online
     - keres
 "https://kereses.blog.hu/2014/01/28/jarvis_mar_majdnem_itt_van_koztunk":
@@ -1353,7 +1351,7 @@
   k:
     - Flood
     - History
-    - Information
+    - information
     - Theory
 "https://kereses.blog.hu/2014/02/20/konyvajanlo_the_theory_that_would_not_die":
   t:
@@ -1666,7 +1664,7 @@
   t:
     - Kurzusok és önképzés
   k:
-    - java
+    - Java
     - fejlesztő
     - NLP
     - keres
@@ -1697,8 +1695,8 @@
     - e-kormányzat
     - műhelykonferencia
     - október
+    - meetup
     - Open
-    - Budapest
 "https://kereses.blog.hu/2014/09/22/mooc_ajanlo_corpus_linguistics_method_analysis_interpretation":
   t:
     - Nyelvelemző eszközök
@@ -1732,6 +1730,8 @@
 "https://kereses.blog.hu/2014/10/10/egy_igazi_metaforamasina_a_yossarian":
   t:
     - Paradigmák és nyelvelméletek
+  k:
+    - Yossarian
 "https://kereses.blog.hu/2014/10/14/tartalomelemzes_a_de_bevezetes_a_digitalis_bolcseszetbe_kurzusan_tartott_eloadasom_diai":
   k:
     - dia
@@ -2040,8 +2040,8 @@
     - Nyílt szoftver és tervezés
   k:
     - országértékelő
-    - Orbán
     - Viktor
+    - Orbán
     - beszéd
 "https://kereses.blog.hu/2015/05/29/mirol_ir_a_kuruc_info_ciganybunozes_rovata":
   t:
@@ -2087,9 +2087,9 @@
     - Nyelvelemző eszközök
     - Korpuszépítés és annotáció
   k:
+    - QWERTY-hatás
     - Casasanto
     - Jasmin
-    - QWERTY-hatás
 "https://kereses.blog.hu/2015/08/05/neked_is_mindenrol_a_vaj_jut_az_eszedbe":
   t:
     - Statisztika és R
@@ -2214,8 +2214,8 @@
   t:
     - NLP meetupok
   k:
-    - MOME
     - TechTea
+    - MOME
 "https://kereses.blog.hu/2015/11/12/precognox_kconnect_hackathon_sheffield":
   t:
     - Adatújságírás és nyílt adat
@@ -2230,8 +2230,8 @@
   t:
     - Statisztika és R
   k:
-    - MOME
     - TechTea
+    - MOME
 "https://kereses.blog.hu/2016/01/19/kezirassal_androidon":
   t:
     - Kurzusok és önképzés
@@ -2314,8 +2314,8 @@
     - Lapszemle
     - A blog életéről
   k:
-    - topikmodell
     - CEU-ügy
+    - topikmodell
     - vizualizáció
 "https://kereses.blog.hu/2017/04/06/az_egesz_vilag_a_ceu-val_van":
 "https://kereses.blog.hu/2017/04/10/az_alhirek_es_altudomany_elleni_harc_nem_technologiai_kerdes_ez_a_demokraciarol_szol":
@@ -2346,7 +2346,7 @@
     - Lapszemle
   k:
     - Safary
-    - startup
+    - Startup
     - kapcsolódó
     - anyag
 "https://kereses.blog.hu/2017/04/25/szonifikacio":
@@ -2546,11 +2546,11 @@
   t:
     - A blog életéről
   k:
-    - CILC-en
     - nation
-    - POLTEXT-en
-    - political
+    - POLTEXT
+    - CILC
     - American
+    - political
 "https://kereses.blog.hu/2018/05/18/konyvismerteto_prediction_machines_the_simple_economics_of_artificial_intelligence":
   t:
     - Mesterséges intelligencia

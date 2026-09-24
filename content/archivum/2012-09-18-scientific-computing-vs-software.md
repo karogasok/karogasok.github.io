@@ -22,8 +22,8 @@ temak:
   - Nyílt szoftver és tervezés
   - Startup és termékfejlesztés
 kulcsszavak:
-  - Proofs
   - Scientific
+  - Proofs
   - software
   - Philosophy
   - Computing

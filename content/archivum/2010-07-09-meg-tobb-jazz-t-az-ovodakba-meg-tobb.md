@@ -15,8 +15,8 @@ regi_cimkek_mind:
 temak:
   - A blog életéről
 kulcsszavak:
-  - visszatérő
   - szolgáltató
+  - visszatérő
   - opcionális
   - teljesít
   - vendég

@@ -15,8 +15,8 @@ temak:
 kulcsszavak:
   - felolvasott
   - felolvasás
-  - Koffair
   - mikrofon
+  - Koffair
   - voice
 ---
 

@@ -16,7 +16,7 @@ kulcsszavak:
   - Scheme
   - sajna
   - Structure
-  - Evans
+  - érdekeset
 ---
 
 Ezer és egy hanem millió forrásból lehet elkezdeni tanulni. És soha sem késő! Én "öreg fejjel" vágtam bele a lecsóba és szerintem egész jól haladok. Íme az én szubjektív kalauzom.  

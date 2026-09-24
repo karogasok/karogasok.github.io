@@ -22,7 +22,7 @@ kulcsszavak:
   - Ruby
   - Poignant
   - Shoes
-  - HacketyHack
+  - tanulhatóság
   - camping
 ---
 

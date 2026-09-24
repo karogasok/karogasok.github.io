@@ -19,8 +19,8 @@ temak:
 kulcsszavak:
   - Giraph
   - Apache
-  - tanít
   - Computing
+  - tanít
   - Clojure
 ---
 

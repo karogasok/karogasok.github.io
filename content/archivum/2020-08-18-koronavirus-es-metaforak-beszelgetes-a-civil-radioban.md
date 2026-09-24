@@ -18,8 +18,8 @@ regi_cimkek_mind:
 temak:
   - Nyílt szoftver és tervezés
 kulcsszavak:
-  - perc
   - beszélgetés
+  - perc
   - fél
 ---
 

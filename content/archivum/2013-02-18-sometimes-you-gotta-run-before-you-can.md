@@ -12,7 +12,7 @@ temak:
   - Startup és termékfejlesztés
 kulcsszavak:
   - törvény
-  - startup
+  - Startup
   - szám
 ---
 

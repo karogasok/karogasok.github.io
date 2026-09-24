@@ -24,10 +24,10 @@ temak:
   - Paradigmák és nyelvelméletek
 kulcsszavak:
   - fejtörő
-  - Smullyan
   - paradoxon
-  - rejtély
+  - Smullyan
   - Gödel-tétel
+  - rejtély
 ---
 
 Szépfalussy Enikő vendégposztja  

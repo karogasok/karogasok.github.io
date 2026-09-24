@@ -24,7 +24,7 @@ kulcsszavak:
   - Gephi
   - Gephiben
   - Plugins
-  - AlcehmyAPI
+  - Quick
   - szerű
 ---
 

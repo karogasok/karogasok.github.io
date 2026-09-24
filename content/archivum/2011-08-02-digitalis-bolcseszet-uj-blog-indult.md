@@ -18,9 +18,9 @@ temak:
   - Mesterséges intelligencia
 kulcsszavak:
   - ugyancsak
-  - muzeológiai
+  - levéltári
   - elnevezésű
-  - transzdiszciplína
+  - muzeológiai
   - antikvakorpusz
 ---
 

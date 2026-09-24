@@ -15,9 +15,13 @@ import json
 import sys
 from pathlib import Path
 
-from karogasok_temak.keywords import TOP_N, corpus_counts, document_keywords
+from karogasok_temak.keywords import (
+    TOP_N,
+    corpus_counts,
+    document_keywords,
+    keyword_lemmas,
+)
 from karogasok_temak.stopwords import hungarian_stopwords
-from karogasok_temak.topics import is_wordlike
 
 OUT = Path(__file__).resolve().parents[1] / "out"
 
@@ -32,12 +36,7 @@ def main() -> int:
 
     stops = hungarian_stopwords()
     filtered = {
-        doc_id: [
-            lemma
-            for lemma in words
-            if lemma.casefold() not in stops and is_wordlike(lemma)
-        ]
-        for doc_id, words in lemmas.items()
+        doc_id: keyword_lemmas(words, stops) for doc_id, words in lemmas.items()
     }
     totals = corpus_counts(list(filtered.values()))
     print(f"{len(filtered)} documents, {len(totals)} distinct lemmas", flush=True)

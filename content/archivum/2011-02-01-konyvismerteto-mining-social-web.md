@@ -26,7 +26,7 @@ kulcsszavak:
   - Matthew
   - Networks
   - Cookbook
-  - nltk
+  - NLTK
   - mélyed
 ---
 

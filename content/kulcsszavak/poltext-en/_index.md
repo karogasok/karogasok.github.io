@@ -1,4 +1,0 @@
----
-title: POLTEXT-en
----
-

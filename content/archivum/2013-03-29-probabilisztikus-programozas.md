@@ -26,7 +26,7 @@ temak:
 kulcsszavak:
   - probabilistic
   - models
-  - functional
+  - Functional
   - probabilisztikus
   - problems
 ---

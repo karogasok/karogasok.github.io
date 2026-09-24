@@ -18,8 +18,8 @@ temak:
 kulcsszavak:
   - Schemer
   - Scheme
-  - Languages
   - SICP
+  - Languages
   - Types
 ---
 

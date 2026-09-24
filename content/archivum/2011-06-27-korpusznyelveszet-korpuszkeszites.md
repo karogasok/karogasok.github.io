@@ -23,8 +23,8 @@ temak:
 kulcsszavak:
   - annotáció
   - maxima
-  - EAGLES
   - EUs
+  - EAGLES
   - TEI
 ---
 

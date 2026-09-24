@@ -17,11 +17,11 @@ regi_cimkek_mind:
 temak:
   - Programozás nyelvészeknek
 kulcsszavak:
-  - emacs
   - LISP
+  - emacs
   - Common
-  - repl
   - SLIME
+  - Sussman
 ---
 
 **A funkcionális programozás napjainkban egyre nagyobb teret nyer, habár már nagyon régen velünk van. Az egyik legöregebb programozási nyelv a LISP, ami bizonyos körökben éppen reneszánszát éli. Számunkra azért fontos ez a remek nyelv, mert a korai mesterséges intelligencia és számítógépes nyelvészeti kutatások paradigmatikus alkalmazásait LISP-ben írták, és területünk klasszikus műve, Norvig [Paradigms of Artificial Programming](http://bit.ly/dA4Shf) könyve, (nagyrészt) erről a nyelvről szól.**  

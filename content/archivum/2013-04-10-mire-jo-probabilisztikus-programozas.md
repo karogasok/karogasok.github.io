@@ -21,7 +21,7 @@ kulcsszavak:
   - probabilistic
   - thine
   - tolls
-  - Rational
+  - predictions
 ---
 
 > *"No man is an island,*  

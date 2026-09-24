@@ -31,10 +31,10 @@ regi_cimkek_mind:
 temak:
   - Korpuszépítés és annotáció
 kulcsszavak:
-  - Definitive
   - ManyEyes
-  - MapReduce
+  - Definitive
   - CouchDB
+  - MapReduce
   - szógyakoriság
 ---
 

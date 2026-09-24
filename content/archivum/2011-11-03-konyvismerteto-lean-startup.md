@@ -19,7 +19,7 @@ temak:
 kulcsszavak:
   - Ries
   - srác
-  - startup
+  - Startup
   - Measure
   - Lean
 ---

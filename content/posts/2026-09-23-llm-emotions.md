@@ -15,6 +15,7 @@ kulcsszavak:
   - LLM
   - Damásio
   - Anthropic
+  - CTO
 ---
 
 [Az Anthropic nagyon érdekes kísérletben](https://www.anthropic.com/research/emotion-concepts-function) azonosított olyan területeket a Sonnet 4.5 neurális hálójában, melyek érzelmekhez köthetőek. Nagyon ügyesen lavíroznak a kutatók, persze elmondják, ezek inkább funkcionális érzelmek, nem igaziak. Csakhogy közben végig antropomorfizálják a nagy nyelvmodellt. A funkcionális érzelmek persze csak funkcionálisak, a tanítás során kerülnek be, hiszen az emberi nyelvhasználatban sokszor meghatározóak az érzelmek - gondoljunk például legutolsó telefonos ügyfélszolgálatos élményeinkre. Ha vesszük az érzelmeket kifejező szavakat és olyan sztorikat melyekben ezek előfordulnak (persze ezeket már eleve rögtön egy llm segítségével generálhatjuk is), akkor megtudhatjuk az llm hálójának mely részei aktiválódnak, amikor az adott érzelemről “olvas”.  Ezzel csak az a baj, hogy “Emotion representations in the brain are found to be distributed, context dependent and variable across individuals and contexts.”

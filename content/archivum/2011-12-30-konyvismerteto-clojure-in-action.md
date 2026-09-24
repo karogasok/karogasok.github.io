@@ -21,9 +21,9 @@ regi_cimkek_mind:
 temak:
   - Programozás nyelvészeknek
 kulcsszavak:
-  - java
-  - Clojure
   - Rathore
+  - Java
+  - Clojure
   - makró
   - JVM
 ---

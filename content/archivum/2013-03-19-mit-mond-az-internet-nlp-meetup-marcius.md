@@ -20,10 +20,10 @@ temak:
   - NLP meetupok
 kulcsszavak:
   - korrupció
+  - Replise
   - Textplore
   - vállalkozáskutató
   - Gazdaság-
-  - Replise
 ---
 
 Március 27-én tartjuk e havi meetupunkat. A rendezvény ingyenes, de arra kérünk mindenkit, hogy [regisztráljon oldalunkon](http://www.meetup.com/Hungarian-nlp/events/108061322/) és jelezze részvételi szándékát.

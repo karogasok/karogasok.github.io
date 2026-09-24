@@ -24,8 +24,8 @@ temak:
 kulcsszavak:
   - könnyűzene
   - zenei
-  - gerinchálózat
   - Szenes
+  - gerinchálózat
   - hálózat
 ---
 

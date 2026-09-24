@@ -13,8 +13,8 @@ regi_cimkek_mind:
 temak:
   - Mesterséges intelligencia
 kulcsszavak:
-  - agy
   - idegtudomány
+  - agy
   - inspirált
   - Dehaene
   - rugalmas

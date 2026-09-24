@@ -19,8 +19,8 @@ temak:
   - Logika és matematika
   - Tudományfilozófia
 kulcsszavak:
-  - category
   - Lambek
+  - category
   - kategóriaelmélet
   - Vimeo
   - Theory

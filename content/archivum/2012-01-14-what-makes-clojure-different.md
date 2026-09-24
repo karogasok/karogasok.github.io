@@ -20,7 +20,7 @@ temak:
 kulcsszavak:
   - Names
   - Gist
-  - GitHub
+  - github
   - function
   - last-name
 ---

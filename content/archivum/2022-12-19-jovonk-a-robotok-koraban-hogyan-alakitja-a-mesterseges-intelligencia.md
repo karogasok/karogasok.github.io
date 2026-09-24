@@ -15,8 +15,8 @@ temak:
   - Mesterséges intelligencia
 kulcsszavak:
   - Ford
-  - technológiai
   - demokratikus
+  - technológiai
   - kihívás
   - robot
 ---

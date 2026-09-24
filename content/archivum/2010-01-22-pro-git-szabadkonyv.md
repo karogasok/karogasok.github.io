@@ -14,6 +14,7 @@ temak:
   - Nyelvelemző eszközök
   - Korpuszépítés és annotáció
 kulcsszavak:
+  - Git
   - érthető
   - könyv
 ---

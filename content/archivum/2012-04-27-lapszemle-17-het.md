@@ -13,8 +13,8 @@ temak:
 kulcsszavak:
   - Global
   - nagyvilág
-  - mozgalom
   - csatlakozik
+  - mozgalom
   - Science
 ---
 

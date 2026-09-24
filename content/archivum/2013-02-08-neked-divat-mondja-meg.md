@@ -20,9 +20,9 @@ temak:
   - Tudományfilozófia
   - Logika és matematika
 kulcsszavak:
+  - pókháló
   - pók
   - protein
-  - pókháló
   - mintázat
   - Elias
 ---

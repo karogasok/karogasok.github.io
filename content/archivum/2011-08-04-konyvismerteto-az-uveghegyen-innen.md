@@ -23,8 +23,8 @@ kulcsszavak:
   - nyelvváltozat
   - oktatás
   - kétnyelvű
+  - nevelés
   - nyelvtanoktatás
-  - Csernicskó
 ---
 
 *Tolnai Tímea vendégposztja*
