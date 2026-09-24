@@ -1265,6 +1265,9 @@ JavaScript:
 Jeopardy:
   slug: jeopardy
   darab: 1
+Jev:
+  slug: jev
+  darab: 1
 Jewels:
   slug: jewels
   darab: 1
@@ -1405,6 +1408,9 @@ LISP:
 LLM:
   slug: llm
   darab: 2
+LLM-ek:
+  slug: llm-ek
+  darab: 1
 Labs:
   slug: labs
   darab: 1
@@ -2110,6 +2116,9 @@ R:
       link: "https://kereses.blog.hu/2012/05/26/szovegbanyaszat_minden_mennyisegben"
 RAM:
   slug: ram
+  darab: 1
+RLCD:
+  slug: rlcd
   darab: 1
 Rappaport:
   slug: rappaport
@@ -5271,6 +5280,9 @@ kalkulus:
   darab: 1
 kan:
   slug: kan
+  darab: 1
+kanyarodik:
+  slug: kanyarodik
   darab: 1
 kapcsolat:
   slug: kapcsolat
@@ -8566,6 +8578,9 @@ továbbra:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/05/18/brainy_solutions_nlp_meetup_majus_20-an"
+továbbít:
+  slug: tovabbit
+  darab: 1
 transzdiszciplína:
   slug: transzdiszciplina
   darab: 1

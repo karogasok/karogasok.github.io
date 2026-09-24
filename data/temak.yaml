@@ -1028,7 +1028,7 @@
   nev: Logika és matematika
   slug: logika-es-matematika
   ellenorizve: false
-  darab: 61
+  darab: 62
   kifejezesek:
     - logic
     - matematika
@@ -1156,7 +1156,7 @@
   nev: Korpusznyelvészet
   slug: korpusznyelveszet
   ellenorizve: false
-  darab: 38
+  darab: 39
   kifejezesek:
     - korpusz
     - esik
@@ -1839,7 +1839,7 @@
   nev: Paradigmák és nyelvelméletek
   slug: paradigmak-es-nyelvelmeletek
   ellenorizve: false
-  darab: 53
+  darab: 54
   kifejezesek:
     - paradigma
     - event
