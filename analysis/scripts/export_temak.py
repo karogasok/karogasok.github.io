@@ -1,7 +1,8 @@
-"""Write the model's output onto the site.
+"""Write themes and keywords onto the site.
 
-Reads ``out/topics.json``, ``out/keywords.json`` and the names you approved in
-``out/topic_names.json``, then:
+Reads the curated theme list (``temalista.yaml``), where every writing was
+placed (``out/placement.json``, written by ``infer.py``) and ``out/keywords.json``,
+then:
 
 * adds ``temak`` and ``kulcsszavak`` to the front matter of the pages the site
   owns, leaving every other line untouched;
@@ -11,18 +12,18 @@ Reads ``out/topics.json``, ``out/keywords.json`` and the names you approved in
   matter;
 * writes ``data/temak_index.yaml``, the tags of every external item keyed by
   its URL, so the archive, máshol and média lists can show them;
-* creates a ``content/temak/<term>/_index.md`` stub for each theme, ready for
-  you to write the intro into.
+* keeps a ``content/temak/<term>/_index.md`` for each active theme, whose
+  ``aliases`` redirect every former name's URL to it;
+* redirects each retired theme's URL to the page named in its ``atiranyitas``,
+  through an alias on that page's term file;
+* appends every theme URL it publishes to ``data/tema_slugok.txt``, the
+  registry ``check_build.sh`` uses to make sure no theme URL ever dies.
 
-Both taxonomies are multi-valued: a writing carries every theme that makes up at
-least :data:`~karogasok_temak.topics.MULTI_LABEL_FLOOR` of its topic mixture,
-and its strongest :data:`N_KEYWORDS` keywords.
-
-Nothing here runs until a theme has ``checked_by_human: true``. A name invented
-by a model is a draft, and drafts do not get to become site navigation.
+Every writing carries the themes it was placed on (at most three, strongest
+first) and its strongest :data:`N_KEYWORDS` keywords.
 
 Usage:
-    uv run python scripts/export_temak.py [--dry-run] [--allow-unchecked]
+    uv run python scripts/export_temak.py [--dry-run]
 """
 
 from __future__ import annotations
@@ -35,10 +36,15 @@ from collections import Counter, defaultdict
 from collections.abc import Mapping
 from pathlib import Path
 
+from karogasok_temak import themes as theme_list
+from karogasok_temak.assign import key_of
 from karogasok_temak.corpus import SITE, Document, load_corpus
 from karogasok_temak.frontmatter import quote, update_front_matter
+from karogasok_temak.themes import Theme
 
-OUT = Path(__file__).resolve().parents[1] / "out"
+HERE = Path(__file__).resolve().parents[1]
+OUT = HERE / "out"
+REGISTRY = SITE / "data" / "tema_slugok.txt"
 
 #: Keywords written onto each item. Five is what fits a line of metadata under
 #: a title without the tags outweighing the thing they describe.
@@ -52,9 +58,50 @@ def _load(name: str) -> dict:
     """Read a JSON artefact, failing with a usable message."""
     path = OUT / name
     if not path.exists():
-        msg = f"{path} missing — run the earlier scripts first"
+        msg = f"{path} missing — run scripts/infer.py first"
         raise SystemExit(msg)
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _stub(path: Path, fields: dict[str, str | list[str]]) -> bool:
+    """Write a term page's front matter, keeping any prose below it.
+
+    A hub's intro is written by hand, so it must survive every export: only the
+    front matter is rewritten. Returns whether the file changed.
+    """
+    body = ""
+    if path.exists():
+        text = path.read_text(encoding="utf-8")
+        body = text.partition("---\n")[2].partition("---\n")[2]
+    lines = ["---"]
+    for key, value in fields.items():
+        if isinstance(value, list):
+            if value:
+                lines.append(f"{key}:")
+                lines.extend(f"  - {quote(v)}" for v in value)
+        else:
+            lines.append(f"{key}: {quote(value)}")
+    lines.append("---")
+    text_new = "\n".join(lines) + "\n" + (body or "\n")
+    if path.exists() and path.read_text(encoding="utf-8") == text_new:
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text_new, encoding="utf-8")
+    return True
+
+
+def theme_aliases(theme: Theme) -> list[str]:
+    """The URLs of a theme's former names, which must now lead to it.
+
+    Example:
+        >>> theme_aliases(Theme("s", "Statisztika és valószínűség",
+        ...                     korabbi_nevek=("Statisztika és R",)))
+        ['/tema/statisztika-es-r/']
+    """
+    own = slugify(theme.nev)
+    return sorted(
+        {f"/tema/{slugify(n)}/" for n in theme.korabbi_nevek if slugify(n) != own}
+    )
 
 
 def term_directory(name: str) -> str:
@@ -294,44 +341,27 @@ def _member_lines(items: list[dict[str, object]], indent: str) -> list[str]:
     return lines
 
 
-def main() -> int:
+def main() -> int:  # noqa: C901, PLR0912, PLR0915
     """Write themes and keywords onto the site."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true")
-    parser.add_argument(
-        "--allow-unchecked",
-        action="store_true",
-        help="export names you have not yet reviewed (for inspection only)",
-    )
     args = parser.parse_args()
 
-    topics = _load("topics.json")
+    all_themes = theme_list.load(HERE / "temalista.yaml")
+    active = [t for t in all_themes if t.allapot == "aktiv"]
+    retired = [t for t in all_themes if t.allapot == "megszunt"]
+    by_key = {t.kulcs: t for t in active}
+    placement = _load("placement.json")["placement"]
     keywords = _load("keywords.json")
-    names = _load("topic_names.json")
-
-    approved = {
-        int(topic_id): entry
-        for topic_id, entry in names.items()
-        if entry.get("checked_by_human") or args.allow_unchecked
-    }
-    if not approved:
-        print("no theme has checked_by_human: true — nothing exported.")
-        print("review out/topic_names.json first, or pass --allow-unchecked.")
-        return 1
-    unchecked = len(names) - sum(
-        1 for entry in names.values() if entry.get("checked_by_human")
-    )
-    if unchecked:
-        print(f"note: {unchecked} of {len(names)} names are still unreviewed")
-
-    assignments = topics["assignments"]
-    documents = {d.doc_id: d for d in load_corpus()}
+    documents = [d for d in load_corpus() if d.text.strip()]
 
     # Count every spelling first, so the canonical choice is made on the whole
     # corpus rather than on whichever document happened to come first.
     raw_counts: Counter[str] = Counter()
-    for doc_id in assignments:
-        raw_counts.update(normalise_term(k["term"]) for k in keywords.get(doc_id, []))
+    for document in documents:
+        raw_counts.update(
+            normalise_term(k["term"]) for k in keywords.get(document.doc_id, [])
+        )
     canonical = canonical_forms(raw_counts)
     merged = {
         winner: sorted(v for v, w in canonical.items() if w == winner and v != w)
@@ -344,34 +374,35 @@ def main() -> int:
             print(f"    {winner} <- {', '.join(variants)}")
 
     pages = 0
-    theme_members: dict[int, int] = dict.fromkeys(approved, 0)
-    theme_externals: dict[int, list[dict[str, object]]] = {t: [] for t in approved}
+    theme_members: Counter[str] = Counter()
+    theme_externals: dict[str, list[dict[str, object]]] = {t.kulcs: [] for t in active}
     keyword_members: Counter[str] = Counter()
     page_terms: set[str] = set()
     keyword_externals: dict[str, list[dict[str, object]]] = defaultdict(list)
     index: dict[str, dict[str, list[str]]] = {}
 
-    for doc_id, assignment in assignments.items():
-        document = documents.get(doc_id)
-        if document is None:
-            continue
-        theme_ids = [t for t in assignment["topics"] if int(t) in approved]
-        themes = [approved[int(t)]["name"] for t in theme_ids]
+    for document in documents:
+        placed = placement.get(key_of(document), {}).get("temak", [])
+        unknown = [k for k in placed if k not in by_key]
+        if unknown:
+            msg = f"{document.doc_id}: placed on unknown theme(s) {unknown}"
+            raise SystemExit(msg + " — re-run scripts/infer.py")
+        themes = [by_key[k].nev for k in placed]
         # Merge spellings first, then cut: two spellings of one word must not use
         # up two of the five places.
         terms = list(
             dict.fromkeys(
-                canonical[normalise_term(k["term"])] for k in keywords.get(doc_id, [])
+                canonical[normalise_term(k["term"])]
+                for k in keywords.get(document.doc_id, [])
             )
         )[:N_KEYWORDS]
 
-        for topic_id in theme_ids:
-            theme_members[int(topic_id)] += 1
+        theme_members.update(placed)
         keyword_members.update(terms)
 
         if document.source in PAGE_SOURCES:
             page_terms.update(terms)
-            path = SITE / doc_id
+            path = SITE / document.doc_id
             text = path.read_text(encoding="utf-8")
             # The taxonomy front-matter keys are the plural forms, `temak` and
             # `kulcsszavak`. The empty `tema` entry clears an earlier singular
@@ -384,8 +415,8 @@ def main() -> int:
             pages += 1
         else:
             member = _external(document)
-            for topic_id in theme_ids:
-                theme_externals[int(topic_id)].append(member)
+            for kulcs in placed:
+                theme_externals[kulcs].append(member)
             for term in terms:
                 keyword_externals[term].append(member)
             # Keyed by the row's own URL, falling back to the post that
@@ -399,34 +430,22 @@ def main() -> int:
 
     lines = [
         "# Generated by analysis/scripts/export_temak.py — do not edit by hand.",
-        "# Each theme carries the model's evidence so a name can be checked",
-        "# against the corpus rather than taken on trust.",
+        "# The curated themes (analysis/temalista.yaml), with the writings that",
+        "# have no page of their own. Placement: see /modszer/.",
     ]
-    for topic in topics["topics"]:
-        topic_id = int(topic["id"])
-        if topic_id not in approved:
-            continue
-        entry = approved[topic_id]
-        lines.append(f"- id: {topic_id}")
-        lines.append(f"  nev: {quote(entry['name'])}")
-        lines.append(f"  slug: {quote(entry['slug'])}")
-        lines.append(
-            f"  ellenorizve: {str(bool(entry.get('checked_by_human'))).lower()}"
-        )
+    for theme in active:
+        lines.append(f"- kulcs: {quote(theme.kulcs)}")
+        lines.append(f"  nev: {quote(theme.nev)}")
+        lines.append(f"  slug: {quote(slugify(theme.nev))}")
+        if theme.leiras:
+            lines.append(f"  leiras: {quote(theme.leiras)}")
         # Every writing carrying the theme, not just the ones it leads. With
         # multi-label taxonomies these no longer partition the corpus, so the
         # counts across themes deliberately sum to more than the archive.
-        lines.append(f"  darab: {theme_members[topic_id]}")
-        lines.append("  kifejezesek:")
-        lines.extend(f"    - {quote(term)}" for term in topic["terms"])
-        first = topic["representative"][0] if topic["representative"] else None
-        if first and first.get("quote"):
-            lines.append("  idezet:")
-            lines.append(f"    szoveg: {quote(first['quote'])}")
-            lines.append(f"    forras: {quote(first['doc_id'])}")
-        if theme_externals[topic_id]:
+        lines.append(f"  darab: {theme_members[theme.kulcs]}")
+        if theme_externals[theme.kulcs]:
             lines.append("  kulsok:")
-            lines.extend(_member_lines(theme_externals[topic_id], "    "))
+            lines.extend(_member_lines(theme_externals[theme.kulcs], "    "))
 
     # A map rather than a list: with this many keywords a hub template that had
     # to scan a sequence would do it once per hub, which is quadratic.
@@ -455,6 +474,19 @@ def main() -> int:
             idx_lines.append("  k:")
             idx_lines.extend(f"    - {quote(term)}" for term in index[url]["k"])
 
+    # Every theme URL this export makes live — hubs and redirects alike. The
+    # registry only ever grows, so a URL published once stays checked forever.
+    published = {slugify(t.nev) for t in active}
+    for theme in active:
+        published.update(a.strip("/").split("/")[-1] for a in theme_aliases(theme))
+    for theme in retired:
+        published.update(slugify(n) for n in (theme.nev, *theme.korabbi_nevek))
+    registry = (
+        set(REGISTRY.read_text(encoding="utf-8").split())
+        if REGISTRY.exists()
+        else set()
+    )
+
     data_dir = SITE / "data"
     written = {
         data_dir / "temak.yaml": lines,
@@ -468,26 +500,41 @@ def main() -> int:
     if not args.dry_run:
         for path, content in written.items():
             path.write_text("\n".join(content) + "\n", encoding="utf-8")
-        for entry in approved.values():
+        REGISTRY.write_text(
+            "# Every /tema/<slug>/ URL ever published. check_build.sh requires each\n"
+            "# to build, as a hub or as a redirect. Append only.\n"
+            + "\n".join(sorted(registry | published))
+            + "\n",
+            encoding="utf-8",
+        )
+        for theme in active:
             # Term pages live under the plural name, in the directory Hugo
-            # derives from the term itself — accents and all.
-            stub = (
-                SITE / "content" / "temak" / term_directory(entry["name"]) / "_index.md"
+            # derives from the term itself — accents and all. The slug is
+            # explicit for the same reason every archive post's is: Hugo derives
+            # it from the title, which here would keep the accents.
+            stub = SITE / "content" / "temak" / term_directory(theme.nev) / "_index.md"
+            stubs += _stub(
+                stub,
+                {
+                    "title": theme.nev,
+                    "slug": slugify(theme.nev),
+                    "aliases": theme_aliases(theme),
+                },
             )
-            if stub.exists():
+        for theme in retired:
+            # The destination is an old-label hub, a term page of its own. An
+            # alias on its term file turns the retired theme's URL into a
+            # redirect; the file sets nothing else, so the hub keeps its title.
+            if not theme.atiranyitas:
                 continue
-            stub.parent.mkdir(parents=True, exist_ok=True)
-            # The slug is explicit for the same reason every archive post's is:
-            # Hugo derives it from the title, which here would keep the accents.
-            stub.write_text(
-                f"---\ntitle: {quote(entry['name'])}\n"
-                f"slug: {quote(entry['slug'])}\n---\n\n",
-                encoding="utf-8",
+            segment = theme.atiranyitas.strip("/").split("/")[-1]
+            target = SITE / "content" / "regi_cimkek" / segment / "_index.md"
+            aliases = sorted(
+                {f"/tema/{slugify(n)}/" for n in (theme.nev, *theme.korabbi_nevek)}
             )
-            stubs += 1
+            stubs += _stub(target, {"aliases": aliases})
         theme_removed, theme_kept = _collect_orphans(
-            {term_directory(entry["name"]) for entry in approved.values()},
-            remove=True,
+            {term_directory(t.nev) for t in active}, remove=True
         )
         removed += [f"temak/{slug}" for slug in theme_removed]
         kept += [f"temak/{slug}" for slug in theme_kept]
@@ -519,12 +566,14 @@ def main() -> int:
         print(f"  removed empty orphan hub: content/{slug}/")
 
     verb = "would update" if args.dry_run else "updated"
-    print(f"{verb} {pages} pages across {len(approved)} themes")
+    print(f"{verb} {pages} pages across {len(active)} themes")
     print(f"  {len(keyword_members)} distinct keywords, {len(index)} external items")
     for path in written:
         size = len("\n".join(written[path])) / 1024
         print(f"  {verb} {path.relative_to(SITE)} ({size:.0f} KB)")
-    print(f"  {stubs} new theme stubs, {keyword_stubs} new keyword stubs")
+    print(
+        f"  {stubs} theme/redirect stub(s) written, {keyword_stubs} new keyword stubs"
+    )
     return 0
 
 
