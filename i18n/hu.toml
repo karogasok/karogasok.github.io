@@ -99,7 +99,7 @@ other = "Powered by"
 other = "Legutóbbi bejegyzések"
 
 ["home.latest_note"]
-other = "A legfrissebb írások, időrendben visszafelé. Mindegyik egyetlen forrásról szól."
+other = "A legfrissebb írások, időrendben visszafelé."
 
 ["home.pillars"]
 other = "Visszatérő kérdések"
