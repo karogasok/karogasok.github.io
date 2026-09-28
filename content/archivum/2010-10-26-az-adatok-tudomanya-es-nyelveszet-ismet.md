@@ -17,8 +17,9 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "számítógépes nyelvészet"
 temak:
-  - A szakma
-  - Korpuszépítés és annotáció
+  - Adatújságírás és nyílt adat
+  - Korpusznyelvészet
+  - Statisztika és valószínűség
 kulcsszavak:
   - Bender
   - eszköztár

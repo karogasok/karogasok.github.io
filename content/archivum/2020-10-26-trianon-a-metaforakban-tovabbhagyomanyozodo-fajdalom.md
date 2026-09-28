@@ -11,6 +11,8 @@ canonical: "https://blog.crowintelligence.org/hu/2020/10/26/trianon-a-metaforakb
 regi_cimkek_mind:
   - "képek"
   - "képi metafora"
+temak:
+  - Logika és matematika
 ---
 
 Putz Orsolya tanulmánya elérhető a [Palócföld](https://palocfold.wordpress.com/) legújabb számában.

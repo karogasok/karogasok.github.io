@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "Head First Software Development"
   - "könyvismertető"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Head
   - projektmenedzsment

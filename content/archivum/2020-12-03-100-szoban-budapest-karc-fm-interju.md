@@ -17,8 +17,6 @@ regi_cimkek_mind:
   - "LDA"
   - "korpusznyelvészet"
   - "tartalomelemzés"
-temak:
-  - NLP meetupok
 kulcsszavak:
   - Budapest
 ---

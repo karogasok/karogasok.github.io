@@ -13,7 +13,7 @@ regi_cimkek_mind:
   - "adaújságírás"
   - "hack-day"
 temak:
-  - NLP meetupok
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - hack-day
   - OpenNews

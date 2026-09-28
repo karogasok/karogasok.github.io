@@ -14,8 +14,7 @@ regi_cimkek_mind:
   - "HVG Jövő 2.0"
   - "keresés"
 temak:
-  - Kurzusok és önképzés
-  - Programozás nyelvészeknek
+  - Logika és matematika
 kulcsszavak:
   - HVG
   - kép

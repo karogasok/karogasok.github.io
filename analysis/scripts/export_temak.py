@@ -16,7 +16,7 @@ then:
   ``aliases`` redirect every former name's URL to it;
 * redirects each retired theme's URL to the page named in its ``atiranyitas``,
   through an alias on that page's term file;
-* appends every theme URL it publishes to ``data/tema_slugok.txt``, the
+* appends every theme URL it publishes to ``data/tema_slugok.yaml``, the
   registry ``check_build.sh`` uses to make sure no theme URL ever dies.
 
 Every writing carries the themes it was placed on (at most three, strongest
@@ -44,7 +44,7 @@ from karogasok_temak.themes import Theme
 
 HERE = Path(__file__).resolve().parents[1]
 OUT = HERE / "out"
-REGISTRY = SITE / "data" / "tema_slugok.txt"
+REGISTRY = SITE / "data" / "tema_slugok.yaml"
 
 #: Keywords written onto each item. Five is what fits a line of metadata under
 #: a title without the tags outweighing the thing they describe.
@@ -88,6 +88,34 @@ def _stub(path: Path, fields: dict[str, str | list[str]]) -> bool:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text_new, encoding="utf-8")
     return True
+
+
+def label_spelling(segment: str) -> str:
+    """The spelling of an old archive label whose term directory is ``segment``.
+
+    Hugo titles a term page with the term as written. A term file without a
+    title renders an empty heading, so the redirect stubs for retired themes
+    carry the label's own spelling: the most frequent one in the archive, ties
+    going to the one starting lowercase, as Hugo shows it.
+    """
+    counts: Counter[str] = Counter()
+    for page in sorted((SITE / "content" / "archivum").glob("*.md")):
+        front = page.read_text(encoding="utf-8").split("---", 2)[1]
+        in_block = False
+        for line in front.splitlines():
+            if line.startswith("regi_cimkek:"):
+                in_block = True
+                continue
+            if in_block and line.startswith("  - "):
+                label = line[4:].strip().strip('"')
+                if term_directory(label) == segment:
+                    counts[label] += 1
+            elif in_block:
+                break
+    if not counts:
+        msg = f"no archive label lives at /archivum/cimke/{segment}/"
+        raise SystemExit(msg)
+    return min(counts, key=lambda t: (-counts[t], not t[:1].islower(), t))
 
 
 def theme_aliases(theme: Theme) -> list[str]:
@@ -481,11 +509,15 @@ def main() -> int:  # noqa: C901, PLR0912, PLR0915
         published.update(a.strip("/").split("/")[-1] for a in theme_aliases(theme))
     for theme in retired:
         published.update(slugify(n) for n in (theme.nev, *theme.korabbi_nevek))
-    registry = (
-        set(REGISTRY.read_text(encoding="utf-8").split())
-        if REGISTRY.exists()
-        else set()
-    )
+    registry = {
+        line[2:].strip()
+        for line in (
+            REGISTRY.read_text(encoding="utf-8").splitlines()
+            if REGISTRY.exists()
+            else []
+        )
+        if line.startswith("- ")
+    }
 
     data_dir = SITE / "data"
     written = {
@@ -503,8 +535,7 @@ def main() -> int:  # noqa: C901, PLR0912, PLR0915
         REGISTRY.write_text(
             "# Every /tema/<slug>/ URL ever published. check_build.sh requires each\n"
             "# to build, as a hub or as a redirect. Append only.\n"
-            + "\n".join(sorted(registry | published))
-            + "\n",
+            + "".join(f"- {slug}\n" for slug in sorted(registry | published)),
             encoding="utf-8",
         )
         for theme in active:
@@ -524,7 +555,7 @@ def main() -> int:  # noqa: C901, PLR0912, PLR0915
         for theme in retired:
             # The destination is an old-label hub, a term page of its own. An
             # alias on its term file turns the retired theme's URL into a
-            # redirect; the file sets nothing else, so the hub keeps its title.
+            # redirect; its title is the label's own spelling, as before.
             if not theme.atiranyitas:
                 continue
             segment = theme.atiranyitas.strip("/").split("/")[-1]
@@ -532,7 +563,18 @@ def main() -> int:  # noqa: C901, PLR0912, PLR0915
             aliases = sorted(
                 {f"/tema/{slugify(n)}/" for n in (theme.nev, *theme.korabbi_nevek)}
             )
-            stubs += _stub(target, {"aliases": aliases})
+            # The slug is explicit because the permalink pattern is
+            # /archivum/cimke/:slug/, and a term file without one resolves to
+            # the bare section URL — every retired theme then redirected to the
+            # label index instead of its own label.
+            stubs += _stub(
+                target,
+                {
+                    "title": label_spelling(segment),
+                    "slug": segment,
+                    "aliases": aliases,
+                },
+            )
         theme_removed, theme_kept = _collect_orphans(
             {term_directory(t.nev) for t in active}, remove=True
         )

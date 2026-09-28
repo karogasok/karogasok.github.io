@@ -16,7 +16,7 @@ regi_cimkek_mind:
   - "meetup"
   - "text mining"
 temak:
-  - Hálózatok és eszközök
+  - Statisztika és valószínűség
 kulcsszavak:
   - Ubuntu
   - Studio

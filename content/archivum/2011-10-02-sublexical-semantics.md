@@ -18,7 +18,7 @@ regi_cimkek_mind:
   - "sublexical semantics"
   - "theoretical linguistics"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
 kulcsszavak:
   - Rappaport
   - Hovav

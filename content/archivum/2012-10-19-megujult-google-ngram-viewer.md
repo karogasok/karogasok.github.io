@@ -19,7 +19,7 @@ regi_cimkek_mind:
   - "korpusznyelvészet"
   - "ngram"
 temak:
-  - Nyelvelemző eszközök
+  - Nyelvtechnológia
 kulcsszavak:
   - ngram
   - compositions

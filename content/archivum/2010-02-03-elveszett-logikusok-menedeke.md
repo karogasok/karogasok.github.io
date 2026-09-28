@@ -11,7 +11,7 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/02/elveszett-logiku
 regi_cimkek_mind:
   - "semantic web"
 temak:
-  - Korpuszépítés és annotáció
+  - Statisztika és valószínűség
 kulcsszavak:
   - sql
   - web

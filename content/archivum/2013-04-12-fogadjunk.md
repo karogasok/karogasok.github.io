@@ -15,7 +15,9 @@ regi_cimkek_mind:
   - "Pascal"
   - "valószínűségszámítás"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Logika és matematika
+  - Tudományfilozófia
+  - Nyelvelmélet
 kulcsszavak:
   - à
   - est

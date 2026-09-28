@@ -8,13 +8,11 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2012/04/lapszemle-17-het.html"
-temak:
-  - NLP meetupok
 kulcsszavak:
   - Global
   - nagyvilág
-  - csatlakozik
   - mozgalom
+  - csatlakozik
   - Science
 ---
 

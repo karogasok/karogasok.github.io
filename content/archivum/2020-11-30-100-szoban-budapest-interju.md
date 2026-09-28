@@ -17,9 +17,6 @@ regi_cimkek_mind:
   - "LDA"
   - "korpusznyelvészet"
   - "topikmodellek"
-temak:
-  - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
 kulcsszavak:
   - Manna
   - Budapest

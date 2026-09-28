@@ -21,8 +21,8 @@ regi_cimkek_mind:
   - "szógyakoriság"
   - "vizualizáció"
 temak:
-  - Nyelvelemző eszközök
-  - Programozás nyelvészeknek
+  - Vizualizáció és hálózatelemzés
+  - Nyelvtechnológia
 kulcsszavak:
   - szógyakorisági
   - tábla

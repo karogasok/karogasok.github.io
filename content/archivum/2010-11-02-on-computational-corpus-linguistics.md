@@ -17,8 +17,6 @@ regi_cimkek_mind:
   - "linguistics"
 temak:
   - A szakma
-  - Nyelvelemző eszközök
-  - Szövegvizualizáció
 kulcsszavak:
   - Perl
   - etc.

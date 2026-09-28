@@ -30,6 +30,7 @@ Ez a fájl az llms.txt konvenciót követi (https://llmstxt.org/).
 - [Média]({{ "media/" | absURL }}): rádióinterjúk és előadások listája. **Csak hivatkozások**, a felvételek máshol vannak.
 - [Máshol]({{ "mashol/" | absURL }}): más felületeken megjelent írások. **Csak hivatkozások.**
 - [Rólam]({{ "rolam/" | absURL }}): a szerző szakmai háttere.
+- [Módszer]({{ "modszer/" | absURL }}): hogyan készülnek a témák (gondozott témalista, nyelvmodelles besorolás) és a kulcsszavak (kulcsszóerősség). A címkék kézzel kerülnek az írásokra.
 - RSS: [{{ "index.xml" | absURL }}]({{ "index.xml" | absURL }}) — **csak a napi bejegyzéseket** tartalmazza, az archívumot nem.
 
 ## Napi bejegyzések

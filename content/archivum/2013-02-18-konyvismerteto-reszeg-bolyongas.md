@@ -19,14 +19,14 @@ regi_cimkek_mind:
   - "statisztika"
   - "valószínűségszámítás"
 temak:
-  - Statisztika és R
-  - Tudományfilozófia
+  - Logika és matematika
+  - Statisztika és valószínűség
 kulcsszavak:
   - valószínűségszámítás
   - szemléletes
-  - részeg
-  - bolyongás
   - Mlodinow
+  - bolyongás
+  - részeg
 ---
 
 **Ez a könyv remek belépő olvasmány azok számára akiket érdekel a valószínűségszámítás és a statisztika. Személetesen, kb. elemi szintű matematikai háttértudást feltételezve vezeti be az olvasót a véletlenek világába.**  

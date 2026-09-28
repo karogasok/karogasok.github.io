@@ -22,11 +22,11 @@ regi_cimkek_mind:
   - "nyelvi relativizmus"
   - "nyelvészet"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
 kulcsszavak:
+  - eszkimó
   - tan
   - privát
-  - eszkimó
   - Sapir-Whorf
   - relativizmus
 ---

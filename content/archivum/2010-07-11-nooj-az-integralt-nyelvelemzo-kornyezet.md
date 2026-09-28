@@ -20,7 +20,9 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "vendégposzt"
 temak:
-  - Nyelvelemző eszközök
+  - Nyelvtechnológia
+  - Korpusznyelvészet
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - NooJ
   - nyelvelemző

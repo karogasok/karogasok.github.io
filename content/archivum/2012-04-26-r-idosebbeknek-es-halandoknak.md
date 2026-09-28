@@ -13,12 +13,10 @@ regi_cimkek:
 regi_cimkek_mind:
   - "R"
 temak:
-  - Statisztika és R
-  - Korpuszépítés és annotáció
-  - Kurzusok és önképzés
+  - Statisztika és valószínűség
 kulcsszavak:
-  - Sweave
   - Graphics
+  - Sweave
   - ggplot2
   - ProjectTemplate
   - developed

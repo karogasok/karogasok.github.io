@@ -19,8 +19,9 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "számítógépes nyelvészet"
 temak:
-  - Nyelvelemző eszközök
-  - Korpuszépítés és annotáció
+  - Nyelvelmélet
+  - Korpusznyelvészet
+  - A szakma
 kulcsszavak:
   - keretes
   - figyelő

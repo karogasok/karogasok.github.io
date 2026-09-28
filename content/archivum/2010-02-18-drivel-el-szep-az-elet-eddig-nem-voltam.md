@@ -8,8 +8,6 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/02/drivel-el-szep-az-elet-eddig-nem-voltam.html"
-temak:
-  - A blog életéről
 kulcsszavak:
   - cucc
   - lassú

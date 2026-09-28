@@ -19,9 +19,7 @@ regi_cimkek_mind:
   - "személyes"
   - "számítógépes nyelvészet"
 temak:
-  - Programozás nyelvészeknek
-  - Hálózatok és eszközök
-  - Nyílt szoftver és tervezés
+  - A szakma
 kulcsszavak:
   - honlap
   - anyag

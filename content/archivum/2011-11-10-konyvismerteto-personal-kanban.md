@@ -16,8 +16,7 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "pomodoro"
 temak:
-  - Tudományfilozófia
-  - A blog életéről
+  - Startup és termékfejlesztés
 kulcsszavak:
   - kan
   - Personal

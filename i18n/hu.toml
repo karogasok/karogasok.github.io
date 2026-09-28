@@ -159,6 +159,12 @@ other = "CC BY-NC-SA 4.0"
 ["footer.crow"]
 other = "Crow Intelligence"
 
+["footer.modszer"]
+other = "A témák egy, az írásaimon futtatott témamodellből indultak, a listát én gondozom, a besorolást egy nyelvmodell végzi hasonlóság alapján. A kulcsszavakat kulcsszókinyerő generálja, a címkéket kézzel adom."
+
+["footer.hogyan"]
+other = "Hogyan?"
+
 ["tag.posts_here"]
 other = "Bejegyzések ezzel a címkével"
 
@@ -168,8 +174,11 @@ other = "Írások ebben a témában"
 ["tema.elsewhere"]
 other = "Máshol megjelent írások ebben a témában"
 
-["tema.unreviewed"]
-other = "Ez a témanév gépi javaslat, még nem néztem át."
+["tema.gepi"]
+other = "A témalistát én gondozom, a besorolás gépi."
+
+["tema.hogyan"]
+other = "Hogyan?"
 
 ["kulcsszo.posts_here"]
 other = "Írások ezzel a kulcsszóval"

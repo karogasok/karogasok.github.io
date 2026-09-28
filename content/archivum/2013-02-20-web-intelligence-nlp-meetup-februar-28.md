@@ -18,13 +18,13 @@ regi_cimkek_mind:
   - "web epistemology"
   - "web intelligence"
 temak:
-  - NLP meetupok
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Associativy
-  - cau
-  - ICTs
-  - Heintz
   - ASP.NET
+  - cau
+  - Heintz
+  - ICTs
 ---
 
 **Február 28-án tartjuk évadnyitó meetupunkat 18 órától a Colabs-ben (Budapest, Irányi utca 3.) A rendezvény továbbra is ingyenes, de kérünk minden kedves érdeklődőt, [regisztráljon oldalunkon és részvételi szándékát jelezze](http://www.meetup.com/Hungarian-nlp/events/99689252/) (ezzel is segítve a szervezők munkáját)**

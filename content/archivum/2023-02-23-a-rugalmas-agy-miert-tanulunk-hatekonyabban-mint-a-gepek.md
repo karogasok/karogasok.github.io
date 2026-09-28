@@ -11,11 +11,11 @@ canonical: "https://blog.crowintelligence.org/hu/2023/02/23/a-rugalmas-agy-miert
 regi_cimkek_mind:
   - "kognitív idegtudomány"
 temak:
-  - Mesterséges intelligencia
+  - Megismerés és idegtudomány
 kulcsszavak:
   - idegtudomány
-  - agy
   - inspirált
+  - agy
   - Dehaene
   - rugalmas
 ---

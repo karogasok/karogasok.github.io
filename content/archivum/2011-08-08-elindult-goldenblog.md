@@ -10,9 +10,6 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/08/elindult-goldenblog.html"
 regi_cimkek_mind:
   - "Goldenblog 2011"
-temak:
-  - Lapszemle
-  - A blog életéről
 kulcsszavak:
   - mezőny
   - keleti

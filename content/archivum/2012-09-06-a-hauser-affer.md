@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "rekurzió"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
 kulcsszavak:
   - Hauser
   - evolution

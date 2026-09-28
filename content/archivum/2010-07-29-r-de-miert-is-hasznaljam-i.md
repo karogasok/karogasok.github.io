@@ -17,7 +17,9 @@ regi_cimkek_mind:
   - "nltk"
   - "számítógépes nyelvészet"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
+  - Statisztika és valószínűség
+  - A szakma
 kulcsszavak:
   - követelmény
   - teljesítmény

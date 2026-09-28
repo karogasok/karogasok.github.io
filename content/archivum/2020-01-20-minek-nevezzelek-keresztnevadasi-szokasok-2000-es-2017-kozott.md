@@ -13,7 +13,7 @@ regi_cimkek_mind:
   - "nevek"
   - "rangsoros adatok"
 temak:
-  - Szövegvizualizáció
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - Zoé
   - fokozatos

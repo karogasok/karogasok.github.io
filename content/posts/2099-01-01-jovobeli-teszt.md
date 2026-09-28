@@ -6,7 +6,7 @@ author: "Varjú Zoltán"
 tags: ["llm-kiertekeles"]
 draft: false
 temak:
-  - Korpuszépítés és annotáció
+  - Nyelvtechnológia
 ---
 
 Ütemezési próba. Ha ez a szöveg látszik az élő oldalon, akkor a jövőbeli

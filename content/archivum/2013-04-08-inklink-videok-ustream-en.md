@@ -14,10 +14,6 @@ regi_cimkek:
 regi_cimkek_mind:
   - "adatújságírás"
   - "inkLink"
-temak:
-  - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
-  - Startup és termékfejlesztés
 kulcsszavak:
   - inkLink
 ---

@@ -12,9 +12,6 @@ regi_cimkek:
   - "vizualizáció"
 regi_cimkek_mind:
   - "vizualizáció"
-temak:
-  - Kurzusok és önképzés
-  - Programozás nyelvészeknek
 kulcsszavak:
   - vizualizál
 ---

@@ -15,7 +15,8 @@ regi_cimkek_mind:
   - "online kurzus"
   - "statisztikai programozás"
 temak:
-  - Statisztika és R
+  - Statisztika és valószínűség
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - lecke
   - elvégzés

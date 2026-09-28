@@ -18,11 +18,11 @@ regi_cimkek_mind:
   - "big data"
   - "könyvismertető"
 temak:
-  - Statisztika és R
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Rogers
-  - Facts
   - Sacred
+  - Facts
   - újságíró
   - Simon
 ---

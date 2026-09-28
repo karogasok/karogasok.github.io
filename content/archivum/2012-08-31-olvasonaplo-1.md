@@ -10,9 +10,6 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2012/08/olvasonaplo-1.html"
 regi_cimkek_mind:
   - "olvasónapló"
-temak:
-  - Kurzusok és önképzés
-  - Programozás nyelvészeknek
 kulcsszavak:
   - machine
   - Data

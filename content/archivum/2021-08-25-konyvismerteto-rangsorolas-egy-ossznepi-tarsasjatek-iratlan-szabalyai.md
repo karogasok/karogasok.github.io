@@ -18,8 +18,7 @@ regi_cimkek_mind:
   - "ranking"
 temak:
   - Logika és matematika
-  - Lapszemle
-  - A blog életéről
+  - Mesterséges intelligencia
 kulcsszavak:
   - rangsorolás
   - rangsor

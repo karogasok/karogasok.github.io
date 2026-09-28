@@ -19,7 +19,7 @@ regi_cimkek_mind:
   - "lisp"
   - "programozás"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Rathore
   - Java

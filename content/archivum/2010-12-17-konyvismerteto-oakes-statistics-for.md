@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "statisztika"
 temak:
-  - Statisztika és R
+  - Statisztika és valószínűség
 kulcsszavak:
   - Edinburgh
   - Oakes

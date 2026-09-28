@@ -11,7 +11,8 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2013/02/google-glass.htm
 regi_cimkek_mind:
   - "Google Glass"
 temak:
-  - Nyílt szoftver és tervezés
+  - Nyelvmodellek
+  - Mesterséges intelligencia
 kulcsszavak:
   - Glass
   - spectrum

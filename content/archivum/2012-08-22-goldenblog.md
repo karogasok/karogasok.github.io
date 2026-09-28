@@ -13,12 +13,9 @@ regi_cimkek:
 regi_cimkek_mind:
   - "blog"
   - "goldenblog"
-temak:
-  - Lapszemle
-  - A blog életéről
 kulcsszavak:
-  - befőz
   - ajánlat
+  - befőz
   - szavaz
   - keleti
   - együttműködik

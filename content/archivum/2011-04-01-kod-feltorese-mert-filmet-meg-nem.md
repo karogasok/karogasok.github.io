@@ -22,10 +22,11 @@ regi_cimkek_mind:
   - "logika"
   - "matematika"
 temak:
-  - Tudományfilozófia
+  - Logika és matematika
+  - Mesterséges intelligencia
 kulcsszavak:
-  - Anglia
   - hős
+  - Anglia
   - feltör
   - film
   - enigma

@@ -14,13 +14,13 @@ regi_cimkek_mind:
   - "jquery"
   - "kategóriaelmélet"
 temak:
-  - Programozás nyelvészeknek
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - jQuery
   - JavaScript
   - performance
-  - intuitive
   - fusi
+  - intuitive
 ---
 
 **A kategóriaelméletet a közkedvelt meghatározás szerint "[general abstract nonsense](http://en.wikipedia.org/wiki/Abstract_nonsense)". Ez persze korántsem jelenti azt, hogy nem lehet gyakorlatias dolgokra használni eredményeit. Pl. [John Bender](http://johnbender.us/) egészen zseniálisan alkalmazta az ún. [loop fusion](http://en.wikipedia.org/wiki/Loop_fusion) technikát a jQuery-ben. De hogy kerül a csizma az asztalra? [Bender working paper](http://johnbender.us/applications-cat-theory/paper-2012-08.pdf)-je így foglalja össze:**

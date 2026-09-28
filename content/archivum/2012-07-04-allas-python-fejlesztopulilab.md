@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "python"
   - "állás"
 temak:
-  - NLP meetupok
+  - Startup és termékfejlesztés
 kulcsszavak:
   - Pulilab
   - innovatív

@@ -19,9 +19,7 @@ regi_cimkek_mind:
   - "python"
   - "social web"
 temak:
-  - Programozás nyelvészeknek
-  - Hálózatok és eszközök
-  - Nyílt szoftver és tervezés
+  - Statisztika és valószínűség
 kulcsszavak:
   - Matthew
   - Networks

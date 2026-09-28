@@ -21,7 +21,7 @@ regi_cimkek_mind:
   - "nltk"
   - "python"
 temak:
-  - Programozás nyelvészeknek
+  - Nyelvtechnológia
 kulcsszavak:
   - developers
   - NLTK

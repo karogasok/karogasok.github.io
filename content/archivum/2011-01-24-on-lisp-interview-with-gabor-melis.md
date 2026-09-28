@@ -15,12 +15,12 @@ regi_cimkek_mind:
   - "interview"
   - "lisp"
 temak:
-  - Kurzusok és önképzés
+  - A szakma
 kulcsszavak:
   - games
   - LISP
-  - Melis
   - SBCL
+  - Melis
   - Common
 ---
 

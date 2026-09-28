@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "Google"
   - "blog"
 temak:
-  - A blog életéről
+  - Nyelvtechnológia
 kulcsszavak:
   - forgalom
   - beállít

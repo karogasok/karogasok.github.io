@@ -21,7 +21,7 @@ regi_cimkek_mind:
   - "szabad szoftver"
   - "szerzői jog"
 temak:
-  - Nyílt szoftver és tervezés
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - licenc
   - nyíltság

@@ -20,7 +20,7 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "zene"
 temak:
-  - Szövegvizualizáció
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - könnyűzene
   - zenei

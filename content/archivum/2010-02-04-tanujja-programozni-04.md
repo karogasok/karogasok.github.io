@@ -9,8 +9,7 @@ forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/02/tanujja-programozni_04.html"
 temak:
-  - Programozás nyelvészeknek
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Ruby
   - Scheme

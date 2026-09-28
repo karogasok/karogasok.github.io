@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "meetup"
   - "nlpmeetup"
 temak:
-  - NLP meetupok
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - LAWa
   - SZTAKI

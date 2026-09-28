@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "nlp"
   - "nyelvmodell"
 temak:
-  - Programozás nyelvészeknek
+  - Mesterséges intelligencia
 kulcsszavak:
   - úr
   - tanár

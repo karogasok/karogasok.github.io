@@ -17,8 +17,6 @@ regi_cimkek_mind:
   - "keresés"
   - "könyvismertető"
   - "search engines"
-temak:
-  - Logika és matematika
 kulcsszavak:
   - understanding
   - Engines

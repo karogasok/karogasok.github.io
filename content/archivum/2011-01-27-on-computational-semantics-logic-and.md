@@ -20,12 +20,12 @@ regi_cimkek_mind:
   - "semantics"
 temak:
   - Logika és matematika
-  - Statisztika és R
+  - A szakma
 kulcsszavak:
   - logic
   - Road
-  - Beth
   - Eijck
+  - Beth
   - CUP
 ---
 

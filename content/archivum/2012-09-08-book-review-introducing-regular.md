@@ -16,10 +16,10 @@ regi_cimkek_mind:
   - "regex"
   - "regular expressions"
 temak:
-  - Korpuszépítés és annotáció
+  - Statisztika és valószínűség
 kulcsszavak:
-  - regular
   - shor
+  - regular
   - follow
   - expressions
   - title

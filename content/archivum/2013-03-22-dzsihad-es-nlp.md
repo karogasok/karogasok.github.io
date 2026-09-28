@@ -15,9 +15,6 @@ regi_cimkek_mind:
   - "szövegelemzés"
   - "tartalomelemzés"
   - "társadalomtudomány"
-temak:
-  - A szakma
-  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - clerics
   - Jihadi

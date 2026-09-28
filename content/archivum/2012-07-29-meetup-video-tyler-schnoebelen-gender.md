@@ -20,8 +20,6 @@ regi_cimkek_mind:
   - "nlpmeetup"
   - "twitter"
   - "video"
-temak:
-  - Lapszemle
 kulcsszavak:
   - Tyler
   - talk

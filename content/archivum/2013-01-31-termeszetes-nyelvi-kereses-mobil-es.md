@@ -24,8 +24,8 @@ regi_cimkek_mind:
   - "mobil keresés"
   - "nyelvtechnológia"
 temak:
-  - Adatújságírás és nyílt adat
-  - Lapszemle
+  - Vizualizáció és hálózatelemzés
+  - Nyelvtechnológia
 kulcsszavak:
   - mobilos
   - Wonder

@@ -19,12 +19,12 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "text analytics"
 temak:
-  - Korpuszépítés és annotáció
+  - Korpusznyelvészet
 kulcsszavak:
   - Gate
   - analytics
-  - szövegelemzés
   - XML
+  - szövegelemzés
   - informatikus
 ---
 

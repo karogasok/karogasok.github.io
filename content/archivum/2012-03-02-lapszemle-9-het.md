@@ -14,8 +14,6 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
-temak:
-  - A blog életéről
 kulcsszavak:
   - PragPub
   - Kindle-varázs

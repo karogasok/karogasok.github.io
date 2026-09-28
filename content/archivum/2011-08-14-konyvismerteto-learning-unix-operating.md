@@ -16,11 +16,10 @@ regi_cimkek_mind:
   - "linux"
   - "unix"
 temak:
-  - Programozás nyelvészeknek
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
-  - multitasking
   - nix
+  - multitasking
   - fura
   - Windows
   - Unix

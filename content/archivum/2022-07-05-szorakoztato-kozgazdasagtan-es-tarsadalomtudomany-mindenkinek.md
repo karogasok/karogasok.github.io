@@ -10,7 +10,6 @@ forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/07/05/szorakoztato-kozgazdasagtan-es-tarsadalomtudomany-mindenkinek/"
 temak:
   - Logika és matematika
-  - Tudományfilozófia
 kulcsszavak:
   - racionalitás
   - összefügg

@@ -1,0 +1,29 @@
+# Every /tema/<slug>/ URL ever published. check_build.sh requires each
+# to build, as a hub or as a redirect. Append only.
+- a-blog-eletebol
+- a-blog-eleterol
+- a-szakma
+- adatujsagiras-es-nyilt-adat
+- halozatok-es-eszkozok
+- korpuszepites-es-annotacio
+- korpusznyelveszet
+- kurzusok-es-onkepzes
+- lapszemle
+- logika-es-matematika
+- megismeres-es-idegtudomany
+- mesterseges-intelligencia
+- nlp-meetupok
+- nyelvelemzo-eszkozok
+- nyelvelmelet
+- nyelvmodellek
+- nyelvtechnologia
+- nyilt-szoftver-es-tervezes
+- paradigmak-es-nyelvelmeletek
+- programozas-es-szoftverfejlesztes
+- programozas-nyelveszeknek
+- startup-es-termekfejlesztes
+- statisztika-es-r
+- statisztika-es-valoszinuseg
+- szovegvizualizacio
+- tudomanyfilozofia
+- vizualizacio-es-halozatelemzes

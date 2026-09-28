@@ -13,8 +13,7 @@ regi_cimkek:
 regi_cimkek_mind:
   - "könyvismertető"
 temak:
-  - Tudományfilozófia
-  - Logika és matematika
+  - Mesterséges intelligencia
 kulcsszavak:
   - Hodges
   - kódjátszma

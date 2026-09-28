@@ -13,15 +13,15 @@ regi_cimkek_mind:
   - "kognitív tudomány"
   - "probabilisztikus programozás"
 temak:
-  - A szakma
-  - Paradigmák és nyelvelméletek
-  - Korpusznyelvészet
+  - Nyelvelmélet
+  - Tudományfilozófia
+  - Megismerés és idegtudomány
 kulcsszavak:
   - inference
   - probabilistic
   - thine
   - tolls
-  - predictions
+  - Goodman
 ---
 
 > *"No man is an island,*  

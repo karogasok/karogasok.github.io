@@ -18,10 +18,6 @@ regi_cimkek_mind:
   - "language"
   - "logic"
   - "summer school"
-temak:
-  - NLP meetupok
-  - A blog életéről
-  - Lapszemle
 kulcsszavak:
   - session
   - submissions

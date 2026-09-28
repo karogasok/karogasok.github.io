@@ -9,7 +9,7 @@ forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/10/14/segitunk-ha-adatos-szakemberre-van-szukseged/"
 temak:
-  - NLP meetupok
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - támogató
   - maximum

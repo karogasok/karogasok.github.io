@@ -17,6 +17,8 @@ regi_cimkek_mind:
   - "számítástudomány"
 temak:
   - Logika és matematika
+  - Tudományfilozófia
+  - Mesterséges intelligencia
 kulcsszavak:
   - Mosóczi
   - emberiség

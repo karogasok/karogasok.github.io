@@ -16,8 +16,8 @@ kulcsszavak:
   - létezik
   - egyáltalán
   - mesterséges
-  - gép
   - intelligencia
+  - gép
 ---
 
 A Bézs Rádió [Szia, Tanár úr!](https://www.radiobezs.hu/radiobezs/gero-peter) című műsorában beszélgettünk [Gerő Péterrel](http://geropeter.hu/) a mesterséges intelligenciáról. "Létezik egyáltalán mesterséges intelligencia: lehet egy gép intelligens? Ki a számítógéppel létrehozott műalkotás alkotója? Mi a különbség a gépi feladatmegoldás és problémamegoldás között – ha az utóbbi létezhet egyáltalán? Mi alakul át a munkánkban, a kommunikációnkban, a biztonságunkban? Melyek az előnyök, melyek a veszélyek? A gép vagy az ember a veszélyforrás? Kiborgokká válunk? Tiltakozzunk vagy felkészüljünk?"

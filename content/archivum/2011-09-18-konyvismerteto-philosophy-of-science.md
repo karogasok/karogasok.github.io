@@ -20,8 +20,8 @@ temak:
   - Tudományfilozófia
 kulcsszavak:
   - Okasha
-  - metafizikai
   - Samir
+  - metafizikai
   - Newton
   - tudós
 ---

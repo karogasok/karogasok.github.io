@@ -18,14 +18,12 @@ regi_cimkek_mind:
   - "vendégposzt"
 temak:
   - A szakma
-  - Nyelvelemző eszközök
-  - Korpuszépítés és annotáció
 kulcsszavak:
   - helyesírás-ellenőrzés
   - Prószéky
   - szóellenőrzés
-  - nyelvhelyesség
   - hibaüzenet
+  - nyelvhelyesség
 ---
 
 *Tolnai Tímea vendégposztja*

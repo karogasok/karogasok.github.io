@@ -15,8 +15,8 @@ regi_cimkek_mind:
   - "kritikai gondolkodás"
   - "vizualizáció"
 temak:
-  - Logika és matematika
-  - Statisztika és R
+  - Statisztika és valószínűség
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - kritikai
   - Harford

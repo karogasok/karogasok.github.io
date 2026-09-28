@@ -13,9 +13,8 @@ regi_cimkek:
 regi_cimkek_mind:
   - "big data"
 temak:
-  - Tudományfilozófia
   - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
+  - Tudományfilozófia
 kulcsszavak:
   - forradalmi
   - adathalmaz

@@ -18,6 +18,8 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "társadalomtudományok"
 temak:
+  - Tudományfilozófia
+  - Adatújságírás és nyílt adat
   - Mesterséges intelligencia
 kulcsszavak:
   - Horowitz

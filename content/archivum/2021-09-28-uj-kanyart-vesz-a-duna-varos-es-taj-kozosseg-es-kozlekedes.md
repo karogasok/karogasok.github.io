@@ -14,7 +14,7 @@ regi_cimkek_mind:
   - "open data"
   - "open source"
 temak:
-  - NLP meetupok
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - GIS
   - nyílt

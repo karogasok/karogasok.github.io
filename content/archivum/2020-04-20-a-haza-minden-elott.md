@@ -16,13 +16,13 @@ regi_cimkek_mind:
   - "Python"
   - "QGIS"
 temak:
-  - Szövegvizualizáció
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - utótag
   - településnév
   - összetett
   - összetételi
-  - betűsor
+  - térkép
 ---
 
 A magyar nyelv olyan, mint egy kincsesbánya, amelynek használói temérdek új szót alkothatnak. Kreativitásért az elődeinknek sem kellett a szomszédba menniük, amikor elnevezték lakóhelyüket – akár egy elemű, akár több elemű névről legyen szó. Vizsgáljuk meg közelebbről az összetett szóból álló településneveket és térképezzük fel a leggyakoribb utótagokat.

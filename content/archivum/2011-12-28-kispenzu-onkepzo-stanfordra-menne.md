@@ -18,12 +18,13 @@ regi_cimkek_mind:
   - "tanulás"
   - "önképzés"
 temak:
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
+  - Mesterséges intelligencia
 kulcsszavak:
   - class
-  - Shoham
-  - Octave
   - instruktor
+  - Octave
+  - Shoham
   - feliratkozik
 ---
 

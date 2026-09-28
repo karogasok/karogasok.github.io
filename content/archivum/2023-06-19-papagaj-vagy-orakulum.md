@@ -12,8 +12,7 @@ regi_cimkek_mind:
   - "ChatGPT"
   - "politikai iránytű"
 temak:
-  - Lapszemle
-  - A blog életéről
+  - Nyelvmodellek
 kulcsszavak:
   - iránytű
   - GPT

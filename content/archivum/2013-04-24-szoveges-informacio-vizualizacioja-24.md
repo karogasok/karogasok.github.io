@@ -15,9 +15,8 @@ regi_cimkek_mind:
   - "topik modellek"
   - "vizualizáció"
 temak:
-  - Paradigmák és nyelvelméletek
-  - Logika és matematika
-  - Tudományfilozófia
+  - Vizualizáció és hálózatelemzés
+  - Korpusznyelvészet
 kulcsszavak:
   - centrális
   - hír

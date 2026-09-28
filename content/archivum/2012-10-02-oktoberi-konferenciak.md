@@ -17,9 +17,7 @@ regi_cimkek_mind:
   - "konferencia"
   - "nyelvtechnológia"
 temak:
-  - NLP meetupok
   - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
 kulcsszavak:
   - október
   - konferencia

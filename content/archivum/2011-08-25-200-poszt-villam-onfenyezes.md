@@ -14,11 +14,9 @@ regi_cimkek_mind:
   - "200"
   - "blog"
   - "önfényezés"
-temak:
-  - A blog életéről
 kulcsszavak:
-  - önfényezés
   - vendégeskedik
+  - önfényezés
   - tervez
   - érdeklődési
   - csatlakozik

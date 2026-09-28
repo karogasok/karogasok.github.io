@@ -9,7 +9,7 @@ forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/05/04/magyarorszagon-konnyebb-kocsmat-talalni-mint-orvost/"
 temak:
-  - Startup és termékfejlesztés
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - területi
   - eloszlás

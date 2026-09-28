@@ -18,7 +18,7 @@ regi_cimkek_mind:
   - "filmismertető"
   - "statisztika"
 temak:
-  - Tudományfilozófia
+  - Statisztika és valószínűség
 kulcsszavak:
   - Rosling
   - előkerül

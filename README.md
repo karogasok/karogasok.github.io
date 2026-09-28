@@ -127,7 +127,7 @@ hiányzik, a build figyelmeztet.
 `forras` pont erre van.
 
 Nem page bundle (`posts/slug/index.md` a képekkel egy mappában), pedig az lenne
-a korszerűbb elrendezés. Az `analysis/` témamodellje a `content/posts/*.md`
+a korszerűbb elrendezés. Az `analysis/` a `content/posts/*.md`
 mintára keresi a bejegyzéseket, így egy bundle-be tett írás **némán kimaradna a
 címkézésből** — kapna egy üres `temak` és `kulcsszavak` mezőt, és senki nem
 venné észre.
@@ -157,7 +157,7 @@ Háromféle címke van, és **nem keverednek**:
 | mező | ki adja | hol jelenik meg |
 |---|---|---|
 | `tags` | te, kézzel | `/tags/<slug>/` |
-| `temak` | a témamodell | `/tema/<slug>/` |
+| `temak` | a gondozott témalista, gépi besorolással | `/tema/<slug>/` |
 | `kulcsszavak` | kulcsszókinyerés | `/kulcsszo/<slug>/` |
 
 A `tags` a tiéd: az `export_temak.py` soha nem írja felül, csak a másik kettőt.
@@ -179,9 +179,32 @@ változott** — egy néven megadott bejegyzést mindig újraszámol.
 
 Az emtsv utána is fut; `make -C analysis emtsv-down` állítja le.
 
-Az `infer.py` **nem tanít újra modellt**: a meglévőre vetíti rá az új írást.
-Egy újratanítás egyetlen új dokumentumtól is elmozdíthatja a klaszterhatárokat,
-és a már kint lévő bejegyzések némán másik témába kerülnének.
+Az `infer.py` **nem tanít újra semmit**. A témák listája az
+`analysis/temalista.yaml` (ezt te gondozod), a besorolás küszöbei pedig az
+`analysis/temalista_kalibracio.json`-ban vannak befagyasztva. Minden írás a
+témák magjaihoz mért hasonlósága alapján kap legfeljebb három témát, vagy egyet
+sem. Egy új írás így soha nem mozdítja el a régieket; egy régi csak akkor mozdul,
+ha a saját szövege változott. Az első futás letölti a bge-m3 modellt (kb. 2 GB),
+utána csak az új vagy módosított írásokat kódolja. A módszer olvasóknak szóló
+leírása: `/modszer/`.
+
+### A témalista módosítása
+
+Új téma, átnevezés vagy új mag esetén a befagyasztott kalibráció elavul, és az
+`infer.py` addig nem fut, amíg újra nem készül:
+
+```sh
+cd analysis
+uv run python scripts/check_themes.py   # a lista ép-e: magok, régi nevek
+uv run python scripts/place.py          # hangolás a fejlesztői felén
+uv run python scripts/freeze.py         # befagyasztás — ezt commitold
+uv run python scripts/moves.py          # mi mozdulna: out/athelyezesek.md
+```
+
+Átnevezett téma régi neve a `korabbi_nevek` alá kerül: a régi URL-je átirányítás
+lesz. Megszűnő téma `allapot: megszunt` és `atiranyitas` kap. Egyszer
+közzétett téma-URL soha nem tűnik el: a `data/tema_slugok.yaml` listázza
+mindet, és a `make check` mindegyiket ellenőrzi.
 
 ## Ütemezés
 

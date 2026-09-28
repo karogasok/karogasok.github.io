@@ -9,7 +9,7 @@ forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2023/02/07/mesterseges-intelligencia-a-konyvtarakban/"
 temak:
-  - NLP meetupok
+  - Mesterséges intelligencia
 kulcsszavak:
   - ÁJK
   - ELTE

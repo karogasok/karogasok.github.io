@@ -16,13 +16,14 @@ regi_cimkek_mind:
   - "philosophy"
   - "statistics"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
+  - Logika és matematika
   - Tudományfilozófia
 kulcsszavak:
   - San
   - principle
-  - Rawls
   - poll
+  - Rawls
   - agains
 ---
 

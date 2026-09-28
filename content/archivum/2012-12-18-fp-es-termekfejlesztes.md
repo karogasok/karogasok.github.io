@@ -18,7 +18,7 @@ regi_cimkek_mind:
   - "haskell"
   - "termékfejlesztés"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Unfold
   - videó

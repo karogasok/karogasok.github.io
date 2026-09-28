@@ -19,7 +19,7 @@ regi_cimkek_mind:
   - "korpusznyelvészet"
   - "nyelvészet"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
 kulcsszavak:
   - helytelen
   - Gibson

@@ -12,7 +12,7 @@ regi_cimkek_mind:
   - "könyvek"
   - "könyvlista"
 temak:
-  - A blog életéről
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - átrág
   - pandas

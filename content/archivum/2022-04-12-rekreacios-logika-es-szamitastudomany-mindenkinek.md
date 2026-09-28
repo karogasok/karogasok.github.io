@@ -12,7 +12,6 @@ regi_cimkek_mind:
   - "Gödel tétel"
 temak:
   - Logika és matematika
-  - Tudományfilozófia
 kulcsszavak:
   - nemteljességi
   - Gödel

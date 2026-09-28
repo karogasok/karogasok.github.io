@@ -10,13 +10,12 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/mit-rejt-jovo-i-jelek-multbol.html"
 temak:
   - Adatújságírás és nyílt adat
-  - Startup és termékfejlesztés
-  - Nyílt szoftver és tervezés
+  - Mesterséges intelligencia
 kulcsszavak:
   - szemiotikus
   - ígéret
-  - ökonómia
   - Winograd
+  - ökonómia
   - fordulat
 ---
 

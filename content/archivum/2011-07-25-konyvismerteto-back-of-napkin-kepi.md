@@ -17,7 +17,8 @@ regi_cimkek_mind:
   - "tanulás"
   - "vizualizáció"
 temak:
-  - Statisztika és R
+  - Startup és termékfejlesztés
+  - Megismerés és idegtudomány
 kulcsszavak:
   - vizuális
   - Roam

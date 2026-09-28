@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "elméleti nyelvészet"
   - "filozófia"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
 kulcsszavak:
   - nézetrendszer
   - Kuhn

@@ -22,7 +22,7 @@ regi_cimkek_mind:
   - "vendégposzt"
   - "yacc"
 temak:
-  - Nyelvelemző eszközök
+  - Nyelvtechnológia
 kulcsszavak:
   - előreolvasás
   - értelmező

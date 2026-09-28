@@ -15,12 +15,12 @@ regi_cimkek_mind:
   - "kezdő"
   - "lisp"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - LISP
   - emacs
   - Common
-  - SLIME
+  - repl
   - Sussman
 ---
 

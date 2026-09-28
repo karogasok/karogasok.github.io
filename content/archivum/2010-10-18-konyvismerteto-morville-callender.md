@@ -16,8 +16,6 @@ regi_cimkek_mind:
   - "interakciódizájn"
   - "keresés"
   - "könyvismertető"
-temak:
-  - Nyílt szoftver és tervezés
 kulcsszavak:
   - tervezési
   - pattern

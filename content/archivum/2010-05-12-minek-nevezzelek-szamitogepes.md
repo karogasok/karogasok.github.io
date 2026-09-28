@@ -15,8 +15,8 @@ regi_cimkek_mind:
 temak:
   - A szakma
 kulcsszavak:
-  - inger
   - rácuppan
+  - inger
   - feldolgozás
   - signal
   - mérnök

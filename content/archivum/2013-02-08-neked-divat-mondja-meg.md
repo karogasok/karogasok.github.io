@@ -18,11 +18,11 @@ regi_cimkek_mind:
   - "tudományfilozófia"
 temak:
   - Tudományfilozófia
-  - Logika és matematika
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - pókháló
-  - pók
   - protein
+  - pók
   - mintázat
   - Elias
 ---

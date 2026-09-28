@@ -12,13 +12,12 @@ regi_cimkek_mind:
   - "Facebook Graph Search"
   - "hülyeség"
 temak:
-  - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
+  - Nyelvtechnológia
 kulcsszavak:
   - Graph
   - analitika
-  - aktivitás
   - béta
+  - aktivitás
   - Facebook
 ---
 

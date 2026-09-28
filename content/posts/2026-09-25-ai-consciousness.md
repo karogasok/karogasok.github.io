@@ -9,7 +9,9 @@ forras_cim: "A global workspace in language models"
 tags: ["tudat", "AI", "kognitív tudomány", "neurális hálók", "elmefilozófia", "bázis kogníció"]
 draft: false
 temak:
-  - Paradigmák és nyelvelméletek
+  - Mesterséges intelligencia
+  - Tudományfilozófia
+  - Megismerés és idegtudomány
 kulcsszavak:
   - tudatosság
   - J-space

@@ -19,7 +19,7 @@ regi_cimkek_mind:
   - "tartalomelemzés"
   - "topik modellek"
 temak:
-  - A blog életéről
+  - Korpusznyelvészet
 kulcsszavak:
   - pályamű
   - videó

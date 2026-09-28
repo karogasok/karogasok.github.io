@@ -16,12 +16,12 @@ regi_cimkek_mind:
   - "python"
   - "twitter"
 temak:
-  - Hálózatok és eszközök
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - Protovis
-  - dot.d
   - cPickle
   - Dzsudzsák
+  - dot.d
   - gráf
 ---
 

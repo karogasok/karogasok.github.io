@@ -9,7 +9,7 @@ forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/08/hogyan-tovabb-mihez-kezdhet-magaval.html"
 temak:
-  - A blog életéről
+  - A szakma
 kulcsszavak:
   - ismerős
   - sorozat

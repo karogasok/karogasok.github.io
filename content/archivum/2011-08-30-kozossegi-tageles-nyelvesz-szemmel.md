@@ -22,7 +22,7 @@ regi_cimkek_mind:
   - "tagelés"
   - "tagging"
 temak:
-  - Adatújságírás és nyílt adat
+  - Nyelvtechnológia
 kulcsszavak:
   - tagelés
   - sajátos

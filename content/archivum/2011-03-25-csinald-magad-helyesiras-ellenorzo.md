@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "python"
   - "számítógépes nyelvészet"
 temak:
-  - Nyelvelemző eszközök
+  - Nyelvtechnológia
 kulcsszavak:
   - big.txt
   - fájl

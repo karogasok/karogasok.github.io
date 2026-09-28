@@ -19,7 +19,7 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "statisztika"
 temak:
-  - Statisztika és R
+  - Statisztika és valószínűség
 kulcsszavak:
   - Vasishth
   - Shravan

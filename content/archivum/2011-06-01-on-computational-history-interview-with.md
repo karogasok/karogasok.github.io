@@ -17,8 +17,7 @@ regi_cimkek_mind:
   - "interview"
 temak:
   - A szakma
-  - Startup és termékfejlesztés
-  - Nyílt szoftver és tervezés
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - historians
   - Mathematica

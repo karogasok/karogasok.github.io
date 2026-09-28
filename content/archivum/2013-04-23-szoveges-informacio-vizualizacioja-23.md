@@ -16,7 +16,7 @@ regi_cimkek_mind:
   - "topik modellek"
   - "vizualizáció"
 temak:
-  - Szövegvizualizáció
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - pytagcloud
   - clouds

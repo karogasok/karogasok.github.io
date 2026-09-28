@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "text visualization"
   - "wordcram"
 temak:
-  - A szakma
+  - Nyelvtechnológia
 kulcsszavak:
   - wordcram
   - Wordle

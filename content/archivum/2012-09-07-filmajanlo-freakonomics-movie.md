@@ -16,9 +16,7 @@ regi_cimkek_mind:
   - "big data"
   - "filmajánló"
 temak:
-  - Lapszemle
   - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
 kulcsszavak:
   - Freakonomics
   - remek

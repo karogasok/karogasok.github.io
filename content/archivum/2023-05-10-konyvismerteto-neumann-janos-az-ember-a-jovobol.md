@@ -16,12 +16,14 @@ regi_cimkek_mind:
   - "könyvismertető"
 temak:
   - Logika és matematika
+  - Mesterséges intelligencia
+  - Tudományfilozófia
 kulcsszavak:
   - Neumann
   - felkavar
   - Klára
-  - önreprodukáló
   - dan
+  - Bhattacharya
 ---
 
 Neumann emlékév van és ennek apropóján magyarul is elérhető immár a zseniális magyar matematikusról szóló könyv fordítása.

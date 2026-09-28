@@ -14,8 +14,6 @@ regi_cimkek:
 regi_cimkek_mind:
   - "Wittgenstein"
   - "filmajánló"
-temak:
-  - Tudományfilozófia
 kulcsszavak:
   - YouTube
   - Wittgenstein

@@ -171,6 +171,8 @@ footer { border-top: 1px solid var(--line); margin-top: var(--sp-7); }
   font-size: var(--fs-small);
 }
 .footer-inner p { margin: var(--sp-1) 0; max-width: none; }
+/* How the themes and keywords are made: one quiet line, long enough to wrap. */
+.footer-inner p.footer-method { max-width: var(--measure); }
 
 main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--sp-7); }
 
@@ -585,6 +587,8 @@ main { max-width: 78rem; margin: 0 auto; padding: var(--sp-6) var(--sp-4) var(--
   letter-spacing: 0.04em;
   color: var(--muted);
 }
+/* A theme's one-sentence description, under the hub heading. */
+.tema-leiras { color: var(--muted); max-width: var(--measure); margin: 0 0 var(--sp-2); }
 
 /* The media list carries an outlet under the year, like the archive rows do. */
 .post-list.media-list { --date-col: 11rem; }

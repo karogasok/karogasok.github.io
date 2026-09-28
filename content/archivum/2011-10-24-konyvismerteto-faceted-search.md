@@ -17,13 +17,9 @@ regi_cimkek_mind:
   - "information retrieval"
   - "keresés"
   - "könyvismertető"
-temak:
-  - Statisztika és R
-  - Korpuszépítés és annotáció
-  - Kurzusok és önképzés
 kulcsszavak:
-  - facettás
   - Tunkelang
+  - facettás
   - concepts
   - találati
   - halmaz

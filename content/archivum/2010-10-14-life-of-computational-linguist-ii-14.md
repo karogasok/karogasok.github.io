@@ -18,6 +18,7 @@ regi_cimkek_mind:
   - "taste research"
 temak:
   - Startup és termékfejlesztés
+  - A szakma
 kulcsszavak:
   - fabric
   - Hunch

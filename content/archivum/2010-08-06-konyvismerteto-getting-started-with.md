@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "processing"
   - "programozás"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Reas
   - Fry

@@ -13,6 +13,10 @@ regi_cimkek:
 regi_cimkek_mind:
   - "Kossuth Rádió"
   - "nyelvmodell"
+temak:
+  - Nyelvmodellek
+  - Megismerés és idegtudomány
+  - Nyelvelmélet
 ---
 
 A Kossuth Rádió Trend-Idő műsorában beszélgettünk az új neurális nyelvmodellek "képességeiről".

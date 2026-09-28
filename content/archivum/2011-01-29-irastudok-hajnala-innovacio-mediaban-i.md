@@ -24,8 +24,6 @@ regi_cimkek_mind:
   - "újmédia"
 temak:
   - Adatújságírás és nyílt adat
-  - Korpuszépítés és annotáció
-  - Nyelvelemző eszközök
 kulcsszavak:
   - Blekko
   - Smart

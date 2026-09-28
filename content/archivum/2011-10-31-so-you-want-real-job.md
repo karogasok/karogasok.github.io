@@ -21,8 +21,8 @@ kulcsszavak:
   - Jobs
   - Resume
   - speech
-  - forensic
-  - pathology
+  - hire
+  - Temporary
 ---
 
 *A guest post by Christopher Phipps, [The Lousy Linguist](http://thelousylinguist.blogspot.com/)*

@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "továbbtanulás"
 temak:
-  - Lapszemle
+  - A szakma
 kulcsszavak:
   - PPKE
   - BTK

@@ -17,8 +17,8 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "szoftverfejlesztés"
 temak:
-  - Statisztika és R
-  - Nyílt szoftver és tervezés
+  - Programozás és szoftverfejlesztés
+  - Megismerés és idegtudomány
 kulcsszavak:
   - empirical
   - advanc

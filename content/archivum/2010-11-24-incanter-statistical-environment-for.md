@@ -16,12 +16,9 @@ regi_cimkek_mind:
   - "Incanter"
   - "interview"
   - "statistical programming"
-temak:
-  - A szakma
-  - Korpuszépítés és annotáció
 kulcsszavak:
-  - Lisp-Stat
   - Incanter
+  - Lisp-Stat
   - libraries
   - Ecosystem
   - library

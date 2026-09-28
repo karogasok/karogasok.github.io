@@ -19,8 +19,8 @@ regi_cimkek_mind:
 temak:
   - Logika és matematika
 kulcsszavak:
-  - filosz
   - automata
+  - filosz
   - tudor
   - tálal
   - matekos

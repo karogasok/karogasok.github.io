@@ -11,12 +11,14 @@ canonical: "https://blog.crowintelligence.org/hu/2022/10/10/szuksegunk-van-a-han
 regi_cimkek_mind:
   - "beszédfeldolgozás"
 temak:
-  - Hálózatok és eszközök
+  - Nyelvmodellek
+  - Nyelvtechnológia
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - felolvasott
   - felolvasás
-  - mikrofon
   - Koffair
+  - mikrofon
   - voice
 ---
 

@@ -18,8 +18,6 @@ regi_cimkek_mind:
   - "filmajánló"
   - "quant"
   - "quantitative analysts"
-temak:
-  - Lapszemle
 kulcsszavak:
   - Street
   - Wall

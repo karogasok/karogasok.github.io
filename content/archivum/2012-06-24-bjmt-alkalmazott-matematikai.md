@@ -11,9 +11,7 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2012/06/bjmt-alkalmazott
 regi_cimkek_mind:
   - "BJMT Alkalmazott Matematikai Konferencia 2012"
 temak:
-  - A szakma
-  - Paradigmák és nyelvelméletek
-  - Korpusznyelvészet
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Bender
   - algorithms

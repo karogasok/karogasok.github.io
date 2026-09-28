@@ -29,12 +29,12 @@ regi_cimkek_mind:
   - "valószínűségszámítás"
   - "vizualizáció"
 temak:
-  - Korpuszépítés és annotáció
+  - Statisztika és valószínűség
 kulcsszavak:
-  - ManyEyes
   - Definitive
-  - CouchDB
+  - ManyEyes
   - MapReduce
+  - CouchDB
   - szógyakoriság
 ---
 

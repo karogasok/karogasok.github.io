@@ -11,8 +11,8 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/mit-rejt-jovo-ii
 temak:
   - Adatújságírás és nyílt adat
 kulcsszavak:
-  - diagrammatikus
   - képviseleti
+  - diagrammatikus
   - demokrácia
   - megegyezés
   - preferencia

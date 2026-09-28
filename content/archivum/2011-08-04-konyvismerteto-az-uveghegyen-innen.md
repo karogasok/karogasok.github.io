@@ -18,7 +18,7 @@ regi_cimkek_mind:
   - "pedagógia"
   - "vendégposzt"
 temak:
-  - Korpusznyelvészet
+  - Nyelvelmélet
 kulcsszavak:
   - nyelvváltozat
   - oktatás

@@ -17,8 +17,7 @@ regi_cimkek_mind:
   - "data science"
   - "evidence-based policy making"
 temak:
-  - Lapszemle
-  - A blog életéről
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - evidence-based
   - irányzat

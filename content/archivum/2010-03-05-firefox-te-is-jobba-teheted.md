@@ -17,13 +17,10 @@ regi_cimkek_mind:
   - "mozilla"
   - "szabd szoftver"
   - "önkéntes"
-temak:
-  - Nyílt szoftver és tervezés
-  - Programozás nyelvészeknek
 kulcsszavak:
   - böngésző
-  - kiél
   - véna
+  - kiél
   - nagyrészt
   - Firefox
 ---

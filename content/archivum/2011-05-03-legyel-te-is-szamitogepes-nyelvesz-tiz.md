@@ -29,8 +29,8 @@ regi_cimkek_mind:
   - "statisztika"
   - "számítógépes nyelvészet"
 temak:
-  - Statisztika és R
-  - Kurzusok és önképzés
+  - A szakma
+  - Statisztika és valószínűség
 kulcsszavak:
   - elengedhetetlen
   - diszkrét

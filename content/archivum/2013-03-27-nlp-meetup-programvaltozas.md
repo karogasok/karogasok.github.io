@@ -13,7 +13,7 @@ regi_cimkek:
 regi_cimkek_mind:
   - "nlp meetup"
 temak:
-  - Lapszemle
+  - Nyelvmodellek
 kulcsszavak:
   - előadás
 ---

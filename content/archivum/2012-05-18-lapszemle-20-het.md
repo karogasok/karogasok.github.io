@@ -14,9 +14,6 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
-temak:
-  - Lapszemle
-  - A blog életéről
 kulcsszavak:
   - blogszünet
   - szervez

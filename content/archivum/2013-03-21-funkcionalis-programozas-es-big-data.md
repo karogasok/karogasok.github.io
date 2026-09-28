@@ -17,6 +17,7 @@ regi_cimkek_mind:
   - "data science"
   - "funkcionális programozás"
 temak:
+  - Programozás és szoftverfejlesztés
   - Adatújságírás és nyílt adat
 kulcsszavak:
   - Paco

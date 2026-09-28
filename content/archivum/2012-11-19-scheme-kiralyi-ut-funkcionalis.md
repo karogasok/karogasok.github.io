@@ -14,12 +14,12 @@ regi_cimkek_mind:
   - "funkcionális programozás"
   - "scheme"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Schemer
   - Scheme
-  - SICP
   - Languages
+  - SICP
   - Types
 ---
 

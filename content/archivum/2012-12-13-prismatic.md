@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "termékfejlesztés"
   - "topik modell"
 temak:
-  - Nyílt szoftver és tervezés
+  - Nyelvtechnológia
 kulcsszavak:
   - Prismatic
   - filter

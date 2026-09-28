@@ -18,11 +18,13 @@ regi_cimkek_mind:
   - "személyes"
   - "tudományfilozófia"
 temak:
+  - A szakma
+  - Nyelvelmélet
   - Tudományfilozófia
 kulcsszavak:
   - törésvonal
-  - könyvelő
   - keveredik
+  - könyvelő
   - érett
   - szembenállás
 ---

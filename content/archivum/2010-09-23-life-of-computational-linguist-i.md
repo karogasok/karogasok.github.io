@@ -22,14 +22,13 @@ regi_cimkek_mind:
   - "twitter"
   - "valószínűségszámítás"
 temak:
-  - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
+  - A szakma
 kulcsszavak:
   - J.A.
   - Sz.ny.
   - Sz.ny
   - Jason
-  - responses
+  - free-form
 ---
 
 **This week we conducted an interview with Jason Adams, a computational linguist who is working on sentiment analysis at [Systino](http://bit.ly/bBtXla). He holds a BS degree in Computer Science from the University of South Carolina, and an MS in Language Technologies from the Carnegie Mellon University. You can find Jason on Twitter as [@ealdent](http://bit.ly/bWFPXS). He's got a blog, [The Mendicant Bug](http://bit.ly/aryrRH), where you can read about nlp, ruby and other stuffs.**

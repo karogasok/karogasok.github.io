@@ -16,8 +16,6 @@ regi_cimkek_mind:
   - "network science"
   - "python"
   - "állás"
-temak:
-  - Hálózatok és eszközök
 kulcsszavak:
   - szerzett
   - egyetem

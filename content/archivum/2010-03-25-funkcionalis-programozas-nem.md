@@ -19,13 +19,13 @@ regi_cimkek_mind:
   - "logika"
   - "tanulás"
 temak:
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Haskell
-  - Hudak
-  - GHC
   - Hugs
   - multimédia
+  - GHC
+  - Hudak
 ---
 
 **A [logikai programozás](http://bit.ly/bGF3sg) után most a funkcionális paradigma elsajátítására buzdítok mindenkit. Habár nehéz, mindenképpen megéri, különösen a logika iránt érdeklődőknek.**  

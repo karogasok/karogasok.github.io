@@ -13,8 +13,6 @@ regi_cimkek:
 regi_cimkek_mind:
   - "biopunk"
   - "könyvismertető"
-temak:
-  - Mesterséges intelligencia
 kulcsszavak:
   - biopunk
   - DIY

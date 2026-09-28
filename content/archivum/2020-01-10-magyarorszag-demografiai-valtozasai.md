@@ -14,7 +14,7 @@ regi_cimkek_mind:
   - "idősorok"
   - "térkép"
 temak:
-  - Szövegvizualizáció
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - település
   - lakosság

@@ -13,8 +13,8 @@ regi_cimkek:
 regi_cimkek_mind:
   - "digitális bölcsészet"
 temak:
+  - A szakma
   - Tudományfilozófia
-  - Mesterséges intelligencia
 kulcsszavak:
   - bölcsészet
   - bölcsészettudomány

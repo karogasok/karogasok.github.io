@@ -15,8 +15,7 @@ regi_cimkek_mind:
   - "Trianon"
   - "metafora"
 temak:
-  - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - adás
   - interjú

@@ -16,7 +16,8 @@ regi_cimkek_mind:
   - "python"
   - "scikit-learn"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
+  - A szakma
 kulcsszavak:
   - scikit-learn
   - csomag

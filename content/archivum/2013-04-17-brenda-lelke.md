@@ -18,12 +18,13 @@ regi_cimkek_mind:
   - "tudományfilozófia"
 temak:
   - Tudományfilozófia
+  - A szakma
 kulcsszavak:
   - rebranding
   - Statistics
   - kognitív
-  - fut
   - Kind
+  - fut
 ---
 
 **Tudományfilozófusok és -szociológusok figyeltek fel arra a jelenségre, hogy egyes tudományágakat folyamatosan átneveznek, ez a rebranding. [Egy mai példa](http://kbroman.wordpress.com/2013/04/05/data-science-is-statistics/)**

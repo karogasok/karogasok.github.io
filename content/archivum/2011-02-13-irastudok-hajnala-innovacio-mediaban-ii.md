@@ -21,7 +21,6 @@ regi_cimkek_mind:
   - "újmédia"
 temak:
   - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
 kulcsszavak:
   - munkanélküliségi
   - ráta

@@ -14,9 +14,6 @@ regi_cimkek_mind:
   - "Whispersync for Voice"
   - "média"
   - "productivity"
-temak:
-  - Lapszemle
-  - A blog életéről
 kulcsszavak:
   - Whispersync
   - voice

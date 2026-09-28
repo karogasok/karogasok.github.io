@@ -20,7 +20,7 @@ regi_cimkek_mind:
   - "szöveg vizualizáció"
   - "vizualizáció"
 temak:
-  - Statisztika és R
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - kocka
   - kacsa

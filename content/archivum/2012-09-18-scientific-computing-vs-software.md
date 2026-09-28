@@ -18,12 +18,11 @@ regi_cimkek_mind:
   - "scientific computing"
   - "software engineering"
 temak:
-  - Tudományfilozófia
-  - Nyílt szoftver és tervezés
-  - Startup és termékfejlesztés
+  - Programozás és szoftverfejlesztés
+  - A szakma
 kulcsszavak:
-  - Scientific
   - Proofs
+  - Scientific
   - software
   - Philosophy
   - Computing

@@ -16,7 +16,8 @@ regi_cimkek_mind:
   - "Clojurelx"
   - "PAIP"
 temak:
-  - Nyelvelemző eszközök
+  - Programozás és szoftverfejlesztés
+  - Nyelvtechnológia
 kulcsszavak:
   - Names
   - Gist

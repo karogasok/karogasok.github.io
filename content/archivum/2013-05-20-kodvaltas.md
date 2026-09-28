@@ -14,10 +14,6 @@ regi_cimkek_mind:
   - "code switch"
   - "nyelvészet"
   - "újságírés"
-temak:
-  - A szakma
-  - Nyelvelemző eszközök
-  - Korpuszépítés és annotáció
 kulcsszavak:
   - kódváltás
   - hasonló

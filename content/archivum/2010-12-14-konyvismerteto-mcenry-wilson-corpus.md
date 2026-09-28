@@ -15,7 +15,8 @@ regi_cimkek_mind:
   - "korpusznyelvészet"
   - "könyvismertető"
 temak:
-  - Statisztika és R
+  - Korpusznyelvészet
+  - Statisztika és valószínűség
 kulcsszavak:
   - Wilson
   - McEnry

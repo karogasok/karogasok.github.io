@@ -8,10 +8,6 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2012/03/hungarian-natural-language-processing.html"
-temak:
-  - NLP meetupok
-  - A blog életéről
-  - Lapszemle
 kulcsszavak:
   - csatlakozik
   - Group

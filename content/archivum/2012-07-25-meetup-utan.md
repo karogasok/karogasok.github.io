@@ -12,13 +12,11 @@ regi_cimkek:
   - "meetup"
 regi_cimkek_mind:
   - "meetup"
-temak:
-  - A blog életéről
 kulcsszavak:
   - Tyler
   - Schnoebelen
-  - Feinerer
   - Ingo
+  - Feinerer
   - rendezvény
 ---
 

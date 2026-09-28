@@ -16,8 +16,8 @@ regi_cimkek_mind:
   - "logika"
   - "szemantika"
 temak:
+  - Nyelvelmélet
   - Logika és matematika
-  - Paradigmák és nyelvelméletek
   - Tudományfilozófia
 kulcsszavak:
   - Montague

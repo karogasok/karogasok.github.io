@@ -14,8 +14,8 @@ regi_cimkek_mind:
   - "nyelvtani analizátor"
   - "nyelvtani generátor"
 temak:
-  - Nyelvelemző eszközök
-  - Korpuszépítés és annotáció
+  - Nyelvmodellek
+  - Nyelvtechnológia
 kulcsszavak:
   - foma
   - támogat

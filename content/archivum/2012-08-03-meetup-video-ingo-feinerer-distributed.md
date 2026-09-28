@@ -20,9 +20,6 @@ regi_cimkek_mind:
   - "meetup"
   - "nlpmeetup"
   - "rstats"
-temak:
-  - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
 kulcsszavak:
   - Vimeo
 ---

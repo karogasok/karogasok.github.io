@@ -16,6 +16,9 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "logika"
   - "tudománytörténet"
+temak:
+  - Logika és matematika
+  - Statisztika és valószínűség
 kulcsszavak:
   - Logicomix
 ---

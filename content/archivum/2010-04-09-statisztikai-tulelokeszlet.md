@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "tanulás"
 temak:
-  - Statisztika és R
+  - Statisztika és valószínűség
 kulcsszavak:
   - Demystified
   - összeköt

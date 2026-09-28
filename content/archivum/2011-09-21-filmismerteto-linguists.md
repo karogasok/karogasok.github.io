@@ -15,8 +15,6 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "terepmunka"
   - "veszélyeztetett nyelvek"
-temak:
-  - Korpusznyelvészet
 kulcsszavak:
   - harris
   - Anderson

@@ -14,8 +14,7 @@ regi_cimkek_mind:
   - "funkcionális programozás"
   - "kérdőív"
 temak:
-  - NLP meetupok
-  - A blog életéről
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - kérdőív
   - kitöltés

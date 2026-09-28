@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "digital humanities"
   - "guest post"
 temak:
-  - Adatújságírás és nyílt adat
+  - A szakma
 kulcsszavak:
   - humanities
   - collections

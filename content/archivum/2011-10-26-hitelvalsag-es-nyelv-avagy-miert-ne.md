@@ -19,7 +19,7 @@ regi_cimkek_mind:
   - "pszichológia"
   - "viselkedésökonómia"
 temak:
-  - Korpusznyelvészet
+  - Nyelvelmélet
 kulcsszavak:
   - megtakarítási
   - FTR-

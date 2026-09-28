@@ -13,11 +13,10 @@ regi_cimkek_mind:
   - "McKay"
   - "Turing"
 temak:
-  - Tudományfilozófia
-  - Logika és matematika
+  - Mesterséges intelligencia
 kulcsszavak:
-  - szolgálat
   - kódfejtő
+  - szolgálat
   - McKay
   - lengyel
   - park

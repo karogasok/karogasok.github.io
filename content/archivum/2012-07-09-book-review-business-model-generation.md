@@ -14,9 +14,7 @@ regi_cimkek_mind:
   - "book review"
   - "business model generation"
 temak:
-  - Statisztika és R
-  - Korpuszépítés és annotáció
-  - Kurzusok és önképzés
+  - Startup és termékfejlesztés
 kulcsszavak:
   - business
   - chapter

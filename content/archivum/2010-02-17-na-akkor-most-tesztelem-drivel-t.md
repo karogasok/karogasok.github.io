@@ -9,7 +9,7 @@ forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/02/na-akkor-most-tesztelem-drivel-t.html"
 temak:
-  - Lapszemle
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - szerkesztő
 ---

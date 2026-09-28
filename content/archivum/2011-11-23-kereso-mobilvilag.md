@@ -15,8 +15,6 @@ regi_cimkek_mind:
   - "ekönyv"
   - "keresés"
   - "mobil keresés"
-temak:
-  - A blog életéről
 kulcsszavak:
   - szerző
   - kereső

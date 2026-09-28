@@ -16,7 +16,7 @@ regi_cimkek_mind:
   - "mesterséges intelligencia"
   - "tudománytörténet"
 temak:
-  - Logika és matematika
+  - Mesterséges intelligencia
 kulcsszavak:
   - csemege
   - film

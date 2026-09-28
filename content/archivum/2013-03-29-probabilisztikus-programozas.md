@@ -21,8 +21,6 @@ regi_cimkek_mind:
   - "haskell"
   - "probabilisztikus programozás"
   - "scheme"
-temak:
-  - Programozás nyelvészeknek
 kulcsszavak:
   - probabilistic
   - models

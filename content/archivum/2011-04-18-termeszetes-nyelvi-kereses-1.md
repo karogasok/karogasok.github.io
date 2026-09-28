@@ -25,9 +25,7 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "számítógépes nyelvészet"
 temak:
-  - Tudományfilozófia
-  - Nyílt szoftver és tervezés
-  - Adatújságírás és nyílt adat
+  - Nyelvtechnológia
 kulcsszavak:
   - emlős
   - Powerset

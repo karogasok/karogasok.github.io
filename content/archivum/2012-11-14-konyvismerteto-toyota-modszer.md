@@ -18,8 +18,7 @@ regi_cimkek_mind:
   - "lean"
   - "szoftverfejlesztés"
 temak:
-  - Statisztika és R
-  - Kurzusok és önképzés
+  - Startup és termékfejlesztés
 kulcsszavak:
   - Toyota
   - Toyota-módszer

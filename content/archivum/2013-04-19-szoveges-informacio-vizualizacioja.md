@@ -14,7 +14,7 @@ regi_cimkek_mind:
   - "szófelhő"
   - "vizualizáció"
 temak:
-  - Szövegvizualizáció
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - szófelhő
   - wordcloud

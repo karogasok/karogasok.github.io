@@ -14,14 +14,12 @@ regi_cimkek:
 regi_cimkek_mind:
   - "ajánló"
   - "lapszemle"
-temak:
-  - Lapszemle
 kulcsszavak:
   - Kornai
-  - néger
-  - Tongue
   - eBay
   - apai
+  - néger
+  - Tongue
 ---
 
 **Megint eltelt egy hét, ismét összeállítottunk egy kis válogatást a hétvégére. Akinek hét közben is szüksége van infókra az kövesse [@sznyelveszet](http://twitter.com/#%21/sznyelveszet) Twitter fiókunkat és böngéssze [szamitogepesnyelveszet.tumblr.com](http://szamitogepesnyelveszet.tumblr.com/) oldalunkat, vagy lájkoljon minket a FB-on.**

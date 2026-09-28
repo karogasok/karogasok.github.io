@@ -16,7 +16,7 @@ regi_cimkek_mind:
   - "rstats"
   - "statistics"
 temak:
-  - Korpuszépítés és annotáció
+  - Statisztika és valószínűség
 kulcsszavak:
   - stats
   - assumes

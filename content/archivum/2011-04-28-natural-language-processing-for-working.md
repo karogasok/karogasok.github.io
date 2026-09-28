@@ -18,10 +18,6 @@ regi_cimkek_mind:
   - "haskell"
   - "interview"
   - "natural language processing"
-temak:
-  - Korpuszépítés és annotáció
-  - Programozás nyelvészeknek
-  - A szakma
 kulcsszavak:
   - NLP
   - book

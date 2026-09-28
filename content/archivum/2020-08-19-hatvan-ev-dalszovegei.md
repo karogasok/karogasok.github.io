@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "natural language processing"
   - "pop"
 temak:
-  - Szövegvizualizáció
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - dal
   - kulcsszó

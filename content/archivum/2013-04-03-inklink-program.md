@@ -15,9 +15,6 @@ regi_cimkek_mind:
   - "adatújságírás"
   - "inkLink"
   - "inklink 2013"
-temak:
-  - Lapszemle
-  - A blog életéről
 kulcsszavak:
   - regisztrál
   - jegy

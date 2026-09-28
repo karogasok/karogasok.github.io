@@ -20,12 +20,13 @@ regi_cimkek_mind:
   - "vendégposzt"
 temak:
   - Korpusznyelvészet
-  - Szövegvizualizáció
+  - Nyelvelmélet
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - Hrabal
-  - SYN2005
   - szókincs
   - írói
+  - SYN2005
   - próza
 ---
 

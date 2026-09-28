@@ -18,7 +18,7 @@ regi_cimkek_mind:
   - "programozás"
   - "számítástudomány"
 temak:
-  - Kurzusok és önképzés
+  - Logika és matematika
 kulcsszavak:
   - magyar
   - könyv

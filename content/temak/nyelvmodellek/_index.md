@@ -1,0 +1,5 @@
+---
+title: Nyelvmodellek
+slug: nyelvmodellek
+---
+

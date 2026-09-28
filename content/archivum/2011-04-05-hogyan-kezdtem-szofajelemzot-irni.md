@@ -20,13 +20,13 @@ regi_cimkek_mind:
   - "trainer"
   - "vendégposzt"
 temak:
-  - Nyelvelemző eszközök
+  - Nyelvtechnológia
 kulcsszavak:
   - m-e3
+  - ige
   - m-e1
   - INF
-  - ige
-  - szabályszerűség
+  - j-t1
 ---
 
 Tempfli Péter vendégposztja

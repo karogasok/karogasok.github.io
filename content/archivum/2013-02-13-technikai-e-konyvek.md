@@ -12,13 +12,10 @@ regi_cimkek_mind:
   - "Kindle"
   - "e-könyvek"
   - "e-olvasás"
-temak:
-  - Lapszemle
-  - A blog életéről
 kulcsszavak:
   - egyenlet
-  - dedikált
   - szinkronizáció
+  - dedikált
   - Audible
   - zavaró
 ---

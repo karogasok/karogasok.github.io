@@ -17,6 +17,7 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "tanulás"
 temak:
+  - Statisztika és valószínűség
   - Korpusznyelvészet
 kulcsszavak:
   - Akmajian

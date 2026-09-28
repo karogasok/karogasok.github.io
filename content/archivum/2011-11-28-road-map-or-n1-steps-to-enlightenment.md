@@ -15,8 +15,6 @@ regi_cimkek_mind:
   - "Clojure"
   - "Clojurelx"
   - "road-map"
-temak:
-  - Nyelvelemző eszközök
 kulcsszavak:
   - Classics
   - power

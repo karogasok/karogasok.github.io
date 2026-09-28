@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "szabd szoftver"
   - "tanulás"
 temak:
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - végre
   - szerez

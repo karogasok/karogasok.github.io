@@ -19,7 +19,9 @@ regi_cimkek_mind:
   - "metafora"
   - "nyelvészet"
 temak:
-  - Korpusznyelvészet
+  - Nyelvelmélet
+  - Logika és matematika
+  - Tudományfilozófia
 kulcsszavak:
   - történelmi
 ---

@@ -14,11 +14,11 @@ regi_cimkek_mind:
   - "informatika"
   - "könyvismertető"
 temak:
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - képregény
-  - Cartoon
   - volatilis
+  - Cartoon
   - illusztrátor
   - hardver
 ---

@@ -19,7 +19,7 @@ regi_cimkek_mind:
   - "kognitív nyelvészet"
   - "nyelvi relativizmus"
 temak:
-  - Korpusznyelvészet
+  - Nyelvelmélet
 kulcsszavak:
   - Everett
   - pirahã

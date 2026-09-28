@@ -18,8 +18,7 @@ regi_cimkek_mind:
   - "szabd szoftver"
   - "tanulás"
 temak:
-  - Programozás nyelvészeknek
-  - A szakma
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Scratch
   - követel

@@ -17,8 +17,7 @@ regi_cimkek_mind:
   - "metafora"
   - "nyelvészet"
 temak:
-  - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
+  - Vizualizáció és hálózatelemzés
 ---
 
 A koronavírus kapcsán használt metaforákról beszélgettünk ismét a 117 perc című műsorban. A beszélgetés  [ezen a linken](https://civilradio.hu/archivum/2020_08_24_17_30_02.m3u) hallgatható meg 12:08-tól.

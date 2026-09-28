@@ -15,12 +15,10 @@ regi_cimkek_mind:
   - "R"
   - "számítógépes nyelvészet"
 temak:
-  - Programozás nyelvészeknek
-  - Korpuszépítés és annotáció
-  - A szakma
+  - Statisztika és valószínűség
 kulcsszavak:
-  - stabil
   - Definition
+  - stabil
   - szintaxis
   - speciális
   - Scheme

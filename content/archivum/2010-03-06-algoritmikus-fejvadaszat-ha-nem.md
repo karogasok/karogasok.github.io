@@ -16,9 +16,7 @@ regi_cimkek_mind:
   - "szabd szoftver"
   - "tanulás"
 temak:
-  - A blog életéről
-  - Programozás nyelvészeknek
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - előbb-utóbb
   - bug

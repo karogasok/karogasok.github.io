@@ -17,6 +17,7 @@ regi_cimkek_mind:
   - "manifesto"
 temak:
   - A szakma
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - ideas
   - Common

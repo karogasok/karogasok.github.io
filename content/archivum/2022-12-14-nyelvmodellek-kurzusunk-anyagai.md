@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "nlp"
   - "nyelvmodellek"
 temak:
-  - Hálózatok és eszközök
+  - Nyelvmodellek
 kulcsszavak:
   - notebook
   - Docs

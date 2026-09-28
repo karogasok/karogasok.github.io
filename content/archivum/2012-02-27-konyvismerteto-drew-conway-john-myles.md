@@ -18,8 +18,7 @@ regi_cimkek_mind:
   - "gépi tanulás"
   - "könyvismertető"
 temak:
-  - Statisztika és R
-  - Kurzusok és önképzés
+  - Statisztika és valószínűség
 kulcsszavak:
   - Myles
   - Drew

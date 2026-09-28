@@ -16,6 +16,7 @@ regi_cimkek_mind:
   - "predikció"
   - "vespignani"
 temak:
+  - Mesterséges intelligencia
   - Tudományfilozófia
 kulcsszavak:
   - Vespignani

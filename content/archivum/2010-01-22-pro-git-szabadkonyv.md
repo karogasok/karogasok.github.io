@@ -11,8 +11,7 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/01/pro-git-szabadko
 regi_cimkek_mind:
   - "git"
 temak:
-  - Nyelvelemző eszközök
-  - Korpuszépítés és annotáció
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Git
   - érthető

@@ -16,10 +16,10 @@ regi_cimkek_mind:
   - "interjú"
   - "koronavírus"
 temak:
-  - Nyílt szoftver és tervezés
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
-  - beszélgetés
   - perc
+  - beszélgetés
   - fél
 ---
 

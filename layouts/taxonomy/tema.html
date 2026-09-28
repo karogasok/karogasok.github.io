@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{- /* Themes come from the topic model in analysis/, not from hand-tagging, so
+{{- /* Themes are a curated list (analysis/temalista.yaml) onto which a language
+       model places every writing by similarity — see /modszer/. Not hand-tagged, so
        a hub has two things the tag hubs do not: the writings that have pages
        here, and the ones that do not — Kereső Világ leads and media entries,
        which live in data/temak.yaml because they have no front matter to hold
@@ -13,9 +14,10 @@
 <div class="listing{{ if $isHub }} is-hub{{ end }}">
   <header class="post-head">
     <h1>{{ .Title }}</h1>
-    {{- if and $theme (not $theme.ellenorizve) }}
-    <p class="tema-note">{{ i18n "tema.unreviewed" }}</p>
-    {{- end }}
+    {{- with $theme }}{{ with .leiras }}
+    <p class="tema-leiras">{{ . }}</p>
+    {{- end }}{{ end }}
+    <p class="tema-note">{{ i18n "tema.gepi" }} <a href="{{ "modszer/" | relURL }}">{{ i18n "tema.hogyan" }}</a></p>
   </header>
 
   {{- if $isHub }}

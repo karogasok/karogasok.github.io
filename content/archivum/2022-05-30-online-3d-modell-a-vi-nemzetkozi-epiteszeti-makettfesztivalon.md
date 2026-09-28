@@ -8,8 +8,6 @@ archiv: true
 forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/05/30/online-3d-modell-a-vi-nemzetkozi-epiteszeti-makettfesztivalon/"
-temak:
-  - Hálózatok és eszközök
 kulcsszavak:
   - fotogrammetriai
   - készít

@@ -17,12 +17,13 @@ regi_cimkek_mind:
   - "korpusz nyelvészet"
   - "statisztika"
 temak:
-  - Nyelvelemző eszközök
+  - Nyelvtechnológia
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - gnuplot
-  - tengely
   - webkorpusz
   - web2.2-fre-sorted.top100k.txt
+  - tengely
   - oszlop
 ---
 

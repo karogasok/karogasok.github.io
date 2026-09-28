@@ -15,9 +15,6 @@ regi_cimkek_mind:
   - "Clojure"
   - "Clojurelx"
   - "EuroClojure"
-temak:
-  - Lapszemle
-  - A blog életéről
 kulcsszavak:
   - Clojure
 ---

@@ -17,14 +17,14 @@ regi_cimkek_mind:
   - "szemantikus web"
   - "tudományfilozófia"
 temak:
+  - Nyelvelmélet
   - Tudományfilozófia
-  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - rekonstrukció
   - ontológia
   - interpretáció
   - felfedezés
-  - igazolhatóság
+  - megfigyelési
 ---
 
 **A szemantikus web ambiciózus programja azt célozza meg hogy az interneten minden dokumentum tartalmazza saját alapvető interpretációját is. Ez a távoli cél ami még várat magára, ám egyre több tudományterület ontológiája készül el és egyre több terültről áll rendelkezésünkre ún Linked Data (ami nem más mint egy olyan adathalmaz amihez csatolták elemei interpretációját is - de ez nem egy szakszerű definíció). Így felmerül a kérdés, ha adott az ontológia és egy adathalmaz, kell-e még nekünk kutató? Az ontológiát és az érvényes következtetések szabályait alkalmazva lehetséges-e új, eddig még nem ismert összegfüggéseket találni automatizált módon?**  

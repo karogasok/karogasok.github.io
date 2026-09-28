@@ -20,8 +20,8 @@ temak:
 kulcsszavak:
   - innovációs
   - Innovation
-  - agilis
   - Toyota
+  - agilis
   - vállalat
 ---
 

@@ -25,9 +25,8 @@ regi_cimkek_mind:
   - "mozilla"
   - "számítógépes nyelvészet"
 temak:
-  - Korpusznyelvészet
+  - Nyelvelmélet
   - A szakma
-  - Nyelvelemző eszközök
 kulcsszavak:
   - parancs
   - paraméter

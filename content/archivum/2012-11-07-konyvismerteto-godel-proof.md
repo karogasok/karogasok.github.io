@@ -18,8 +18,6 @@ regi_cimkek_mind:
   - "logika"
 temak:
   - Logika és matematika
-  - Paradigmák és nyelvelméletek
-  - Tudományfilozófia
 kulcsszavak:
   - Newman
   - Gödel

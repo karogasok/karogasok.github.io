@@ -14,8 +14,8 @@ regi_cimkek_mind:
   - "agilis szoftverfejlesztés"
   - "könyvismertető"
 temak:
-  - Programozás nyelvészeknek
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
+  - Startup és termékfejlesztés
 kulcsszavak:
   - agile
   - Rasmusson

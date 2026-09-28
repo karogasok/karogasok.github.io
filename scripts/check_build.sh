@@ -166,4 +166,71 @@ else
   echo "OK    links: no inside-out Markdown links"
 fi
 
+# 6. No theme URL ever dies.
+#
+# A theme's URL comes from its name, so a rename or a retirement moves it.
+# Someone may hold the old address, so every /tema/<slug>/ ever published is
+# listed in data/tema_slugok.yaml, and each must still build — as a hub, or as
+# the redirect the exporter writes for a former or retired name.
+registry="$root/data/tema_slugok.yaml"
+if [ -f "$registry" ]; then
+  dead=0; listed=0
+  while IFS= read -r line; do
+    case "$line" in '- '*) slug="${line#- }" ;; *) continue ;; esac
+    listed=$((listed + 1))
+    if [ ! -f "$public/tema/$slug/index.html" ]; then
+      echo "FAIL  tema-urls: /tema/$slug/ was published once and no longer builds" >&2
+      dead=1; fail=1
+    fi
+  done < "$registry"
+  [ "$dead" -eq 0 ] && echo "OK    tema-urls: all $listed theme URLs ever published still resolve"
+fi
+
+# 7. No page carries a theme name that is not a current theme.
+#
+# A page left with an old name still links somewhere — to the redirect — so
+# check 4 passes. It would show a stale name for ever. Every `temak:` value in
+# front matter and every `t:` in the index must be a name in data/temak.yaml.
+stale=$(python3 - "$root" <<'PYCHECK'
+import re, sys
+from pathlib import Path
+root = Path(sys.argv[1])
+names = set(re.findall(r'^  nev: "?(.*?)"?$', (root / "data/temak.yaml").read_text("utf-8"), re.M))
+bad = []
+for page in sorted((root / "content").rglob("*.md")):
+    text = page.read_text("utf-8")
+    if not text.startswith("---"):
+        continue
+    front = text.split("---", 2)[1]
+    block = re.search(r"^temak:\n((?:  - .*\n)+)", front, re.M)
+    for item in re.findall(r'^  - "?(.*?)"?$', block.group(1), re.M) if block else []:
+        if item not in names:
+            bad.append(f"{page.relative_to(root)}: {item}")
+index = (root / "data/temak_index.yaml").read_text("utf-8")
+for block in re.findall(r"^  t:\n((?:    - .*\n)+)", index, re.M):
+    for item in re.findall(r'^    - "?(.*?)"?$', block, re.M):
+        if item not in names:
+            bad.append(f"data/temak_index.yaml: {item}")
+print("\n".join(bad))
+PYCHECK
+)
+if [ -n "$stale" ]; then
+  printf '%s\n' "$stale" | head -5 | sed 's/^/FAIL  stale-temak: /' >&2
+  fail=1
+else
+  echo "OK    stale-temak: every theme on every page is a current theme"
+fi
+
+# 8. The methods page exists and the footer leads to it.
+#
+# The footer says the themes are machine-placed and asks "Hogyan?". An answer
+# that 404s is worse than no question.
+if [ ! -f "$public/modszer/index.html" ]; then
+  echo "FAIL  modszer: /modszer/ was not built" >&2; fail=1
+elif ! grep -qE 'href="?/modszer/' "$public/index.html"; then
+  echo "FAIL  modszer: the footer does not link to /modszer/" >&2; fail=1
+else
+  echo "OK    modszer: /modszer/ is built and linked from the footer"
+fi
+
 exit $fail

@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "adatbányászat"
   - "könyvismertető"
 temak:
-  - Statisztika és R
+  - Statisztika és valószínűség
 kulcsszavak:
   - Williams
   - Rattle

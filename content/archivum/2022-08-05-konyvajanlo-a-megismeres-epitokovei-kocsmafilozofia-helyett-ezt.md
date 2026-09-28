@@ -11,11 +11,11 @@ canonical: "https://blog.crowintelligence.org/hu/2022/08/05/konyvajanlo-a-megism
 regi_cimkek_mind:
   - "kognitív tudomány"
 temak:
-  - A szakma
+  - Megismerés és idegtudomány
 kulcsszavak:
   - Clark
-  - WR
   - Quillian
+  - WR
   - tárolás
   - meccs
 ---

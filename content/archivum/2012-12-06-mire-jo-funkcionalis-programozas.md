@@ -13,13 +13,12 @@ regi_cimkek:
 regi_cimkek_mind:
   - "funkcionális programozás"
 temak:
-  - Programozás nyelvészeknek
-  - Nyílt szoftver és tervezés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Haghighi
   - Naur
-  - szerszám
   - run-times
+  - szerszám
   - Scala
 ---
 

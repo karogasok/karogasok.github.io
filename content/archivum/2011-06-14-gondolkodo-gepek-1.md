@@ -21,8 +21,8 @@ regi_cimkek_mind:
   - "kognitív tudomány"
   - "mesteséges intelligencia"
 temak:
-  - Tudományfilozófia
-  - Logika és matematika
+  - Nyelvtechnológia
+  - Mesterséges intelligencia
 kulcsszavak:
   - Eliza
   - kérdező

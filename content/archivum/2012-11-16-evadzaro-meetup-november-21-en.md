@@ -14,8 +14,6 @@ regi_cimkek:
 regi_cimkek_mind:
   - "meetup"
   - "nlp meetup"
-temak:
-  - NLP meetupok
 kulcsszavak:
   - pszichológiai
   - dr.

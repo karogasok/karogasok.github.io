@@ -1,15 +1,19 @@
 #!/usr/bin/env bash
 #
-# Put the model's themes and keywords onto a writing, and into the site.
+# Put themes and keywords onto a writing, and into the site.
 #
 #   scripts/postprocess.sh content/posts/2026-09-18-muslica.md
 #   scripts/postprocess.sh 2026-09-18-muslica.md        # bare filename works too
 #   scripts/postprocess.sh                              # everything not yet done
 #
 # Three steps have to happen in order and none of them is interesting: emtsv has
-# to be running to lemmatise, infer.py places the piece on the existing themes,
-# and export_temak.py writes the result into the front matter and the data files.
-# Doing them by hand is how one gets forgotten.
+# to be running to lemmatise, infer.py finds the keywords and places every
+# writing on the curated themes with the frozen calibration, and export_temak.py
+# writes the result into the front matter and the data files. Doing them by hand
+# is how one gets forgotten.
+#
+# The first run after a fresh clone downloads the bge-m3 encoder (about 2 GB);
+# after that only new or edited writings are encoded.
 #
 # emtsv is started if it is not already up and is left running, because starting
 # it costs about forty seconds and you will usually postprocess more than once.
@@ -19,9 +23,9 @@ set -euo pipefail
 root="$(cd "$(dirname "$0")/.." && pwd)"
 analysis="$root/analysis"
 
-if [ ! -f "$analysis/out/model.pkl" ]; then
-  echo "nincs betanított modell: $analysis/out/model.pkl" >&2
-  echo "  előbb: cd analysis && uv run python scripts/fit_topics.py" >&2
+if [ ! -f "$analysis/temalista_kalibracio.json" ]; then
+  echo "nincs befagyasztott kalibráció: $analysis/temalista_kalibracio.json" >&2
+  echo "  előbb: cd analysis && uv run python scripts/place.py && uv run python scripts/freeze.py" >&2
   exit 1
 fi
 
@@ -45,7 +49,7 @@ fi
 
 cd "$analysis"
 uv run python scripts/infer.py "$@"
-uv run python scripts/export_temak.py --allow-unchecked
+uv run python scripts/export_temak.py
 
 echo
 echo "kész. A címkék a bejegyzés front matterében vannak."

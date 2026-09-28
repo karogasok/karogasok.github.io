@@ -11,7 +11,7 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/01/az-elso-posztom.
 regi_cimkek_mind:
   - "az első"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - világ
 ---

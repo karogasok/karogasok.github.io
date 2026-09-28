@@ -19,8 +19,9 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "szemantikus web"
 temak:
+  - Logika és matematika
+  - Nyelvelmélet
   - Tudományfilozófia
-  - Paradigmák és nyelvelméletek
 kulcsszavak:
   - ágens
   - episztemológiai

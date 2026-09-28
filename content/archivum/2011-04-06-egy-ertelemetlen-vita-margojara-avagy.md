@@ -19,6 +19,8 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "valószínűségi nyelvészet"
 temak:
+  - Statisztika és valószínűség
+  - Adatújságírás és nyílt adat
   - Tudományfilozófia
 kulcsszavak:
   - szabályalapú

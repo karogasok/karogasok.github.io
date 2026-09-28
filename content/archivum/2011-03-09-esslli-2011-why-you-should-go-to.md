@@ -20,8 +20,6 @@ regi_cimkek_mind:
   - "language"
   - "logic"
   - "summer school"
-temak:
-  - A blog életéről
 kulcsszavak:
   - Student
   - session

@@ -14,13 +14,9 @@ regi_cimkek:
 regi_cimkek_mind:
   - "funkcionális programozás"
   - "kategóriaelmélet"
-temak:
-  - Statisztika és R
-  - Logika és matematika
-  - Tudományfilozófia
 kulcsszavak:
-  - Lambek
   - category
+  - Lambek
   - kategóriaelmélet
   - Vimeo
   - Theory

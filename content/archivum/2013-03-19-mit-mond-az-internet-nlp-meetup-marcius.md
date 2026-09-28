@@ -16,8 +16,6 @@ regi_cimkek_mind:
   - "Textplore"
   - "meetup"
   - "nlp meetup"
-temak:
-  - NLP meetupok
 kulcsszavak:
   - korrupció
   - Replise

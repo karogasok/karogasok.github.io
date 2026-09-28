@@ -20,8 +20,9 @@ regi_cimkek_mind:
   - "python"
   - "számítógépes nyelvészet"
 temak:
-  - Programozás nyelvészeknek
-  - Kurzusok és önképzés
+  - A szakma
+  - Statisztika és valószínűség
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - algorithms
   - Jewels

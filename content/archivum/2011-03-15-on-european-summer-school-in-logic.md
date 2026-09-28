@@ -15,8 +15,6 @@ regi_cimkek_mind:
   - "ESSLLI"
   - "ESSLLI 2011"
   - "interview"
-temak:
-  - Kurzusok és önképzés
 kulcsszavak:
   - ESSLLI
   - grants

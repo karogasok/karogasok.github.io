@@ -16,9 +16,6 @@ regi_cimkek_mind:
   - "book review"
   - "information diet"
   - "könyvismertető"
-temak:
-  - Korpuszépítés és annotáció
-  - Kurzusok és önképzés
 kulcsszavak:
   - obesity
   - Johnson

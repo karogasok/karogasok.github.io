@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "filozófia"
   - "nyelvészet"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
 kulcsszavak:
   - empirista
   - természettudomány

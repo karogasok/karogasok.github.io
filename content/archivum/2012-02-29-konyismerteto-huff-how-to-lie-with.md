@@ -15,7 +15,7 @@ regi_cimkek_mind:
   - "How to Lie with Statistics"
   - "könyvismertető"
 temak:
-  - Statisztika és R
+  - Statisztika és valószínűség
 kulcsszavak:
   - megáll
   - critical

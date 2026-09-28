@@ -18,12 +18,11 @@ regi_cimkek_mind:
   - "tudományfilozófia"
   - "így gondozd"
 temak:
-  - Tudományfilozófia
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
 kulcsszavak:
   - E1
-  - E2
   - X1
+  - E2
   - fejlődési
   - ti.
 ---

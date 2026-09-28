@@ -17,13 +17,14 @@ regi_cimkek_mind:
   - "datalog"
   - "prolog"
 temak:
-  - Nyelvelemző eszközök
-  - Korpuszépítés és annotáció
+  - A szakma
+  - Logika és matematika
+  - Statisztika és valószínűség
 kulcsszavak:
   - Blackburn
   - Prolog
-  - Bos
   - Stephan
+  - Bos
   - Kristina
 ---
 

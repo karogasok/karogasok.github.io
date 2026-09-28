@@ -16,12 +16,10 @@ regi_cimkek_mind:
   - "textometry"
 temak:
   - A szakma
-  - Nyílt szoftver és tervezés
-  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Sentiment
-  - Opinion
   - Textometry
+  - Opinion
   - forth
   - technologies
 ---

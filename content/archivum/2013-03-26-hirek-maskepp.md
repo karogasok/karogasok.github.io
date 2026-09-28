@@ -12,6 +12,9 @@ regi_cimkek_mind:
   - "computational linguistics light"
   - "hírek"
   - "news"
+temak:
+  - A szakma
+  - Statisztika és valószínűség
 kulcsszavak:
   - angol
 ---

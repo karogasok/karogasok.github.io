@@ -18,12 +18,12 @@ regi_cimkek_mind:
   - "fonológia"
   - "vendégposzt"
 temak:
-  - Korpusznyelvészet
+  - Nyelvelmélet
 kulcsszavak:
   - fonéma
   - fonológiai
-  - hasonulás
   - langue
+  - hasonulás
   - hangsor
 ---
 

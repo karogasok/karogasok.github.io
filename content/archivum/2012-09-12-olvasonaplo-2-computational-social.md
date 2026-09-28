@@ -12,7 +12,7 @@ regi_cimkek_mind:
   - "computational social science"
   - "olvasónapló"
 temak:
-  - Nyílt szoftver és tervezés
+  - A szakma
 kulcsszavak:
   - Social
   - Dávid

@@ -15,7 +15,8 @@ regi_cimkek_mind:
   - "innováció"
   - "kutatás"
 temak:
-  - Startup és termékfejlesztés
+  - Tudományfilozófia
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - innovatív
   - impact

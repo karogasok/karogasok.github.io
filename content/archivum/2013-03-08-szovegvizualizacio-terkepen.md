@@ -12,7 +12,7 @@ regi_cimkek_mind:
   - "szövegvizualizáció"
   - "térkép"
 temak:
-  - Szövegvizualizáció
+  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - ország
   - History

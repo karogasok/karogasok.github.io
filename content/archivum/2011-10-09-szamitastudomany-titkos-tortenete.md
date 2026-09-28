@@ -17,12 +17,13 @@ regi_cimkek_mind:
   - "számítástudomány"
   - "titkos történet"
 temak:
+  - Logika és matematika
   - Tudományfilozófia
 kulcsszavak:
   - levezethető
   - rotors
-  - developed
   - Church
+  - developed
   - enigma
 ---
 

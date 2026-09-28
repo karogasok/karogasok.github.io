@@ -17,7 +17,6 @@ regi_cimkek_mind:
   - "workflows"
 temak:
   - A szakma
-  - Programozás nyelvészeknek
 kulcsszavak:
   - workflows
   - Run

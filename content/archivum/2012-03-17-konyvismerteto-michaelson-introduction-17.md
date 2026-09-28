@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "funkcionális programozás"
   - "könyvismertető"
 temak:
-  - Korpuszépítés és annotáció
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Michaelson
   - lambda

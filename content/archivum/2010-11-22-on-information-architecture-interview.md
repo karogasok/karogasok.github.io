@@ -14,7 +14,7 @@ regi_cimkek_mind:
   - "guest post"
   - "infromation architecture"
 temak:
-  - A szakma
+  - Startup és termékfejlesztés
 kulcsszavak:
   - IA
   - mentorship

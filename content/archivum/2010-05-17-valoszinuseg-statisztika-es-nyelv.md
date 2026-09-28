@@ -21,13 +21,13 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "valószínűségszámítás"
 temak:
-  - Statisztika és R
+  - Statisztika és valószínűség
 kulcsszavak:
   - Baayen
   - Analyzing
   - vázlat
-  - Quantitative
   - nyelvezet
+  - Quantitative
 ---
 
 **Ha már túl vagy a statisztika alapjain, vagy élénken él benned a középiskolai matek, esetleg igazi matek zseni vagy, akkor itt az ideje egy kicsit a nyelv statisztikai tulajdonságaival is foglalkoznod. Ha nem, talán egy [régebbi posztom](http://szamitogepesnyelveszet.blogspot.com/2010/04/statisztikai-tulelokeszlet.html) segít neked felturbózni tudásodat.**  

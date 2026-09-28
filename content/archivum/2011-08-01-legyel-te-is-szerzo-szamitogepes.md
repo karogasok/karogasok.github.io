@@ -12,8 +12,6 @@ regi_cimkek:
   - "blog"
 regi_cimkek_mind:
   - "blog"
-temak:
-  - A blog életéről
 kulcsszavak:
   - bemutatkozik
   - munkatapasztalat

@@ -14,8 +14,7 @@ regi_cimkek_mind:
   - "technológia"
   - "újságírás"
 temak:
-  - Lapszemle
-  - A blog életéről
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Snowfall
   - busz

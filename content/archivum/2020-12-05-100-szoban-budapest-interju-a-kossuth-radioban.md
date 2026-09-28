@@ -19,8 +19,7 @@ regi_cimkek_mind:
   - "tartalomelemzés"
   - "topikmodellek"
 temak:
-  - Adatújságírás és nyílt adat
-  - Nyílt szoftver és tervezés
+  - Nyelvmodellek
 kulcsszavak:
   - Budapest
 ---

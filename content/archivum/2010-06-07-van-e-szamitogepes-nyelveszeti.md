@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "számítógépes nyelvészet"
 temak:
-  - Paradigmák és nyelvelméletek
+  - Nyelvelmélet
 kulcsszavak:
   - indokrináció
   - folyóirat

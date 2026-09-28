@@ -8,8 +8,6 @@ archiv: true
 forras_platform: "blogspot"
 forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/12/mas-valtozas-szele.html"
-temak:
-  - A blog életéről
 kulcsszavak:
   - beharangozó
   - csatlakozik

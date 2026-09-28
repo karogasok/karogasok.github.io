@@ -17,7 +17,7 @@ regi_cimkek_mind:
   - "kezdő"
   - "tanulás"
 temak:
-  - Programozás nyelvészeknek
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - Ruby
   - Poignant

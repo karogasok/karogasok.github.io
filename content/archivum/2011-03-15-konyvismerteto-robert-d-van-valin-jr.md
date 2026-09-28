@@ -18,7 +18,9 @@ regi_cimkek_mind:
   - "nyelvészet"
   - "szintaxis"
 temak:
+  - Statisztika és valószínűség
   - Korpusznyelvészet
+  - Nyelvelmélet
 kulcsszavak:
   - Vali
   - szintaxis

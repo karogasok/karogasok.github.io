@@ -13,8 +13,7 @@ regi_cimkek:
 regi_cimkek_mind:
   - "tartalomelemzés"
 temak:
-  - Lapszemle
-  - A blog életéről
+  - Nyelvmodellek
 kulcsszavak:
   - mese
   - szövegelemzés

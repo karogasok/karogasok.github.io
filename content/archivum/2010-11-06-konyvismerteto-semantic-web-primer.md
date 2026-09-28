@@ -19,8 +19,8 @@ regi_cimkek_mind:
   - "logika"
   - "szemantikus web"
 temak:
-  - Statisztika és R
-  - Korpuszépítés és annotáció
+  - Logika és matematika
+  - Statisztika és valószínűség
 kulcsszavak:
   - XML
   - áttekintés

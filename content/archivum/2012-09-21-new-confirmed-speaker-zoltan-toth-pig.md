@@ -14,9 +14,6 @@ regi_cimkek:
 regi_cimkek_mind:
   - "meetup"
   - "nlp meetup"
-temak:
-  - NLP meetupok
-  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Prezi
   - Senior

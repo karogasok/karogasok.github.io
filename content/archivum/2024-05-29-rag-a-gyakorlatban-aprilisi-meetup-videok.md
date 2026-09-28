@@ -14,7 +14,7 @@ regi_cimkek_mind:
   - "RAG"
   - "nlp"
 temak:
-  - Adatújságírás és nyílt adat
+  - Nyelvmodellek
 kulcsszavak:
   - rag
   - adózói

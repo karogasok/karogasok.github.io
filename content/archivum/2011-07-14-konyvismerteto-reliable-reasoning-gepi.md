@@ -19,6 +19,8 @@ regi_cimkek_mind:
   - "könyvismertető"
   - "python"
 temak:
+  - Statisztika és valószínűség
+  - Tudományfilozófia
   - Logika és matematika
 kulcsszavak:
   - indukció

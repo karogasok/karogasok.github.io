@@ -21,12 +21,14 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "tanulás"
 temak:
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
+  - Logika és matematika
+  - A szakma
 kulcsszavak:
-  - Clocksin
   - Prolog
-  - Mellish
+  - Clocksin
   - évszám
+  - Mellish
   - oldalt
 ---
 

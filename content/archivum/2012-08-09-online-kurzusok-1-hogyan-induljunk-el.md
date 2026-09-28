@@ -16,12 +16,12 @@ regi_cimkek_mind:
   - "edX"
   - "tanulás"
 temak:
-  - Kurzusok és önképzés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - kurzus
   - Coursera
-  - edX
   - Thrun
+  - edX
   - tananyag
 ---
 

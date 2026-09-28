@@ -16,7 +16,7 @@ regi_cimkek_mind:
   - "linguistics"
   - "philosophy"
 temak:
-  - Nyílt szoftver és tervezés
+  - Logika és matematika
 kulcsszavak:
   - Haskell
   - New

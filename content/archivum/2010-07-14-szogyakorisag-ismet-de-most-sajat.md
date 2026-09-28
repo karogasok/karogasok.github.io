@@ -19,13 +19,15 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "szógyakoriság"
 temak:
-  - Nyelvelemző eszközök
+  - Vizualizáció és hálózatelemzés
+  - Nyelvtechnológia
+  - Statisztika és valószínűség
 kulcsszavak:
   - szövegfájl
-  - sorted.freq.list
   - tó
   - textfile
   - sorted.table
+  - sorted.freq.list
 ---
 
 **Az előző technikai jellegű [posztomban](http://bit.ly/9H52qu) a Magyar Webkorpusz alapján vetettünk egy pillantást a szógyakoriságra. Most egy saját szöveges fájlból készítünk szógyakorisági témát.**  

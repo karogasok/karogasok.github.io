@@ -14,14 +14,13 @@ regi_cimkek_mind:
   - "meetup"
 temak:
   - A szakma
-  - Nyelvelemző eszközök
-  - Korpuszépítés és annotáció
+  - Nyelvtechnológia
 kulcsszavak:
   - plágium
   - finnugor
   - polaritásmérés
   - fordítási
-  - adatbevitel
+  - manysi
 ---
 
 **Összeállt a program! Május 10-én 19 órától Hungarian NLP meetup! [Itt kell regisztrálni.](http://www.meetup.com/Hungarian-nlp/)**
