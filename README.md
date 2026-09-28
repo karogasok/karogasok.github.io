@@ -190,6 +190,16 @@ leírása: `/modszer/`.
 
 ### A témalista módosítása
 
+Új témát a `discover.py` javasol: a téma nélkül maradt saját írásaidat és a
+bejegyzéseket csoportosítja, és minden csoporthoz kulcsszavakat, a régi címkéid
+közül a felülreprezentáltakat, a legközelebbi meglévő témákat és három
+magjelöltet ad, mindegyikhez szó szerinti idézettel. Nevet nem ad, és semmit nem
+tesz közzé:
+
+```sh
+cd analysis && uv run python scripts/discover.py   # → out/javaslatok.md
+```
+
 Új téma, átnevezés vagy új mag esetén a befagyasztott kalibráció elavul, és az
 `infer.py` addig nem fut, amíg újra nem készül:
 
