@@ -13,6 +13,8 @@ regi_cimkek:
 regi_cimkek_mind:
   - "biopunk"
   - "könyvismertető"
+temak:
+  - Digitális bölcsészet
 kulcsszavak:
   - biopunk
   - DIY

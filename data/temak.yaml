@@ -348,7 +348,7 @@
   nev: Programozás és szoftverfejlesztés
   slug: programozas-es-szoftverfejlesztes
   leiras: "Programozási nyelvek, a programozás megtanulása, és hogy hogyan készül a szoftver."
-  darab: 60
+  darab: 59
   kulsok:
     - cim: Getting Started with Jupyter Notebook
       ev: 2020
@@ -418,10 +418,6 @@
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/07/22/graph_databases_ingyenes_ekonyv"
-    - cim: Lombiq - bemutatkozás
-      ev: 2013
-      forras: kereses
-      link: "https://kereses.blog.hu/2013/06/07/lombiq_bemutatkozas"
     - cim: Mobil beviteli eszközök újragondolva
       ev: 2013
       forras: kereses
@@ -450,7 +446,7 @@
   nev: Statisztika és valószínűség
   slug: statisztika-es-valoszinuseg
   leiras: "Statisztikai módszerek és valószínűségi gondolkodás, gyakran R-rel és nyelvi adatokon."
-  darab: 78
+  darab: 77
   kulsok:
     - cim: "Computational Classics: The Wrath and the Journey"
       ev: 2026
@@ -604,10 +600,6 @@
       ev: 2012
       forras: kereses
       link: "https://kereses.blog.hu/2012/05/26/szovegbanyaszat_minden_mennyisegben"
-    - cim: Using Clojure in Linguistic Computing
-      ev: 2012
-      forras: mashol
-      link: "https://www.researchgate.net/publication/220028786_Using_Clojure_in_Linguistic_Computing"
     - cim: "Adatok, filozófia, nyelvészet"
       ev: 2011
       forras: mashol
@@ -620,7 +612,7 @@
   nev: Logika és matematika
   slug: logika-es-matematika
   leiras: "Logika, matematika és a matematika filozófiája, a nagyközönségnek szóló könyvektől a formális rendszerekig."
-  darab: 64
+  darab: 61
   kulsok:
     - cim: "Computational Classics: The Wrath and the Journey"
       ev: 2026
@@ -694,14 +686,6 @@
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/05/03/nyelveszet_mindenkinek_145"
-    - cim: Nyelvészet mindenkinek 3.
-      ev: 2014
-      forras: kereses
-      link: "https://kereses.blog.hu/2014/08/22/nyelveszet_mindenkinek_330"
-    - cim: Tartalomelemzés - a DE Bevezetés a digitális bölcsészetbe kurzusán tartott előadásom diái
-      ev: 2014
-      forras: kereses
-      link: "https://kereses.blog.hu/2014/10/14/tartalomelemzes_a_de_bevezetes_a_digitalis_bolcseszetbe_kurzusan_tartott_eloadasom_diai"
     - cim: Mindennapi metaforák
       ev: 2013
       forras: kereses
@@ -710,15 +694,11 @@
       ev: 2013
       forras: kereses
       link: "https://kereses.blog.hu/2013/10/18/nomen_est_omen_avagy_mit_arul_el_rolunk_a_nevunk"
-    - cim: Bölcs keresők
-      ev: 2011
-      forras: kereses
-      link: "https://kereses.blog.hu/2011/11/08/bolcs_keresok"
 - kulcs: tudomanyfilozofia
   nev: Tudományfilozófia
   slug: tudomanyfilozofia
   leiras: "Mitől tudomány a tudomány: elméletek, módszerek, és hogy mit mondanak az adatok."
-  darab: 90
+  darab: 89
   kulsok:
     - cim: "Könyvajánló: Machines of Loving Grace - The Quest for Common Ground Between Humans and Robots"
       ev: 2018
@@ -1085,7 +1065,7 @@
   nev: A szakma
   slug: a-szakma
   leiras: "A számítógépes nyelvészet mint szakma: interjúk, pályák, és hogy mi is ez a terület."
-  darab: 85
+  darab: 82
   kulsok:
     - cim: "The Nagel Index: Does power change a person?"
       ev: 2026
@@ -1130,10 +1110,6 @@
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/07/17/a_qwerty-hatasrol"
-    - cim: Hálózattudomány és nyelv - magyar könyvek
-      ev: 2015
-      forras: kereses
-      link: "https://kereses.blog.hu/2015/06/01/halozattudomany_es_nyelv_magyar_konyvek"
     - cim: "Kisvilágunk, a nyelv 2. - szemantikai és szóasszociációs hálózatok"
       ev: 2015
       forras: kereses
@@ -1560,7 +1536,7 @@
   nev: Mesterséges intelligencia
   slug: mesterseges-intelligencia
   leiras: "A mesterséges intelligencia mint technológia és közügy, a Watsontól a robotok koráig."
-  darab: 65
+  darab: 64
   kulsok:
     - cim: "Aki nem használja a ChatGPT-t és a mesterséges intelligenciát, az behozhatatlanul lemarad"
       ev: 2023
@@ -2011,7 +1987,7 @@
   nev: Megismerés és idegtudomány
   slug: megismeres-es-idegtudomany
   leiras: "Hogyan gondolkodunk és tanulunk: agy, megismerés, metaforák, és a gépek összevetése velünk."
-  darab: 47
+  darab: 46
   kulsok:
     - cim: The Epistemic Arcade
       ev: 2026
@@ -2105,10 +2081,6 @@
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/01/13/miert_nem_kell_felni_attol_hogy_a_mesterseges_intelligencia_atveszi_felettunk_a_hatalmat"
-    - cim: Múlt idő és kognitív technológia
-      ev: 2015
-      forras: kereses
-      link: "https://kereses.blog.hu/2015/06/17/csak_termeszetesen_443"
     - cim: Nem elég okosnak látszani (?)
       ev: 2015
       forras: kereses
@@ -2277,3 +2249,93 @@
       ev: 2012
       forras: kereses
       link: "https://kereses.blog.hu/2012/01/22/search_google"
+- kulcs: digitalis-bolcseszet
+  nev: Digitális bölcsészet
+  slug: digitalis-bolcseszet
+  leiras: "A bölcsészet és a számítástechnika találkozása: szövegek, archívumok és kulturális adatok elemzése digitális eszközökkel."
+  darab: 33
+  kulsok:
+    - cim: Examination of online education experiences from stakeholder perspective – a Hungarian case study
+      ev: 2022
+      forras: mashol
+      link: "https://www.researchgate.net/publication/361286170_Examination_of_online_education_experiences_from_stakeholder_perspective_-_a_Hungarian_case_study"
+    - cim: "Az álhírek és az áltudomány elleni harc nem technológiai kérdés, ez a demokráciáról szól"
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/10/az_alhirek_es_altudomany_elleni_harc_nem_technologiai_kerdes_ez_a_demokraciarol_szol"
+    - cim: Babák a hangok világában
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/04/26/babak_a_hangok_vilagaban"
+    - cim: Látens jelentések és a szemantikai tér workshop
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/05/31/latens_jelentesek_es_a_szemantikai_ter_workshop"
+    - cim: Magyar Twitter Szentiment Korpusz
+      ev: 2017
+      forras: kereses
+      link: "https://kereses.blog.hu/2017/06/22/magyar_twitter_szentiment_korpusz"
+    - cim: DIGIWHIST a korrupció ellen
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/04/13/digiwhist_korrupcio_ellen"
+    - cim: Hálózattudomány és nyelv - magyar könyvek
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/01/halozattudomany_es_nyelv_magyar_konyvek"
+    - cim: Múlt idő és kognitív technológia
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/06/17/csak_termeszetesen_443"
+    - cim: Okt. 21-én Open Knowledge Meetup és Műhelykonferencia az E-kereskedelmről
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/10/13/okt_21_open_knowledge_meetup_es_muhelykonferencia_az_e-kereskedelmrol"
+    - cim: "Váltsunk együtt paradigmát a nyílt tudománnyal!"
+      ev: 2015
+      forras: kereses
+      link: "https://kereses.blog.hu/2015/01/27/valtsunk_egyutt_paradigmat_a_nyilt_tudomannyal"
+    - cim: "A legjobb tudományos blogokat Debrecenben írják!"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/02/03/a_legjobb_tudomanyos_blogokat_debrecenben_irjak"
+    - cim: Nyelvészet mindenkinek 3.
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/08/22/nyelveszet_mindenkinek_330"
+    - cim: "Október 16: e-Kormányzat Műhelykonferencia és Budapest Open Knowledge Meetup"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/19/oktober_16_e-kormanyzat_muhelykonferencia_es_budapest_open_knowledge_meetup"
+    - cim: "Szeptember 15: Budapest Open Knowledge Meetup"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/09/08/szeptember_15_budapest_open_knowledge_meetup"
+    - cim: Tartalomelemzés - a DE Bevezetés a digitális bölcsészetbe kurzusán tartott előadásom diái
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/10/14/tartalomelemzes_a_de_bevezetes_a_digitalis_bolcseszetbe_kurzusan_tartott_eloadasom_diai"
+    - cim: "Trading Consequences: gazdaságtörténet és nyelvtechnológia"
+      ev: 2014
+      forras: kereses
+      link: "https://kereses.blog.hu/2014/04/01/trading_consequences_gazdasagtortenet_es_nyelvtechnologia"
+    - cim: Lombiq - bemutatkozás
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/06/07/lombiq_bemutatkozas"
+    - cim: Serendip-o-matic - csodálkozz a bibliográfiádra
+      ev: 2013
+      forras: kereses
+      link: "https://kereses.blog.hu/2013/08/09/serendip-o-matic_csodalkozz_a_bibliografiadra"
+    - cim: Pénzkeresők
+      ev: 2012
+      forras: kereses
+      link: "https://kereses.blog.hu/2012/06/05/penzkeresok"
+    - cim: Using Clojure in Linguistic Computing
+      ev: 2012
+      forras: mashol
+      link: "https://www.researchgate.net/publication/220028786_Using_Clojure_in_Linguistic_Computing"
+    - cim: Bölcs keresők
+      ev: 2011
+      forras: kereses
+      link: "https://kereses.blog.hu/2011/11/08/bolcs_keresok"

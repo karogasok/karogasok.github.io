@@ -15,6 +15,7 @@ regi_cimkek_mind:
   - "digital humanities"
   - "guest post"
 temak:
+  - Digitális bölcsészet
   - A szakma
 kulcsszavak:
   - humanities

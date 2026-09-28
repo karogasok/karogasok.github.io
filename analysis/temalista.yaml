@@ -189,6 +189,16 @@ temak:
       - content/archivum/2022-12-14-nyelvmodellek-kurzusunk-anyagai.md
     eredet: {uj: 2026-09}
 
+  - kulcs: digitalis-bolcseszet
+    nev: "Digitális bölcsészet"
+    leiras: "A bölcsészet és a számítástechnika találkozása: szövegek, archívumok és kulturális adatok elemzése digitális eszközökkel."
+    allapot: aktiv
+    magok:
+      - content/archivum/2010-11-30-mire-jo-digitalis-bolcseszet.md
+      - content/archivum/2011-08-02-digitalis-bolcseszet-uj-blog-indult.md
+      - content/archivum/2012-12-10-konyvismerteto-digitalhumanities.md
+    eredet: {discover: 2026-09-28}
+
   # Retired: genres rather than subjects. Their URLs lead to the matching old-label hub.
   - kulcs: lapszemle
     nev: "Lapszemle"

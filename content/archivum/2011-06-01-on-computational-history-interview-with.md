@@ -16,6 +16,7 @@ regi_cimkek_mind:
   - "history"
   - "interview"
 temak:
+  - Digitális bölcsészet
   - A szakma
   - Adatújságírás és nyílt adat
 kulcsszavak:

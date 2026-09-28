@@ -15,6 +15,8 @@ regi_cimkek_mind:
   - "Digital_Humanities"
   - "digitális bölcsészet"
   - "könyvismertető"
+temak:
+  - Digitális bölcsészet
 kulcsszavak:
   - contemporary
   - emerging

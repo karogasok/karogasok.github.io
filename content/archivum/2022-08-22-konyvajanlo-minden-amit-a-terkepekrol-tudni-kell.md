@@ -8,6 +8,8 @@ archiv: true
 forras_platform: "wordpress"
 forras_cim: "Crow Intelligence blog"
 canonical: "https://blog.crowintelligence.org/hu/2022/08/22/konyvajanlo-minden-amit-a-terkepekrol-tudni-kell/"
+temak:
+  - Digitális bölcsészet
 kulcsszavak:
   - kartográfia
   - térbeli

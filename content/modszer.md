@@ -8,7 +8,7 @@ a harmadik kézi. Ez az oldal leírja, hogyan készülnek, és mire nem jók.
 
 ## Témák
 
-A témalista tizennégy tételből áll, és én gondozom. Egy témamodellből indult, amelyet a
+A témalista tizenöt tételből áll, és én gondozom. Egy témamodellből indult, amelyet a
 saját írásaimon futtattam; a javaslataiból átnevezéssel, összevonással és néhány új téma
 felvételével lett a mostani lista. A műfajokat — lapszemle, meetup-meghívók, a blog
 életéről szóló bejegyzések — kivettem, mert azok nem témák.
@@ -27,7 +27,9 @@ A küszöböket a régi, kézzel adott címkéim alapján hangoltam be, aztán r
 le, amelyeket a hangolás nem látott: a Kereső Világ 182 bejegyzésén, a blog.hu-n kapott
 címkéikkel összevetve. Az egyezés (BCubed F) 0,26-ról 0,35-re javult; a javulás 95%-os
 konfidenciaintervalluma +0,03 és +0,12 közé esik. Ez messze nem tökéletes — a régi címkék
-sem következetesek —, de mérhetően jobb a korábbinál.
+sem következetesek —, de mérhetően jobb a korábbinál. A Digitális bölcsészet témát
+e mérés után vettem fel; a küszöbökhöz nem nyúltam, és a hangolási adatokon az
+egyezés nem változott tőle.
 
 ## Kulcsszavak
 

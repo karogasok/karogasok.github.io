@@ -14,6 +14,8 @@ regi_cimkek:
 regi_cimkek_mind:
   - "digital humanities"
   - "digitális bölcsészet"
+temak:
+  - Digitális bölcsészet
 kulcsszavak:
   - ugyancsak
   - transzdiszciplína

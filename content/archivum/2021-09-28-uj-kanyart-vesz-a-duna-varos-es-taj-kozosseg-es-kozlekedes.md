@@ -15,6 +15,7 @@ regi_cimkek_mind:
   - "open source"
 temak:
   - Adatújságírás és nyílt adat
+  - Digitális bölcsészet
 kulcsszavak:
   - GIS
   - nyílt

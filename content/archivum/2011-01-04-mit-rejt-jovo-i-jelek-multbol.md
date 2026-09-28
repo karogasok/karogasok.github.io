@@ -11,6 +11,7 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/mit-rejt-jovo-i-
 temak:
   - Adatújságírás és nyílt adat
   - Mesterséges intelligencia
+  - Digitális bölcsészet
 kulcsszavak:
   - szemiotikus
   - ígéret

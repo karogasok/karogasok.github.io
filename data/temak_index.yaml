@@ -130,9 +130,9 @@
     - siri
 "https://kereses.blog.hu/2011/11/08/bolcs_keresok":
   t:
+    - Digitális bölcsészet
     - Tudományfilozófia
     - Nyelvelmélet
-    - Logika és matematika
   k:
     - dolog
 "https://kereses.blog.hu/2011/11/23/mobil_keresovilag":
@@ -241,6 +241,7 @@
 "https://kereses.blog.hu/2012/06/05/penzkeresok":
   t:
     - Startup és termékfejlesztés
+    - Digitális bölcsészet
 "https://kereses.blog.hu/2012/06/12/kereses_big_data":
   t:
     - Adatújságírás és nyílt adat
@@ -641,7 +642,7 @@
   t:
     - Startup és termékfejlesztés
     - Adatújságírás és nyílt adat
-    - Programozás és szoftverfejlesztés
+    - Digitális bölcsészet
   k:
     - Lombiq
 "https://kereses.blog.hu/2013/06/10/a_twitter_belep_a_tartalomiparba":
@@ -815,6 +816,7 @@
     - tag
 "https://kereses.blog.hu/2013/08/09/serendip-o-matic_csodalkozz_a_bibliografiadra":
   t:
+    - Digitális bölcsészet
     - Statisztika és valószínűség
   k:
     - eszköz
@@ -1145,6 +1147,8 @@
     - radikális
     - kapcsolat
 "https://kereses.blog.hu/2014/02/03/a_legjobb_tudomanyos_blogokat_debrecenben_irjak":
+  t:
+    - Digitális bölcsészet
   k:
     - tudományos
 "https://kereses.blog.hu/2014/02/05/senior_java_fejlesztot_keresunk_kaposvari_irodankba":
@@ -1265,6 +1269,7 @@
 "https://kereses.blog.hu/2014/04/01/trading_consequences_gazdasagtortenet_es_nyelvtechnologia":
   t:
     - Adatújságírás és nyílt adat
+    - Digitális bölcsészet
   k:
     - Consequences
     - Trading
@@ -1483,8 +1488,8 @@
 "https://kereses.blog.hu/2014/08/22/nyelveszet_mindenkinek_330":
   t:
     - Korpusznyelvészet
+    - Digitális bölcsészet
     - Statisztika és valószínűség
-    - Logika és matematika
   k:
     - ember
 "https://kereses.blog.hu/2014/08/25/kvantumfizika_es_nyelveszet":
@@ -1518,6 +1523,7 @@
 "https://kereses.blog.hu/2014/09/08/szeptember_15_budapest_open_knowledge_meetup":
   t:
     - Adatújságírás és nyílt adat
+    - Digitális bölcsészet
     - Startup és termékfejlesztés
   k:
     - szeptember
@@ -1554,6 +1560,7 @@
     - írott
 "https://kereses.blog.hu/2014/09/19/oktober_16_e-kormanyzat_muhelykonferencia_es_budapest_open_knowledge_meetup":
   t:
+    - Digitális bölcsészet
     - Mesterséges intelligencia
   k:
     - e-kormányzat
@@ -1597,7 +1604,7 @@
     - Yossarian
 "https://kereses.blog.hu/2014/10/14/tartalomelemzes_a_de_bevezetes_a_digitalis_bolcseszetbe_kurzusan_tartott_eloadasom_diai":
   t:
-    - Logika és matematika
+    - Digitális bölcsészet
   k:
     - dia
     - bevezetés
@@ -1693,6 +1700,7 @@
     - program
 "https://kereses.blog.hu/2015/01/27/valtsunk_egyutt_paradigmat_a_nyilt_tudomannyal":
   t:
+    - Digitális bölcsészet
     - Tudományfilozófia
     - Nyelvelmélet
 "https://kereses.blog.hu/2015/02/02/a_nyolcvanas_es_kilencvenes_evek_slagerei_meg_a_deep_learning":
@@ -1783,6 +1791,8 @@
     - híroldal
     - politikai
 "https://kereses.blog.hu/2015/04/13/digiwhist_korrupcio_ellen":
+  t:
+    - Digitális bölcsészet
   k:
     - DIGIWHIST
     - program
@@ -1894,7 +1904,7 @@
   t:
     - Statisztika és valószínűség
     - Logika és matematika
-    - A szakma
+    - Digitális bölcsészet
   k:
     - magyar
     - nyelv
@@ -1913,8 +1923,8 @@
 "https://kereses.blog.hu/2015/06/17/csak_termeszetesen_443":
   t:
     - Nyelvelmélet
+    - Digitális bölcsészet
     - Tudományfilozófia
-    - Megismerés és idegtudomány
   k:
     - múlt
     - kognitív
@@ -2003,6 +2013,7 @@
   t:
     - Mesterséges intelligencia
     - Startup és termékfejlesztés
+    - Digitális bölcsészet
   k:
     - műhelykonferencia
 "https://kereses.blog.hu/2015/10/14/nov_17-en_context_2015_magyar_szoveganalitikai_konferencia":
@@ -2136,6 +2147,7 @@
 "https://kereses.blog.hu/2017/04/10/az_alhirek_es_altudomany_elleni_harc_nem_technologiai_kerdes_ez_a_demokraciarol_szol":
   t:
     - Tudományfilozófia
+    - Digitális bölcsészet
     - Megismerés és idegtudomány
   k:
     - áltudomány
@@ -2174,6 +2186,7 @@
 "https://kereses.blog.hu/2017/04/26/babak_a_hangok_vilagaban":
   t:
     - Korpusznyelvészet
+    - Digitális bölcsészet
   k:
     - szerző
     - világ
@@ -2218,6 +2231,7 @@
     - lda2vec
 "https://kereses.blog.hu/2017/05/31/latens_jelentesek_es_a_szemantikai_ter_workshop":
   t:
+    - Digitális bölcsészet
     - Nyelvmodellek
   k:
     - látens
@@ -2247,6 +2261,7 @@
     - topik
 "https://kereses.blog.hu/2017/06/22/magyar_twitter_szentiment_korpusz":
   t:
+    - Digitális bölcsészet
     - Korpusznyelvészet
     - Nyelvmodellek
   k:
@@ -2500,11 +2515,13 @@
   t:
     - A szakma
     - Programozás és szoftverfejlesztés
-    - Statisztika és valószínűség
+    - Digitális bölcsészet
   k:
     - Computing
     - Clojure
 "https://www.researchgate.net/publication/361286170_Examination_of_online_education_experiences_from_stakeholder_perspective_-_a_Hungarian_case_study":
+  t:
+    - Digitális bölcsészet
   k:
     - online
 "https://www.slideshare.net/slideshow/budapest-users-of-r-network-2013-november-27/28688245":

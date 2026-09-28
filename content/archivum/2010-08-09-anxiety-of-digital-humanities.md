@@ -16,6 +16,8 @@ regi_cimkek_mind:
   - "digitális bölcsészet"
   - "lexikológia"
   - "vendégposzt"
+temak:
+  - Digitális bölcsészet
 kulcsszavak:
   - dictionary
   - anxiety
