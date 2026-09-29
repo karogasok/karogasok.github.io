@@ -16,6 +16,8 @@ regi_cimkek_mind:
   - "network science"
   - "python"
   - "állás"
+temak:
+  - A szakma
 kulcsszavak:
   - szerzett
   - egyetem

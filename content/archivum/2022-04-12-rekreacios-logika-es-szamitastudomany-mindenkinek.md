@@ -12,6 +12,7 @@ regi_cimkek_mind:
   - "Gödel tétel"
 temak:
   - Logika és matematika
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - nemteljességi
   - Gödel

@@ -17,6 +17,7 @@ regi_cimkek_mind:
   - "regular expressions"
 temak:
   - Statisztika és valószínűség
+  - Logika és matematika
 kulcsszavak:
   - shor
   - regular

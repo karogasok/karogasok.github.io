@@ -18,6 +18,7 @@ regi_cimkek_mind:
   - "továbbtanulás"
 temak:
   - Digitális bölcsészet
+  - A szakma
 kulcsszavak:
   - PPKE
   - BTK

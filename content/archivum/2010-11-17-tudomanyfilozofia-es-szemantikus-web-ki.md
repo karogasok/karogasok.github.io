@@ -17,8 +17,9 @@ regi_cimkek_mind:
   - "szemantikus web"
   - "tudományfilozófia"
 temak:
-  - Nyelvelmélet
   - Tudományfilozófia
+  - Nyelvelmélet
+  - Adatújságírás és nyílt adat
 kulcsszavak:
   - rekonstrukció
   - ontológia

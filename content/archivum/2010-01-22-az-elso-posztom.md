@@ -12,6 +12,7 @@ regi_cimkek_mind:
   - "az első"
 temak:
   - Programozás és szoftverfejlesztés
+  - A szakma
 kulcsszavak:
   - világ
 ---

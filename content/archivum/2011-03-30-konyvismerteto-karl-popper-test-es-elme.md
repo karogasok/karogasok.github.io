@@ -20,8 +20,8 @@ regi_cimkek_mind:
   - "nyelvfilozófia"
 temak:
   - Tudományfilozófia
-  - Megismerés és idegtudomány
   - Logika és matematika
+  - Megismerés és idegtudomány
 kulcsszavak:
   - objektív
   - test-elme

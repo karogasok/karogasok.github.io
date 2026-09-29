@@ -23,7 +23,7 @@ kulcsszavak:
   - Rosling
   - előkerül
   - film
-  - Sentiment
+  - sentiment
   - szakma
 ---
 

@@ -18,6 +18,7 @@ regi_cimkek_mind:
   - "evidence-based policy making"
 temak:
   - Adatújságírás és nyílt adat
+  - Digitális bölcsészet
 kulcsszavak:
   - evidence-based
   - irányzat

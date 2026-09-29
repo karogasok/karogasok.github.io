@@ -18,6 +18,7 @@ regi_cimkek_mind:
   - "tudományfilozófia"
 temak:
   - Tudományfilozófia
+  - Digitális bölcsészet
   - A szakma
 kulcsszavak:
   - rebranding

@@ -18,8 +18,8 @@ regi_cimkek_mind:
   - "személyes"
   - "tudományfilozófia"
 temak:
-  - A szakma
   - Nyelvelmélet
+  - A szakma
   - Tudományfilozófia
 kulcsszavak:
   - törésvonal

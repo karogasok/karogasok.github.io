@@ -19,6 +19,7 @@ regi_cimkek_mind:
 temak:
   - Logika és matematika
   - Statisztika és valószínűség
+  - Digitális bölcsészet
 kulcsszavak:
   - Logicomix
 ---

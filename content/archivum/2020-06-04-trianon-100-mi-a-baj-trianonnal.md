@@ -20,8 +20,8 @@ regi_cimkek_mind:
   - "nyelvészet"
 temak:
   - Nyelvelmélet
-  - Logika és matematika
   - Tudományfilozófia
+  - Megismerés és idegtudomány
 kulcsszavak:
   - történelmi
 ---

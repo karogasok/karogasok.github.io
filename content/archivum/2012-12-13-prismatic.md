@@ -16,8 +16,6 @@ regi_cimkek_mind:
   - "nlp"
   - "termékfejlesztés"
   - "topik modell"
-temak:
-  - Nyelvtechnológia
 kulcsszavak:
   - Prismatic
   - filter

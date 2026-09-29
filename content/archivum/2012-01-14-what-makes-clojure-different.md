@@ -17,7 +17,6 @@ regi_cimkek_mind:
   - "PAIP"
 temak:
   - Programozás és szoftverfejlesztés
-  - Nyelvtechnológia
 kulcsszavak:
   - Names
   - Gist

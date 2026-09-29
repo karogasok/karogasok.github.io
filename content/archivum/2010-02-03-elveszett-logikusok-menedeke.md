@@ -11,6 +11,7 @@ canonical: "https://szamitogepesnyelveszet.blogspot.com/2010/02/elveszett-logiku
 regi_cimkek_mind:
   - "semantic web"
 temak:
+  - A szakma
   - Statisztika és valószínűség
 kulcsszavak:
   - sql

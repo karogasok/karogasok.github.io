@@ -15,6 +15,8 @@ regi_cimkek_mind:
   - "NLP matiné"
   - "meetup"
   - "nlp meetup"
+temak:
+  - A szakma
 kulcsszavak:
   - nyelvtechnológiai
   - cég

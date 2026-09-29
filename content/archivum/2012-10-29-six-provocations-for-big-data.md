@@ -15,6 +15,7 @@ regi_cimkek_mind:
 temak:
   - Adatújságírás és nyílt adat
   - Tudományfilozófia
+  - Digitális bölcsészet
 kulcsszavak:
   - forradalmi
   - adathalmaz

@@ -30,7 +30,6 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - A szakma
-  - Statisztika és valószínűség
 kulcsszavak:
   - elengedhetetlen
   - diszkrét

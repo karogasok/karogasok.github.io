@@ -17,7 +17,6 @@ regi_cimkek_mind:
   - "metafora"
 temak:
   - Megismerés és idegtudomány
-  - Logika és matematika
 ---
 
 ![](/archivum/img/e64b238f8e18d1f9.jpg)

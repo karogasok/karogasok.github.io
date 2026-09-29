@@ -25,7 +25,6 @@ regi_cimkek_mind:
 temak:
   - A szakma
   - Korpusznyelvészet
-  - Nyelvtechnológia
 kulcsszavak:
   - Birmingham
   - mainly

@@ -17,6 +17,7 @@ regi_cimkek_mind:
   - "vizualizáció"
 temak:
   - Vizualizáció és hálózatelemzés
+  - Nyelvtechnológia
 kulcsszavak:
   - pytagcloud
   - clouds

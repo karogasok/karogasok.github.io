@@ -37,6 +37,37 @@ MIN_SEEDS = 3
 _NAME = re.compile(r"^[^\W_](?:[\w -]*[^\W_])?$")
 
 
+#: How a guest author is credited at the top of a page on this blog:
+#: "X vendégposztja", "A guest post by X", "*X írása*".
+_GUEST_BYLINE = re.compile(
+    r"vendégposztja\b"
+    r"|\bguest post by\b"
+    r"|^\W*vendégposzt\W"
+    r"|^\W*[A-ZÁÉÍÓÖŐÚÜŰ][\w.-]+(?: [A-ZÁÉÍÓÖŐÚÜŰ][\w.-]+)+ írása\b",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+
+def has_guest_byline(text: str, *, head: int = 300) -> bool:
+    """Whether a page opens with a guest author's byline.
+
+    A seed defines a theme as the author's own subject, so a guest post must
+    never be one. Only the opening is read: the author's own posts sometimes
+    *mention* guest posts further down (a call for authors, an anniversary).
+
+    Example:
+        >>> has_guest_byline("*Tolnai Tímea vendégposztja* A könyv...")
+        True
+        >>> has_guest_byline("**A guest post by Hannah Little** Introduction")
+        True
+        >>> has_guest_byline("*Fehér Krisztina írása* Kuhn nagy vitát...")
+        True
+        >>> has_guest_byline("A Kereső Világ blogon vendégposztoltam a fenti címen")
+        False
+    """
+    return bool(_GUEST_BYLINE.search(text[:head]))
+
+
 @dataclass(frozen=True)
 class Theme:
     """One entry of the theme list.

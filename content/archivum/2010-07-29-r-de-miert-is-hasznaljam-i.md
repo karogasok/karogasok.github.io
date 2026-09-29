@@ -18,8 +18,8 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - Programozás és szoftverfejlesztés
-  - Statisztika és valószínűség
   - A szakma
+  - Statisztika és valószínűség
 kulcsszavak:
   - követelmény
   - teljesítmény

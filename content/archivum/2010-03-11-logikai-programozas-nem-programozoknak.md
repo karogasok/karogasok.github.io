@@ -22,8 +22,8 @@ regi_cimkek_mind:
   - "tanulás"
 temak:
   - Programozás és szoftverfejlesztés
-  - Logika és matematika
   - A szakma
+  - Logika és matematika
 kulcsszavak:
   - Prolog
   - Clocksin

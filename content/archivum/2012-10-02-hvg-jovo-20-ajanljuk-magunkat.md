@@ -13,8 +13,6 @@ regi_cimkek:
 regi_cimkek_mind:
   - "HVG Jövő 2.0"
   - "keresés"
-temak:
-  - Logika és matematika
 kulcsszavak:
   - HVG
   - kép

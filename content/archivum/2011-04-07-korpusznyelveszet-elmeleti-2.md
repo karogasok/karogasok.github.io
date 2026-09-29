@@ -10,6 +10,7 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/04/korpusznyelveszet-elmeleti.html"
 temak:
   - Korpusznyelvészet
+  - Nyelvelmélet
 kulcsszavak:
   - esik
   - alacsony

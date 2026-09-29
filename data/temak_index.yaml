@@ -35,8 +35,8 @@
 "https://blog.crowintelligence.org/hu/2020/12/14/mit-tudnak-a-nyelvmodellek-interju-a-kossuth-radioban/":
   t:
     - Nyelvmodellek
-    - A szakma
     - Nyelvelmélet
+    - A szakma
   k:
     - nyelvmodell
 "https://blog.crowintelligence.org/hu/2020/12/30/mesterseges-intelligencia-es-az-uj-ev-interju-a-radio-bezsben/":
@@ -66,15 +66,14 @@
 "https://crowintelligence.org/aporia/magyar-dalszovegek-essze/":
   t:
     - Vizualizáció és hálózatelemzés
-    - Nyelvtechnológia
     - Korpusznyelvészet
   k:
     - elemez
 "https://crowintelligence.org/aporia/nagel-essay/":
   t:
     - A szakma
-    - Nyelvelmélet
     - Korpusznyelvészet
+    - Nyelvelmélet
 "https://crowintelligence.org/aporia/wittgenstein/":
   t:
     - Logika és matematika
@@ -94,6 +93,8 @@
   k:
     - felszólalás
 "https://kereses.blog.hu/2011/09/13/baidu_zz_egy_kicsit_es_maris_megtudod_a_google_vero_kinai_kereso_bemutatkozik":
+  t:
+    - Nyelvtechnológia
   k:
     - máris
     - baidu-z
@@ -107,25 +108,24 @@
     - keresés
 "https://kereses.blog.hu/2011/10/04/keressuk_a_jovot":
 "https://kereses.blog.hu/2011/10/11/felkapott_temak_keresese":
+  t:
+    - Nyelvtechnológia
   k:
     - használ
 "https://kereses.blog.hu/2011/10/16/mindenre_van_app_de_hol":
   t:
     - Programozás és szoftverfejlesztés
     - Startup és termékfejlesztés
-    - Nyelvtechnológia
 "https://kereses.blog.hu/2011/10/25/a_szavak_titkos_elete_747":
   t:
     - Vizualizáció és hálózatelemzés
-    - A szakma
+    - Nyelvtechnológia
   k:
     - nyilvános
     - szótár
     - élet
     - szó
 "https://kereses.blog.hu/2011/11/02/kerdezz_felelek_957":
-  t:
-    - Nyelvtechnológia
   k:
     - siri
 "https://kereses.blog.hu/2011/11/08/bolcs_keresok":
@@ -171,6 +171,7 @@
 "https://kereses.blog.hu/2012/01/22/search_google":
   t:
     - Nyelvmodellek
+    - Nyelvtechnológia
   k:
     - Google
 "https://kereses.blog.hu/2012/01/31/hirek_maskepp":
@@ -204,6 +205,7 @@
 "https://kereses.blog.hu/2012/04/17/discovertext_a_szovegfelfedezo":
   t:
     - Vizualizáció és hálózatelemzés
+    - Nyelvtechnológia
     - Adatújságírás és nyílt adat
   k:
     - DiscoverText
@@ -232,19 +234,19 @@
 "https://kereses.blog.hu/2012/05/26/szovegbanyaszat_minden_mennyisegben":
   t:
     - Statisztika és valószínűség
+    - A szakma
   k:
     - szövegbányászat
     - R
 "https://kereses.blog.hu/2012/05/29/gavagai_a_nyulon_tul":
-  t:
-    - Startup és termékfejlesztés
 "https://kereses.blog.hu/2012/06/05/penzkeresok":
   t:
+    - Nyelvtechnológia
     - Startup és termékfejlesztés
-    - Digitális bölcsészet
 "https://kereses.blog.hu/2012/06/12/kereses_big_data":
   t:
     - Adatújságírás és nyílt adat
+    - Nyelvtechnológia
   k:
     - keresés
     - adat
@@ -259,18 +261,19 @@
 "https://kereses.blog.hu/2012/07/10/google_now_a_gondolatolvaso":
   t:
     - Megismerés és idegtudomány
-    - Tudományfilozófia
     - Nyelvtechnológia
+    - Tudományfilozófia
 "https://kereses.blog.hu/2012/07/17/mennyire_erett_a_nyelvtechnologia_ma":
   t:
-    - Nyelvelmélet
     - A szakma
+    - Nyelvelmélet
     - Tudományfilozófia
   k:
     - nyelvtechnológia
 "https://kereses.blog.hu/2012/07/24/a_big_data_nagy_de_mirol_szol":
   t:
     - Adatújságírás és nyílt adat
+    - Nyelvtechnológia
   k:
     - tárol
     - adat
@@ -300,23 +303,23 @@
     - köz
     - keresés
 "https://kereses.blog.hu/2012/08/14/newsle_kozszajon_forog":
+  t:
+    - Nyelvtechnológia
   k:
     - newsl
 "https://kereses.blog.hu/2012/08/21/prediktiv_analitika_mint_szolgaltatas":
   t:
     - A szakma
     - Adatújságírás és nyílt adat
-    - Nyelvtechnológia
   k:
     - szolgáltatás
 "https://kereses.blog.hu/2012/08/28/nuance_beszedtechnologia_mint_szolgaltatas":
   t:
     - A szakma
-    - Nyelvtechnológia
 "https://kereses.blog.hu/2012/09/04/bluefin_labs_az_uj_nielsen":
   t:
-    - Tudományfilozófia
     - Startup és termékfejlesztés
+    - Tudományfilozófia
   k:
     - marketing
     - pénz
@@ -334,6 +337,8 @@
     - előadó
 "https://kereses.blog.hu/2012/09/21/meetup_update":
 "https://kereses.blog.hu/2012/09/25/luminoso_a_jozan_esz_fenyenel":
+  t:
+    - Digitális bölcsészet
   k:
     - Luminoso
     - Sense
@@ -351,8 +356,8 @@
 "https://kereses.blog.hu/2012/10/09/palantir_az_uj_generacios_elemzo_intezet":
   t:
     - Startup és termékfejlesztés
-    - Tudományfilozófia
     - Nyelvelmélet
+    - Tudományfilozófia
 "https://kereses.blog.hu/2012/10/15/hvg_jovo_2_0_ajanljuk_magunkat":
   k:
     - HVG
@@ -370,6 +375,8 @@
     - web
     - előadás
 "https://kereses.blog.hu/2012/10/23/nlp_matine_okt_26-an":
+  t:
+    - A szakma
   k:
     - meetup
 "https://kereses.blog.hu/2012/11/20/evadzaro_nlp_meetup_november_21-en":
@@ -398,6 +405,7 @@
 "https://kereses.blog.hu/2013/01/16/facebook_graph_search":
   t:
     - Vizualizáció és hálózatelemzés
+    - Nyelvtechnológia
   k:
     - Graph
     - Search
@@ -412,6 +420,7 @@
 "https://kereses.blog.hu/2013/01/25/piackutatas_es_big_data":
   t:
     - Adatújságírás és nyílt adat
+    - Digitális bölcsészet
     - Statisztika és valószínűség
   k:
     - piackutatás
@@ -430,12 +439,16 @@
     - mobil
     - év
 "https://kereses.blog.hu/2013/02/06/a_twitter_felvasarolta_a_bluefin_labs-t":
+  t:
+    - Startup és termékfejlesztés
   k:
     - Bluefin
     - felvásárol
     - Labs
     - Twitter
 "https://kereses.blog.hu/2013/02/07/blackberry_es_az_erintokepernyos_szovegbevitel":
+  t:
+    - Startup és termékfejlesztés
   k:
     - BlackBerry
     - készülék
@@ -463,8 +476,8 @@
     - február
 "https://kereses.blog.hu/2013/02/22/2013_a_beszedtechnologia_eve":
   t:
-    - A szakma
     - Mesterséges intelligencia
+    - A szakma
   k:
     - Rashid
 "https://kereses.blog.hu/2013/02/26/adatujsagiras_merfoldkovek":
@@ -506,11 +519,10 @@
   t:
     - Statisztika és valószínűség
     - Adatújságírás és nyílt adat
+    - A szakma
   k:
     - adatújságírás
 "https://kereses.blog.hu/2013/04/10/a_precognox_csatlakozott_a_linguapark_klaszterhez":
-  t:
-    - A szakma
   k:
     - LinguaPark
     - klaszter
@@ -526,13 +538,14 @@
 "https://kereses.blog.hu/2013/04/23/parhuzamos_vilagok_az_online_vizsgalodasok_hatarai":
   t:
     - Tudományfilozófia
+    - Logika és matematika
   k:
     - kérdés
 "https://kereses.blog.hu/2013/04/25/milyen_is_az_internet_nyelve":
   t:
     - Korpusznyelvészet
-    - Nyelvtechnológia
     - Nyelvelmélet
+    - A szakma
   k:
     - internetes
     - alkalmas
@@ -545,6 +558,8 @@
     - közösségi
     - Google
 "https://kereses.blog.hu/2013/04/30/linkedin_tobb_tartalom_jobb_kereso":
+  t:
+    - Nyelvtechnológia
   k:
     - LinkedIn
     - kereső
@@ -571,6 +586,7 @@
   t:
     - Adatújságírás és nyílt adat
     - Tudományfilozófia
+    - Digitális bölcsészet
 "https://kereses.blog.hu/2013/05/14/twitter_forradalmak":
   t:
     - Adatújságírás és nyílt adat
@@ -579,6 +595,7 @@
     - Twitter
 "https://kereses.blog.hu/2013/05/21/idibon_big_data_babel":
   t:
+    - Nyelvtechnológia
     - A szakma
   k:
     - nyelvi
@@ -592,7 +609,6 @@
 "https://kereses.blog.hu/2013/05/28/marketing_es_nyelv_technologia":
   t:
     - A szakma
-    - Startup és termékfejlesztés
     - Statisztika és valószínűség
   k:
     - marketing
@@ -613,6 +629,7 @@
     - Twitter
 "https://kereses.blog.hu/2013/05/31/a_tweet_a_lelek_tukre":
   t:
+    - Digitális bölcsészet
     - Startup és termékfejlesztés
 "https://kereses.blog.hu/2013/06/03/juristat_jog_es_big_data":
   t:
@@ -626,8 +643,6 @@
   k:
     - közösségi
 "https://kereses.blog.hu/2013/06/05/a_nuance_van_a_siri_beszedfelismeroje_mogott_ez_mar_hivatalos":
-  t:
-    - A szakma
   k:
     - Nuance
     - beszédfelismerő
@@ -705,11 +720,14 @@
 "https://kereses.blog.hu/2013/07/15/compss_ajanlo":
   t:
     - Adatújságírás és nyílt adat
+    - Digitális bölcsészet
+    - A szakma
   k:
     - Social
 "https://kereses.blog.hu/2013/07/16/megeri_keresomarketingre_kolteni":
   t:
     - Tudományfilozófia
+    - Startup és termékfejlesztés
   k:
     - half
     - fél
@@ -757,6 +775,8 @@
   k:
     - hangulat
 "https://kereses.blog.hu/2013/07/26/csoportviselkedes_feltarasa_szervezeteken_belul":
+  t:
+    - Startup és termékfejlesztés
   k:
     - szervezet
 "https://kereses.blog.hu/2013/07/29/szentimentelemzesre_alapozott_dontesek":
@@ -766,8 +786,10 @@
     - Niederhoffer
     - Kate
     - drive
-    - Sentiment
+    - sentiment
 "https://kereses.blog.hu/2013/07/30/mit_arul_el_rolad_a_twitter_fiokod":
+  t:
+    - Nyelvtechnológia
   k:
     - magvas
     - árul
@@ -775,6 +797,7 @@
 "https://kereses.blog.hu/2013/07/31/lobbicsoportok_es_civil_mozgalmak_halozatainak_alakulasa_a_sopa-pipa_vita_kapcsan":
   t:
     - Adatújságírás és nyílt adat
+    - Startup és termékfejlesztés
   k:
     - lobbicsoport
     - civil
@@ -782,6 +805,7 @@
 "https://kereses.blog.hu/2013/08/01/a_big_data_buktatoi":
   t:
     - Adatújságírás és nyílt adat
+    - Digitális bölcsészet
 "https://kereses.blog.hu/2013/08/02/az_adatujsagiras_utan_itt_a_javascript_ujsagiras":
   t:
     - Adatújságírás és nyílt adat
@@ -807,9 +831,9 @@
     - online
 "https://kereses.blog.hu/2013/08/08/uj_algoritmus_a_halozatok_jobb_megismeresere":
   t:
+    - Nyelvtechnológia
     - Mesterséges intelligencia
     - Megismerés és idegtudomány
-    - Tudományfilozófia
   k:
     - hálózat
     - algoritmus
@@ -835,14 +859,16 @@
 "https://kereses.blog.hu/2013/08/22/egyre_individualistabb_a_nyelv":
   t:
     - Nyelvelmélet
+    - Tudományfilozófia
 "https://kereses.blog.hu/2013/08/28/budapest_bi_forum_2013_november_6":
+  t:
+    - Digitális bölcsészet
   k:
     - Bi
     - Budapest
 "https://kereses.blog.hu/2013/08/29/a_sziriai_polgarhaboru_a_gdelt_adatbazison_keresztul":
   t:
     - Vizualizáció és hálózatelemzés
-    - Nyelvtechnológia
   k:
     - GDELT
     - esemény
@@ -869,14 +895,11 @@
   k:
     - adat
 "https://kereses.blog.hu/2013/09/09/precognox_labs_text_extractor":
-  t:
-    - Nyelvtechnológia
   k:
     - Extractor
     - text
 "https://kereses.blog.hu/2013/09/10/precognox_labs_entity_extractor":
   t:
-    - Nyelvtechnológia
     - A szakma
     - Korpusznyelvészet
   k:
@@ -884,7 +907,6 @@
 "https://kereses.blog.hu/2013/09/11/precognox_labs_news_tagger":
   t:
     - Nyelvtechnológia
-    - A szakma
     - Korpusznyelvészet
 "https://kereses.blog.hu/2013/09/12/precognox_labs_szentimentelemzo":
   t:
@@ -923,6 +945,7 @@
   t:
     - Tudományfilozófia
     - Nyelvelmélet
+    - Logika és matematika
   k:
     - tudományos
     - elmélet
@@ -961,7 +984,7 @@
     - Twitter
 "https://kereses.blog.hu/2013/10/18/nomen_est_omen_avagy_mit_arul_el_rolunk_a_nevunk":
   t:
-    - Logika és matematika
+    - Nyelvelmélet
   k:
     - név
     - fontos
@@ -974,7 +997,6 @@
 "https://kereses.blog.hu/2013/10/24/gepi_forditas_maskepp":
   t:
     - Nyelvmodellek
-    - A szakma
   k:
     - gépi
 "https://kereses.blog.hu/2013/10/29/hirelemzes":
@@ -1014,8 +1036,6 @@
     - meetup
     - R
 "https://kereses.blog.hu/2013/11/15/kozossegi_hirdetes_a_facebookon":
-  t:
-    - Startup és termékfejlesztés
   k:
     - ismerős
     - Facebook
@@ -1027,9 +1047,9 @@
     - kor
 "https://kereses.blog.hu/2013/11/20/adatok_statisztika_uzlet":
   t:
+    - Digitális bölcsészet
     - Tudományfilozófia
     - Adatújságírás és nyílt adat
-    - Statisztika és valószínűség
   k:
     - üzleti
     - adat
@@ -1044,6 +1064,7 @@
     - adat
 "https://kereses.blog.hu/2013/11/22/data_science_kicsit_maskepp":
   t:
+    - Digitális bölcsészet
     - Tudományfilozófia
     - Adatújságírás és nyílt adat
   k:
@@ -1068,6 +1089,8 @@
   k:
     - oldal
 "https://kereses.blog.hu/2013/12/10/milyen_legyen_jovore_a_kereso_vilag":
+  t:
+    - Nyelvtechnológia
   k:
     - kereső
     - világ
@@ -1104,8 +1127,8 @@
 "https://kereses.blog.hu/2014/01/09/a_precognox_nyelvesz_gyakornokokat_keres":
   t:
     - A szakma
-    - Korpusznyelvészet
     - Nyelvelmélet
+    - Korpusznyelvészet
   k:
     - gyakornok
     - hallgató
@@ -1135,7 +1158,7 @@
     - A szakma
   k:
     - Neticle
-    - technologies
+    - Technologies
     - online
     - keres
 "https://kereses.blog.hu/2014/01/28/jarvis_mar_majdnem_itt_van_koztunk":
@@ -1153,8 +1176,8 @@
     - tudományos
 "https://kereses.blog.hu/2014/02/05/senior_java_fejlesztot_keresunk_kaposvari_irodankba":
   t:
-    - Startup és termékfejlesztés
     - Programozás és szoftverfejlesztés
+    - Startup és termékfejlesztés
   k:
     - kaposvári
     - Senior
@@ -1163,8 +1186,8 @@
     - fejlesztő
 "https://kereses.blog.hu/2014/02/06/a_google_mint_adatkereso":
   t:
-    - Adatújságírás és nyílt adat
     - Nyelvtechnológia
+    - Adatújságírás és nyílt adat
     - Nyelvmodellek
   k:
     - Google
@@ -1241,13 +1264,14 @@
   t:
     - Statisztika és valószínűség
     - Korpusznyelvészet
+    - Logika és matematika
   k:
     - Schütz
     - Manning
 "https://kereses.blog.hu/2014/03/21/alan_turing_institute_brit_tudosok_es_a_big_data":
   t:
     - Mesterséges intelligencia
-    - Tudományfilozófia
+    - Digitális bölcsészet
     - Logika és matematika
   k:
     - Alan
@@ -1268,8 +1292,8 @@
     - oldal
 "https://kereses.blog.hu/2014/04/01/trading_consequences_gazdasagtortenet_es_nyelvtechnologia":
   t:
-    - Adatújságírás és nyílt adat
     - Digitális bölcsészet
+    - Adatújságírás és nyílt adat
   k:
     - Consequences
     - Trading
@@ -1294,6 +1318,7 @@
   t:
     - Nyelvelmélet
     - Nyelvtechnológia
+    - A szakma
   k:
     - angol
 "https://kereses.blog.hu/2014/04/17/making_sense_of_data_google_mooc_kurzus":
@@ -1317,18 +1342,18 @@
 "https://kereses.blog.hu/2014/04/23/nyelveszet_mindenkinek":
   t:
     - Nyelvelmélet
-    - Korpusznyelvészet
-    - Tudományfilozófia
+    - A szakma
   k:
     - nyelv
 "https://kereses.blog.hu/2014/04/24/ezek_csak_szavak_amik_rolunk_arulkodnak":
   t:
     - Nyelvelmélet
     - Tudományfilozófia
+    - A szakma
 "https://kereses.blog.hu/2014/04/28/gepi_tanulas_mindenkinek_machine_learning_with_r":
   t:
-    - Programozás és szoftverfejlesztés
     - A szakma
+    - Programozás és szoftverfejlesztés
     - Megismerés és idegtudomány
   k:
     - tanulás
@@ -1387,7 +1412,7 @@
   t:
     - Adatújságírás és nyílt adat
     - Tudományfilozófia
-    - Logika és matematika
+    - Digitális bölcsészet
   k:
     - adattudomány
     - manapság
@@ -1395,6 +1420,7 @@
   t:
     - Programozás és szoftverfejlesztés
     - Statisztika és valószínűség
+    - A szakma
   k:
     - r-projekt.hu
     - oldal
@@ -1442,7 +1468,6 @@
   t:
     - Logika és matematika
     - Statisztika és valószínűség
-    - Tudományfilozófia
   k:
     - nehéz
 "https://kereses.blog.hu/2014/07/19/a_politikai_blogszfera_i":
@@ -1460,6 +1485,7 @@
 "https://kereses.blog.hu/2014/08/03/magyar_politikai_blogszfera_adatok":
   t:
     - Vizualizáció és hálózatelemzés
+    - Nyelvtechnológia
   k:
     - politikai
     - magyar
@@ -1481,15 +1507,19 @@
 "https://kereses.blog.hu/2014/08/12/jobb_szentimentelemzes_deep_learning_hasznalataval":
   t:
     - Megismerés és idegtudomány
+    - A szakma
   k:
     - pontosság
     - learning
 "https://kereses.blog.hu/2014/08/15/twitter_dialektologia":
+  t:
+    - A szakma
+    - Nyelvelmélet
 "https://kereses.blog.hu/2014/08/22/nyelveszet_mindenkinek_330":
   t:
     - Korpusznyelvészet
-    - Digitális bölcsészet
     - Statisztika és valószínűség
+    - A szakma
   k:
     - ember
 "https://kereses.blog.hu/2014/08/25/kvantumfizika_es_nyelveszet":
@@ -1505,9 +1535,12 @@
     - szeptember
     - R
 "https://kereses.blog.hu/2014/09/01/egyenlotlenseg_es_keresesi_trendek":
+  t:
+    - Nyelvtechnológia
 "https://kereses.blog.hu/2014/09/03/plotly_kollaborativ_interaktiv_adatvizualizacio":
   t:
     - Vizualizáció és hálózatelemzés
+    - Nyelvtechnológia
     - Adatújságírás és nyílt adat
   k:
     - Plotly
@@ -1515,7 +1548,6 @@
 "https://kereses.blog.hu/2014/09/05/szeptember_8_elso_kaposvari_szoftverfejleszto_meetup":
   t:
     - Programozás és szoftverfejlesztés
-    - Startup és termékfejlesztés
   k:
     - kaposvári
     - szoftverfejlesztő
@@ -1524,7 +1556,6 @@
   t:
     - Adatújságírás és nyílt adat
     - Digitális bölcsészet
-    - Startup és termékfejlesztés
   k:
     - szeptember
     - meetup
@@ -1535,7 +1566,6 @@
   t:
     - Programozás és szoftverfejlesztés
     - A szakma
-    - Startup és termékfejlesztés
   k:
     - Java
     - fejlesztő
@@ -1560,8 +1590,8 @@
     - írott
 "https://kereses.blog.hu/2014/09/19/oktober_16_e-kormanyzat_muhelykonferencia_es_budapest_open_knowledge_meetup":
   t:
-    - Digitális bölcsészet
     - Mesterséges intelligencia
+    - Digitális bölcsészet
   k:
     - e-kormányzat
     - műhelykonferencia
@@ -1571,8 +1601,8 @@
 "https://kereses.blog.hu/2014/09/22/mooc_ajanlo_corpus_linguistics_method_analysis_interpretation":
   t:
     - Korpusznyelvészet
-    - Statisztika és valószínűség
     - A szakma
+    - Statisztika és valószínűség
   k:
     - Method
     - Interpretation
@@ -1599,7 +1629,6 @@
 "https://kereses.blog.hu/2014/10/10/egy_igazi_metaforamasina_a_yossarian":
   t:
     - Logika és matematika
-    - Nyelvtechnológia
   k:
     - Yossarian
 "https://kereses.blog.hu/2014/10/14/tartalomelemzes_a_de_bevezetes_a_digitalis_bolcseszetbe_kurzusan_tartott_eloadasom_diai":
@@ -1685,6 +1714,7 @@
 "https://kereses.blog.hu/2015/01/05/rafazhatsz_a_big_data_elemzesevel":
   t:
     - Adatújságírás és nyílt adat
+    - Nyelvtechnológia
     - Statisztika és valószínűség
 "https://kereses.blog.hu/2015/01/13/miert_nem_kell_felni_attol_hogy_a_mesterseges_intelligencia_atveszi_felettunk_a_hatalmat":
   t:
@@ -1700,8 +1730,8 @@
     - program
 "https://kereses.blog.hu/2015/01/27/valtsunk_egyutt_paradigmat_a_nyilt_tudomannyal":
   t:
-    - Digitális bölcsészet
     - Tudományfilozófia
+    - Digitális bölcsészet
     - Nyelvelmélet
 "https://kereses.blog.hu/2015/02/02/a_nyolcvanas_es_kilencvenes_evek_slagerei_meg_a_deep_learning":
   t:
@@ -1709,8 +1739,6 @@
   k:
     - learning
 "https://kereses.blog.hu/2015/02/05/morvay_gergo_gyakornokunk_elte_almuni_osztondijas":
-  t:
-    - Logika és matematika
   k:
     - Gergő
     - Morvay
@@ -1736,6 +1764,7 @@
 "https://kereses.blog.hu/2015/03/04/igy_hivatkoznak_egymasra_a_magyar_politikai_blogok_es_hiroldalak":
   t:
     - Vizualizáció és hálózatelemzés
+    - Nyelvtechnológia
   k:
     - hivatkozik
     - politikai
@@ -1764,6 +1793,7 @@
 "https://kereses.blog.hu/2015/03/18/european_commission_study_of_big_data_and_other_data-driven_approaches_for_policy-making_data4policy":
   t:
     - Adatújságírás és nyílt adat
+    - Digitális bölcsészet
     - Startup és termékfejlesztés
   k:
     - Commission
@@ -1775,7 +1805,7 @@
   t:
     - Mesterséges intelligencia
     - Megismerés és idegtudomány
-    - Tudományfilozófia
+    - Logika és matematika
   k:
     - android
 "https://kereses.blog.hu/2015/03/31/romaellenes_gyuloletbeszed_kepekben":
@@ -1787,12 +1817,11 @@
 "https://kereses.blog.hu/2015/04/07/hogy_kozoskodnek_a_politikai_blogok_es_hiroldalak":
   t:
     - Vizualizáció és hálózatelemzés
+    - Nyelvtechnológia
   k:
     - híroldal
     - politikai
 "https://kereses.blog.hu/2015/04/13/digiwhist_korrupcio_ellen":
-  t:
-    - Digitális bölcsészet
   k:
     - DIGIWHIST
     - program
@@ -1869,6 +1898,8 @@
 "https://kereses.blog.hu/2015/05/15/kisvilagunk_a_nyelv":
   t:
     - Nyelvelmélet
+    - Tudományfilozófia
+    - Korpusznyelvészet
   k:
     - kisvilág
     - nyelv
@@ -1890,7 +1921,6 @@
 "https://kereses.blog.hu/2015/05/28/orban_viktor_orszagertekelo_beszedei_kepekben":
   t:
     - Vizualizáció és hálózatelemzés
-    - Nyelvtechnológia
   k:
     - országértékelő
     - Viktor
@@ -1902,9 +1932,9 @@
     - magyar
 "https://kereses.blog.hu/2015/06/01/halozattudomany_es_nyelv_magyar_konyvek":
   t:
-    - Statisztika és valószínűség
     - Logika és matematika
-    - Digitális bölcsészet
+    - Statisztika és valószínűség
+    - A szakma
   k:
     - magyar
     - nyelv
@@ -1915,8 +1945,8 @@
     - Vizualizáció és hálózatelemzés
 "https://kereses.blog.hu/2015/06/08/bababeszed_es_grafok_698":
   t:
-    - Nyelvelmélet
     - Vizualizáció és hálózatelemzés
+    - Nyelvelmélet
     - Nyelvtechnológia
   k:
     - gráf
@@ -1931,6 +1961,8 @@
     - idő
 "https://kereses.blog.hu/2015/07/06/hogyan_befolyasolja_a_gondolkodasunkat_a_mindennapi_szamitogep-hasznalat":
 "https://kereses.blog.hu/2015/07/09/alternativ_megoldasok_a_potyogesre_mobilon":
+  t:
+    - Nyelvtechnológia
   k:
     - ujj
     - gyors
@@ -1950,7 +1982,6 @@
 "https://kereses.blog.hu/2015/08/13/automatikus_szovegelemzo_api_vegre_magyar_nyelven_is":
   t:
     - Nyelvtechnológia
-    - A szakma
   k:
     - szövegelemző
     - Neticle
@@ -1961,7 +1992,6 @@
   t:
     - Nyelvelmélet
     - Vizualizáció és hálózatelemzés
-    - A szakma
   k:
     - kisvilág
     - hálózat
@@ -1982,9 +2012,9 @@
     - gondolatolvasás
 "https://kereses.blog.hu/2015/09/17/szuletett_kiborgok_vagyunk":
   t:
-    - Nyelvelmélet
     - Tudományfilozófia
     - Megismerés és idegtudomány
+    - Mesterséges intelligencia
   k:
     - kiborgo
     - születik
@@ -2012,8 +2042,6 @@
 "https://kereses.blog.hu/2015/10/13/okt_21_open_knowledge_meetup_es_muhelykonferencia_az_e-kereskedelmrol":
   t:
     - Mesterséges intelligencia
-    - Startup és termékfejlesztés
-    - Digitális bölcsészet
   k:
     - műhelykonferencia
 "https://kereses.blog.hu/2015/10/14/nov_17-en_context_2015_magyar_szoveganalitikai_konferencia":
@@ -2099,9 +2127,9 @@
     - elemzés
 "https://kereses.blog.hu/2016/06/07/ezt_olvasd_ha_a_gepi_tanulasba_vagnad_a_fejszedet":
   t:
-    - Mesterséges intelligencia
     - A szakma
-    - Statisztika és valószínűség
+    - Digitális bölcsészet
+    - Mesterséges intelligencia
   k:
     - tanulás
     - gépi
@@ -2162,8 +2190,8 @@
     - online
 "https://kereses.blog.hu/2017/04/19/barangolasok_a_szemantikai_terben":
   t:
-    - Vizualizáció és hálózatelemzés
     - Nyelvelmélet
+    - Vizualizáció és hálózatelemzés
     - Korpusznyelvészet
   k:
     - szemantikai
@@ -2186,15 +2214,14 @@
 "https://kereses.blog.hu/2017/04/26/babak_a_hangok_vilagaban":
   t:
     - Korpusznyelvészet
-    - Digitális bölcsészet
   k:
     - szerző
     - világ
     - könyv
 "https://kereses.blog.hu/2017/05/02/mirol_beszelt_orban_viktor":
   t:
-    - Korpusznyelvészet
     - Nyelvelmélet
+    - Korpusznyelvészet
     - Vizualizáció és hálózatelemzés
   k:
     - használat
@@ -2226,12 +2253,10 @@
 "https://kereses.blog.hu/2017/05/30/a_topik_modellek_es_word2vec":
   t:
     - Korpusznyelvészet
-    - Nyelvtechnológia
   k:
     - lda2vec
 "https://kereses.blog.hu/2017/05/31/latens_jelentesek_es_a_szemantikai_ter_workshop":
   t:
-    - Digitális bölcsészet
     - Nyelvmodellek
   k:
     - látens
@@ -2249,7 +2274,6 @@
   t:
     - Vizualizáció és hálózatelemzés
     - Nyelvtechnológia
-    - A szakma
   k:
     - ingatlanhirdetés
     - szöveg
@@ -2278,7 +2302,6 @@
 "https://kereses.blog.hu/2017/09/01/az_elmeleti_minimum":
   t:
     - Logika és matematika
-    - Statisztika és valószínűség
   k:
     - Kline
     - matematika
@@ -2305,6 +2328,7 @@
   t:
     - Tudományfilozófia
     - Nyelvtechnológia
+    - Startup és termékfejlesztés
   k:
     - garbage
     - adat
@@ -2333,8 +2357,8 @@
     - topik
 "https://kereses.blog.hu/2017/11/10/big_data_konferencia_pecs_2017_11":
   t:
-    - A szakma
     - Korpusznyelvészet
+    - A szakma
   k:
     - Pécs
     - konferencia
@@ -2342,7 +2366,6 @@
   t:
     - Vizualizáció és hálózatelemzés
     - Nyelvtechnológia
-    - A szakma
   k:
     - szóbeágyazási
     - modell
@@ -2350,7 +2373,6 @@
   t:
     - Megismerés és idegtudomány
     - Mesterséges intelligencia
-    - Startup és termékfejlesztés
   k:
     - Entrepreneur
     - DNA
@@ -2358,8 +2380,8 @@
     - gépi
 "https://kereses.blog.hu/2018/02/13/konyvajanlo_weapons_of_math_destruction_how_big_data_increases_inequality_and_threatens_democracy":
   t:
-    - Tudományfilozófia
     - Logika és matematika
+    - Tudományfilozófia
     - Mesterséges intelligencia
 "https://kereses.blog.hu/2018/02/19/konyvajanlo_machines_of_loving_grace_the_quest_for_common_ground_between_human_and_robots":
   t:
@@ -2457,15 +2479,14 @@
 "https://www.nyest.hu/hirek/a-szavak-titkos-elete":
   t:
     - Korpusznyelvészet
-    - A szakma
     - Vizualizáció és hálózatelemzés
   k:
     - szó
 "https://www.nyest.hu/hirek/adatok-filozofia-nyelveszet":
   t:
     - Adatújságírás és nyílt adat
+    - Digitális bölcsészet
     - Tudományfilozófia
-    - Statisztika és valószínűség
   k:
     - adat
 "https://www.nyest.hu/hirek/apanak-munkaja-van-anyanak-teste":
@@ -2482,9 +2503,8 @@
     - Logika és matematika
 "https://www.nyest.hu/hirek/hogyan-lehet-szamitogepes-nyelvesz":
   t:
-    - Statisztika és valószínűség
     - A szakma
-    - Korpusznyelvészet
+    - Statisztika és valószínűség
   k:
     - számítógépes
 "https://www.nyest.hu/hirek/hogyan-tanuljon-a-mesterseges-intelligencia":
@@ -2500,9 +2520,9 @@
     - online
 "https://www.nyest.hu/hirek/moralis-gepek":
   t:
+    - Logika és matematika
     - Mesterséges intelligencia
     - Tudományfilozófia
-    - Logika és matematika
 "https://www.nyest.hu/hirek/par-dolog-amit-tudnod-kell-mielott-elveszik-a-gepek-a-munkadat":
   t:
     - Mesterséges intelligencia
@@ -2515,13 +2535,13 @@
   t:
     - A szakma
     - Programozás és szoftverfejlesztés
-    - Digitális bölcsészet
+    - Statisztika és valószínűség
   k:
     - Computing
     - Clojure
 "https://www.researchgate.net/publication/361286170_Examination_of_online_education_experiences_from_stakeholder_perspective_-_a_Hungarian_case_study":
   t:
-    - Digitális bölcsészet
+    - Startup és termékfejlesztés
   k:
     - online
 "https://www.slideshare.net/slideshow/budapest-users-of-r-network-2013-november-27/28688245":

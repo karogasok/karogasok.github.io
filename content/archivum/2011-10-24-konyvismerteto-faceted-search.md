@@ -17,6 +17,8 @@ regi_cimkek_mind:
   - "information retrieval"
   - "keresés"
   - "könyvismertető"
+temak:
+  - Nyelvtechnológia
 kulcsszavak:
   - Tunkelang
   - facettás

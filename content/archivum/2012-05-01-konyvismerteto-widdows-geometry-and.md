@@ -21,8 +21,8 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - Logika és matematika
+  - A szakma
   - Statisztika és valószínűség
-  - Korpusznyelvészet
 kulcsszavak:
   - Widdows
   - Dominic

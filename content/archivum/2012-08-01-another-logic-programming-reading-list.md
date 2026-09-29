@@ -17,8 +17,8 @@ regi_cimkek_mind:
   - "datalog"
   - "prolog"
 temak:
-  - A szakma
   - Logika és matematika
+  - A szakma
   - Statisztika és valószínűség
 kulcsszavak:
   - Blackburn

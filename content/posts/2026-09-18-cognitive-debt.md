@@ -9,8 +9,8 @@ forras_cim: "From Technical Debt to Cognitive and Intent Debt: Rethinking Softwa
 tags: ["Fejlesztés"]
 draft: false
 temak:
-  - Programozás és szoftverfejlesztés
   - Startup és termékfejlesztés
+  - Programozás és szoftverfejlesztés
 kulcsszavak:
   - coding
   - tartozás

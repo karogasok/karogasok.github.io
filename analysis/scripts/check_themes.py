@@ -42,7 +42,11 @@ def published_names() -> set[str]:
 
 
 def usable_pages() -> dict[str, int]:
-    """The author's own pages that may seed a theme, with their word counts."""
+    """The author's own pages that may seed a theme, with their word counts.
+
+    Guest posts are excluded: a page opening with a guest byline is not the
+    author's writing (see :func:`karogasok_temak.themes.has_guest_byline`).
+    """
     today = dt.date.today()
     out: dict[str, int] = {}
     for doc in load_corpus():
@@ -50,7 +54,7 @@ def usable_pages() -> dict[str, int]:
             continue
         if doc.year and doc.year > today.year:
             continue
-        if doc.word_count >= MIN_FIT_WORDS:
+        if doc.word_count >= MIN_FIT_WORDS and not themes.has_guest_byline(doc.text):
             out[doc.doc_id] = doc.word_count
     return out
 

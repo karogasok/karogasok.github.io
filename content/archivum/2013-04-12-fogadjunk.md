@@ -17,7 +17,7 @@ regi_cimkek_mind:
 temak:
   - Logika és matematika
   - Tudományfilozófia
-  - Nyelvelmélet
+  - Mesterséges intelligencia
 kulcsszavak:
   - à
   - est

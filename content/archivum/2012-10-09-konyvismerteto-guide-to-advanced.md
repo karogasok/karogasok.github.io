@@ -19,6 +19,7 @@ regi_cimkek_mind:
 temak:
   - Programozás és szoftverfejlesztés
   - Megismerés és idegtudomány
+  - Startup és termékfejlesztés
 kulcsszavak:
   - empirical
   - advanc

@@ -19,8 +19,6 @@ regi_cimkek_mind:
   - "társadalomtudományok"
 temak:
   - Digitális bölcsészet
-  - Tudományfilozófia
-  - Adatújságírás és nyílt adat
 kulcsszavak:
   - Horowitz
   - Mayer

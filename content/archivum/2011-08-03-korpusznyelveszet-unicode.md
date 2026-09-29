@@ -18,7 +18,6 @@ regi_cimkek_mind:
   - "unicode"
 temak:
   - Korpusznyelvészet
-  - Nyelvtechnológia
 kulcsszavak:
   - karakter
   - szabvány

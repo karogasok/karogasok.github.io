@@ -31,8 +31,8 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
   - "szöveg vizualizáció"
 temak:
-  - Tudományfilozófia
   - Nyelvtechnológia
+  - Tudományfilozófia
 kulcsszavak:
   - bag
   - vizsla

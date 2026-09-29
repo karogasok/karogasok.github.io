@@ -5,19 +5,22 @@ else — and nothing more: the centring, the thresholds, δ and the seed-count
 curve were tuned on the whole list and stay frozen. So adding a theme moves only
 the writings that now fit it better; every other placement stays where it was.
 
-This is deliberately narrow. It refuses if an existing theme's seeds changed
-(its vector would move, and with it every writing near it) or if a theme was
-removed: those need the full ``place.py`` → ``freeze.py`` run. The gate result
+This is deliberately narrow. It refuses if a theme was removed, and — unless
+``--reseed`` is given — if an existing theme's seeds changed, because its vector
+would move and with it every writing near it. ``--reseed`` is for replacing a
+seed that should never have been one (a guest post, say) with another of the
+author's writings: the vector moves, the thresholds do not. The gate result
 was measured on the list as it was frozen; each extension is recorded in the
 calibration file under ``changes_after_gate``, so nobody mistakes the gate's
 numbers for a measurement of the extended list.
 
 Usage:
-    uv run python scripts/extend_themes.py
+    uv run python scripts/extend_themes.py [--reseed]
 """
 
 from __future__ import annotations
 
+import argparse
 import datetime as dt
 import hashlib
 import json
@@ -43,7 +46,14 @@ TOLERANCE = 1e-4
 
 
 def main() -> int:
-    """Append vectors for the new themes; refuse anything else."""
+    """Append vectors for new themes, and with --reseed recompute changed ones."""
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--reseed",
+        action="store_true",
+        help="allow existing themes whose seeds changed to get new vectors",
+    )
+    args = parser.parse_args()
     record = json.loads(FROZEN.read_text(encoding="utf-8"))
     active = [t for t in theme_list.load(THEMES) if t.allapot == "aktiv"]
     frozen_keys = list(record["theme_keys"])
@@ -55,9 +65,6 @@ def main() -> int:
         )
         return 1
     new = [t for t in active if t.kulcs not in frozen_keys]
-    if not new:
-        print("  no new theme — nothing to extend.")
-        return 0
 
     spec = EncoderSpec(**record["encoder"])
     mean = np.array(record["mean"])
@@ -68,14 +75,21 @@ def main() -> int:
     vectors = theme_vectors(centred, [t.magok for t in active])
 
     frozen = np.array(record["vectors"])
+    reseeded: dict[str, float] = {}
     for i, key in enumerate(frozen_keys):
         drift = float(np.abs(vectors[keys.index(key)] - frozen[i]).max())
-        if drift > TOLERANCE:
+        if drift > TOLERANCE and args.reseed:
+            reseeded[key] = round(float(vectors[keys.index(key)] @ frozen[i]), 4)
+        elif drift > TOLERANCE:
             print(
                 f"  {key}: seeds changed (vector drift {drift:.2e}) — "
                 "run place.py + freeze.py"
             )
             return 1
+
+    if not new and not reseeded:
+        print("  no new or re-seeded theme — nothing to do.")
+        return 0
 
     order = frozen_keys + [t.kulcs for t in new]
     record["theme_keys"] = order
@@ -90,16 +104,27 @@ def main() -> int:
         {
             "date": dt.date.today().isoformat(),
             "added": [t.kulcs for t in new],
+            "reseeded": {
+                k: {
+                    "seeds": list(next(t for t in active if t.kulcs == k).magok),
+                    "cosine_to_previous_vector": c,
+                }
+                for k, c in reseeded.items()
+            },
             "seeds": {t.kulcs: list(t.magok) for t in new},
-            "note": "Theme vectors appended; centring, thresholds, delta and the "
-            "seed-count curve unchanged. The gate result was measured on the "
-            "list before this change.",
+            "note": "Theme vectors appended or recomputed from their seeds; "
+            "centring, thresholds, delta and the seed-count curve unchanged. The "
+            "gate result was measured on the list before this change.",
         }
     )
     FROZEN.write_text(
         json.dumps(record, ensure_ascii=False, indent=1), encoding="utf-8"
     )
-    print(f"  added {', '.join(t.kulcs for t in new)}; {len(order)} themes frozen")
+    for key, c in reseeded.items():
+        print(f"  re-seeded {key}: cosine to its previous vector {c:.3f}")
+    if new:
+        print(f"  added {', '.join(t.kulcs for t in new)}")
+    print(f"  {len(order)} themes frozen")
     return 0
 
 

@@ -19,8 +19,8 @@ regi_cimkek_mind:
   - "statisztika"
   - "valószínűségszámítás"
 temak:
-  - Logika és matematika
   - Statisztika és valószínűség
+  - Logika és matematika
 kulcsszavak:
   - valószínűségszámítás
   - szemléletes

@@ -19,8 +19,8 @@ regi_cimkek_mind:
   - "statisztika"
   - "számítógépes nyelvészet"
 temak:
-  - Nyelvelmélet
   - Tudományfilozófia
+  - Nyelvelmélet
 kulcsszavak:
   - purely
   - dance

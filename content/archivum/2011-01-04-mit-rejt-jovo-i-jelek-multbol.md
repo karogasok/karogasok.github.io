@@ -10,8 +10,8 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/mit-rejt-jovo-i-jelek-multbol.html"
 temak:
   - Adatújságírás és nyílt adat
-  - Mesterséges intelligencia
   - Digitális bölcsészet
+  - Mesterséges intelligencia
 kulcsszavak:
   - szemiotikus
   - ígéret

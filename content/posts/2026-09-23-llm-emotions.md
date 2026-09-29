@@ -10,7 +10,6 @@ tags: ["idegtudomány", "kognitív tudomány", "AI"]
 draft: false
 temak:
   - Nyelvmodellek
-  - Nyelvelmélet
 kulcsszavak:
   - érzelem
   - LLM

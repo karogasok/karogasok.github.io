@@ -18,7 +18,6 @@ regi_cimkek_mind:
   - "statisztika"
 temak:
   - Nyelvtechnológia
-  - Vizualizáció és hálózatelemzés
 kulcsszavak:
   - gnuplot
   - webkorpusz

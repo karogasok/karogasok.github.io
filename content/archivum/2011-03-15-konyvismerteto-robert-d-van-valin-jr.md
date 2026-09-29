@@ -20,7 +20,7 @@ regi_cimkek_mind:
 temak:
   - Statisztika és valószínűség
   - Korpusznyelvészet
-  - Nyelvelmélet
+  - Logika és matematika
 kulcsszavak:
   - Vali
   - szintaxis

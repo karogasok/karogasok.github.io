@@ -18,6 +18,7 @@ regi_cimkek_mind:
   - "tanulás"
 temak:
   - Statisztika és valószínűség
+  - Logika és matematika
   - Korpusznyelvészet
 kulcsszavak:
   - Akmajian

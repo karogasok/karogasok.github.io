@@ -19,7 +19,6 @@ regi_cimkek_mind:
   - "software engineering"
 temak:
   - Programozás és szoftverfejlesztés
-  - A szakma
 kulcsszavak:
   - Proofs
   - Scientific

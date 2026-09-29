@@ -4,6 +4,7 @@
 # writings — and every other writing is placed by similarity to them.
 # The URL is /tema/<urlize(nev)>/, so renaming a theme moves it: put the old
 # name in korabbi_nevek and it redirects. A retired theme needs atiranyitas.
+# Seeds are the author's own writing — never a guest post.
 # The 2026 posts are deliberately NOT seeds: they are what the placement is
 # tested on, and a seed would carry its theme by fiat.
 # Validate with: uv run python scripts/check_themes.py
@@ -28,9 +29,9 @@ temak:
     leiras: "Nyelvelemző programok és alkalmazások: értelmezők, szófajelemzők, helyesírás-ellenőrzők, keresés."
     allapot: aktiv
     magok:
-      - content/archivum/2011-08-10-nyelvi-ertelmezo-hazilag.md
+      - content/archivum/2010-07-04-szogyakorisag.md
       - content/archivum/2011-03-25-csinald-magad-helyesiras-ellenorzo.md
-      - content/archivum/2011-04-05-hogyan-kezdtem-szofajelemzot-irni.md
+      - content/archivum/2011-08-30-kozossegi-tageles-nyelvesz-szemmel.md
       - content/archivum/2011-04-18-termeszetes-nyelvi-kereses-1.md
       - content/archivum/2012-10-19-megujult-google-ngram-viewer.md
     korabbi_nevek:
@@ -72,7 +73,7 @@ temak:
     allapot: aktiv
     magok:
       - content/archivum/2010-05-04-logika-mindenkinek-i-bevezetes.md
-      - content/archivum/2010-09-28-konyvajanlo-logika-es-tudomanyelmelet.md
+      - content/archivum/2010-05-09-logika-mindenkinek-ii-automatak.md
       - content/archivum/2012-11-07-konyvismerteto-godel-proof.md
       - content/archivum/2021-06-03-mikepp-valt-tudomannya-a-matematika-szabo-arpad-es-a-gorog-matematika.md
       - content/archivum/2021-05-19-eszpresszo-arkhimedesszel-matematikafilozofia-mindenkinek.md
@@ -95,11 +96,11 @@ temak:
     leiras: "Nyelvészeti elméletek és paradigmák, a generatív grammatikától a nyelvi relativizmusig."
     allapot: aktiv
     magok:
-      - content/archivum/2012-03-19-nyelv-es-gondolkodas-paradigmak-atfedo.md
+      - content/archivum/2010-06-07-van-e-szamitogepes-nyelveszeti.md
       - content/archivum/2011-01-15-nyelvi-relativizmus-avagy-hatassal-van-2.md
       - content/archivum/2011-03-08-kell-e-nekunk-paradigma.md
       - content/archivum/2012-09-06-a-hauser-affer.md
-      - content/archivum/2010-07-19-scientific-approaches-in-syntax.md
+      - content/archivum/2011-03-09-ismet-paradigmakrol.md
       - content/archivum/2010-06-22-minimalista-program-i-elvek-parameterek.md
     korabbi_nevek:
       - "Paradigmák és nyelvelméletek"
@@ -114,7 +115,7 @@ temak:
       - content/archivum/2011-01-17-life-of-computational-linguits-v.md
       - content/archivum/2010-11-02-on-computational-corpus-linguistics.md
       - content/archivum/2010-05-12-minek-nevezzelek-szamitogepes.md
-      - content/archivum/2011-08-07-konyvismerteto-szamitogeppel-emberi.md
+      - content/archivum/2011-05-03-legyel-te-is-szamitogepes-nyelvesz-tiz.md
     eredet: {bertopic: [8]}
 
   - kulcs: adatujsagiras
@@ -149,7 +150,7 @@ temak:
     allapot: aktiv
     magok:
       - content/archivum/2011-11-03-konyvismerteto-lean-startup.md
-      - content/archivum/2011-07-19-lean-startup-es-ugyfelfejlesztes-2.md
+      - content/archivum/2011-09-10-konyvismerteto-lean-innovation.md
       - content/archivum/2011-07-17-leasn-startup-es-customer-development.md
       - content/archivum/2010-11-19-kitchen-budapes-technologiai-es-uj.md
     eredet: {bertopic: [18]}
@@ -195,7 +196,7 @@ temak:
     allapot: aktiv
     magok:
       - content/archivum/2010-11-30-mire-jo-digitalis-bolcseszet.md
-      - content/archivum/2011-08-02-digitalis-bolcseszet-uj-blog-indult.md
+      - content/archivum/2013-01-19-bolcseszek-kulcs-sikerhez.md
       - content/archivum/2012-12-10-konyvismerteto-digitalhumanities.md
     eredet: {discover: 2026-09-28}
 

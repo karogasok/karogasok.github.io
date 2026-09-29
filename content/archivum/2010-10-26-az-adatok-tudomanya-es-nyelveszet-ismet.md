@@ -19,7 +19,7 @@ regi_cimkek_mind:
 temak:
   - Adatújságírás és nyílt adat
   - Korpusznyelvészet
-  - Statisztika és valószínűség
+  - Digitális bölcsészet
 kulcsszavak:
   - Bender
   - eszköztár

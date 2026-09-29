@@ -21,7 +21,6 @@ regi_cimkek_mind:
 temak:
   - Nyelvelmélet
   - Korpusznyelvészet
-  - A szakma
 kulcsszavak:
   - keretes
   - figyelő

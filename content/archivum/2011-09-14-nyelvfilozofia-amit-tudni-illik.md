@@ -19,9 +19,9 @@ regi_cimkek_mind:
   - "szemantika"
   - "tudományfilozófia"
 temak:
-  - Nyelvelmélet
   - Logika és matematika
   - Tudományfilozófia
+  - Nyelvelmélet
 kulcsszavak:
   - pdf
   - Tarski

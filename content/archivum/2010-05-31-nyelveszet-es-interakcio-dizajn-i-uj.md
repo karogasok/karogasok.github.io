@@ -24,6 +24,7 @@ regi_cimkek_mind:
   - "számítógépes nyelvészet"
 temak:
   - A szakma
+  - Nyelvelmélet
 kulcsszavak:
   - konzol
   - Gates

@@ -10,6 +10,7 @@ forras_cim: "Számítógépes Nyelvészet"
 canonical: "https://szamitogepesnyelveszet.blogspot.com/2011/01/mit-rejt-jovo-ii-rovid-es-kozep-tavon.html"
 temak:
   - Adatújságírás és nyílt adat
+  - Nyelvtechnológia
 kulcsszavak:
   - képviseleti
   - diagrammatikus
