@@ -2,12 +2,19 @@
 {{- /* A post gets its own card if one has been generated for it; everything
        else falls back to the site card. Deliberately not the archive: those
        point their canonical at another blog, so branding them with this site's
-       card would be claiming somebody else's writing. */ -}}
-{{- $ogImage := .Params.ogImage | default site.Params.ogImage -}}
+       card would be claiming somebody else's writing.
+
+       A page's own `ogImage` wins over both — a post whose picture says more
+       than its headline sets it, with `ogImageAlt` for the description. It
+       must be 1200×630, the size declared below. */ -}}
+{{- $ogImage := site.Params.ogImage -}}
+{{- $ogAlt := site.Title -}}
 {{- if eq .Section "posts" -}}
   {{- $card := printf "assets/og/%s.png" .File.ContentBaseName -}}
-  {{- if fileExists (printf "static/%s" $card) }}{{ $ogImage = "/" }}{{ $ogImage = printf "/%s" $card }}{{ end -}}
+  {{- if fileExists (printf "static/%s" $card) }}{{ $ogImage = printf "/%s" $card }}{{ end -}}
 {{- end -}}
+{{- with .Params.ogImage }}{{ $ogImage = . }}{{ end -}}
+{{- with .Params.ogImageAlt }}{{ $ogAlt = . }}{{ end -}}
 {{- $ogImage = $ogImage | absURL -}}
 <head>
   <meta charset="utf-8" />
@@ -39,7 +46,7 @@
   <meta property="og:image" content="{{ $ogImage }}" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="{{ site.Title }}" />
+  <meta property="og:image:alt" content="{{ $ogAlt }}" />
   {{- with .Date }}{{ if $.IsPage }}
   <meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}" />
   {{- end }}{{ end }}
@@ -49,7 +56,7 @@
   <meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}" />
   <meta name="twitter:description" content="{{ $desc }}" />
   <meta name="twitter:image" content="{{ $ogImage }}" />
-  <meta name="twitter:image:alt" content="{{ site.Title }}" />
+  <meta name="twitter:image:alt" content="{{ $ogAlt }}" />
 
   {{- /* A drawn mark, not a stock bird. Two strokes of a crow's foot — the tally
          mark a reader leaves in a margin, which is what this site is. */}}

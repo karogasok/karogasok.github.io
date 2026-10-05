@@ -21,23 +21,27 @@ fail=0
 # one burst — once, and irreversibly.
 [ -f "$feed" ] || { echo "check_build: $feed not found" >&2; exit 1; }
 items=$(grep -c '<item>' "$feed" || true)
-archive_in_feed=$(grep -c '/archivum/' "$feed" || true)
+# What must stay out is archive *items*, so look at what identifies an item —
+# its <link> and <guid> — not at the whole file: a post may perfectly well link
+# to an archive page in its text, and the feed carries that text.
+item_ids=$( { grep -oE '<(link|guid)[^>]*>[^<]*</(link|guid)>' "$feed" || true; } )
+archive_in_feed=$(printf '%s\n' "$item_ids" | grep -c '/archivum/' || true)
 posts=$(find "$root/content/posts" -name '*.md' ! -name '_index.md' | wc -l)
 
 # The Kereső Világ entries are somebody else's writing, shown here as a lead and
 # a link. They must never be syndicated as though they were this site's posts.
-external_in_feed=$(grep -c 'kereses.blog.hu' "$feed" || true)
+external_in_feed=$(printf '%s\n' "$item_ids" | grep -c 'kereses.blog.hu' || true)
 
 if [ "$archive_in_feed" -ne 0 ]; then
-  echo "FAIL  feed: $archive_in_feed archive URLs in public/index.xml" >&2
+  echo "FAIL  feed: $archive_in_feed archive item(s) in public/index.xml" >&2
   echo "      layouts/index.rss.xml must filter to the posts section only." >&2
   fail=1
 elif [ "$external_in_feed" -ne 0 ]; then
-  echo "FAIL  feed: $external_in_feed kereses.blog.hu URLs in public/index.xml" >&2
+  echo "FAIL  feed: $external_in_feed kereses.blog.hu item(s) in public/index.xml" >&2
   echo "      Those posts are not ours to syndicate." >&2
   fail=1
 else
-  echo "OK    feed: $items items, no archive or external URLs (from $posts post files)"
+  echo "OK    feed: $items items, none from the archive or another blog (from $posts post files)"
 fi
 
 # Exactly two feeds, no more. The regi_cimke taxonomy was quietly publishing 94

@@ -89,6 +89,10 @@ def post_cards() -> int:
         if not m or not m.group(1).strip():
             continue
         title = m.group(1)
+        # A post with its own preview image does not get a card: the card
+        # would be dead weight, since the page's ogImage wins over it.
+        if re.search(r"^ogImage:", head[1], re.M):
+            continue
 
         img = Image.new("RGB", (1200, 630), PAPER)
         d = ImageDraw.Draw(img)

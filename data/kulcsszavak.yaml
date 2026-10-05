@@ -2434,6 +2434,9 @@ Szenes:
 Szókratész:
   slug: szokratesz
   darab: 1
+T:
+  slug: t
+  darab: 1
 THATCamp:
   slug: thatcamp
   darab: 1
@@ -3699,6 +3702,9 @@ dia:
 diagrammatikus:
   slug: diagrammatikus
   darab: 1
+diakrón:
+  slug: diakron
+  darab: 1
 difficult:
   slug: difficult
   darab: 1
@@ -3933,7 +3939,7 @@ előadás:
       link: "https://kereses.blog.hu/2012/10/19/sok_a_szoveg_magyarorszagi_web_konferencia"
 előadó:
   slug: eloado
-  darab: 1
+  darab: 2
   kulsok:
     - cim: NLP Meetup - új előadó
       ev: 2012
@@ -6760,6 +6766,9 @@ nyilvános:
       ev: 2011
       forras: kereses
       link: "https://kereses.blog.hu/2011/10/25/a_szavak_titkos_elete_747"
+nyolcvanas:
+  slug: nyolcvanas
+  darab: 1
 nyugati:
   slug: nyugati
   darab: 1
@@ -7446,6 +7455,9 @@ rendszer:
       link: "https://kereses.blog.hu/2015/11/05/tanc_es_mesterseges_intelligencia"
 rendszeres:
   slug: rendszeres
+  darab: 1
+rendszerváltás:
+  slug: rendszervaltas
   darab: 1
 repl:
   slug: repl
