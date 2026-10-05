@@ -28,8 +28,9 @@ le, amelyeket a hangolás nem látott: a Kereső Világ 182 bejegyzésén, a blo
 címkéikkel összevetve. Az egyezés (BCubed F) 0,26-ról 0,35-re javult; a javulás 95%-os
 konfidenciaintervalluma +0,03 és +0,12 közé esik. Ez messze nem tökéletes — a régi címkék
 sem következetesek —, de mérhetően jobb a korábbinál. A Digitális bölcsészet témát
-e mérés után vettem fel; a küszöbökhöz nem nyúltam, és a hangolási adatokon az
-egyezés nem változott tőle.
+e mérés után vettem fel, később pedig néhány téma magjai közül kivettem a
+vendégposztokat, saját írásokra cserélve őket. A küszöbökhöz egyik esetben sem
+nyúltam, és a hangolási adatokon az egyezés nem változott.
 
 ## Kulcsszavak
 
