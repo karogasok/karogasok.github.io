@@ -2336,6 +2336,9 @@ Simon:
 Simpson:
   slug: simpson
   darab: 1
+Singer:
+  slug: singer
+  darab: 1
 Slamby:
   slug: slamby
   darab: 1
@@ -3066,6 +3069,9 @@ alkalmazás:
       ev: 2015
       forras: kereses
       link: "https://kereses.blog.hu/2015/05/22/receptkereso_a_precognoxtol"
+altruizmus:
+  slug: altruizmus
+  darab: 1
 amazon:
   slug: amazon
   darab: 1
@@ -3807,6 +3813,9 @@ eBay:
   darab: 1
 edX:
   slug: edx
+  darab: 1
+effektív:
+  slug: effektiv
   darab: 1
 egyenlet:
   slug: egyenlet
@@ -5217,6 +5226,9 @@ kapcsolódó:
       ev: 2014
       forras: kereses
       link: "https://kereses.blog.hu/2014/09/26/meetup_slideok"
+kapitalizmus:
+  slug: kapitalizmus
+  darab: 1
 kaposvári:
   slug: kaposvari
   darab: 2
@@ -8534,6 +8546,9 @@ ujj:
       link: "https://kereses.blog.hu/2015/07/09/alternativ_megoldasok_a_potyogesre_mobilon"
 understanding:
   slug: understanding
+  darab: 1
+utilitarizmus:
+  slug: utilitarizmus
   darab: 1
 utólag:
   slug: utolag

@@ -1,0 +1,40 @@
+---
+title: "Effektív altruizmus - gazdag tech brók marxizmusa"
+slug: "effective-altruism"
+date: 2026-10-13T07:00:00+02:00
+publishDate: 2026-10-13T07:00:00+02:00
+author: "Varjú Zoltán"
+forras_url: "https://www.economist.com/leaders/2026/10/01/effective-altruism-is-this-centurys-biggest-idea"
+forras_cim: "Effective altruism is this century’s biggest idea"
+ogImage: "/img/effective-altruism/og.png"
+ogImageAlt: "A The Economist 2026. október 3–9-i számának címlapja: The Century's Biggest Idea – Effective altruism and the battle over AI"
+tags: ["filozófia", "etika", "Peter Singer", "effektív altruizmus"]
+draft: false
+temak:
+  - Startup és termékfejlesztés
+  - Mesterséges intelligencia
+  - Tudományfilozófia
+kulcsszavak:
+  - altruizmus
+  - effektív
+  - Singer
+  - kapitalizmus
+  - utilitarizmus
+---
+
+A The Economist az effektív altruizmust az évszázad legnagyobb ötletének tartja. Első ránézésre tényleg menő ötletnek tűnik - hatékonyan költsük a pénzünket, hogy a lehető legtöbb jót tegyük. Milyen jó is! De mit tekintünk hatékonynak? Elsőre legyen az emberek vagy az érző lények szenvedésének minimalizálása. Másodikra tegyük bele a jövő nemzedékeit is, úgy még jobb, hiszen klímatudatosak vagyunk, és a fenntarthatóság is fontos nekünk. De tényleg tud változtani a világon ez a szemlélet?
+
+{{< kep src="effective-altruism/1791378302351.jpeg"
+        alt="A The Economist 2026. október 3–9-i számának címlapja: The Century's Biggest Idea – Effective altruism and the battle over AI"
+        szerzo="The Economist"
+        forras="https://www.economist.com/leaders/2026/10/01/effective-altruism-is-this-centurys-biggest-idea" >}}
+
+A poszt írója bevallottan ambivalensen viszonyul az irányzathoz. [Peter Singer](https://en.wikipedia.org/wiki/Peter_Singer), az effektív altruizmus szellemi atyja, vitán felül korunk egyik legkiválóbb gondolkodója, a haszonelvű etika, vagyis az [utilitarizmus](https://hu.wikipedia.org/wiki/Haszonelv%C5%B1s%C3%A9g) legismertebb élő képviselője, aki szerint az a helyes cselekedet, amely a legtöbb jót eredményezi. A [magyarul is elérhető Animal Liberation](https://www.atlantiszkiado.hu/konyv/allatok-felszabaditasa-az/) megkerülhetetlen alapmű. Singer nem marad az elefántcsonttoronyban, az állatok érdekeinek egyenlő figyelembevétele mellett érvelve nagyon gyakorlati elveket fogalmaz meg, a mű korai kiadásaiban pl. vegetáriánus recepteket is közölt. És nagyon sokat tett azért, hogy a [millenniumi fejlesztési célok](https://en.wikipedia.org/wiki/Millennium_Development_Goals) szellemében a mélyszegénység és éhezés megszüntetése mellett érveljen és meggyőzzön fiatalokat és idősebbeket az adományozás fontosságáról. Ingyenesen is elérhető [The Life You Can Save](https://www.thelifeyoucansave.org/wp-content/uploads/2022/11/The_Life_You_Can_Save_eBook.pdf) című könyve amellett érvel, hogy erőforrásainkat hatékonyan kell felhasználni, így adományainkat is. Ebbe a hagyományba kapcsolódott be [William MacAskill](https://en.wikipedia.org/wiki/William_MacAskill), aki az effektív altruizmus egyik alapítója, a Giving What We Can, a Centre for Effective Altruism és a 80,000 Hours társalapítója. Nem mellesleg [Amanda Askell](https://en.wikipedia.org/wiki/Amanda_Askell) ex-férje. Askell szintén a mozgalom oszlopos tagja, dolgozott az OpenAI-nál, ma pedig az Anthropic személyiségért felelős alignment-csapatát vezeti.
+
+De miért lett ilyen népszerű az effektív altruizmus? Mindenki álma, egy szekuláris, könnyen érthető etikai elmélet - nem kell sokat bajlódni, sokat olvasni, vitatkozni. Minden etikai döntéshez lehet egy külső mércét (KPI!) rendelni. Ez egyrészt nagyon jól tud jönni, ha egy LLM-alapú csetbotot akarunk megtanítani az etikai normákra. Másrészt lehet amellett érvelni, hogy minden úgy jó, ahogy van, csak el kell tüntetni a szegénységet. Hogyan? A legegyszerűbb, ha abban a röpke 80 000 órában, amit munkával töltünk életünk során, maximalizáljuk a bevételünket, minimalizáljuk a kiadásainkat, a különbözetet pedig hatékonyan működő szervezeteknek adjuk, amik minden egyes forintért, euróért, dollárért a lehető legnagyobb szenvedéscsökkentést produkálják. És megszülettek az olyan kurzusok, mint pl. a Courserán is elérhető [Effective Altruism MOOC](https://www.coursera.org/learn/altruism) egyenesen Peter Singertől. Ebből megtudhatjuk, milyen karriert érdemes választani, ha a lehető legtöbb jót akarjuk elérni. Figyelem! Lehet, hogy jobb elmenni egy pénzügyi céghez, és jó magasra mászni a ranglétrán, mint szociális munkásként segíteni a környék időseit. Hogy miért? A hatékonyság miatt! Ha minden hónapban több ezer eurót tudunk átutalni egy Afrikában tevékenykedő szervezetnek, amely mondjuk ebből több száz gyereket tud beoltani, akkor sokkal több ember szenvedésén enyhítettünk. Ha viszont otthon foglalkozunk a kisvárosunk öregeivel, ami elvben nem skálázódik (egy szocmunkásnak jó, ha 50 kliense lehet), akkor pazaroljuk az erőforrásainkat.
+
+De az effektív altruizmus ennél is továbblépett. MacAskill [What We Owe the Future](https://whatweowethefuture.com/uk/) című könyve a hosszú távú gondolkodás jegyében már a jövő generációira gondol. Ebben pedig a biztonságos környezet megóvása kulcsfontosságú. No de milyen ez a környezet? Legfőbb jellemzője, hogy nem fenyeget minket ebben az AI és a technológia. Ezzel vált a mozgalom az egzisztenciális fenyegetettség (existential risk) első számú szószólójává. És egyre több támogatót tud maga mögött. Nemcsak a rossz emlékű Sam Bankman-Fried, de Dario és Daniela Amodei is az EA (az effektív altruizmus bevett rövidítése) közegéből érkeztek, sőt korábban Elon Musk is jelentős összeget, 10 millió dollárt adományozott az EA-hoz közel álló Future of Life Institute-nak.
+
+Az EA alapvetően azért tud népszerű lenni, mert nemcsak elmélet, hanem ténylegesen tesz is valamit. Amolyan marxizmus light. A tizenegyedik [Feuerbach-tézis](https://www.marxists.org/magyar/archive/marx/misc/misc/feuerbachrol.htm) is azt mondja: "A filozófusok a világot csak különbözőképpen értelmezték; a feladat az, hogy megváltoztassuk." Ugyanakkor azért is lehet népszerű a tech brók körében, mert azért annyira radikálisan nem akar változtatni. A kapitalizmus kereteit nem akarja megkérdőjelezni, az újraelosztási vitát zárójelbe téve, azt egy teljesen önkéntes adományozói döntéssé változtatja. Maga Singer is azt mondta egy nemrég [a The Guardiannek adott interjújában](https://www.theguardian.com/lifeandstyle/ng-interactive/2026/aug/15/peter-singer-capitalism-is-still-the-most-productive-economic-system-that-ever-existed), hogy a kapitalizmus még mindig a valaha létezett legtermelékenyebb gazdasági rendszer. A kapitalizmusban minden árucikké válhat, az EA pedig ezt a sort az etikával zárja: az etikus élet élménye is megvásárolható, egy kattintással. Nem kell foglalkozni a helyi ügyekkel, hiszen a környékünk hajléktalanjain segíteni drága. Egy hajléktalanszálló árából több ezer harmadik világbeli embernek lehet segíteni. Ebből a szempontból a fejlett világban kb. minden rendben van: dolgozzunk, termeljünk, és amennyit lehet, adományozzunk el hatékonyan, és mindenki jól jár a végén.
+
+Az utilitarizmus egy nagyon érdekes etikai irányzat, egyáltalán nem lebecsülendő. Semmi okunk kételkedni abban, hogy az EA követői őszinték. Viszont nem szabad elfelejtenünk, hogy pl. Rawls gondolatai a haszonelvűség kritikájából nőttek ki, majd Rawls kritikájára alapozva számos kortárs etikai és politikafilozófiai irányzat jelent meg. Ezek pedig visszatükröződnek az alignment-problémára, vagyis arra a kérdésre adott válaszkísérletekben, hogy hogyan hangoljuk össze a nyelvmodellek viselkedését az emberi értékekkel. Az emberi visszajelzésekből tanuló módszereket (RLHF), amelyek sok ember preferenciáit összesítik, tekinthetjük egyfajta naiv utilitarizmusnak, az Anthropic-féle alkotmányos megközelítést (Constitutional AI), amelyben a modell egy írott elvrendszerhez igazodik, pedig részben rawlsiánus, részben erényetikai megközelítésnek. A baj sokkal inkább az, hogy átláthatatlan módon döntenek arról a "frontier lab"-ek vezetői, hogy éppen milyen elméletekkel próbálkoznak, és itt is a pénz beszél.

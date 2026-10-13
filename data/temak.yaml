@@ -726,7 +726,7 @@
   nev: Tudományfilozófia
   slug: tudomanyfilozofia
   leiras: "Mitől tudomány a tudomány: elméletek, módszerek, és hogy mit mondanak az adatok."
-  darab: 84
+  darab: 85
   kulsok:
     - cim: "Könyvajánló: Machines of Loving Grace - The Quest for Common Ground Between Humans and Robots"
       ev: 2018
@@ -1568,7 +1568,7 @@
   nev: Mesterséges intelligencia
   slug: mesterseges-intelligencia
   leiras: "A mesterséges intelligencia mint technológia és közügy, a Watsontól a robotok koráig."
-  darab: 66
+  darab: 67
   kulsok:
     - cim: "Aki nem használja a ChatGPT-t és a mesterséges intelligenciát, az behozhatatlanul lemarad"
       ev: 2023
@@ -1724,7 +1724,7 @@
   nev: Startup és termékfejlesztés
   slug: startup-es-termekfejlesztes
   leiras: "A technológia üzleti oldala: lean startup, ügyfélfejlesztés, innováció."
-  darab: 39
+  darab: 40
   kulsok:
     - cim: Examination of online education experiences from stakeholder perspective – a Hungarian case study
       ev: 2022
