@@ -52,6 +52,11 @@ ha a szöveg változott**: a kulcsszavakhoz kell, hogy egy szótő legalább ké
 előforduljon, így egy félkész írás kevesebbet ad, mint a kész. Az emtsv-t
 elindítja, ha nem fut, és utána futni hagyja.
 
+Ha egy gépi kulcsszó semmitmondó, vétózd meg a bejegyzés front matterében:
+`kulcsszavak_kizarva: ["hihetetlen", "vélemény"]`, majd futtasd újra a
+`make postprocess`-t. A kizárt szó nem kerül vissza a későbbi futásoknál sem, és
+nem lép a helyére a következő jelölt: az írás kevesebb kulcsszót kap.
+
 **4. `make youtube`** csak akkor kell, ha `{{< youtube ID >}}` van a szövegben.
 
 **5. `make og`** minden bejegyzéshez legyárt egy OG-kártyát a

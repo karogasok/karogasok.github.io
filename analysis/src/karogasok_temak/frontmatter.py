@@ -96,6 +96,62 @@ def set_list_key(front: str, key: str, values: Sequence[str]) -> str:
     return "".join(f"{line}\n" for line in lines)
 
 
+def _unquote(value: str) -> str:
+    """Strip one pair of matching YAML quotes, undoing :func:`quote`."""
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] == '"':
+        return value[1:-1].replace('\\"', '"').replace("\\\\", "\\")
+    if len(value) >= 2 and value[0] == value[-1] == "'":
+        return value[1:-1].replace("''", "'")
+    return value
+
+
+def read_list_key(text: str, key: str) -> list[str]:
+    r"""Read a list key from a file's front matter, in the shapes this site writes.
+
+    Understands ``key:`` followed by ``  - value`` lines and the flow form
+    ``key: [a, "b"]``. The flow form is split on commas, so a value that itself
+    contains a comma must use the block form.
+
+    Args:
+        text: The complete file contents, front matter first.
+        key: The key to read.
+
+    Returns:
+        The values, unquoted, in file order. Empty if the key is absent, empty,
+        or the file has no front matter — a missing list is not an error here.
+
+    Example:
+        >>> src = '---\ntitle: A\nkizart:\n  - vélemény\n  - "x: y"\n---\nSzöveg.\n'
+        >>> read_list_key(src, "kizart")
+        ['vélemény', 'x: y']
+        >>> read_list_key('---\nkizart: [a, "b"]\n---\n', "kizart")
+        ['a', 'b']
+        >>> read_list_key('---\nkizart: []\n---\n', "kizart")
+        []
+        >>> read_list_key("Nincs front matter.", "kizart")
+        []
+    """
+    match = _FRONT_MATTER.match(text)
+    if match is None:
+        return []
+    values: list[str] = []
+    collecting = False
+    for line in match.group(2).splitlines():
+        if collecting:
+            if line.startswith((" ", "\t")) and line.strip().startswith("- "):
+                values.append(_unquote(line.strip()[2:]))
+                continue
+            break
+        if line.startswith(f"{key}:"):
+            rest = line[len(key) + 1 :].strip()
+            if rest.startswith("[") and rest.endswith("]"):
+                inner = rest[1:-1].strip()
+                return [_unquote(v) for v in inner.split(",")] if inner else []
+            collecting = True
+    return values
+
+
 def update_front_matter(text: str, updates: dict[str, Sequence[str]]) -> str:
     r"""Apply :func:`set_list_key` for several keys to a whole file.
 

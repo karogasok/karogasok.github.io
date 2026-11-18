@@ -20,7 +20,8 @@ then:
   registry ``check_build.sh`` uses to make sure no theme URL ever dies.
 
 Every writing carries the themes it was placed on (at most three, strongest
-first) and its strongest :data:`N_KEYWORDS` keywords.
+first) and its strongest :data:`N_KEYWORDS` keywords, minus any the page vetoes
+in its :data:`EXCLUDE_KEY` front-matter list. Vetoed keywords are not replaced.
 
 Usage:
     uv run python scripts/export_temak.py [--dry-run]
@@ -39,7 +40,7 @@ from pathlib import Path
 from karogasok_temak import themes as theme_list
 from karogasok_temak.assign import key_of
 from karogasok_temak.corpus import SITE, Document, load_corpus
-from karogasok_temak.frontmatter import quote, update_front_matter
+from karogasok_temak.frontmatter import quote, read_list_key, update_front_matter
 from karogasok_temak.themes import Theme
 
 HERE = Path(__file__).resolve().parents[1]
@@ -49,6 +50,11 @@ REGISTRY = SITE / "data" / "tema_slugok.yaml"
 #: Keywords written onto each item. Five is what fits a line of metadata under
 #: a title without the tags outweighing the thing they describe.
 N_KEYWORDS = 5
+
+#: Front-matter key listing keywords the author has vetoed on that one page.
+#: Matched accent- and case-insensitively. A vetoed keyword is dropped from the
+#: page's five without a replacement, so the page may carry fewer than five.
+EXCLUDE_KEY = "kulcsszavak_kizarva"
 
 #: Sources whose items are pages on this site; everything else is external.
 PAGE_SOURCES = frozenset({"archivum", "posts"})
@@ -425,13 +431,20 @@ def main() -> int:  # noqa: C901, PLR0912, PLR0915
             )
         )[:N_KEYWORDS]
 
+        text = ""
+        if document.source in PAGE_SOURCES:
+            path = SITE / document.doc_id
+            text = path.read_text(encoding="utf-8")
+            # Cut after the five are chosen, so a vetoed keyword leaves its
+            # place empty instead of promoting the next, usually weaker, one.
+            vetoed = {fold(v) for v in read_list_key(text, EXCLUDE_KEY)}
+            terms = [t for t in terms if fold(t) not in vetoed]
+
         theme_members.update(placed)
         keyword_members.update(terms)
 
         if document.source in PAGE_SOURCES:
             page_terms.update(terms)
-            path = SITE / document.doc_id
-            text = path.read_text(encoding="utf-8")
             # The taxonomy front-matter keys are the plural forms, `temak` and
             # `kulcsszavak`. The empty `tema` entry clears an earlier singular
             # key that produced a clean build with no term pages at all.

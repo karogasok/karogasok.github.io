@@ -6,7 +6,10 @@ publishDate: 2026-11-18T07:00:00+01:00
 author: "Varjú Zoltán"
 forras_url: "https://www.penguin.co.uk/books/460891/these-strange-new-minds-by-summerfield-christopher/9781405966160"
 forras_cim: "These Strange New Minds: How AI Learned to Talk and What It Means"
+ogImage: "/img/strange-new-minds/og.png"
+ogImageAlt: "Christopher Summerfield These Strange New Minds: How AI Learned to Talk and What It Means című könyvének borítója"
 tags: ["AI", "kognitív tudomány", "nyelvészet", "pszichológia"]
+kulcsszavak_kizarva: ["hihetetlen", "vélemény", "képesség"]
 draft: false
 temak:
   - Mesterséges intelligencia
@@ -15,9 +18,6 @@ temak:
 kulcsszavak:
   - Summerfield
   - nyelvmodell
-  - hihetetlen
-  - vélemény
-  - képesség
 ---
 
 Manapság már mindenki AI-szakértő, és mindenkinek van véleménye az AI képességeiről, gazdasági és társadalmi hatásairól stb. Bevallom, nekem már néha túl sok, leginkább azért, mert hihetetlen magabiztossággal mondanak emberek blődségeket. Pedig viszonylag egyszerű tájékozódni az alapokat illetően. Itt van pl. Christopher Summerfield könyve, amely nagyon olvasmányosan vezet be minket a modern mesterséges intelligencia megszületésének történetébe.

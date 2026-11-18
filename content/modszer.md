@@ -37,7 +37,8 @@ nyúltam, és a hangolási adatokon az egyezés nem változott.
 Minden írás mellett legfeljebb öt kulcsszó áll. Ezek azok a szavak, amelyeket az adott
 írás a többinél jóval gyakrabban használ. A szövegeket az emtsv bontja szótövekre, így a
 *metaforát*, a *metaforák* és a *metaforáról* egy szónak számít; a gyakoriságkülönbséget a
-keyflux méri. Egy szónak legalább kétszer kell szerepelnie az írásban.
+keyflux méri. Egy szónak legalább kétszer kell szerepelnie az írásban. A nyilvánvalóan
+semmitmondó gépi kulcsszavakat néha kézzel törlöm; ilyenkor nem kerül más a helyükre.
 
 ## Címkék
 

@@ -4629,7 +4629,7 @@ heti:
   darab: 1
 hihetetlen:
   slug: hihetetlen
-  darab: 2
+  darab: 1
 hipotézis:
   slug: hipotezis
   darab: 1
@@ -5589,9 +5589,6 @@ kép:
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/09/04/a_migracio_arcai_nyest_hu"
-képesség:
-  slug: kepesseg
-  darab: 1
 képregény:
   slug: kepregeny
   darab: 2
@@ -8722,9 +8719,6 @@ végez:
   darab: 1
 végre:
   slug: vegre
-  darab: 1
-vélemény:
-  slug: velemeny
   darab: 1
 véleményárfolyam:
   slug: velemenyarfolyam
