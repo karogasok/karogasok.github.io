@@ -2399,6 +2399,9 @@ Student:
 Studio:
   slug: studio
   darab: 1
+Summerfield:
+  slug: summerfield
+  darab: 1
 Summit:
   slug: summit
   darab: 1
@@ -4626,7 +4629,7 @@ heti:
   darab: 1
 hihetetlen:
   slug: hihetetlen
-  darab: 1
+  darab: 2
 hipotézis:
   slug: hipotezis
   darab: 1
@@ -5586,6 +5589,9 @@ kép:
       ev: 2017
       forras: kereses
       link: "https://kereses.blog.hu/2017/09/04/a_migracio_arcai_nyest_hu"
+képesség:
+  slug: kepesseg
+  darab: 1
 képregény:
   slug: kepregeny
   darab: 2
@@ -6714,7 +6720,7 @@ nyelvi:
       link: "https://kereses.blog.hu/2013/05/21/idibon_big_data_babel"
 nyelvmodell:
   slug: nyelvmodell
-  darab: 3
+  darab: 4
   kulsok:
     - cim: Mit tudnak a nyelvmodellek?
       ev: 2020
@@ -8716,6 +8722,9 @@ végez:
   darab: 1
 végre:
   slug: vegre
+  darab: 1
+vélemény:
+  slug: velemeny
   darab: 1
 véleményárfolyam:
   slug: velemenyarfolyam
